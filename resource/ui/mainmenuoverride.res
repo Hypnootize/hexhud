@@ -1,0 +1,5 @@
+#base	"../../customizations/#streamermode/mainmenuoverride.res"
+#base	"mainmenu_hex.res"
+#base 	"toolbar.res"
+#base 	"../../customizations/friends list.res"
+#base 	"../../resource/dev/preload.res"

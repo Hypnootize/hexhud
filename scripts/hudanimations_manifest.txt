@@ -1,0 +1,10 @@
+hudanimations_manifest
+{
+	"file" "scripts/hudanimations.txt"
+	"file" "scripts/animations/ammo.txt"
+	"file" "scripts/animations/health.txt"
+	"file" "scripts/animations/ubercharge.txt"
+	"file" "scripts/animations/misc.txt"
+	"file" "customizations/crosshairs and hitmarker animation.txt"
+	"file" "scripts/hudanimations_tf.txt"
+}

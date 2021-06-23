@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$baseTexture" 									"vgui\replay\thumbnails\main_menu\quit_gif"
+	"$vertexcolor"									"1"
+	"$vertexalpha" 									"1"
+	"$nolod" 										"1"
+	"$translucent" 									"1"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" 					"$basetexture"
+			"animatedtextureframenumvar" 			"$frame"
+			"animatedtextureframerate" 				"12"
+		}
+	}
+}

@@ -1,0 +1,1 @@
+#base "sniper_red.res"

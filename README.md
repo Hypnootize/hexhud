@@ -7,7 +7,7 @@
 
 [Screenshots](https://imgur.com/a/ENQcIqO)
 
-[Huds.tf]()
+[HUDS.TF]()
 
 [Gamebanana]()
 
