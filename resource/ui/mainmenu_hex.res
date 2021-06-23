@@ -1321,7 +1321,7 @@
 		"labelText"									"Q"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
-		"urlText"									""
+		"urlText"									"https://huds.tf/site/s-HExHUD--3435"
 		"FgColor_override" 							"Gray"
 
 		"pin_to_sibling" 							"HUDWiki"
@@ -1344,7 +1344,7 @@
 		"labelText"									"A"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
-		"urlText"									""
+		"urlText"									"https://gamebanana.com/mods/298232"
 		"FgColor_override" 							"Gray"
 
 		"pin_to_sibling" 							"HUDS.TF"
@@ -1367,7 +1367,7 @@
 		"labelText"									"O"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
-		"urlText"									""
+		"urlText"									"https://www.teamfortress.tv/59727/hexhud"
 		"FgColor_override" 							"Gray"
 
 		"pin_to_sibling" 							"GameBanana"
