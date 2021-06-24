@@ -1242,9 +1242,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Tahoma"
-				"tall"										"24"
-				"weight"									"500"
+				"name"										"Product Sans"
+				"tall"										"20"
+				"additive" 									"1"
+				"antialias" 								"1"
 				"range"										"0x0000 0x017F"
 			}
 		}
@@ -1252,9 +1253,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Tahoma"
-				"tall"										"24"
-				"weight"									"500"
+				"name"										"Product Sans"
+				"tall"										"20"
+				"additive" 									"1"
+				"antialias" 								"1"
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
 			}
@@ -1263,9 +1265,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Tahoma"
-				"tall"										"24"
-				"weight"									"900"
+				"name"										"Product Sans"
+				"tall"										"20"
+				"additive" 									"1"
+				"antialias" 								"1"
 				"range"										"0x0000 0x017F"
 			}
 		}
@@ -1273,9 +1276,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Tahoma"
-				"tall"										"24"
-				"weight"									"900"
+				"name"										"Product Sans"
+				"tall"										"20"
+				"additive" 									"1"
+				"antialias" 								"1"
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
 			}
@@ -1284,9 +1288,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Tahoma"
-				"tall"										"16"
-				"weight"									"900"
+				"name"										"Product Sans"
+				"tall"										"14"
+				"additive" 									"1"
+				"antialias" 								"1"
 				"range"										"0x0000 0x017F"
 			}
 		}
@@ -2026,6 +2031,7 @@ Scheme
 				"weight"									"400"
 				"additive"									"0"
 				"antialias" 								"1"
+				"dropshadow" 								"1"
 			}
 		}
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion

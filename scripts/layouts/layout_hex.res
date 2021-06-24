@@ -182,10 +182,17 @@
 	
 	HudCloseCaption
 	{
-		"xpos"										"c200"
-		"ypos"										"235"
+		"xpos"										"c210"
+		"xpos_minmode"								"c210"
+		"ypos"										"c95"
+		"ypos_minmode"								"c40"
+		"tall"										"50"
 
 		"BgAlpha"									"0"
+		"GrowTime"									"0"
+		"ItemHiddenTime"							"0"
+		"ItemFadeInTime"							"0"
+		"ItemFadeOutTime"							"0"
 	}
 	
 	HudVoiceStatus
