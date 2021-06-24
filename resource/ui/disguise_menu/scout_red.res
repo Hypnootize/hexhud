@@ -63,9 +63,10 @@
 		"AllCaps"									"0"
 		"labelText"									"#TF_Class_Name_Scout"
 		"textAlignment"								"west"
-		"textinsetx"								"15"
+		"textinsetx"								"8"
 		"dulltext"									"0"
 		"brighttext"								"0"
+		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 
 		"fgcolor"									"OffWhite"

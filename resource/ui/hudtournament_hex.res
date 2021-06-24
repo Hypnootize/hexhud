@@ -57,7 +57,6 @@
 				"textinsetx"						"1"
 				"labelText"							"%playername%"
 				"font"								"Light 6"
-				"textinsetx"						"1"
 				"textAlignment"						"west"
 				"bgcolor_override"					"Background"
 				"proportionaltoparent"				"1"
