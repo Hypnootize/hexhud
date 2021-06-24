@@ -65,7 +65,7 @@
 		"tabwidth"									"240"
 		"tabheight"									"20"
 		"transition_time" 							"0"
-		"yoffset"									"6"
+		"yoffset"									"10"
 		
 		"tabskv"
 		{
@@ -156,7 +156,7 @@
 	{
 		"ControlName"								"CheckButton"
 		"fieldName"									"SupportCommunityMapMakersCheckButton"
-		"xpos"										"r104"
+		"xpos"										"r108"
 		"ypos"										"rs1"
 		"zpos"										"5"
 		"wide"										"20"
@@ -167,7 +167,6 @@
 		"smallcheckimage"							"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"SupportCommunityMapMakersLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -194,7 +193,7 @@
 		"xpos"										"rs1-3"
 		"ypos"										"rs1-3"
 		"zpos"										"2"
-		"wide"										"100"
+		"wide"										"80"
 		"tall"										"19"
 		"autoResize"								"0"
 		"pinCorner"									"3"
@@ -203,8 +202,8 @@
 		"tabPosition"								"0"
 		"labelText"									"CHECKOUT"
 		"font"										"Light 14"
-		"textAlignment"								"west"
-		"textinsetx"								"65"
+		"textAlignment"								"center"
+		"textinsetx"								"0"
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"default"									"0"
