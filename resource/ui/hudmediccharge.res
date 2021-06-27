@@ -1,5 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
-{	
+{
 	"UberAnchor"									//Moves the uber as a whole
 	{
 		"ControlName"								"EditablePanel"
@@ -14,7 +14,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -35,7 +35,7 @@
 		"font_minmode"								"Ubercharge Minmode"
 		"fgcolor"									"Ubercharge"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling"							"UberAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
@@ -61,14 +61,14 @@
 		"font_minmode"								"Ubercharge Minmode"
 		"fgcolor"									"Ubercharge"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling"							"UberAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	
+
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
 		"font"										"Default"
@@ -85,10 +85,10 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
-	}		
+	}
 
 	"ChargeMeter1"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter1"
 		"font"										"Default"
@@ -108,7 +108,7 @@
 	}
 
 	"ChargeMeter2"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter2"
 		"font"										"Default"
@@ -124,14 +124,14 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		
+
 		"pin_to_sibling"							"ChargeMeter1"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"ChargeMeter3"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter3"
 		"font"										"Default"
@@ -147,14 +147,14 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		
+
 		"pin_to_sibling"							"ChargeMeter2"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"ChargeMeter4"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter4"
 		"font"										"Default"
@@ -170,30 +170,47 @@
 		"textAlignment"								"Left"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		
+
 		"pin_to_sibling"							"ChargeMeter3"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
+//	"ResistIconAnchor"
+//	{
+//		"ControlName"								"EditablePanel"
+//		"fieldName"									"ResistIconAnchor"
+//		"xpos"										"0"
+//		"xpos_minmode"								"-10"
+//		"ypos"										"18"
+//		"ypos_minmode"								"19"
+//		"wide"										"1"
+//		"tall"										"50"
+//		"visible"									"1"
+//		"enabled"									"1"
+//
+//		"pin_to_sibling"							"IndividualChargesLabel"
+//		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+//		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
+//	}
 	"ResistIconAnchor"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"0"
+		"xpos"										"c-8"
 		"xpos_minmode"								"-10"
-		"ypos"										"18"
+		"ypos"										"c+5"
 		"ypos_minmode"								"19"
 		"wide"										"1"
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		
-		"pin_to_sibling"							"IndividualChargesLabel"
-		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
+
+//		"pin_to_sibling"							"IndividualChargesLabel"
+//		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+//		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-	
+
 	"ResistIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -208,11 +225,11 @@
 		"enabled"									"1"
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling"							"ResistIconAnchor"
 	}
 
-	
+
 	//REMOVED
 	"Background"
 	{
