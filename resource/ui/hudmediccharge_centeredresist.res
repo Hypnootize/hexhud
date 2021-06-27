@@ -1,4 +1,4 @@
-"Resource/UI/HudMedicCharge.res"
+"Resource/UI/HudMedicCharge_centeredresist.res"
 {
 	"UberAnchor"									//Moves the uber as a whole
 	{
