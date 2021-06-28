@@ -176,33 +176,34 @@
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
+
 	"ResistIconAnchor"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"c-8"
+		"xpos"										"0"
 		"xpos_minmode"								"-10"
-		"ypos"										"c+5"
+		"ypos"										"18"
 		"ypos_minmode"								"19"
 		"wide"										"1"
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
 
-//		"pin_to_sibling"							"IndividualChargesLabel"
-//		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
-//		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"IndividualChargesLabel"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 
 	"ResistIcon"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ResistIcon"
-		"xpos"										"c"
-		"ypos"										"c"
+		"xpos"										"0"
+		"ypos"										"0"
 		"wide"										"18"
 		"wide_minmode"								"14"
-		"tall"										"18" //18
+		"tall"										"18"
 		"tall_minmode"								"14"
 		"visible"									"1"
 		"enabled"									"1"
@@ -211,7 +212,6 @@
 
 		"pin_to_sibling"							"ResistIconAnchor"
 	}
-
 
 	//REMOVED
 	"Background"
