@@ -181,9 +181,9 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
 		"xpos"										"c-8"
-		"xpos_minmode"								"-10"
+		"xpos_minmode"								"c-7" //-10
 		"ypos"										"c+5"
-		"ypos_minmode"								"19"
+		"ypos_minmode"								"c+5" //19
 		"wide"										"1"
 		"tall"										"50"
 		"visible"									"1"
