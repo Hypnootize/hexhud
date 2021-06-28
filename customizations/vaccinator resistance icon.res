@@ -6,5 +6,5 @@
 // IMPORTANT: MAKE SURE ONLY ONE LINE STAYS UNCOMMENTED!!
 //=========================================================================================
 
-//#base "../resource/ui/hudmediccharge_leftresist.res"			//left corner
-#base "../resource/ui/hudmediccharge_centeredresist.res"			//centered
+#base "../resource/ui/hudmediccharge_leftresist.res"			//left corner
+//#base "../resource/ui/hudmediccharge_centeredresist.res"			//centered
