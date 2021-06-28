@@ -213,7 +213,6 @@
 		"pin_to_sibling"							"ResistIconAnchor"
 	}
 
-
 	//REMOVED
 	"Background"
 	{

@@ -1,4 +1,4 @@
-"Resource/UI/HudMedicCharge_centeredresist.res"
+"Resource/UI/HudMedicCharge.res"
 {
 	"UberAnchor"									//Moves the uber as a whole
 	{
@@ -176,7 +176,6 @@
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
-
 	"ResistIconAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -199,11 +198,11 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ResistIcon"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"c"
+		"ypos"										"c"
 		"wide"										"18"
 		"wide_minmode"								"14"
-		"tall"										"18"
+		"tall"										"18" //18
 		"tall_minmode"								"14"
 		"visible"									"1"
 		"enabled"									"1"
