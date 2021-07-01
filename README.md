@@ -7,11 +7,11 @@
 
 [Screenshots](https://imgur.com/a/ENQcIqO)
 
-[HUDS.TF]()
+[HUDS.TF](https://huds.tf/site/s-HExHUD--3435)
 
-[Gamebanana]()
+[Gamebanana](https://gamebanana.com/mods/298232)
 
-[TeamfortressTV]()
+[TeamfortressTV](https://www.teamfortress.tv/59727/hexhud)
 
 [HUD Wiki](https://github.com/Hypnootize/hexhud/wiki)
 
