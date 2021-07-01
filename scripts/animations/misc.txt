@@ -38,12 +38,12 @@ event HudSpyDisguiseHide
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup					wide	"91"									Linear 	0.0 	0.2
+	Animate HudTournamentSetup					wide	"91"									Linear 	0.0 	0.12
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup					wide	"0"										Linear 	0.2 	0.1
+	Animate HudTournamentSetup					wide	"0"										Linear 	0.12 	0.0
 }
 
 //===========================================================================================================================
