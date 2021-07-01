@@ -222,7 +222,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ReinforcementsLabel"
 		"xpos"										"cs-0.5"
-		"ypos"										"38"
+		"ypos"										"50"
 		"wide"										"f0"  
 		"tall"										"20"
 		"visible"									"1"
