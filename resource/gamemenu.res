@@ -35,7 +35,7 @@
 
 
 
-	
+
 	"Streams"
 	{
 		"label"										"0"
@@ -100,9 +100,12 @@
 		"tooltip"									"Toggle Minmode"
 		"OnlyInGame"								"1"
 	}
-
-
-
+		"Workshop"
+		{
+			"label"										"p"
+			"command"									"engine OpenSteamWorkshopDialog"
+			"tooltip"									"Steam Workshop"
+		}
 
 	"ToolsOpenButton"
 	{

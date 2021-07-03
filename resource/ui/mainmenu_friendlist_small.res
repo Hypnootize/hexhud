@@ -4,9 +4,9 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"FriendsContainer"
-		"xpos"										"132"
+		"xpos"										"154" //132
 		"ypos"										"rs1-2"
-		"zpos"										"15"
+		"zpos"										"15" //15
 		"wide"										"122"
 		"tall"										"20"
 		"visible"									"1"
@@ -42,7 +42,7 @@
 				"wide"								"60"
 				"tall"								"18"
 			}
-			
+
 			"ScrollBar"
 			{
 				"ControlName"						"ScrollBar"
