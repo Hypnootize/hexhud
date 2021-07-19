@@ -2,9 +2,10 @@
 
 **Hexagon Shaped Team Fortress 2 HUD by Hypnotize**
 
-<a>LINKS</a>
-====
+## TF2 EDITOR
+Install and easily customize the HUD directly from the [HUD Editor](https://www.editor.criticalflaw.ca) by CriticalFlaw!
 
+## LINKS
 [Screenshots](https://imgur.com/a/ENQcIqO)
 
 [HUDS.TF](https://huds.tf/site/s-HExHUD--3435)
