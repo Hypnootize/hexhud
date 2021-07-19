@@ -66,6 +66,18 @@
 		"command"									"OpenAchievementsDialog"
 		"tooltip"									"Achievements"
 	}
+	"Workshop"
+	{
+		"label"										"{"
+		"command"									"engine OpenSteamWorkshopDialog"
+		"tooltip"									"Workshop"
+	}
+	"Replays"
+	{
+		"label"										"^"
+		"command"									"engine replay_reloadbrowser"
+		"tooltip"									"Replays"
+	}
 	"Console"
 	{
 		"label"										"("

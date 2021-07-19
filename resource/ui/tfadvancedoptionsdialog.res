@@ -98,17 +98,12 @@
 		"zpos"										"1"
 		"wide"										"f10"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"Apply Changes"
 		"font"										"Light 14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"Ok"
 		"proportionaltoparent"						"1"
@@ -116,13 +111,13 @@
 		
 		"paintbackground"							"1"
 		
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
 		
-		"defaultBgColor_override"					"Button"
-		"armedBgColor_override"						"Button_Hover"
-		"depressedBgColor_override"					"Button_Hover"
+		"defaultBgColor_override"					"ButtonGreen"
+		"armedBgColor_override"						"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
 	}
 	
 	"PanelListPanel"
