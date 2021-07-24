@@ -1,4 +1,5 @@
-#base 	"../../customizations/chargemeter and resisticon.res"
+#base 	"../../customizations/chargemeter.res"
+#base 	"../../customizations/resisticon.res"
 
 "Resource/UI/HudMedicCharge.res"
 {	
