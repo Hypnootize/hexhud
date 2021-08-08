@@ -105,10 +105,10 @@
 		}
 	}
 
-	"CustomBG"
+	"MainMenuBG"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"CustomBG"
+		"fieldName"									"MainMenuBG"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -119,6 +119,22 @@
 		"painbackground"							"1"
 		"painbackgroundtype"						"0"
 		"bgcolor_override"							"Main Menu Background"
+	}
+
+	"PauseMenuBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"PauseMenuBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"painbackground"							"1"
+		"painbackgroundtype"						"0"
+		"bgcolor_override"							"Pause Menu Background"
 	}
 
 	"Servers"

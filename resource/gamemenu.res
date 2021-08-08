@@ -114,13 +114,23 @@
 	}
 
 
-
-
 	"ToolsOpenButton"
 	{
 		"label"										"Tools"
 		"command"									"motd_show"
 		"tooltip"									""
+		"OnlyInGame"								"1"
+	}
+
+
+	"MainMenuBG"
+	{
+		"command"									"Engine"
+		"OnlyAtMenu"								"1"
+	}
+	"PauseMenuBG"
+	{
+		"command"									"Engine"
 		"OnlyInGame"								"1"
 	}
 }
