@@ -140,6 +140,14 @@
 			"wide"									"562"
 			"tall"									"25"
 		}
+		"fixed_paintkit"
+		{
+			"xpos"									"cs-0.5+61"
+			"ypos"									"50"
+			"zpos"									"6"
+			"wide"									"562"
+			"tall"									"25"
+		}
 		"consume_mode"
 		{
 			"xpos"									"cs-0.5"
@@ -154,7 +162,7 @@
 
 	"WarPaintTitle"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"WarPaintTitle"
 		"font"										"Light 14"
 		"labelText"									"Select War Paint:"
@@ -178,6 +186,14 @@
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 
 		"consume_mode"
+		{
+			"wide"									"0"
+		}
+		"fixed_item"
+		{
+			"wide"									"0"
+		}
+		"fixed_paintkit"
 		{
 			"wide"									"0"
 		}
@@ -218,6 +234,18 @@
 			"border"								"BorderGrayBlueLight"
 			"fov"									"100"
 		}
+		"fixed_paintkit"
+		{
+			"xpos"									"cs-0.5+61"
+			"ypos"									"cs-0.5"
+			"wide"									"562"
+			"tall"									"220"
+			"paintbackground"						"1"
+			"paintborder"							"1"
+			"bgcolor_override"						"Background_Secondary"
+			"border"								"BorderGrayBlueLight"
+			"fov"									"100"
+		}
 
 		"model"
 		{
@@ -232,7 +260,7 @@
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" "1"
+			"spotlight" 							"1"
 		
 			"modelname"								""
 
@@ -305,13 +333,13 @@
 		}
 		"fixed_item"
 		{
-			"xpos"									"cs-0.5"
+			"xpos"									"120"
 			"ypos"									"p.7-16"
 		}
 		"fixed_paintkit"
 		{
-			"xpos"									"cs-0.5"
-			"ypos"									"p.7-16"
+			"xpos"									"216"
+			"ypos"									"89"
 		}
 		
 		"ButtonSettings"
@@ -410,17 +438,16 @@
 
 		"fixed_item"
 		{
-			"tall"									"80"
-			"visible"								"1"
-			"paintbackground"						"1"
-			"bgcolor_override"						"BackgroundDark"
+			"wide"									"f0"
+			"tall"									"f0"
+			"pin_to_sibling" 						""
 		}
 		"fixed_paintkit"
 		{
-			"tall"									"60"
-			"visible"								"1"
-			"paintbackground"						"1"
-			"bgcolor_override"						"BackgroundDark"
+			"ypos"									"rs1-55"
+			"wide"									"f0"
+			"tall"									"50"
+			"pin_to_sibling" 						""
 		}
 		"consume_mode"
 		{
@@ -547,7 +574,7 @@
 			}
 			"fixed_paintkit"
 			{
-				"ypos"								"10"
+				"visible"							"0"
 			}
 			"consume_mode"
 			{
@@ -592,7 +619,10 @@
 			}
 			"fixed_paintkit"
 			{
-				"ypos"								"10"
+				"xpos"								"cs-0.5+60"
+				"ypos"								"5"
+				"wide"								"150"
+				"pin_to_sibling" 					""
 			}
 			"consume_mode"
 			{
@@ -639,12 +669,6 @@
 			"AllCaps"								"0"
 			"xpos"									"0"
 			"ypos"									"7"
-			
-			"fixed_item"
-			{
-				"ypos"								"30"
-			}
-			
 			"wide"									"140"
 			"tall"									"12"
 			"autoResize"							"0"
@@ -655,11 +679,14 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"BlackBlue"
 
+			"fixed_item"
+			{
+				"visible"							"0"
+			}
 			"fixed_paintkit"
 			{
 				"visible"							"0"
 			}
-
 			"consume_mode"
 			{
 				"visible"							"0"
@@ -676,12 +703,6 @@
 			"fieldName"								"WearSlider"
 			"xpos"									"0"
 			"ypos"									"2"
-			
-			"fixed_item"
-			{
-				"ypos"								"30"
-			}
-			
 			"zpos"									"1"
 			"wide"									"140"
 			"tall"									"16"
@@ -696,11 +717,14 @@
 			"paintbackground"						"1"
 			"bgcolor_override"						"GrayBlueDark"
 
+			"fixed_item"
+			{
+				"visible"							"0"
+			}
 			"fixed_paintkit"
 			{
 				"visible"							"0"
 			}
-
 			"consume_mode"
 			{
 				"visible"							"0"
@@ -717,18 +741,7 @@
 			"fieldName"								"SeedTextEntry"
 			"font"									"Light 10"
 			"xpos"									"0"
-			"ypos"									"7"
-			
-			"fixed_item"
-			{
-				"ypos"								"50"
-			}
-			
-			"fixed_paintkit"
-			{
-				"ypos"								"30"
-			}
-			
+			"ypos"									"7"			
 			"zpos"									"10"
 			"wide"									"140"
 			"tall"									"12"
@@ -739,11 +752,19 @@
 			"actionsignallevel" 					"2"
 			"default"								"1"
 			"NumericInputOnly"						"1"
-			"fgcolor_override"								"WhiteDark"
+			"fgcolor_override"						"WhiteDark"
 			"paintbackground"						"1"
 			"bgcolor_override"						"BlackBlue"
 			"maxchars"								"18"
 
+			"fixed_item"
+			{
+				"visible"							"0"
+			}
+			"fixed_paintkit"
+			{
+				"visible"							"0"
+			}
 			"consume_mode"
 			{
 				"visible"							"0"
@@ -753,6 +774,7 @@
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
+
 		"NewSeedButton"
 		{
 			"ControlName"							"Button"
@@ -760,17 +782,6 @@
 			"font"									"Light 12"
 			"xpos"									"0"
 			"ypos"									"2"
-			
-			"fixed_item"
-			{
-				"ypos"								"50"
-			}
-			
-			"fixed_paintkit"
-			{
-				"ypos"								"30"
-			}
-			
 			"zpos"									"10"
 			"wide"									"140"
 			"tall"									"16"
@@ -802,6 +813,14 @@
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
 
+			"fixed_item"
+			{
+				"visible"							"0"
+			}
+			"fixed_paintkit"
+			{
+				"visible"							"0"
+			}
 			"consume_mode"
 			{
 				"visible"							"0"
@@ -822,14 +841,16 @@
 			
 			"fixed_item"
 			{
-				"ypos"								"50"
+				"xpos"								"cs-0.5+61"
+				"ypos"								"rs1"
+				"wide"								"562"
 			}
-			
 			"fixed_paintkit"
 			{
-				"ypos"								"30"
+				"xpos"								"cs-0.5+61"
+				"ypos"								"rs1"
+				"wide"								"562"
 			}
-			
 			"consume_mode"
 			{
 				"visible"							"0"
