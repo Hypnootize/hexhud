@@ -1186,13 +1186,13 @@
 			}
 			"Scout"
 			{
-				"fov"								"13"
+				"fov"								"15"
 				"angles_x"							"0"
 				"angles_y"							"180"
 				"angles_z"							"0"
 				"origin_x"							"320"
-				"origin_y"							"0"
-				"origin_z"							"-37"
+				"origin_y"							"-4"
+				"origin_z"							"-39"
 			}
 			"Sniper"
 			{
@@ -1221,7 +1221,7 @@
 				"angles_y"							"180"
 				"angles_z"							"0"
 				"origin_x"							"320"
-				"origin_y"							"-4"
+				"origin_y"							"-8"
 				"origin_z"							"-42"
 			}
 			"Medic"
