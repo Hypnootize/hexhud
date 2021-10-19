@@ -9,5 +9,13 @@
 //=========================================================================================
 
 
-#base "../resource/ui/scoreboard_short.res"				// SHORT STATS SCOREBOARD
-//#base "../resource/ui/scoreboard_full.res"			// FULL STATS SCOREBOARD
+//#base "../resource/ui/scoreboard_short_6v6.res"       // 6v6 SHORT STATS SCOREBOARD
+//#base "../resource/ui/scoreboard_short_9v9.res"		// 9v9 SHORT STATS SCOREBOARD
+#base "../resource/ui/scoreboard_short_12v12.res"		// 12v12 SHORT STATS SCOREBOARD
+//#base "../resource/ui/scoreboard_short_16v16.res"		// 16v16 SHORT STATS SCOREBOARD
+
+
+//#base "../resource/ui/scoreboard_full_6v6.res"		// 6v6 FULL STATS SCOREBOARD
+//#base "../resource/ui/scoreboard_full_9v9.res"		// 9v9 FULL STATS SCOREBOARD
+//#base "../resource/ui/scoreboard_full_12v12.res"		// 12v12 FULL STATS SCOREBOARD
+//#base "../resource/ui/scoreboard_full_16v16.res"		// 16v16 FULL STATS SCOREBOARD
