@@ -25,4 +25,3 @@
 //============================================================
 
 #base "../resource/scheme/crosshairs.res"
-#base "../resource/scheme/crosshairs_blur.res"
