@@ -1,3 +1,5 @@
+#base "../../resource/dev/reloadschemebutton.res"
+
 "ImportFileDialog.res"
 {
 	"ImportFileDialog"
@@ -129,6 +131,25 @@
 		"tall"										"20"
 		"editable"									"0"
 		"visible"									"1"
+
+		"paintborder"								"0"
+
+		"fgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"BlackBlue"
+		"disabledFgColor_override" 					"WhiteDark"
+		"disabledBgColor_override" 					"BlackBlue"
+		"selectionColor_override" 					"Blank"
+		"selectionTextColor_override" 				"WhiteDark"
+		"defaultSelectionBG2Color_override" 		"BlackBlue"
+
+		"Button"
+		{
+			"defaultFgColor_override"				"WhiteDark"
+			"defaultBgColor_override"				"Blank"
+			"armedFgColor_override"					"WhiteDark"
+			"armedBgColor_override"					"Blank"
+			"paintbackgroundtype"					"0"
+		}
 	}
 
 	"EquipRegionPanel"
@@ -169,6 +190,25 @@
 			"tall"									"20"
 			"editable"								"0"
 			"visible"								"1"
+
+			"paintborder"							"0"
+
+			"fgcolor_override"						"WhiteDark"
+			"bgcolor_override"						"BlackBlue"
+			"disabledFgColor_override" 				"WhiteDark"
+			"disabledBgColor_override" 				"BlackBlue"
+			"selectionColor_override" 				"Blank"
+			"selectionTextColor_override" 			"WhiteDark"
+			"defaultSelectionBG2Color_override" 	"BlackBlue"
+
+			"Button"
+			{
+				"defaultFgColor_override"			"WhiteDark"
+				"defaultBgColor_override"			"Blank"
+				"armedFgColor_override"				"WhiteDark"
+				"armedBgColor_override"				"Blank"
+				"paintbackgroundtype"				"0"
+			}
 		}
 	}
 
@@ -295,36 +335,29 @@
 				
 		"ButtonIconClear"
 		{
-			"ControlName"							"CExImageButton"
+			"ControlName"							"CExButton"
 			"fieldName"								"ButtonIconClear"
 			"xpos"									"173"
 			"ypos"									"2"
 			"zpos"									"2"
 			"wide"									"15"
 			"tall"									"15"
-			"textinsetx"							"15"
 			"use_proportional_insets" 				"1"
-			"font"									"Light 12"
-			"textAlignment"							"west"
+			"font"									"Symbols 12"
+			"textAlignment"							"center"
 				
-			"labelText"								""
-			"command"								"ClearIcon"				
-				
-			"image_drawcolor"						"255 255 255 255"
-			"image_disabledcolor" 					"0 0 0 255"
+			"labelText"								"-"
+			"command"								"ClearIcon"
 
-			"SubImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"xpos"								"1"
-				"ypos"								"1"
-				"zpos"								"1"
-				"wide"								"13"
-				"tall"								"13"
-				"scaleImage"						"1"
-				"image"								"glyph_close_X"
-			}		
+			"paintbackground"						"1"
+		
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
+			
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 		}
 
 		"ButtonIconBrowse"
@@ -336,29 +369,22 @@
 			"zpos"									"2"
 			"wide"									"19"
 			"tall"									"15"
-			"textinsetx"							"15"
 			"use_proportional_insets" 				"1"
-			"font"									"Light 12"
-			"textAlignment"							"west"
+			"font"									"Symbols 12"
+			"textAlignment"							"center"
 				
-			"labelText"								""
-			"command"								"BrowseIcon"					
-				
-			"image_drawcolor"						"255 255 255 255"
-			"image_disabledcolor" 					"0 0 0 255"
+			"labelText"								"q"
+			"command"								"BrowseIcon"
 
-			"SubImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"xpos"								"3"
-				"ypos"								"1"
-				"zpos"								"1"
-				"wide"								"13"
-				"tall"								"13"
-				"scaleImage"						"1"
-				"image"								"glyph_workshop_view"
-			}		
+			"paintbackground"						"1"
+		
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
+			
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 		}
 
 		"Icon"
@@ -839,9 +865,6 @@
 		"wide"										"150"
 		"tall"										"270"
 		"visible"									"1"
-		"paintbackground" 							"0"
-		"paintbackgroundtype" 						"0"
-		"bgcolor_override" 							"BlackBlue"
 	
 		"LOD0Panel"
 		{
@@ -852,8 +875,9 @@
 			"wide"									"150"
 			"tall"									"50"
 			"visible"								"1"
-			"paintbackground" 						"0"
-			"border"								"SteamWorkshopBorder"
+			"paintbackground" 						"1"
+			"paintbackgroundtype" 					"0"
+			"bgcolor_override" 						"BlackBlue"
 
 			"LOD0Label"
 			{
@@ -874,31 +898,24 @@
 				"fieldName"							"ButtonLOD0Clear"
 				"xpos"								"133"
 				"ypos"								"2"
-				"wide"								"15"
+				"wide"								"15"	
 				"tall"								"15"
-				"textinsetx"						"15"
 				"use_proportional_insets" 			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
 				
-				"labelText"							""
-				"command"							"ClearLOD0"				
-				
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor" 				"0 0 0 255"
+				"labelText"							"-"
+				"command"							"ClearLOD0"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"1"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_close_X"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"ButtonLOD0Browse"
 			{
@@ -908,29 +925,22 @@
 				"ypos"								"2"
 				"wide"								"19"
 				"tall"								"15"
-				"textinsetx"						"15"
 				"use_proportional_insets" 			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
 				
-				"labelText"							""
-				"command"							"BrowseLOD0"				
-				
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor"				"0 0 0 255"
+				"labelText"							"q"
+				"command"							"BrowseLOD0"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"3"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_workshop_view"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"LOD0File"
 			{
@@ -967,8 +977,9 @@
 			"wide"									"150"
 			"tall"									"50"
 			"visible"								"1"
-			"paintbackground" 						"0"
-			"border"								"SteamWorkshopBorder"
+			"paintbackground" 						"1"
+			"paintbackgroundtype" 					"0"
+			"bgcolor_override" 						"BlackBlue"
 
 			"LOD1Label"
 			{
@@ -992,30 +1003,23 @@
 				"ypos"								"2"
 				"wide"								"15"
 				"tall"								"15"
-				"textinsetx"						"15"
-				"use_proportional_insets" 			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
 				"enabled"							"0"
+				"use_proportional_insets" 			"1"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
 				
-				"labelText"							""
-				"command"							"ClearLOD1"				
-				
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor" 				"0 0 0 255"
+				"labelText"							"-"
+				"command"							"ClearLOD1"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"1"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_close_X"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"ButtonLOD1Browse"
 			{
@@ -1025,30 +1029,23 @@
 				"ypos"								"2"
 				"wide"								"19"
 				"tall"								"15"
-				"textinsetx"						"15"
-				"use_proportional_insets" 			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
 				"enabled"							"0"
+				"use_proportional_insets" 			"1"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
 				
-				"labelText"							""
-				"command"							"BrowseLOD1"				
-				
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor" 				"0 0 0 255"
+				"labelText"							"q"
+				"command"							"BrowseLOD1"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"1"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_workshop_view"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"LOD1File"
 			{
@@ -1087,8 +1084,9 @@
 			"wide"									"150"
 			"tall"									"50"
 			"visible"								"1"
-			"paintbackground" 						"0"
-			"border"								"SteamWorkshopBorder"
+			"paintbackground" 						"1"
+			"paintbackgroundtype" 					"0"
+			"bgcolor_override" 						"BlackBlue"
 
 			"LOD2Label"
 			{
@@ -1111,30 +1109,23 @@
 				"ypos"								"2"
 				"wide"								"15"
 				"tall"								"15"
-				"textinsetx"						"15"
-				"use_proportional_insets" 			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
 				"enabled"							"0"
+				"use_proportional_insets" 			"1"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
 				
-				"labelText"							""
-				"command"							"ClearLOD2"				
-				
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor" 				"0 0 0 255"
+				"labelText"							"-"
+				"command"							"ClearLOD2"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"1"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_close_X"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"ButtonLOD2Browse"
 			{
@@ -1144,30 +1135,23 @@
 				"ypos"								"2"
 				"wide"								"19"
 				"tall"								"15"
-				"textinsetx"						"15"
-				"use_proportional_insets" 			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
 				"enabled"							"0"
+				"use_proportional_insets" 			"1"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
 				
-				"labelText"							""
-				"command"							"BrowseLOD2"				
-				
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor" 				"0 0 0 255"
+				"labelText"							"q"
+				"command"							"BrowseLOD2"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"3"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_workshop_view"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"LOD2File"
 			{
@@ -1235,8 +1219,9 @@
 		"wide"										"190"
 		"tall"										"219"
 		"visible"									"1"
-		"paintbackground" 							"0"
-		"border"									"SteamWorkshopBorder"
+		"paintbackground" 							"1"
+		"paintbackgroundtype" 						"0"
+		"bgcolor_override" 							"BlackBlue"
 		
 		"SkinsTitle"
 		{
@@ -1292,6 +1277,24 @@
 			"tall"									"20"
 			"editable"								"0"
 			"visible"								"1"
+			"paintborder"							"0"
+
+			"fgcolor_override"						"WhiteDark"
+			"bgcolor_override"						"BlackBlue"
+			"disabledFgColor_override" 				"WhiteDark"
+			"disabledBgColor_override" 				"BlackBlue"
+			"selectionColor_override" 				"Blank"
+			"selectionTextColor_override" 			"WhiteDark"
+			"defaultSelectionBG2Color_override" 	"BlackBlue"
+
+			"Button"
+			{
+				"defaultFgColor_override"			"WhiteDark"
+				"defaultBgColor_override"			"Blank"
+				"armedFgColor_override"				"WhiteDark"
+				"armedBgColor_override"				"Blank"
+				"paintbackgroundtype"				"0"
+			}
 		}
 	
 		"Material0Panel"
@@ -1303,7 +1306,9 @@
 			"wide"									"250"
 			"tall"									"50"
 			"visible"								"0"
-			"paintbackground" 						"0"
+			"paintbackground" 						"1"
+			"paintbackgroundtype" 					"0"
+			"bgcolor_override" 						"GrayBlueDarkest"
 
 			"Material0Label"
 			{
@@ -1325,29 +1330,22 @@
 				"ypos"								"3"
 				"wide"								"19"
 				"tall"								"15"
-				"textinsetx"						"15"
 				"use_proportional_insets" 			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
-					
-				"labelText"							""
-				"command"							"EditMaterial0"				
-					
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor"				"0 0 0 255"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
+				
+				"labelText"							"|"
+				"command"							"EditMaterial0"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"3"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_workshop_edit"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"	
 			}
 			"Material0File"
 			{
@@ -1372,7 +1370,9 @@
 			"wide"									"250"
 			"tall"									"50"
 			"visible"								"0"
-			"paintbackground" 						"0"
+			"paintbackground" 						"1"
+			"paintbackgroundtype" 					"0"
+			"bgcolor_override" 						"GrayBlueDarkest"
 
 			"Material1Label"
 			{
@@ -1394,29 +1394,22 @@
 				"ypos"								"3"
 				"wide"								"19"
 				"tall"								"15"
-				"textinsetx"						"15"
 				"use_proportional_insets" 			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
-					
-				"labelText"							""
-				"command"							"EditMaterial1"				
-					
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor" 				"0 0 0 255"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
+				
+				"labelText"							"|"
+				"command"							"EditMaterial1"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"3"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_workshop_edit"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"	
 			}
 			"Material1File"
 			{
@@ -1441,7 +1434,9 @@
 			"wide"									"250"
 			"tall"									"50"
 			"visible"								"0"
-			"paintbackground" 						"0"
+			"paintbackground" 						"1"
+			"paintbackgroundtype" 					"0"
+			"bgcolor_override" 						"GrayBlueDarkest"
 
 			"Material2Label"
 			{
@@ -1463,29 +1458,22 @@
 				"ypos"								"3"
 				"wide"								"19"
 				"tall"								"15"
-				"textinsetx"						"15"
-				"use_proportional_insets"			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
-					
-				"labelText"							""
-				"command"							"EditMaterial2"				
-					
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor" 				"0 0 0 255"
+				"use_proportional_insets" 			"1"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
+				
+				"labelText"							"|"
+				"command"							"EditMaterial2"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"3"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_workshop_edit"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"	
 			}
 			"Material2File"
 			{
@@ -1510,7 +1498,9 @@
 			"wide"									"250"
 			"tall"									"50"
 			"visible"								"0"
-			"paintbackground" 						"0"
+			"paintbackground" 						"1"
+			"paintbackgroundtype" 					"0"
+			"bgcolor_override" 						"GrayBlueDarkest"
 
 			"Material3Label"
 			{
@@ -1532,29 +1522,22 @@
 				"ypos"								"3"
 				"wide"								"19"
 				"tall"								"15"
-				"textinsetx"						"15"
 				"use_proportional_insets" 			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
-					
-				"labelText"							""
-				"command"							"EditMaterial3"				
-					
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor" 				"0 0 0 255"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
+				
+				"labelText"							"|"
+				"command"							"EditMaterial3"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"3"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_workshop_edit"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"	
 			}
 			"Material3File"
 			{
@@ -1642,8 +1625,9 @@
 			"wide"									"150"
 			"tall"									"50"
 			"visible"								"1"
-			"paintbackground" 						"0"
-			"border"								"SteamWorkshopBorder"
+			"paintbackground" 						"1"
+			"paintbackgroundtype" 					"0"
+			"bgcolor_override" 						"GrayBlueDarkest"
 
 
 			"AnimationSourceLabel"
@@ -1667,29 +1651,22 @@
 				"ypos"								"2"
 				"wide"								"15"
 				"tall"								"15"
-				"textinsetx"						"15"
 				"use_proportional_insets" 			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
 				
-				"labelText"							""
-				"command"							"ClearAnimationSource"				
-				
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor" 				"0 0 0 255"
+				"labelText"							"-"
+				"command"							"ClearAnimationSource"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"1"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_close_X"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"	
 			}
 			"ButtonAnimationSourceBrowse"
 			{
@@ -1699,29 +1676,22 @@
 				"ypos"								"2"
 				"wide"								"19"
 				"tall"								"15"
-				"textinsetx"						"15"
 				"use_proportional_insets" 			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
 				
-				"labelText"							""
-				"command"							"BrowseAnimationSource"				
-				
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor"				"0 0 0 255"
+				"labelText"							"q"
+				"command"							"BrowseAnimationSource"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"3"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_workshop_view"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"	
 			}
 			"AnimationSourceFile"
 			{
@@ -1758,8 +1728,9 @@
 			"wide"									"150"
 			"tall"									"50"
 			"visible"								"1"
-			"paintbackground" 						"0"
-			"border"								"SteamWorkshopBorder"
+			"paintbackground" 						"1"
+			"paintbackgroundtype" 					"0"
+			"bgcolor_override" 						"GrayBlueDarkest"
 
 
 			"AnimationVCDLabel"
@@ -1783,29 +1754,22 @@
 				"ypos"								"2"
 				"wide"								"15"
 				"tall"								"15"
-				"textinsetx"						"15"
-				"use_proportional_insets"			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
+				"use_proportional_insets" 			"1"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
 				
-				"labelText"							""
-				"command"							"ClearAnimationVCD"				
-				
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor" 				"0 0 0 255"
+				"labelText"							"-"
+				"command"							"ClearAnimationVCD"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"1"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_close_X"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"	
 			}
 			"ButtonAnimationVCDBrowse"
 			{
@@ -1815,29 +1779,22 @@
 				"ypos"								"2"
 				"wide"								"19"
 				"tall"								"15"
-				"textinsetx"						"15"
 				"use_proportional_insets" 			"1"
-				"font"								"Light 12"
-				"textAlignment"						"west"
+				"font"								"Symbols 12"
+				"textAlignment"						"center"
 				
-				"labelText"							""
-				"command"							"BrowseAnimationVCD"				
-				
-				"image_drawcolor"					"255 255 255 255"
-				"image_disabledcolor" 				"0 0 0 255"
+				"labelText"							"-"
+				"command"							"BrowseAnimationVCD"
 
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"3"
-					"ypos"							"1"
-					"zpos"							"1"
-					"wide"							"13"
-					"tall"							"13"
-					"scaleImage"					"1"
-					"image"							"glyph_workshop_view"
-				}		
+				"paintbackground"					"1"
+		
+				"defaultFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
+			
+				"defaultBgColor_override"			"Button"
+				"armedBgColor_override"				"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"AnimationVCDFile"
 			{
@@ -1954,32 +1911,25 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"ButtonLoad"
 		"xpos"										"120"
-		"ypos"										"370"
+		"ypos"										"365"
 		"wide"										"25"
-		"tall"										"15"
-		"textinsetx"								"15"
+		"tall"										"25"
 		"use_proportional_insets" 					"1"
-		"font"										"Light 12"
-		"textAlignment"								"west"
+		"font"										"Symbols 16"
+		"textAlignment"								"center"
 				
-		"labelText"									"#TF_ImportFile_Browse"
+		"labelText"									"q"
 		"command"									"Load"				
 				
-		"image_drawcolor"							"255 255 255 255"
-		"image_disabledcolor" 						"0 0 0 255"
-
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"1"
-			"ypos"									"1"
-			"zpos"									"1"
-			"wide"									"13"
-			"tall"									"13"
-			"scaleImage"							"1"
-			"image"									"glyph_workshop_view"
-		}		
+		"paintbackground"							"1"
+		
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
+			
+		"defaultBgColor_override"					"Button"
+		"armedBgColor_override"						"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 	}
 
 	"ButtonClose"

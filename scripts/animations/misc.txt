@@ -60,75 +60,27 @@ event ActiveTimerDim
 
 //===========================================================================================================================
 
-event HasNotificationsBlink
-{
-}
-event HasNotificationsBlinkStop
-{
-}
-
-//===========================================================================================================================
-
 event HudSnapShotReminderIn
 {
+	RunEvent HudHealthDyingPulseStop 			10.0
+	RunEvent HudHealthBonusPulseStop 			10.0
+	RunEvent HudLowAmmoPulseStop 				10.0
+	RunEvent HudMedicChargedStop 				10.0
 }
 
 //===========================================================================================================================
 
-event HudReplayReminderIn
-{
-}
-event HudReplayReminderIn2
-{
-}
-
-//===========================================================================================================================
-
-event HudReplayTipIn
-{
-}
-event HudReplayTipOut
-{
-}
-
-//===========================================================================================================================
-
-event TeamStatus_PlayerDead
-{
-}
-event TeamStatus_PlayerAlive
-{
-}
-
-//===========================================================================================================================
-
-event RDPositiveScorePulse
-{
-}
-event RDNegativeScorePulse
-{
-}
-
-//===========================================================================================================================
-
-event CompetitiveGame_LowerChatWindow
-{
-}
-event CompetitiveGame_RestoreChatWindow
-{
-}
-event HudTournament_MoveChatWindow
-{
-}
-
-//===========================================================================================================================
-
-event HudSnapShotReminderIn
-{
-    RunEvent HudHealthDyingPulseStop 			10.0
-    RunEvent HudHealthBonusPulseStop 			10.0
-    RunEvent HudLowAmmoPulseStop 				10.0
-    RunEvent HudMedicChargedStop 				10.0
-}
-
-//===========================================================================================================================
+event HasNotificationsBlink{}
+event HasNotificationsBlinkStop{}
+event HudSnapShotReminderIn{}
+event HudReplayReminderIn{}
+event HudReplayReminderIn2{}
+event HudReplayTipIn{}
+event HudReplayTipOut{}
+event TeamStatus_PlayerDead{}
+event TeamStatus_PlayerAlive{}
+event RDPositiveScorePulse{}
+event RDNegativeScorePulse{}
+event CompetitiveGame_LowerChatWindow{}
+event CompetitiveGame_RestoreChatWindow{}
+event HudTournament_MoveChatWindow{}
