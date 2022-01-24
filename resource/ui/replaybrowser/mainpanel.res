@@ -34,7 +34,7 @@
 		"titlebarbgcolor_override"					"Blank"
 		
 		"clientinsetx_override"						"0"
-		"sheetinset_bottom"							"25"
+		"sheetinset_bottom"							"20"
 	}
 	
 	"Sheet"
@@ -66,7 +66,7 @@
 		"ControlName"								"CExButton"
 		"fieldName"									"BackButton"
 		"xpos"										"5"
-		"ypos"										"r24"
+		"ypos"										"rs1-4"
 		"zpos"										"2"
 		"wide"										"70"
 		"tall"										"20"
