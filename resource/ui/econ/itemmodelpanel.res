@@ -129,10 +129,10 @@
 			"wide"									"10"
 			"tall"									"10"
 			"visible"								"1"
-			"enabled"								"1"
+			"enabled"								"0"
 			"labelText"								"+"
 			"textAlignment"							"center"
-			"fgcolor"								"200 80 60 255"			//Fuck off, Kindly
+			"disabledfgcolor2_override"				"White"
 
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
