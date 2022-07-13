@@ -1,4 +1,4 @@
-"Resource/UI/MainMenuOverride.res"
+"Resource/UI/MainMenu_ToolBar.res"
 {
 	"ToolsOpenButton"
 	{
@@ -75,10 +75,10 @@
 		}
 	}
 
-	"MOTD_Panel"
+	"SafeMode"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"MOTD_Panel"
+		"fieldName"									"SafeMode"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1-1"
 		"zpos"										"50"
@@ -108,7 +108,7 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"default"								"1"
-			"Command"								"motd_hide"
+			"Command"								"engine cl_mainmenu_safemode 0"
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
