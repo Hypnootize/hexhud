@@ -1,0 +1,89 @@
+"UnlitGeneric"
+{
+	"$basetexture" 			"vgui/replay/thumbnails/speedo/digits_3"
+	"$translucent" 			"1"
+	"$vertexcolor" 			"1"
+	"$no_fullbright" 		"1"
+	"$ignorez" 				"1"
+
+	"$speed"				"0"
+	"$thou"					"0"
+	"$thou_int"				"0"
+	"$hund"					"0"
+	"$hund_int"				"0"
+	"$ten"					"0"
+	"$ten_int"				"0"
+	"$thou_int_10"			"0"
+	"$hund_int_10"			"0"
+	"$ten_int_10"			"0"
+
+	"$const_thou"			"1000"
+	"$const_hund"			"100"
+	"$const_ten"			"10"
+
+	"Proxies"
+	{
+		"PlayerSpeed"
+		{
+			"scale"			"1"
+			"resultVar"		"$speed"
+		}
+		"Divide"
+		{
+			"srcVar1"		"$speed"
+			"srcVar2"		"$const_thou"
+			"resultVar"		"$thou"
+		}
+		"Int"
+		{
+			"srcVar1"		"$thou"
+			"resultVar"		"$thou_int"
+		}
+		"Divide"
+		{
+			"srcVar1"		"$speed"
+			"srcVar2"		"$const_hund"
+			"resultVar"		"$hund"
+		}
+		"Int"
+		{
+			"srcVar1"		"$hund"
+			"resultVar"		"$hund_int"
+		}
+		"Divide"
+		{
+			"srcVar1"		"$speed"
+			"srcVar2"		"$const_ten"
+			"resultVar"		"$ten"
+		}
+		"Int"
+		{
+			"srcVar1"		"$ten"
+			"resultVar"		"$ten_int"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$thou_int"
+			"srcVar2"		"$const_ten"
+			"resultVar"		"$thou_int_10"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$hund_int"
+			"srcVar2"		"$const_ten"
+			"resultVar"		"$hund_int_10"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$ten_int"
+			"srcVar2"		"$const_ten"
+			"resultVar"		"$ten_int_10"
+		}
+		"Subtract"
+		{
+			"srcVar1"		"$hund_int"
+			"srcVar2"		"$thou_int_10"
+			"resultVar"		"$frame"
+		}
+	}
+}

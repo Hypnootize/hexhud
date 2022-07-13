@@ -1,4 +1,5 @@
 #base 	"../../customizations/crosshairs and hitmarker.res"
+#base 	"../../customizations/speedometer.res"
 
 "Resource/UI/HudPlayerClass.res"
 {
