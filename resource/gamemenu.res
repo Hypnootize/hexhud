@@ -113,11 +113,17 @@
 		"OnlyInGame"								"1"
 	}
 
-
+	"FriendsOpenButton"
+	{
+		"label"										"Friends List"
+		"command"									"motd_show"
+		"tooltip"									""
+	}
+	
 	"ToolsOpenButton"
 	{
 		"label"										"Tools"
-		"command"									"motd_show"
+		"command"									"engine cl_mainmenu_safemode 1"
 		"tooltip"									""
 		"OnlyInGame"								"1"
 	}

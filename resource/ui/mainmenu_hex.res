@@ -1,10 +1,6 @@
-#base "../../resource/dev/preload.res"
-#base "../../customizations/friends list.res"
-#base "toolbar.res"
-
 "Resource/UI/MainMenuOverride.res"
 {
-	MainMenuOverride
+	"MainMenuOverride"
 	{
 		"fieldName"									"MainMenuOverride"
 		"visible"									"1"
