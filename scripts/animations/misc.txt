@@ -72,7 +72,6 @@ event HudSnapShotReminderIn
 
 event HasNotificationsBlink{}
 event HasNotificationsBlinkStop{}
-event HudSnapShotReminderIn{}
 event HudReplayReminderIn{}
 event HudReplayReminderIn2{}
 event HudReplayTipIn{}
