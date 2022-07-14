@@ -1,6 +1,6 @@
 #base "scout_red.res"
 
-"Resource/UI/disguise_menu/demoman_red.res"
+"Resource/UI/Disguise_Menu/Demoman_Red.res"
 {
 	"TitleBG"
 	{
@@ -13,17 +13,17 @@
 		"image"										"replay/thumbnails/loadouts/demoman"
 	}
 	"ItemNameLabel"
-	{	
+	{
 		"labelText"									"#TF_Class_Name_Demoman"
 	}
 	"NewNumberLabel"
-	{	
+	{
 		"xpos"										"76"
 		"ypos"										"5"
 		"labelText"									"1"
 	}
 	"NumberLabel"
-	{	
+	{
 		"labelText"									"4"
 	}
 }

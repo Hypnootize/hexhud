@@ -1,4 +1,4 @@
-"Resource/UI/StorePreviewItemPanel.res"
+"Resource/UI/Econ/Store/V2/StorePreviewItemPanel.res"
 {
 	"storepreviewitem"
 	{
@@ -15,7 +15,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
+
 	// Fullscreen background panel
 	"BgPanel"
 	{
@@ -31,7 +31,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Blank"
 	}
-	
+
 	// Rounded dialog border
 	"DialogFrame"
 	{
@@ -49,7 +49,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"BorderGrayBlueLight"
-		
+
 		"PreviewViewportBg"
 		{
 			"ControlName"							"EditablePanel"
@@ -69,12 +69,12 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"fieldName"									"classmodelpanel"
-		
+
 		"xpos"										"c-230"
 		"ypos"										"c-140"
 		"zpos"										"1"
@@ -84,15 +84,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"render_texture"							"0"
 		"fov"										"40"
 		"allow_rot"									"0"
 
-		"paintbackground" 							"1"		
+		"paintbackground" 							"1"
 		"paintbackgroundenabled" 					"1"
 		"bgcolor_override" 							"255 255 255 0"
-		
+
 		"model"
 		{
 			"force_pos"								"1"
@@ -107,13 +107,13 @@
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
 			"spotlight" 							"1"
-		
+
 			"modelname"								""
 		}
 	}
-		
+
 	"PreviewItemModelPanel"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"PreviewItemModelPanel"
 		"xpos"										"c-110"
@@ -124,7 +124,7 @@
 		"visible"									"1"
 		"paintbackground"							"0"
 		"paintborder"								"0"
-		
+
 		"model_xpos"								"25"
 		"model_ypos"								"17"
 		"model_wide"								"175"
@@ -133,9 +133,9 @@
 		"attrib_only"								"0"
 		"model_only"								"1"
 		"paint_icon_hide"							"0"
-		
+
 		"text_ypos"									"10"
-		
+
 		"itemmodelpanel"
 		{
 			"inventory_image_type" 					"2"
@@ -143,7 +143,7 @@
 			"force_square_image"					"1"
 		}
 	}
-	
+
 	"ItemNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -163,8 +163,8 @@
 		"centerwrap"								"1"
 		"AllCaps"									"1"
 		"fgcolor"									"WhiteDark"
-	}		
-	
+	}
+
 	"ClassUsageImage1"
 	{
 		"ControlName"								"CStorePreviewClassIcon"
@@ -261,7 +261,7 @@
 		"image_indent"								"2"
 		"PaintBackgroundType"						"0"
 	}
-	
+
 	"IconsMoveLeftButton"
 	{
 		"ControlName"								"CExButton"
@@ -283,12 +283,12 @@
 		"brighttext"								"0"
 		"command"									"icons_left"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-	}		
+	}
 	"IconsMoveRightButton"
 	{
 		"ControlName"								"CExButton"
@@ -310,13 +310,13 @@
 		"brighttext"								"0"
 		"command"									"icons_right"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-	}	
-	
+	}
+
 	"ClassUsageMouseoverLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -365,8 +365,8 @@
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-	}		
-	
+	}
+
 	"RotRightButton"
 	{
 		"ControlName"								"CPreviewRotButton"
@@ -392,8 +392,8 @@
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-	}	
-	
+	}
+
 	"NextWeaponButton"
 	{
 		"ControlName"								"CExButton"
@@ -419,7 +419,7 @@
 
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -427,7 +427,7 @@
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}					
+	}
 
 	"ZoomButton"
 	{
@@ -454,7 +454,7 @@
 
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -489,7 +489,7 @@
 
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -537,8 +537,8 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 		"fgcolor"									"WhiteDark"
-	}		
-	
+	}
+
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -561,14 +561,14 @@
 		"default"									"0"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"								"CExButton"
@@ -591,10 +591,10 @@
 		"Command"									"close"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -602,8 +602,8 @@
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}		
-	
+	}
+
 	"AddToCartButton"
 	{
 		"ControlName"								"CExButton"
@@ -627,7 +627,7 @@
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"ButtonGreen"
@@ -637,5 +637,5 @@
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-	}		
+	}
 }

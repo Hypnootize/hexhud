@@ -2,7 +2,7 @@
 
 "Resource/UI/HudItemEffectMeter_Pomson.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"ypos"										"r102"
 		"ypos_minmode"								"c74"

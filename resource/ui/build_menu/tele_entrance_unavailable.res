@@ -1,6 +1,6 @@
 #base "base_unavailable.res"
 
-"Resource/UI/build_menu/tele_entrance_unavailable.res"
+"Resource/UI/Build_Menu/Tele_Entrance_Unavailable.res"
 {
 	"BuildingIcon"
 	{

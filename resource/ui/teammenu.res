@@ -232,14 +232,14 @@
 			"actionsignallevel" 					"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
-			
+
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"220 222 225 255"
 
@@ -277,7 +277,7 @@
 		"font"			  							"Light 24"
 		"fgcolor"		  							"OffWhite"
 		"mouseinputenabled"							"0"
-		
+
 		"pin_to_sibling"							"TeamBlue"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
@@ -316,7 +316,7 @@
 		"pin_to_sibling"							"RedTeamBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -341,14 +341,14 @@
 			"actionsignallevel" 					"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
-			
+
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"220 222 225 255"
 
@@ -386,7 +386,7 @@
 		"font"			  							"Light 24"
 		"fgcolor"		  							"OffWhite"
 		"mouseinputenabled"							"0"
-		
+
 		"pin_to_sibling"							"TeamRed"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
@@ -425,7 +425,7 @@
 		"pin_to_sibling"							"BlueTeamBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExButton"
@@ -450,14 +450,14 @@
 			"actionsignallevel" 					"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override"				"Background"
 			"armedBgColor_override"					"Background Dark"
 			"depressedBgColor_override"				"Background Dark"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -479,7 +479,7 @@
 		"pin_to_sibling"							"RedTeamBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExButton"
@@ -504,14 +504,14 @@
 			"actionsignallevel" 					"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override"				"Background"
 			"armedBgColor_override"					"Background Dark"
 			"depressedBgColor_override"				"Background Dark"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -533,7 +533,7 @@
 		"pin_to_sibling"							"CenterBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExButton"
@@ -558,22 +558,19 @@
 			"actionsignallevel" 					"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override"				"Background"
 			"armedBgColor_override"					"Background Dark"
 			"depressedBgColor_override"				"Background Dark"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
 		}
 	}
-	
-	
-	
 
 
 
@@ -591,10 +588,13 @@
 
 
 
-	
-	
+
+
+
+
+
 	//IDK STUFF
-	
+
 	"SysMenu"
 	{
 		"ControlName"	  							"Menu"
@@ -616,7 +616,7 @@
 		"fieldName"		  							"teambutton0"
 		"xpos"			  							"99999"
 		"ypos"			  							"0"
-		"zpos"			  							"3"		
+		"zpos"			  							"3"
 		"wide"			  							"125"
 		"tall"			  							"12"
 		"autoResize"	  							"0"
@@ -643,7 +643,7 @@
 		"fieldName"		  							"teambutton1"
 		"xpos"			  							"99999"
 		"ypos"			  							"0"
-		"zpos"			  							"3"		
+		"zpos"			  							"3"
 		"wide"			  							"125"
 		"tall"			  							"12"
 		"autoResize"	  							"0"
@@ -658,7 +658,7 @@
 		"paintborder"	  							"0"
 		"command"		  							"jointeam red"
 		"team"				  						"2"
-		"associated_model"	  						"reddoor"	
+		"associated_model"	  						"reddoor"
 		"hover"				  						"2.0"
 		"font"			  							"invisiblelolol"
 		"fgcolor"		  							"255 255 255 0"
@@ -671,7 +671,7 @@
 		"xpos"			  							"99999"
 		"ypos"			  							"0"
 		"zpos"			  							"2"
-		"wide"			  							"60" 
+		"wide"			  							"60"
 		"tall"			  							"12"
 		"autoResize"	  							"0"
 		"pinCorner"		  							"2"
@@ -688,7 +688,7 @@
 		"font"			  							"invisiblelolol"
 		"fgcolor"		  							"255 255 255 0"
 	}
-	
+
 	"teambutton3"									//SPECTATE
 	{
 		"ControlName"	  							"CTFTeamButton"
@@ -696,7 +696,7 @@
 		"xpos"			  							"99999"
 		"ypos"			  							"0"
 		"zpos"			  							"2"
-		"wide"			  							"60" 
+		"wide"			  							"60"
 		"tall"			  							"12"
 		"autoResize"	  							"0"
 		"pinCorner"		  							"2"
@@ -709,7 +709,7 @@
 		"brighttext"	  							"0"
 		"paintborder"	  							"0"
 		"command"		  							"jointeam spectate"
-		"associated_model"	  						"spectate"	
+		"associated_model"	  						"spectate"
 		"font"			  							"invisiblelolol"
 		"fgcolor"		  							"255 255 255 0"
 	}

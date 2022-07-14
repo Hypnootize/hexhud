@@ -14,24 +14,24 @@
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDark"
-		
+
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
 
 
-			if_small
+			"if_small"
 			{
 				"font"								"Light 10"
 			}
 
-			if_medium
+			"if_medium"
 			{
 				"font"								"Light 14"
 			}
 
-			if_large
+			"if_large"
 			{
 				"font"								"Light 16"
 			}
@@ -51,5 +51,5 @@
 			"wrap"									"1"
 			"alpha"									"255"
 		}
-	}	
+	}
 }

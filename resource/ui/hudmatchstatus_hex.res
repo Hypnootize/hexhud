@@ -10,7 +10,7 @@
 	}
 
 	"CountdownLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
 		"font"										"Light 24 Shadow"
@@ -28,7 +28,7 @@
 		"fgcolor"									"White"
 		"alpha"										"0"
 
-		if_readymode
+		"if_readymode"
 		{
 			"xpos"									"300"
 			"ypos"									"130"
@@ -61,7 +61,7 @@
 			}
 		}
 
-		"paintbackground"							"0"	
+		"paintbackground"							"0"
 	}
 
 	"MatchDoors"
@@ -70,7 +70,7 @@
 		"fieldName"									"MatchDoors"
 		"xpos"										"0"
 		"ypos"										"9999"
-		"zpos"										"2"		
+		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"f0"
 		"autoResize"								"0"
@@ -80,7 +80,7 @@
 		"fov"										"70"
 		"alpha"										"0"
 		"proportionaltoparent"						"1"
-		
+
 		"model"
 		{
 			"modelname"								"models/vgui/versus_doors.mdl"
@@ -104,7 +104,7 @@
 				"name"								"open"
 				"sequence"							"open"
 			}
-			
+
 			"animation"
 			{
 				"name"								"close"
@@ -118,9 +118,9 @@
 			}
 		}
 	}
-	
+
 	"RankUpLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpLabel"
 		"font"										"Light 18"
@@ -161,7 +161,7 @@
 		"delta_lifetime"							"0"
 		"delta_item_font"							"0"
 		"proportionaltoparent"						"1"
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
@@ -178,7 +178,7 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-		}	
+		}
 	}
 
 	"TeamStatus"
@@ -224,7 +224,7 @@
 			"percentage_health_low"					"0.3"
 			"color_portrait_blend_dead_red"			"White"
 			"color_portrait_blend_dead_blue" 		"White"
-			
+
 			"PlayerName"
 			{
 				"ControlName"						"CExLabel"
@@ -256,7 +256,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
-				"scaleImage"						"1"	
+				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 			}
 			"classbackground"
@@ -276,7 +276,7 @@
 				"proportionaltoparent"				"1"
 			}
 			"healthbar"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"healthbar"
 				"font"								"Default"
@@ -294,7 +294,7 @@
 				"proportionaltoparent"				"1"
 			}
 			"overhealbar"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"overhealbar"
 				"font"								"Default"
@@ -330,7 +330,7 @@
 				"proportionaltoparent"				"1"
 			}
 
-			
+
 			"classimagebg"
 			{
 				"ControlName"						"EditablePanel"
@@ -396,7 +396,7 @@
 		"enabled"									"1"
 		"alpha"										"255"
 
-		if_large
+		"if_large"
 		{
 			"ypos"									"65"
 			"tall"									"385"
@@ -472,13 +472,13 @@
 			"fieldName"								"BlueLeaderAvatar"
 			"xpos"									"11"
 			"ypos"									"10"
-			"zpos"									"5"	
+			"zpos"									"5"
 			"wide"									"35"
 			"tall"									"35"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									""
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"color_outline"							"52 48 45 255"
 		}
 		"BlueLeaderAvatarBG"
@@ -511,7 +511,7 @@
 			"linegap"								"4"
 			//"show_columns"						"1"
 
-			if_large
+			"if_large"
 			{
 				"tall"								"315"
 			}
@@ -531,7 +531,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"TransparentBackground"
 
-			if_large
+			"if_large"
 			{
 				"tall"								"325"
 			}
@@ -551,7 +551,7 @@
 		"enabled"									"1"
 		"alpha"										"255"
 
-		if_large
+		"if_large"
 		{
 			"ypos"									"65"
 			"tall"									"385"
@@ -633,7 +633,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									""
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"color_outline"							"52 48 45 255"
 		}
 		"RedLeaderAvatarBG"
@@ -666,7 +666,7 @@
 			"linegap"								"4"
 			//"show_columns"						"1"
 
-			if_large
+			"if_large"
 			{
 				"tall"								"315"
 			}
@@ -686,7 +686,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"TransparentBackground"
 
-			if_large
+			"if_large"
 			{
 				"tall"								"325"
 			}
@@ -700,7 +700,7 @@
 		"xpos"										"9999"
 	}
 	"CountdownLabelShadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
 		"xpos"										"9999"
@@ -717,7 +717,7 @@
 		"xpos"										"9999"
 	}
 	"RankUpShadowLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpShadowLabel"
 		"xpos"										"9999"

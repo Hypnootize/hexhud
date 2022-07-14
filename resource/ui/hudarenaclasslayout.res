@@ -11,14 +11,14 @@
 		"tall"										"45"
 		"visible"									"1"
 		"enabled"									"1"
-		
-		"alpha"										"200"	
+
+		"alpha"										"200"
 		"scaleImage"								"1"
 		"image"										"replay/thumbnails/panels/flat_background"
 		"teambg_2"									"replay/thumbnails/panels/flat_background"
 		"teambg_3"									"replay/thumbnails/panels/flat_background"
 	}
-	
+
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -53,7 +53,7 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"Title"
 	}
-	
+
 	"ChangeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -86,10 +86,10 @@
 		"labelText"									"#TF_Arena_F4_ChangeClass"
 		"textAlignment"								"center"
 		"fgcolor"									"Shadow"
-		
+
 		"pin_to_sibling"							"ChangeLabel"
 	}
-	
+
 	"classImage0"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -101,10 +101,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage1"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -116,10 +116,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage2"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -131,10 +131,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage3"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -146,10 +146,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage4"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -161,10 +161,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage5"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -176,10 +176,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage6"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -191,10 +191,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage7"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -206,10 +206,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage8"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -221,10 +221,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage9"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -236,10 +236,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage10"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -251,10 +251,10 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
+
 	"classImage11"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -266,14 +266,14 @@
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										""	
-		"scaleImage"								"1"	
+		"image"										""
+		"scaleImage"								"1"
 	}
-	
-	
-	
-	
-	//REMOVED STUFF	
+
+
+
+
+	//REMOVED STUFF
 	"background"
 	{
 		"ControlName"								"CTFImagePanel"

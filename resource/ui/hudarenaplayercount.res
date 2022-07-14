@@ -13,7 +13,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
-		
+
 		"TeamBar"
 		{
 			"ControlName"							"EditablePanel"
@@ -30,7 +30,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Blue"
 		}
-		
+
 		"PlayersIcon"
 		{
 			"ControlName"							"CExLabel"
@@ -48,7 +48,7 @@
 			"textAlignment"							"west"
 			"fgcolor"								"OffWhite"
 		}
-		
+
 		"Count"
 		{
 			"ControlName"							"CExLabel"
@@ -81,13 +81,13 @@
 		}
 		"playerimage"
 		{
-			"ControlName"							"ImagePanel"		
+			"ControlName"							"ImagePanel"
 			"fieldName"								"playerimage"
 			"xpos"									"9999"
 		}
 	}
 
-	"RlueTeam"
+	"RedTeam"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"RedTeam"
@@ -100,7 +100,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
-		
+
 		"TeamBar"
 		{
 			"ControlName"							"EditablePanel"
@@ -117,7 +117,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Red"
 		}
-		
+
 		"PlayersIcon"
 		{
 			"ControlName"							"CExLabel"
@@ -135,7 +135,7 @@
 			"textAlignment"							"west"
 			"fgcolor"								"OffWhite"
 		}
-		
+
 		"Count"
 		{
 			"ControlName"							"CExLabel"
@@ -168,7 +168,7 @@
 		}
 		"playerimage"
 		{
-			"ControlName"							"ImagePanel"		
+			"ControlName"							"ImagePanel"
 			"fieldName"								"playerimage"
 			"xpos"									"9999"
 		}

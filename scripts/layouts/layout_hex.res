@@ -1,6 +1,6 @@
 "Resource/HudLayout.res"
 {
-	HudWeaponAmmo
+	"HudWeaponAmmo"
 	{
 		"xpos"										"0"
 		"xpos_minmode"								"0"
@@ -9,22 +9,22 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-	
-	HudKothTimeStatus
+
+	"HudKothTimeStatus"
 	{
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"wide"										"200"
 		"tall"										"32"
-		
+
 		"blue_active_xpos"							"56"
 		"blue_active_xpos_minmode"					"56"
-	
+
 		"red_active_xpos"							"104"
 		"red_active_xpos_minmode"					"104"
-	}	
+	}
 
-	HudMedicCharge
+	"HudMedicCharge"
 	{
 		"xpos"										"0"
 		"xpos_minmode"								"0"
@@ -33,8 +33,8 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-	
-	HudDemomanCharge
+
+	"HudDemomanCharge"
 	{
 		"xpos"										"0"
 		"xpos_minmode"								"0"
@@ -45,15 +45,15 @@
 		"wide_minmode"								"f0"
 		"tall"										"480"
 	}
-	
-	HudBossHealth
+
+	"HudBossHealth"
 	{
 		"xpos"										"cs-0.5"
 		"wide"										"178"
 		"tall"										"22"
 	}
-	
-	CHudAccountPanel
+
+	"CHudAccountPanel"
 	{
 		"xpos"         								"cs-0.5"
 		"ypos"										"c85"
@@ -61,8 +61,8 @@
 		"wide"										"200"
 		"tall"  									"30"
 	}
-	
-	CHealthAccountPanel
+
+	"CHealthAccountPanel"
 	{
 		"xpos"										"c-162"
 		"xpos_minmode"								"c-109"
@@ -71,8 +71,8 @@
 		"wide"										"100"
 		"tall"  									"25"
 	}
-	
-	HudDamageIndicator
+
+	"HudDamageIndicator"
 	{
 		"MinimumWidth"								"15"
 		"MaximumWidth"								"35"
@@ -82,16 +82,16 @@
 		"MaximumHeight"								"60"
 		"MinimumTime"								"1"
 	}
-	
-	CDamageAccountPanel
+
+	"CDamageAccountPanel"
 	{
 		"xpos"										"-5"
 		"ypos"										"-5"
 		"wide"										"f0"
 		"tall"										"480"
 	}
-	
-	DisguiseStatus
+
+	"DisguiseStatus"
 	{
 		"xpos"										"0"
 		"ypos"										"0"
@@ -99,32 +99,32 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-	
-	CMainTargetID
+
+	"CMainTargetID"
 	{
 		"ypos"										"c65"
 		"ypos_minmode"								"c25"
 		"tall"	 									"50"
 		"tall_minmode"	 							"50"
 	}
-	
-	CSecondaryTargetID
+
+	"CSecondaryTargetID"
 	{
 		"ypos"										"r129"
 		"ypos_minmode"								"c85"
 		"tall"	 									"50"
 		"tall_minmode"	 							"50"
 	}
-	
-	CSpectatorTargetID
+
+	"CSpectatorTargetID"
 	{
 		"ypos"										"330"
 		"tall"	 									"50"
 		"tall_minmode"	 							"50"
 	}
-	
+
 	"BuildingAnchor"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"BuildingAnchor"
 		"xpos"										"1"
@@ -137,7 +137,7 @@
 		"paintbackground"							"0"
 	}
 
-	BuildingStatus_Spy
+	"BuildingStatus_Spy"
 	{
 		"xpos"										"0"
 		"ypos"										"0"
@@ -146,18 +146,18 @@
 
 		"pin_to_sibling"							"BuildingAnchor"
 	}
-	
-	BuildingStatus_Engineer
+
+	"BuildingStatus_Engineer"
 	{
 		"xpos"										"12"		// Changed positioning here to avoid a pixel misalignment with the build menu
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		
+
 		"pin_to_sibling"							"BuildingAnchor"
 	}
-	
-	HudDeathNotice
+
+	"HudDeathNotice"
 	{
 		"xpos"	 									"rs1-5"
 		"ypos"	 									"25"
@@ -168,9 +168,9 @@
 		"LineSpacing"	 							"0"
 		"CornerRadius"	  							"0"
 		"RightJustify"	  							"1"
-		
+
 		"TextFont"									"Light 10"
-		
+
 		"TeamBlue"									"35 160 245 255"
 		"TeamRed"									"245 70 70 255"
 		"IconColor"									"White"
@@ -179,8 +179,8 @@
 		"BaseBackgroundColor"						"Background"
 		"LocalBackgroundColor"						"220 220 220 255"
 	}
-	
-	HudCloseCaption
+
+	"HudCloseCaption"
 	{
 		"xpos"										"c210"
 		"xpos_minmode"								"c210"
@@ -194,32 +194,32 @@
 		"ItemFadeInTime"							"0"
 		"ItemFadeOutTime"							"0"
 	}
-	
-	HudVoiceStatus
+
+	"HudVoiceStatus"
 	{
 		"show_avatar"								"1"
-        
+
         "avatar_xpos"  							 	"-12"
         "avatar_ypos"  							 	"-1"
         "avatar_wide"  							 	"17"
         "avatar_tall"  								"17"
-		
+
 		"icon_ypos"									"2"
 		"icon_xpos"									"17"
 		"icon_tall"									"12"
 		"icon_wide"									"12"
-		
+
 		"text_xpos"									"33"
 	}
-	
-	HudControlPointIcons
+
+	"HudControlPointIcons"
 	{
 		"separator_width"							"3"
 		"separator_height"							"3"
 		"height_offset"								"0"
 	}
 
-	WinPanel
+	"WinPanel"
 	{
 		"xpos"										"0"
 		"ypos"										"0"
@@ -227,8 +227,8 @@
 		"wide"										"f0"
 		"tall"										"f0"
 	}
-	
-	ArenaWinPanel
+
+	"ArenaWinPanel"
 	{
 		"xpos"										"0"
 		"ypos"										"0"
@@ -236,7 +236,7 @@
 		"wide"										"f0"
 		"tall"										"f0"
 	}
-	
+
 	"HudAlert"
 	{
 		"xpos"										"0"
@@ -244,16 +244,16 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-	
-	HudTeamSwitch
+
+	"HudTeamSwitch"
 	{
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
 	}
-	
-	HudArenaClassLayout
+
+	"HudArenaClassLayout"
 	{
 		"ypos"										"r340"
 	}
@@ -266,7 +266,7 @@
 		"wide"										"85"
 		"tall"										"480"
 	}
-	
+
 	"HudMenuEngyDestroy"
 	{
 		"xpos"										"1"
@@ -284,7 +284,7 @@
 		"wide"										"34"
 		"tall"										"68"
 	}
-	
+
 	"HudMenuSpyDisguise"
 	{
 		"xpos"										"0"
@@ -293,7 +293,7 @@
 		"wide"										"95"
 		"tall"										"216"
 	}
-	
+
 	"HudMenuTauntSelection"
 	{
 		"xpos"										"1"
@@ -302,8 +302,8 @@
 		"wide"										"88"
 		"tall"										"194"
 	}
-	
-	HudDemomanPipes
+
+	"HudDemomanPipes"
 	{
 		"xpos"										"0"
 		"xpos_minmode"								"0"
@@ -312,13 +312,13 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-	
-	HudArenaCapPointCountdown
+
+	"HudArenaCapPointCountdown"
 	{
 		"ypos"										"r30"
 	}
 
-	HudStalemate
+	"HudStalemate"
 	{
 		"xpos"										"0"
 		"ypos"										"0"
@@ -326,7 +326,7 @@
 		"tall"										"f0"
 	}
 
-	HudTournament
+	"HudTournament"
 	{
 		"xpos"										"0"
 		"ypos"										"0"
@@ -335,7 +335,7 @@
 		"tall"										"480"
 	}
 
-	HudTournamentSetup
+	"HudTournamentSetup"
 	{
 		"xpos"										"cs-0.5"
 		"ypos"										"23"
@@ -343,7 +343,7 @@
 		"tall"										"15"
 	}
 
-	HudStopWatch
+	"HudStopWatch"
 	{
 		"xpos"										"0"
 		"ypos"										"0"
@@ -351,22 +351,22 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-	
+
 	"HudAchievementTracker"
 	{
 		"xpos"										"2"
 		"NormalY"									"30"
 		"EngineerY"									"30"
 	}
-	
-	ItemQuickSwitchPanel
+
+	"ItemQuickSwitchPanel"
 	{
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
 	}
-	
+
 	"QueueHUDStatus"
 	{
 		"xpos"										"0"
@@ -375,30 +375,30 @@
 		"tall"										"480"
 		"alpha"										"255"
 	}
-	
+
 	//REMOVED STUFF
-	HudBowCharge
+	"HudBowCharge"
 	{
 		"wide"										"0"
 		"wide_minmode"								"0"
 	}
-	StatPanel
+	"StatPanel"
 	{
 		"wide"										"0"
 	}
-	HudArenaNotification
+	"HudArenaNotification"
 	{
 		"wide"										"0"
 	}
-	HudTeamGoal
+	"HudTeamGoal"
 	{
 		"wide"										"0"
 	}
-	HudTeamGoalTournament
+	"HudTeamGoalTournament"
 	{
 		"wide"										"0"
 	}
-	FreezePanelCallout
+	"FreezePanelCallout"
 	{
 		"wide"										"0"
 	}

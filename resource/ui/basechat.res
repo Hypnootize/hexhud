@@ -15,7 +15,7 @@
 		"bgcolor_override"							"0 0 15 255"
 	}
 
-	ChatInputLine
+	"ChatInputLine"
 	{
 		"ControlName" 								"EditablePanel"
 		"fieldName" 								"ChatInputLine"

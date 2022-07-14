@@ -1,4 +1,4 @@
-"Resource/UI/DetailsPanel.res"
+"Resource/UI/ReplayBrowser/DetailsPanel.res"
 {
 	"DetailsPanel"
 	{
@@ -15,7 +15,7 @@
 		"bgcolor_override"							"Background_Secondary"
 		"margin_width"								"c-295"
 	}
-	
+
 	"InsetPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -24,7 +24,7 @@
 		"ypos"										"15"
 		"wide"										"590"
 		"tall"										"800"
-	
+
 		"PlaybackPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -34,7 +34,7 @@
 			"wide"									"320"
 			"tall"									"200"
 		}
-		
+
 		"TitleEditPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -43,7 +43,7 @@
 			"ypos"									"0"
 			"wide"									"590"
 		}
-		
+
 		"CutsPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -70,17 +70,17 @@
 		"Command"									"exportmovie"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}		
+	}
 
 	"ShowRenderInfoButton"
 	{
@@ -96,20 +96,20 @@
 		"textAlignment"								"center"
 		"Command"									"showrenderinfo"
 		"sound_depressed"							"UI/buttonclick.wav"
-	
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-		
+
 		"image_default"								"replay/info_button_small"
 		"image_armed"								"replay/info_button_over_small"
-		
+
 		"SubImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -122,7 +122,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"scaleImage"							"1"
-		}	
+		}
 	}
 
 	"YouTubeUploadButton"
@@ -141,11 +141,11 @@
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -168,11 +168,11 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -195,16 +195,16 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
+
 	"DeleteButton"
 	{
 		"ControlName"								"CExButton"
@@ -224,16 +224,16 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}	
-	
+	}
+
 	"PlayButton"
 	{
 		"ControlName"								"CExButton"
@@ -254,16 +254,16 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}		
-	
+	}
+
 	"RenderButton"
 	{
 		"ControlName"								"CExButton"
@@ -283,13 +283,13 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}	
+	}
 }

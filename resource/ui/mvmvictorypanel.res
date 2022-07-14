@@ -9,7 +9,7 @@
 		"wide"										"536"
 		"tall"										"230"
 		"visible"									"1"
-		
+
 		"StatsBackground"
 		{
 			"ControlName"							"ScalableImagePanel"
@@ -31,7 +31,7 @@
 			"painbackgroundtype"					"0"
 			"bgcolor_override"						"TransparentBackground"
 		}
-		
+
 		"HeaderContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -42,7 +42,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
-			
+
 			"HeaderLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -65,7 +65,7 @@
 				"xpos"								"9999"
 			}
 		}
-	
+
 		"CreditLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -80,7 +80,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-		
+
 		"CreditContainer"
 		{
 			"ControlName"							"CCreditDisplayPanel"
@@ -104,7 +104,7 @@
 			"tall"									"400"
 			"autoResize"							"1"
 			"visible"								"1"
-			
+
 			"RatingLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -119,13 +119,13 @@
 				"AllCaps"							"1"
 				"fgcolor"							"White"
 			}
-			
+
 			"RatingTextShadow"
 			{
 				"ControlName"						"CExLabel"
 				"xpos"								"9999"
 			}
-			
+
 			"RatingText"
 			{
 				"ControlName"						"CExLabel"
@@ -140,7 +140,7 @@
 				"fgcolor"							"White"
 			}
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"							"CCreditSpendPanel"
@@ -175,13 +175,13 @@
 		"proportionaltoparent"						"1"
 		"Command"									"done"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
 
 		"defaultBgColor_override"					"Background"
 		"armedBgColor_override"						"Background Dark"
 		"depressedBgColor_override" 				"Background Dark"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"

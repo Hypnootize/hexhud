@@ -1,4 +1,4 @@
-"resource/ui/basepage.res"
+"Resource/UI/ReplayBrowser/Basepage.res"
 {
 	"BasePage"
 	{
@@ -55,7 +55,7 @@
 		"fgcolor_override"							"WhiteDark"
 		"paintbackground"							"1"
 		"bgcolor_override"							"GrayBlueDark"
-		
+
 		"pin_to_sibling" 							"SearchTextEntry"
 	}
 	"NameFilterSearchBG"
@@ -76,7 +76,7 @@
 		"pin_corner_to_sibling"					 	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
 	}
-	
+
 	"ReplayList"
 	{
 		"ControlName"								"PanelListPanel"

@@ -1,4 +1,4 @@
-"Resource/training/modeselection/modeselection.res"
+"Resource/UI/Training/ModeSelection/ModeSelection.res"
 {
 	"RightBG"
 	{
@@ -48,13 +48,13 @@
 		"tabPosition"								"0"
 		"paintBackground"							"0"
 		"proportionaltoparent"						"1"
-		
+
 		"modename"									"#TR_AttackDefense"
 		"description"								"#TF_Training_Desc_BasicTraining"
 		"image"										"illustrations/training_basic"
 		"startcommand"								"basictrainingselected"
 	}
-	
+
 	"OfflinePracticePanel"
 	{
 		"ControlName"								"CModePanel"
@@ -71,7 +71,7 @@
 		"tabPosition"								"0"
 		"paintBackground"							"0"
 		"proportionaltoparent"						"1"
-		
+
 		"modename"									"#TF_OfflinePractice"
 		"description"								"#TF_Training_Desc_OfflinePractice"
 		"image"										"illustrations/training_offlinepractice"

@@ -1,7 +1,7 @@
 "Resource/UI/HudTeamSwitch.res"
-{	
+{
 	"SwitchLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchLabel"
 		"font"										"Light 12"
@@ -20,7 +20,7 @@
 		"textAlignment"								"center"
 	}
 	"SwitchLabelShadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchLabelShadow"
 		"font"										"Light 12 Blur"
@@ -39,16 +39,16 @@
 		"textAlignment"								"center"
 		"pin_to_sibling" 							"SwitchLabel"
 	}
-	
+
 	"BalanceLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BalanceLabel"
 		"font"										"Size 10"
 		"xpos"										"cs-0.5"
 		"ypos"										"60"
 		"zpos"										"2"
-		"wide"										"f0"	
+		"wide"										"f0"
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
@@ -60,14 +60,14 @@
 		"textAlignment"								"center"
 	}
 	"BalanceLabelShadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BalanceLabelShadow"
 		"font"										"Size 10 Blur"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"
-		"wide"										"f0"	
+		"wide"										"f0"
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
@@ -79,7 +79,7 @@
 		"textAlignment"								"center"
 		"pin_to_sibling" 							"BalanceLabel"
 	}
-	
+
 	//REMOVED
 	"HudTeamSwitchBG"
 	{

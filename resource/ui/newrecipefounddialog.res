@@ -16,9 +16,9 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"BorderGrayBlueLight"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"TitleLabel"
 		"font"										"Light 24"
@@ -53,13 +53,13 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"0"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"Light 10"
@@ -78,7 +78,7 @@
 			"centerwrap"							"1"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -101,10 +101,10 @@
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"

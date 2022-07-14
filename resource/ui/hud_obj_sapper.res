@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_sapper.res"
+"Resource/UI/Hud_Obj_Sapper.res"
 {
 	"BuildingStatusItem"
 	{
@@ -14,7 +14,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
+
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -31,7 +31,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 	}
-	
+
 	"IconBackgound"
 	{
 		"ControlName"								"EditablePanel"
@@ -48,7 +48,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background Dark"
 	}
-	
+
 	"Icon"
 	{
 		"ControlName"								"CIconPanel"
@@ -65,7 +65,7 @@
 		"icon"										"obj_status_icon_sapper"
 		"iconColor"									"White"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -77,7 +77,7 @@
 		"tall"										"f4"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"NotBuiltBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -109,7 +109,7 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -121,7 +121,7 @@
 		"tall"										"f4"
 		"visible"									"0"
 		"proportionaltoparent"						"1"
-	
+
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -132,7 +132,7 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"proportionaltoparent"					"1"
-			
+
 			"TargetIcon"
 			{
 				"ControlName"						"CIconPanel"
@@ -143,21 +143,21 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"scaleImage"						"1"	
+				"scaleImage"						"1"
 				"icon"								"obj_status_sentrygun_1"
 				"iconColor"							"White"
 				"proportionaltoparent"				"1"
 			}
-			
+
 			"TargetHealth"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"TargetHealth"
 				"font"								"Default"
 				"xpos"								"26"
 				"ypos"								"cs-0.5+1"
 				"wide"								"20"
-				"tall"								"5"				
+				"tall"								"5"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
@@ -169,9 +169,9 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-		
+
 		"Health"
-		{	
+		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
 			"xpos"									"9999"

@@ -1,6 +1,6 @@
 #base "../../resource/dev/reloadschemebutton.res"
 
-"ImportFileDialog.res"
+"Resource/UI/ImportFileDialog.res"
 {
 	"ImportFileDialog"
 	{
@@ -51,7 +51,7 @@
 		"xpos"										"9999"
 	}
 
-	"Title"	
+	"Title"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
@@ -295,7 +295,7 @@
 		"labelText"									"Perforce"
 		"Font"										"Light 12"
 		"textAlignment"								"west"
-		"xpos"										"245" 
+		"xpos"										"245"
 		"ypos"										"85"
 		"wide"										"80"
 		"tall"										"20"
@@ -311,7 +311,7 @@
 		"labelText"									"Partner"
 		"Font"										"Light 12"
 		"textAlignment"								"west"
-		"xpos"										"325" 
+		"xpos"										"325"
 		"ypos"										"85"
 		"wide"										"80"
 		"tall"										"20"
@@ -332,7 +332,7 @@
 		"paintbackground" 							"1"
 		"paintbackgroundtype" 						"0"
 		"bgcolor_override" 							"BlackBlue"
-				
+
 		"ButtonIconClear"
 		{
 			"ControlName"							"CExButton"
@@ -345,16 +345,16 @@
 			"use_proportional_insets" 				"1"
 			"font"									"Symbols 12"
 			"textAlignment"							"center"
-				
+
 			"labelText"								"-"
 			"command"								"ClearIcon"
 
 			"paintbackground"						"1"
-		
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
@@ -372,16 +372,16 @@
 			"use_proportional_insets" 				"1"
 			"font"									"Symbols 12"
 			"textAlignment"							"center"
-				
+
 			"labelText"								"q"
 			"command"								"BrowseIcon"
 
 			"paintbackground"						"1"
-		
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
@@ -396,7 +396,7 @@
 			"zpos"									"1"
 			"wide"									"190"
 			"tall"									"122"
-		}	
+		}
 
 		"IconLabel"
 		{
@@ -415,7 +415,7 @@
 			"fgcolor"								"WhiteDark"
 		}
 	}
-	
+
 	"ClassModelsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -432,7 +432,7 @@
 		"ClassesTitle"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"ClassModelsTitle"
+			"fieldName"								"ClassesTitle"
 			"xpos"									"4"
 			"ypos"									"-3"
 			"wide"									"100"
@@ -460,7 +460,7 @@
 		"ClassButton1"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass1"
+			"fieldName"								"ClassButton1"
 			"xpos"									"4"
 			"ypos"									"15"
 			"wide"									"63"
@@ -484,7 +484,7 @@
 		"ClassButton2"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass2"
+			"fieldName"								"ClassButton2"
 			"xpos"									"4"
 			"ypos"									"37"
 			"wide"									"63"
@@ -508,7 +508,7 @@
 		"ClassButton3"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass3"
+			"fieldName"								"ClassButton3"
 			"xpos"									"4"
 			"ypos"									"59"
 			"wide"									"63"
@@ -532,7 +532,7 @@
 		"ClassButton4"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass4"
+			"fieldName"								"ClassButton4"
 			"xpos"									"4"
 			"ypos"									"81"
 			"wide"									"63"
@@ -556,7 +556,7 @@
 		"ClassButton5"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass5"
+			"fieldName"								"ClassButton5"
 			"xpos"									"4"
 			"ypos"									"103"
 			"wide"									"63"
@@ -580,7 +580,7 @@
 		"ClassButton6"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass6"
+			"fieldName"								"ClassButton6"
 			"xpos"									"4"
 			"ypos"									"125"
 			"wide"									"63"
@@ -604,7 +604,7 @@
 		"ClassButton7"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass7"
+			"fieldName"								"ClassButton7"
 			"xpos"									"4"
 			"ypos"									"147"
 			"wide"									"63"
@@ -628,7 +628,7 @@
 		"ClassButton8"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass8"
+			"fieldName"								"ClassButton8"
 			"xpos"									"4"
 			"ypos"									"169"
 			"wide"									"63"
@@ -652,7 +652,7 @@
 		"ClassButton9"
 		{
 			"ControlName"							"RadioButton"
-			"fieldName"								"ButtonSelectClass9"
+			"fieldName"								"ClassButton9"
 			"xpos"									"4"
 			"ypos"									"191"
 			"wide"									"63"
@@ -700,7 +700,7 @@
 			"labelText"								""
 			"Font"									"Light 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"18"
 			"wide"									"150"
 			"tall"									"20"
@@ -718,7 +718,7 @@
 			"labelText"								""
 			"Font"									"Light 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"38"
 			"wide"									"150"
 			"tall"									"20"
@@ -736,7 +736,7 @@
 			"labelText"								""
 			"Font"									"Light 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"58"
 			"wide"									"150"
 			"tall"									"20"
@@ -754,7 +754,7 @@
 			"labelText"								""
 			"Font"									"Light 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"78"
 			"wide"									"150"
 			"tall"									"20"
@@ -772,7 +772,7 @@
 			"labelText"								""
 			"Font"									"Light 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"98"
 			"wide"									"150"
 			"tall"									"20"
@@ -790,7 +790,7 @@
 			"labelText"								""
 			"Font"									"Light 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"118"
 			"wide"									"150"
 			"tall"									"20"
@@ -808,7 +808,7 @@
 			"labelText"								""
 			"Font"									"Light 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"138"
 			"wide"									"150"
 			"tall"									"20"
@@ -826,7 +826,7 @@
 			"labelText"								""
 			"Font"									"Light 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"158"
 			"wide"									"150"
 			"tall"									"20"
@@ -844,7 +844,7 @@
 			"labelText"								""
 			"Font"									"Light 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"178"
 			"wide"									"150"
 			"tall"									"20"
@@ -855,7 +855,7 @@
 			"border"								"SteamWorkshopBorder"
 		}
 	}
-	
+
 	"LODsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -865,7 +865,7 @@
 		"wide"										"150"
 		"tall"										"270"
 		"visible"									"1"
-	
+
 		"LOD0Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -898,21 +898,21 @@
 				"fieldName"							"ButtonLOD0Clear"
 				"xpos"								"133"
 				"ypos"								"2"
-				"wide"								"15"	
+				"wide"								"15"
 				"tall"								"15"
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"-"
 				"command"							"ClearLOD0"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
@@ -928,16 +928,16 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"q"
 				"command"							"BrowseLOD0"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
@@ -967,7 +967,7 @@
 				"fgcolor"							"WhiteDark"
 			}
 		}
-	
+
 		"LOD1Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1007,16 +1007,16 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"-"
 				"command"							"ClearLOD1"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
@@ -1033,16 +1033,16 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"q"
 				"command"							"BrowseLOD1"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
@@ -1074,7 +1074,7 @@
 				"fgcolor"							"WhiteDark"
 			}
 		}
-	
+
 		"LOD2Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1113,16 +1113,16 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"-"
 				"command"							"ClearLOD2"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
@@ -1139,16 +1139,16 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"q"
 				"command"							"BrowseLOD2"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
@@ -1199,11 +1199,11 @@
 			"font"									"Light 12"
 
 			"paintbackground"						"1"
-		
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
@@ -1222,7 +1222,7 @@
 		"paintbackground" 							"1"
 		"paintbackgroundtype" 						"0"
 		"bgcolor_override" 							"BlackBlue"
-		
+
 		"SkinsTitle"
 		{
 			"ControlName"							"CExLabel"
@@ -1256,11 +1256,11 @@
 			"font"									"Light 12"
 
 			"paintbackground"						"1"
-		
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
@@ -1296,7 +1296,7 @@
 				"paintbackgroundtype"				"0"
 			}
 		}
-	
+
 		"Material0Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1333,19 +1333,19 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"|"
 				"command"							"EditMaterial0"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override"			"Button_Hover"	
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"Material0File"
 			{
@@ -1360,7 +1360,7 @@
 				"fgcolor"							"WhiteDark"
 			}
 		}
-		
+
 		"Material1Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1397,19 +1397,19 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"|"
 				"command"							"EditMaterial1"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override"			"Button_Hover"	
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"Material1File"
 			{
@@ -1461,19 +1461,19 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"|"
 				"command"							"EditMaterial2"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override"			"Button_Hover"	
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"Material2File"
 			{
@@ -1525,19 +1525,19 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"|"
 				"command"							"EditMaterial3"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override"			"Button_Hover"	
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"Material3File"
 			{
@@ -1560,14 +1560,14 @@
 			"labelText"								"#TF_ImportFile_Paintable0"
 			"Font"									"Light 11"
 			"textAlignment"							"west"
-			"xpos"									"4" 
+			"xpos"									"4"
 			"ypos"									"190"
 			"wide"									"100"
 			"tall"									"20"
 			"visible"								"0"
 			"enabled"								"1"
 			"disabledfgcolor2_override"				"WhiteDark"
-			"command"								"UpdatePaintable0"	
+			"command"								"UpdatePaintable0"
 			"border"								"SteamWorkshopBorder"
 		}
 
@@ -1578,14 +1578,14 @@
 			"labelText"								"#TF_ImportFile_Paintable1"
 			"Font"									"Light 11"
 			"textAlignment"							"west"
-			"xpos"									"100" 
+			"xpos"									"100"
 			"ypos"									"190"
 			"wide"									"100"
 			"tall"									"20"
 			"visible"								"0"
 			"enabled"								"1"
 			"disabledfgcolor2_override"				"WhiteDark"
-			"command"								"UpdatePaintable1"	
+			"command"								"UpdatePaintable1"
 			"border"								"SteamWorkshopBorder"
 		}
 	}
@@ -1654,19 +1654,19 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"-"
 				"command"							"ClearAnimationSource"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override"			"Button_Hover"	
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"ButtonAnimationSourceBrowse"
 			{
@@ -1679,19 +1679,19 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"q"
 				"command"							"BrowseAnimationSource"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override"			"Button_Hover"	
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"AnimationSourceFile"
 			{
@@ -1757,19 +1757,19 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"-"
 				"command"							"ClearAnimationVCD"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override"			"Button_Hover"	
+				"depressedBgColor_override"			"Button_Hover"
 			}
 			"ButtonAnimationVCDBrowse"
 			{
@@ -1782,16 +1782,16 @@
 				"use_proportional_insets" 			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
-				
+
 				"labelText"							"-"
 				"command"							"BrowseAnimationVCD"
 
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
-			
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
@@ -1830,7 +1830,7 @@
 			"labelText"								"Loop"
 			"Font"									"Light 11"
 			"textAlignment"							"west"
-			"xpos"									"0" 
+			"xpos"									"0"
 			"ypos"									"140"
 			"wide"									"80"
 			"tall"									"20"
@@ -1895,11 +1895,11 @@
 			"font"									"Light 12"
 
 			"paintbackground"						"1"
-		
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
@@ -1917,16 +1917,16 @@
 		"use_proportional_insets" 					"1"
 		"font"										"Symbols 16"
 		"textAlignment"								"center"
-				
+
 		"labelText"									"q"
-		"command"									"Load"				
-				
+		"command"									"Load"
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-			
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -1948,11 +1948,11 @@
 		"Command"									"Close"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -1975,11 +1975,11 @@
 		"font"										"Light 12"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -2002,11 +2002,11 @@
 		"font"										"Light 12"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -2029,11 +2029,11 @@
 		"font"										"Light 12"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -2057,7 +2057,7 @@
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"fieldName"									"classmodelpanel"
-		
+
 		"xpos"										"c-290"
 		"ypos"										"c-182"
 		"zpos"										"1"
@@ -2066,15 +2066,15 @@
 		"autoResize"								"1"
 		"visible"									"0"
 		"enabled"									"1"
-		
+
 		"render_texture"							"0"
 		"fov"										"40"
 		"allow_manip"								"1"
 
-		"paintbackground" 							"1"		
+		"paintbackground" 							"1"
 		"paintbackgroundenabled" 					"1"
 		"bgcolor_override" 							"255 255 255 0"
-		
+
 		"model"
 		{
 			"force_pos"								"1"
@@ -2089,7 +2089,7 @@
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
 			"spotlight"								"1"
-		
+
 			"modelname"								""
 		}
 	}

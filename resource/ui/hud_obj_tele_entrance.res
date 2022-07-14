@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_tele_entrance.res"
+"Resource/UI/Hud_Obj_Tele_Entrance.res"
 {
 	"BuildingStatusItem"
 	{
@@ -14,11 +14,11 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
+
 	"Icon_Teleport_Entrance"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"Icon"
+		"fieldName"									"Icon_Teleport_Entrance"
 		"xpos"										"7"
 		"ypos"										"cs-0.5-2"
 		"zpos"										"1"
@@ -31,7 +31,7 @@
 		"icon"										"obj_status_tele_entrance"
 		"iconColor"									"White"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -85,7 +85,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -97,7 +97,7 @@
 		"tall"										"f2"
 		"visible"									"0"
 		"proportionaltoparent"						"1"
-		
+
 		"BuiltBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -131,7 +131,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Dark"
 		}
-		
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"							"CIconPanel"
@@ -206,16 +206,16 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									""
 			"iconColor"								"White"
 			"paintbackground"						"1"
 			"bgcolor_override"						"Red"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"Health"
-		{	
+		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
 			"font"									"Default"
@@ -233,7 +233,7 @@
 			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 		}
-	
+
 		"AlertTray"
 		{
 			"ControlName"							"CBuildingStatusAlertTray"
@@ -252,7 +252,7 @@
 			"fieldName"								"BuildingPanel"
 			"xpos"									"9999"
 		}
-	
+
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -264,9 +264,9 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"proportionaltoparent"					"1"
-			
+
 			"TeleportsLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"TeleportsLabel"
 				"xpos"								"9999"
@@ -277,7 +277,7 @@
 				"fieldName"							"TeleportedIcon"
 				"xpos"								"9999"
 			}
-			
+
 			"ChargingPanel"
 			{
 				"ControlName"						"EditablePanel"
@@ -288,9 +288,9 @@
 				"tall"								"6"
 				"visible"							"0"
 				"proportionaltoparent"				"1"
-				
+
 				"Recharge"
-				{	
+				{
 					"ControlName"					"ContinuousProgressBar"
 					"fieldName"						"Recharge"
 					"font"							"Default"
@@ -309,7 +309,7 @@
 					"proportionaltoparent"			"1"
 				}
 				"RechargeLabel"
-				{	
+				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RechargeLabel"
 					"font"							"Light 7"
@@ -330,7 +330,7 @@
 					"pin_to_sibling" 				"Recharge"
 				}
 			}
-			
+
 			"FullyChargedPanel"
 			{
 				"ControlName"						"EditablePanel"
@@ -341,9 +341,9 @@
 				"tall"								"10"
 				"visible"							"0"
 				"proportionaltoparent"				"1"
-				
+
 				"Used"
-				{	
+				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"Used"
 					"font"							"Light 8"
@@ -363,9 +363,9 @@
 					"AllCaps"						"1"
 					"proportionaltoparent"			"1"
 				}
-				
+
 				"TimesUsedLabel"
-				{	
+				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"TimesUsedLabel"
 					"font"							"Light 8"
@@ -385,9 +385,9 @@
 					"proportionaltoparent"			"1"
 				}
 			}
-			
+
 			"Upgrade"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
 				"font"								"Default"
@@ -405,7 +405,7 @@
 				"bgcolor_override"					"WhiteDark"
 			}
 			"UpgradeLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"UpgradeLabel"
 				"font"								"Light 7"
@@ -425,7 +425,7 @@
 				"proportionaltoparent"				"1"
 				"pin_to_sibling" 					"Upgrade"
 			}
-			
+
 			"UpgradeIcon"
 			{
 				"ControlName"						"CIconPanel"
@@ -434,7 +434,7 @@
 			}
 		}
 	}
-	
+
 	"Background"
 	{
 		"ControlName"								"CIconPanel"

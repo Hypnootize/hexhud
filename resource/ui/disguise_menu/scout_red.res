@@ -1,4 +1,4 @@
-"Resource/UI/disguise_menu/scout_red.res"
+"Resource/UI/Disguise_Menu/Scout_Red.res"
 {
 	"TitleBG"
 	{
@@ -49,7 +49,7 @@
 		"scaleimage"								"1"
 	}
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
 		"font"										"Light 11"
@@ -94,14 +94,14 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background Dark"
-		
+
 		"pin_to_sibling"							"ItemNameLabel"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
 
 	"NumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
 		"font"										"Light 11"
@@ -122,16 +122,16 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background Dark"
-		
+
 		"pin_to_sibling"							"ItemNameLabel"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-	
+
 	"NewNumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
+		"fieldName"									"NewNumberLabel"
 		"font"										"Light 11"
 		"fgcolor"									"OffWhite"
 		"xpos"										"80"
@@ -146,16 +146,16 @@
 		"dulltext"									"1"
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
-	
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background Dark"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	//REMOVED STUFF
 	"ClassIcon"
 	{

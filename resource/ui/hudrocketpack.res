@@ -2,24 +2,24 @@
 
 "Resource/UI/HudRocketPack.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"ypos"										"r94"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"labelText"									"#TF_RocketPack_Disabled"
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"xpos"										"0"
 		"wide"										"p0.5"
 	}
 
 	"ItemEffectMeter2"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter2"
 		"font"										"Default"
@@ -37,12 +37,12 @@
 		"brighttext"								"0"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling" 							"ItemEffectMeter"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-	
+
 	"ItemEffectIcon"
 	{
 		"ControlName"								"CTFImagePanel"

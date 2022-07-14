@@ -19,7 +19,7 @@
 		"border"									"BorderGrayBlueLight"
 		"bgcolor_override"							"Background_Main"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -37,7 +37,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"SelectModelLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -57,7 +57,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"ModelLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -77,7 +77,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"SelectModelButton"
 	{
 		"ControlName"								"CExButton"
@@ -100,21 +100,21 @@
 		"default"									"1"
 		"Command"									"select_model"
 		"AllCaps"									"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
+
 	"ExistingItemToTestPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -125,7 +125,7 @@
 		"tall"										"50"
 		"visible"									"1"
 		"PaintBackground"							"0"
-		
+
 		"ItemReplacedLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -146,7 +146,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"ExistingItemComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -167,9 +167,9 @@
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			
+
 			"paintborder"							"0"
-			
+
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 			"disabledFgColor_override" 				"WhiteDark"
@@ -188,7 +188,7 @@
 			}
 		}
 	}
-	
+
 	"ItemReplacedPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -199,7 +199,7 @@
 		"tall"										"50"
 		"visible"									"1"
 		"PaintBackground"							"0"
-		
+
 		"ItemReplacedLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -239,9 +239,9 @@
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			
+
 			"paintborder"							"0"
-			
+
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 			"disabledFgColor_override" 				"WhiteDark"
@@ -279,7 +279,7 @@
 			"fgcolor" 								"RedDark"
 		}
 	}
-	
+
 	"BodygroupPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -290,7 +290,7 @@
 		"tall"										"50"
 		"visible"									"1"
 		"PaintBackground"							"0"
-		
+
 		"HideBodygroupLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -310,7 +310,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"HideBodygroupExplanationLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -331,7 +331,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"HideBodygroupCheckBox0"
 		{
 			"ControlName"							"CheckButton"
@@ -353,7 +353,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
-		
+
 		"HideBodygroupCheckBox1"
 		{
 			"ControlName"							"CheckButton"
@@ -375,7 +375,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
-		
+
 		"HideBodygroupCheckBox2"
 		{
 			"ControlName"							"CheckButton"
@@ -397,7 +397,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
-		
+
 		"HideBodygroupCheckBox3"
 		{
 			"ControlName"							"CheckButton"
@@ -419,7 +419,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
-		
+
 		"HideBodygroupCheckBox4"
 		{
 			"ControlName"							"CheckButton"
@@ -441,7 +441,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
-		
+
 		"HideBodygroupCheckBox5"
 		{
 			"ControlName"							"CheckButton"
@@ -463,7 +463,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
-		
+
 		"HideBodygroupCheckBox6"
 		{
 			"ControlName"							"CheckButton"
@@ -485,7 +485,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
-		
+
 		"HideBodygroupCheckBox7"
 		{
 			"ControlName"							"CheckButton"
@@ -508,7 +508,7 @@
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
 	}
-	
+
 	"CustomizationsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -519,7 +519,7 @@
 		"tall"										"50"
 		"visible"									"1"
 		"PaintBackground"							"0"
-		
+
 		"PaintColorLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -539,7 +539,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"PaintColorComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -560,9 +560,9 @@
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			
+
 			"paintborder"							"0"
-			
+
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 			"disabledFgColor_override" 				"WhiteDark"
@@ -620,9 +620,9 @@
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			
+
 			"paintborder"							"0"
-			
+
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 			"disabledFgColor_override" 				"WhiteDark"
@@ -641,7 +641,7 @@
 			}
 		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -665,18 +665,18 @@
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -700,18 +700,18 @@
 		"Command"									"ok"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
+
 	"ReloadSchemeButton"
 	{
 		"xpos"										"10"

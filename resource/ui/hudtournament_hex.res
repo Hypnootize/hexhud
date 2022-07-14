@@ -1,16 +1,16 @@
 "Resource/UI/HudTournament.res"
 {
-	HudTournament
+	"HudTournament"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HudTournament"
-		
+
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
 		"proportionaltoparent"						"1"
-	
+
 		"team1_player_base_offset_x"				"0"
 		"team1_player_base_y"						"0"
 		"team1_player_delta_x"						"0"
@@ -21,27 +21,27 @@
 		"team2_player_delta_x"						"34"
 		"team2_player_delta_y"						"0"
 		"teams_player_delta_x_comp"					"34"
-		
-		if_mvm
+
+		"if_mvm"
 		{
 			"team1_player_base_y"					"75"
 		}
-		
+
 		"avatar_width"								"63"
 		"spacer"									"5"
 		"name_width"								"57"
 		"horiz_inset"								"2"
-		
+
 		"playerpanels_kv"
 		{
 			"visible"								"0"
 			"wide"									"32"
 			"tall"									"19"
 			"zpos"									"1"
-			
+
 			"color_ready"							"0 255 0 220"
 			"color_notready"						"0 0 0 220"
-			
+
 			"PlayerName"
 			{
 				"ControlName"						"CExLabel"
@@ -61,13 +61,13 @@
 				"bgcolor_override"					"Background"
 				"proportionaltoparent"				"1"
 				"alpha"								"255"
-				
-				if_readymode
+
+				"if_readymode"
 				{
 					"bgcolor_override"				"Background Light"
 				}
 			}
-			
+
 			"classimage"
 			{
 				"ControlName"						"CTFClassImage"
@@ -80,7 +80,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
-				"scaleImage"						"1"	
+				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 			}
 			"classbackground"
@@ -115,7 +115,7 @@
 				"scaleimage"						"1"
 				"proportionaltoparent"				"1"
 			}
-			
+
 			"classimagebg"
 			{
 				"ControlName"						"Panel"
@@ -171,20 +171,20 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 
-		if_competitive
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"1"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"StatusAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -197,7 +197,7 @@
 		"enabled"									"0"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"HudTournamentBLUEBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -233,23 +233,23 @@
 		"pin_to_sibling"							"StatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-		
-		if_competitive
+
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
 
 	"TournamentBLUEStateLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"TournamentBLUEStateLabel"
 		"font"										"Light 9"
@@ -265,20 +265,20 @@
 		"labelText"									"%bluestate%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling"							"HudTournamentBLUEBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-		
-		if_competitive
+
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -319,23 +319,23 @@
 		"pin_to_sibling"							"StatusAnchor"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-		
-		if_competitive
+
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"TournamentREDStateLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"TournamentREDStateLabel"
 		"font"										"Light 9"
@@ -351,27 +351,27 @@
 		"labelText"									"%redstate%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling"							"HudTournamentREDBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-		
-		if_competitive
+
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"TournamentConditionLabel"
-	{	
+	{
 		"ControlName"		          				"CExLabel"
 		"fieldName"		           					"TournamentConditionLabel"
 		"font"			              				"Light 7"
@@ -387,23 +387,23 @@
 		"labelText" 	          					"%winconditions%"
 		"textAlignment"		        				"center"
 		"proportionaltoparent"						"1"
-		
-		if_competitive
+
+		"if_competitive"
 		{
 			"visible"		              			"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
-			
+
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"		              			"0"
 		}
 	}
 
 	"TournamentInstructionsLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"TournamentInstructionsLabel"
 		"font"										"Light 9"
@@ -420,23 +420,23 @@
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		
-		if_competitive
+
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"1"
 			"ypos"									"100"
 		}
 	}
 	"TournamentInstructionsLabelShadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentInstructionsLabelShadow"
 		"font"										"Light 9 Blur"
@@ -453,23 +453,23 @@
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling" 							"TournamentInstructionsLabel"
-		
-		if_competitive
+
+		"if_competitive"
 		{
 			"visible"								"0"
 		}
-		if_readymode
+		"if_readymode"
 		{
 			"visible"								"0"
 		}
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"1"
 		}
 	}
 
 	"CountdownLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
 		"font"										"Light 18"
@@ -487,7 +487,7 @@
 	}
 
 	"CountdownLabelShadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
 		"font"										"Light 18 Blur"
@@ -503,21 +503,21 @@
 		"textAlignment"								"center"
 		"fgcolor"									"Shadow"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	//REMOVED STUFF
-	
+
 	"TournamentBLUELabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"TournamentBLUELabel"
 		"xpos"										"9999"
 	}
 	"TournamentREDLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"TournamentREDLabel"
 		"xpos"										"9999"
@@ -529,7 +529,7 @@
 		"xpos"										"9999"
 	}
 	"TournamentLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"TournamentLabel"
 		"xpos"										"9999"

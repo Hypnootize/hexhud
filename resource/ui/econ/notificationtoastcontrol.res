@@ -1,4 +1,4 @@
-"Resource/UI/NotificationToastControl.res"
+"Resource/UI/Econ/NotificationToastControl.res"
 {
 	"NotificationToastControl"
 	{
@@ -47,7 +47,7 @@
 		"defaultBgColor_override" 					"GrayBlueDark"
 		"armedBgColor_override" 					"BlackBlue"
 		"depressedBgColor_override" 				"BlackBlue"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -58,12 +58,12 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"TriggerButton"
 		"xpos"										"137"
-		
+
 		"if_one_button"
 		{
 			"xpos"									"163"
 		}
-		
+
 		"ypos"										"3"
 		"zpos"										"20"
 		"wide"										"24"
@@ -89,7 +89,7 @@
 		"defaultBgColor_override" 					"GrayBlueDark"
 		"armedBgColor_override" 					"BlackBlue"
 		"depressedBgColor_override" 				"BlackBlue"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -100,12 +100,12 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"AcceptButton"
 		"xpos"										"137"
-		
+
 		"if_one_button"
 		{
 			"xpos"									"163"
 		}
-		
+
 		"ypos"										"3"
 		"zpos"										"20"
 		"wide"										"24"
@@ -131,7 +131,7 @@
 		"defaultBgColor_override" 					"GrayBlueDark"
 		"armedBgColor_override" 					"BlackBlue"
 		"depressedBgColor_override" 				"BlackBlue"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -167,7 +167,7 @@
 		"defaultBgColor_override" 					"GrayBlueDark"
 		"armedBgColor_override" 					"BlackBlue"
 		"depressedBgColor_override" 				"BlackBlue"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"

@@ -32,7 +32,7 @@
 		"fgcolor_override"							"White"
 		"alpha"										"10"
 		"AllCaps"									"1"
-		
+
 		"mouseinputenabled"							"0"
 	}
 
@@ -55,7 +55,7 @@
 		"fieldName"									"PlayListDropShadow"
 		"xpos"										"9999"
 	}
-	
+
 	"DashboardDimmer"
 	{
 		"ControlName"								"EditablePanel"

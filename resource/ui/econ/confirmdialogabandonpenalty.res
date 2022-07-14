@@ -1,4 +1,4 @@
-"Resource/UI/ConfirmDialogAbandonPenalty.res"
+"Resource/UI/Econ/ConfirmDialogAbandonPenalty.res"
 {
 	"ConfirmDialog"
 	{
@@ -18,7 +18,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -38,7 +38,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"AbandonIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -54,7 +54,7 @@
 		"scaleImage"								"1"
 		"alpha"										"0"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -75,7 +75,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"RedDark"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -99,9 +99,9 @@
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -110,7 +110,7 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
+
 	"CancelButtonHintIcon"
 	{
 		"ControlName"								"CSCHintIcon"
@@ -150,9 +150,9 @@
 		"Command"									"confirm"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -161,7 +161,7 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
+
 	"ConfirmButtonHintIcon"
 	{
 		"ControlName"								"CSCHintIcon"
@@ -175,5 +175,5 @@
 		"actionSet"									"MenuControls"
 		"actionName"								"menu_select"
 		"alpha"										"0"
-	}			
+	}
 }

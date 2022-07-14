@@ -9,18 +9,18 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
+
 	"specgui"
 	{
 	}
-	
+
 	"ReinforcementsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ReinforcementsLabel"
 		"xpos"										"cs-0.5"
 		"ypos"										"50"
-		"wide"										"f0"  
+		"wide"										"f0"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -31,7 +31,7 @@
 		"AllCaps"   								"1"
 		"proportionaltoparent"   					"1"
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -48,7 +48,7 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 	}
-	
+
 	"itempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -63,22 +63,22 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
-		
+
 		"model_ypos"								"11"
 		"model_center_x"							"1"
 		"model_wide"								"90"
 		"model_tall"								"60"
-		
+
 		"text_xpos"									"10"
 		"text_ypos"									"10"
 		"text_wide"									"170"
 		"text_center"								"1"
-		
+
 		"max_text_height"							"100"
 		"padding_height"							"10"
 		"resize_to_text"							"1"
 		"text_forcesize"							"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"								"itemmodelpanel"
@@ -86,9 +86,9 @@
 			"inventory_image_type"					"1"
 			"useparentbg"							"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"							"Label"
 			"fieldName"								"ItemLabel"
 			"font"									"Light 10"
@@ -105,7 +105,7 @@
 			"brighttext"							"0"
 		}
 	}
-	
+
 	"spectator_extras"
 	{
 		"ControlName"								"EditablePanel"
@@ -117,9 +117,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
-	
-	
+
+
+
 
 
 

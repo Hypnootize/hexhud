@@ -1,5 +1,5 @@
 "Resource/UI/FlagStatus.res"
-{	
+{
 	"Arrow"
 	{
 		"ControlName"								"CTFArrowPanel"
@@ -20,7 +20,7 @@
 			"tall"									"34"
 		}
 	}
-	
+
 	"Briefcase"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -35,14 +35,14 @@
 		"image"										"../hud/objectives_flagpanel_briefcase"
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
-		
+
 		"if_mvm"
 		{
 			"wide"									"18"
 			"tall"									"18"
 		}
 	}
-	
+
 	"StatusIcon"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -57,7 +57,7 @@
 		"image"										"../hud/objectives_flagpanel_ico_flag_home"
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
-		
+
 		"if_mvm"
 		{
 			"visible"								"0"

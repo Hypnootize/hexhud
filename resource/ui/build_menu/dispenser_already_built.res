@@ -1,8 +1,8 @@
 #base "base_already_built.res"
 
-"Resource/UI/build_menu/dispenser_already_built.res"
+"Resource/UI/Build_Menu/Dispenser_Already_Built.res"
 {
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
 		"xpos"										"-5"
 		"ypos"										"-1"

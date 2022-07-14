@@ -1,4 +1,4 @@
-"PublishFileDialog.res"
+"Resource/UI/PublishFileDialog.res"
 {
 	"PublishFileDialog"
 	{
@@ -35,7 +35,7 @@
 		"bgcolor_override"							"Background_Secondary"
 	}
 
-	"Title"	
+	"Title"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
@@ -52,7 +52,7 @@
 		"fgcolor"									"WhiteDark"
 	}
 
-	"LabelPreview"	
+	"LabelPreview"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LabelPreview"
@@ -177,7 +177,7 @@
 		"paintbackgroundtype" 						"0"
 		"font"										"Light 14"
 	}
-		
+
 	"LabelDesc"
 	{
 		"ControlName"								"CExLabel"
@@ -230,7 +230,7 @@
 		"font"										"Light 14"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"SourceFile"
 	{
 		"ControlName"								"CExLabel"
@@ -289,7 +289,7 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"importtool_goldstar"
-		}	
+		}
 	}
 
 	"ButtonSourceOther"
@@ -545,7 +545,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
-		}	
+		}
 
 		"TagCheckbox_Headgear"
 		{
@@ -642,7 +642,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
-		}		
+		}
 		"TagCheckbox_Taunt"
 		{
 			"ControlName"							"CheckButton"
@@ -690,7 +690,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
-		}		
+		}
 		"TagCheckbox_Jungle"
 		{
 			"ControlName"							"CheckButton"
@@ -1018,7 +1018,7 @@
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-			
+
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"WhiteDark"
@@ -1045,7 +1045,7 @@
 
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-			
+
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"ButtonGreen"
 		"armedBgColor_override"						"ButtonGreen_Hover"

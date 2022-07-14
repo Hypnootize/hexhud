@@ -19,13 +19,13 @@
 		"bgcolor_override"							"Background_Secondary"
 		"paintborder"								"1"
 		"border"									"BorderGrayBlueLight"
-		
+
 		"control_w"									"500"
 		"control_h"									"25"
 		"slider_w"									"500"
 		"slider_h"									"25"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -46,7 +46,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -71,9 +71,9 @@
 		"Command"									"Close"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"WhiteDark"
@@ -88,7 +88,7 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -108,18 +108,18 @@
 		"Command"									"Ok"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"ButtonGreen"
 		"armedBgColor_override"						"ButtonGreen_Hover"
 		"depressedBgColor_override"					"ButtonGreen_Hover"
 	}
-	
+
 	"PanelListPanel"
 	{
 		"ControlName"								"CPanelListPanel"
@@ -136,7 +136,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
 	}
-	
+
 	"TooltipPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -150,7 +150,7 @@
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
 		"bgcolor_override"							"BlackBlue"
-		
+
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -171,5 +171,5 @@
 			"wrap"									"1"
 			"centerwrap"							"1"
 		}
-	}	
+	}
 }

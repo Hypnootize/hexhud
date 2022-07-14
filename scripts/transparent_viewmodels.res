@@ -1,4 +1,4 @@
-"Resource/HudLayout.res"
+"Resource/TransparentViewmodel.res"
 {
 	"TransparentViewmodelMask"
 	{

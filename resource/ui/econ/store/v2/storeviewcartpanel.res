@@ -1,6 +1,6 @@
 #base "../../../../../resource/dev/reloadschemebutton.res"
 
-"Resource/UI/StoreViewCartPanel.res"
+"Resource/UI/Econ/Store/V2/StoreViewCartPanel.res"
 {
 	"store_viewcart_panel"
 	{
@@ -20,7 +20,7 @@
 		"bgcolor_override"							"Background_Main"
 		"infocus_bgcolor_override"					"Background_Main"
 		"outoffocus_bgcolor_override"				"Background_Main"
-		
+
 		"title"										"#StoreTitle"
 		"title_font"								"Light 24"
 		"titletextinsetX"							"40"
@@ -28,17 +28,17 @@
 		"titlebarfgcolor_override"					"Blank"
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
-		
+
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"40"
-		
+
 		"item_entry_kv"
 		{
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"600"
 			"tall"									"60"
-		
+
 			"itempanel"
 			{
 				"ControlName"						"CItemModelPanel"
@@ -52,20 +52,20 @@
 				"noitem_textcolor"					"White"
 				"PaintBackgroundType"				"0"
 				"paintborder"						"0"
-				
+
 				"model_xpos"						"3"
 				"model_ypos"						"3"
 				"model_wide"						"80"
 				"model_tall"						"53"
-				
+
 				"text_xpos"							"110"
 				"text_ypos"							"24"
 				"text_wide"							"250"
 				"text_center"						"0"
 				"text_forcesize" 					"1"
-				
+
 				"name_only"							"1"
-				
+
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget" 		"0"
@@ -73,7 +73,7 @@
 					"inventory_image_type"			"1"
 				}
 			}
-			
+
 			"BackgroundCustom"
 			{
 				"ControlName"						"EditablePanel"
@@ -88,8 +88,8 @@
 				"paintbackground"					"1"
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"GrayBlueDark"
-			}			
-			
+			}
+
 			"quantitylabel"
 			{
 				"ControlName"						"Label"
@@ -108,7 +108,7 @@
 				"labelText"							"%quantity%"
 				"fgcolor_override"					"WhiteDark"
 			}
-			
+
 			"SeparatorLine"
 			{
 				"ControlName"						"ImagePanel"
@@ -139,10 +139,10 @@
 				"AllCaps"							"1"
 				"Command"							"remove"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
-				
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
@@ -151,7 +151,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-			
+
 			"PriceLabel"
 			{
 				"ControlName"						"Label"
@@ -172,7 +172,7 @@
 			}
 		}
 	}
-	
+
 	"BackgroundFooterCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -188,7 +188,7 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"Dashboard"
 	}
-	
+
 	"ClientArea"
 	{
 		"ControlName"								"EditablePanel"
@@ -198,14 +198,14 @@
 		"wide"										"f0"
 		"tall"										"368"
 		"bgcolor_override"							"Background_Main"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"HeaderLine"
 			"xpos"									"9999"
-		}				
-		
+		}
+
 		"CartItemsLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -225,14 +225,14 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"SeparatorLine"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"SeparatorLine"
 			"xpos"									"9999"
-		}				
-		
+		}
+
 		"EmptyCartLabel"
 		{
 			"ControlName"							"Label"
@@ -252,7 +252,7 @@
 			"AllCaps"								"1"
 			"fgcolor_override"						"Red"
 		}
-		
+
 		"ItemListContainerScroller"
 		{
 			"ControlName"							"EditablePanel"
@@ -266,7 +266,7 @@
 			"fgcolor_override"						"GrayDark"
 			"bgcolor_override"						"Background_Secondary"
 			"autohide_buttons" 						"1"
-			
+
 			"Scrollbar"
 			{
 				"xpos"								"rs1"
@@ -275,15 +275,15 @@
 				"tall"								"127"
 				"zpos"								"1000"
 				"proportionaltoparent"				"1"
-				
+
 				"Slider"
 				{
 					"PaintBackgroundType"			"0"
 					"fgcolor_override"				"WhiteDark"
 				}
-				
+
 				"nobuttons"							"1"
-				
+
 				"UpButton"
 				{
 					"ControlName"					"Button"
@@ -292,7 +292,7 @@
 					"tall"							"0"
 					"wide"							"0"
 				}
-				
+
 				"DownButton"
 				{
 					"ControlName"					"Button"
@@ -302,7 +302,7 @@
 					"wide"							"0"
 				}
 			}
-			
+
 			"ItemListContainer"
 			{
 				"ControlName"						"EditablePanel"
@@ -313,7 +313,7 @@
 				"wide"								"500"
 				"tall"								"240"
 				"PaintBackground"					"0"
-				
+
 				"FeaturedItemSymbol"
 				{
 					"ControlName"					"ImagePanel"
@@ -328,15 +328,15 @@
 					"image"							"store_special"
 					"scaleImage"					"1"
 				}
-				
+
 				"PurchaseFooter"
 				{
 					"ControlName"					"EditablePanel"
 					"fieldName"						"PurchaseFooter"
 					"wide"							"580"
 					"tall"							"110"
-					"bgcolor_override"				"Blank"	
-					
+					"bgcolor_override"				"Blank"
+
 					"EstimatedTotalLabel"
 					{
 						"ControlName"				"CExLabel"
@@ -394,7 +394,7 @@
 						"AllCaps"					"1"
 						"fgcolor" 					"WhiteDark"
 					}
-					
+
 					"TotalPriceLabel"
 					{
 						"ControlName"				"Label"
@@ -414,12 +414,12 @@
 						"labelText"					"%totalprice%"
 						"fgcolor_override" 			"RedDark"
 					}
-					
+
 				}
 			}
 		}
-	}	
-	
+	}
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -443,7 +443,7 @@
 		"AllCaps"									"1"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
@@ -451,7 +451,7 @@
 		"defaultBgColor_override" 					"GrayBlueDarkest"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -465,7 +465,7 @@
 		"Command"									"close"
 		"visible"									"1"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -488,7 +488,7 @@
 		"default"									"0"
 		"Command"									"checkout"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
@@ -496,12 +496,12 @@
 		"defaultBgColor_override" 					"GrayBlueDarkest"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"								"EditablePanel"

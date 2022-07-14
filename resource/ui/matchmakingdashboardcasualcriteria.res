@@ -41,7 +41,7 @@
 		"scaleimage"								"1"
 		"image"										"replay/thumbnails/mm_menu/casualbg"
 	}
-	
+
 	"Title"
 	{
 		"ControlName"								"CexLabel"
@@ -95,7 +95,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"mouseinputenabled"							"1"
-		"eatmouseinput"								"0"	
+		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
 		"proportionaltoparent" 						"1"
 	}
@@ -127,7 +127,7 @@
 		"actionsignallevel"							"1"
 
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
@@ -135,7 +135,7 @@
 		"defaultBgColor_override" 					"ButtonGreen"
 		"armedBgColor_override" 					"ButtonGreen_Hover"
 		"depressedBgColor_override" 				"ButtonGreen_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"

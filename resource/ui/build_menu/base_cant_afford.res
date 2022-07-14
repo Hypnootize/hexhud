@@ -1,6 +1,6 @@
 #base "Base_Active.res"
 
-"Resource/UI/build_menu/base_cant_afford.res"
+"Resource/UI/Build_Menu/Base_Cant_Afford.res"
 {
 	"CantBuildReason"
 	{
@@ -10,7 +10,7 @@
 		"font"										"Light 8"
 		"labelText"									"#Hud_Menu_Build_Cant_Afford"
 	}
-	
+
 	"GreenLine"
 	{
 		"visible"									"0"
@@ -19,7 +19,7 @@
 	{
 		"visible"									"1"
 	}
-	
+
 	"Cost"
 	{
 		"visible"									"0"
@@ -28,9 +28,9 @@
 	{
 		"visible"									"0"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"visible"									"0"
 	}
 }

@@ -1,13 +1,13 @@
 #base "../../../../../resource/dev/reloadschemebutton.res"
 
-"Resource/UI/StorePanel.res"
+"Resource/UI/Econ/Store/V2/StorePanel.res"
 {
 	"ReloadSchemeButton"
 	{
 		"xpos"										"r17"
 		"ypos"										"22"
 	}
-	
+
 	"store_panel"
 	{
 		"ControlName"								"EditablePanel"
@@ -26,7 +26,7 @@
 		"bgcolor_override"							"Background_Main"
 		"infocus_bgcolor_override"					"Background_Main"
 		"outoffocus_bgcolor_override"				"Background_Main"
-		
+
 		"title"										"#StoreTitle"
 		"title_font"								"Light 24"
 		"titletextinsetX"							"40"
@@ -34,11 +34,11 @@
 		"titlebarfgcolor_override"					"Blank"
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
-		
+
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"23"
 	}
-	
+
 	"BackgroundFooterCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -55,7 +55,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Dashboard"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"								"EditablePanel"
@@ -66,21 +66,21 @@
 		"tabheight"									"20"
 		"transition_time" 							"0"
 		"yoffset"									"10"
-		
+
 		"tabskv"
 		{
 			"textinsetx"							"0"
 			"font"									"Light 16"
 			"AllCaps"								"1"
 			"selectedcolor"							"Solid"
-			"unselectedcolor"						"WhiteDark"	
+			"unselectedcolor"						"WhiteDark"
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"
 			"normalborder_override" 				"NoBorder"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -104,7 +104,7 @@
 		"Command"									"close"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
@@ -112,7 +112,7 @@
 		"defaultBgColor_override" 					"GrayBlueDarkest"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -126,7 +126,7 @@
 		"Command"									"close"
 		"visible"									"1"
 	}
-	
+
 	"armory_panel"
 	{
 		"ControlName"								"CArmoryPanel"
@@ -185,7 +185,7 @@
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -210,7 +210,7 @@
 		"Command"									"checkout"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
@@ -218,7 +218,7 @@
 		"defaultBgColor_override" 					"GrayBlueDarkest"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -246,5 +246,5 @@
 		"fieldName"									"FooterLine"
 		"xpos"										"9999"
 		"wide"										"0"
-	}	
+	}
 }

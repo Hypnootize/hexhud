@@ -23,7 +23,7 @@
 		"bgcolor_override"							"Background_Main"
 		"infocus_bgcolor_override"					"Background_Main"
 		"outoffocus_bgcolor_override"				"Background_Main"
-		
+
 		"title"										"#CharInfoAndSetup"
 		"title_font"								"Light 16"
 		"titletextinsetX"							"40"
@@ -31,7 +31,7 @@
 		"titlebarfgcolor_override"					"Blank"
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
-		
+
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"18"
 	}
@@ -46,20 +46,20 @@
 		"tabheight"									"20"
 		"transition_time" 							"0"
 		"yoffset"									"14"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"HeaderLine"
 			"xpos"									"9999"
 		}
-		
+
 		"tabskv"
 		{
 			"textinsetx"							"0"
 			"font"									"Light 16"
 			"selectedcolor"							"White"
-			"unselectedcolor"						"WhiteDark"	
+			"unselectedcolor"						"WhiteDark"
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"
@@ -82,7 +82,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Loadout_NavigationBar"
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -118,7 +118,7 @@
 		"defaultBgColor_override" 					"Button"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -151,7 +151,7 @@
 		"Command"									"back"
 		"visible"									"1"
 	}
-	
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"								"CNotificationsPresentPanel"

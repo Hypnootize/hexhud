@@ -6,7 +6,7 @@
 		"fieldName"									"ModelContainer"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
-		"zpos"										"3"		
+		"zpos"										"3"
 		"wide"										"f0"
 		"tall"										"f0"
 		"proportionaltoparent"						"1"
@@ -24,7 +24,7 @@
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 
-			if_mini
+			"if_mini"
 			{
 				"xpos"								"cs-0.5-228"
 			}
@@ -42,7 +42,7 @@
 				}
 			}
 
-			"paintbackground"						"0"	
+			"paintbackground"						"0"
 		}
 
 		"RankModel"
@@ -51,7 +51,7 @@
 			"fieldName"								"RankModel"
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5"
-			"zpos"									"0"		
+			"zpos"									"0"
 			"wide"									"o1"
 			"tall"									"p0.12"
 			"autoResize"							"0"
@@ -61,7 +61,7 @@
 			"fov"									"70"
 			"proportionaltoparent"					"1"
 
-			if_mini
+			"if_mini"
 			{
 				"xpos"								"cs-0.5-228"
 				"ypos"								"cs-0.5"
@@ -72,7 +72,7 @@
 			"paintbackground"						"0"
 
 			"render_texture"						"0"
-		
+
 			"model"
 			{
 				"force_pos"							"1"
@@ -86,7 +86,7 @@
 				"origin_z"							"0"
 				"spotlight"							"1"
 
-				if_mini
+				"if_mini"
 				{
 					"origin_x"						"55"
 				}
@@ -97,7 +97,7 @@
 					"default"						"1"
 				}
 			}
-		
+
 			"lights"
 			{
 				"default"
@@ -123,7 +123,7 @@
 
 			"paintbackground"						"0"
 
-			if_mini
+			"if_mini"
 			{
 				"xpos"								"cs-0.5-228"
 			}
@@ -195,7 +195,7 @@
 		"proportionaltoparent"						"1"
 		"bgcolor_override"							"GrayBlueDarkest"
 
-		if_mini
+		"if_mini"
 		{
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5"
@@ -241,12 +241,12 @@
 			"textAlignment"							"west"
 			"labelText"								"%desc1%"
 			"proportionaltoparent"					"1"
-			
-			if_mini
+
+			"if_mini"
 			{
 				"wide"								"0"
 			}
-			
+
 			"fonts"
 			{
 				"0"									"Light 8"
@@ -272,11 +272,11 @@
 			"labelText"								"%desc2%"
 			"proportionaltoparent"					"1"
 
-			if_mini
+			"if_mini"
 			{
 				"wide"								"0"
 			}
-			
+
 			"fonts"
 			{
 				"0"									"Light 8"
@@ -302,7 +302,7 @@
 			"labelText"								"%desc1%"
 			"proportionaltoparent"					"1"
 
-			if_mini
+			"if_mini"
 			{
 				"wide"								"195"
 			}
@@ -332,7 +332,7 @@
 			"labelText"								"%desc2%"
 			"proportionaltoparent"					"1"
 
-			if_mini
+			"if_mini"
 			{
 				"wide"								"195"
 			}
@@ -361,7 +361,7 @@
 			"tall"									"2"
 			"proportionaltoparent"					"1"
 
-			if_mini
+			"if_mini"
 			{
 				"xpos"								"rs1-10"
 				"ypos"								"0"
@@ -379,7 +379,7 @@
 				"tall"								"f0"
 				"proportionaltoparent"				"1"
 
-				if_mini
+				"if_mini"
 				{
 					"xpos"							"cs-0.5"
 					"ypos"							"rs1-3"
@@ -404,7 +404,7 @@
 					"labelText"						"%current_xp%"
 					"proportionaltoparent"			"1"
 
-					if_mini
+					"if_mini"
 					{
 						"wide"						"100"
 					}
@@ -427,7 +427,7 @@
 					"labelText"						"%next_level_xp%"
 					"proportionaltoparent"			"1"
 
-					if_mini
+					"if_mini"
 					{
 						"wide"						"100"
 					}
@@ -443,7 +443,7 @@
 					"tall"							"f0"
 					"proportionaltoparent"			"1"
 
-					if_mini
+					"if_mini"
 					{
 						"xpos"						"0"
 						"ypos"						"rs1-10"
@@ -465,8 +465,8 @@
 
 						"fgcolor_override"			"20 20 20 180"
 						"bgcolor_override"			"Blank"
-						
-						if_mini
+
+						"if_mini"
 						{
 							"wide"					"f0"
 						}
@@ -485,8 +485,8 @@
 
 						"fgcolor_override"			"White"
 						"bgcolor_override"			"0 0 0 255"
-						
-						if_mini
+
+						"if_mini"
 						{
 							"xpos"					"cs-0.5"
 							"ypos"					"cs-0.5"
@@ -510,8 +510,8 @@
 						"zpos"						"5"
 						"proportionaltoparent"		"1"
 						"border"					"InnerShadowBorderThin"
-						
-						if_mini
+
+						"if_mini"
 						{
 							"wide"					"f0"
 						}

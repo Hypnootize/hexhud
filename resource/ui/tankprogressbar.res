@@ -43,7 +43,7 @@
 		"proportionaltoparent"						"1"
 		"image"										"replay/thumbnails/panels/flat_blue"
 	}
-	
+
 	"ProgressBarBG"
 	{
 		"ControlName"								"ScalableImagePanel"

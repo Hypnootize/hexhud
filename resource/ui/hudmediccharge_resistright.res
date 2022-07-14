@@ -1,5 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
-{	
+{
 	"ResistIconAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -12,12 +12,12 @@
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"pin_to_sibling"							"IndividualChargesLabel"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-	
+
 	"ResistIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -32,7 +32,7 @@
 		"enabled"									"1"
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling"							"ResistIconAnchor"
 	}
 }

@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base.res"
+"Resource/UI/Build_Menu/Base_Active.res"
 {
 	"Background"
 	{
@@ -85,7 +85,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Red"
 	}
-	
+
 	"Cost"
 	{
 		"ControlName"								"CExLabel"
@@ -124,7 +124,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"west"
 	}
-	
+
 	"CantBuildReason"
 	{
 		"ControlName"								"CExLabel"
@@ -147,7 +147,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"NumberLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -172,11 +172,11 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background Dark"
 	}
-	
-	
-	
+
+
+
 	//REMOVED STUFF
-	
+
 	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"
@@ -184,24 +184,24 @@
 		"xpos"										"9999"
 	}
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
 		"xpos"										"9999"
 	}
-	"MetalIcon"	
+	"MetalIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MetalIcon"
 		"xpos"										"9999"
 	}
 	"ModeLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ModeLabel"
 		"xpos"										"9999"
 	}
-	"NumberBg"	
+	"NumberBg"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg"

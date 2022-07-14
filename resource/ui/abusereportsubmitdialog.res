@@ -17,7 +17,7 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"NoBorder"
 	}
-	
+
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -114,7 +114,7 @@
 		"AllCaps"									"1"
 
 		"paintborder"								"0"
-		
+
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"GrayBlueDark"
 		"disabledFgColor_override" 					"WhiteDark"
@@ -163,7 +163,7 @@
 		"AllCaps"									"1"
 
 		"paintborder"								"0"
-		
+
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"GrayBlueDark"
 		"disabledFgColor_override" 					"WhiteDark"
@@ -212,7 +212,7 @@
 		"AllCaps"									"1"
 
 		"paintborder"								"0"
-		
+
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"GrayBlueDark"
 		"disabledFgColor_override" 					"WhiteDark"
@@ -327,14 +327,14 @@
 		"Command"									"prevcustomtexture"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-	}	
-	
+	}
+
 	"CustomTextureNextButton"
 	{
 		"ControlName"								"CExButton"
@@ -357,14 +357,14 @@
 		"Command"									"nextcustomtexture"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-	}	
-	
+	}
+
 	"NoCustomTexturesLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -430,10 +430,10 @@
 		"Command"									"discard"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -458,10 +458,10 @@
 		"Command"									"submit"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -486,10 +486,10 @@
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"

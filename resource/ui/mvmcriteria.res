@@ -211,7 +211,7 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"DetailsBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -672,7 +672,7 @@
 		"ActivateSquadSurplusLabel"
 		{
 			"ControlName"							"Label"
-			"fieldName"								"SquadSurplusCheckLabel"
+			"fieldName"								"ActivateSquadSurplusLabel"
 			"font"									"Light 11"
 			"labelText"								"#TF_MvM_ActivateSquadSurplus"
 			"textAlignment"							"west"
@@ -683,7 +683,7 @@
 			"wide"									"120"
 			"tall"									"25"
 			"fgcolor_override"						"WhiteDark"
-			
+
 			"pin_to_sibling" 						"SquadSurplusCheckButton"
 			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
@@ -740,7 +740,7 @@
 			"mouseinputenabled"						"0"
 			"proportionaltoparent"					"1"
 			"drawcolor"								"255 255 255 255"
-			
+
 			"pin_to_sibling" 						"AlertBG"
 			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
@@ -813,7 +813,7 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"DetailsBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -895,7 +895,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"FgColor" 								"White"
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"

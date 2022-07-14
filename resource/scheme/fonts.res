@@ -1,17 +1,17 @@
-Scheme
+"Scheme"
 {
-	BitmapFontFiles
+	"BitmapFontFiles"
 	{
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
 	}
 
-	Fonts
+	"Fonts"
 	{
 		//=========================================================================================
 		// PRODUCT DEFINITIONS
 		//=========================================================================================
-		
+
 		"Light 6"
 		{
 			"1"
@@ -371,7 +371,7 @@ Scheme
 		//=========================================================================================
 		// PRODUCT BOLD DEFINITIONS
 		//=========================================================================================
-		
+
 		"Bold 13"
 		{
 			"1"
@@ -561,7 +561,7 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		
+
 		"Default"
 		{
 			"1"
@@ -606,7 +606,7 @@ Scheme
 			}
 		}
 
-		DefaultLarge
+		"DefaultLarge"
 		{
 			"1"
 			{
@@ -617,7 +617,7 @@ Scheme
 			}
 		}
 
-		CenterPrintText
+		"CenterPrintText"
 		{
 			"1"
 			{
@@ -639,7 +639,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		HudHintText
+		"HudHintText"
 		{
 			"1"
 			{
@@ -743,7 +743,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}	
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -754,7 +754,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -831,7 +831,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}	
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -988,7 +988,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		GameUIButtons
+		"GameUIButtons"
 		{
 			"1"	//[$X360]
 			{
@@ -998,7 +998,7 @@ Scheme
 				"scaley"									"0.5"
 			}
 		}
-		GameUIButtonsSmall
+		"GameUIButtonsSmall"
 		{
 			"1"
 			{
@@ -1008,7 +1008,7 @@ Scheme
 				"scaley"									"0.5"
 			}
 		}
-		GameUIButtonsSmallest
+		"GameUIButtonsSmallest"
 		{
 			"1"
 			{
@@ -1018,7 +1018,7 @@ Scheme
 				"scaley"									"0.4"
 			}
 		}
-		GameUIButtonsSteamController
+		"GameUIButtonsSteamController"
 		{
 			"1"
 			{
@@ -1028,7 +1028,7 @@ Scheme
 				"scaley"									"0.5"
 			}
 		}
-		GameUIButtonsSteamControllerSmall
+		"GameUIButtonsSteamControllerSmall"
 		{
 			"1"
 			{
@@ -1038,7 +1038,7 @@ Scheme
 				"scaley"									"0.25"
 			}
 		}
-		GameUIButtonsSteamControllerSmallest
+		"GameUIButtonsSteamControllerSmallest"
 		{
 			"1"
 			{
@@ -1165,7 +1165,7 @@ Scheme
 				"range"										"0x0000 0x017F"
 			}
 		}
-		DebugOverlay
+		"DebugOverlay"
 		{
 			"1"	[$WIN32]
 			{
@@ -1182,8 +1182,8 @@ Scheme
 				"weight"									"200"
 				"outline"									"1"
 			}
-		}		
-		TFTypeDeath
+		}
+		"TFTypeDeath"
 		{
 			"1"
 			{
@@ -1194,8 +1194,8 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
-		Icons
+
+		"Icons"
 		{
 			"1"
 			 {
@@ -1219,7 +1219,7 @@ Scheme
 			}
 		}
 
-		HudNumbers
+		"HudNumbers"
 		{
 			"1"
 			{
@@ -1349,7 +1349,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		
+
 		"GoalText"
 		{
 			"1"
@@ -1360,15 +1360,15 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
-		
+		}
+
 		"ChalkboardTitle"
 		{
 			"1"
 			{
 				"name"										"Product Sans"
 				"tall"										"28"
-				"antialias"									"1" 
+				"antialias"									"1"
 				"custom"									"1" [$OSX]
 				"weight"									"500"
 			}
@@ -1651,7 +1651,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"TargetID"
 		{
 			"1"
@@ -1782,7 +1782,7 @@ Scheme
 			}
 		}
 
-		MenuSmallestFont
+		"MenuSmallestFont"
 		{
 			"1"
 			{
@@ -1792,9 +1792,9 @@ Scheme
 				"weight"									"300"
 				"antialias"									"1"
 			}
-		}	
-		
-		MenuSmallFont
+		}
+
+		"MenuSmallFont"
 		{
 			"1"
 			{
@@ -1804,8 +1804,8 @@ Scheme
 				"weight"									"300"
 				"antialias"									"1"
 			}
-		}			
-		CapPlayerFont
+		}
+		"CapPlayerFont"
 		{
 			"1"
 			{
@@ -1817,7 +1817,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		CapPlayerFontSmall
+		"CapPlayerFontSmall"
 		{
 			"1"
 			{
@@ -1830,7 +1830,7 @@ Scheme
 			}
 		}
 
-		TFFontSmall
+		"TFFontSmall"
 		{
 			"1"
 			{
@@ -1840,8 +1840,8 @@ Scheme
 				"additive"									"1"
 				"antialias" 								"1"
 			}
-		}		
-		TFFontMedium
+		}
+		"TFFontMedium"
 		{
 			"1"
 			{
@@ -1851,9 +1851,9 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
-		
-		InstructionalText
+		}
+
+		"InstructionalText"
 		{
 			"1"
 			{
@@ -1864,9 +1864,9 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
-		
-		MatchmakingDialogTitle
+		}
+
+		"MatchmakingDialogTitle"
 		{
 			"1"
 			{
@@ -1875,7 +1875,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		MatchmakingDialogSessionOptionsTitle
+		"MatchmakingDialogSessionOptionsTitle"
 		{
 			"1"
 			{
@@ -1884,7 +1884,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		MatchmakingDialogMenuLarge
+		"MatchmakingDialogMenuLarge"
 		{
 			"1"
 			{
@@ -1893,7 +1893,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		MatchmakingDialogMenuBrowserHostname
+		"MatchmakingDialogMenuBrowserHostname"
 		{
 			"1"			// brower item hostname
 			{
@@ -1902,7 +1902,7 @@ Scheme
 				"weight"									"900"
 			}
 		}
-		MatchmakingDialogMenuBrowserDetails
+		"MatchmakingDialogMenuBrowserDetails"
 		{
 			"1"			// browser item players and map name
 			{
@@ -1910,8 +1910,8 @@ Scheme
 				"tall"										"18"
 				"weight"									"900"
 			}
-		}		
-		MatchmakingDialogMenuMedium
+		}
+		"MatchmakingDialogMenuMedium"
 		{
 			"1"
 			{
@@ -1920,7 +1920,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		MatchmakingDialogMenuMediumSmall
+		"MatchmakingDialogMenuMediumSmall"
 		{
 			"1"
 			{
@@ -1929,7 +1929,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		MatchmakingDialogMenuSmall
+		"MatchmakingDialogMenuSmall"
 		{
 			"1"
 			{
@@ -1938,7 +1938,7 @@ Scheme
 				"weight"									"900"
 			}
 		}
-		MatchmakingDialogMenuSmallest
+		"MatchmakingDialogMenuSmallest"
 		{
 			"1"
 			{
@@ -1947,7 +1947,7 @@ Scheme
 				"weight"									"900"
 			}
 		}
-		RankingDialogHeaders
+		"RankingDialogHeaders"
 		{
 			"1"
 			{
@@ -1956,7 +1956,7 @@ Scheme
 				"weight"									"900"
 			}
 		}
-		
+
 		"TeamMenuBold"
 		{
 			"1"
@@ -1978,7 +1978,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
+		}
 		"IntroMenuCaption"
 		{
 			"1"
@@ -1989,7 +1989,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}			
+		}
 		"AchievementNotification"
 		{
 			"1"
@@ -2065,7 +2065,7 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		
+
 		"ItemFontNameSmallest"
 		{
 			"1"
@@ -2121,7 +2121,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		ItemFontAttribSmallv2
+		"ItemFontAttribSmallv2"
 		{
 			"1"
 			{
@@ -2152,7 +2152,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}	
+		}
 		"ItemFontAttribLarger"
 		{
 			"1"
@@ -2164,7 +2164,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"AchievementTracker_Name"
 		{
 			"1"
@@ -2268,7 +2268,7 @@ Scheme
 			"3"
 			{
 				"name"										"OCR A Extended" [$WINDOWS]
-				"name"										"Product Sans"	
+				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"400"
 				"additive"									"0"
@@ -2310,7 +2310,7 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		
+
 		"QuestLargeText"
 		{
 			"1"
@@ -2443,7 +2443,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"QuestLargeText_Merasmus"
 		{
 			"1"
@@ -2467,7 +2467,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"AdFont_AdText"
 		{
 			"1"
@@ -2514,7 +2514,7 @@ Scheme
 				"italic"									"1"
 			}
 		}
-		
+
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
@@ -2683,7 +2683,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
@@ -2710,7 +2710,7 @@ Scheme
 			}
 		}
 
-		ControllerHintText
+		"ControllerHintText"
 		{
 			"1"
 			{
@@ -2791,7 +2791,7 @@ Scheme
 			"1"
 			{
 				"name"										"OCR A Extended" [$WINDOWS]
-				"name"										"Product Sans"		
+				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
 				"additive"									"0"
@@ -2838,8 +2838,8 @@ Scheme
 			}
 		}
 	}
-	
-	CustomFontFiles
+
+	"CustomFontFiles"
 	{
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
@@ -2856,7 +2856,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"4" 
+		"4"
 		{
 			"font" 	"resource/TF2Secondary.ttf"
 			"name" 	"TF2 Secondary"
@@ -2869,7 +2869,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"5" 
+		"5"
 		{
 			"font" 	"resource/TF2Professor.ttf"
 			"name" 	"TF2 Professor"
@@ -2881,8 +2881,8 @@ Scheme
 			{
 				"range" "0x0000 0x00FF"
 			}
-		}	
-		"6" 
+		}
+		"6"
 		{
 			"font" 	"resource/TF2Build.ttf"
 			"name" 	"TF2 Build"
@@ -2898,7 +2898,7 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
+		}
 		"7"
 		{
 			"font"	"resource/ocra.ttf"
@@ -2960,7 +2960,7 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
-	
+
 		"20"
 		{
 			"font" 		"resource/scheme/fonts/product.ttf"

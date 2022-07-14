@@ -26,7 +26,7 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"0 0 0 150"
 	}
-	
+
 	"ClassesBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -43,7 +43,7 @@
 		"bgcolor_override"							"Background Dark"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"Scout"
 	{
 		"ControlName"								"CExImageButton"
@@ -69,7 +69,7 @@
 		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"fgcolor"									"WhiteDark"
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"White"
@@ -123,7 +123,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Black"
-		
+
 		"pin_to_sibling"							"scout"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
@@ -143,12 +143,12 @@
 		"scaleImage"								"1"
 		"drawcolor"									"OffWhite"
 		"mouseinputenabled"							"0"
-		
+
 		"pin_to_sibling"							"scout"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"Soldier"
 	{
 		"ControlName"								"CExImageButton"
@@ -174,7 +174,7 @@
 		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"fgcolor"									"WhiteDark"
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"White"
@@ -230,7 +230,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Black"
-		
+
 		"pin_to_sibling"							"soldier"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
@@ -250,12 +250,12 @@
 		"scaleImage"								"1"
 		"drawcolor"									"OffWhite"
 		"mouseinputenabled"							"0"
-		
+
 		"pin_to_sibling"							"soldier"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"Pyro"
 	{
 		"ControlName"								"CExImageButton"
@@ -281,7 +281,7 @@
 		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"fgcolor"									"WhiteDark"
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"White"
@@ -337,15 +337,15 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Black"
-		
+
 		"pin_to_sibling"							"Pyro"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"MvMUpgradeImagePyro" 
+	"MvMUpgradeImagePyro"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"MvMUpgradeImagePyro" 
+		"fieldName"									"MvMUpgradeImagePyro"
 		"xpos"										"-3"
 		"ypos"										"-1"
 		"zpos"										"11"
@@ -357,12 +357,12 @@
 		"scaleImage"								"1"
 		"drawcolor"									"OffWhite"
 		"mouseinputenabled"							"0"
-		
+
 		"pin_to_sibling"							"pyro"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"Demoman"
 	{
 		"ControlName"								"CExImageButton"
@@ -388,7 +388,7 @@
 		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"fgcolor"									"WhiteDark"
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"White"
@@ -444,15 +444,15 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Black"
-		
+
 		"pin_to_sibling"							"Demoman"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"MvMUpgradeImageDemoman" 
+	"MvMUpgradeImageDemoman"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"MvMUpgradeImageDemoman" 
+		"fieldName"									"MvMUpgradeImageDemoman"
 		"xpos"										"-3"
 		"ypos"										"-1"
 		"zpos"										"11"
@@ -464,12 +464,12 @@
 		"scaleImage"								"1"
 		"drawcolor"									"OffWhite"
 		"mouseinputenabled"							"0"
-		
+
 		"pin_to_sibling"							"demoman"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"Heavyweapons"
 	{
 		"ControlName"								"CExImageButton"
@@ -495,7 +495,7 @@
 		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"fgcolor"									"WhiteDark"
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"White"
@@ -551,7 +551,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Black"
-		
+
 		"pin_to_sibling"							"Heavyweapons"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
@@ -559,7 +559,7 @@
 	"MvMUpgradeImageHeavy"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"MvMUpgradeImageHeavy" 
+		"fieldName"									"MvMUpgradeImageHeavy"
 		"xpos"										"-3"
 		"ypos"										"-1"
 		"zpos"										"11"
@@ -571,12 +571,12 @@
 		"scaleImage"								"1"
 		"drawcolor"									"OffWhite"
 		"mouseinputenabled"							"0"
-		
+
 		"pin_to_sibling"							"heavyweapons"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"Engineer"
 	{
 		"ControlName"								"CExImageButton"
@@ -602,7 +602,7 @@
 		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"fgcolor"									"WhiteDark"
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"White"
@@ -658,7 +658,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Black"
-		
+
 		"pin_to_sibling"							"Engineer"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
@@ -678,12 +678,12 @@
 		"scaleImage"								"1"
 		"drawcolor"									"OffWhite"
 		"mouseinputenabled"							"0"
-		
+
 		"pin_to_sibling"							"engineer"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"Medic"
 	{
 		"ControlName"								"CExImageButton"
@@ -709,7 +709,7 @@
 		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"fgcolor"									"WhiteDark"
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"White"
@@ -765,7 +765,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Black"
-		
+
 		"pin_to_sibling"							"Medic"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
@@ -785,12 +785,12 @@
 		"scaleImage"								"1"
 		"drawcolor"									"OffWhite"
 		"mouseinputenabled"							"0"
-		
+
 		"pin_to_sibling"							"medic"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"Sniper"
 	{
 		"ControlName"								"CExImageButton"
@@ -816,7 +816,7 @@
 		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"fgcolor"									"WhiteDark"
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"White"
@@ -872,7 +872,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Black"
-		
+
 		"pin_to_sibling"							"Sniper"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
@@ -892,12 +892,12 @@
 		"scaleImage"								"1"
 		"drawcolor"									"OffWhite"
 		"mouseinputenabled"							"0"
-		
+
 		"pin_to_sibling"							"sniper"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"Spy"
 	{
 		"ControlName"								"CExImageButton"
@@ -923,7 +923,7 @@
 		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"fgcolor"									"WhiteDark"
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"White"
@@ -979,7 +979,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Black"
-		
+
 		"pin_to_sibling"							"Spy"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
@@ -1000,7 +1000,7 @@
 		"drawcolor"									"OffWhite"
 		"mouseinputenabled"							"0"
 		"mouseinputenabled"							"0"
-		
+
 		"pin_to_sibling"							"spy"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
@@ -1023,7 +1023,7 @@
 		"Command"									"openloadout"
 		"font"										"Light 9"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"fgcolor"									"WhiteDark"
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"White"
@@ -1036,12 +1036,12 @@
 		"armedBgColor_override" 					"Gray"
 		"depressedBgColor_override" 				"GrayBluerDark"
 		"selectedBgColor_override" 					"Gray"
-		
+
 		"stayselectedonclick"						"1"
 		"selectonhover"								"1"
 		"keyboardinputenabled"						"0"
 		"use_proportional_insets" 					"1"
-		
+
 		"pin_to_sibling"							"ClassesBG"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
@@ -1055,7 +1055,7 @@
 		"Command"									"openloadout"
 		"visible"									"1"
 	}
-	
+
 	"random"
 	{
 		"xpos"										"0"
@@ -1073,7 +1073,7 @@
 		"use_proportional_insets" 					"1"
 		"font"										"Light 9"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"fgcolor"									"WhiteDark"
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"White"
@@ -1086,7 +1086,7 @@
 		"armedBgColor_override" 					"Gray"
 		"depressedBgColor_override" 				"GrayBluerDark"
 		"selectedBgColor_override" 					"Gray"
-		
+
 		"pin_to_sibling"							"ClassesBG"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
@@ -1138,28 +1138,28 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"TFPlayerModel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"fieldName"									"TFPlayerModel"
-		
+
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"6"		
+		"zpos"										"6"
 		"wide"										"180"
 		"tall"										"250"
 
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"render_texture"							"0"
 		"fov"										"15"
 		"allow_rot"									"0"
 
-		"paintbackground"							"0"		
+		"paintbackground"							"0"
 		"paintbackgroundenabled" 					"1"
-		
+
 		"model"
 		{
 			"force_pos"								"1"
@@ -1174,7 +1174,7 @@
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
 			"spotlight" 							"1"
-		
+
 			"modelname"								""
 			"vcd"									"class_select.vcd"
 		}
@@ -1278,11 +1278,11 @@
 
 		"pin_to_sibling"							"TFPlayerModelBG"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	//REMOVED STUFF
 	"ResetButton"
 	{
@@ -1303,7 +1303,7 @@
 		"xpos"										"9999"
 	}
 	"Hint"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Hint"
 		"xpos"										"9999"

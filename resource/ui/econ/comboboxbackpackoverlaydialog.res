@@ -1,4 +1,4 @@
-"Resource/UI/econ/ComboBoxBackpackOverlayDialogBase.res"
+"Resource/UI/Econ/ComboBoxBackpackOverlayDialogBase.res"
 {
 	"ComboBoxBackpackOverlayDialogBase"
 	{
@@ -16,7 +16,7 @@
 		"paintborder"								"1"
 		"border"									"BorderGrayBlueLight"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -40,7 +40,7 @@
 	}
 
 	"preview_model"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"preview_model"
 		"xpos"										"cs-0.5"
@@ -65,7 +65,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDark"
 		"paintborder"								"0"
-		
+
 		"itemmodelpanel"
 		{
 			"force_use_model"						"1"
@@ -97,7 +97,7 @@
 		"unicode"									"0"
 		"paintborder"								"0"
 		"proportionaltoparent"						"1"
-		
+
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"GrayBlueDark"
 		"disabledFgColor_override" 					"WhiteDark"
@@ -115,7 +115,7 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -140,19 +140,19 @@
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -177,14 +177,14 @@
 		"Command"									"apply"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"

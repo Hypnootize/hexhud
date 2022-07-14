@@ -15,14 +15,14 @@
 		"visible"	          	   					"0"
 		"enabled"	          	   					"1"
 		"proportionaltoparent"						"1"
-		
+
 		"image"		          	   					"../hud/color_panel_blu"
 		"src_corner_height"	    					"15"
 		"src_corner_width"	     					"15"
-		"draw_corner_width"	     					"0"	
-		"draw_corner_height"    					"0"	
+		"draw_corner_width"	     					"0"
+		"draw_corner_height"    					"0"
 	}
-	
+
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"	      	   					"ScalableImagePanel"
@@ -38,14 +38,14 @@
 		"visible"	          	   					"0"
 		"enabled"	          	   					"1"
 		"proportionaltoparent"						"1"
-		
+
 		"image"	          		   					"../hud/color_panel_red"
 		"src_corner_height"	     					"15"
 		"src_corner_width"	     					"15"
-		"draw_corner_width"	     					"0"	
-		"draw_corner_height"     					"0"	
+		"draw_corner_width"	     					"0"
+		"draw_corner_height"     					"0"
 	}
-	
+
 	"TargetBG"
 	{
 		"ControlName"           					"ImagePanel"
@@ -62,9 +62,9 @@
 		"proportionaltoparent"						"1"
 		"fillcolor"              					"0 0 0 50"
 	}
-	
+
 	"TargetNameLabel"
-	{	
+	{
 		"ControlName"		       					"Label"
 		"fieldName"		         					"TargetNameLabel"
 		"font"			           					"Light 11"
@@ -87,7 +87,7 @@
 		"alpha"										"255"
 	}
 	"TargetNameLabelShadow"
-	{	
+	{
 		"ControlName"		       					"Label"
 		"fieldName"		         					"TargetNameLabelShadow"
 		"font"			           					"Light 11 Blur"
@@ -109,9 +109,9 @@
 		"alpha"										"255"
 		"pin_to_sibling"							"TargetNameLabel"
 	}
-	
+
 	"TargetDataLabel"
-	{	
+	{
 		"ControlName"		       					"Label"
 		"fieldName"		        					"TargetDataLabel"
 		"font"			           					"Light 10 Shadow"
@@ -133,7 +133,7 @@
 		"brighttext"		       					"0"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		             			"EditablePanel"
@@ -145,7 +145,7 @@
 		"tall"			                 			"13"
 		"tall_minmode"			                 	"11"
 		"visible"		                 			"1"
-		"enabled"		                 			"1"	
+		"enabled"		                 			"1"
 		"HealthBonusPosAdj"	         				"10"
 		"HealthDeathWarning"	      			 	"0.49"
 		"TFFont"		                 			"HudFontSmall"
@@ -170,7 +170,7 @@
 		"drawcolor"									"235 235 235 255"
 		"scaleImage"								"1"
 	}
-	
+
 	"KillStreakAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -184,7 +184,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"KillStreakIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -198,7 +198,7 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/target/streak"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling" 							"KillStreakAnchor"
 	}
 
@@ -215,7 +215,7 @@
 		"enabled"									"1"
 
 		"HandIcon"
-		{	
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HandIcon"
 			"font"									"Symbols 14"
@@ -290,8 +290,8 @@
 			"brighttext"							"0"
 		}
 	}
-	
-	
+
+
 	//REMOVED STUFF
 	"TargetIDBG"
 	{

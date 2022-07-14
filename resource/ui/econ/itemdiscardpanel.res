@@ -1,6 +1,6 @@
 // I blind edited this hopefully all went well D:
 
-"Resource/UI/ItemDiscardPanel.res"
+"Resource/UI/Econ/ItemDiscardPanel.res"
 {
 	"item_discard"
 	{
@@ -19,7 +19,7 @@
 		"bgcolor_override"							"Background_Main"
 		"infocus_bgcolor_override" 					"Background_Main"
 		"outoffocus_bgcolor_override" 				"Background_Main"
-		
+
 		"title"										""
 		"title_font"								"Light 6"
 		"titletextinsetX"							"0"
@@ -28,9 +28,9 @@
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
 	}
-	
+
 	"modelpanel"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"modelpanel"
 		"xpos"										"c-75"
@@ -43,7 +43,7 @@
 		"noitem_textcolor"							"WhiteDark"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
-		
+
 		"model_ypos"								"5"
 		"model_tall"								"80"
 		"name_only"									"1"
@@ -65,14 +65,14 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled" 					"0"
 		}
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" 				"0"
 			"allow_rot"								"0"
 			"inventory_image_type" 					"1"
 		}
-	}	
+	}
 	"ItemMouseOverItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -87,13 +87,13 @@
 		"noitem_textcolor"							"WhiteDark"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"Light 10"
@@ -128,7 +128,7 @@
 		"wrap"										"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"ExplanationLabel2"
 	{
 		"ControlName"								"CExLabel"
@@ -148,7 +148,7 @@
 		"wrap"										"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"DiscardedLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -165,7 +165,7 @@
 		"enabled"									"1"
 		"fgcolor_override" 							"Red"
 	}
-	
+
 	"DiscardButton"
 	{
 		"ControlName"								"CExButton"
@@ -190,7 +190,7 @@
 
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -198,8 +198,8 @@
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}			
-	
+	}
+
 	"backpack_panel"
 	{
 		"ControlName"								"CBackpackPanel"
@@ -213,7 +213,7 @@
 		"items_only"								"1"
 		"button_override_delete_xpos" 				"0"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -238,7 +238,7 @@
 
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -247,7 +247,7 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
+
 	"ShowExplanationsButton"
 	{
 		"ControlName"								"CExButton"
@@ -279,7 +279,7 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"StartExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -294,7 +294,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
-		
+
 		"force_close"								"1"
 		"end_x"										"c-150"
 		"end_y"										"150"
@@ -303,7 +303,7 @@
 		"callout_inparents_x"						"c0"
 		"callout_inparents_y"						"200"
 		"next_explanation"							"DiscardButtonExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -321,7 +321,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -338,7 +338,7 @@
 			"wrap"									"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -359,11 +359,11 @@
 			"default"								"0"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -405,17 +405,17 @@
 			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"nextexplanation"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
-		}	
-	}	
-	
+		}
+	}
+
 	"DiscardButtonExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -430,7 +430,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
-		
+
 		"force_close"								"1"
 		"end_x"										"c-50"
 		"end_y"										"200"
@@ -439,7 +439,7 @@
 		"callout_inparents_x"						"c175"
 		"callout_inparents_y"						"135"
 		"next_explanation"							"DeleteButtonExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -457,7 +457,7 @@
 			"AllCaps"								"1"
 			"fgcolor_override" 						"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -474,7 +474,7 @@
 			"wrap"									"1"
 			"fgcolor_override" 						"WhiteDark"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -494,15 +494,15 @@
 			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
-		}		
+		}
 		"PrevButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -522,11 +522,11 @@
 			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"prevexplanation"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -568,17 +568,17 @@
 			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"nextexplanation"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
-		}	
-	}	
-	
+		}
+	}
+
 	"DeleteButtonExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -593,7 +593,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
-		
+
 		"force_close"								"1"
 		"end_x"										"c0"
 		"end_y"										"200"
@@ -601,7 +601,7 @@
 		"end_tall"									"155"
 		"callout_inparents_x"						"c235"
 		"callout_inparents_y"						"423"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -619,7 +619,7 @@
 			"AllCaps"								"1"
 			"fgcolor_override" 						"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -636,7 +636,7 @@
 			"wrap"									"1"
 			"fgcolor_override" 						"WhiteDark"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -656,15 +656,15 @@
 			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
-		}		
+		}
 		"PrevButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -684,15 +684,15 @@
 			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"prevexplanation"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
-		}		
+		}
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"

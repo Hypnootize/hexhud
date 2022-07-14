@@ -1,7 +1,7 @@
-"Resource/UI/notifications/base_notification.res"
-{	
+"Resource/UI/Notifications/Base_Notification.res"
+{
 	"Notification_Label"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Notification_Label"
 		"font"										"Light 10 Shadow"
@@ -18,13 +18,13 @@
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
-	
-	
-	
-	
-	
-	//REMOVED STUFF	
-	"Notification_Icon"	
+
+
+
+
+
+	//REMOVED STUFF
+	"Notification_Icon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Notification_Icon"

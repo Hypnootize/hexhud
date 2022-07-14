@@ -13,9 +13,9 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"GoalLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"GoalLabel"
 		"fgcolor"									"White"
@@ -32,7 +32,7 @@
 		"textAlignment"								"North"
 	}
 	"GoalLabelShadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"GoalLabelShadow"
 		"fgcolor"									"Shadow"
@@ -51,7 +51,7 @@
 	}
 
 	"MsgLabel"
-	{	
+	{
 		"ControlName"								"CExRichText"
 		"fieldName"									"MsgLabel"
 		"fgcolor"									"White"
@@ -67,9 +67,9 @@
 		"textAlignment"								"North"
 		"font"										"Light 11"
 	}
-	
+
 	"PressSpacebarToContinue"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PressSpacebarToContinue"
 		"fgcolor"									"White"

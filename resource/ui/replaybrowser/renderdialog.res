@@ -1,4 +1,4 @@
-"Resource/UI/replaybrowser/renderdialog.res"
+"Resource/UI/ReplayBrowser/RenderDialog.res"
 {
 	"RenderDialog"
 	{
@@ -12,12 +12,12 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		
+
 		"default_x"									"15"
 		"start_y"									"10"
 		"vertical_buffer"							"6"
 	}
-	
+
 	"BGPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -30,7 +30,7 @@
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -47,7 +47,7 @@
 		"enabled"									"1"
 		"fgcolor"									"White"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -67,11 +67,11 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -96,15 +96,15 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}	
+	}
 
 	"QualityPresetLabel"
 	{
@@ -121,7 +121,7 @@
 		"enabled"									"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"QualityPresetCombo"
 	{
 		"ControlName"								"ComboBox"
@@ -187,7 +187,7 @@
 		"image"										"replay/replaybrowser_solidline"
 		"tileImage"									"1"
 	}
-	
+
 	"VideoModeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -204,7 +204,7 @@
 		"tabPosition"								"10"
 		"fgcolor"									"White"
 	}
-	
+
 	"VideoModeCombo"
 	{
 		"ControlName"								"ComboBox"
@@ -239,7 +239,7 @@
 		"tabPosition"								"10"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"CodecCombo"
 	{
 		"ControlName"								"ComboBox"
@@ -274,7 +274,7 @@
 		"tabPosition"								"10"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"MotionBlurSlider"
 	{
 		"ControlName"								"Slider"
@@ -308,7 +308,7 @@
 		"tabPosition"								"10"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"QualitySlider"
 	{
 		"ControlName"								"Slider"
@@ -376,7 +376,7 @@
 		"tabPosition"								"10"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"EnterANameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -394,7 +394,7 @@
 		"tabPosition"								"10"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"TitleInput"
 	{
 		"ControlName"								"TextEntry"
@@ -416,7 +416,7 @@
 		"tabPosition"								"10"
 		"maxchars"									"255"
 	}
-	
+
 	"ResolutionNoteLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -433,7 +433,7 @@
 		"wrap"										"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"QuitWhenDone"
 	{
 		"ControlName"								"CheckButton"
@@ -451,7 +451,7 @@
 		"enabled"									"1"
 		"tabPosition"								"10"
 	}
-	
+
 	"ExportRaw"
 	{
 		"ControlName"								"CheckButton"
@@ -469,7 +469,7 @@
 		"enabled"									"1"
 		"tabPosition"								"10"
 	}
-	
+
 	"GlowEnabled"
 	{
 		"ControlName"								"CheckButton"
@@ -486,8 +486,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"10"
-	}	
-	
+	}
+
 	"LockWarningLabel"
 	{
 		"ControlName"								"CExLabel"

@@ -1,6 +1,6 @@
-Scheme
+"Scheme"
 {
-	Fonts
+	"Fonts"
 	{
 		"Symbols 10"
 		{
@@ -146,15 +146,15 @@ Scheme
 			}
 		}
 	}
-	
-	CustomFontFiles
+
+	"CustomFontFiles"
 	{
 		"30"
 		{
 			"font" "resource/scheme/fonts/Hypnotize Icons.ttf"
 			"name" "Hypnotize Icons HEx5"
 		}
-		
+
 		"31"
 		{
 			"font" "resource/scheme/fonts/Blocks.ttf"

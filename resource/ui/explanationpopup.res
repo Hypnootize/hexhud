@@ -21,7 +21,7 @@
 		"fgcolor_override" 							"WhiteDark"
 		"auto_tall_tocontents"						"1"
 	}
-	
+
 	"TextLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -42,7 +42,7 @@
 		"fgcolor_override" 							"WhiteDark"
 		"auto_tall_tocontents"						"1"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -65,16 +65,16 @@
 		"Command"									"close"
 		"proportionaltoparent"						"1"
 		"autoresize"								"0"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-	}	
-	
+	}
+
 	"PrevButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -96,11 +96,11 @@
 		"Command"									"prevexplanation"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -127,15 +127,15 @@
 		"Command"									"nextexplanation"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-	}	
+	}
 	"PositionLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -153,5 +153,5 @@
 		"fgcolor" 									"WhiteDark"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"
-	}		
+	}
 }

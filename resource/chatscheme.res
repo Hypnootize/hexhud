@@ -1,6 +1,6 @@
-Scheme
+"Scheme"
 {
-	Colors
+	"Colors"
 	{
 		// base colors
 		"White"										"230 235 240 255"
@@ -13,7 +13,7 @@ Scheme
 		"Blank"										"0 0 0 0"
 	}
 
-	BaseSettings
+	"BaseSettings"
 	{
 		Border.Bright								"0 0 0 0"
 		Border.Dark									"0 0 0 0"
@@ -26,7 +26,7 @@ Scheme
 		Button.DepressedTextColor					"White"
 		Button.DepressedBgColor						"Blank"
 		Button.FocusBorderColor						"Black"
-		
+
 		CheckButton.TextColor						"OffWhite"
 		CheckButton.SelectedTextColor				"White"
 		CheckButton.BgColor							"TransparentBlack"
@@ -178,7 +178,7 @@ Scheme
 		TFColors.ChatTextTeamRed					"255 63 53 255"
 	}
 
-	BitmapFontFiles
+	"BitmapFontFiles"
 	{
 		"Buttons"									"materials/vgui/fonts/buttons_32.vbf"
 	}
@@ -186,7 +186,7 @@ Scheme
 	//////////////////////// FONTS /////////////////////////////
 	//
 	// describes all the fonts
-	Fonts
+	"Fonts"
 	{
 
 		"Default"
@@ -235,7 +235,7 @@ Scheme
 				"antialias"							"1"
 			}
 		}
-		
+
 		// this is the symbol font
 		"Marlett"
 		{
@@ -281,7 +281,7 @@ Scheme
 				"symbol"							"1"
 			}
 		}
-		
+
 		"MarlettSmall"
 		{
 			"1"
@@ -371,7 +371,7 @@ Scheme
 		}
 	}
 
-	Borders
+	"Borders"
 	{
 		BaseBorder		DepressedBorder
 		ButtonBorder	RaisedBorder
@@ -380,15 +380,15 @@ Scheme
 		BrowserBorder	DepressedBorder
 		PropertySheetBorder	RaisedBorder
 
-		FrameBorder
+		"FrameBorder"
 		{
 			"backgroundtype" 						"0"
 		}
-		
-		DepressedBorder
+
+		"DepressedBorder"
 		{
 			"inset" 								"0 0 1 1"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -397,7 +397,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -406,7 +406,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -415,7 +415,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -425,10 +425,10 @@ Scheme
 			}
 		}
 
-		RaisedBorder
+		"RaisedBorder"
 		{
 			"inset" 								"0 0 1 1"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -437,7 +437,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -446,7 +446,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -455,7 +455,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -464,26 +464,26 @@ Scheme
 				}
 			}
 		}
-		
-		TitleButtonBorder
+
+		"TitleButtonBorder"
 		{
 			"backgroundtype" 						"0"
 		}
 
-		TitleButtonDisabledBorder
+		"TitleButtonDisabledBorder"
 		{
 			"backgroundtype" 						"0"
 		}
 
-		TitleButtonDepressedBorder
+		"TitleButtonDepressedBorder"
 		{
 			"backgroundtype" 						"0"
 		}
 
-		ScrollBarButtonBorder
+		"ScrollBarButtonBorder"
 		{
 			"inset" 								"2 2 0 0"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -492,7 +492,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -501,7 +501,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -510,7 +510,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -519,11 +519,11 @@ Scheme
 				}
 			}
 		}
-		
-		ScrollBarButtonDepressedBorder
+
+		"ScrollBarButtonDepressedBorder"
 		{
 			"inset" 								"2 2 0 0"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -532,7 +532,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -541,7 +541,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -550,7 +550,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -560,10 +560,10 @@ Scheme
 			}
 		}
 
-		TabBorder
+		"TabBorder"
 		{
 			"inset" 								"0 0 1 1"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -572,7 +572,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -581,7 +581,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -592,10 +592,10 @@ Scheme
 
 		}
 
-		TabActiveBorder
+		"TabActiveBorder"
 		{
 			"inset" 								"0 0 1 0"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -604,7 +604,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -613,7 +613,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -623,10 +623,10 @@ Scheme
 			}
 		}
 
-		ToolTipBorder
+		"ToolTipBorder"
 		{
 			"inset" 								"0 0 1 0"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -635,7 +635,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -644,7 +644,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -653,7 +653,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -663,10 +663,10 @@ Scheme
 			}
 		}
 
-		ButtonKeyFocusBorder
+		"ButtonKeyFocusBorder"
 		{
 			"inset" 								"0 0 1 1"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -679,7 +679,7 @@ Scheme
 					"offset" 						"0 1"
 				}
 			}
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -692,7 +692,7 @@ Scheme
 					"offset" 						"1 0"
 				}
 			}
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -705,7 +705,7 @@ Scheme
 					"offset" 						"1 0"
 				}
 			}
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -720,10 +720,10 @@ Scheme
 			}
 		}
 
-		ButtonDepressedBorder
+		"ButtonDepressedBorder"
 		{
 			"inset" 								"2 1 1 1"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -732,7 +732,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -741,7 +741,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -750,7 +750,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -764,7 +764,7 @@ Scheme
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	CustomFontFiles
+	"CustomFontFiles"
 	{
 		"1" "resource/HALFLIFE2.ttf"
 		"2" "resource/HL2EP2.ttf"

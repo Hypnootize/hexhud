@@ -24,7 +24,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"CompetitiveImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -116,7 +116,7 @@
 		"defaultBgColor_override" 					"Button"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -135,7 +135,7 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"1"
 		"image"										"info"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"alpha"										"75"
 	}
 
@@ -151,7 +151,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"mouseinputenabled"							"1"
-		"eatmouseinput"								"0"	
+		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
 		"proportionaltoparent" 						"1"
 	}
@@ -191,7 +191,7 @@
 		"defaultBgColor_override" 					"ButtonGreen"
 		"armedBgColor_override" 					"ButtonGreen_Hover"
 		"depressedBgColor_override" 				"ButtonGreen_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"

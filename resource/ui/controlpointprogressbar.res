@@ -14,7 +14,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"								"CircularProgressBar"
@@ -43,7 +43,7 @@
 		"enabled"									"0"
 	}
 	"ProgressText"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"ProgressText"
 		"wide"										"0"

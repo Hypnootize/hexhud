@@ -1,6 +1,6 @@
 #base "../../resource/dev/reloadschemebutton.res"
 
-"Resource/UI/SelectPlayerDialog.res"
+"Resource/UI/SelectPlayerDialog_Coach.res"
 {
 	"SelectPlayerDialog"
 	{
@@ -15,14 +15,14 @@
 		"settitlebarvisible"						""
 		"paintbackground"							"1"
 		"bgcolor_override"							"Blank"
-		
+
 		"button_kv"
 		{
 			"xpos"									"10"
 			"ypos"									"0"
 			"wide"									"350"
 			"tall"									"30"
-			
+
 			"button"
 			{
 				"xpos"								"0"
@@ -44,10 +44,10 @@
 				"default"							"1"
 				"AllCaps"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
-		
+
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
-				
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
@@ -56,7 +56,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-			
+
 			"avatar"
 			{
 				"ControlName"						"CAvatarImagePanel"
@@ -69,12 +69,12 @@
 				"image"								""
 				"visible"							"1"
 				"enabled"							"1"
-				"scaleImage"						"1"	
+				"scaleImage"						"1"
 				"color_outline"						"WhiteDark"
 			}
 		}
 	}
-	
+
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -92,7 +92,7 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"BorderGrayBlueLight"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -112,7 +112,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"PlayerListScroller"
 	{
 		"ControlName"								"ScrollableEditablePanel"
@@ -125,7 +125,7 @@
 		"PaintBackgroundType"						"0"
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"BlackBlue"
-		
+
 		"PlayerList"
 		{
 			"ControlName"							"EditablePanel"
@@ -150,7 +150,7 @@
 		"wide"	 									"400"
 		"tall"	 									"180"
 		"PaintBackground"							"0"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -169,7 +169,7 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
-		}	
+		}
 
 		"subbutton0"
 		{
@@ -194,10 +194,10 @@
 			"Command"								"friends"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-		
+
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
-			
+
 			"FgColor"								"WhiteDark"
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
@@ -207,7 +207,7 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-		
+
 		"subbutton1"
 		{
 			"ControlName"							"CExButton"
@@ -231,10 +231,10 @@
 			"Command"								"performmatchmaking"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-		
+
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
-			
+
 			"FgColor"								"WhiteDark"
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
@@ -245,7 +245,7 @@
 			"depressedBgColor_override"				"Button_Hover"
 		}
 	}
-	
+
 	"StatePanel1"
 	{
 		"ControlName"								"EditablePanel"
@@ -258,7 +258,7 @@
 		"wide"	 									"400"
 		"tall"	 									"180"
 		"PaintBackground"							"0"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -276,8 +276,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -298,9 +298,9 @@
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"fgcolor" 								"RedDark"
-		}	
+		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -324,10 +324,10 @@
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"FgColor"									"WhiteDark"
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"

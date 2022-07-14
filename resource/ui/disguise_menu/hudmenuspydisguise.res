@@ -1,4 +1,4 @@
-"Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
+"Resource/UI/Disguise_Menu/HudMenuSpyDisguise.res"
 {
 	"Background"
 	{
@@ -18,7 +18,7 @@
 	}
 
 	"TitleLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"font"										"Light 12"
@@ -36,9 +36,9 @@
 		"AllCaps"				          			"1"
 		"proportionaltoparent"	          			"1"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabelDropshadow"
 		"font"										"Light 12 Blur"
@@ -58,9 +58,9 @@
 		"proportionaltoparent"	          			"1"
 		"pin_to_sibling"							"TitleLabel"
 	}
-	
+
 	"ToggleLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ToggleLabel"
 		"font"										"Light 7"
@@ -81,7 +81,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background Dark"
 	}
-	
+
 	"class_item_red_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -107,7 +107,7 @@
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"class_item_red_1"
 	}
-	
+
 	"class_item_red_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -134,7 +134,7 @@
 		"visible"									"0"
 		"pin_to_sibling"							"class_item_red_2"
 	}
-	
+
 	"class_item_red_3"
 	{
 		"ControlName"								"EditablePanel"
@@ -161,7 +161,7 @@
 		"visible"									"0"
 		"pin_to_sibling"							"class_item_red_3"
 	}
-	
+
 	"class_item_red_4"
 	{
 		"ControlName"								"EditablePanel"
@@ -188,7 +188,7 @@
 		"visible"									"0"
 		"pin_to_sibling"							"class_item_red_4"
 	}
-	
+
 	"class_item_red_5"
 	{
 		"ControlName"								"EditablePanel"
@@ -215,7 +215,7 @@
 		"visible"									"0"
 		"pin_to_sibling"							"class_item_red_5"
 	}
-	
+
 	"class_item_red_6"
 	{
 		"ControlName"								"EditablePanel"
@@ -242,7 +242,7 @@
 		"visible"									"0"
 		"pin_to_sibling"							"class_item_red_6"
 	}
-	
+
 	"class_item_red_7"
 	{
 		"ControlName"								"EditablePanel"
@@ -269,7 +269,7 @@
 		"visible"									"0"
 		"pin_to_sibling"							"class_item_red_7"
 	}
-	
+
 	"class_item_red_8"
 	{
 		"ControlName"								"EditablePanel"
@@ -296,7 +296,7 @@
 		"visible"									"0"
 		"pin_to_sibling"							"class_item_red_8"
 	}
-	
+
 	"class_item_red_9"
 	{
 		"ControlName"								"EditablePanel"
@@ -327,7 +327,7 @@
 	"NumberLabel1"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
+		"fieldName"									"NumberLabel1"
 		"font"										"Light 11"
 		"fgcolor"									"OffWhite"
 		"xpos"										"80"
@@ -351,7 +351,7 @@
 	"NumberLabel2"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
+		"fieldName"									"NumberLabel2"
 		"font"										"Light 11"
 		"fgcolor"									"OffWhite"
 		"xpos"										"80"
@@ -375,7 +375,7 @@
 	"NumberLabel3"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
+		"fieldName"									"NumberLabel3"
 		"font"										"Light 11"
 		"fgcolor"									"OffWhite"
 		"xpos"										"80"
@@ -395,13 +395,13 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background Dark"
 	}
-	
-	
-	
-	
-	
-	//REMOVED STUFF	
-	"MainBackground"	
+
+
+
+
+
+	//REMOVED STUFF
+	"MainBackground"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MainBackground"
@@ -414,7 +414,7 @@
 		"xpos"										"9999"
 	}
 	"CancelLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
 		"xpos"										"9999"
@@ -422,19 +422,19 @@
 	"NumberBg1"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
+		"fieldName"									"NumberBg1"
 		"xpos"										"9999"
 	}
 	"NumberBg2"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
+		"fieldName"									"NumberBg2"
 		"xpos"										"9999"
 	}
 	"NumberBg3"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
+		"fieldName"									"NumberBg3"
 		"xpos"										"9999"
 	}
 }

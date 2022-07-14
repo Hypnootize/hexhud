@@ -3,7 +3,7 @@
 	"HudTeamScore"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"HudPasstimeTeamScore"
+		"fieldName"									"HudTeamScore"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -42,14 +42,14 @@
 		"tall"										"31"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"Bold 20 Blur"
 		"fgcolor"									"Shadow"
-		
+
 		"pin_to_sibling"							"BlueScore"
 	}
-	
+
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -78,7 +78,7 @@
 		"tall"										"31"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%redscore%"
 		"font"										"Bold 20 Blur"
 		"fgcolor"									"Shadow"
@@ -118,7 +118,7 @@
 			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"PlayingToBG"
 		{
 			"ControlName"							"CTFImagePanel"
@@ -126,11 +126,11 @@
 			"xpos"									"9999"
 		}
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	//REMOVED STUFF
 	"LeftSideBG"
 	{

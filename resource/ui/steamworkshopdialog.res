@@ -31,7 +31,7 @@
 		"bgcolor_override"							"Background_Secondary"
 		"paintborder"								"1"
 		"border"									"BorderGrayBlueLight"
-		
+
 		"NoItemsContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -69,7 +69,7 @@
 			"DescLabel"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"TitleLabel"
+				"fieldName"							"DescLabel"
 				"xpos"								"cs-0.5"
 				"ypos"								"65"
 				"zpos"								"1"
@@ -106,7 +106,7 @@
 				"AllCaps"							"1"
 				"proportionaltoparent"				"1"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -169,7 +169,7 @@
 				"proportionaltoparent"				"1"
 				"Command"							"view_files"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -179,7 +179,7 @@
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override" 		"FullWhite"
 			}
-			
+
 			"SteamWorkshopItem0"
 			{
 				"ControlName"						"CSteamWorkshopItemPanel"
@@ -242,7 +242,7 @@
 				"proportionaltoparent"				"1"
 				"Command"							"prevpage"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -315,8 +315,8 @@
 				"pin_to_sibling" 					"PrevPageSkipButton"
 				"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
 				"pin_to_sibling_corner" 			"PIN_TOPLEFT"
-			}	
-			
+			}
+
 			"CurPageLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -335,7 +335,7 @@
 				"proportionaltoparent"				"1"
 				"fgcolor" 							"WhiteDark"
 			}
-			
+
 			"NextPageButton"
 			{
 				"ControlName"						"CExButton"
@@ -353,7 +353,7 @@
 				"proportionaltoparent"				"1"
 				"Command"							"nextpage"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -396,7 +396,7 @@
 				"pin_to_sibling" 					"NextPageButton"
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
-			}	
+			}
 			"SkipToEndButton"
 			{
 				"ControlName"						"CExButton"
@@ -427,7 +427,7 @@
 				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
 				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 			}
-		
+
 			"EditButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -444,7 +444,7 @@
 				"default"							"1"
 				"proportionaltoparent"				"1"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -453,7 +453,7 @@
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override" 		"FullWhite"
-				
+
 				"labelText"							"#TF_SteamWorkshop_Edit"
 				"command"							"edit"
 			}
@@ -474,7 +474,7 @@
 				"default"							"1"
 				"proportionaltoparent"				"1"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -483,7 +483,7 @@
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override" 		"FullWhite"
-				
+
 				"labelText"							"#TF_SteamWorkshop_View"
 				"command"							"view"
 			}
@@ -504,7 +504,7 @@
 				"default"							"1"
 				"proportionaltoparent"				"1"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -513,7 +513,7 @@
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override" 		"FullWhite"
-				
+
 				"labelText"							"#TF_SteamWorkshop_Delete"
 				"command"							"delete_item"
 			}
@@ -537,7 +537,7 @@
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"defaultBgColor_override"				"ButtonGreen"
 			"armedBgColor_override"					"ButtonGreen_Hover"
@@ -565,7 +565,7 @@
 			"AllCaps"								"0"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
@@ -595,7 +595,7 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
@@ -624,7 +624,7 @@
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"defaultBgColor_override"				"ButtonRed"
 			"armedBgColor_override"					"ButtonRed_Hover"
@@ -664,6 +664,6 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BackgroundBottom"
 			"xpos"									"9999"
-		}		
+		}
 	}
 }

@@ -1,6 +1,6 @@
 "Resource/UI/HudSpellSelection.res"
 {
-	HudSpellMenu
+	"HudSpellMenu"
 	{
 		"xpos"										"0"
 		"ypos"										"rs1"
@@ -21,7 +21,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"image"										"replay/thumbnails/panels/flat_background"
 		"scaleImage"								"1"
 		"teambg_1"									"replay/thumbnails/panels/flat_background"
@@ -40,12 +40,12 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 		"image"										"../signs/death_wheel_whammy"
 		"fgcolor"									"White"
 	}
-	
+
 	"CountText"
 	{
 		"ControlName"								"CExLabel"
@@ -77,7 +77,7 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling" 							"CountText"
 	}
-	
+
 	"ActionText"
 	{
 		"ControlName"								"CExLabel"
@@ -98,10 +98,10 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background Dark"
 	}
-	
-	
-	
-	
+
+
+
+
 	//REMOVED
 	"ItemEffectMeterBG"
 	{

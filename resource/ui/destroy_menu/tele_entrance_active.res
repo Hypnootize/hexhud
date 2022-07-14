@@ -1,6 +1,6 @@
 #base "Base_Active.res"
 
-"Resource/UI/destroy_menu/tele_entrance_active.res"
+"Resource/UI/Destroy_Menu/Tele_Entrance_Active.res"
 {
 	"BuildingIcon"
 	{
@@ -10,14 +10,14 @@
 		"tall"										"20"
 		"icon"										"obj_status_tele_entrance"
 	}
-	
+
 	"NotBuiltLabel"
-	{	
+	{
 		"visible"									"0"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"labelText"									"3"
 		"visible"									"1"
 	}

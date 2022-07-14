@@ -1,4 +1,4 @@
-"Resource/UI/PaintkitConsumeDialog.res"
+"Resource/UI/Econ/PaintkitConsumeDialog.res"
 {
 	"PaintkitConsume"
 	{
@@ -255,7 +255,7 @@
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
@@ -263,11 +263,11 @@
 		"defaultBgColor_override" 					"Button"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-	}		
+	}
 
 	"ConfirmButton"
 	{
@@ -294,7 +294,7 @@
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
@@ -302,9 +302,9 @@
 		"defaultBgColor_override" 					"ButtonGreen"
 		"armedBgColor_override" 					"ButtonGreen_Hover"
 		"depressedBgColor_override" 				"ButtonGreen_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-	}			
+	}
 }

@@ -1,4 +1,4 @@
-"Resource/UI/replaybrowser/confirmquitdlg.res"
+"Resource/UI/ReplayBrowser/ConfirmQuitDlg.res"
 {
 	"confirmquitdlg"
 	{
@@ -27,7 +27,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -44,7 +44,7 @@
 		"enabled"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -83,7 +83,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -91,8 +91,8 @@
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}			
-	
+	}
+
 	"ReplaysButton"
 	{
 		"ControlName"								"CExButton"
@@ -112,7 +112,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -120,8 +120,8 @@
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}			
-	
+	}
+
 	"QuitButton"
 	{
 		"ControlName"								"CExButton"
@@ -141,7 +141,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -149,7 +149,7 @@
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}		
+	}
 
 	"DontShowThisAgainCheckbox"
 	{

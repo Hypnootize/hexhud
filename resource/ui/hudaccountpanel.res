@@ -10,7 +10,7 @@
 		"delta_lifetime"							"1"
 		"delta_item_font"							"Bold 14"
 	}
-	
+
 	"AccountValue"
 	{
 		"ControlName"								"CExLabel"
@@ -34,7 +34,7 @@
 		"font_minmode"								"Metal Minmode"
 		"fgcolor"   								"White"
 	}
-	
+
 	"AccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -57,18 +57,18 @@
 		"font"										"Metal Shadow"
 		"font_minmode"								"Metal Shadow Minmode"
 		"fgcolor"   								"Shadow"
-		
+
 		"pin_to_sibling" 							"AccountValue"
 	}
-	
-	
+
+
 	"AccountBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"AccountBG"
 		"xpos"										"9999"
 	}
-	"MetalIcon"	
+	"MetalIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MetalIcon"

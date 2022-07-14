@@ -1,4 +1,4 @@
-"Resource/training/basictraining/classdetails.res"
+"Resource/UI/Training/BasicTraining/ClassDetails.res"
 {
 	"OverlayPanel"
 	{
@@ -94,7 +94,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"WeaponBG0"
 		{
 			"ControlName"							"EditablePanel"
@@ -316,7 +316,7 @@
 		"Command"									"startbasictraining"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"proportionaltoparent"						"1"
-		
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
@@ -324,12 +324,12 @@
 		"defaultBgColor_override" 					"ButtonGreen"
 		"armedBgColor_override" 					"ButtonGreen_Hover"
 		"depressedBgColor_override" 				"ButtonGreen_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
 	}
-	
+
 	"ClassImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -344,7 +344,7 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"ClassIconImage"
 	{
 		"ControlName"								"ImagePanel"

@@ -1,6 +1,6 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
@@ -13,9 +13,9 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-	
+
 	"BG"
-	{	
+	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BG"
 		"xpos"										"0"
@@ -30,7 +30,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 	}
-	
+
 	"KillstreakLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -39,7 +39,7 @@
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"35"
-		"tall"										"f0"	
+		"tall"										"f0"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
@@ -53,7 +53,7 @@
 		"fgcolor"									"OffWhite"
 		"font"										"Light 10"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
@@ -62,7 +62,7 @@
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"25"
-		"tall"										"f0"	
+		"tall"										"f0"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
@@ -75,11 +75,11 @@
 		"fgcolor"									"OffWhite"
 		"font"										"Light 10"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"			"CTFImagePanel"
@@ -93,7 +93,7 @@
 		"xpos"					"9999"
 	}
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"xpos"					"9999"

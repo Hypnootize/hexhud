@@ -45,7 +45,7 @@
 		"enabled"									"1"
 		"bgcolor_override"							"Blue"
 		"PaintBackgroundType"						"0"
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -80,7 +80,7 @@
 		"enabled"									"1"
 		"bgcolor_override"							"Red"
 		"PaintBackgroundType"						"0"
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -101,7 +101,7 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -113,7 +113,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%bluescore%"
 		"font"										"Bold 18"
 		"fgcolor"									"White"
@@ -122,7 +122,7 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	
+
 	"BlueScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -134,14 +134,14 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%bluescore%"
 		"font"										"Bold 18 Blur"
 		"fgcolor"									"Shadow"
-		
+
 		"pin_to_sibling"							"BlueScore"
 	}
-	
+
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -153,7 +153,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%redscore%"
 		"font"										"Bold 18"
 		"fgcolor"									"White"
@@ -162,7 +162,7 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	
+
 	"RedScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -174,7 +174,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%redscore%"
 		"font"										"Bold 18 Blur"
 		"fgcolor"									"Shadow"
@@ -201,8 +201,8 @@
 		"fgcolor"									"WhiteDark"
 		"proportionaltoparent"						"1"
 	}
-	
-	
+
+
 	//REMOVED
 	"LeftSideBG"
 	{

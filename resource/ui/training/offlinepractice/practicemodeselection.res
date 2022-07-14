@@ -1,4 +1,4 @@
-"Resource/training/offlinepractice/practicemodeselection.res"
+"Resource/UI/Training/OfflinePractice/PracticeModeSelection.res"
 {
 	"TitleBG"
 	{
@@ -56,7 +56,7 @@
 		"paintbackgroundtype"						"0"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"								"CExButton"
@@ -77,19 +77,19 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"Command"									"goprev"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
-		
+
 		"paintbackground"							"0"
 		"paintborder"								"0"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-	}	
-	
+	}
+
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
@@ -111,12 +111,12 @@
 		"brighttext"								"0"
 		"Command"									"gonext"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
-		
+
 		"paintbackground"							"0"
 		"paintborder"								"0"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -182,7 +182,7 @@
 		"proportionaltoparent"						"1"
 		"pin_to_sibling" 							"DescBG"
 	}
-	
+
 	"SelectCurrentGameModeButton"
 	{
 		"ControlName"								"CExButton"
@@ -204,9 +204,9 @@
 		"brighttext"								"0"
 		"Command"									"selectcurrentgamemode"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
-		
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
@@ -214,12 +214,12 @@
 		"defaultBgColor_override" 					"GrayBlueLight"
 		"armedBgColor_override" 					"GrayLight"
 		"depressedBgColor_override" 				"GrayLight"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
 	}
-	
+
 	"GameModeImageBgPanel"
 	{
 		"ControlName"								"ImagePanel"

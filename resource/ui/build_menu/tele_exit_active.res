@@ -1,6 +1,6 @@
 #base "base_active.res"
 
-"Resource/UI/build_menu/tele_exit_active.res"
+"Resource/UI/Build_Menu/Tele_Exit_Active.res"
 {
 	"BuildingIcon"
 	{
@@ -33,9 +33,9 @@
 	{
 		"visible"									"0"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"labelText"									"4"
 		"visible"									"1"
 	}

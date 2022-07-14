@@ -31,7 +31,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
@@ -48,7 +48,7 @@
 			"textAlignment"							"center"
 			"labelText"								"0:00"
 			"proportionaltoparent"					"1"
-		}	
+		}
 	}
 
 	"RedBar"
@@ -82,7 +82,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
@@ -99,9 +99,9 @@
 			"textAlignment"							"center"
 			"labelText"								"0:00"
 			"proportionaltoparent"					"1"
-		}	
+		}
 	}
-	
+
 	"ActiveTimerBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -113,7 +113,7 @@
 		"tall"										"1"
 		"visible"									"0"
 		"enabled"									"1"
-		"fillcolor"  								"OffWhite"	
-		"scaleImage"								"1"	
+		"fillcolor"  								"OffWhite"
+		"scaleImage"								"1"
 	}
 }

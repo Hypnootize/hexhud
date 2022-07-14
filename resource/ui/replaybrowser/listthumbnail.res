@@ -1,4 +1,4 @@
-"resource/ListThumbnail.res"
+"resource/UI/ReplayBrowser/ListThumbnail.res"
 {
 	"ListThumbnail"
 	{
@@ -24,7 +24,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-	
+
 	"ScreenshotThumbnail"
 	{
 		"ControlName"								"Panel"
@@ -37,7 +37,7 @@
 		"autoResize"								"0"
 		"pinCorner"									"0"
 	}
-	
+
 	"DownloadProgress"
 	{
 		"ControlName"								"ProgressBar"
@@ -49,7 +49,7 @@
 		"bgcolor_override" 							"Black"
 		"fgcolor_override" 							"White"
 	}
-	
+
 	"RecordingInProgressLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -64,7 +64,7 @@
 		"paintbackground"							"0"
 		"fgcolor"		 							"Red"
 	}
-	
+
 	"DownloadLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -77,7 +77,7 @@
 		"enabled"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"ErrorLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -90,7 +90,7 @@
 		"enabled"									"1"
 		"fgcolor" 									"Red"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -106,7 +106,7 @@
 		"enabled"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"DownloadButton"
 	{
 		"ControlName"								"CExButton"
@@ -126,16 +126,16 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
+
 	"DownloadOverlay"
 	{
 		"ControlName"								"Panel"
@@ -148,7 +148,7 @@
 		"bgcolor_override"							"Blank"
 		"Command"									"overlay_clicked"
 	}
-	
+
 	"DeleteButton"
 	{
 		"ControlName"								"CExButton"
@@ -166,13 +166,13 @@
 		"Command"									"delete_replayitem"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"

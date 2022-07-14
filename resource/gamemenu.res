@@ -35,7 +35,7 @@
 
 
 
-	
+
 	"Streams"
 	{
 		"label"										"0"
@@ -119,7 +119,7 @@
 		"command"									"motd_show"
 		"tooltip"									""
 	}
-	
+
 	"ToolsOpenButton"
 	{
 		"label"										"Tools"

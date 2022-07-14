@@ -1,5 +1,5 @@
-"Resource/UI/MvMVictoryPanel.res"
-{	
+"Resource/UI/MvMVictorySplash.res"
+{
 	"SplashContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -10,7 +10,7 @@
 		"tall"										"300"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"SplashBackground"
 		{
 			"ControlName"							"ScalableImagePanel"
@@ -25,7 +25,7 @@
 			"enabled"								"1"
 			"image"									"replay/thumbnails/panels/flat_red"
 		}
-		
+
 		"SplashLabel"
 		{
 			"ControlName"							"CExLabel"

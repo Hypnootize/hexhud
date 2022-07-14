@@ -1,7 +1,7 @@
 "Resource/UI/HudDemomanCharge.res"
-{	
+{
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
 		"font"										"Default"
@@ -20,5 +20,5 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"fgcolor_override"							"White"
-	}					
+	}
 }

@@ -1,5 +1,5 @@
 "Resource/UI/HudUpgradePanel.res"
-{	
+{
 	"HudUpgradePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -13,16 +13,16 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
-		
+
 		"itempanel_xpos"							"15"
 		"itempanel_ypos"							"10"
 		"itempanel_xdelta"							"5"
 		"itempanel_ydelta"							"5"
-		
+
 		"upgradebuypanel_xpos"						"160"
 		"upgradebuypanel_ypos"						"65"
 		"upgradebuypanel_delta"						"6"
-		
+
 		"modelpanels_kv"
 		{
 			"zpos"									"-2"
@@ -32,7 +32,7 @@
 			"noitem_textcolor"						"WhiteDark"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			
+
 			"model_ypos"							"5"
 			"model_tall"							"32"
 			"model_wide"							"48"
@@ -41,7 +41,7 @@
 			"text_center"							"1"
 			"name_only"								"1"
 			"text_forcesize"						"3"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -50,7 +50,7 @@
 			}
 		}
 	}
-	
+
 	"BGGrayoutPanel"								//FULL SCREEN BG
 	{
 		"ControlName"								"EditablePanel"
@@ -67,7 +67,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"0 0 0 100"
 	}
-	
+
 	"SelectWeaponPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -80,7 +80,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 		"paintbackground"							"0"
-		
+
 		"OutterBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -96,7 +96,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Dark"
 		}
-		
+
 		"InnerPanelRim"
 		{
 			"ControlName"							"Panel"
@@ -112,7 +112,7 @@
 			"PaintBackgroundType" 					"0"
 			"bgcolor_override"						"Background"
 		}
-		
+
 		"InnerBGPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -127,7 +127,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Dark"
 		}
-	
+
 		"PlayerUpgradeButton"
 		{
 			"ControlName"							"CExButton"
@@ -151,7 +151,7 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 			"alpha"									"0"
 		}
-		
+
 		"ClassImage"
 		{
 			"ControlName"							"CTFClassImage"
@@ -164,9 +164,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"../hud/class_scoutred"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 		}
-		
+
 		"SentryIcon"
 		{
 			"ControlName"							"ImagePanel"
@@ -178,12 +178,12 @@
 			"zpos"									"-2"
 			"visible"								"1"
 			"enabled"								"1"
-			
-			"scaleImage"							"1"	
+
+			"scaleImage"							"1"
 
 			"image"									"../hud/eng_build_sentry"
 		}
-		
+
 		"ActiveTabPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -199,7 +199,7 @@
 			"bgcolor_override"						"Background"
 			"PaintBackgroundType"					"0"
 		}
-		
+
 		"MouseOverTabPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -215,7 +215,7 @@
 			"bgcolor_override"						"WhiteDark"
 			"PaintBackgroundType"					"0"
 		}
-		
+
 		"MouseOverUpgradePanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -231,7 +231,7 @@
 			"bgcolor_override"						"WhiteDark"
 			"PaintBackgroundType"					"0"
 		}
-		
+
 		"InactiveTabPanel1"
 		{
 			"ControlName"							"EditablePanel"
@@ -247,7 +247,7 @@
 			"bgcolor_override"						"Background Light"
 			"PaintBackgroundType"					"0"
 		}
-		
+
 		"InactiveTabPanel2"
 		{
 			"ControlName"							"EditablePanel"
@@ -263,7 +263,7 @@
 			"bgcolor_override"						"Background Light"
 			"PaintBackgroundType"					"0"
 		}
-		
+
 		"InactiveTabPanel3"
 		{
 			"ControlName"							"EditablePanel"
@@ -279,7 +279,7 @@
 			"bgcolor_override"						"Background Light"
 			"PaintBackgroundType"					"0"
 		}
-		
+
 		"InactiveTabPanel4"
 		{
 			"ControlName"							"EditablePanel"
@@ -295,7 +295,7 @@
 			"bgcolor_override"						"Background Light"
 			"PaintBackgroundType"					"0"
 		}
-		
+
 		"InactiveTabPanel5"
 		{
 			"ControlName"							"EditablePanel"
@@ -311,7 +311,7 @@
 			"bgcolor_override"						"Background Light"
 			"PaintBackgroundType"					"0"
 		}
-		
+
 		"InactiveTabPanel6"
 		{
 			"ControlName"							"EditablePanel"
@@ -327,7 +327,7 @@
 			"bgcolor_override"						"Background Light"
 			"PaintBackgroundType"					"0"
 		}
-		
+
 		"InactiveSeparatorPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -408,7 +408,7 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 		}
-		
+
 		"UpgradeItemsDescriptionBG"
 		{
 			"ControlName"							"Panel"
@@ -420,10 +420,10 @@
 			"tall"									"65"
 			"visible"								"1"
 			"enabled"								"1"
-			
+
 			"bgcolor_override"						"Background"
 		}
-		
+
 		"UpgradeItemsDescriptionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -443,7 +443,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"OffWhite"
 		}
-		
+
 		"UpgradeItemsBG"
 		{
 			"ControlName"							"Panel"
@@ -455,10 +455,10 @@
 			"tall"									"130"
 			"visible"								"1"
 			"enabled"								"1"
-			
+
 			"bgcolor_override"						"Background"
 		}
-		
+
 		"UpgradeItemsHeaderBG"
 		{
 			"ControlName"							"Panel"
@@ -470,10 +470,10 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			
+
 			"bgcolor_override"						"Background Light"
 		}
-		
+
 		"UpgradeItemsLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -491,7 +491,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-		
+
 		"UpgradeItemStatsLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -510,7 +510,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"CreditsBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -562,12 +562,12 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"fgcolor"								"Green"
-			
+
 			"pin_to_sibling" 						"CreditsBG"
 			"pin_corner_to_sibling" 				"PIN_CENTER_RIGHT"
 			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
 		}
-		
+
 		"CancelButton"
 		{
 			"ControlName"							"CExButton"
@@ -588,20 +588,20 @@
 			"Command"								"cancel"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"AllCaps"								"1"
-		
+
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"OffWhite"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"OffWhite"
-			
+
 			"defaultBgColor_override"				"Background"
 			"armedBgColor_override"					"Background Light"
 			"depressedBgColor_override"				"Background Light"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExButton"
@@ -622,15 +622,15 @@
 			"Command"								"close"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"AllCaps"								"1"
-		
+
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"OffWhite"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"OffWhite"
-			
+
 			"defaultBgColor_override"				"Background"
 			"armedBgColor_override"					"Background Light"
 			"depressedBgColor_override"				"Background Light"
@@ -656,20 +656,20 @@
 			"Command"								"respec"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"AllCaps"								"1"
-		
+
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"OffWhite"
 			"armedFgColor_override"					"White"
 			"depressedFgColor_override"				"OffWhite"
-			
+
 			"defaultBgColor_override"				"Background"
 			"armedBgColor_override"					"Background Light"
 			"depressedBgColor_override"				"Background Light"
 		}
-		
+
 		"CreditsTextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -682,12 +682,12 @@
 			"fieldName"								"OutterPanelBG"
 			"xpos"									"9999"
 		}
-	}	
-	
+	}
+
 	"TipPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"TipPanel"
 		"xpos"										"9999"
-	}	
+	}
 }

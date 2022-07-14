@@ -1,9 +1,9 @@
 #base "Base_Active.res"
 
-"Resource/UI/build_menu/base_already_built.res"
+"Resource/UI/Build_Menu/Base_Already_Built.res"
 {
 	"CantBuildReason"
-	{	
+	{
 		"visible"									"1"
 		"labelText"									"#Hud_Menu_Build_Already_Built"
 	}
@@ -16,7 +16,7 @@
 	{
 		"visible"									"1"
 	}
-	
+
 	"Cost"
 	{
 		"visible"									"0"
@@ -25,9 +25,9 @@
 	{
 		"visible"									"0"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"visible"									"0"
 	}
 }

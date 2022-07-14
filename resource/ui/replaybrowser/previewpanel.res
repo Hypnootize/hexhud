@@ -1,4 +1,4 @@
-"Resource/UI/PreviewPanel.res"
+"Resource/UI/ReplayBrowser/PreviewPanel.res"
 {
 	"PreviewPanel"
 	{
@@ -13,7 +13,7 @@
 		"bgcolor_override"							"Background_Secondary"
 		"proportional"								"0"
 	}
-	
+
 	"Screenshot"
 	{
 		"ControlName"								"ImagePanel"
@@ -32,7 +32,7 @@
 		"ypos"										"0"
 		"wide"										"160"
 		"tall"										"75"
-	
+
 		"NoScreenshotLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -45,7 +45,7 @@
 			"tall"									"15"
 			"TextAlignment"							"center"
 		}
-		
+
 		"MapLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -57,7 +57,7 @@
 			"wide"									"160"
 			"tall"									"10"
 		}
-		
+
 		"DateTimeLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -70,7 +70,7 @@
 			"wide"									"160"
 			"tall"									"15"
 		}
-		
+
 		"Label0_0"
 		{
 			"ControlName"							"CExLabel"
@@ -147,7 +147,7 @@
 			"tall"									"10"
 		}
 	}
-	
+
 	"ClassImage"
 	{
 		"ControlName"								"Panel"

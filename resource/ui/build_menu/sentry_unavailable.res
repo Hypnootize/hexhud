@@ -1,6 +1,6 @@
 #base "base_unavailable.res"
 
-"Resource/UI/build_menu/sentry_unavailable.res"
+"Resource/UI/Build_Menu/Sentry_Unavailable.res"
 {
 	"BuildingIcon"
 	{

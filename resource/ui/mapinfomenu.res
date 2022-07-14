@@ -61,7 +61,7 @@
 			"bgcolor_override"						"Background Dark"
 		}
 	}
-	
+
 	"MapInfoTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -91,7 +91,7 @@
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
-	
+
 	"MapInfoText"
 	{
 		"ControlName"								"CExRichText"
@@ -109,10 +109,10 @@
 		"fgcolor"									"OffWhite"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling" 							"InfoBG"
 	}
-	
+
 	"ok"
 	{
 		"ControlName"								"CExButton"
@@ -135,10 +135,10 @@
 		"default"									"1"
 		"font"										"Light 14"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"OffWhite"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -160,8 +160,8 @@
 		"Command"									"continue"
 		"visible"									"1"
 	}
-	
-	"MapInfoWatchIntro2" 
+
+	"MapInfoWatchIntro2"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"MapInfoWatchIntro2"
@@ -181,10 +181,10 @@
 		"AllCaps"									"1"
 		"font"										"Symbols 16"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -192,7 +192,7 @@
 		"defaultBgColor_override"					"Background Dark"
 		"armedBgColor_override"						"Background Light"
 		"depressedBgColor_override"					"Background Light"
-		
+
 		"pin_to_sibling" 							"ok"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
@@ -202,12 +202,12 @@
 
 
 
-	"MapInfoBack" 
+	"MapInfoBack"
 	{
 		"ControlName"								"CTFButton"
 		"fieldName"									"MapInfoBack"
 		"xpos"										"9999"
-	}	
+	}
 	"MapInfoType"
 	{
 		"ControlName"								"CExLabel"

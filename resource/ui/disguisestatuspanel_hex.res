@@ -1,13 +1,13 @@
-"Resource/UI/ItemModelPanel.res"
+"Resource/UI/DisguiseStatusPanel.res"
 {
 	"itemmodelpanel"
 	{
 		"ControlName"								"CEmbeddedItemModelPanel"
 		"fieldName"									"itemmodelpanel"
-	
+
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"1"		
+		"zpos"										"1"
 		"wide"										"100"
 		"tall"										"100"
 		"visible"									"1"
@@ -26,7 +26,7 @@
 			"angles_z"								"0"
 		}
 	}
-	
+
 	"DisguiseStatusBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -39,7 +39,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"image"										"replay/thumbnails/panels/flat_background"
 		"scaleImage"								"1"
 		"teambg_1"									"replay/thumbnails/panels/flat_background"
@@ -66,7 +66,7 @@
 	}
 
 	"DisguiseNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DisguiseNameLabel"
 		"font"										"Light 8"
@@ -86,7 +86,7 @@
 		"pin_to_sibling" 							"DisguiseStatusBG"
 	}
 	"DisguiseNameLabelShadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DisguiseNameLabelShadow"
 		"font"										"Light 8 Blur"
@@ -105,9 +105,9 @@
 		"alpha"										"255"
 		"pin_to_sibling" 							"DisguiseNameLabel"
 	}
-	
+
 	"WeaponNameLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"WeaponNameLabel"
 		"font"										"Light 8"
@@ -124,12 +124,12 @@
 		"AllCaps"									"0"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		
+
 		"pin_to_sibling" 							"DisguiseStatusBG"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"								"EditablePanel"
@@ -140,13 +140,13 @@
 		"wide"										"50"
 		"tall"										"0"
 		"visible"									"1"
-		"enabled"									"1"	
+		"enabled"									"1"
 		"HealthBonusPosAdj"							"10"
 		"HealthDeathWarning"						"0.49"
 		"TFFont"									"HudFontSmall"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
-		
+
 		"pin_to_sibling" 							"DisguiseStatusBG"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"

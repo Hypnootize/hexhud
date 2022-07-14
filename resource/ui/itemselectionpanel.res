@@ -39,7 +39,7 @@
 		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"bgcolor_override"							"Background_Main"
-		
+
 		"item_ypos"									"80"
 		"item_ydelta"								"80"
 		"item_backpack_offcenter_x"					"-200"
@@ -82,7 +82,7 @@
 				"mouseinputenabled" 				"0"
 			}
 		}
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -95,27 +95,27 @@
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"1"
-			
+
 			"model_xpos"							"2"
-			"model_ypos"							"5" 
+			"model_ypos"							"5"
 			"model_wide"							"50"
 			"model_tall"							"35"
 			"text_ypos"								"60"
 			"text_center"							"1"
 			"name_only"								"1"
-			
+
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
 
 			"deferred_description"					"1"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
-			
+
 			"use_item_sounds"						"1"
 		}
 		"duplicatelabels_kv"
@@ -174,7 +174,7 @@
 		"fgcolor_override"							"WhiteDark"
 		"paintbackground"							"1"
 		"bgcolor_override"							"GrayBlueDark"
-		
+
 		"pin_to_sibling" 							"NameFilterTextEntry"
 	}
 	"NameFilterSearchBG"
@@ -226,7 +226,7 @@
 		"defaultBgColor_override" 					"Button"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -261,7 +261,7 @@
 		"defaultBgColor_override" 					"Button"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -288,13 +288,13 @@
 		"brighttext"								"0"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"pin_to_sibling"							"CurPageLabel"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
@@ -309,7 +309,7 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -328,7 +328,7 @@
 		"enabled"									"1"
 		"fgcolor_override"							"WhiteDark"
 	}
-	
+
 	"NextPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -350,13 +350,13 @@
 		"brighttext"								"0"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"pin_to_sibling"							"CurPageLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
@@ -392,7 +392,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor" 									"RedDark"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -416,7 +416,7 @@
 		"Command"									"vguicancel"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-	
+
 	"OnlyAllowUniqueQuality"
 	{
 		"ControlName"								"CheckButton"
@@ -437,7 +437,7 @@
 		"brighttext"								"0"
 		"smallcheckimage"							"1"
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -452,13 +452,13 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"Light 10"

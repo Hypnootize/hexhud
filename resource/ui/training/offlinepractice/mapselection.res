@@ -1,4 +1,4 @@
-"Resource/training/offlinepractice/mapselection.res"
+"Resource/UI/Training/OfflinePractice/MapSelection.res"
 {
 	"TitleBG"
 	{
@@ -57,7 +57,7 @@
 		"paintbackground"							"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"								"CExButton"
@@ -78,19 +78,19 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"Command"									"goprev"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
-		
+
 		"paintbackground"							"0"
 		"paintborder"								"0"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-	}	
-	
+	}
+
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
@@ -112,14 +112,14 @@
 		"brighttext"								"0"
 		"Command"									"gonext"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
-		
+
 		"paintbackground"							"0"
 		"paintborder"								"0"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -187,7 +187,7 @@
 		"proportionaltoparent"						"1"
 		"pin_to_sibling" 							"SettingsBG"
 	}
-	
+
 	"DifficultyComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -211,7 +211,7 @@
 		"textinsetx"								"50"
 		"proportionaltoparent"						"1"
 		"paintborder"								"0"
-		
+
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"GrayBlueDark"
 		"disabledFgColor_override" 					"WhiteDark"
@@ -231,7 +231,7 @@
 
 		"pin_to_sibling" 							"SettingsBG"
 	}
-	
+
 	"PlayersLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -257,7 +257,7 @@
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"NumPlayersTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -281,17 +281,17 @@
 		"NumericInputOnly"							"1"
 		"selectallonfirstfocus"						"1"
 		"proportionaltoparent"						"1"
-		
+
 		"bgcolor_override"							"GrayBlueDark"
 		"fgcolor_override"							"WhiteDark"
-		
+
 		"AllCaps"									"1"
 
 		"pin_to_sibling" 							"PlayersLabel"
 		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
 	}
-	
+
 	"SuggestedPlayerCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -311,7 +311,7 @@
 		"wrap"										"0"
 		"fgcolor_override"							"WhiteDark"
 		"proportionaltoparent"						"1"
-		
+
 		"AllCaps"									"1"
 
 		"pin_to_sibling" 							"NumPlayersTextEntry"
@@ -341,7 +341,7 @@
 		"Command"									"startofflinepractice"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"proportionaltoparent"						"1"
-		
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
@@ -349,16 +349,16 @@
 		"defaultBgColor_override" 					"ButtonGreen"
 		"armedBgColor_override" 					"ButtonGreen_Hover"
 		"depressedBgColor_override" 				"ButtonGreen_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
 	}
-	
+
 	"HackCoverBottomOfMapImagePanel"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"MapImagePanel"
+		"fieldName"									"HackCoverBottomOfMapImagePanel"
 		"xpos"										"9999"
 	}
 	"GradientPanel"

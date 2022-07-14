@@ -1,7 +1,7 @@
 "Resource/UI/HudArenaCapPointCountdown.res"
 {
 	"CapCountdownLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CapCountdownLabel"
 		"font"										"Light 18"

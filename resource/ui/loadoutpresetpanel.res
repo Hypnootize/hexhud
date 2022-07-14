@@ -4,7 +4,7 @@
 	{
 		"ControlName"									"CLoadoutPresetPanel"
 		"fieldName"										"loadout_preset_panel"
-		
+
 		"presetbutton_kv"
 		{
 			"zpos"										"20"
@@ -37,11 +37,11 @@
 			"armedBgColor_override" 					"Button_Hover"
 			"depressedBgColor_override" 				"Button_Hover"
 			"selectedBgColor_override" 					"Button_Hover"
-			
+
 			"defaultFgColor_override" 					"White"
 			"armedFgColor_override" 					"WhiteSolid"
 			"depressedFgColor_override" 				"WhiteSolid"
 			"selectedFgColor_override" 					"WhiteSolid"
-		}			
+		}
 	}
 }

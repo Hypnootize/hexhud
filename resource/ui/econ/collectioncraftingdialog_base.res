@@ -1,6 +1,6 @@
 "#base"		"../../../resource/dev/ReloadSchemeButton.res"
 
-"Resource/UI/econ/StrangeCountTransferDialog.res"
+"Resource/UI/Econ/CollectionCraftingDialog_Base.res"
 {
 	"ReloadSchemeButton"
 	{
@@ -43,7 +43,7 @@
 
 		"ItemContainerKV"
 		{
-			"fieldName"								"ItemContainer"
+			"fieldName"								"ItemContainerKV"
 			"xpos"									"p0.08"
 			"ypos"									"p0.245"
 			"zpos"									"1"
@@ -1033,7 +1033,7 @@
 		"defaultBgColor_override" 					"Button"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-			
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -1157,9 +1157,9 @@
 			"proportionaltoparent"					"1"
 			"Command"								"close"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1207,9 +1207,9 @@
 			"proportionaltoparent"					"1"
 			"Command"								"nextexplanation"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1302,9 +1302,9 @@
 			"Command"								"close"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1333,9 +1333,9 @@
 			"Command"								"prevexplanation"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1448,9 +1448,9 @@
 			"default"								"0"
 			"Command"								"close"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1499,9 +1499,9 @@
 			"Command"								"nextexplanation"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1593,9 +1593,9 @@
 			"default"								"0"
 			"Command"								"close"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1624,9 +1624,9 @@
 			"Command"								"prevexplanation"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"

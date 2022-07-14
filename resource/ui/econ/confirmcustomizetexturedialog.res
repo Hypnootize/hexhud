@@ -1,4 +1,4 @@
-"Resource/UI/econ/ConfirmCustomizeTextureDialog.res"
+"Resource/UI/Econ/ConfirmCustomizeTextureDialog.res"
 {
 	"ConfirmCustomizeTextureDialog"
 	{
@@ -48,13 +48,13 @@
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"1"
-			
+
 			"text_ypos"								"20"
 			"text_center"							"1"
 			"model_hide"							"1"
 			"resize_to_text"						"1"
 			"padding_height"						"15"
-			
+
 			"attriblabel"
 			{
 				"font"								"Light 11"
@@ -82,9 +82,9 @@
 			"fieldName"								"tool_icon"
 			"xpos"									"9999"
 		}
-		
+
 		"tool_modelpanel"
-		{		
+		{
 			"ControlName"							"CItemModelPanel"
 			"fieldName"								"tool_modelpanel"
 			"xpos"									"10"
@@ -124,15 +124,15 @@
 				"proportionaltoparent"				"1"
 				"mouseinputenabled" 				"0"
 			}
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
-		}	
-		
+		}
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -162,10 +162,10 @@
 			"ControlName"							"ScalableImagePanel"
 			"fieldName"								"subject_icon"
 			"xpos"									"9999"
-		}	
+		}
 
 		"subject_modelpanel"
-		{		
+		{
 			"ControlName"							"CItemModelPanel"
 			"fieldName"								"subject_modelpanel"
 			"xpos"									"rs1-10"
@@ -221,14 +221,14 @@
 				"proportionaltoparent"				"1"
 				"mouseinputenabled" 				"0"
 			}
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
-		}	
+		}
 
 		// Dynamically sized and moded based on the current page
 		"paint_model"
@@ -255,7 +255,7 @@
 			"model_only"							"1"
 			"paint_icon_hide" 						"1"
 			"proportionaltoparent"					"1"
-			
+
 			"itemmodelpanel"
 			{
 				"force_use_model"					"1"
@@ -310,7 +310,7 @@
 				"UseAvatarRadio"
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"UseAvatarRadio"	
+					"fieldName"						"UseAvatarRadio"
 					"xpos"							"0"
 					"ypos"							"0"
 					"wide"							"330"
@@ -350,13 +350,13 @@
 					"AllCaps"						"1"
 					"Command"						"pick_image"
 					"sound_depressed"				"UI/buttonclick.wav"
-					
+
 					"paintbackground"				"1"
-		
+
 					"defaultFgColor_override"		"WhiteDark"
 					"armedFgColor_override"			"WhiteSolid"
 					"depressedFgColor_override"		"WhiteSolid"
-					
+
 					"border_default"				"Button"
 					"border_armed"					"Button_hover"
 					"proportionaltoparent"			"1"
@@ -452,10 +452,10 @@
 				"textAlignment"						"center"
 				"Command"							"cancel"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
-				
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
@@ -464,7 +464,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-			
+
 			"NextButton"
 			{
 				"ControlName"						"CExButton"
@@ -480,10 +480,10 @@
 				"textAlignment"						"center"
 				"Command"							"next_page"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
-				
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
@@ -527,7 +527,7 @@
 			"FilterOptionsGroupBox"
 			{
 				"ControlName"						"EditablePanel"
-				"fieldName"							"SelectFilterGroupBox"
+				"fieldName"							"FilterOptionsGroupBox"
 				"Font"								"Light 11"
 				"xpos"								"0"
 				"ypos"								"0"
@@ -616,9 +616,9 @@
 						"proportionaltoparent"		"1"
 						"Command"					"prev_stencil_palette"
 						"sound_depressed"			"UI/buttonclick.wav"
-						
+
 						"paintbackground"			"0"
-		
+
 						"defaultFgColor_override"	"WhiteDark"
 						"armedFgColor_override"		"WhiteSolid"
 						"depressedFgColor_override"	"WhiteSolid"
@@ -639,9 +639,9 @@
 						"proportionaltoparent"		"1"
 						"Command"					"next_stencil_palette"
 						"sound_depressed"			"UI/buttonclick.wav"
-						
+
 						"paintbackground"			"0"
-		
+
 						"defaultFgColor_override"	"WhiteDark"
 						"armedFgColor_override"		"WhiteSolid"
 						"depressedFgColor_override"	"WhiteSolid"
@@ -784,10 +784,10 @@
 				"AllCaps"							"1"
 				"Command"							"cancel"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
-				
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
@@ -812,10 +812,10 @@
 				"AllCaps"							"1"
 				"Command"							"prev_page"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
-				
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
@@ -840,10 +840,10 @@
 				"AllCaps"							"1"
 				"Command"							"next_page"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
-				
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
@@ -980,10 +980,10 @@
 				"AllCaps"							"1"
 				"Command"							"cancel"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
-				
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
@@ -1008,10 +1008,10 @@
 				"AllCaps"							"1"
 				"Command"							"prev_page"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
-				
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
@@ -1037,10 +1037,10 @@
 				"default"							"1"
 				"Command"							"apply"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
-				
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"

@@ -22,7 +22,7 @@
 		{
 			"ControlName"							"CTFLocalPlayerBadgePanel"
 			"fieldName"								"RankImage"
-			"xpos"									"9999"				// Disabled since it's inconsisited as fuck sometimes is there sometimes isn't idk why.
+			"xpos"									"9999"				// Disabled since it's inconsistent as fuck, sometimes is there sometimes isn't idk why.
 			"ypos"									"0"
 			"zpos"									"110"
 			"wide"									"o1"
@@ -34,7 +34,7 @@
 
 			"matchgroup"							"MatchGroup_Casual_12v12"
 		}
-	
+
 		"RankPanel"
 		{
 			"ControlName"							"CPvPRankPanel"
@@ -86,7 +86,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"OffWhite"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -124,7 +124,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"OffWhite"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -162,12 +162,12 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"OffWhite"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
 		}
-		
+
 		"SelectedCount"
 		{
 			"ControlName"							"Label"
@@ -183,7 +183,7 @@
 			"font"									"Light 14"
 			"fgcolor_override"						"WhiteDark"
 			"AllCaps"								"1"
-		
+
 			"mouseinputenabled"						"1"
 		}
 
@@ -203,10 +203,10 @@
 			"fgcolor_override"						"WhiteDark"
 			"AllCaps"								"1"
 			"visible"								"0"
-		
+
 			"mouseinputenabled"						"0"
 		}
-		
+
 		"Title"
 		{
 			"ControlName"							"Label"
@@ -253,14 +253,14 @@
 				{
 					"fgcolor_override"				"WhiteDark"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"					"Button"
 					"FieldName"						"UpButton"
 					"visible"						"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"					"Button"

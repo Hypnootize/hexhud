@@ -1,4 +1,4 @@
-"Resource/UI/NotificationsPresentPanel.res"
+"Resource/UI/Econ/NotificationsPresentPanel.res"
 {
 	"NotificationsPresentPanel"
 	{
@@ -19,7 +19,7 @@
 	}
 
 	"TextLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TextLabel"
 		"fgcolor"									"WhiteDark"

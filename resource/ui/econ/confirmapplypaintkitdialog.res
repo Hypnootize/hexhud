@@ -1,4 +1,4 @@
-"Resource/UI/ConfirmApplyPaintkitDialog.res"
+"Resource/UI/Econ/ConfirmApplyPaintkitDialog.res"
 {
 	"ConfirmApplyStrangifierDialog"
 	{
@@ -31,13 +31,13 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"ItemFontAttribLarge"
@@ -91,9 +91,9 @@
 		"fieldName"									"tool_icon"
 		"xpos"										"9999"
 	}
-	
+
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"tool_modelpanel"
 		"xpos"										"10"
@@ -150,7 +150,7 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled" 					"0"
 		}
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
@@ -171,7 +171,7 @@
 		"xpos"										"9999"
 	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"subject_modelpanel"
 		"xpos"										"rs1-10"
@@ -227,7 +227,7 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled" 					"0"
 		}
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" 				"0"
@@ -317,7 +317,7 @@
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
 			"spotlight" 							"1"
-		
+
 			"modelname"								""
 		}
 
@@ -375,10 +375,10 @@
 		"default"									"0"
 		"Command"									"cancel"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -387,7 +387,7 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -411,10 +411,10 @@
 		"default"									"1"
 		"Command"									"apply"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"

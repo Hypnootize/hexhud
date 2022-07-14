@@ -16,7 +16,7 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"0 0 0 150"
 	}
-	
+
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -53,7 +53,7 @@
 		"fieldName"									"VideoPanel"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5-50"
-		"zpos"										"3"		
+		"zpos"										"3"
 		"wide"										"310"
 		"tall"										"235"
 		"visible"									"1"
@@ -94,7 +94,7 @@
 			"bgcolor_override"						"Background Dark"
 		}
 	}
-	
+
 	"CaptionBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -114,7 +114,7 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"VideoCaption"
 	{
 		"ControlName"								"CExLabel"
@@ -159,10 +159,10 @@
 		"default"									"1"
 		"font"										"Light 14"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"OffWhite"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -184,11 +184,11 @@
 		"Command"									"skip"
 		"visible"									"1"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"

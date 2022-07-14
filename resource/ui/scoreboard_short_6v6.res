@@ -3,7 +3,7 @@
 	"scores"
 	{
 		"ControlName"	        					"CTFClientScoreBoardDialog"
-		"fieldName"	          						"scoreinfo"
+		"fieldName"	          						"scores"
 		"xpos"		            					"0"
 		"ypos"		            					"31"
 		"wide"		            					"f0"
@@ -13,7 +13,7 @@
 		"visible"		           					"1"
 		"enabled"		            				"1"
 		"tabPosition"								"0"
-		
+
 		"medal_width"								"12"
 		"avatar_width"								"55"
 		"spacer"									"2"
@@ -25,7 +25,7 @@
 		"killstreak_width"							"12"
 		"killstreak_image_width" 					"12"
 	}
-	
+
 	"ScoreboardAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -53,11 +53,11 @@
 		"enabled"									"1"
 		"bgcolor_override"							"Blue"
 		"PaintBackgroundType"						"0"
-		
+
 		"pin_to_sibling" 							"ScoreboardAnchor"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -74,12 +74,12 @@
 			"proportionaltoparent"					"1"
 		}
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"BlueScoreBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -93,11 +93,11 @@
 		"enabled"									"1"
 		"bgcolor_override"							"BlueDark"
 		"PaintBackgroundType"						"0"
-		
+
 		"pin_to_sibling" 							"BlueBG"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -114,12 +114,12 @@
 			"proportionaltoparent"					"1"
 		}
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"BlueTeamScore"
 	{
 		"ControlName"								"CExLabel"
@@ -137,12 +137,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling"							"BlueScoreBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -166,12 +166,12 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"BlueTeamScore"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"BlueTeamName"
 	{
 		"ControlName"								"CExLabel"
@@ -189,12 +189,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling"							"BlueScoreBG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -218,7 +218,7 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"BlueTeamName"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -241,10 +241,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"pin_to_sibling"							"BlueBG"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -268,12 +268,12 @@
 		"enabled"									"1"
 		"pin_to_sibling"							"BlueTeamPlayerCount"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"RedBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -287,11 +287,11 @@
 		"enabled"									"1"
 		"bgcolor_override"							"Red"
 		"PaintBackgroundType"						"0"
-		
+
 		"pin_to_sibling" 							"ScoreboardAnchor"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -308,12 +308,12 @@
 			"proportionaltoparent"					"1"
 		}
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"RedScoreBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -327,9 +327,9 @@
 		"enabled"									"1"
 		"bgcolor_override"							"RedDark"
 		"PaintBackgroundType"						"0"
-		
+
 		"pin_to_sibling" 							"RedBG"
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -346,12 +346,12 @@
 			"proportionaltoparent"					"1"
 		}
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"RedTeamScore"
 	{
 		"ControlName"								"CExLabel"
@@ -369,12 +369,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling"							"RedScoreBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -398,12 +398,12 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"RedTeamScore"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"RedTeamName"
 	{
 		"ControlName"								"CExLabel"
@@ -421,12 +421,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling"							"RedScoreBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -450,7 +450,7 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"RedTeamName"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -473,12 +473,12 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"pin_to_sibling"							"RedBG"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -502,12 +502,12 @@
 		"enabled"									"1"
 		"pin_to_sibling"							"RedTeamPlayerCount"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"ScoresBlueBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -521,17 +521,17 @@
 		"enabled"									"1"
 		"bgcolor_override"							"TransparentBackground"
 		"PaintBackgroundType"						"0"
-		
+
 		"pin_to_sibling" 							"BlueBG"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"ScoresRedBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -545,12 +545,12 @@
 		"enabled"									"1"
 		"bgcolor_override"							"TransparentBackground"
 		"PaintBackgroundType"						"0"
-		
+
 		"pin_to_sibling" 							"RedBG"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -575,12 +575,12 @@
 		"fgcolor"		          					"blue"
 		"alpha"										"255"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"RedPlayerList"
 	{
 		"ControlName"								"SectionedListPanel"
@@ -599,8 +599,8 @@
 		"linegap"									"1"
 		"textcolor"									"red"
 		"alpha"										"255"
-		
-		if_mvm
+
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -621,8 +621,8 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background"
 		"proportionaltoparent"						"1"
-		
-		if_mvm
+
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -644,17 +644,17 @@
 		"teambg_1"									"replay/thumbnails/panels/flat_whitedark"
 		"teambg_2"									"replay/thumbnails/panels/flat_red"
 		"teambg_3"									"replay/thumbnails/panels/flat_blue"
-		
+
 		"src_corner_height"							"32"
 		"src_corner_width"							"32"
 		"draw_corner_width"							"0"
 		"draw_corner_height" 						"0"
-		
+
 		"pin_to_sibling" 							"ServerTimeLeftBG"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -677,8 +677,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"pin_to_sibling"							"ServerTimeLeftBG"
-		
-		if_mvm
+
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -703,7 +703,7 @@
 		"proportionaltoparent"	              		"1"
 		"alpha"										"255"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -726,8 +726,8 @@
 		"textinsetx"	              				"0"
 		"proportionaltoparent"	              		"1"
 		"alpha"										"255"
-		
-		if_mvm
+
+		"if_mvm"
 		{
 			"visible"								"0"
 		}
@@ -749,8 +749,8 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
-		
-		if_mvm
+
+		"if_mvm"
 		{
 			"xpos"									"-6"
 			"ypos"									"-15"
@@ -816,7 +816,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling" 							"LocalPlayerStatsPanel"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
@@ -835,7 +835,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
-		if_mvm
+		"if_mvm"
 		{
 			"xpos"									"cs-0.5"
 			"ypos"									"c88"
@@ -863,7 +863,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"TransparentBackground"
 
-			if_mvm
+			"if_mvm"
 			{
 				"wide"								"f0"
 			}
@@ -925,7 +925,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			
+
 			"pin_to_sibling" 						"KillsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
@@ -991,7 +991,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			
+
 			"pin_to_sibling" 						"DeathsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
@@ -1058,7 +1058,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			
+
 			"pin_to_sibling" 						"AssistsLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
@@ -1124,12 +1124,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			
+
 			"pin_to_sibling" 						"DamageLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"HealIcon"
 		{
 			"ControlName"							"CExLabel"
@@ -1191,7 +1191,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			
+
 			"pin_to_sibling" 						"HealingLabel"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
@@ -1263,7 +1263,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"SupportLabel"
 			"visible"								"0"
-		}		
+		}
 		"Kills"
 		{
 			"ControlName"							"CExLabel"
@@ -1349,7 +1349,7 @@
 			"visible"								"0"
 		}
 	}
-	
+
 	"LocalPlayerDuelStatsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -1417,7 +1417,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-	
+
 			"AvatarBGPanel"
 			{
 				"ControlName"						"EditablePanel"
@@ -1430,9 +1430,9 @@
 				"fieldName"							"AvatarImage"
 				"xpos"								"9999"
 			}
-			
+
 			"AvatarTextLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"AvatarTextLabel"
 				"fgcolor"							"White"
@@ -1466,7 +1466,7 @@
 				"enabled"							"1"
 				"font"								"Light 10"
 				"proportionaltoparent"				"1"
-				
+
 				"pin_to_sibling"					"AvatarTextLabel"
 				"pin_corner_to_sibling"				"PIN_TOPLEFT"
 				"pin_to_sibling_corner"				"PIN_TOPRIGHT"
@@ -1486,23 +1486,23 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-	
+
 			"AvatarBGPanel"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"AvatarBGPanel"
 				"xpos"								"9999"
 			}
-			
+
 			"AvatarImage"
 			{
 				"ControlName"						"CAvatarImagePanel"
 				"fieldName"							"AvatarImage"
 				"xpos"								"9999"
 			}
-			
+
 			"AvatarTextLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"AvatarTextLabel"
 				"fgcolor"							"White"
@@ -1536,14 +1536,14 @@
 				"enabled"							"1"
 				"font"								"Light 10"
 				"proportionaltoparent"				"1"
-				
+
 				"pin_to_sibling"					"AvatarTextLabel"
 				"pin_corner_to_sibling"				"PIN_TOPLEFT"
 				"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 			}
 		}
 	}
-	
+
 	"MvMScoreboard"
 	{
 		"ControlName"								"CTFHudMannVsMachineScoreboard"
@@ -1555,17 +1555,17 @@
 		"tall"										"480"
 		"visible"									"0"
 		"enabled"									"1"
-		
+
 		"verbose"									"1"
-		
-		if_mvm
+
+		"if_mvm"
 		{
 			"visible"								"1"
 		}
 	}
-	
-	
-	
+
+
+
 
 
 

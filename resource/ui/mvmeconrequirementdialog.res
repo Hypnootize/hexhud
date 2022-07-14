@@ -1,4 +1,4 @@
-"Resource/UI/UpgradeBoxDialog.res"
+"Resource/UI/MvMEconRequirementDialog.res"
 {
 	"ConfirmDialog"
 	{
@@ -16,7 +16,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -34,7 +34,7 @@
 		"AllCaps"									"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -93,9 +93,9 @@
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -103,5 +103,5 @@
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}			
+	}
 }

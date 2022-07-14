@@ -2,7 +2,7 @@
 
 // THIS WHOLE SCREEN DESIGN KINDA SUCKS, REVIEW IN THE FUTURE!!
 
-"Resource/UI/winpanel.res"
+"Resource/UI/StatSummary_Embedded.res"
 {
 	"ReloadSchemeButton"
 	{
@@ -24,7 +24,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Loadout_NavigationBar"
 	}
-	
+
 	"StatsIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -78,7 +78,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"fgcolor_override" 							"WhiteDark"
-		
+
 		"pin_to_sibling" 							"Line"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
@@ -96,7 +96,7 @@
 		"enabled"									"1"
 		"bgcolor_override"							"Background_Main"
 	}
-	
+
 	"ResetStatsButton2"
 	{
 		"ControlName"								"CExButton"
@@ -117,17 +117,17 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"Command"									"resetstatsbutton"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 		"paintborder"								"0"
-		
+
 		"defaultFgColor_override"					"GrayBlueLight"
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 	}
-	
+
 	"StatData"
 	{
 		"ControlName"								"EditablePanel"
@@ -139,7 +139,7 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"PerformanceBackground"
 		{
 			"ControlName"							"EditablePanel"
@@ -212,7 +212,7 @@
 			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
 			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
 		}
-		
+
 		"InteractiveHeaders"
 		{
 			"ControlName"							"EditablePanel"
@@ -247,7 +247,7 @@
 				"unicode"							"0"
 				"paintborder"						"0"
 				"proportionaltoparent"				"1"
-				
+
 				"fgcolor_override"					"WhiteDark"
 				"bgcolor_override"					"GrayBlueDark"
 				"disabledFgColor_override" 			"WhiteDark"
@@ -265,7 +265,7 @@
 					"paintbackgroundtype"			"0"
 				}
 			}
-			
+
 			"ClassCombo"
 			{
 				"ControlName"						"ComboBox"
@@ -287,7 +287,7 @@
 				"unicode"							"0"
 				"paintborder"						"0"
 				"proportionaltoparent"				"1"
-				
+
 				"fgcolor_override"					"WhiteDark"
 				"bgcolor_override"					"GrayBlueDark"
 				"disabledFgColor_override" 			"WhiteDark"
@@ -305,7 +305,7 @@
 					"paintbackgroundtype"			"0"
 				}
 			}
-			
+
 			"BarChartComboB"
 			{
 				"ControlName"						"ComboBox"
@@ -327,7 +327,7 @@
 				"unicode"							"0"
 				"paintborder"						"0"
 				"proportionaltoparent"				"1"
-				
+
 				"fgcolor_override"					"WhiteDark"
 				"bgcolor_override"					"GrayBlueDark"
 				"disabledFgColor_override" 			"WhiteDark"
@@ -346,7 +346,7 @@
 				}
 			}
 		}
-		
+
 		"ClassBarBG1A"
 		{
 			"ControlName"							"ImagePanel"
@@ -360,12 +360,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"BlackBlue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar1A"
 		{
 			"ControlName"							"ImagePanel"
@@ -379,12 +379,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar1B"
 		{
 			"ControlName"							"ImagePanel"
@@ -398,12 +398,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarLabel1A"
 		{
 			"ControlName"							"Label"
@@ -423,7 +423,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassBarLabel1B"
 		{
 			"ControlName"							"Label"
@@ -443,7 +443,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassLabel1"
 		{
 			"ControlName"							"Label"
@@ -466,7 +466,7 @@
 			"fgcolor_override"						"WhiteDark"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarBG2A"
 		{
 			"ControlName"							"ImagePanel"
@@ -480,12 +480,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"BlackBlue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar2A"
 		{
 			"ControlName"							"ImagePanel"
@@ -499,11 +499,11 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 		}
-		
+
 		"ClassBar2B"
 		{
 			"ControlName"							"ImagePanel"
@@ -517,11 +517,11 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 		}
-		
+
 		"ClassBarLabel2A"
 		{
 			"ControlName"							"Label"
@@ -541,7 +541,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassBarLabel2B"
 		{
 			"ControlName"							"Label"
@@ -561,7 +561,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassLabel2"
 		{
 			"ControlName"							"Label"
@@ -584,7 +584,7 @@
 			"fgcolor_override"						"WhiteDark"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarBG3A"
 		{
 			"ControlName"							"ImagePanel"
@@ -598,12 +598,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"BlackBlue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar3A"
 		{
 			"ControlName"							"ImagePanel"
@@ -617,12 +617,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar3B"
 		{
 			"ControlName"							"ImagePanel"
@@ -636,12 +636,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarLabel3A"
 		{
 			"ControlName"							"Label"
@@ -661,7 +661,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassBarLabel3B"
 		{
 			"ControlName"							"Label"
@@ -681,7 +681,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassLabel3"
 		{
 			"ControlName"							"Label"
@@ -704,7 +704,7 @@
 			"fgcolor_override"						"WhiteDark"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarBG4A"
 		{
 			"ControlName"							"ImagePanel"
@@ -718,12 +718,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"BlackBlue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar4A"
 		{
 			"ControlName"							"ImagePanel"
@@ -737,12 +737,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar4B"
 		{
 			"ControlName"							"ImagePanel"
@@ -756,12 +756,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarLabel4A"
 		{
 			"ControlName"							"Label"
@@ -781,7 +781,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassBarLabel4B"
 		{
 			"ControlName"							"Label"
@@ -801,7 +801,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassLabel4"
 		{
 			"ControlName"							"Label"
@@ -824,7 +824,7 @@
 			"fgcolor_override"						"WhiteDark"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarBG5A"
 		{
 			"ControlName"							"ImagePanel"
@@ -838,12 +838,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"BlackBlue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar5A"
 		{
 			"ControlName"							"ImagePanel"
@@ -857,12 +857,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar5B"
 		{
 			"ControlName"							"ImagePanel"
@@ -876,12 +876,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarLabel5A"
 		{
 			"ControlName"							"Label"
@@ -901,7 +901,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassBarLabel5B"
 		{
 			"ControlName"							"Label"
@@ -921,7 +921,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassLabel5"
 		{
 			"ControlName"							"Label"
@@ -944,7 +944,7 @@
 			"fgcolor_override"						"WhiteDark"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarBG6A"
 		{
 			"ControlName"							"ImagePanel"
@@ -958,12 +958,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"BlackBlue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar6A"
 		{
 			"ControlName"							"ImagePanel"
@@ -977,12 +977,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar6B"
 		{
 			"ControlName"							"ImagePanel"
@@ -996,12 +996,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarLabel6A"
 		{
 			"ControlName"							"Label"
@@ -1021,7 +1021,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassBarLabel6B"
 		{
 			"ControlName"							"Label"
@@ -1041,7 +1041,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassLabel6"
 		{
 			"ControlName"							"Label"
@@ -1064,7 +1064,7 @@
 			"fgcolor_override"						"WhiteDark"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarBG7A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1078,12 +1078,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"BlackBlue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar7A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1097,12 +1097,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar7B"
 		{
 			"ControlName"							"ImagePanel"
@@ -1116,12 +1116,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarLabel7A"
 		{
 			"ControlName"							"Label"
@@ -1141,7 +1141,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassBarLabel7B"
 		{
 			"ControlName"							"Label"
@@ -1161,7 +1161,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassLabel7"
 		{
 			"ControlName"							"Label"
@@ -1184,7 +1184,7 @@
 			"fgcolor_override"						"WhiteDark"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarBG8A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1198,12 +1198,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"BlackBlue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar8A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1222,7 +1222,7 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar8B"
 		{
 			"ControlName"							"ImagePanel"
@@ -1236,12 +1236,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarLabel8A"
 		{
 			"ControlName"							"Label"
@@ -1261,7 +1261,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassBarLabel8B"
 		{
 			"ControlName"							"Label"
@@ -1281,7 +1281,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassLabel8"
 		{
 			"ControlName"							"Label"
@@ -1304,7 +1304,7 @@
 			"fgcolor_override"						"WhiteDark"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarBG9A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1318,12 +1318,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"BlackBlue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar9A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1337,12 +1337,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBar9B"
 		{
 			"ControlName"							"ImagePanel"
@@ -1356,12 +1356,12 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"	
+			"tabPosition"							"0"
 			"fillcolor"								"GrayBlueLight"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"ClassBarLabel9A"
 		{
 			"ControlName"							"Label"
@@ -1381,7 +1381,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassBarLabel9B"
 		{
 			"ControlName"							"Label"
@@ -1401,7 +1401,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"ClassLabel9"
 		{
 			"ControlName"							"Label"
@@ -1424,7 +1424,7 @@
 			"fgcolor_override"						"WhiteDark"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"RecordsLabel1"
 		{
 			"ControlName"							"Label"
@@ -1445,7 +1445,7 @@
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 		}
-		
+
 		"OverallRecord1Label"
 		{
 			"ControlName"							"Label"
@@ -1489,12 +1489,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord1Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord2Label"
 		{
 			"ControlName"							"Label"
@@ -1515,12 +1515,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord1Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord2Value"
 		{
 			"ControlName"							"Label"
@@ -1541,12 +1541,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord2Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord3Label"
 		{
 			"ControlName"							"Label"
@@ -1567,12 +1567,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord2Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord3Value"
 		{
 			"ControlName"							"Label"
@@ -1593,12 +1593,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord3Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord4Label"
 		{
 			"ControlName"							"Label"
@@ -1619,12 +1619,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord3Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord4Value"
 		{
 			"ControlName"							"Label"
@@ -1645,12 +1645,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord4Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord5Label"
 		{
 			"ControlName"							"Label"
@@ -1671,12 +1671,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord4Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord5Value"
 		{
 			"ControlName"							"Label"
@@ -1697,12 +1697,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord5Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord6Label"
 		{
 			"ControlName"							"Label"
@@ -1723,12 +1723,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord1Value"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord6Value"
 		{
 			"ControlName"							"Label"
@@ -1749,12 +1749,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord6Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord7Label"
 		{
 			"ControlName"							"Label"
@@ -1775,12 +1775,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord6Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord7Value"
 		{
 			"ControlName"							"Label"
@@ -1801,12 +1801,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord7Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord8Label"
 		{
 			"ControlName"							"Label"
@@ -1827,12 +1827,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord7Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord8Value"
 		{
 			"ControlName"							"Label"
@@ -1853,12 +1853,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord8Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord9Label"
 		{
 			"ControlName"							"Label"
@@ -1879,12 +1879,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord8Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord9Value"
 		{
 			"ControlName"							"Label"
@@ -1905,12 +1905,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord9Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord10Label"
 		{
 			"ControlName"							"Label"
@@ -1931,12 +1931,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord9Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord10Value"
 		{
 			"ControlName"							"Label"
@@ -1957,12 +1957,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord10Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord11Label"
 		{
 			"ControlName"							"Label"
@@ -1983,12 +1983,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord6Value"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord11Value"
 		{
 			"ControlName"							"Label"
@@ -2009,12 +2009,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord11Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord12Label"
 		{
 			"ControlName"							"Label"
@@ -2035,12 +2035,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord11Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord12Value"
 		{
 			"ControlName"							"Label"
@@ -2061,12 +2061,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord12Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord13Label"
 		{
 			"ControlName"							"Label"
@@ -2087,12 +2087,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord12Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord13Value"
 		{
 			"ControlName"							"Label"
@@ -2113,12 +2113,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord13Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord14Label"
 		{
 			"ControlName"							"Label"
@@ -2139,12 +2139,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord13Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord14Value"
 		{
 			"ControlName"							"Label"
@@ -2165,12 +2165,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord14Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"OverallRecord15Label"
 		{
 			"ControlName"							"Label"
@@ -2191,12 +2191,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			
+
 			"pin_to_sibling" 						"OverallRecord14Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"OverallRecord15Value"
 		{
 			"ControlName"							"Label"
@@ -2217,12 +2217,12 @@
 			"paintbackgroundtype"					"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			
+
 			"pin_to_sibling" 						"OverallRecord15Label"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
 		}
-		
+
 		"NonInteractiveHeaders"
 		{
 			"ControlName"							"EditablePanel"
@@ -2319,7 +2319,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"OnYourWayLabel"
 		"xpos"										"9999"
-	}					
+	}
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"

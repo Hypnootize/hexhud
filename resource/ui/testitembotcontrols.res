@@ -16,7 +16,7 @@
 		"paintbackground"							"0"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -37,7 +37,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"BotAnimationTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -58,7 +58,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"BotAnimationComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -81,7 +81,7 @@
 		"unicode"									"0"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"paintborder"								"0"
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"GrayBlueDark"
@@ -100,7 +100,7 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-	
+
 	"BotForceFireCheckBox"
 	{
 		"ControlName"								"CheckButton"
@@ -122,7 +122,7 @@
 		"AllCaps"									"1"
 		"disabledfgcolor2_override"					"TanDark"
 	}
-	
+
 	"BotTurntableCheckBox"
 	{
 		"ControlName"								"CheckButton"
@@ -143,7 +143,7 @@
 		"brighttext"								"0"
 		"AllCaps"									"1"
 		"disabledfgcolor2_override"					"TanDark"
-	}	
+	}
 	"BotViewScanCheckBox"
 	{
 		"ControlName"								"CheckButton"
@@ -164,8 +164,8 @@
 		"brighttext"								"0"
 		"AllCaps"									"1"
 		"disabledfgcolor2_override"					"TanDark"
-	}	
-	
+	}
+
 	"BotAnimationAnimTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -223,19 +223,19 @@
 		"default"									"1"
 		"Command"									"cancel"
 		"AllCaps"									"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -259,13 +259,13 @@
 		"Command"									"ok"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}

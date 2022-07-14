@@ -1,4 +1,4 @@
-"Resource/UI/TitleEditPanel.res"
+"Resource/UI/ReplayBrowser/TitleEditPanel.res"
 {
 	"TitleEditPanel"
 	{
@@ -11,7 +11,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"TitleInput"
 	{
 		"ControlName"								"TextEntry"
@@ -30,7 +30,7 @@
 		"bgcolor_override"							"Blank"		// Background is drawn explicitly in CTitleEditPanel::PaintBackground()
 		"Font"										"Light 18"
 	}
-	
+
 	"ClickToEditLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -41,7 +41,7 @@
 		"Visible"									"1"
 		"fgcolor_override" 							"WhiteDark"
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"								"CExLabel"

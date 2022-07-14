@@ -1,4 +1,4 @@
-"Resource/training/basictraining/classpanel.res"
+"Resource/UI/Training/BasicTraining/ClassPanel.res"
 {
 	"Image"
 	{
@@ -31,7 +31,7 @@
 		"Command"									"%selectcommand%"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"proportionaltoparent"						"1"
-		
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"1"
@@ -42,12 +42,12 @@
 		"defaultBgColor_override" 					"Button"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
 	}
-	
+
 	"ProgressLabel"
 	{
 		"ControlName"								"CExLabel"

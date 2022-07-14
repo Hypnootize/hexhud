@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
+{
 	"ObjectiveStatusRobotDestruction"
 	{
 		"ControlName"								"EditablePanel"
@@ -18,7 +18,7 @@
 		"robot_y_offset"							"0"
 		"robot_x_step"								"16"
 		"robot_y_step"								"0"
-		
+
 
 		"color_blue"								"92 173 255 255"
 		"color_red"									"255 61 61 255"
@@ -42,7 +42,7 @@
 			"skip_autoresize" 						"1"
 		}
 	}
-	
+
 	"CenterBackground"
 	{
 		"ControlName"								"EditablePanel"
@@ -94,7 +94,7 @@
 		"proportionaltoparent"						"1"
 		"font"										"Light 8"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling"							"CenterBackground"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
@@ -118,10 +118,10 @@
 		"proportionaltoparent"						"1"
 		"font"										"Light 8 Blur"
 		"fgcolor"									"Shadow"
-		
+
 		"pin_to_sibling"							"PlayingTo"
 	}
-	
+
 	"BlueBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -136,7 +136,7 @@
 		"bgcolor_override"							"Blue"
 		"PaintBackgroundType"						"0"
 		"proportionaltoparent"						"1"
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -172,7 +172,7 @@
 		"bgcolor_override"							"Red"
 		"PaintBackgroundType"						"0"
 		"proportionaltoparent"						"1"
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -207,7 +207,7 @@
 		"enabled"									"1"
 		"proportionalToParent"						"1"
 		"paintbackground"							"0"
-	
+
 		"CarriedImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -232,12 +232,12 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"center"	
+			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
 			"font"									"Light 16"
-			"fgcolor"								"White"	
-			"proportionalToParent"					"1"	
-		}	
+			"fgcolor"								"White"
+			"proportionalToParent"					"1"
+		}
 		"FlagValueShadow"
 		{
 			"ControlName"							"CExLabel"
@@ -249,11 +249,11 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"center"	
+			"textAlignment"							"center"
 			"labelText"								"%flagvalue%"
 			"font"									"Light 16 Blur"
-			"fgcolor"								"Shadow"	
-			"proportionalToParent"					"1"	
+			"fgcolor"								"Shadow"
+			"proportionalToParent"					"1"
 			"pin_to_sibling"						"FlagValue"
 		}
 	}
@@ -303,7 +303,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%score%"
 				"font"								"Bold 16"
 				"fgcolor"							"White"
@@ -320,7 +320,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%score%"
 				"font"								"Bold 18 Blur"
 				"fgcolor"							"Shadow"
@@ -354,7 +354,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%score%"
 				"font"								"Bold 16"
 				"fgcolor"							"White"
@@ -371,7 +371,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%score%"
 				"font"								"Bold 18 Blur"
 				"fgcolor"							"Shadow"
@@ -422,7 +422,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"paintbackground"					"0"
-				
+
 				"proportionalToParent"				"1"
 
 				"DroppedIntelImage"
@@ -472,7 +472,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
-				"font"								"Light 12 Blur"	
+				"font"								"Light 12 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling" 					"IntelValue"
@@ -521,7 +521,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"paintbackground"					"0"
-				
+
 				"proportionalToParent"				"1"
 
 				"DroppedIntelImage"
@@ -571,7 +571,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
-				"font"								"Light 12 Blur"	
+				"font"								"Light 12 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling" 					"IntelValue"

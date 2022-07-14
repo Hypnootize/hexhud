@@ -1,4 +1,4 @@
-"Resource/UI/StoreItemControls.res"
+"Resource/UI/Econ/Store/V2/StoreItemControls.res"
 {
 	"StoreItemControls"
 	{
@@ -35,9 +35,9 @@
 		"default"									"0"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"Command"									"addtocart"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White"
 		"ArmedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
@@ -45,5 +45,5 @@
 		"defaultBgColor_override"					"ButtonGreen"
 		"ArmedBgColor_override"						"ButtonGreen_Hover"
 		"depressedBgColor_override" 				"ButtonGreen_Hover"
-	}		
+	}
 }

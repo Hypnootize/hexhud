@@ -5,7 +5,7 @@
 	"Survey"
 	{
 		"tall"										"250"
-	
+
 		"QuestionContainer"
 		{
 			"TextLabel"
@@ -52,10 +52,10 @@
 					"xpos"							"9999"
 				}
 
-				"Answer0" 
+				"Answer0"
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"Radio0"
+					"fieldName"						"Answer0"
 					"xpos"							"p0.2"
 					"ypos"							"15"
 					"zpos"							"1"
@@ -65,7 +65,7 @@
 					"proportionaltoparent"			"1"
 
 					"sound_depressed"				"UI/buttonclick.wav"
-					
+
 					"labelText"						""
 					"Command"						"option0"
 				}
@@ -73,7 +73,7 @@
 				"Answer0Label"
 				{
 					"ControlName"					"Label"
-					"fieldName"						"Radio0Label"
+					"fieldName"						"Answer0Label"
 					"xpos"							"p0.3"
 					"ypos"							"15"
 					"zpos"							"1"
@@ -81,7 +81,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"proportionaltoparent"			"1"
-					
+
 					"labelText"						"#TF_SurveyQuestion_CasualInquiry_Answer0"
 					"font"							"Light 11"
 					"textAlignment"					"left"
@@ -92,7 +92,7 @@
 				"Answer1"
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"Radio1"
+					"fieldName"						"Answer1"
 					"xpos"							"p0.2"
 					"ypos"							"35"
 					"zpos"							"2"
@@ -110,7 +110,7 @@
 				"Answer1Label"
 				{
 					"ControlName"					"Label"
-					"fieldName"						"Radio1Label"
+					"fieldName"						"Answer1Label"
 					"xpos"							"p0.3"
 					"ypos"							"35"
 					"zpos"							"1"
@@ -118,16 +118,16 @@
 					"tall"							"20"
 					"visible"						"1"
 					"proportionaltoparent"			"1"
-					
+
 					"labelText"						"#TF_SurveyQuestion_CasualInquiry_Answer1"
 					"font"							"Light 11"
 					"textAlignment"					"left"
 				}
 
-				"Answer2" 
+				"Answer2"
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"Radio2"
+					"fieldName"						"Answer2"
 					"xpos"							"p0.2"
 					"ypos"							"55"
 					"zpos"							"3"
@@ -145,7 +145,7 @@
 				"Answer2Label"
 				{
 					"ControlName"					"Label"
-					"fieldName"						"Radio2Label"
+					"fieldName"						"Answer2Label"
 					"xpos"							"p0.3"
 					"ypos"							"55"
 					"zpos"							"1"
@@ -153,7 +153,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"proportionaltoparent"			"1"
-					
+
 					"labelText"						"#TF_SurveyQuestion_CasualInquiry_Answer2"
 					"font"							"Light 11"
 					"textAlignment"					"left"
@@ -163,7 +163,7 @@
 				"Answer3"
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"Radio3"
+					"fieldName"						"Answer3"
 					"xpos"							"p0.2"
 					"ypos"							"75"
 					"zpos"							"4"
@@ -173,7 +173,7 @@
 					"proportionaltoparent"			"1"
 
 					"sound_depressed"				"UI/buttonclick.wav"
-					
+
 					"labelText"						""
 					"Command"						"option3"
 				}
@@ -181,7 +181,7 @@
 				"Answer3Label"
 				{
 					"ControlName"					"Label"
-					"fieldName"						"Radio3Label"
+					"fieldName"						"Answer3Label"
 					"xpos"							"p0.3"
 					"ypos"							"75"
 					"zpos"							"1"
@@ -189,7 +189,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"proportionaltoparent"			"1"
-					
+
 					"labelText"						"#TF_SurveyQuestion_CasualInquiry_Answer3"
 					"font"							"Light 11"
 					"textAlignment"					"left"
@@ -198,7 +198,7 @@
 				"Answer4"
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"Radio4"
+					"fieldName"						"Answer4"
 					"xpos"							"p0.2"
 					"ypos"							"95"
 					"zpos"							"5"
@@ -208,7 +208,7 @@
 					"proportionaltoparent"			"1"
 
 					"sound_depressed"				"UI/buttonclick.wav"
-					
+
 					"labelText"						""
 					"Command"						"option4"
 				}
@@ -216,7 +216,7 @@
 				"Answer4Label"
 				{
 					"ControlName"					"Label"
-					"fieldName"						"Radio4Label"
+					"fieldName"						"Answer4Label"
 					"xpos"							"p0.3"
 					"ypos"							"95"
 					"zpos"							"1"
@@ -224,7 +224,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"proportionaltoparent"			"1"
-					
+
 					"labelText"						"#TF_SurveyQuestion_CasualInquiry_Answer4"
 					"font"							"Light 11"
 					"textAlignment"					"left"
@@ -233,7 +233,7 @@
 				"Answer5"
 				{
 					"ControlName"					"RadioButton"
-					"fieldName"						"Radio5"
+					"fieldName"						"Answer5"
 					"xpos"							"p0.2"
 					"ypos"							"115"
 					"zpos"							"5"
@@ -243,7 +243,7 @@
 					"proportionaltoparent"			"1"
 
 					"sound_depressed"				"UI/buttonclick.wav"
-					
+
 					"labelText"						""
 					"Command"						"option4"
 				}
@@ -251,7 +251,7 @@
 				"Answer5Label"
 				{
 					"ControlName"					"Label"
-					"fieldName"						"Radio5Label"
+					"fieldName"						"Answer5Label"
 					"xpos"							"p0.3"
 					"ypos"							"115"
 					"zpos"							"1"
@@ -259,7 +259,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"proportionaltoparent"			"1"
-					
+
 					"labelText"						"#TF_SurveyQuestion_CasualInquiry_Answer5"
 					"font"							"Light 11"
 					"textAlignment"					"left"
@@ -282,9 +282,9 @@
 				"sound_depressed"					"UI/buttonclick.wav"
 				"proportionaltoparent"				"1"
 				"actionsignallevel"					"2"
-				
+
 				"paintbackground"					"1"
-				
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
@@ -294,5 +294,5 @@
 				"depressedBgColor_override"			"Button_Hover"
 			}
 		}
-	}	
+	}
 }

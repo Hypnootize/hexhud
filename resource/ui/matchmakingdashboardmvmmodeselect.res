@@ -96,7 +96,7 @@
 
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
@@ -234,7 +234,7 @@
 
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
@@ -258,7 +258,7 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-		
+
 		"PracticeButton"
 		{
 			"ControlName"							"CExButton"

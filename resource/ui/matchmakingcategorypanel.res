@@ -38,7 +38,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"mouseinputenabled"						"0"
-		
+
 			"proportionaltoparent"					"1"
 			"bgcolor_override"						"BlackBlue"
 		}
@@ -104,7 +104,7 @@
 				"enabled"							"1"
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
-			}	
+			}
 		}
 
 		"Checkbutton"
@@ -147,7 +147,7 @@
 			"mouseinputenabled"						"0"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"Shade"
 		{
 			"fieldName"								"Shade"
@@ -196,7 +196,7 @@
 	"PlayListDropShadow"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"PlaylistBGPanel"
+		"fieldName"									"PlayListDropShadow"
 		"xpos"										"9999"
 	}
 }

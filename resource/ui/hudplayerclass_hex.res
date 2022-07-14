@@ -15,7 +15,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"PlayerStatusClassImage"
 	{
 		"ControlName"								"CTFClassImage"
@@ -47,7 +47,7 @@
 		"teambg_2"									"../hud/class_spyred"
 		"teambg_3"									"../hud/class_spyblue"
 	}
-	
+
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -63,26 +63,26 @@
 		"scaleImage"								"1"
 		"alpha"										"0"
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"fieldName"									"classmodelpanel"
-		
+
 		"xpos"										"0"
 		"ypos"										"r120"
-		"zpos"										"2"		
+		"zpos"										"2"
 		"wide"										"120"
 		"tall"										"140"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"render_texture"							"0"
 		"fov"										"27"
 		"allow_rot"									"1"
-		
+
 		"model"
 		{
 			"force_pos"								"1"
@@ -97,7 +97,7 @@
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
 			"spotlight"								"1"
-		
+
 			"modelname"								""
 		}
 
@@ -198,7 +198,7 @@
 			}
 		}
 	}
-	
+
 	"CarryingWeapon"
 	{
 		"ControlName"								"EditablePanel"
@@ -229,7 +229,7 @@
 		}
 
 		"CarryingLabel"
-		{	
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CarryingLabel"
 			"font"									"Light 11"
@@ -249,9 +249,9 @@
 			"auto_wide_tocontents"					"1"
 			"labelText"								"%carrying%"
 		}
-		
+
 		"OwnerLabel"
-		{	
+		{
 			"ControlName"							"Label"
 			"fieldName"								"OwnerLabel"
 			"font"									"Light 9"
@@ -269,15 +269,15 @@
 			"auto_wide_tocontents"					"1"
 			"alpha"									"255"
 		}
-		
+
 		"CarryingLabelDropShadow"
-		{	
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CarryingLabelDropShadow"
 			"xpos"									"9999"
 		}
 	}
-	
+
 	//REMOVED
 	"classmodelpanelBG"
 	{

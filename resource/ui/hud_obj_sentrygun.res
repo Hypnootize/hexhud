@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_sentrygun.res"
+"Resource/UI/Hud_Obj_Sentrygun.res"
 {
 	"BuildingStatusItem"
 	{
@@ -14,7 +14,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
+
 	"Icon_Sentry_1"
 	{
 		"ControlName"								"CIconPanel"
@@ -31,7 +31,7 @@
 		"icon"										"obj_status_sentrygun_1"
 		"iconColor"									"White"
 	}
-	
+
 	"Icon_Sentry_2"
 	{
 		"ControlName"								"CIconPanel"
@@ -44,11 +44,11 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"icon"										"obj_status_sentrygun_2"
 		"iconColor"									"White"
 	}
-	
+
 	"Icon_Sentry_3"
 	{
 		"ControlName"								"CIconPanel"
@@ -61,11 +61,11 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"icon"										"obj_status_sentrygun_3"
 		"iconColor"									"White"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -119,7 +119,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -165,7 +165,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Dark"
 		}
-		
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"							"CIconPanel"
@@ -228,7 +228,7 @@
 			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-		
+
 		"SapperIcon"
 		{
 			"ControlName"							"CIconPanel"
@@ -240,16 +240,16 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									""
 			"iconColor"								"White"
 			"paintbackground"						"1"
 			"bgcolor_override"						"Red"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"Health"
-		{	
+		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
 			"font"									"Default"
@@ -267,7 +267,7 @@
 			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"AlertTray"
 		{
 			"ControlName"							"CBuildingStatusAlertTray"
@@ -286,7 +286,7 @@
 			"fieldName"								"BuildingPanel"
 			"xpos"									"9999"
 		}
-		
+
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -298,9 +298,9 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"proportionaltoparent"					"1"
-			
+
 			"Kills"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"Kills"
 				"font"								"Light 8"
@@ -318,7 +318,7 @@
 				"proportionaltoparent"				"1"
 			}
 			"KillsLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"KillsLabel"
 				"font"								"Light 8"
@@ -339,7 +339,7 @@
 			}
 
 			"Shells"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Shells"
 				"font"								"Default"
@@ -356,7 +356,7 @@
 				"bgcolor_override"					"WhiteDark"
 			}
 			"ShellsLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"ShellsLabel"
 				"font"								"Light 7"
@@ -378,7 +378,7 @@
 			}
 
 			"Rockets"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Rockets"
 				"font"								"Default"
@@ -395,7 +395,7 @@
 				"bgcolor_override"					"WhiteDark"
 			}
 			"RocketsLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"RocketsLabel"
 				"font"								"Light 7"
@@ -417,7 +417,7 @@
 			}
 
 			"Upgrade"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
 				"font"								"Default"
@@ -435,7 +435,7 @@
 				"bgcolor_override"					"WhiteDark"
 			}
 			"UpgradeLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"UpgradeLabel"
 				"font"								"Light 7"

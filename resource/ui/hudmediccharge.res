@@ -2,7 +2,7 @@
 #base 	"../../customizations/resisticon.res"
 
 "Resource/UI/HudMedicCharge.res"
-{	
+{
 	"UberAnchor"									//Moves the uber as a whole
 	{
 		"ControlName"								"EditablePanel"
@@ -17,7 +17,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -38,7 +38,7 @@
 		"font_minmode"								"Ubercharge Minmode"
 		"fgcolor"									"Ubercharge"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling"							"UberAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
@@ -64,12 +64,12 @@
 		"font_minmode"								"Ubercharge Minmode"
 		"fgcolor"									"Ubercharge"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling"							"UberAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	
+
 	//REMOVED
 	"Background"
 	{

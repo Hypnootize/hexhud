@@ -16,9 +16,9 @@
 		"paintborder"								"1"
 		"border"									"BorderGrayBlueLight"
 	}
-	
+
 	"CenterPositioner"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"CenterPositioner"
 		"font"										"Light 14"
@@ -35,7 +35,7 @@
 		"textAlignment"								"center"
 		"bgcolor_override" 							"Blank"
 	}
-	
+
 	"RecipeItemModelPanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -44,7 +44,7 @@
 	}
 
 	"TitleLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"TitleLabel"
 		"font"										"Light 14"
@@ -62,14 +62,14 @@
 		"fgcolor_override" 							"WhiteDark"
 		"paintbackground" 							"1"
 		"auto_wide_tocontents" 						"1"
-		
+
 		"pin_to_sibling"               				"CenterPositioner"
-        "pin_corner_to_sibling"       				"4"          
-        "pin_to_sibling_corner"        				"4"          	
+        "pin_corner_to_sibling"       				"4"
+        "pin_to_sibling_corner"        				"4"
 	}
-	
+
 	"EllipsesLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"EllipsesLabel"
 		"font"										"Light 14"
@@ -84,12 +84,12 @@
 		"textAlignment"								"west"
 		"fgcolor_override" 							"WhiteDark"
 		"paintbackground" 							"1"
-		
+
 		"pin_to_sibling"               				"TitleLabel"
-        "pin_corner_to_sibling"        				"0"          
-        "pin_to_sibling_corner"        				"1"          	
+        "pin_corner_to_sibling"        				"0"
+        "pin_to_sibling_corner"        				"1"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -110,14 +110,14 @@
 		"default"									"1"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"

@@ -1,6 +1,6 @@
 #base "../../resource/tools/reloadschemebutton.res"
 
-"ImportMaterialEditDialog.res"
+"Resource/UI/ImportMaterialEditDialog.res"
 {
 	"ImportMaterialEditDialog"
 	{

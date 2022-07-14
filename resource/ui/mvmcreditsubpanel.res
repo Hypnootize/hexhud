@@ -1,5 +1,5 @@
 "Resource/UI/MvMCreditSubPanel.res"
-{	
+{
 	"HeaderLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -18,7 +18,7 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"45 45 55 235"
 	}
-	
+
 	"TableBackground"
 	{
 		"ControlName"								"EditablePanel"
@@ -32,7 +32,7 @@
 		"proportionaltoparent"						"1"
 		"bgcolor_override"							"TransparentBackground"
 	}
-	
+
 	"CreditCollectedTextLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -47,10 +47,10 @@
 		"AllCaps"									"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
-		
+
 		"pin_to_sibling"							"TableBackground"
 	}
-	
+
 	"CreditCollectedCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -64,12 +64,12 @@
 		"tall"										"10"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
-		
+
 		"pin_to_sibling"							"CreditCollectedTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"CreditMissedTextLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -84,12 +84,12 @@
 		"AllCaps"									"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
-		
+
 		"pin_to_sibling"							"CreditCollectedTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	
+
 	"CreditMissedCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -103,12 +103,12 @@
 		"tall"										"10"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
-		
+
 		"pin_to_sibling"							"CreditMissedTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"CreditBonusTextLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -123,12 +123,12 @@
 		"AllCaps"									"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
-		
+
 		"pin_to_sibling"							"CreditMissedTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	
+
 	"CreditBonusCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -142,12 +142,12 @@
 		"tall"										"10"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
-		
+
 		"pin_to_sibling"							"CreditBonusTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"Separator"
 	{
 		"ControlName"								"EditablePanel"
@@ -163,12 +163,12 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
-		
+
 		"pin_to_sibling"							"TableBackground"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-	
+
 	"CreditRatingLabel"
 	{
 		"ControlName"								"CExLabel"

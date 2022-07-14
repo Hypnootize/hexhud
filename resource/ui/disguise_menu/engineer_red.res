@@ -1,6 +1,6 @@
 #base "scout_red.res"
 
-"Resource/UI/disguise_menu/engineer_red.res"
+"Resource/UI/Disguise_Menu/Engineer_Red.res"
 {
 	"TitleBG"
 	{
@@ -13,17 +13,17 @@
 		"image"										"replay/thumbnails/loadouts/engineer"
 	}
 	"ItemNameLabel"
-	{	
+	{
 		"labelText"									"#TF_Class_Name_Engineer"
 	}
 	"NewNumberLabel"
-	{	
+	{
 		"xpos"										"76"
 		"ypos"										"5"
 		"labelText"									"3"
 	}
 	"NumberLabel"
-	{	
+	{
 		"labelText"									"6"
 	}
 }

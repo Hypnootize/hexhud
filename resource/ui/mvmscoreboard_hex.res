@@ -1,5 +1,5 @@
 "Resource/UI/MvMScoreboard.res"
-{		
+{
 	"WaveStatusPanel"
 	{
 		"ControlName"								"CWaveStatusPanel"
@@ -11,7 +11,7 @@
 		"tall"										"70"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"verbose"									"1"
 		"proportionaltoparent"						"0"
 	}
@@ -31,7 +31,7 @@
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
 	}
-	
+
 	"RedBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -45,11 +45,11 @@
 		"enabled"									"1"
 		"bgcolor_override"							"Red"
 		"PaintBackgroundType"						"0"
-		
+
 		"pin_to_sibling" 							"MvMPlayerList"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -81,7 +81,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentBackground"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling"							"RedBG"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
@@ -137,14 +137,14 @@
 		"pin_to_sibling"							"RedBG"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"DifficultyLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DifficultyLabel"
 			"xpos"									"9999"
 		}
-		
+
 		"DifficultyValue"
 		{
 			"ControlName"							"CExLabel"
@@ -178,7 +178,7 @@
 			"pin_to_sibling"						"DifficultyValue"
 		}
 	}
-	
+
 	"CreditStatsContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -188,11 +188,11 @@
 		"wide"										"530"
 		"tall"										"115"
 		"visible"									"1"
-		
+
 		"pin_to_sibling"							"PlaylistBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
-		
+
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"							"CCreditDisplayPanel"
@@ -203,7 +203,7 @@
 			"tall"									"44"
 			"visible"								"1"
 		}
-		
+
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"							"CCreditSpendPanel"
@@ -213,12 +213,12 @@
 			"wide"									"132"
 			"tall"									"44"
 			"visible"								"1"
-			
+
 			"pin_to_sibling"						"PreviousWaveCreditInfoPanel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-		
+
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"							"CCreditDisplayPanel"
@@ -228,12 +228,12 @@
 			"wide"									"132"
 			"tall"									"44"
 			"visible"								"1"
-			
+
 			"pin_to_sibling"						"PreviousWaveCreditSpendPanel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"							"CCreditSpendPanel"
@@ -243,7 +243,7 @@
 			"wide"									"132"
 			"tall"									"44"
 			"visible"								"1"
-			
+
 			"pin_to_sibling"						"TotalGameCreditInfoPanel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
@@ -262,7 +262,7 @@
 			"tall"									"20"
 			"fgcolor"								"tanlight"
 		}
-		
+
 		"CreditStatsBackground"
 		{
 			"ControlName"							"ScalableImagePanel"
@@ -276,7 +276,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"PlayerListBackground"
 	{
 		"ControlName"								"ScalableImagePanel"

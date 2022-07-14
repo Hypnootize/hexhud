@@ -53,7 +53,7 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-	
+
 	"Health_Spectator"
 	{
 		"ControlName"								"CExLabel"
@@ -90,10 +90,10 @@
 		"pin_to_sibling" 							"Health_Spectator"
 	}
 
-	
-	
-	
-	
+
+
+
+
 	//REMOVED STUFF
 	"PlayerStatusHealthImage"
 	{

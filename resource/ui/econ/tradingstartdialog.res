@@ -1,4 +1,4 @@
-"Resource/UI/TradingStartDialog.res"
+"Resource/UI/Econ/TradingStartDialog.res"
 {
 	"TradingStartDialog"
 	{
@@ -11,14 +11,14 @@
 		"tall"										"f0"
 		"paintbackground"							"0"
 		"settitlebarvisible"						""
-		
+
 		"button_kv"
 		{
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"210"
 			"tall"									"30"
-			
+
 			"button"
 			{
 				"xpos"								"2"
@@ -39,18 +39,18 @@
 				"brighttext"						"0"
 				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"paintbackground"					"1"
-		
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"White"
 				"depressedFgColor_override"			"WhiteDark"
-				
+
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-			
+
 			"avatar"
 			{
 				"ControlName"						"CAvatarImagePanel"
@@ -63,7 +63,7 @@
 				"image"								""
 				"visible"							"1"
 				"enabled"							"1"
-				"scaleImage"						"1"	
+				"scaleImage"						"1"
 				"color_outline"						"Blank"
 			}
 		}
@@ -82,7 +82,7 @@
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"Blank"
 		"proportionaltoparent"						"1"
-		
+
 		"PlayerList"
 		{
 			"ControlName"							"EditablePanel"
@@ -145,12 +145,12 @@
 		"border"									"BottomLineWhiteDark"
 		"bgcolor_override"							"Background_Secondary"
 		"proportionaltoparent"						"1"
-	
+
 		"pin_to_sibling" 							"MainButtonsBG"
 		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -211,7 +211,7 @@
 			"brighttext"							"0"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			
+
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
 			"FgColor_override"						"WhiteDark"
@@ -232,13 +232,13 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			
+
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
 			"FgColor_override"						"WhiteDark"
 		}
 	}
-	
+
 	"ServerFakeButton"
 	{
 		"ControlName"								"EditablePanel"
@@ -275,7 +275,7 @@
 			"brighttext"							"0"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			
+
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
 			"FgColor_override"						"WhiteDark"
@@ -296,7 +296,7 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			
+
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
 			"FgColor_override"						"WhiteDark"
@@ -339,7 +339,7 @@
 			"brighttext"							"0"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			
+
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
 			"FgColor_override"						"WhiteDark"
@@ -360,7 +360,7 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			
+
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
 			"FgColor_override"						"WhiteDark"
@@ -383,13 +383,13 @@
 		"pin_to_sibling" 							"MainButtonsBG"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"QueryLabel"
 			"xpos"									"9999"
-		}	
+		}
 
 		"subbutton0"
 		{
@@ -415,7 +415,7 @@
 			"proportionaltoparent"					"1"
 			"Command"								"friends"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
@@ -428,7 +428,7 @@
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
 		}
-		
+
 		"subbutton1"
 		{
 			"ControlName"							"CExButton"
@@ -453,7 +453,7 @@
 			"proportionaltoparent"					"1"
 			"Command"								"server"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
@@ -466,7 +466,7 @@
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
 		}
-		
+
 		"subbutton2"
 		{
 			"ControlName"							"CExButton"
@@ -491,7 +491,7 @@
 			"proportionaltoparent"					"1"
 			"Command"								"profile"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
@@ -505,7 +505,7 @@
 			"depressedFgColor_override" 			"WhiteSolid"
 		}
 	}
-	
+
 	"StatePanel1"
 	{
 		"ControlName"								"EditablePanel"
@@ -563,7 +563,7 @@
 			"bgcolor_override"						"GrayBlueDarkest"
 			"proportionaltoparent"					"1"
 		}
-	
+
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -584,7 +584,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -608,7 +608,7 @@
 			"fgcolor" 								"WhiteDark"
 		}
 	}
-	
+
 	"StatePanel2"
 	{
 		"ControlName"								"EditablePanel"
@@ -685,7 +685,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -709,7 +709,7 @@
 			"fgcolor" 								"WhiteDark"
 		}
 	}
-	
+
 	"StatePanel3"
 	{
 		"ControlName"								"EditablePanel"
@@ -788,7 +788,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"URLHelpLabel"
 		{
 			"ControlName"							"Label"
@@ -839,7 +839,7 @@
 			"font"									"Light 12"
 			"textAlignment"							"west"
 		}
-		
+
 		"URLFailLabel"
 		{
 			"ControlName"							"Label"
@@ -862,7 +862,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override" 						"RedDark"
 		}
-		
+
 		"URLSearchingLabel"
 		{
 			"ControlName"							"Label"
@@ -885,7 +885,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor_override" 						"WhiteDark"
 		}
-		
+
 		"subbutton0"
 		{
 			"ControlName"							"CExButton"
@@ -910,7 +910,7 @@
 			"proportionaltoparent"					"1"
 			"Command"								"url_ok"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
@@ -918,7 +918,7 @@
 			"defaultBgColor_override" 				"ButtonGreen"
 			"armedBgColor_override" 				"ButtonGreen_Hover"
 			"depressedBgColor_override" 			"ButtonGreen_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -972,7 +972,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -993,7 +993,7 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			
+
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
 			"FgColor_override"						"WhiteDark"
@@ -1035,7 +1035,7 @@
 		"defaultBgColor_override" 					"Button"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"

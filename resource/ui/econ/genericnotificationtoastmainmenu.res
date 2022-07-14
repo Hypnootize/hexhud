@@ -1,4 +1,4 @@
-"Resource/UI/GenericNotificationToast.res"
+"Resource/UI/Econ/GenericNotificationToastMainMenu.res"
 {
 	"GenericNotificationToast"
 	{
@@ -28,7 +28,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"White"
 	}
-	
+
 	"AvatarImage"
 	{
 		"ControlName"								"CAvatarImagePanel"
@@ -72,14 +72,14 @@
 		"fieldName"									"TextLabel"
 		"fgcolor"									"White"
 		"fgcolor_override" 							"White"
-		
+
 		"if_high_priority"
 		{
 			"fgcolor"								"White"
 			"fgcolor_override"						"White"
 			"font"									"Light 10"
 		}
-		
+
 		"xpos"										"7"
 		"ypos"										"7"
 		"zpos"										"2"

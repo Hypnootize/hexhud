@@ -1,6 +1,6 @@
 #base "base_active.res"
 
-"Resource/UI/build_menu/sentry_active.res"
+"Resource/UI/Build_Menu/Sentry_Active.res"
 {
 	"BuildingIcon"
 	{
@@ -33,9 +33,9 @@
 	{
 		"visible"									"0"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"labelText"									"1"
 		"visible"									"1"
 	}

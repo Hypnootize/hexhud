@@ -1,4 +1,4 @@
-"Resource/UI/playbackpanelslideshow.res"
+"Resource/UI/ReplayBrowser/PlayBackPanelSlideShow.res"
 {
 	"Screenshot"
 	{
@@ -8,7 +8,7 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 	}
-	
+
 	"NoScreenshotLabel"
 	{
 		"ControlName"								"CExLabel"

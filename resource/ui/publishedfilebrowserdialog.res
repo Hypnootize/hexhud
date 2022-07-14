@@ -1,4 +1,4 @@
-"PublishedFileBrowserDialog.res"
+"Resource/UI/PublishedFileBrowserDialog.res"
 {
 	"PublishedFileBrowserDialog"
 	{
@@ -42,7 +42,7 @@
 		"labelText"									"#TF_PublishedFiles_Files"
 		"textAlignment"								"west"
 		"fgcolor"									"WhiteDark"
-		
+
 	}
 
 	"PublishedFileList"
@@ -58,7 +58,7 @@
 		"textAlignment"								"west"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"LabelPublishedFileTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -90,7 +90,7 @@
 		// "maxchars"								"128"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"LabelPublishedFileDesc"
 	{
 		"ControlName"								"CExLabel"
@@ -198,7 +198,7 @@
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override" 				"FullWhite"
 	}
-	
+
 	"ButtonRefresh"
 	{
 		"ControlName"								"Button"

@@ -48,7 +48,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Dashboard"
 		}
-		
+
 		"PartySlot0"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -69,7 +69,7 @@
 
 			"party_slot"							"0"
 		}
-		
+
 		"RankPanel"
 		{
 			"ControlName"							"CPvPRankPanel"
@@ -86,7 +86,7 @@
 
 			"show_model"							"0"
 			"show_type"								"1"
-			
+
 			"pin_to_sibling" 						"PartySlot0"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
@@ -110,7 +110,7 @@
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"party_slot"							"1"
-			
+
 			"pin_to_sibling" 						"RankPanel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
@@ -134,7 +134,7 @@
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"party_slot"							"2"
-			
+
 			"pin_to_sibling" 						"PartySlot1"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
@@ -158,7 +158,7 @@
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"party_slot"							"3"
-			
+
 			"pin_to_sibling" 						"PartySlot2"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
@@ -182,7 +182,7 @@
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"party_slot"							"4"
-			
+
 			"pin_to_sibling" 						"PartySlot3"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
@@ -206,12 +206,12 @@
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"party_slot"							"5"
-			
+
 			"pin_to_sibling" 						"PartySlot4"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-		
+
 		"ToggleChatButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -239,12 +239,12 @@
 			"roundedcorners"						"0"
 
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"FgColor"								"White"
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"255 255 255 255"
 			"depressedFgColor_override" 			"255 255 255 255"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"defaultBgColor_override" 				"GrayBlueDarkest"
@@ -255,7 +255,7 @@
 			"border"								"BottomLineWhite"
 			"border_default"						"BottomLineWhite"
 			"border_armed"							"BottomLineWhite"
-			
+
 			"pin_to_sibling" 						"PartySlot5"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
@@ -337,14 +337,14 @@
 				"Command"							"manage_queues"
 				"actionsignallevel"					"3"
 				"proportionaltoparent"				"1"
-				
+
 				"paintbackground"					"0"
 				"paintborder"						"0"
-			
+
 				"defaultFgColor_override" 			"White"
 				"armedFgColor_override" 			"WhiteDark"
 				"depressedFgColor_override" 		"WhiteDark"
-			}		
+			}
 
 			"CloseButton"
 			{
@@ -370,15 +370,15 @@
 				"Command"							"leave_queue"
 				"actionsignallevel"					"3"
 				"proportionaltoparent"				"1"
-				
+
 				"paintbackground"					"0"
 				"paintborder"						"0"
-			
+
 				"defaultFgColor_override" 			"White"
 				"armedFgColor_override" 			"WhiteDark"
 				"depressedFgColor_override" 		"WhiteDark"
 			}
-			
+
 			"OuterShadow"
 			{
 				"ControlName"						"Panel"
@@ -451,12 +451,12 @@
 				"zpos"								"100"
 				"tall"								"18"
 
-				if_queued
+				"if_queued"
 				{
 					"xpos"							"cs-0.5"
 					"wide"							"150"
 				}
-				
+
 				"autoResize"						"0"
 				"pinCorner"							"3"
 				"visible"							"1"
@@ -483,7 +483,7 @@
 				"defaultBgColor_override" 			"ButtonGreen"
 				"armedBgColor_override" 			"ButtonGreen_Hover"
 				"depressedBgColor_override" 		"ButtonGreen_Hover"
-				
+
 				"defaultFgColor_override" 			"White"
 				"armedFgColor_override" 			"WhiteDark"
 				"depressedFgColor_override" 		"WhiteDark"
@@ -531,12 +531,12 @@
 			"use_proportional_insets"				"1"
 
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"FgColor"								"White"
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"255 255 255 255"
 			"depressedFgColor_override" 			"255 255 255 255"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"defaultBgColor_override" 				"GrayBlueDarkest"
@@ -577,12 +577,12 @@
 			"use_proportional_insets"				"1"
 
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"FgColor"								"White"
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"defaultBgColor_override" 				"GrayBlueDarkest"
@@ -594,7 +594,7 @@
 			"border_default"						"BottomLineWhite"
 			"border_armed"							"BottomLineWhite"
 		}
-		
+
 		"FindAGameButton2"
 		{
 			"ControlName"							"CExImageButton"
@@ -623,12 +623,12 @@
 			"use_proportional_insets"				"1"
 
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"FgColor"								"White"
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"defaultBgColor_override" 				"GrayBlueDarkest"
@@ -641,7 +641,7 @@
 			"border_armed"							"BottomLineWhite"
 		}
 
-		
+
 
 
 		////// DELETED

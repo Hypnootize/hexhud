@@ -1,5 +1,5 @@
-"Resource/UI/ItemModelPanel.res"
-{	
+"Resource/UI/Econ/ItemModelPanel.res"
+{
 	"mouseoveritempanel"
 	{
 		"fieldName"									"mouseoveritempanel"
@@ -15,14 +15,14 @@
 		//"model_wide_collection"					"156"
 		//"model_tall_collection"					"100"
 	}
-	
+
 	"LoadingSpinner"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"LoadingSpinner"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"1"		
+		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"f0"
 		"autoResize"								"0"
@@ -49,10 +49,10 @@
 		{
 			"ControlName"							"CEmbeddedItemModelPanel"
 			"fieldName"								"itemmodelpanel"
-	
+
 			"xpos"									"0"
 			"ypos"									"0"
-			"zpos"									"1"		
+			"zpos"									"1"
 			"wide"									"140"
 			"tall"									"100"
 			"autoResize"							"0"
@@ -60,7 +60,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"useparentbg"							"1"
-		
+
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
 
@@ -77,7 +77,7 @@
 				"spotlight" 						"1"
 			}
 		}
-	
+
 		"namelabel"
 		{
 			"ControlName"							"CExLabel"
@@ -97,7 +97,7 @@
 			"fgcolor"								"White"
 			"centerwrap"							"1"
 		}
-		
+
 		"attriblabel"
 		{
 			"ControlName"							"CExLabel"
@@ -117,7 +117,7 @@
 			"fgcolor"								"White"
 			"centerwrap"							"1"
 		}
-		
+
 		"equippedlabel"
 		{
 			"ControlName"							"CExLabel"
@@ -138,7 +138,7 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"BlackBlue"
 		}
-	
+
 		"paint_icon"
 		{
 			"ControlName"							"CItemMaterialCustomizationIconPanel"
@@ -169,7 +169,7 @@
 			"labelText"								""
 			"textAlignment"							"center"
 			"fgcolor"								"WhiteDark"
-			
+
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"BlackBlue"
@@ -283,7 +283,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 		}
-		
+
 		"contained_item_panel"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -298,9 +298,9 @@
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
 			"useparentbg"							"0"
-		
+
 			"enabled"								"1"
-		
+
 			"model_xpos"							"1"
 			"model_ypos"							"1"
 			"model_wide"							"16"
@@ -308,17 +308,17 @@
 			"text_ypos"								"60"
 			"text_center"							"1"
 			"model_only"							"1"
-		
+
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
-		
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
 				"inventory_image_type"				"1"
 			}
-		
+
 			"use_item_sounds"						"1"
 		}
 	}

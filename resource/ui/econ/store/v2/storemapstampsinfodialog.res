@@ -1,4 +1,4 @@
-"StoreMapStampsInfoDialog.res"
+"Resource/UI/Econ/Store/V2/StoreMapStampsInfoDialog.res"
 {
 	"MapStampsInfoDialog"
 	{
@@ -15,7 +15,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
+
 	// Fullscreen background panel
 	"BgPanel"
 	{
@@ -23,7 +23,7 @@
 		"fieldName"									"BgPanel"
 		"xpos"										"9999"
 	}
-	
+
 	"DialogFrame"
 	{
 		"ControlName"								"EditablePanel"
@@ -40,7 +40,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"BorderGrayBlueLight"
-		
+
 		"PreviewViewportBg"
 		{
 			"ControlName"							"EditablePanel"
@@ -59,7 +59,7 @@
 			"fieldName"								"FootBottomPanel"
 			"xpos"									"9999"
 		}
-		
+
 		"MapsDescLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -80,8 +80,8 @@
 			"centerwrap"							"1"
 			"fgcolor"								"WhiteDark"
 			"proportionaltoparent"					"1"
-		}	
-		
+		}
+
 		"PromotionImage_Hat"
 		{
 			"ControlName"							"ImagePanel"
@@ -98,14 +98,14 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"CloseButton"
 		"xpos"										"9999"
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"								"CExButton"
@@ -127,10 +127,10 @@
 		"default"									"1"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -138,5 +138,5 @@
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-	}		
+	}
 }

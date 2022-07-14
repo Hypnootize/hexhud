@@ -41,7 +41,7 @@
 		"mouseinputenabled" 						"0"
 	}
 
-	"LabelTitle"	
+	"LabelTitle"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LabelTitle"

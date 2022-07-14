@@ -23,31 +23,31 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
 		"proportionaltoparent"						"1"
-		
+
 		"model_ypos"								"10"
 		"model_center_x"							"1"
 		"model_wide"								"90"
 		"model_tall"								"60"
-		
+
 		"text_xpos"									"10"
 		"text_ypos"									"10"
 		"text_wide"									"170"
 		"text_center"								"1"
-		
+
 		"max_text_height"							"100"
 		"padding_height"							"10"
 		"resize_to_text"							"1"
 		"text_forcesize"							"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"								"itemmodelpanel"
 			"use_item_rendertarget" 				"0"
 			"useparentbg"							"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"							"Label"
 			"fieldName"								"ItemLabel"
 			"font"									"Light 10"
@@ -66,7 +66,7 @@
 			"brighttext"							"0"
 		}
 	}
-	
+
 	"FreezePanelBase"
 	{
 		"ControlName"								"EditablePanel"
@@ -129,7 +129,7 @@
 			"proportionaltoparent"					"1"
 			"pin_to_sibling" 						"DeathIconBG2"
 		}
-	
+
 		"FreezePanelHealth"
 		{
 			"ControlName"							"CTFFreezePanelHealth"
@@ -140,7 +140,7 @@
 			"wide"									"50"
 			"tall"									"32"
 			"visible"								"1"
-			"enabled"								"1"	
+			"enabled"								"1"
 			"HealthBonusPosAdj"						"9"
 			"HealthDeathWarning"					"0.49"
 			"TFFont"								"HudFontSmall"
@@ -168,7 +168,7 @@
 			"paintbackgroundtype"  					"0"
 			"bgcolor_override"  					"Background"
 		}
-		
+
 		"FreezeLabelKiller"							// THIS IS PINNED TO THE AVATAR NO MATTER WHAT
 		{
 			"ControlName"							"CExLabel"
@@ -188,9 +188,9 @@
 			"proportionaltoparent"					"1"
 		}
 
-		
-		
-		
+
+
+
 
 
 
@@ -212,7 +212,7 @@
 
 
 		//DEAD
-		"AvatarImage"								
+		"AvatarImage"
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"AvatarImage"
@@ -235,14 +235,14 @@
 			"fieldName"								"FreezePanelBG"
 			"xpos"									"9999"
 		}
-		
+
 		"FreezeLabel"
-		{	
+		{
 			"ControlName"							"Label"
 			"fieldName"								"FreezeLabel"
 			"xpos"									"9999"
 		}
-		
+
 		"NemesisSubPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -266,15 +266,15 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/color_panel_brown"
-				"scaleImage"						"1"	
-				
+				"scaleImage"						"1"
+
 				"src_corner_height"					"23"
 				"src_corner_width"					"23"
-				
+
 				"draw_corner_width"					"6"
-				"draw_corner_height" 				"6"	
+				"draw_corner_height" 				"6"
 			}
-			
+
 			"NemesisIcon"
 			{
 				"ControlName"						"ImagePanel"
@@ -287,11 +287,11 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/leaderboard_nemesis_freezecam"
-				"scaleImage"						"1"	
-			}	
-			
+				"scaleImage"						"1"
+			}
+
 			"NemesisLabel"
-			{	
+			{
 				"ControlName"						"Label"
 				"fieldName"							"NemesisLabel"
 				"font"								"HudFontMediumSmall"
@@ -307,9 +307,9 @@
 				"labelText"							"%nemesisname%"
 				"textAlignment"						"west"
 			}
-			
+
 			"NemesisLabel2"
-			{	
+			{
 				"ControlName"						"Label"
 				"fieldName"							"NemesisLabel2"
 				"font"								"Light 11"
@@ -327,7 +327,7 @@
 			}
 		}
 	}
-	
+
 	"ScreenshotPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -338,7 +338,7 @@
 		"wide"										"166"
 		"tall"										"40"
 		"visible"									"0"
-			
+
 		"ScreenshotPanelBG"
 		{
 			"ControlName"							"ImagePanel"
@@ -353,7 +353,7 @@
 			"image"									"../hud/freezecam_black_bg"
 			"scaleImage"							"1"
 		}
-		
+
 		"ScreenshotIcon"
 		{
 			"ControlName"							"ImagePanel"
@@ -366,11 +366,11 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"../hud/ico_camera"
-			"scaleImage"							"1"	
-		}	
-		
+			"scaleImage"							"1"
+		}
+
 		"ScreenshotLabel"
-		{	
+		{
 			"ControlName"							"Label"
 			"fieldName"								"ScreenshotLabel"
 			"font"									"SpectatorKeyHints"

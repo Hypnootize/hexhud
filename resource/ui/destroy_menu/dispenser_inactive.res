@@ -1,8 +1,8 @@
 #base "Base_Inactive.res"
 
-"Resource/UI/destroy_menu/dispenser_active.res"
+"Resource/UI/Destroy_Menu/Dispenser_Active.res"
 {
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
 		"xpos"										"-5"
 		"ypos"										"-1"

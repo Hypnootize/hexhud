@@ -31,7 +31,7 @@
 
 			"matchgroup"							"MatchGroup_Ladder_6v6"
 		}
-	
+
 		"RankPanel"
 		{
 			"ControlName"							"CPvPRankPanel"
@@ -88,7 +88,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -126,7 +126,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -186,7 +186,7 @@
 					"visible"						"1"
 					"paintbackground"				"0"
 					"mouseinputenabled"				"0"
-			
+
 					"labeltext"						"6"
 					"font"							"MarlettSmall"
 					"textAlignment"					"west"
@@ -208,14 +208,14 @@
 					"visible"						"1"
 					"command"						"sort0"
 					"actionsignallevel"				"4"
-			
+
 					"labeltext"						"#TF_Competitive_Result"
 					"font"							"Light 11"
 					"textAlignment"					"west"
 					"textinsetx"					"15"
 
 					"sound_depressed"				"UI/buttonclick.wav"
-					
+
 					"paintbackground"				"1"
 					"paintbackgroundtype"			"0"
 					"paintborder"					"1"
@@ -228,7 +228,7 @@
 					"armedBgColor_override" 		"Button_Hover"
 					"depressedBgColor_override" 	"Button_Hover"
 					"SelectedBgColor_override" 		"Button_Hover"
-					
+
 					"defaultFgColor_override" 		"WhiteDark"
 					"armedFgColor_override" 		"WhiteSolid"
 					"depressedFgColor_override" 	"WhiteSolid"
@@ -249,15 +249,15 @@
 					"proportionaltoparent"			"1"
 					"visible"						"1"
 					"command"						"sort1"
-					"actionsignallevel"				"4"	
-			
+					"actionsignallevel"				"4"
+
 					"labeltext"						"#TF_Competitive_Date"
 					"font"							"HudFontSmallest"
 					"textAlignment"					"west"
 					"textinsetx"					"15"
 
 					"sound_depressed"				"UI/buttonclick.wav"
-					
+
 					"paintbackground"				"1"
 					"paintbackgroundtype"			"0"
 					"paintborder"					"1"
@@ -270,7 +270,7 @@
 					"armedBgColor_override" 		"Button_Hover"
 					"depressedBgColor_override" 	"Button_Hover"
 					"SelectedBgColor_override" 		"Button_Hover"
-					
+
 					"defaultFgColor_override" 		"WhiteDark"
 					"armedFgColor_override" 		"WhiteSolid"
 					"depressedFgColor_override" 	"WhiteSolid"
@@ -292,14 +292,14 @@
 					"visible"						"1"
 					"command"						"sort2"
 					"actionsignallevel"				"4"
-			
+
 					"labeltext"						"#TF_Competitive_Map"
 					"font"							"HudFontSmallest"
 					"textAlignment"					"west"
 					"textinsetx"					"15"
 
 					"sound_depressed"				"UI/buttonclick.wav"
-					
+
 					"paintbackground"				"1"
 					"paintbackgroundtype"			"0"
 					"paintborder"					"1"
@@ -312,7 +312,7 @@
 					"armedBgColor_override" 		"Button_Hover"
 					"depressedBgColor_override" 	"Button_Hover"
 					"SelectedBgColor_override" 		"Button_Hover"
-					
+
 					"defaultFgColor_override" 		"WhiteDark"
 					"armedFgColor_override" 		"WhiteSolid"
 					"depressedFgColor_override" 	"WhiteSolid"
@@ -334,7 +334,7 @@
 					"visible"						"1"
 					"command"						"sort3"
 					"actionsignallevel"				"4"
-			
+
 					"labeltext"						"#TF_Competitive_KDR"
 					"font"							"HudFontSmallest"
 					"textAlignment"					"west"
@@ -353,7 +353,7 @@
 					"armedBgColor_override" 		"Button_Hover"
 					"depressedBgColor_override" 	"Button_Hover"
 					"SelectedBgColor_override" 		"Button_Hover"
-					
+
 					"defaultFgColor_override" 		"WhiteDark"
 					"armedFgColor_override" 		"WhiteSolid"
 					"depressedFgColor_override" 	"WhiteSolid"
@@ -393,14 +393,14 @@
 					{
 						"fgcolor_override"			"TanDark"
 					}
-		
+
 					"UpButton"
 					{
 						"ControlName"				"Button"
 						"FieldName"					"UpButton"
 						"visible"					"0"
 					}
-		
+
 					"DownButton"
 					{
 						"ControlName"				"Button"

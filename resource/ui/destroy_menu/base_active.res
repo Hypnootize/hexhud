@@ -1,4 +1,4 @@
-"Resource/UI/destroy_menu/base_active.res"
+"Resource/UI/Destroy_Menu/Base_Active.res"
 {
 	"Background"
 	{
@@ -45,14 +45,14 @@
 		"tall"										"23"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"icon"										"obj_status_sentrygun_3"
 		"iconColor"									"White"
 		"pin_to_sibling" 							"IconBackgound"
 	}
-	
+
 	"NotBuiltLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NotBuiltLabel"
 		"font"										"Light 9"
@@ -93,7 +93,7 @@
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"NumberLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -115,21 +115,21 @@
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	//REMOVED STUFF
-	
-	"ItemBackground"	
+
+	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ItemBackground"
 		"xpos"										"9999"
 	}
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
 		"xpos"										"9999"

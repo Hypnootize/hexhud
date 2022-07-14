@@ -1,6 +1,6 @@
 #base "../../resource/dev/reloadschemebutton.res"
 
-"Resource/UI/DynamicRecipe.res"
+"Resource/UI/DynamicRecipePanel.res"
 {
 	"LeftBG"
 	{
@@ -44,11 +44,11 @@
 		"inventory_xpos"							"5"
 		"inventory_ypos"							"30"
 
-		"button_xpos_offcenter"						"175"		
+		"button_xpos_offcenter"						"175"
 		"button_ypos"								"85"
 		"button_ydelta"								"80"
 		"button_override_delete_xpos"				"0"
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -60,17 +60,17 @@
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"1"
-			
+
 			"model_ypos"							"4"
 			"model_tall"							"20"
 			"text_center"							"1"
 			"name_only"								"1"
 			"text_forcesize" 						"3"
 			"noitem_use_fullpanel" 					"1"
-			
+
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -96,12 +96,12 @@
 				"mouseinputenabled" 				"0"
 			}
 		}
-		
+
 		"filter_xoffset"							"-290"
 		"filter_ypos"								"30"
 		"filter_xdelta"								"10"
 		"filter_ydelta"								"10"
-		
+
 		"recipefilterbuttons_kv"
 		{
 			"zpos"									"2"
@@ -117,7 +117,7 @@
 			"font"									"MenuKeys"
 			"scaleImage"							"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-		}	
+		}
 	}
 
 	"inventorycontainer"
@@ -204,7 +204,7 @@
 			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
 		}
-		
+
 		"CurPageLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -225,7 +225,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"GrayBlueDark"
 		}
-		
+
 		"NextPageButton"
 		{
 			"ControlName"							"CExButton"
@@ -301,14 +301,14 @@
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-		
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -419,7 +419,7 @@
 			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
 		}
-		
+
 		"CurInputPageLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -440,7 +440,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"GrayBlueDark"
 		}
-		
+
 		"NextInputPageButton"
 		{
 			"ControlName"							"CExButton"
@@ -471,7 +471,7 @@
 			"pin_corner_to_sibling" 				"PIN_CENTER_RIGHT"
 			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
 		}
-	
+
 		"InputLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -489,7 +489,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"OutputLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -507,7 +507,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"UntradableLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -525,7 +525,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"CraftButton"
 		{
 			"ControlName"							"CExButton"
@@ -548,14 +548,14 @@
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-		
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override" 				"ButtonGreen"
 			"armedBgColor_override" 				"ButtonGreen_Hover"
 			"depressedBgColor_override" 			"ButtonGreen_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -576,13 +576,13 @@
 		"noitem_textcolor"							"Gray"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"ItemFontAttribLarge"
@@ -604,7 +604,7 @@
 	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"mousedragitempanel"
-		
+
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"100"
@@ -615,13 +615,13 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
-		
+
 		"model_ypos"								"5"
 		"model_tall"								"35"
 		"text_ypos"									"60"
 		"text_center"								"1"
 		"name_only"									"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" 				"0"

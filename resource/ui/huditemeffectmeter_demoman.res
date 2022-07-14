@@ -1,6 +1,6 @@
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
@@ -14,7 +14,7 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-	
+
 	"HeadsIcon"
 	{
 		"ControlName"								"CExLabel"
@@ -81,7 +81,7 @@
 		"font"										"Bold 18"
 		"font_minmode"								"Bold 14"
 		"fgcolor_override" 							"White"
-		
+
 		"pin_to_sibling" 							"HeadsIcon"
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
@@ -108,11 +108,11 @@
 		"font"										"Bold 18 Blur"
 		"font_minmode"								"Bold 14 Blur"
 		"fgcolor_override" 							"Shadow"
-		
+
 		"pin_to_sibling" 							"ItemEffectMeterCount"
 	}
-	
-	
+
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -120,7 +120,7 @@
 		"xpos"										"9999"
 	}
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
 		"xpos"										"9999"

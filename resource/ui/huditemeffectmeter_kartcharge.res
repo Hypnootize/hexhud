@@ -1,6 +1,6 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter_KartCharge.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
@@ -13,7 +13,7 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -39,7 +39,7 @@
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
 		"font"										"Default"
@@ -47,7 +47,7 @@
 		"ypos"										"rs1-8"
 		"zpos"										"2"
 		"wide"										"f0"
-		"tall"										"2"				
+		"tall"										"2"
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -57,7 +57,7 @@
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
@@ -66,7 +66,7 @@
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"f0"
-		"tall"										"14"		
+		"tall"										"14"
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
@@ -78,7 +78,7 @@
 		"proportionaltoparent"						"1"
 		"font"										"Light 12"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ControlName"								"CTFImagePanel"

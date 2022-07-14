@@ -63,7 +63,7 @@
 					"proportionaltoparent"			"1"
 
 					"sound_depressed"				"UI/buttonclick.wav"
-					
+
 					"labelText"						""
 					"Command"						"option0"
 				}
@@ -79,7 +79,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"proportionaltoparent"			"1"
-					
+
 					"labelText"						"#TF_SurveyQuestion_Rating0"
 					"font"							"Light 11"
 					"textAlignment"					"center"
@@ -116,7 +116,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"proportionaltoparent"			"1"
-					
+
 					"labelText"						"#TF_SurveyQuestion_Rating1"
 					"font"							"Light 11"
 					"textAlignment"					"center"
@@ -151,7 +151,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"proportionaltoparent"			"1"
-					
+
 					"labelText"						"#TF_SurveyQuestion_Rating2"
 					"font"							"Light 11"
 					"textAlignment"					"center"
@@ -171,7 +171,7 @@
 					"proportionaltoparent"			"1"
 
 					"sound_depressed"				"UI/buttonclick.wav"
-					
+
 					"labelText"						""
 					"Command"						"option3"
 				}
@@ -187,7 +187,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"proportionaltoparent"			"1"
-					
+
 					"labelText"						"#TF_SurveyQuestion_Rating3"
 					"font"							"Light 11"
 					"textAlignment"					"center"
@@ -206,7 +206,7 @@
 					"proportionaltoparent"			"1"
 
 					"sound_depressed"				"UI/buttonclick.wav"
-					
+
 					"labelText"						""
 					"Command"						"option4"
 				}
@@ -222,7 +222,7 @@
 					"tall"							"20"
 					"visible"						"1"
 					"proportionaltoparent"			"1"
-					
+
 					"labelText"						"#TF_SurveyQuestion_Rating4"
 					"font"							"Light 11"
 					"textAlignment"					"center"
@@ -245,9 +245,9 @@
 				"sound_depressed"					"UI/buttonclick.wav"
 				"proportionaltoparent"				"1"
 				"actionsignallevel"					"2"
-				
+
 				"paintbackground"					"1"
-				
+
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"WhiteSolid"
 				"depressedFgColor_override"			"WhiteSolid"
@@ -257,5 +257,5 @@
 				"depressedBgColor_override"			"Button_Hover"
 			}
 		}
-	}	
+	}
 }

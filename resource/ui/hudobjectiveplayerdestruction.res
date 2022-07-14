@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectivePlayerDestruction.res"
-{	
+{
 	"ObjectiveStatusRobotDestruction"
 	{
 		"ControlName"								"EditablePanel"
@@ -18,7 +18,7 @@
 		"robot_y_offset"							"47"
 		"robot_x_step"								"23"
 		"robot_y_step"								"0"
-		
+
 
 		"color_blue"								"84 111 127 255"
 		"color_red"									"171 59 59 255"
@@ -43,7 +43,7 @@
 			"skip_autoresize" 						"1"
 		}
 	}
-	
+
 	"CenterBackground"
 	{
 		"ControlName"								"EditablePanel"
@@ -76,7 +76,7 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-	
+
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"
@@ -96,7 +96,7 @@
 		"proportionaltoparent"						"1"
 		"font"										"Light 8"
 		"fgcolor"									"White"
-		
+
 		"pin_to_sibling"							"CenterBackground"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
@@ -120,7 +120,7 @@
 		"proportionaltoparent"						"1"
 		"font"										"Light 8 Blur"
 		"fgcolor"									"Shadow"
-		
+
 		"pin_to_sibling"							"PlayingTo"
 	}
 
@@ -136,7 +136,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"ClockIcon"
 		{
 			"ControlName"							"CExLabel"
@@ -148,13 +148,13 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"center"	
+			"textAlignment"							"center"
 			"labelText"								"9"
 			"font"									"Symbols 14"
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
 		}
-		
+
 		"CountdownLabelTime"
 		{
 			"ControlName"							"CExLabel"
@@ -166,7 +166,7 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"west"	
+			"textAlignment"							"west"
 			"labelText"								"%countdowntime%"
 			"font"									"Light 15"
 			"fgcolor"								"White"
@@ -192,7 +192,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"BlueBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -223,7 +223,7 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -275,7 +275,7 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -323,7 +323,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionalToParent"					"1"
-		
+
 			"ScoreOutline"
 			{
 				"fieldName"							"ScoreOutline"
@@ -358,13 +358,13 @@
 				"tall"								"16"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%blue_escrow%"
 				"font"								"Light 12"
-				"fgcolor"							"White"		
+				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
-			
+
 			"EscrowBlueShadow"
 			{
 				"ControlName"						"CExLabel"
@@ -376,12 +376,12 @@
 				"tall"								"16"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%blue_escrow%"
 				"font"								"Light 12 Blur"
-				"fgcolor"							"Shadow"		
+				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
-				
+
 				"pin_to_sibling"					"EscrowBlue"
 			}
 
@@ -412,13 +412,13 @@
 				"tall"								"16"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%red_escrow%"
 				"font"								"Light 12"
-				"fgcolor"							"White"		
+				"fgcolor"							"White"
 				"proportionalToParent"				"1"
 			}
-			
+
 			"EscrowRedShadow"
 			{
 				"ControlName"						"CExLabel"
@@ -430,10 +430,10 @@
 				"tall"								"16"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"	
+				"textAlignment"						"center"
 				"labelText"							"%red_escrow%"
 				"font"								"Light 12 Blur"
-				"fgcolor"							"Shadow"		
+				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling"					"EscrowRed"
 			}
@@ -450,7 +450,7 @@
 				"visible"							"0"
 				"enabled"							"1"
 				"proportionalToParent"				"1"
-				
+
 				"VictoryLabelTime"
 				{
 					"ControlName"					"CExLabel"
@@ -613,7 +613,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionalToParent"					"1"
-			
+
 			"Score"
 			{
 				"ControlName"						"CExLabel"
@@ -649,7 +649,7 @@
 				"proportionalToParent"				"1"
 				"pin_to_sibling"					"Score"
 			}
-			
+
 			"WhiteBG"
 			{
 				"ControlName"						"EditableLabel"
@@ -722,7 +722,7 @@
 			"RedBar"
 			{
 				"ControlName"						"EditableLabel"
-				"fieldName"							"BlueBar"
+				"fieldName"							"RedBar"
 				"xpos"								"9999"
 			}
 		}
@@ -769,7 +769,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"paintbackground"					"0"
-				
+
 				"proportionalToParent"				"1"
 
 				"DroppedIntelImage"
@@ -819,7 +819,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
-				"font"								"Light 12 Blur"	
+				"font"								"Light 12 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling" 					"IntelValue"
@@ -868,7 +868,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"paintbackground"					"0"
-				
+
 				"proportionalToParent"				"1"
 
 				"DroppedIntelImage"
@@ -918,7 +918,7 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%intelvalue%"
-				"font"								"Light 12 Blur"	
+				"font"								"Light 12 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
 				"pin_to_sibling" 					"IntelValue"
@@ -940,7 +940,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Green"
-	
+
 		"CarriedImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -968,12 +968,12 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"east"	
+			"textAlignment"							"east"
 			"labelText"								"%flagvalue%"
 			"font"									"Light 16"
-			"fgcolor"								"White"	
-			"proportionalToParent"					"1"	
-		}	
+			"fgcolor"								"White"
+			"proportionalToParent"					"1"
+		}
 
 		"FlagValueShadow"
 		{
@@ -986,10 +986,10 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"east"	
+			"textAlignment"							"east"
 			"labelText"								"%flagvalue%"
 			"font"									"Light 16 Blur"
-			"fgcolor"								"Shadow"	
+			"fgcolor"								"Shadow"
 			"proportionalToParent"					"1"
 			"pin_to_sibling"						"FlagValue"
 		}
@@ -1024,7 +1024,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"PlayingToBG"
 	{
 		"ControlName"								"CTFImagePanel"

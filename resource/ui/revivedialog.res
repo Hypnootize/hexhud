@@ -33,7 +33,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-	
+
 		"ExplanationLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -75,9 +75,9 @@
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"1"
-		
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
@@ -97,7 +97,7 @@
 			"wide"									"48"
 			"tall"									"48"
 			"visible"								"1"
-			"enabled"								"1"	
+			"enabled"								"1"
 			"HealthBonusPosAdj"						"10"
 			"HealthDeathWarning"					"0.49"
 			"TFFont"								"Size 11"

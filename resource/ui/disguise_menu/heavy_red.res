@@ -1,6 +1,6 @@
 #base "scout_red.res"
 
-"Resource/UI/disguise_menu/heavy_red.res"
+"Resource/UI/Disguise_Menu/Heavy_Red.res"
 {
 	"TitleBG"
 	{
@@ -13,17 +13,17 @@
 		"image"										"replay/thumbnails/loadouts/heavy"
 	}
 	"ItemNameLabel"
-	{	
+	{
 		"labelText"									"#TF_Class_Name_HWGuy"
 	}
 	"NewNumberLabel"
-	{	
+	{
 		"xpos"										"76"
 		"ypos"										"5"
 		"labelText"									"2"
 	}
 	"NumberLabel"
-	{	
+	{
 		"labelText"									"5"
 	}
 }

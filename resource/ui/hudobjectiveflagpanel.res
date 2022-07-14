@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
+{
 	"ObjectiveStatusFlagPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -11,7 +11,7 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"if_hybrid"
 		{
 			"zpos"									"-1"
@@ -53,12 +53,12 @@
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"								"0"
@@ -78,7 +78,7 @@
 		"enabled"									"1"
 		"bgcolor_override"							"Blue"
 		"PaintBackgroundType"						"0"
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -103,12 +103,12 @@
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"								"0"
@@ -128,7 +128,7 @@
 		"enabled"									"1"
 		"bgcolor_override"							"Red"
 		"PaintBackgroundType"						"0"
-		
+
 		"BottomLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -153,18 +153,18 @@
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -176,7 +176,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%bluescore%"
 		"font"										"Bold 18"
 		"fgcolor"									"White"
@@ -184,23 +184,23 @@
 		"pin_to_sibling"							"BlueBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"BlueScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -212,29 +212,29 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%bluescore%"
 		"font"										"Bold 18 Blur"
 		"fgcolor"									"Shadow"
-		
+
 		"pin_to_sibling"							"BlueScore"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -246,7 +246,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%redscore%"
 		"font"										"Bold 18"
 		"fgcolor"									"White"
@@ -254,23 +254,23 @@
 		"pin_to_sibling"							"RedBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"RedScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -282,23 +282,23 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labelText"									"%redscore%"
 		"font"										"Bold 18 Blur"
 		"fgcolor"									"Shadow"
-		
+
 		"pin_to_sibling"							"RedScore"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"								"0"
@@ -324,7 +324,7 @@
 		"font"										"Light 6"
 		"fgcolor"									"WhiteDark"
 		"proportionaltoparent"						"1"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -338,7 +338,7 @@
 			"visible"								"0"
 		}
 	}
-	
+
 	"BlueFlag"
 	{
 		"ControlName"								"CTFFlagStatus"
@@ -351,12 +351,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_hybrid_single"
 		{
 			"xpos"									"cs-0.5"
@@ -366,7 +366,7 @@
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"xpos"									"cs-0.5-3"
@@ -375,7 +375,7 @@
 			"tall"									"34"
 		}
 	}
-	
+
 	"RedFlag"
 	{
 		"ControlName"								"CTFFlagStatus"
@@ -388,12 +388,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
 		}
-		
+
 		"if_hybrid_single"
 		{
 			"xpos"									"cs-0.5"
@@ -404,7 +404,7 @@
 			"visible"								"0"
 		}
 	}
-	
+
 	"CaptureFlag"
 	{
 		"ControlName"								"CTFArrowPanel"
@@ -418,7 +418,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"CarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -432,7 +432,7 @@
 		"enabled"									"1"
 		"image"										"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling"							"CaptureFlag"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
@@ -442,7 +442,7 @@
 			"ypos"									"-7"
 		}
 	}
-	
+
 	"PoisonIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -506,7 +506,7 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"SpecCarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -522,11 +522,11 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	//REMOVED STUFF
 	"LeftSideBG"
 	{

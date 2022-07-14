@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_dispenser.res"
+"Resource/UI/Hud_Obj_Dispenser.res"
 {
 	"BuildingStatusItem"
 	{
@@ -14,11 +14,11 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
+
 	"Icon_Dispenser"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"Icon"
+		"fieldName"									"Icon_Dispenser"
 		"xpos"										"7"
 		"ypos"										"cs-0.5-1"
 		"zpos"										"1"
@@ -31,7 +31,7 @@
 		"icon"										"obj_status_dispenser"
 		"iconColor"									"White"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -85,7 +85,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -131,7 +131,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Dark"
 		}
-		
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"							"CIconPanel"
@@ -206,16 +206,16 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									""
 			"iconColor"								"White"
 			"paintbackground"						"1"
 			"bgcolor_override"						"Red"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"Health"
-		{	
+		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
 			"font"									"Default"
@@ -233,7 +233,7 @@
 			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 		}
-	
+
 		"AlertTray"
 		{
 			"ControlName"							"CBuildingStatusAlertTray"
@@ -252,7 +252,7 @@
 			"fieldName"								"BuildingPanel"
 			"xpos"									"9999"
 		}
-	
+
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -266,7 +266,7 @@
 			"proportionaltoparent"					"1"
 
 			"Ammo"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Ammo"
 				"font"								"Default"
@@ -285,7 +285,7 @@
 				"bgcolor_override"					"WhiteDark"
 			}
 			"AmmoLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"AmmoLabel"
 				"font"								"Light 7"
@@ -307,7 +307,7 @@
 			}
 
 			"Upgrade"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
 				"font"								"Default"
@@ -325,7 +325,7 @@
 				"bgcolor_override"					"WhiteDark"
 			}
 			"UpgradeLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"UpgradeLabel"
 				"font"								"Light 7"
@@ -345,14 +345,14 @@
 				"proportionaltoparent"				"1"
 				"pin_to_sibling" 					"Upgrade"
 			}
-			
+
 			"UpgradeIcon"
 			{
 				"ControlName"						"CIconPanel"
 				"fieldName"							"UpgradeIcon"
 				"xpos"								"9999"
 			}
-			"AmmoIcon"	
+			"AmmoIcon"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"AmmoIcon"
@@ -360,7 +360,7 @@
 			}
 		}
 	}
-	
+
 	"Background"
 	{
 		"ControlName"								"CIconPanel"

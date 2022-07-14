@@ -1,4 +1,4 @@
-"Resource/UI/MessageBoxDialog.res"
+"Resource/UI/Econ/MessageBoxDialog.res"
 {
 	"ConfirmDialog"
 	{
@@ -18,7 +18,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -38,7 +38,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -83,9 +83,9 @@
 		"Command"									"confirm"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -100,5 +100,5 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"Icon"
 		"xpos"										"9999"
-	}	
+	}
 }

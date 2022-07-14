@@ -15,7 +15,7 @@
 		"painbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Main"
 	}
-	
+
 	"ReturnButton"
 	{
 		"ControlName"								"CExButton"
@@ -23,7 +23,7 @@
 		"xpos"										"0"
 		"labelText"									"<"
 
-		if_left
+		"if_left"
 		{
 			"xpos"									"rs1"
 			"labelText"								">"
@@ -49,12 +49,12 @@
 		"defaultBgColor_override" 					"Black"
 		"armedBgColor_override" 					"GrayBlueDarkest"
 		"depressedBgColor_override" 				"GrayBlueDarkest"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -62,7 +62,7 @@
 		"xpos"										"0"
 		"labelText"									"-"
 
-		if_left
+		"if_left"
 		{
 			"xpos"									"rs1"
 			"labelText"								"-"
@@ -87,12 +87,12 @@
 		"defaultBgColor_override" 					"Black"
 		"armedBgColor_override" 					"GrayBlueDarkest"
 		"depressedBgColor_override" 				"GrayBlueDarkest"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
 	}
-	
+
 	"Shade"
 	{
 		"ControlName"								"EditablePanel"

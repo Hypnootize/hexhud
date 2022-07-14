@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base.res"
+"Resource/UI/Build_Menu/Base_Active_Teleport_Target.res"
 {
 	"Background"
 	{
@@ -33,9 +33,9 @@
 			"bgcolor_override"						"Background Dark"
 		}
 	}
-	
+
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
 		"font"										"Light 8"
@@ -57,7 +57,7 @@
 	}
 
 	"NumberLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
 		"font"										"Light 8"
@@ -77,11 +77,11 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"Background"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	//REMOVED STUFF
 	"ItemBackground"
 	{
@@ -90,18 +90,18 @@
 		"xpos"										"9999"
 	}
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
 		"xpos"										"9999"
 	}
 	"ModeLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ModeLabel"
 		"xpos"										"9999"
 	}
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"

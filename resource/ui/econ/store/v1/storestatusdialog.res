@@ -1,4 +1,4 @@
-"Resource/UI/StoreStatusDialog.res"
+"Resource/UI/Econ/Store/V1/StoreStatusDialog.res"
 {
 	"StoreStatusDialog"
 	{
@@ -15,9 +15,9 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"TitleLabel"
 		"font"										"Light 14"
@@ -36,7 +36,7 @@
 		"textAlignment"								"center"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -60,9 +60,9 @@
 		"Command"									"close"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"

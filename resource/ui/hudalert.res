@@ -1,7 +1,7 @@
 "Resource/UI/HudAlert.res"
 {
 	"AlertLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AlertLabel"
 		"font"										"Light 12"
@@ -20,7 +20,7 @@
 		"textAlignment"								"center"
 	}
 	"AlertLabelShadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AlertLabelShadow"
 		"font"										"Light 12 Blur"
@@ -39,7 +39,7 @@
 		"textAlignment"								"center"
 		"pin_to_sibling" 							"AlertLabel"
 	}
-	
+
 	//REMOVED
 	"HudAlertBG"
 	{

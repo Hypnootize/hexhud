@@ -7,23 +7,23 @@
 			"BlueTeamPanel"
 			{
 				"alpha"								"0"
-				
+
 				"BluePlayerListParent"
 				{
-					BluePlayerList
+					"BluePlayerList"
 					{
 						"alpha"						"0"
 					}
 				}
 			}
-			
+
 			"RedTeamPanel"
 			{
 				"alpha"								"0"
-				
+
 				"RedPlayerListParent"
 				{
-					RedPlayerListParent
+					"RedPlayerListParent"
 					{
 						"alpha"						"0"
 					}

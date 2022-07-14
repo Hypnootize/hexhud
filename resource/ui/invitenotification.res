@@ -1,4 +1,4 @@
-"Resource/UI/ChatPopup.res"
+"Resource/UI/InviteNotification.res"
 {
 	"InviteNotification"
 	{
@@ -32,9 +32,9 @@
 	{
 		"ControlName"								"CAutoFittingLabel"
 		"fieldName"									"Text"
-		
 
-		if_incoming
+
+		"if_incoming"
 		{
 			"xpos"									"rs1-5"
 			"wide"									"f35"
@@ -91,11 +91,11 @@
 		"tall"										"20"
 		"visible"									"1"
 
-		if_incoming
+		"if_incoming"
 		{
 			"visible"								"0"
 		}
-		
+
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"alpha"										"255"
@@ -137,7 +137,7 @@
 		"defaultBgColor_override" 					"ButtonGreen"
 		"armedBgColor_override" 					"ButtonGreen_Hover"
 		"depressedBgColor_override" 				"ButtonGreen_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -147,8 +147,8 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"DeclineButton"
-		
-		if_incoming
+
+		"if_incoming"
 		{
 			"xpos"									"rs1-5"
 		}
@@ -182,7 +182,7 @@
 		"defaultBgColor_override" 					"ButtonRed"
 		"armedBgColor_override" 					"ButtonRed_Hover"
 		"depressedBgColor_override" 				"ButtonRed_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"

@@ -3,7 +3,7 @@
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"								Linear 	0.0 	0.0
-	
+
 	//SHADOW STYLE
 	Animate Health_Shadow						Alpha 		"0" 								Linear 	0.0		0.0
 	Animate Health_Shadow_Buff					FgColor 	"Health Buff" 						Linear 	0.0		0.0
@@ -23,7 +23,7 @@ event HudHealthBonusPulse
 	Animate Health_Spectator_Bar_Buff			Alpha		"255"								Linear 	0.0 	0.0
 	Animate Health_Spectator_BG					BgColor 	"Health Buff" 						Linear 	0.0		0.0
 	Animate Health_Killer_BG					BgColor 	"Health Killer Buff" 				Linear 	0.0		0.0
-	
+
 	RunEvent HudHealthBonusPulseLoop			0.7
 }
 
@@ -36,7 +36,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 				0.0
 	StopEvent HudHealthBonusPulseLoop			0.0
-	
+
 	//SHADOW STYLE
 	Animate Health_Shadow						Alpha 		"255" 								Linear 	0.0		0.0
 	Animate Health_Shadow_Buff					Alpha 		"0" 								Linear 	0.0		0.0
@@ -98,7 +98,7 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse				0.0
 	StopEvent HudHealthDyingPulseLoop 			0.0
-	
+
 	//SHADOW STYLE
 	Animate Health_Shadow						Alpha 		"255" 								Linear 	0.0		0.0
 	Animate Health_Shadow2						Alpha 		"0" 								Linear 	0.0		0.0

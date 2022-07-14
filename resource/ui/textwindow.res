@@ -108,7 +108,7 @@
 		"fgcolor"									"OffWhite"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling" 							"InfoBG"
 	}
 
@@ -149,10 +149,10 @@
 		"default"									"1"
 		"font"										"Light 14"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"OffWhite"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
@@ -174,11 +174,11 @@
 		"Command"									"okay"
 		"visible"									"1"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	"TextMessage"
 	{
 		"ControlName"								"TextEntry"
@@ -202,5 +202,5 @@
 		"ControlName"								"Label"
 		"fieldName"									"MessageTitle"
 		"xpos"										"9999"
-	}		
+	}
 }

@@ -28,13 +28,13 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"Bold 24"
 		"fgcolor_override"  						"Health Numbers"
-		"proportionaltoparent"  					"1"	
+		"proportionaltoparent"  					"1"
 	}
-	
+
 	"Health_Killer_Shadow"
 	{
 		"ControlName"								"Label"
@@ -46,20 +46,20 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"Bold 24 Blur"
 		"fgcolor_override"  						"Shadow"
 		"proportionaltoparent"  					"1"
 		"pin_to_sibling"							"Health_Killer"
 	}
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 	//REMOVED STUFF
 	"PlayerStatusHealthImage"
 	{
@@ -82,7 +82,7 @@
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImageBG"
+		"fieldName"									"BuildingStatusHealthImageBG"
 		"xpos"										"9999"
 	}
 }

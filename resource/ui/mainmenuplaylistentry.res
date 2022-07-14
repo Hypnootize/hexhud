@@ -29,7 +29,7 @@
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
-		
+
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteDark"
 		"depressedFgColor_override"					"WhiteDark"
@@ -49,7 +49,7 @@
 		"tall"										"150"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"	
+		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 		"image"										""
 	}
@@ -70,7 +70,7 @@
 		"proportionaltoparent"						"1"
 		"bgcolor_override"							"White"
 	}
-	
+
 	"MatchmakingBanPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -108,31 +108,31 @@
 			"paintbackground"						"0"
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	////DEAD STUFF////
-	
+
 	"PlayListDropShadow"
 	{
 		"ControlName"								"EditablePanel"
@@ -157,7 +157,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"mouseinputenabled"							"1"
-		"eatmouseinput"								"0"	
+		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
 	}
 	"ToolTipButtonHack"
@@ -172,7 +172,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"mouseinputenabled"							"1"
-		"eatmouseinput"								"0"	
+		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
 		"proportionaltoparent" 						"1"
 	}

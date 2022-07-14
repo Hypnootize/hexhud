@@ -1,16 +1,16 @@
-Scheme
+"Scheme"
 {
-	Borders
+	"Borders"
 	{
 		//========================================================================
 		// CUSTOM BORDERS
 		//========================================================================
 
-		BottomLineWhite
+		"BottomLineWhite"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -30,11 +30,11 @@ Scheme
 			}
 		}
 
-		BottomLineWhiteDark
+		"BottomLineWhiteDark"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -54,11 +54,11 @@ Scheme
 			}
 		}
 
-		BorderGrayBlueLight
+		"BorderGrayBlueLight"
 		{
 			"inset" 								"0 0 0 0"
 
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -81,7 +81,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -104,7 +104,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -127,7 +127,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -156,84 +156,84 @@ Scheme
 		// CUSTOM PANELS
 		//========================================================================
 
-		Panel_BlackBlue
+		"Panel_BlackBlue"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"BlackBlue"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		Panel_GrayBlueDarkest
+		"Panel_GrayBlueDarkest"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDarkest"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		Panel_GrayBlueDark
+		"Panel_GrayBlueDark"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		Panel_GrayBlue
+		"Panel_GrayBlue"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlue"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		Panel_GrayBlueLight
+		"Panel_GrayBlueLight"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueLight"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		Panel_Gray
+		"Panel_Gray"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Gray"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		Panel_GrayLight
+		"Panel_GrayLight"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayLight"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -245,10 +245,10 @@ Scheme
 		// DEFAULT TF2 BORDERS
 		//========================================================================
 
-		NoBorder
+		"NoBorder"
 		{
 			"inset" 								"0 0 0 0"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -256,7 +256,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -264,7 +264,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -272,7 +272,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -281,11 +281,11 @@ Scheme
 				}
 			}
 		}
-		
-		TeamMenuBorder
+
+		"TeamMenuBorder"
 		{
 			"inset" 								"0 0 0 0"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -298,7 +298,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -311,7 +311,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -324,7 +324,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -338,41 +338,41 @@ Scheme
 				}
 			}
 		}
-		
-		ScrollBarButtonBorder
+
+		"ScrollBarButtonBorder"
 		{
 			"inset" 								"0 0 0 0"
 			"backgroundtype" 						"0"
 		}
 
-		ScrollBarButtonDepressedBorder
+		"ScrollBarButtonDepressedBorder"
 		{
 			"inset" 								"0 0 0 0"
 			"backgroundtype" 						"0"
 		}
 
-		ButtonBorder
+		"ButtonBorder"
 		{
 			"inset" 								"0 0 0 0"
 			"backgroundtype" 						"0"
 		}
 
-		ButtonKeyFocusBorder
+		"ButtonKeyFocusBorder"
 		{
 			"inset" 								"0 0 0 0"
 			"backgroundtype" 						"0"
 		}
 
-		ButtonDepressedBorder
+		"ButtonDepressedBorder"
 		{
 			"inset" 								"0 0 0 0"
 			"backgroundtype" 						"0"
 		}
 
-		ComboBoxBorder
+		"ComboBoxBorder"
 		{
 			"inset" 								"0 0 1 1"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -380,7 +380,7 @@ Scheme
 					"offset" 						"0 1"
 				}
 			}
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -388,7 +388,7 @@ Scheme
 					"offset" 						"1 0"
 				}
 			}
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -396,7 +396,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -405,10 +405,10 @@ Scheme
 				}
 			}
 		}
-		DarkComboBoxBorder
+		"DarkComboBoxBorder"
 		{
 			"inset" 								"0 0 1 1"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -416,7 +416,7 @@ Scheme
 					"offset" 						"0 1"
 				}
 			}
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -424,7 +424,7 @@ Scheme
 					"offset" 						"1 0"
 				}
 			}
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -432,7 +432,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -442,10 +442,10 @@ Scheme
 			}
 		}
 
-		SalePriceBorder
+		"SalePriceBorder"
 		{
 			"inset" 								"0 0 1 1"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -453,7 +453,7 @@ Scheme
 					"offset" 						"0 1"
 				}
 			}
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -461,7 +461,7 @@ Scheme
 					"offset" 						"1 0"
 				}
 			}
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -469,7 +469,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -478,11 +478,11 @@ Scheme
 				}
 			}
 		}
-		
-		MainMenuSubButtonBorder
+
+		"MainMenuSubButtonBorder"
 		{
 			"inset" 								"0 0 1 1"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -490,7 +490,7 @@ Scheme
 					"offset" 						"0 1"
 				}
 			}
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -499,165 +499,165 @@ Scheme
 				}
 			}
 		}
-		
-		CrosshatchedBackground
+
+		"CrosshatchedBackground"
 		{
 			"bordertype"							"image"
 			"backgroundtype"						"0"
 			"image"									"loadout_header"
 			"tiled"									"1"
 		}
-		
-		OutlinedGreyBox
+
+		"OutlinedGreyBox"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		OutlinedDullGreyBox
+		"OutlinedDullGreyBox"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		
-		TFThinLineBorder
+
+		"TFThinLineBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		TFFatLineBorderOpaque
+		"TFFatLineBorderOpaque"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		TFFatLineBorder
+		"TFFatLineBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Background"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		TFFatLineBorderRedBGOpaque
+		"TFFatLineBorderRedBGOpaque"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Red"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		TFFatLineBorderRedBGOpaque_Store
+		"TFFatLineBorderRedBGOpaque_Store"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Red"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		TFFatLineBorderRedBG
+		"TFFatLineBorderRedBG"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Red"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		TFFatLineBorderRedBGMoreOpaque
+		"TFFatLineBorderRedBGMoreOpaque"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Red"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		TFFatLineBorderBlueBG
+		"TFFatLineBorderBlueBG"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Blue"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		TFFatLineBorderBlueBGMoreOpaque
+		"TFFatLineBorderBlueBGMoreOpaque"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Blue"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		TFFatLineBorderBlueBGOpaque
+		"TFFatLineBorderBlueBGOpaque"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Blue"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		TFFatLineBorderClearBG
+		"TFFatLineBorderClearBG"
 		{
 			"inset" 								"0 0 0 0"
 
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -680,7 +680,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -703,7 +703,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -726,7 +726,7 @@ Scheme
 					"offset" 						"0 0"
 				}
 			}
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -751,10 +751,10 @@ Scheme
 			}
 		}
 
-		ToolTipBorder
+		"ToolTipBorder"
 		{
 			"inset" 								"0 0 0 0"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -768,7 +768,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -782,7 +782,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -796,7 +796,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -811,11 +811,11 @@ Scheme
 			}
 		}
 
-		OptionsCategoryBorder
+		"OptionsCategoryBorder"
 		{
 			"inset" 								"0 0 0 0"
-			
-			Bottom
+
+			"Bottom"
 			{
 				"1"
 				{
@@ -834,39 +834,39 @@ Scheme
 				}
 			}
 		}
-		
-		GrayDialogBorder
+
+		"GrayDialogBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Background_Secondary"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		
-		StoreFreeTrialBorder
+
+		"StoreFreeTrialBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueLight"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		
-		EconItemBorder
+
+		"EconItemBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Background_Secondary"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -874,22 +874,22 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		Econ.Button.Border.Default
+		"con.Button.Border.Default"
 		{
 			"inset" 								"0 0 0 0"
 			"backgroundtype" 						"0"
 		}
-		Econ.Button.Border.Armed
+		"Econ.Button.Border.Armed"
 		{
 			"inset" 								"0 0 0 0"
 			"backgroundtype" 						"0"
 		}
 
-		LoadoutItemMouseOverBorder
+		"LoadoutItemMouseOverBorder"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -909,24 +909,24 @@ Scheme
 			}
 		}
 
-		LoadoutItemPopupBorder
+		"LoadoutItemPopupBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Black"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		
-		BackpackItemGrayedOut
+
+		"BackpackItemGrayedOut"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -945,12 +945,12 @@ Scheme
 				}
 			}
 		}
-		
-		BackpackItemGrayedOut_Selected
+
+		"BackpackItemGrayedOut_Selected"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -969,13 +969,13 @@ Scheme
 				}
 			}
 		}
-		
+
 		// Standard ------------------------------------------------------------------------------------------------
-		BackpackItemBorder
+		"BackpackItemBorder"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -994,11 +994,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder
+		"BackpackItemMouseOverBorder"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1017,11 +1017,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemSelectedBorder
+		"BackpackItemSelectedBorder"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1040,11 +1040,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder
+		"BackpackItemGreyedOutBorder"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1063,11 +1063,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder
+		"BackpackItemGreyedOutSelectedBorder"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1086,13 +1086,13 @@ Scheme
 				}
 			}
 		}
-		
+
 		// Unique ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_Unique
+		"BackpackItemBorder_Unique"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1111,11 +1111,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_Unique
+		"BackpackItemMouseOverBorder_Unique"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1134,11 +1134,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_Unique
+		"BackpackItemGreyedOutBorder_Unique"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1157,11 +1157,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_Unique
+		"BackpackItemGreyedOutSelectedBorder_Unique"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1182,11 +1182,11 @@ Scheme
 		}
 
 		// Rarity1 ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_1
+		"BackpackItemBorder_1"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1205,11 +1205,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_1
+		"BackpackItemMouseOverBorder_1"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1228,11 +1228,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_1
+		"BackpackItemGreyedOutBorder_1"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1251,11 +1251,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_1
+		"BackpackItemGreyedOutSelectedBorder_1"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1276,11 +1276,11 @@ Scheme
 		}
 
 		// Rarity2 ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_2
+		"BackpackItemBorder_2"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1299,11 +1299,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_2
+		"BackpackItemMouseOverBorder_2"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1322,11 +1322,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_2
+		"BackpackItemGreyedOutBorder_2"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1345,11 +1345,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_2
+		"BackpackItemGreyedOutSelectedBorder_2"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1370,11 +1370,11 @@ Scheme
 		}
 
 		// Rarity3 ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_3
+		"BackpackItemBorder_3"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1393,11 +1393,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_3
+		"BackpackItemMouseOverBorder_3"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1416,11 +1416,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_3
+		"BackpackItemGreyedOutBorder_3"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1439,11 +1439,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_3
+		"BackpackItemGreyedOutSelectedBorder_3"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1464,11 +1464,11 @@ Scheme
 		}
 
 		// Rarity4 ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_4
+		"BackpackItemBorder_4"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1487,11 +1487,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_4
+		"BackpackItemMouseOverBorder_4"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1510,11 +1510,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_4
+		"BackpackItemGreyedOutBorder_4"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1533,11 +1533,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_4
+		"BackpackItemGreyedOutSelectedBorder_4"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1558,11 +1558,11 @@ Scheme
 		}
 
 		// Haunted ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_Haunted
+		"BackpackItemBorder_Haunted"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1581,11 +1581,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_Haunted
+		"BackpackItemMouseOverBorder_Haunted"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1604,11 +1604,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_Haunted
+		"BackpackItemGreyedOutBorder_Haunted"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1627,11 +1627,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_Haunted
+		"BackpackItemGreyedOutSelectedBorder_Haunted"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1652,11 +1652,11 @@ Scheme
 		}
 
 		// PaintkitWeapon ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_PaintkitWeapon
+		"BackpackItemBorder_PaintkitWeapon"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1675,11 +1675,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_PaintkitWeapon
+		"BackpackItemMouseOverBorder_PaintkitWeapon"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1698,11 +1698,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_PaintkitWeapon
+		"BackpackItemGreyedOutBorder_PaintkitWeapon"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1721,11 +1721,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_PaintkitWeapon
+		"BackpackItemGreyedOutSelectedBorder_PaintkitWeapon"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1744,13 +1744,13 @@ Scheme
 				}
 			}
 		}
-		
+
 		// Collector's ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_Collectors
+		"BackpackItemBorder_Collectors"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1769,11 +1769,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_Collectors
+		"BackpackItemMouseOverBorder_Collectors"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1792,11 +1792,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_Collectors
+		"BackpackItemGreyedOutBorder_Collectors"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1815,11 +1815,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_Collectors
+		"BackpackItemGreyedOutSelectedBorder_Collectors"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1840,11 +1840,11 @@ Scheme
 		}
 
 		// Vintage ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_Vintage
+		"BackpackItemBorder_Vintage"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1863,11 +1863,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_Vintage
+		"BackpackItemMouseOverBorder_Vintage"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1886,11 +1886,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_Vintage
+		"BackpackItemGreyedOutBorder_Vintage"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1909,11 +1909,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_Vintage
+		"BackpackItemGreyedOutSelectedBorder_Vintage"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1934,11 +1934,11 @@ Scheme
 		}
 
 		// Community ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_Community
+		"BackpackItemBorder_Community"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1957,11 +1957,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_Community
+		"BackpackItemMouseOverBorder_Community"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -1980,11 +1980,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_Community
+		"BackpackItemGreyedOutBorder_Community"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2003,11 +2003,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_Community
+		"BackpackItemGreyedOutSelectedBorder_Community"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2028,11 +2028,11 @@ Scheme
 		}
 
 		// Developer ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_Developer
+		"BackpackItemBorder_Developer"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2051,11 +2051,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_Developer
+		"BackpackItemMouseOverBorder_Developer"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2074,11 +2074,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_Developer
+		"BackpackItemGreyedOutBorder_Developer"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2097,11 +2097,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_Developer
+		"BackpackItemGreyedOutSelectedBorder_Developer"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2122,11 +2122,11 @@ Scheme
 		}
 
 		// SelfMade ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_SelfMade
+		"BackpackItemBorder_SelfMade"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2145,11 +2145,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_SelfMade
+		"BackpackItemMouseOverBorder_SelfMade"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2168,11 +2168,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_SelfMade
+		"BackpackItemGreyedOutBorder_SelfMade"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2191,11 +2191,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_SelfMade
+		"BackpackItemGreyedOutSelectedBorder_SelfMade"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2216,11 +2216,11 @@ Scheme
 		}
 
 		// Customized ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_Customized
+		"BackpackItemBorder_Customized"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2239,11 +2239,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_Customized
+		"BackpackItemMouseOverBorder_Customized"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2262,11 +2262,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_Customized
+		"BackpackItemGreyedOutBorder_Customized"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2285,11 +2285,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_Customized
+		"BackpackItemGreyedOutSelectedBorder_Customized"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2310,11 +2310,11 @@ Scheme
 		}
 
 		// Strange ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_Strange
+		"BackpackItemBorder_Strange"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2333,11 +2333,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_Strange
+		"BackpackItemMouseOverBorder_Strange"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2356,11 +2356,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_Strange
+		"ackpackItemGreyedOutBorder_Strange"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2379,11 +2379,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_Strange
+		"BackpackItemGreyedOutSelectedBorder_Strange"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2404,11 +2404,11 @@ Scheme
 		}
 
 		// Completed ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_Completed
+		"BackpackItemBorder_Completed"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2427,11 +2427,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_Completed
+		"BackpackItemMouseOverBorder_Completed"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2450,11 +2450,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_Completed
+		"BackpackItemGreyedOutBorder_Completed"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2473,11 +2473,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_Completed
+		"BackpackItemGreyedOutSelectedBorder_Completed"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2498,11 +2498,11 @@ Scheme
 		}
 		// ***************************************************************************
 		// Rarity Default
-		BackpackItemBorder_RarityDefault
+		"BackpackItemBorder_RarityDefault"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2521,11 +2521,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_RarityDefault
+		"BackpackItemMouseOverBorder_RarityDefault"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2544,11 +2544,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_RarityDefault
+		"BackpackItemGreyedOutBorder_RarityDefault"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2567,11 +2567,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_RarityDefault
+		"BackpackItemGreyedOutSelectedBorder_RarityDefault"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2591,11 +2591,11 @@ Scheme
 			}
 		}
 		// ***************************************************
-		BackpackItemBorder_RarityCommon
+		"BackpackItemBorder_RarityCommon"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2614,11 +2614,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_RarityCommon
+		"BackpackItemMouseOverBorder_RarityCommon"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2637,11 +2637,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_RarityCommon
+		"BackpackItemGreyedOutBorder_RarityCommon"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2660,11 +2660,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_RarityCommon
+		"BackpackItemGreyedOutSelectedBorder_RarityCommon"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2684,11 +2684,11 @@ Scheme
 			}
 		}
 		//
-		BackpackItemBorder_RarityUncommon
+		"BackpackItemBorder_RarityUncommon"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2707,11 +2707,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_RarityUncommon
+		"BackpackItemMouseOverBorder_RarityUncommon"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2730,11 +2730,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_RarityUncommon
+		"BackpackItemGreyedOutBorder_RarityUncommon"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2753,11 +2753,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_RarityUncommon
+		"BackpackItemGreyedOutSelectedBorder_RarityUncommon"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2777,11 +2777,11 @@ Scheme
 			}
 		}
 		//**************
-		BackpackItemBorder_RarityRare
+		"BackpackItemBorder_RarityRare"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2800,11 +2800,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_RarityRare
+		"BackpackItemMouseOverBorder_RarityRare"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2823,11 +2823,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_RarityRare
+		"BackpackItemGreyedOutBorder_RarityRare"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2846,11 +2846,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_RarityRare
+		"BackpackItemGreyedOutSelectedBorder_RarityRare"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2870,11 +2870,11 @@ Scheme
 			}
 		}
 		//******************
-		BackpackItemBorder_RarityMythical
+		"BackpackItemBorder_RarityMythical"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2893,11 +2893,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_RarityMythical
+		"BackpackItemMouseOverBorder_RarityMythical"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2916,11 +2916,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_RarityMythical
+		"BackpackItemGreyedOutBorder_RarityMythical"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2939,11 +2939,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_RarityMythical
+		"BackpackItemGreyedOutSelectedBorder_RarityMythical"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2963,11 +2963,11 @@ Scheme
 			}
 		}
 		// ***************************************************
-		BackpackItemBorder_RarityLegendary
+		"BackpackItemBorder_RarityLegendary"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -2986,11 +2986,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_RarityLegendary
+		"BackpackItemMouseOverBorder_RarityLegendary"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -3009,11 +3009,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_RarityLegendary
+		"BackpackItemGreyedOutBorder_RarityLegendary"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -3032,11 +3032,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_RarityLegendary
+		"BackpackItemGreyedOutSelectedBorder_RarityLegendary"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -3056,11 +3056,11 @@ Scheme
 			}
 		}
 		//*********************************************
-		BackpackItemBorder_RarityAncient
+		"BackpackItemBorder_RarityAncient"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -3079,11 +3079,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemMouseOverBorder_RarityAncient
+		"BackpackItemMouseOverBorder_RarityAncient"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -3102,11 +3102,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutBorder_RarityAncient
+		"BackpackItemGreyedOutBorder_RarityAncient"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -3125,11 +3125,11 @@ Scheme
 				}
 			}
 		}
-		BackpackItemGreyedOutSelectedBorder_RarityAncient
+		"BackpackItemGreyedOutSelectedBorder_RarityAncient"
 		{
 			"inset" 								"0 0 0 0"
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -3149,36 +3149,36 @@ Scheme
 			}
 		}
 
-		StoreItemBorder
+		"StoreItemBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlue"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		StoreItemBorderMouseOver
+		"StoreItemBorderMouseOver"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Gray"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		StoreItemBorderSelected
+		"StoreItemBorderSelected"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Gray"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -3186,12 +3186,12 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		MainMenuButtonGlow
+		"MainMenuButtonGlow"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Button"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -3199,25 +3199,25 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		MainMenuButtonGlow2
+		"MainMenuButtonGlow2"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Button"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		
-		NotificationDefault
+
+		"NotificationDefault"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -3225,12 +3225,12 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		NotificationHighPriority
+		"NotificationHighPriority"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -3238,132 +3238,132 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		MainMenuButtonDepressed
+		"MainMenuButtonDepressed"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Button"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		MainMenuButtonDepressedArmed
+		"MainMenuButtonDepressedArmed"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Button_Hover"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		MainMenuButtonDefault
+		"MainMenuButtonDefault"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Button"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		MainMenuButtonArmed
+		"MainMenuButtonArmed"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Button_Hover"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		MainMenuButtonDisabled
+		"MainMenuButtonDisabled"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDarkest"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		MainMenuMiniButtonDefault
+		"MainMenuMiniButtonDefault"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Button"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		MainMenuMiniButtonArmed
+		"MainMenuMiniButtonArmed"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Button_Hover"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		MainMenuBGBorder
+		"MainMenuBGBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDarkest"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		MainMenuBGBorderAlpha
+		"MainMenuBGBorderAlpha"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDarkest"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		MainMenuBlogTabBG
+		"MainMenuBlogTabBG"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDarkest"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		MainMenuHighlightBorder
+		"MainMenuHighlightBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDarkest"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -3371,38 +3371,38 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		TrainingResultsBG
+		"TrainingResultsBG"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDarkest"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		
-		StoreInnerShadowBorder
+
+		"StoreInnerShadowBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		
-		StoreNewBorder
+
+		"StoreNewBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayLight"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -3410,12 +3410,12 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		StoreHighlightedBorder
+		"StoreHighlightedBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Orange"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -3423,25 +3423,25 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		StoreHighlightedBackgroundBorder
+		"StoreHighlightedBackgroundBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayLight"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		
-		StoreDiscountBorder
+
+		"StoreDiscountBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Green"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -3449,96 +3449,96 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		StorePreviewBorder
+		"StorePreviewBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		StoreAddToCart
+		"StoreAddToCart"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		StorePreviewTabSelected
+		"StorePreviewTabSelected"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		StorePreviewTabUnselected
+		"StorePreviewTabUnselected"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		StorePromotion
+		"StorePromotion"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		
-		ArmoryScrollbarBox
+
+		"ArmoryScrollbarBox"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"WhiteDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		ArmoryScrollbarWell
+		"ArmoryScrollbarWell"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"WhiteDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		
-		QuickplayBorder
+
+		"QuickplayBorder"
 		{
 			"inset" 								"0 0 0 0"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -3552,7 +3552,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -3566,7 +3566,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -3580,7 +3580,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -3595,11 +3595,11 @@ Scheme
 			}
 		}
 
-		SortCategoryBorder
+		"SortCategoryBorder"
 		{
 			"inset" 								"0 0 1 1"
-	
-			Right
+
+			"Right"
 			{
 				"1"
 				{
@@ -3614,12 +3614,12 @@ Scheme
 			}
 		}
 
-		SteamWorkshopBorder
+		"SteamWorkshopBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDarkest"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -3627,12 +3627,12 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		ReplayFatLineBorderRedBGOpaque
+		"ReplayFatLineBorderRedBGOpaque"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -3640,116 +3640,116 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		ReplayFatLineBorderOpaque
+		"ReplayFatLineBorderOpaque"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		ReplayGrayDialogBorder
+		"ReplayGrayDialogBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		ReplayOutlinedGreyBox
+		"ReplayOutlinedGreyBox"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		ReplayOutlinedDullGreyBox
+		"ReplayOutlinedDullGreyBox"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		ReplayThinLineBorder
+		"ReplayThinLineBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		ReplayDefaultBorder
+		"ReplayDefaultBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		ReplayHighlightBorder
+		"ReplayHighlightBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		ReplayBalloonBorder
+		"ReplayBalloonBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"GrayBlueDark"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
 			"draw_corner_width"						"0"
 			"draw_corner_height" 					"0"
 		}
-		ReplayBrowser.ScrollBar.SliderButton.Border
+		"ReplayBrowser.ScrollBar.SliderButton.Border"
 		{
 		}
 
-		QuestStatusBorder
+		"QuestStatusBorder"
 		{
 		}
 
-		RedWithThinBorder
+		"RedWithThinBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Red"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -3757,12 +3757,12 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		BlueWithThinBorder
+		"BlueWithThinBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
 			"color"									"Blue"
-			
+
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
 			"src_corner_width"						"32"
@@ -3770,118 +3770,118 @@ Scheme
 			"draw_corner_height" 					"0"
 		}
 
-		InnerShadowBorder
+		"InnerShadowBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			
+
 			"image"									"inner_shadow_border"
 			"src_corner_height"						"5"
 			"src_corner_width"						"5"
 			"draw_corner_width"						"5"
-			"draw_corner_height" 					"5"	
+			"draw_corner_height" 					"5"
 		}
 
-		InnerShadowBorderThin
+		"InnerShadowBorderThin"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			
+
 			"image"									"inner_shadow_border"
 			"src_corner_height"						"5"
 			"src_corner_width"						"5"
 			"draw_corner_width"						"4"
-			"draw_corner_height" 					"4"	
+			"draw_corner_height" 					"4"
 		}
 
-		OuterShadowBorder
+		"OuterShadowBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			
+
 			"image"									"outer_shadow_border"
 			"src_corner_height"						"8"
 			"src_corner_width"						"8"
 			"draw_corner_width"						"8"
-			"draw_corner_height" 					"8"	
+			"draw_corner_height" 					"8"
 		}
 
-		OuterShadowBorderThin
+		"OuterShadowBorderThin"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			
+
 			"image"									"outer_shadow_border"
 			"src_corner_height"						"8"
 			"src_corner_width"						"8"
 			"draw_corner_width"						"4"
-			"draw_corner_height" 					"4"	
+			"draw_corner_height" 					"4"
 		}
 
-		CYOAScreenBorder
+		"CYOAScreenBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			
+
 			"image"									"cyoa/cyoa_map_screen_border"
 			"src_corner_height"						"63"
 			"src_corner_width"						"63"
 			"draw_corner_width"						"26"
-			"draw_corner_height" 					"26"	
+			"draw_corner_height" 					"26"
 		}
 
-		CYOANodeViewBorder
+		"CYOANodeViewBorder"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			
+
 			"image"									"cyoa/node_view_border"
 			"src_corner_height"						"127"
 			"src_corner_width"						"127"
 			"draw_corner_width"						"24"
-			"draw_corner_height" 					"24"	
+			"draw_corner_height" 					"24"
 		}
 
-		CYOANodeViewBorder_Active
+		"CYOANodeViewBorder_Active"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			
+
 			"image"									"cyoa/node_view_border_active"
 			"src_corner_height"						"127"
 			"src_corner_width"						"127"
 			"draw_corner_width"						"24"
-			"draw_corner_height" 					"24"	
+			"draw_corner_height" 					"24"
 		}
 
-		CYOANodeViewBorder_Inactive
+		"CYOANodeViewBorder_Inactive"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			
+
 			"image"									"cyoa/node_view_border_inactive"
 			"src_corner_height"						"127"
 			"src_corner_width"						"127"
 			"draw_corner_width"						"24"
-			"draw_corner_height" 					"24"	
+			"draw_corner_height" 					"24"
 		}
 
-		CYOANodeViewBorder_TurnIn
+		"CYOANodeViewBorder_TurnIn"
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"2"
-			
+
 			"image"									"cyoa/node_view_border_turnin"
 			"src_corner_height"						"127"
 			"src_corner_width"						"127"
 			"draw_corner_width"						"24"
-			"draw_corner_height" 					"24"	
+			"draw_corner_height" 					"24"
 		}
 
-		CYOAPopupBorder
+		"CYOAPopupBorder"
 		{
 			"inset" 								"0 0 1 1"
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -3895,7 +3895,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -3909,7 +3909,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -3923,7 +3923,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -3933,56 +3933,56 @@ Scheme
 				"2"
 				{
 					"color" 						"QuestMap_ActiveOrange"
-					"offset" 						"0 0"
-				}
-			}
-		}
-
-		FriendHighlightBorder
-		{
-			"inset" 								"0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" 						"CreditsGreen"
-					"offset" 						"0 1"
-				}
-
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" 						"CreditsGreen"
-					"offset" 						"1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" 						"CreditsGreen"
-					"offset" 						"0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" 						"CreditsGreen"
 					"offset" 						"0 0"
 				}
 			}
 		}
 
-		FriendHighlightBorderThick
+		"FriendHighlightBorder"
 		{
 			"inset" 								"0 0 1 1"
-			Left
+			"Left"
+			{
+				"1"
+				{
+					"color" 						"CreditsGreen"
+					"offset" 						"0 1"
+				}
+
+			}
+
+			"Right"
+			{
+				"1"
+				{
+					"color" 						"CreditsGreen"
+					"offset" 						"1 0"
+				}
+			}
+
+			"Top"
+			{
+				"1"
+				{
+					"color" 						"CreditsGreen"
+					"offset" 						"0 0"
+				}
+			}
+
+			"Bottom"
+			{
+				"1"
+				{
+					"color" 						"CreditsGreen"
+					"offset" 						"0 0"
+				}
+			}
+		}
+
+		"FriendHighlightBorderThick"
+		{
+			"inset" 								"0 0 1 1"
+			"Left"
 			{
 				"1"
 				{
@@ -3996,7 +3996,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -4010,7 +4010,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -4024,7 +4024,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{

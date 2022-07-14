@@ -1,8 +1,8 @@
 #base "huditemeffectmeter.res"
 
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudPowerupEffectMeter.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"ypos"										"r78"
 		"ypos_minmode"								"c82"

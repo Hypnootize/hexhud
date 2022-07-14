@@ -34,7 +34,7 @@
 			"paintbackgroundtype"					"0"
 			"BgColor_override" 						"GrayBlueDarkest"
 		}
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -57,7 +57,7 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -68,7 +68,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -112,19 +112,19 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override" 				"ButtonRed"
 			"armedBgColor_override" 				"ButtonRed_Hover"
 			"depressedBgColor_override" 			"ButtonRed_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
 		}
-		
+
 		"Fix Invisible Players"
 		{
 			"ControlName"							"CExImageButton"
@@ -149,14 +149,14 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"OffWhite"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -188,7 +188,7 @@
 
 			"pin_to_sibling" 						"Fix Invisible Players"
 		}
-		
+
 		"Reload Sound"
 		{
 			"ControlName"							"CExImageButton"
@@ -213,14 +213,14 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"OffWhite"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -276,14 +276,14 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"OffWhite"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -339,14 +339,14 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"OffWhite"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -402,14 +402,14 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"OffWhite"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -465,14 +465,14 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"OffWhite"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -528,14 +528,14 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"OffWhite"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -587,7 +587,7 @@
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"BgColor_override" 						"GrayBlue"
-			
+
 			"pin_to_sibling" 						"Toggle Chat"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
@@ -620,7 +620,7 @@
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"CC ON"
 		{
 			"ControlName"							"CExImageButton"
@@ -644,14 +644,14 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override" 				"ButtonGreen"
 			"armedBgColor_override" 				"ButtonGreen_Hover"
 			"depressedBgColor_override" 			"ButtonGreen_Hover"
-			
+
 			"defaultFgColor_override" 				"OffWhite"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -683,14 +683,14 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override" 				"ButtonRed"
 			"armedBgColor_override" 				"ButtonRed_Hover"
 			"depressedBgColor_override" 			"ButtonRed_Hover"
-			
+
 			"defaultFgColor_override" 				"OffWhite"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -699,7 +699,7 @@
 			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-		
+
 		"Damage Icon"
 		{
 			"ControlName"							"CExLabel"
@@ -720,7 +720,7 @@
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"BgColor_override" 						"GrayBlue"
-			
+
 			"pin_to_sibling" 						"Toggle CC"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
@@ -778,7 +778,7 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
@@ -813,7 +813,7 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
@@ -848,7 +848,7 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
@@ -883,7 +883,7 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
@@ -918,7 +918,7 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
@@ -953,7 +953,7 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
@@ -965,5 +965,5 @@
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
 		}
-	}	
+	}
 }

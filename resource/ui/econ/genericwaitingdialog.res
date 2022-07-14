@@ -1,4 +1,4 @@
-"Resource/UI/GenericWaitingDialog.res"
+"Resource/UI/Econ/GenericWaitingDialog.res"
 {
 	"GenericWaitingDialog"
 	{
@@ -14,9 +14,9 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"TitleLabel"
 		"font"										"Light 14"
@@ -38,7 +38,7 @@
 	}
 
 	"EllipsesLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"EllipsesLabel"
 		"font"										"Light 14"
@@ -58,7 +58,7 @@
 	}
 
 	"DurationLabel"
-	{	
+	{
 		"ControlName"								"Label"
 		"fieldName"									"DurationLabel"
 		"font"										"Light 14"
@@ -76,7 +76,7 @@
 		"AllCaps"									"1"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -100,9 +100,9 @@
 		"Command"									"user_close"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"

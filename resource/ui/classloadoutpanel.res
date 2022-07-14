@@ -1,6 +1,6 @@
 #base "../../resource/dev/ReloadSchemeButton.res"
 
-"Resource/UI/FullLoadoutPanel.res"
+"Resource/UI/ClassLoadoutPanel.res"
 {
 	"ReloadSchemeButton"
 	{
@@ -38,22 +38,22 @@
 		"bgcolor_override"							"Background_Main"
 		"infocus_bgcolor_override" 					"Background_Main"
 		"outoffocus_bgcolor_override" 				"Background_Main"
-		
+
 		"item_xpos_offcenter_a"						"58"
 		"item_xpos_offcenter_b"						"204"
 		"item_ypos"									"60"
 		"item_ydelta"								"76"
 		"item_mod_wide"								"40"
-		
+
 		"item_backpack_offcenter_x"					"0"
 		"item_backpack_xdelta"						"0"
 		"item_backpack_ydelta"						"0"
 
-		"button_xpos_offcenter"						"175"		
+		"button_xpos_offcenter"						"175"
 		"button_ypos"								"85"
 		"button_ydelta"								"80"
 		"button_override_delete_xpos" 				"0"
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -66,21 +66,21 @@
 			"noitem_textcolor"						"WhiteDark"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"1"
-			
+
 			"model_center_x"						"1"
-			"model_ypos"							"4"			
+			"model_ypos"							"4"
 			"model_tall"							"52"
 			"model_wide"							"78"
 			"text_ypos"								"53"
 			"text_center"							"1"
 			"name_only"								"1"
-			
+
 			"attriblabel"
 			{
 				"font"								"Light 10"
 				"visible"							"0"
 			}
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -132,7 +132,7 @@
 			"defaultBgColor_override" 				"GrayBlueDarkest"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -143,7 +143,7 @@
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"fieldName"									"classmodelpanel"
-		
+
 		"xpos"										"c-290"
 		"ypos"										"0"
 		"zpos"										"-1"
@@ -151,11 +151,11 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"render_texture"							"0"
 		"fov"										"25"
 		"allow_manip"								"1"
-		
+
 		"model"
 		{
 			"force_pos"								"1"
@@ -170,10 +170,10 @@
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
 			"spotlight" 							"1"
-		
+
 			"modelname"								""
 		}
-		
+
 		"customclassdata"
 		{
 			"undefined"
@@ -271,7 +271,7 @@
 			}
 		}
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -286,13 +286,13 @@
 		"noitem_textcolor"							"WhiteDark"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
-		
+
 		"text_ypos"									"15"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"Light 10"
@@ -309,7 +309,7 @@
 			"centerwrap"							"1"
 		}
 	}
-	
+
 	"PassiveAttribsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -317,7 +317,7 @@
 		"font"										"Light 10"
 		"xpos"										"c-135"
 		"ypos"										"120"
-		"zpos"										"0"	
+		"zpos"										"0"
 		"wide"										"270"
 		"tall"										"240"
 		"visible"									"0"
@@ -327,7 +327,7 @@
 		"fgcolor"									"255 215 0 255"
 		"centerwrap"								"1"
 	}
-	
+
 	"loadout_preset_panel"
 	{
 		"ControlName"								"CLoadoutPresetPanel"
@@ -387,7 +387,7 @@
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
 		"selectedBgColor_override" 					"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -426,12 +426,12 @@
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
 		"selectedBgColor_override" 					"Button_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
 	}
-	
+
 	"PresetsExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -446,7 +446,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"BottomLineWhiteDark"
-		
+
 		"force_close"								"1"
 		"end_x"										"c-200"
 		"end_y"										"120"
@@ -455,7 +455,7 @@
 		"callout_inparents_x"						"c0"
 		"callout_inparents_y"						"75"
 		"next_explanation"							""
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -473,7 +473,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -490,7 +490,7 @@
 			"wrap"									"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -510,15 +510,15 @@
 			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
-		}		
+		}
 	}
 
 	"TauntsExplanation"
@@ -535,7 +535,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"BottomLineWhiteDark"
-		
+
 		"force_close"								"1"
 		"end_x"										"c-200"
 		"end_y"										"120"
@@ -544,7 +544,7 @@
 		"callout_inparents_x"						"c13"
 		"callout_inparents_y"						"55"
 		"next_explanation"							""
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -562,7 +562,7 @@
 			"AllCaps"								"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -579,7 +579,7 @@
 			"wrap"									"1"
 			"fgcolor" 								"White"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -599,15 +599,15 @@
 			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"close"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
-		}		
+		}
 	}
 
 	"CaratLabel"

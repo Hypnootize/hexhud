@@ -17,7 +17,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Main"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -43,7 +43,7 @@
 		"border"									"BottomLineWhiteDark"
 		"fgcolor" 									"WhiteDark"
 	}
-	
+
 	"ClassUsagePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -57,7 +57,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
-		
+
 		"ClassUsageLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -77,7 +77,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"ClassCheckBox0"
 		{
 			"ControlName"							"CheckButton"
@@ -99,7 +99,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox1"
 		{
 			"ControlName"							"CheckButton"
@@ -121,7 +121,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox2"
 		{
 			"ControlName"							"CheckButton"
@@ -143,7 +143,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox3"
 		{
 			"ControlName"							"CheckButton"
@@ -165,7 +165,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox4"
 		{
 			"ControlName"							"CheckButton"
@@ -187,7 +187,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox5"
 		{
 			"ControlName"							"CheckButton"
@@ -209,7 +209,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox6"
 		{
 			"ControlName"							"CheckButton"
@@ -231,7 +231,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox7"
 		{
 			"ControlName"							"CheckButton"
@@ -253,7 +253,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox8"
 		{
 			"ControlName"							"CheckButton"
@@ -275,7 +275,7 @@
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"ClassCheckBox9"
 		{
 			"ControlName"							"CheckButton"
@@ -296,9 +296,9 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"disabledfgcolor2_override"				"TanDark"
-		}	
+		}
 	}
-	
+
 	"TestingPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -315,7 +315,7 @@
 		"pin_to_sibling" 							"ClassUsagePanel"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
-	
+
 		"CurrentlyTestingLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -335,7 +335,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"TestingWeaponLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -355,7 +355,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"TestItemEntry0"
 		{
 			"ControlName"							"CExLabel"
@@ -376,7 +376,7 @@
 			"fgcolor_override" 						"WhiteDark"
 			"bgcolor_override" 						"BlackBlue"
 		}
-		
+
 		"TestItemButton0"
 		{
 			"ControlName"							"CExButton"
@@ -399,20 +399,20 @@
 			"default"								"1"
 			"Command"								"item_test0"
 			"AllCaps"								"1"
-		
+
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-		
+
 		"RemoveItemButton0"
 		{
 			"ControlName"							"CExButton"
@@ -437,13 +437,13 @@
 			"Command"								"item_remove0"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"ButtonRed"
 			"armedBgColor_override"					"ButtonRed_Hover"
 			"depressedBgColor_override"				"ButtonRed_Hover"
@@ -510,18 +510,18 @@
 			"Command"								"item_test1"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-		
+
 		"RemoveItemButton1"
 		{
 			"ControlName"							"CExButton"
@@ -546,18 +546,18 @@
 			"Command"								"item_remove1"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"ButtonRed"
 			"armedBgColor_override"					"ButtonRed_Hover"
 			"depressedBgColor_override"				"ButtonRed_Hover"
 		}
-		
+
 		"TestingMisc1Label"
 		{
 			"ControlName"							"CExLabel"
@@ -620,18 +620,18 @@
 			"Command"								"item_test2"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-		
+
 		"RemoveItemButton2"
 		{
 			"ControlName"							"CExButton"
@@ -656,18 +656,18 @@
 			"Command"								"item_remove2"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"ButtonRed"
 			"armedBgColor_override"					"ButtonRed_Hover"
 			"depressedBgColor_override"				"ButtonRed_Hover"
 		}
-		
+
 		"TestingMisc2Label"
 		{
 			"ControlName"							"CExLabel"
@@ -687,7 +687,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"TestItemEntry3"
 		{
 			"ControlName"							"CExLabel"
@@ -708,7 +708,7 @@
 			"fgcolor_override" 						"WhiteDark"
 			"bgcolor_override" 						"BlackBlue"
 		}
-		
+
 		"TestItemButton3"
 		{
 			"ControlName"							"CExButton"
@@ -732,18 +732,18 @@
 			"Command"								"item_test3"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-		
+
 		"RemoveItemButton3"
 		{
 			"ControlName"							"CExButton"
@@ -768,19 +768,19 @@
 			"Command"								"item_remove3"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"ButtonRed"
 			"armedBgColor_override"					"ButtonRed_Hover"
 			"depressedBgColor_override"				"ButtonRed_Hover"
 		}
 	}
-	
+
 	"BotAdditionPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -797,7 +797,7 @@
 		"pin_to_sibling" 							"ClassUsagePanel"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -817,7 +817,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"AutoAddBotsCheckBox"
 		{
 			"ControlName"							"CheckButton"
@@ -838,12 +838,12 @@
 			"brighttext"							"0"
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
-		}	
-		
+		}
+
 		"BotsOnBlueTeamCheckBox"
 		{
 			"ControlName"							"CheckButton"
-			"fieldName"								"AutoAddBotsCheckBox"
+			"fieldName"								"BotsOnBlueTeamCheckBox"
 			"labelText"								"#IT_Bot_BlueTeam"
 			"Font"									"Light 8"
 			"textAlignment"							"west"
@@ -862,7 +862,7 @@
 			"proportionaltoparent"					"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-		
+
 		"AddBotButton"
 		{
 			"ControlName"							"CExButton"
@@ -886,19 +886,19 @@
 			"Command"								"bot_add"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-	
+
 		"BotSelectionComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -921,9 +921,9 @@
 			"unicode"								"0"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			
+
 			"paintborder"							"0"
-			
+
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 			"disabledFgColor_override" 				"WhiteDark"
@@ -941,7 +941,7 @@
 				"paintbackgroundtype"				"0"
 			}
 		}
-		
+
 		"KickAllBotsButton"
 		{
 			"ControlName"							"CExButton"
@@ -965,20 +965,20 @@
 			"Command"								"bot_removeall"
 			"AllCaps"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
 	}
-	
+
 	"TestItemBotControls"
 	{
 		"fieldName"									"TestItemBotControls"
@@ -996,7 +996,7 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-	
+
 	"ExportButton"
 	{
 		"ControlName"								"CExButton"
@@ -1020,13 +1020,13 @@
 		"Command"									"export"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -1035,7 +1035,7 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"ImportButton"
 	{
 		"ControlName"								"CExButton"
@@ -1059,13 +1059,13 @@
 		"Command"									"import"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -1074,7 +1074,7 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-	
+
 	"ImportRecentButton"
 	{
 		"ControlName"								"CExButton"
@@ -1098,13 +1098,13 @@
 		"Command"									"importrecent"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -1113,7 +1113,7 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -1137,13 +1137,13 @@
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -1175,13 +1175,13 @@
 		"Command"									"ok"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -1206,7 +1206,7 @@
 		"pin_to_sibling" 							"OkButton"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"SteamWorkshopButtonSubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1231,17 +1231,17 @@
 			"command"								"steamworkshop"
 			"labeltext"								"#MMenu_SteamWorkshop"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
-		
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
-			
+
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override"				"Button_Hover"		
+			"depressedBgColor_override"				"Button_Hover"
 		}
 	}
 }

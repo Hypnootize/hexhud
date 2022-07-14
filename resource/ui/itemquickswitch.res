@@ -13,15 +13,15 @@
 		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"proportionaltoparent"						"1"
-		
+
 		"PaintBackgroundType"						"0"
 		"PaintBackground"							"1"
 		"bgcolor_override"							"Background Dark"
-		
+
 		"itempanel_xpos"							"0"
 		"itempanel_ydelta"							"0"
-		
-		"itemskv"	
+
+		"itemskv"
 		{
 			"wide"									"210"
 			"tall"									"30"
@@ -29,17 +29,17 @@
 			"PaintBackground"						"1"
 			"paintborder"							"0"
 			"text_forcesize" 						"2"
-			
+
 			"model_xpos"							"0"
 			"model_ypos"							"5"
 			"model_wide"							"40"
 			"model_tall"							"20"
-			
+
 			"text_center"							"1"
 			"text_xpos"								"42"
 			"text_wide"								"100"
 			"name_only"								"1"
-			
+
 			"noitem_textcolor"						"WhiteDark"
 		}
 	}
@@ -56,7 +56,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"image"										"replay/thumbnails/panels/flat_background"
 		"scaleImage"								"1"
 		"teambg_1"									"replay/thumbnails/panels/flat_background"
@@ -113,7 +113,7 @@
 			}
 		}
 	}
-	
+
 	"itemcontainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -124,7 +124,7 @@
 		"tall"										"f0"
 		"PaintBackground"							"0"
 		"proportionaltoparent"						"1"
-		
+
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"							"CExLabel"

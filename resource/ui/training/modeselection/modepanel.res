@@ -1,4 +1,4 @@
-"Resource/training/modeselection/modepanel.res"
+"Resource/UI/Training/ModeSelection/ModePanel.res"
 {
 	"ModeInfoContainer"
 	{
@@ -85,7 +85,7 @@
 			"image"									""
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"DESCBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -155,7 +155,7 @@
 		"Command"									"%startcommand%"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"proportionaltoparent"						"1"
-		
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
@@ -163,7 +163,7 @@
 		"defaultBgColor_override" 					"ButtonGreen"
 		"armedBgColor_override" 					"ButtonGreen_Hover"
 		"depressedBgColor_override" 				"ButtonGreen_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"

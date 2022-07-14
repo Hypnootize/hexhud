@@ -87,7 +87,7 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
 	}
-	
+
 	"TournamentNameEdit"
 	{
 		"ControlName"								"TextEntry"
@@ -115,14 +115,14 @@
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 	}
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 	//REMOVED STUFF
-	
+
 	"HudTournamentSetupBG"
 	{
 		"ControlName"	      						"ScalableImagePanel"
@@ -130,14 +130,14 @@
 		"xpos"		          						"9999"
 	}
 	"TournamentSetupLabel"
-	{	
-		"ControlName"								"Label"
-		"fieldName"									"TournamentLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"TournamentSetupLabel"
 		"xpos"		          						"9999"
 	}
 	"TournamentTeamNameLabel"
-	{	
-		"ControlName"								"Label"
+	{
+		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentTeamNameLabel"
 		"xpos"		          						"9999"
 	}

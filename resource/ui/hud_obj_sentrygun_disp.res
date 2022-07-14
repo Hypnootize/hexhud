@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_sentrygun_disp.res"
+"Resource/UI/Hud_Obj_Sentrygun_Disp.res"
 {
 	"BuildingStatusItem"
 	{
@@ -14,7 +14,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
+
 	"Icon_Sentry_1"
 	{
 		"ControlName"								"CIconPanel"
@@ -31,7 +31,7 @@
 		"icon"										"obj_status_sentrygun_1"
 		"iconColor"									"White"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -85,7 +85,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -97,7 +97,7 @@
 		"tall"										"f2"
 		"visible"									"0"
 		"proportionaltoparent"						"1"
-		
+
 		"BuiltBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -131,7 +131,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Dark"
 		}
-		
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"							"CIconPanel"
@@ -206,16 +206,16 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									""
 			"iconColor"								"White"
 			"paintbackground"						"1"
 			"bgcolor_override"						"Red"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"Health"
-		{	
+		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
 			"font"									"Default"
@@ -233,7 +233,7 @@
 			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 		}
-	
+
 		"AlertTray"
 		{
 			"ControlName"							"CBuildingStatusAlertTray"
@@ -252,7 +252,7 @@
 			"fieldName"								"BuildingPanel"
 			"xpos"									"9999"
 		}
-	
+
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -264,9 +264,9 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"proportionaltoparent"					"1"
-			
+
 			"Kills"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"Kills"
 				"font"								"Light 8"
@@ -284,7 +284,7 @@
 				"proportionaltoparent"				"1"
 			}
 			"KillsLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"KillsLabel"
 				"font"								"Light 8"
@@ -301,9 +301,9 @@
 				"drawcolor"							"WhiteSolid"
 				"proportionaltoparent"				"1"
 			}
-			
+
 			"Shells"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Shells"
 				"font"								"Default"
@@ -320,7 +320,7 @@
 				"bgcolor_override"					"WhiteDark"
 			}
 			"ShellsLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"ShellsLabel"
 				"font"								"Light 7"
@@ -340,7 +340,7 @@
 				"proportionaltoparent"				"1"
 				"pin_to_sibling" 					"Shells"
 			}
-		
+
 			"KillIcon"
 			{
 				"ControlName"						"ImagePanel"

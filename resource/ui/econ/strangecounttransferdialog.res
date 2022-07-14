@@ -1,4 +1,4 @@
-"Resource/UI/econ/StrangeCountTransferDialog.res"
+"Resource/UI/Econ/StrangeCountTransferDialog.res"
 {
 	"StrangeCountTrasnferDialog"
 	{
@@ -63,7 +63,7 @@
 			"xpos"									"9999"
 		}
 		"SourceItem"
-		{		
+		{
 			"ControlName"							"CItemModelPanel"
 			"fieldName"								"SourceItem"
 			"xpos"									"10"
@@ -85,7 +85,7 @@
 			"name_only"								"1"
 			"paint_icon_hide" 						"1"
 			"actionsignallevel"						"2"
-			
+
 			"proportionaltoparent"					"1"
 
 			"ItemBackground"
@@ -122,7 +122,7 @@
 				"proportionaltoparent"				"1"
 				"mouseinputenabled" 				"0"
 			}
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"				"0"
@@ -130,16 +130,16 @@
 				"allow_rot"							"0"
 			}
 		}
-		
+
 		"SubjectBG"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"SubjectBG"
 			"xpos"									"9999"
-		}	
-		
+		}
+
 		"TargetItem"
-		{		
+		{
 			"ControlName"							"CItemModelPanel"
 			"fieldName"								"TargetItem"
 			"xpos"									"rs1-10"
@@ -162,7 +162,7 @@
 			"actionsignallevel"						"2"
 
 			"proportionaltoparent"					"1"
-			
+
 			"ItemBackground"
 			{
 				"ControlName"						"EditablePanel"
@@ -197,7 +197,7 @@
 				"proportionaltoparent"				"1"
 				"mouseinputenabled" 				"0"
 			}
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"				"0"
@@ -228,7 +228,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor" 								"WhiteDark"
 		}
-		
+
 		"CancelButton"
 		{
 			"ControlName"							"CExButton"
@@ -253,10 +253,10 @@
 			"actionsignallevel"						"2"
 			"Command"								"cancel"
 			"sound_depressed"							"UI/buttonclick.wav"
-			
+
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
@@ -265,7 +265,7 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-	
+
 		"OkButton"
 		{
 			"ControlName"							"CExButton"
@@ -290,10 +290,10 @@
 			"actionsignallevel"						"2"
 			"Command"								"apply"
 			"sound_depressed"							"UI/buttonclick.wav"
-			
+
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
-			
+
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"

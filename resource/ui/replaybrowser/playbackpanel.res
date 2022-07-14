@@ -1,4 +1,4 @@
-"Resource/UI/PlaybackPanel.res"
+"Resource/UI/ReplayBrowser/PlaybackPanel.res"
 {
 	"PlaybackPanel"
 	{

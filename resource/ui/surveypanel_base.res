@@ -146,12 +146,12 @@
 			"proportionaltoparent" 					"1"
 			"actionsignallevel"						"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
 
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
 		}
-	}	
+	}
 }

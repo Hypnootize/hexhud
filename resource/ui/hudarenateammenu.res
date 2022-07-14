@@ -1,4 +1,4 @@
-"Resource/UI/ArenaTeamMenu.res"
+"Resource/UI/HudArenaTeamMenu.res"
 {
 	"team"
 	{
@@ -14,7 +14,7 @@
 		"enabled"									"1"
 		"tabPosition"								"0"
 	}
-	
+
 	"MapName"
 	{
 		"ControlName"	  							"CExLabel"
@@ -99,14 +99,14 @@
 			"actionsignallevel" 					"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
-			
+
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"220 222 225 255"
 
@@ -168,20 +168,20 @@
 			"actionsignallevel" 					"2"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintborder"							"0"
 
 			"defaultBgColor_override"				"Background Dark"
 			"armedBgColor_override"					"Background Light"
 			"depressedBgColor_override"				"Background Light"
-			
+
 			"defaultFgColor_override"				"OffWhite"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
-	
+
 
 
 
@@ -214,7 +214,7 @@
 		"fieldName"									"MenuBG"
 		"xpos"										"-8888"
 		"ypos"										"0"
-		"zpos"										"0"		
+		"zpos"										"0"
 		"wide"										"0"
 		"tall"										"0"
 		"autoResize"								"0"
@@ -222,7 +222,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"fov"										"20"
-		
+
 		"model"
 		{
 			"modelname"								"models/vgui/ui_arena01.mdl"
@@ -234,15 +234,15 @@
 			"origin_y" 								"0"
 			"origin_z" 								"-34"
 		}
-	}	
-	
+	}
+
 	"autodoor"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"autodoor"
 		"xpos"										"-8888"
 		"ypos"										"0"
-		"zpos"										"2"		
+		"zpos"										"2"
 		"wide"										"0"
 		"tall"										"0"
 		"autoResize"								"0"
@@ -250,7 +250,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"fov"										"20"
-		
+
 		"model"
 		{
 			"modelname"								"models/vgui/ui_arenadoor01.mdl"
@@ -261,7 +261,7 @@
 			"origin_x" 								"290"
 			"origin_y"							 	"0"
 			"origin_z" 								"-34"
-			
+
 			"animation"
 			{
 				"name"								"idle_enabled"
@@ -274,22 +274,22 @@
 				"name"								"enter_enabled"
 				"sequence"							"hoveropen"
 			}
-			
+
 			"animation"
 			{
 				"name"								"exit_enabled"
 				"sequence"							"hoverclose"
 			}
 		}
-	}		
-	
+	}
+
 	"spectate"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"spectate"
 		"xpos"										"-8888"
 		"ypos"										"0"
-		"zpos"										"0"		
+		"zpos"										"0"
 		"wide"										"0"
 		"tall"										"0"
 		"autoResize"								"0"
@@ -297,7 +297,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"fov"										"20"
-		
+
 		"model"
 		{
 			"modelname"								"models/vgui/UI_team01_spectate.mdl"
@@ -308,7 +308,7 @@
 			"origin_x" 								"290"
 			"origin_y" 								"0"
 			"origin_z" 								"-34"
-			
+
 			"animation"
 			{
 				"name"								"idle_enabled"
@@ -321,7 +321,7 @@
 				"name"								"enter_enabled"
 				"sequence"							"hover"
 			}
-			
+
 			"animation"
 			{
 				"name"								"exit_enabled"
@@ -336,7 +336,7 @@
 		"fieldName"									"teambutton2"
 		"xpos"			  							"9999"
 		"ypos"			  							"0"
-		"zpos"			  							"3"		
+		"zpos"			  							"3"
 		"wide"			  							"125"
 		"tall"			  							"12"
 		"autoResize"								"0"
@@ -354,14 +354,14 @@
 		"font"										"invisiblelolol"
 		"fgcolor"									"255 255 255 0"
 	}
-	
+
 	"teambutton3"
 	{
 		"ControlName"								"CTFTeamButton"
 		"fieldName"									"teambutton3"
 		"xpos"			  							"9999"
 		"ypos"			  							"0"
-		"zpos"			  							"3"		
+		"zpos"			  							"3"
 		"wide"			  							"125"
 		"tall"			  							"12"
 		"autoResize"								"0"
@@ -375,12 +375,12 @@
 		"brighttext"								"0"
 		"paintborder"								"0"
 		"command"									"jointeam spectatearena"
-		"associated_model"							"spectate"	
+		"associated_model"							"spectate"
 		"font"										"invisiblelolol"
 		"fgcolor"									"255 255 255 0"
 	}
 
-	//REMOVED STUFF	
+	//REMOVED STUFF
 	"SysMenu"
 	{
 		"ControlName"	  							"Menu"
@@ -412,5 +412,5 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"9999"
-	}		
+	}
 }

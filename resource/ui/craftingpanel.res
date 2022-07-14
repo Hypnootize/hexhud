@@ -42,16 +42,16 @@
 		"outoffocus_bgcolor_override" 				"Background_Main"
 
 		"item_ypos"									"85"
-		"output_item_ypos"							"255"		
+		"output_item_ypos"							"255"
 		"item_crafting_offcenter_x"					"4"
 		"item_backpack_xdelta"						"2"
 		"item_backpack_ydelta"						"4"
 
-		"button_xpos_offcenter"						"175"		
+		"button_xpos_offcenter"						"175"
 		"button_ypos"								"85"
 		"button_ydelta"								"80"
 		"button_override_delete_xpos"				"0"
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -62,14 +62,14 @@
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"2"
 			"paintborder"							"1"
-			
+
 			"model_ypos"							"5"
 			"model_tall"							"30"
 			"text_center"							"1"
 			"name_only"								"1"
 			"text_forcesize" 						"3"
 			"noitem_use_fullpanel" 					"1"
-			
+
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
 
@@ -101,14 +101,14 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"bgcolor_override"					"Blank"
-			
+
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget" 		"0"
 					"inventory_image_type"			"1"
 					"allow_rot"						"0"
 				}
-			
+
 				"namelabel"
 				{
 					"ControlName"					"CExLabel"
@@ -128,7 +128,7 @@
 				}
 			}
 		}
-		
+
 		"recipebuttons_kv"
 		{
 			"font"									"Light 11"
@@ -149,12 +149,12 @@
 			"depressedFgColor_override" 			"WhiteSolid"
 			"depressedBgColor_override" 			"Button_Hover"
 		}
-		
+
 		"filter_xoffset"							"-136"
 		"filter_ypos"								"41"
 		"filter_xdelta"								"10"
 		"filter_ydelta"								"10"
-		
+
 		"recipefilterbuttons_kv"
 		{
 			"zpos"									"2"
@@ -170,7 +170,7 @@
 			"font"									"MenuKeys"
 			"scaleImage"							"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-		}	
+		}
 	}
 
 	"FiltersBG"
@@ -265,7 +265,7 @@
 			"PaintBackground"						"1"
 			"bgcolor_override"						"Background_Secondary"
 			"proportionaltoparent"					"1"
-		}	
+		}
 
 		"InputLabel"
 		{
@@ -301,7 +301,7 @@
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 		}
-		
+
 		"CraftButton"
 		{
 			"ControlName"							"CExButton"
@@ -331,12 +331,12 @@
 			"defaultBgColor_override" 				"ButtonGreen"
 			"armedBgColor_override" 				"ButtonGreen_Hover"
 			"depressedBgColor_override" 			"ButtonGreen_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
-		}			
-		
+		}
+
 		"FreeAccountLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -381,7 +381,7 @@
 			"AllCaps"								"1"
 			"Command"								"upgrade"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
@@ -389,7 +389,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -423,13 +423,13 @@
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueLight"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"Light 10"
@@ -446,12 +446,12 @@
 			"centerwrap"							"1"
 		}
 	}
-	
+
 	"mousedragitempanel"
 	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"mousedragitempanel"
-		
+
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"100"
@@ -462,13 +462,13 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
-		
+
 		"model_ypos"								"5"
 		"model_tall"								"35"
 		"text_ypos"									"60"
 		"text_center"								"1"
 		"name_only"									"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" 				"0"
@@ -476,7 +476,7 @@
 			"allow_rot"								"0"
 		}
 	}
-	
+
 	"TooltipPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -490,7 +490,7 @@
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlue"
-		
+
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -511,7 +511,7 @@
 			"AllCaps"								"1"
 		}
 	}
-	
+
 	"ShowExplanationsButton"
 	{
 		"ControlName"								"CExButton"

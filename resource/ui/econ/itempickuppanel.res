@@ -1,6 +1,6 @@
 #base "../../../resource/dev/ReloadSchemeButton.res"
 
-"Resource/UI/ItemPickupPanel.res"
+"Resource/UI/Econ/ItemPickupPanel.res"
 {
 	"item_pickup"
 	{
@@ -21,30 +21,30 @@
 		"bgcolor_override"							"Background_Main"
 		"infocus_bgcolor_override" 					"Background_Main"
 		"outoffocus_bgcolor_override" 				"Background_Main"
-		
+
 		"modelpanels_spacing"						"40"
 		"modelpanels_width"							"500"
 		"modelpanels_height"						"260"
 		"modelpanels_ypos"							"110"
-		
-		"modelpanelskv"	
+
+		"modelpanelskv"
 		{
 			"paintborder"							"1"
 			"paintbackground"						"0"
 			"border"								"Panel_GrayBlueDark"
-			
+
 			"model_xpos"							"0"
 			"model_center_y"						"1"
 			"model_tall"							"160"
 			"model_wide"							"240"
-			
+
 			"text_forcesize"						"1"
 			"text_xpos"								"250"
 			"text_wide"								"225"
 			"text_center"							"1"
 			"is_mouseover"							"1"
 			"hide_collection_panel" 				"1"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -52,7 +52,7 @@
 			}
 		}
 	}
-	
+
 	"ItemsFoundLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -73,7 +73,7 @@
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"classimage"
 	{
 		"ControlName"								"ImagePanel"
@@ -89,7 +89,7 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"classimageoutline"
 	{
 		"ControlName"								"EditablePanel"
@@ -104,7 +104,7 @@
 		"bgcolor_override" 							"GrayBlueDarkest"
 		"pin_to_sibling" 							"classimage"
 	}
-	
+
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -125,7 +125,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"   								"WhiteDark"
 	}
-	
+
 	"ItemCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -146,7 +146,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"   								"WhiteDark"
 	}
-	
+
 	"SelectedItemNumberLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -167,7 +167,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"   								"WhiteDark"
 	}
-	
+
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
@@ -189,10 +189,10 @@
 		"brighttext"								"0"
 		"Command"									"nextitem"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 		"proportionaltoparent"						"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
@@ -210,7 +210,7 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"								"CExButton"
@@ -232,10 +232,10 @@
 		"brighttext"								"0"
 		"Command"									"previtem"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 		"proportionaltoparent"						"1"
-		
+
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
@@ -253,7 +253,7 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -276,14 +276,14 @@
 		"Command"									"vguicancel"
 		"default"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -298,7 +298,7 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-	
+
 	"OpenLoadoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -320,18 +320,18 @@
 		"brighttext"								"0"
 		"Command"									"changeloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
-		
+
 		"pin_to_sibling" 							"CloseButton"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
@@ -346,7 +346,7 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-	
+
 	"DiscardButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -371,12 +371,12 @@
 
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
 	}
-	
+
 	"DiscardButtonTooltip"
 	{
 		"ControlName"								"EditablePanel"
@@ -391,7 +391,7 @@
 		"PaintBackground"							"1"
 		"proportionaltoparent"						"1"
 		"bgcolor_override"							"Black"
-		
+
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -414,7 +414,7 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-	
+
 	"DiscardedLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -435,7 +435,7 @@
 		"fgcolor_override" 							"RedDark"
 		"bgcolor_override"							"Black"
 	}
-	
+
 	"ScoreEntry"									//WTF ARE YOU FOR????
 	{
 		"ControlName"								"TextEntry"

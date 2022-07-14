@@ -46,7 +46,7 @@
 		"font"										"Light 10"
 		"textinsetx"								"0"
 		"use_proportional_insets"					"1"
-		
+
 		"mouseinputenabled"							"0"
 	}
 

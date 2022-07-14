@@ -1,8 +1,8 @@
 #base "SourceSchemeBase.res"
 
-Scheme
+"Scheme"
 {
-	Colors
+	"Colors"
 	{
 		"White"												"235 240 245 255"
 		"WhiteSolid"										"255 255 255 255"
@@ -23,8 +23,8 @@ Scheme
 		"Button_Hover"										"62 62 72 255"
 
 		"Blank"												"0 0 0 0"
-		
-		
+
+
 		// TF2
 		"OffWhite"											"200 200 200 255"
 		"DullWhite"											"142 142 142 255"
@@ -53,8 +53,8 @@ Scheme
 		"SelectionBG2"										"69 64 57 200"
 		"ListBG"											"39 36 34 200"
 	}
-	
-	BaseSettings
+
+	"BaseSettings"
 	{
 		// scheme-specific colors
 		Border.Bright										"Blank"
@@ -69,7 +69,7 @@ Scheme
 		Button.DepressedTextColor							"WhiteDark"
 		Button.DepressedBgColor								"Button"
 		Button.FocusBorderColor								"WhiteDark"
-		
+
 		CheckButton.TextColor								"WhiteDark"
 		CheckButton.SelectedTextColor						"White"
 		CheckButton.BgColor									"BlackBlue"
@@ -82,16 +82,16 @@ Scheme
 		CheckButton.DisabledBgColor	   						"Blank"
 
 		ToggleButton.SelectedTextColor						"White"
-		
+
 		ComboBoxButton.ArrowColor							"WhiteDark"
 		ComboBoxButton.ArmedArrowColor						"White"
 		ComboBoxButton.BgColor								"Blank"
 		ComboBoxButton.DisabledBgColor						"Blank"
-		
+
 		RadioButton.TextColor								"WhiteDark"
 		RadioButton.SelectedTextColor						"White"
 		RadioButton.ArmedTextColor							"White"
-		
+
 		Frame.BgColor										"GrayBlueDark"
 		Frame.OutOfFocusBgColor								"GrayBlueDarkest"
 		FrameGrip.Color1									"Black"
@@ -115,7 +115,7 @@ Scheme
 		FrameSystemButton.DisabledIcon						""
 		FrameTitleBar.BgColor								"Blank"
 		FrameTitleBar.DisabledBgColor						"Blank"
-		
+
 		Label.TextDullColor									"WhiteDark"
 		Label.TextColor										"WhiteDark"
 		Label.TextBrightColor								"White"
@@ -123,7 +123,7 @@ Scheme
 		Label.BgColor										"Blank"
 		Label.DisabledFgColor1								"Black"
 		Label.DisabledFgColor2								"GrayLight"
-		
+
 		ListPanel.TextColor									"WhiteDark"
 		ListPanel.BgColor									"BlackBlue"
 		ListPanel.SelectedBgColor							"GrayLight"
@@ -131,7 +131,7 @@ Scheme
 		ListPanel.TextBgColor								"Blank"
 		ListPanel.SelectedTextColor							"White"
 		ListPanel.EmptyListInfoTextColor					"White"
-		
+
 		SectionedListPanel.HeaderTextColor					"WhiteDark"
 		SectionedListPanel.HeaderBgColor					"Blank"
 		SectionedListPanel.DividerColor						"WhiteDark"
@@ -142,14 +142,14 @@ Scheme
 		SectionedListPanel.SelectedBgColor					"GrayLight"
 		SectionedListPanel.OutOfFocusSelectedTextColor		"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor		"100 100 100 128"
-		
+
 		MainMenu.TextColor									"WhiteDark"
 		MainMenu.ArmedTextColor								"White"
 		MainMenu.Inset										"32"
 		MainMenu.DepressedTextColor							"WhiteDark"
 		MainMenu.MenuItemHeight								"25"
 		MainMenu.Backdrop									"0 0 0 156"
-		
+
 		Menu.TextInset										"6"
 		Menu.FgColor										"WhiteDark"
 		Menu.BgColor										"Black"
@@ -158,7 +158,7 @@ Scheme
 		Menu.DividerColor									"WhiteDark"
 		Menu.TextColor										"WhiteDark"
 		Menu.ArmedTextColor									"White"
-		
+
 		ScrollBarButton.FgColor								"WhiteDark"
 		ScrollBarButton.BgColor								"Blank"
 		ScrollBarButton.ArmedFgColor						"White"
@@ -169,16 +169,16 @@ Scheme
 		ScrollBarSlider.FgColor								"WhiteDark"
 		ScrollBarSlider.BgColor								"Blank"
 		ScrollBar.Wide										"17"
-		
+
 		GraphPanel.FgColor									"WhiteDark"
 		GraphPanel.BgColor									"BlackBlue"
-		
+
 		Slider.NobColor										"108 108 108 255"
 		Slider.TextColor									"180 180 180 255"
 		Slider.TrackColor									"31 31 31 255"
 		Slider.DisabledTextColor1							"117 117 117 255"
 		Slider.DisabledTextColor2							"30 30 30 255"
-		
+
 		TextEntry.TextColor									"WhiteDark"
 		TextEntry.DisabledTextColor							"WhiteDark"
 		TextEntry.SelectedBgColor							"GrayLight"
@@ -188,69 +188,69 @@ Scheme
 		TextEntry.SelectedTextColor							"White"
 		TextEntry.OutOfFocusSelectedBgColor					"100 100 100 128"
 		TextEntry.FocusEdgeColor							"0 0 0 196"
-		
+
 		Panel.FgColor										"WhiteDark"
 		Panel.BgColor										"Blank"
-		
+
 		ProgressBar.FgColor									"WhiteDark"
 		ProgressBar.BgColor									"BlackBlue"
-		
+
 		PropertySheet.TextColor								"WhiteDark"
 		PropertySheet.SelectedTextColor						"White"
 		PropertySheet.TransitionEffectTime					"0.25"
-		
+
 		RichText.TextColor									"WhiteDark"
 		RichText.BgColor									"BlackBlue"
 		RichText.SelectedTextColor							"White"
 		RichText.SelectedBgColor							"GrayLight"
-		
+
 		ToggleButton.SelectedTextColor						"White"
-		
+
 		Tooltip.TextColor									"WhiteDark"
 		Tooltip.BgColor										"BlackBlue"
-		
+
 		TreeView.BgColor									"BlackBlue"
-		
+
 		WizardSubPanel.BgColor								"Blank"
-		
+
 		Console.TextColor									"WhiteDark"
 		Console.DevTextColor								"WhiteDark"
-		
+
 		NewGame.TextColor									"WhiteDark"
 		NewGame.FillColor									"BlackBlue"
 		NewGame.SelectionColor								"White"
 		NewGame.DisabledColor								"Black"
-		
+
 		/////////////////// Borrowed from CS:S SourceScheme /////////////////////////
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	}
-	
+
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
 	// describes all the border types
-	Borders
+	"Borders"
 	{
 		BaseBorder											SubtleBorder
 		ButtonBorder										RaisedBorder
@@ -259,9 +259,9 @@ Scheme
 		BrowserBorder										DepressedBorder
 		PropertySheetBorder									RaisedBorder
 
-		FrameBorder
+		"FrameBorder"
 		{
-			Left
+			"Left"
 			{
 				"1"
 				{
@@ -275,7 +275,7 @@ Scheme
 				}
 			}
 
-			Right
+			"Right"
 			{
 				"1"
 				{
@@ -289,7 +289,7 @@ Scheme
 				}
 			}
 
-			Top
+			"Top"
 			{
 				"1"
 				{
@@ -303,7 +303,7 @@ Scheme
 				}
 			}
 
-			Bottom
+			"Bottom"
 			{
 				"1"
 				{
@@ -318,8 +318,8 @@ Scheme
 			}
 		}
 	}
-	
-	Fonts
+
+	"Fonts"
 	{
 		"MainMenuFont"
 		{
@@ -332,7 +332,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"MenuLarge"
 		{
 			"1"	[$X360]
@@ -340,7 +340,7 @@ Scheme
 				"tall_hidef"								"24"
 			}
 		}
-		
+
 		"ServerBrowserTitle"
 		{
 			"1"
@@ -353,7 +353,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"Default" [$OSX]
 		{
 			"1"
@@ -363,7 +363,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		
+
 		"ServerBrowserSmall"
 		{
 			"1"
@@ -409,8 +409,8 @@ Scheme
 				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
-		}	
-		AchievementItemTitle [$WIN32]
+		}
+		"AchievementItemTitle" [$WIN32]
 		{
 			"1"
 			{
@@ -422,7 +422,7 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		AchievementItemTitleLarge [$WIN32]
+		"AchievementItemTitleLarge" [$WIN32]
 		{
 			"1"
 			{
@@ -434,7 +434,7 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		AchievementItemDescription [$WIN32]
+		"AchievementItemDescription" [$WIN32]
 		{
 			"1"
 			{
@@ -448,8 +448,8 @@ Scheme
 		}
 
 	}
-	
-	CustomFontFiles
+
+	"CustomFontFiles"
 	{
 		"9"
 		{

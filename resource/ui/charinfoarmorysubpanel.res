@@ -39,19 +39,19 @@
 		"bgcolor_override"							"Background_Main"
 		"infocus_bgcolor_override" 					"Background_Main"
 		"outoffocus_bgcolor_override" 				"Background_Main"
-		
+
 		"thumbnail_bgcolor"							"Button"
 		"thumbnail_bgcolor_mouseover"				"Button_Hover"
 		"thumbnail_bgcolor_selected"				"Button_Hover"
-		
+
 		"thumbnails_rows"							"6"
 		"thumbnails_columns"						"5"
-		
+
 		"thumbnails_x"								"c-216"
 		"thumbnails_y"								"70"
 		"thumbnails_delta_x"						"4"
 		"thumbnails_delta_y"						"4"
-		
+
 		"thumbnail_modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -63,7 +63,7 @@
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			
+
 			"model_xpos"							"0"
 			"model_ypos"							"5"
 			"model_wide"							""
@@ -71,10 +71,10 @@
 			"text_ypos"								"60"
 			"text_center"							"1"
 			"name_only"								"1"
-			
+
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -120,7 +120,7 @@
 		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
-	
+
 	"FilterComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -142,7 +142,7 @@
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
 		"paintborder"								"0"
-		
+
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"Blank"
 		"disabledFgColor_override" 					"WhiteDark"
@@ -204,13 +204,13 @@
 		"brighttext"								"0"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"pin_to_sibling"							"CurPageLabel"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
@@ -225,7 +225,7 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -248,7 +248,7 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	
+
 	"NextPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -270,13 +270,13 @@
 		"brighttext"								"0"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
-		
+
 		"pin_to_sibling"							"CurPageLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
@@ -308,9 +308,9 @@
 		"bgcolor_override"							"Background_Secondary"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"SelectedItemImageModelPanel"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"SelectedItemImageModelPanel"
 		"xpos"										"0"
@@ -321,14 +321,14 @@
 		"visible"									"1"
 		"PaintBackground"							"0"
 		"paintborder"								"0"
-		
+
 		"model_ypos"								"5"
 		"model_tall"								"80"
 		"name_only"									"0"
 		"attrib_only"								"0"
 		"model_only"								"1"
 		"paint_icon_hide"							"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" 				"0"
@@ -340,9 +340,9 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	
+
 	"SelectedItemModelPanel"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"SelectedItemModelPanel"
 		"xpos"										"0"
@@ -353,11 +353,11 @@
 		"visible"									"1"
 		"PaintBackground"							"0"
 		"paintborder"								"0"
-		
+
 		"model_hide"								"1"
 		"text_center"								"1"
 		"resize_to_text" 							"0"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" 				"0"
@@ -400,7 +400,7 @@
 		"defaultBgColor_override" 					"GrayBlueDarkest"
 		"armedBgColor_override" 					"GrayBlue"
 		"depressedBgColor_override" 				"GrayBlue"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -409,7 +409,7 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	
+
 	"ViewSetButton"
 	{
 		"ControlName"								"CExButton"
@@ -440,7 +440,7 @@
 		"defaultBgColor_override" 					"GrayBlueDarkest"
 		"armedBgColor_override" 					"GrayBlue"
 		"depressedBgColor_override" 				"GrayBlue"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -448,8 +448,8 @@
 		"pin_to_sibling"							"DataBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
-	}		
-	
+	}
+
 	"StoreButton"
 	{
 		"ControlName"								"CExButton"
@@ -472,7 +472,7 @@
 		"AllCaps"									"1"
 		"Command"									"openstore"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
@@ -480,7 +480,7 @@
 		"defaultBgColor_override" 					"ButtonGreen"
 		"armedBgColor_override" 					"ButtonGreen_Hover"
 		"depressedBgColor_override" 				"ButtonGreen_Hover"
-		
+
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"

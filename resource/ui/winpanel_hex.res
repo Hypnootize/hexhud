@@ -1,4 +1,4 @@
-"Resource/UI/winpanel.res"
+"Resource/UI/WinPanel.res"
 {
 	"TeamScoresPanel"
 	{
@@ -9,9 +9,9 @@
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"1"
-		
+
 		"MidBG"
-		{	
+		{
 			"ControlName"							"EditablePanel"
 			"fieldname"    							"MidBG"
 			"xpos"		    						"cs-0.5"
@@ -27,7 +27,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background"
 		}
-		
+
 		"BlueScoreBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -44,7 +44,7 @@
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Blue"
-			
+
 			"pin_to_sibling" 						"MidBG"
 			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
 			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
@@ -138,7 +138,7 @@
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"center"
 			"xpos"									"0"
-			"ypos"									"0" 
+			"ypos"									"0"
 			"zpos"									"5"
 			"wide"									"25"
 			"tall"									"19"
@@ -147,7 +147,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			
+
 			"pin_to_sibling"						"BlueScoreBG2"
 			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
@@ -161,7 +161,7 @@
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"center"
 			"xpos"									"-1"
-			"ypos"									"-1" 
+			"ypos"									"-1"
 			"zpos"									"4"
 			"wide"									"25"
 			"tall"									"19"
@@ -189,7 +189,7 @@
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Red"
-			
+
 			"pin_to_sibling" 						"MidBG"
 			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
@@ -280,7 +280,7 @@
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"center"
 			"xpos"									"0"
-			"ypos"									"0" 
+			"ypos"									"0"
 			"zpos"									"5"
 			"wide"									"25"
 			"tall"									"19"
@@ -289,7 +289,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			
+
 			"pin_to_sibling"						"RedScoreBG2"
 			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
@@ -303,7 +303,7 @@
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"center"
 			"xpos"									"-1"
-			"ypos"									"-1" 
+			"ypos"									"-1"
 			"zpos"									"4"
 			"wide"									"25"
 			"tall"									"19"
@@ -314,7 +314,7 @@
 			"proportionaltoparent"					"1"
 			"pin_to_sibling"						"RedTeamScore"
 		}
-		
+
 		"BlueTeamScoreDropshadow"
 		{
 			"ControlName"							"CExLabel"
@@ -352,7 +352,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"ScoresBar"
 	{
 		"ControlName"								"EditablePanel"
@@ -368,7 +368,7 @@
 		"bgcolor_override"							"Background"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"Player1Icon"
 	{
 		"ControlName"								"CExLabel"
@@ -430,12 +430,12 @@
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
-		
+
 		"pin_to_sibling"							"Player1Score"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 
 	"Player2Icon"
 	{
@@ -500,7 +500,7 @@
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
-		
+
 		"pin_to_sibling"							"Player2Score"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
@@ -569,12 +569,12 @@
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
-		
+
 		"pin_to_sibling"							"Player3Score"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"KillstreakIcon"
 	{
 		"ControlName"								"CExLabel"
@@ -638,17 +638,17 @@
 		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
-		
+
 		"pin_to_sibling"							"KillStreakPlayer1Score"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
-	
-	
-	
+
+
+
+
 	//REMOVED STUFF
-	
+
 	"WinPanelBGBorder"
 	{
 		"ControlName"								"EditablePanel"
@@ -668,25 +668,25 @@
 		"xpos"										"9999"
 	}
 	"WinningTeamLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"	  								"WinningTeamLabel"
 		"xpos"										"9999"
 	}
 	"WinningTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WinningTeamLabelDropshadow"
 		"xpos"										"9999"
 	}
 	"AdvancingTeamLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AdvancingTeamLabel"
 		"xpos"										"9999"
 	}
 	"AdvancingTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AdvancingTeamLabelDropshadow"
 		"xpos"										"9999"
@@ -700,7 +700,7 @@
 	"TopPlayersLabel"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"TopPlayerLabel"
+		"fieldName"									"TopPlayersLabel"
 		"xpos"		    							"9999"
 	}
 	"Player1Avatar"
@@ -752,13 +752,13 @@
 		"xpos"		    							"9999"
 	}
 	"KillStreakLeaderLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"KillStreakLeaderLabel"
 		"xpos"		    							"9999"
 	}
 	"KillStreakMaxCountLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"KillStreakMaxCountLabel"
 		"xpos"		    							"9999"
@@ -782,7 +782,7 @@
 		"xpos"		    							"9999"
 	}
 	"KillStreakPlayer1Class"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"KillStreakPlayer1Class"
 		"xpos"		    							"9999"

@@ -48,7 +48,7 @@
 		"textAlignment"								"center"
 		"font"										"Light 22"
 		"fgcolor_override"							"WhiteDark"
-		
+
 		"mouseinputenabled"							"0"
 	}
 
@@ -90,7 +90,7 @@
 
 		"editable"									"0"
 		"paintborder"								"0"
-		
+
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"GrayBlueDark"
 		"disabledFgColor_override" 					"WhiteDark"
@@ -329,7 +329,7 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
 	}
-	
+
 	"DataCenterBackground"
 	{
 		"ControlName"								"EditablePanel"
@@ -392,14 +392,14 @@
 				{
 					"fgcolor_override"				"WhiteDark"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"					"Button"
 					"FieldName"						"UpButton"
 					"visible"						"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"					"Button"
@@ -416,7 +416,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -424,7 +424,7 @@
 		"xpos"										"rs1"
 		"labelText"									">"
 
-		if_left
+		"if_left"
 		{
 			"xpos"									"0"
 			"labelText"								"<"
@@ -455,7 +455,7 @@
 		"xpos"										"3"
 		"labelText"									"<"
 
-		if_left
+		"if_left"
 		{
 			"xpos"									"rs1-3"
 			"labelText"								">"
@@ -479,7 +479,7 @@
 
 		"armedFgColor_override"						"Orange"
 	}
-	
+
 	"InnerGradient"
 	{
 		"ControlName"								"ImagePanel"
@@ -487,7 +487,7 @@
 		"xpos"										"9999"
 		"rotation"									"2"
 
-		if_left
+		"if_left"
 		{
 			"xpos"									"rs1-3"
 			"rotation"								"1"
@@ -514,7 +514,7 @@
 		"xpos"										"rs1"
 		"rotation"									"1"
 
-		if_left
+		"if_left"
 		{
 			"xpos"									"0"
 			"rotation"								"2"

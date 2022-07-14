@@ -19,7 +19,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
 	}
-	
+
 	"Health_Target"
 	{
 		"ControlName"								"CExLabel"
@@ -32,7 +32,7 @@
 		"tall_minmode"			    				"10"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"Bold 14"
 		"font_minmode"								"Light 12"
@@ -51,17 +51,17 @@
 		"tall_minmode"			    				"10"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"Bold 14 Blur"
 		"font_minmode"								"Light 12 Blur"
 		"fgcolor_override"  						"Shadow"
 		"proportionaltoparent"						"1"
-		
+
 		"pin_to_sibling"							"Health_Target"
 	}
-	
-	
+
+
 	//REMOVED STUFF
 	"PlayerStatusHealthImage"
 	{
@@ -98,7 +98,7 @@
 		"tall"										"12"
 		"visible"									"0"
 		"enabled"									"1"
-		"textAlignment"								"center"	
+		"textAlignment"								"center"
 		"font"										"ScoreboardVerySmall"
 		"fgcolor"									"TFOrange"
 		"proportionaltoparent"						"1"

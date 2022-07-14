@@ -1,8 +1,8 @@
 #base "base_cant_afford.res"
 
-"Resource/UI/build_menu/dispenser_cant_afford.res"
+"Resource/UI/Build_Menu/Dispenser_Cant_Afford.res"
 {
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
 		"xpos"										"-5"
 		"ypos"										"-1"

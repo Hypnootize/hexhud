@@ -1,6 +1,6 @@
 #base 	"storepage.res"
 
-"Resource/UI/StorePage_Maps.res"
+"Resource/UI/Econ/Store/V2/StorePage_Maps.res"
 {
 	"StorePage"
 	{
@@ -10,7 +10,7 @@
 			"model_ypos"							"-1"
 			"model_wide"							"100"
 			"model_tall"							"70"
-			
+
 			"itemmodelpanel"
 			{
 				"force_square_image"				"1"
@@ -18,17 +18,17 @@
 			}
 		}
 	}
-	
+
 	"ClassFilterLabel"
 	{
 		"visible"									"0"
 	}
-	
+
 	"ClassFilterNavPanel"
 	{
 		"visible"									"0"
 	}
-	
+
 	"ClassFilterLabel"
 	{
 		"visible"									"0"
@@ -43,12 +43,12 @@
 	{
 		"visible"									"0"
 	}
-	
+
 	"NameFilterBG"
 	{
 		"visible"									"0"
 	}
-	
+
 	"NameFilterLine"
 	{
 		"visible"									"0"
@@ -58,27 +58,27 @@
 	{
 		"visible"									"0"
 	}
-	
+
 	"SortFilterLabel"
 	{
 		"visible"									"0"
 	}
-	
+
 	"SubcategoryFilterBG"
 	{
 		"visible"									"0"
 	}
-	
+
 	"SortFilterComboBox"
 	{
 		"visible"									"0"
 	}
-	
+
 	"SortFilterBG"
 	{
 		"visible"									"0"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -98,7 +98,7 @@
 		"AllCaps"									"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"SubTitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -118,7 +118,7 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 	}
-	
+
 	"LearnMoreButton"
 	{
 		"ControlName"								"CExButton"
@@ -141,9 +141,9 @@
 		"Command"									"maps_learnmore"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
@@ -151,5 +151,5 @@
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override" 					"Button_Hover"
 		"depressedBgColor_override" 				"Button_Hover"
-	}	
+	}
 }

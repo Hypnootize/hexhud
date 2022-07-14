@@ -14,7 +14,7 @@
 		"scaleImage"								"1"
 		"alpha"										"255"
 	}
-	
+
 	"BG"
 	{
 		"ControlName"								"EditablePanel"

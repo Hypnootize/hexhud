@@ -1,6 +1,6 @@
 #base "../../../../../resource/dev/reloadschemebutton.res"
 
-"Resource/UI/StorePreviewItemPanel.res"
+"Resource/UI/Econ/Store/V2/StorePreviewItemPanel.res"
 {
 	"storepreviewitem"
 	{
@@ -17,18 +17,18 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		
+
 		"small_vertical_break_size"					"0"
 		"medium_vertical_break_size"				"6"
 		"big_vertical_break_size"					"7"
 		"horizontal_break_size"						"3"
 		"paint_style_buttons_y"						"c-140"
-		
+
 		"control_button_width"						"70"
 		"control_button_height"						"15"
 		"control_button_y"							"c-140"
 	}
-	
+
 	"ScrollBar"
 	{
 		"ControlName"								"ScrollBar"
@@ -40,13 +40,13 @@
 		"zpos"										"1000"
 		"visible"									"1"
 		"nobuttons"									"1"
-		
+
 		"Slider"
 		{
 			"PaintBackgroundType"					"0"
 			"fgcolor_override"						"WhiteDark"
 		}
-		
+
 		"UpButton"
 		{
 			"ControlName"							"Button"
@@ -55,7 +55,7 @@
 			"tall"									"0"
 			"wide"									"0"
 		}
-		
+
 		"DownButton"
 		{
 			"ControlName"							"Button"
@@ -65,7 +65,7 @@
 			"wide"									"0"
 		}
 	}
-	
+
 	// Fullscreen background panel
 	"BgPanel"
 	{
@@ -81,7 +81,7 @@
 		"PaintBackground"							"0"
 		"bgcolor_override"							""
 	}
-	
+
 	// Rounded dialog border
 	"DialogFrame"
 	{
@@ -99,7 +99,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"BorderGrayBlueLight"
-		
+
 		"PreviewViewportBg"
 		{
 			"ControlName"							"EditablePanel"
@@ -116,7 +116,7 @@
 			"bgcolor_override"						"BlackBlue"
 			"proportionaltoparent"					"1"
 		}
-	
+
 		"FooterTopPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -129,7 +129,7 @@
 			"fieldName"								"FootBottomPanel"
 			"xpos"									"9999"
 		}
-		
+
 		"ItemNameLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -149,7 +149,7 @@
 			"wrap"									"1"
 			"AllCaps"								"1"
 		}
-		
+
 		"DetailsView"
 		{
 			"ControlName"							"EditablePanel"
@@ -163,7 +163,7 @@
 			"PaintBackground"						"0"
 			"skip_autoresize"						"1"
 			"autoresize"							"0"
-			
+
 			"ScrollableChild"
 			{
 				"ControlName"						"EditablePanel"
@@ -177,7 +177,7 @@
 				"PaintBackground"					"0"
 				"skip_autoresize"					"1"
 				"autoresize"						"0"
-				
+
 				"ItemLevelInfoLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -194,7 +194,7 @@
 					"wrap"							"1"
 					"fgcolor"						"WhiteDark"
 				}
-				
+
 				"RestrictionsLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -211,7 +211,7 @@
 					"wrap"							"1"
 					"fgcolor"						"WhiteDark"
 				}
-				
+
 				"RestrictionsTextLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -228,7 +228,7 @@
 					"wrap"							"1"
 					"fgcolor"						"WhiteDark"
 				}
-				
+
 				"UsedByLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -245,7 +245,7 @@
 					"wrap"							"1"
 					"fgcolor"						"WhiteDark"
 				}
-				
+
 				"UsedByTextLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -262,7 +262,7 @@
 					"wrap"							"1"
 					"fgcolor"						"WhiteDark"
 				}
-				
+
 				"SlotLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -279,7 +279,7 @@
 					"wrap"							"1"
 					"fgcolor"						"WhiteDark"
 				}
-				
+
 				"SlotTextLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -296,7 +296,7 @@
 					"wrap"							"1"
 					"fgcolor"						"WhiteDark"
 				}
-				
+
 				"PriceLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -313,7 +313,7 @@
 					"labeltext"						"%price%"
 					"fgcolor"						"Green"
 				}
-				
+
 				"ArmoryTextLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -330,7 +330,7 @@
 					"labeltext"						"%armory_text%"
 					"fgcolor"						"WhiteDark"
 				}
-				
+
 				"AttributesLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -346,7 +346,7 @@
 					"wrap"							"1"
 					"fgcolor"						"WhiteDark"
 				}
-				
+
 				"ItemWikiPageButton"
 				{
 					"ControlName"					"CExButton"
@@ -367,10 +367,10 @@
 					"AllCaps"						"1"
 					"command"						"viewwikipage"
 					"sound_depressed"				"UI/buttonclick.wav"
-					
+
 					"proportionaltoparent"			"1"
 					"paintbackground"				"1"
-					
+
 					"defaultFgColor_override"		"WhiteDark"
 					"armedFgColor_override"			"WhiteSolid"
 					"depressedFgColor_override"		"WhiteSolid"
@@ -379,7 +379,7 @@
 					"armedBgColor_override"			"Button_Hover"
 					"depressedBgColor_override"		"Button_Hover"
 				}
-				
+
 				"TradableLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -396,8 +396,8 @@
 					"wrap"							"1"
 					"AllCaps"						"1"
 					"fgcolor"						"WhiteDark"
-				}		
-				
+				}
+
 				"TradableTextLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -414,8 +414,8 @@
 					"wrap"							"1"
 					"AllCaps"						"1"
 					"fgcolor"						"WhiteDark"
-				}		
-				
+				}
+
 				"GiftableLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -432,8 +432,8 @@
 					"wrap"							"1"
 					"AllCaps"						"1"
 					"fgcolor"						"WhiteDark"
-				}		
-				
+				}
+
 				"GiftableTextLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -450,8 +450,8 @@
 					"wrap"							"1"
 					"AllCaps"						"1"
 					"fgcolor"						"WhiteDark"
-				}		
-				
+				}
+
 				"NameableLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -468,8 +468,8 @@
 					"wrap"							"1"
 					"AllCaps"						"1"
 					"fgcolor"						"WhiteDark"
-				}		
-				
+				}
+
 				"NameableTextLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -486,7 +486,7 @@
 					"wrap"							"1"
 					"AllCaps"						"1"
 					"fgcolor"						"WhiteDark"
-				}		
+				}
 
 				"CraftableLabel"
 				{
@@ -505,7 +505,7 @@
 					"AllCaps"						"1"
 					"fgcolor"						"WhiteDark"
 				}
-				
+
 				"CraftableTextLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -526,7 +526,7 @@
 			}
 		}
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
@@ -540,15 +540,15 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"render_texture"							"0"
 		"fov"										"40"
 		"allow_rot"									"1"
 
-		"paintbackground" 							"1"		
+		"paintbackground" 							"1"
 		"paintbackgroundenabled" 					"1"
 		"bgcolor_override" 							"Blank"
-		
+
 		"model"
 		{
 			"force_pos"								"1"
@@ -563,13 +563,13 @@
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
 			"spotlight" 							"1"
-		
+
 			"modelname"								""
 		}
 	}
-		
+
 	"PreviewItemModelPanel"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"PreviewItemModelPanel"
 		"xpos"										"c-230"
@@ -580,7 +580,7 @@
 		"visible"									"1"
 		"paintbackground"							"0"
 		"paintborder"								"0"
-		
+
 		"model_xpos"								"10"
 		"model_ypos"								"10"
 		"model_wide"								"200"
@@ -589,9 +589,9 @@
 		"attrib_only"								"0"
 		"model_only"								"1"
 		"paint_icon_hide"							"0"
-		
+
 		"text_ypos"									"10"
-		
+
 		"itemmodelpanel"
 		{
 			"inventory_image_type"					"1"
@@ -599,7 +599,7 @@
 			"force_square_image"					"1"
 		}
 	}
-	
+
 	"ItemIcon1"
 	{
 		"ControlName"								"CStorePreviewItemIcon"
@@ -614,7 +614,7 @@
 		"panel_bgcolor_mouseover" 					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
-		
+
 		"bgblockout"
 		{
 			"ControlName"							"EditablePanel"
@@ -629,14 +629,14 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override" 						"Gray"
 		}
-		
+
 		"itempanel"
 		{
 			"fieldName"								"itempanel"
-			
+
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			
+
 			"model_xpos"							"1"
 			"model_ypos"							"2"
 			"model_wide"							"28"
@@ -645,7 +645,7 @@
 			"attrib_only"							"0"
 			"model_only"							"1"
 			"paint_icon_hide"						"0"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -658,7 +658,7 @@
 	{
 		"ControlName"								"CStorePreviewItemIcon"
 		"fieldName"									"ItemIcon2"
-		
+
 		"xpos"										"20"
 		"ypos"										"0"
 		"zpos"										"13"
@@ -669,7 +669,7 @@
 		"panel_bgcolor_mouseover" 					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
-		
+
 		"bgblockout"
 		{
 			"ControlName"							"EditablePanel"
@@ -684,14 +684,14 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override" 						"Gray"
 		}
-		
+
 		"itempanel"
 		{
 			"fieldName"								"itempanel"
-			
+
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			
+
 			"model_xpos"							"1"
 			"model_ypos"							"2"
 			"model_wide"							"28"
@@ -700,7 +700,7 @@
 			"attrib_only"							"0"
 			"model_only"							"1"
 			"paint_icon_hide"						"0"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -713,7 +713,7 @@
 	{
 		"ControlName"								"CStorePreviewItemIcon"
 		"fieldName"									"ItemIcon3"
-		
+
 		"xpos"										"20"
 		"ypos"										"0"
 		"zpos"										"13"
@@ -724,7 +724,7 @@
 		"panel_bgcolor_mouseover" 					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
-		
+
 		"bgblockout"
 		{
 			"ControlName"							"EditablePanel"
@@ -739,14 +739,14 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override" 						"Gray"
 		}
-		
+
 		"itempanel"
 		{
 			"fieldName"								"itempanel"
-			
+
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			
+
 			"model_xpos"							"1"
 			"model_ypos"							"2"
 			"model_wide"							"28"
@@ -755,7 +755,7 @@
 			"attrib_only"							"0"
 			"model_only"							"1"
 			"paint_icon_hide"						"0"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -768,7 +768,7 @@
 	{
 		"ControlName"								"CStorePreviewItemIcon"
 		"fieldName"									"ItemIcon4"
-		
+
 		"xpos"										"20"
 		"ypos"										"0"
 		"zpos"										"13"
@@ -779,7 +779,7 @@
 		"panel_bgcolor_mouseover" 					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
-		
+
 		"bgblockout"
 		{
 			"ControlName"							"EditablePanel"
@@ -794,14 +794,14 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override" 						"Gray"
 		}
-		
+
 		"itempanel"
 		{
 			"fieldName"								"itempanel"
-			
+
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			
+
 			"model_xpos"							"1"
 			"model_ypos"							"2"
 			"model_wide"							"28"
@@ -810,7 +810,7 @@
 			"attrib_only"							"0"
 			"model_only"							"1"
 			"paint_icon_hide"						"0"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
@@ -823,7 +823,7 @@
 	{
 		"ControlName"								"CStorePreviewItemIcon"
 		"fieldName"									"ItemIcon5"
-		
+
 		"xpos"										"20"
 		"ypos"										"0"
 		"zpos"										"13"
@@ -834,7 +834,7 @@
 		"panel_bgcolor_mouseover" 					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
-		
+
 		"bgblockout"
 		{
 			"ControlName"							"EditablePanel"
@@ -849,14 +849,14 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override" 						"Gray"
 		}
-		
+
 		"itempanel"
 		{
 			"fieldName"								"itempanel"
-			
+
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			
+
 			"model_xpos"							"1"
 			"model_ypos"							"2"
 			"model_wide"							"28"
@@ -865,7 +865,7 @@
 			"attrib_only"							"0"
 			"model_only"							"1"
 			"paint_icon_hide"						"0"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"				"0"
@@ -874,7 +874,7 @@
 			}
 		}
 	}
-	
+
 	"ClassUsageImage1"
 	{
 		"ControlName"								"CStorePreviewClassIcon"
@@ -971,7 +971,7 @@
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 	}
-	
+
 	"IconsMoveLeftButton"
 	{
 		"ControlName"								"CExButton"
@@ -993,14 +993,14 @@
 		"brighttext"								"0"
 		"command"									"icons_left"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-	}		
-	
+	}
+
 	"IconsMoveRightButton"
 	{
 		"ControlName"								"CExButton"
@@ -1028,8 +1028,8 @@
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-	}	
-	
+	}
+
 	"ClassUsageMouseoverLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -1072,18 +1072,18 @@
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"Command"									"-1"		
+		"Command"									"-1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-		
+
 		"button_activation_type"					"0"
-	}		
-	
+	}
+
 	"RotRightButton"
 	{
 		"ControlName"								"CPreviewRotButton"
@@ -1105,16 +1105,16 @@
 		"brighttext"								"0"
 		"Command"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-		
+
 		"button_activation_type"					"0"
-	}	
-	
+	}
+
 	"NextWeaponButton"
 	{
 		"ControlName"								"CExButton"
@@ -1133,7 +1133,7 @@
 		"brighttext"								"0"
 		"Command"									"next_weapon"
 		"sound_depressed"							"UI/buttonclick.wav"
-	}					
+	}
 
 	"GoFullscreenButton"
 	{
@@ -1157,18 +1157,18 @@
 		"default"									"0"
 		"Command"									"gofullscreen"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
+
 	"ZoomButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -1191,13 +1191,13 @@
 		"default"									"0"
 		"Command"									"zoom_toggle"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
@@ -1225,18 +1225,18 @@
 		"default"									"0"
 		"Command"									"options"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override"					"WhiteSolid"
-		
+
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
+
 	"TeamNavPanel"
 	{
 		"ControlName"								"CNavigationPanel"
@@ -1250,14 +1250,14 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"auto_scale"								"1"
 		"auto_layout"								"1"
 		"selected_button_default"					"0"
 		"auto_layout_vertical_buffer"				"-4"
 		"display_vertically"						"1"
 		"align"										"west"
-		
+
 		"ButtonSettings"
 		{
 			"wide"									"19"
@@ -1270,27 +1270,27 @@
 			"labelText"								""
 			"textAlignment"							"south-west"
 			"scaleImage"							"1"
-			
+
 			"fgcolor"								"TanDark"
 			"defaultFgColor_override" 				"TanDark"
 			"armedFgColor_override" 				"TanDark"
 			"depressedFgColor_override" 			"TanDark"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
 			"paintbackgroundtype"					"0"
 			"defaultBgColor_Override"				"Black"
-			
+
 			"paintborder"							"0"
-			
+
 			"image_drawcolor"						"255 255 255 77"
 			"image_armedcolor"						"255 255 255 128"
 			"image_selectedcolor"					"255 255 255 255"
-			
+
 			"stayselectedonclick"					"1"
 			"keyboardinputenabled"					"0"
-			
+
 			"SubImage"
 			{
 				"ControlName"						"ImagePanel"
@@ -1303,9 +1303,9 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-			}				
+			}
 		}
-		
+
 		"Buttons"
 		{
 			"all"
@@ -1314,11 +1314,11 @@
 				"image_default"						"store/store_redteam"
 				"image_armed"						"store/store_redteam"
 				"image_selected"					"store/store_redteam"
-				
+
 				"SubImage"
 				{
 					"image"							"store/store_redteam"
-				}				
+				}
 			}
 			"scout"
 			{
@@ -1326,11 +1326,11 @@
 				"image_default"						"store/store_blueteam"
 				"image_armed"						"store/store_blueteam"
 				"image_selected"					"store/store_blueteam"
-				
+
 				"SubImage"
 				{
 					"image"							"store/store_blueteam"
-				}				
+				}
 			}
 		}
 	}
@@ -1358,7 +1358,7 @@
 
 	//---
 	// Hack - put these two labels off-screen, since we have cycle text to take the place of both of them
-	
+
 	"PaintNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -1377,7 +1377,7 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 		"fgcolor"									"WhiteDark"
-	}		
+	}
 
 	"StyleNameLabel"
 	{
@@ -1397,10 +1397,10 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 		"fgcolor"									"WhiteDark"
-	}		
-	
+	}
+
 	//---
-	
+
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -1423,14 +1423,14 @@
 		"default"									"0"
 		"Command"									"closex"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
-		
+
 		"defaultFgColor_override" 					"WhiteDark"
 		"armedFgColor_override" 					"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
-	}		
-	
+	}
+
 	"BackButton"
 	{
 		"ControlName"								"CExButton"
@@ -1453,13 +1453,13 @@
 		"AllCaps"									"1"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override" 				"White"
-	}		
-	
+	}
+
 	"TryItOutButton"
 	{
 		"ControlName"								"CExButton"
@@ -1482,7 +1482,7 @@
 		"AllCaps"									"1"
 		"Command"									"tryitout"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"ButtonGreen_Hover"
@@ -1493,7 +1493,7 @@
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
 	}
-	
+
 	"AddToCartButton"
 	{
 		"ControlName"								"CExButton"
@@ -1516,7 +1516,7 @@
 		"AllCaps"									"1"
 		"Command"									"addtocart"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"ButtonGreen"
@@ -1527,7 +1527,7 @@
 		"armedFgColor_override"						"WhiteSolid"
 		"depressedFgColor_override" 				"WhiteSolid"
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"fieldName"									"mouseoveritempanel"

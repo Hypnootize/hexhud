@@ -1,4 +1,4 @@
-"Resource/UI/winpanel.res"
+"Resource/UI/StatSummary.res"
 {
 	"TFStatsSummary"
 	{
@@ -12,7 +12,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"Background"
 	{
 		"ControlName"								"EditablePanel"
@@ -48,7 +48,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -69,10 +69,10 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
 	}
-	
 
 
-	
+
+
 	///////////REMOVED///////////
 	"MainBackground"
 	{

@@ -16,7 +16,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
 	}
-	
+
 	"Health_Spectator_"
 	{
 		"ControlName"								"CExLabel"
@@ -53,10 +53,10 @@
 		"pin_to_sibling" 							"Health_Spectator_"
 	}
 
-	
-	
-	
-	
+
+
+
+
 	//REMOVED STUFF
 	"PlayerStatusHealthImage"
 	{

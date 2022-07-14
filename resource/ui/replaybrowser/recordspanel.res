@@ -1,4 +1,4 @@
-"Resource/UI/RecordPanel.res"
+"Resource/UI/ReplayBrowser/RecordPanel.res"
 {
 	"RecordPanel"
 	{
@@ -19,7 +19,7 @@
 		"visible"									"0"
 		"fgcolor_override"							"WhiteDark"
 	}
-	
+
 	"RecordInfoLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -33,7 +33,7 @@
 		"visible"									"0"
 		"fgcolor_override"							"WhiteDark"
 	}
-	
+
 	"ScoreBackgroundPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -44,7 +44,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-	
+
 	"ScoreLabel"
 	{
 		"ControlName"								"CExLabel"

@@ -1,5 +1,5 @@
-"Resource/UI/HudAchievementTrackerItem.res"
-{	
+"Resource/UI/HudItemAttributeTracker.res"
+{
 	"ItemAttributeTracker"
 	{
 		"fieldName" 								"ItemAttributeTracker"
@@ -24,7 +24,7 @@
 		"tall"										"18"
 		"proportionaltoparent"						"1"
 		"paintborder"								"0"
-		
+
 		"Header"
 		{
 			"ControlName"							"Label"

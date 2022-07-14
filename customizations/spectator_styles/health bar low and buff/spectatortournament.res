@@ -11,7 +11,7 @@
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"enabled"									"1"
-		
+
 		"team1_player_base_offset_x"				"0"
 		"team1_player_base_y"						"310"
 		"team1_player_delta_x"						"0"
@@ -20,14 +20,14 @@
 		"team2_player_base_y"						"280"
 		"team2_player_delta_x"						"0"
 		"team2_player_delta_y"						"-18"
-		
+
 		"playerpanels_kv"
 		{
 			"visible"								"0"
 			"wide"									"125"
 			"tall"									"17"
 			"zpos"									"1"
-			
+
 			"color_ready"							"0 255 0 220"
 			"color_notready"						"0 0 0 220"
 
@@ -47,7 +47,7 @@
 				"bgcolor_override"					"0 0 0 100"
 				"proportionaltoparent"				"1"
 			}
-			
+
 			"PlayerName"
 			{
 				"ControlName"						"CExLabel"
@@ -98,7 +98,7 @@
 				"bgcolor_override"					"Background"
 				"proportionaltoparent"				"1"
 			}
-			
+
 			"ClassImage"
 			{
 				"ControlName"						"CTFClassImage"
@@ -114,7 +114,7 @@
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 			}
-			
+
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
@@ -132,7 +132,7 @@
 				"TextColor"					        "HudOffWhite"
 				"proportionaltoparent"				"1"
 			}
-			
+
 			"respawntime"
 			{
 				"ControlName"						"CExLabel"
@@ -151,7 +151,7 @@
 				"fgcolor"							"WhiteDark"
 				"proportionaltoparent"				"1"
 			}
-			
+
 			"chargeamountcover"
 			{
 				"ControlName"						"CExLabel"
@@ -189,9 +189,9 @@
 				"proportionaltoparent"				"1"
 				"pin_to_sibling" 					"chargeamountcover"
 			}
-			
-			
-			
+
+
+
 			"ReadyBG"
 			{
 				"ControlName"			       		"ScalableImagePanel"
@@ -219,7 +219,7 @@
 		"fieldName"									"ReinforcementsLabel"
 		"xpos"										"cs-0.5"
 		"ypos"										"38"
-		"wide"										"f0"  
+		"wide"										"f0"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -230,12 +230,12 @@
 		"AllCaps"   								"1"
 		"proportionaltoparent"   					"1"
 
-		if_mvm
+		"if_mvm"
 		{
 			"ypos"									"70"
 		}
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -254,12 +254,12 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 
-		if_mvm
+		"if_mvm"
 		{
 			"visible"								"1"
-		}	
+		}
 	}
-	
+
 	"itempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -274,17 +274,17 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
-		
+
 		"model_ypos"								"10"
 		"model_center_x"							"1"
 		"model_wide"								"90"
 		"model_tall"								"60"
-		
+
 		"text_xpos"									"10"
 		"text_ypos"									"10"
 		"text_wide"									"170"
 		"text_center"								"1"
-	
+
 		"max_text_height"							"100"
 		"padding_height"							"10"
 		"resize_to_text"							"1"
@@ -297,9 +297,9 @@
 			"inventory_image_type"					"1"
 			"useparentbg"							"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"							"Label"
 			"fieldName"								"ItemLabel"
 			"font"									"Size 10"
@@ -317,7 +317,7 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 		}
-		
+
 		"attriblabel"
 		{
 			"ControlName"							"CExLabel"
@@ -325,7 +325,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"spectator_extras"
 	{
 		"ControlName"								"EditablePanel"
@@ -340,11 +340,11 @@
 		"enabled"									"1"
 	}
 
-	
-	
-	
-	
-	//REMOVED STUFF	
+
+
+
+
+	//REMOVED STUFF
 	"topbar"
 	{
 		"ControlName"								"Panel"
@@ -355,7 +355,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"BottomBar"
 	{
 		"ControlName"								"Frame"
@@ -366,7 +366,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"bottombarblank"
 	{
 		"ControlName"								"Panel"
@@ -377,7 +377,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"

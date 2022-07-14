@@ -1,6 +1,6 @@
-Scheme
+"Scheme"
 {
-	Fonts
+	"Fonts"
 	{
 		"Size:10 | Outline:OFF"
 		{
@@ -212,7 +212,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"Size:10 | Outline:ON"
 		{
 			"1"
@@ -444,7 +444,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		
+
 		"Size:10 | Blur:ON"
 		{
 			"1"
@@ -677,8 +677,8 @@ Scheme
 			}
 		}
 	}
-	
-	CustomFontFiles
+
+	"CustomFontFiles"
 	{
 		"100"
 		{

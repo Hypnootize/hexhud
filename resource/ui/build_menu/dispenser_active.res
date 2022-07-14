@@ -1,8 +1,8 @@
 #base "base_active.res"
 
-"Resource/UI/build_menu/dispenser_active.res"
+"Resource/UI/Build_Menu/Dispenser_Active.res"
 {
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
 		"xpos"										"-5"
 		"ypos"										"-1"
@@ -33,9 +33,9 @@
 	{
 		"visible"									"0"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"labelText"									"2"
 		"visible"									"1"
 	}

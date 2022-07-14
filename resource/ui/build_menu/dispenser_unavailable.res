@@ -1,8 +1,8 @@
 #base "base_unavailable.res"
 
-"Resource/UI/build_menu/dispenser_unavailable.res"
+"Resource/UI/Build_Menu/Dispenser_Unavailable.res"
 {
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
 		"xpos"										"-5"
 		"ypos"										"-1"

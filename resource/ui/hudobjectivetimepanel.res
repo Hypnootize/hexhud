@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveTimePanel.res"
-{	
+{
 	"TimeBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -33,13 +33,13 @@
 		"teambg_1"									"replay/thumbnails/panels/flat_whitedark"
 		"teambg_2"									"replay/thumbnails/panels/flat_red"
 		"teambg_3"									"replay/thumbnails/panels/flat_blue"
-		
+
 		"src_corner_height"							"32"
 		"src_corner_width"							"32"
 		"draw_corner_width"							"0"
 		"draw_corner_height" 						"0"
 	}
-	
+
 	"OvertimeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -86,7 +86,7 @@
 		"fgcolor"									"OffWhite"
 		"bgcolor_override"							"Background"
 	}
-	
+
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"								"CExLabel"

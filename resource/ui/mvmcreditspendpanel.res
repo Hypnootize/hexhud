@@ -1,5 +1,5 @@
 "Resource/UI/MvMCreditSpendPanel.res"
-{	
+{
 	"HeaderLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -18,7 +18,7 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"45 45 55 235"
 	}
-	
+
 	"TableBackground"
 	{
 		"ControlName"								"EditablePanel"
@@ -32,7 +32,7 @@
 		"proportionaltoparent"						"1"
 		"bgcolor_override"							"TransparentBackground"
 	}
-	
+
 	"UpgradesLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -47,10 +47,10 @@
 		"AllCaps"									"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
-		
+
 		"pin_to_sibling"							"TableBackground"
 	}
-	
+
 	"UpgradesCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -64,12 +64,12 @@
 		"tall"										"10"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
-		
+
 		"pin_to_sibling"							"UpgradesLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -84,12 +84,12 @@
 		"AllCaps"									"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
-		
+
 		"pin_to_sibling"							"UpgradesLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	
+
 	"BuyBackCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -103,12 +103,12 @@
 		"tall"										"10"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
-		
+
 		"pin_to_sibling"							"BuyBackLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"BottleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -123,12 +123,12 @@
 		"AllCaps"									"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
-		
+
 		"pin_to_sibling"							"BuyBackLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	
+
 	"BottleCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -142,7 +142,7 @@
 		"tall"										"10"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
-		
+
 		"pin_to_sibling"							"BottleLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"

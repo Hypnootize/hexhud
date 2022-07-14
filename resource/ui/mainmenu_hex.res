@@ -10,14 +10,14 @@
 		"zpos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		
+
 		"update_url"								"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"									"http://www.teamfortress.com/"
-		
+
 		"button_x_offset"							"-241"
 		"button_y"									"190"
 		"button_y_delta"							"3"
-		
+
 		"button_kv"
 		{
 			"xpos"									"0"
@@ -47,49 +47,49 @@
 				"brighttext"						"0"
 				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
-				
+
 				"paintbackground"					"1"
 				"paintborder"						"0"
-				
+
 				"defaultFgColor_override" 			"WhiteDark"
 				"armedFgColor_override" 			"White"
 				"depressedFgColor_override" 		"White"
-			}		
+			}
 		}
-		
+
 		"SaxxySettings"
 		{
 			"xpos"									"0"
 			"ypos"									"0"
-			"zpos"									"-101"		
+			"zpos"									"-101"
 			"wide"									"f0"
 			"tall"									"480"
-			
+
 			"autoResize"							"0"
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			
+
 			"flashbounds_x"							"50"
 			"flashbounds_y"							"65"
 			"flashbounds_w"							"250"
 			"flashbounds_h"							"120"
-			
+
 			"flashstartsize_min"					"8"
 			"flashstartsize_max"					"12"
-			
+
 			"flash_maxscale"						"4"
-			
+
 			"flash_lifelength_min"					".1"
 			"flash_lifelength_max"					".2"
-			
+
 			"curtain_anim_duration"					"4.0"
 			"curtain_open_time"						"2.8"
 			"flash_start_time"						"4.0"
-			
+
 			"initial_freakout_duration"				"15.0"
 			"clap_sound_duration"					"10.0"
-			
+
 			"CameraFlashSettings"
 			{
 				"visible"							"1"
@@ -148,7 +148,7 @@
 		"pin_to_sibling" 							"Items"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
-		
+
 		"BaseImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -160,7 +160,7 @@
 			"tall"									"150"
 			"visible"								"1"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/servers"
 		}
@@ -181,7 +181,7 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -205,14 +205,14 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
-			
+
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
 
@@ -249,7 +249,7 @@
 		"pin_to_sibling" 							"Store"
 		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
-		
+
 		"BaseImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -261,7 +261,7 @@
 			"tall"									"150"
 			"visible"								"1"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/items"
 		}
@@ -282,7 +282,7 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -306,14 +306,14 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
-			
+
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
 
@@ -347,7 +347,7 @@
 		"visible"									"0"
 		"PaintBackgroundType"						"0"
 		"proportionaltoparent"						"1"
-		
+
 		"BaseImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -359,7 +359,7 @@
 			"tall"									"150"
 			"visible"								"1"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/store"
 		}
@@ -380,7 +380,7 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -404,14 +404,14 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
-			
+
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
 
@@ -448,7 +448,7 @@
 		"pin_to_sibling" 							"Store"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"BaseImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -460,7 +460,7 @@
 			"tall"									"150"
 			"visible"								"1"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/settings"
 		}
@@ -481,7 +481,7 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -505,14 +505,14 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
-			
+
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
 
@@ -549,7 +549,7 @@
 		"pin_to_sibling" 							"Settings"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"BaseImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -561,7 +561,7 @@
 			"tall"									"150"
 			"visible"								"1"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/quit"
 		}
@@ -582,7 +582,7 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -606,14 +606,14 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
-			
+
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
 
@@ -650,7 +650,7 @@
 		"pin_to_sibling" 							"Settings"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"BaseImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -662,7 +662,7 @@
 			"tall"									"150"
 			"visible"								"1"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/quit"
 		}
@@ -683,7 +683,7 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -707,14 +707,14 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
-			
+
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
 
@@ -735,7 +735,7 @@
 			}
 		}
 	}
-	
+
 	"Streams"
 	{
 		"ControlName"								"EditablePanel"
@@ -746,7 +746,7 @@
 		"wide"										"20"
 		"tall"										"20"
 		"proportionaltoparent"						"1"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -765,7 +765,7 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -776,7 +776,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -797,7 +797,7 @@
 		"pin_to_sibling" 							"Streams"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -816,7 +816,7 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -827,7 +827,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -848,7 +848,7 @@
 		"pin_to_sibling" 							"Contracker"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -867,7 +867,7 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -878,7 +878,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -899,7 +899,7 @@
 		"pin_to_sibling" 							"Create"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -918,7 +918,7 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -929,7 +929,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -950,7 +950,7 @@
 		"pin_to_sibling" 							"Advanced"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -969,7 +969,7 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -980,7 +980,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1001,7 +1001,7 @@
 		"pin_to_sibling" 							"Achievements"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1020,7 +1020,7 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -1031,7 +1031,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1052,7 +1052,7 @@
 		"pin_to_sibling" 							"Workshop"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1071,7 +1071,7 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -1082,7 +1082,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1103,7 +1103,7 @@
 		"pin_to_sibling" 							"Replays"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1122,7 +1122,7 @@
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -1133,7 +1133,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1154,7 +1154,7 @@
 		"pin_to_sibling" 							"Console"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1174,7 +1174,7 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -1185,7 +1185,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1206,7 +1206,7 @@
 		"pin_to_sibling" 							"Vote"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1226,7 +1226,7 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -1237,7 +1237,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1258,7 +1258,7 @@
 		"pin_to_sibling" 							"Mute"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1278,7 +1278,7 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -1289,7 +1289,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1310,7 +1310,7 @@
 		"pin_to_sibling" 							"Report"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-		
+
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1330,7 +1330,7 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
@@ -1341,7 +1341,7 @@
 			"defaultBgColor_override" 				"Button"
 			"armedBgColor_override" 				"Button_Hover"
 			"depressedBgColor_override" 			"Button_Hover"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1458,7 +1458,7 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -1474,7 +1474,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"BgColor_override" 							"GrayBlueDark"
-		
+
 		"Notifications_CountLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1497,7 +1497,7 @@
 			"mouseinputenabled"						"0"
 			"proportionaltoparent" 					"1"
 		}
-		
+
 		"Notifications_ShowButtonPanel_SB"
 		{
 			"ControlName"							"CExImageButton"
@@ -1526,10 +1526,10 @@
 			"proportionaltoparent" 					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			
+
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
@@ -1556,7 +1556,7 @@
 		"pin_to_sibling" 							"Notifications_ShowButtonPanel"
 		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
-		
+
 		"Notifications_CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1586,12 +1586,12 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"0"
-			
+
 			"defaultFgColor_override" 				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
 			"depressedFgColor_override" 			"WhiteSolid"
-		}		
-	
+		}
+
 		"Notifications_TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1610,7 +1610,7 @@
 			"fgcolor"								"WhiteDark"
 			"wrap"									"1"
 		}
-		
+
 		"Notifications_Scroller"
 		{
 			"ControlName"							"ScrollableEditablePanel"
@@ -1621,7 +1621,7 @@
 			"tall"									"135"
 			"PaintBackgroundType"					"0"
 			"fgcolor_override"						"WhiteDark"
-			
+
 			"Notifications_Control"
 			{
 				"ControlName"						"CMainMenuNotificationsControl"
@@ -1650,7 +1650,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDark"
 		"border"									"BottomLineWhite"
-		
+
 		"TipSubLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1668,7 +1668,7 @@
 			"fgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1708,7 +1708,7 @@
 		"textAlignment"								"center"
 		"use_proportional_insets"					"1"
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -1723,13 +1723,13 @@
 		"bgcolor_override"							"0 0 0 50"
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"Light 10"

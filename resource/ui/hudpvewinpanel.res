@@ -1,4 +1,4 @@
-"Resource/UI/hudpvewinpanel.res"
+"Resource/UI/HudPVEWinPanel.res"
 {
 	"WinPanelBG"
 	{
@@ -26,9 +26,9 @@
 		"tall"										"25"
 		"visible"									"1"
 		"PaintBackgroundType" 						"0"
-		
+
 		"WinningTeamLabelDropshadow"
-		{	
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WinningTeamLabelDropshadow"
 			"font"									"Light 16 Blur"
@@ -45,15 +45,15 @@
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"proportionaltoparent"					"1"
-			
+
 			// blue Background
 			"PaintBackgroundType" 					"0"
-			"fgcolor_override"						"Shadow"		
+			"fgcolor_override"						"Shadow"
 			"bgcolor_override"						"Red"
 		}
-		
+
 		"WinningTeamLabel"
-		{	
+		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WinningTeamLabel"
 			"font"									"Light 16"
@@ -70,9 +70,9 @@
 			"pin_to_sibling" 						"WaveCompleteLabelShadow"
 		}
 	}
-	
+
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WinReasonLabel"
 		"font"										"Light 12"
@@ -140,7 +140,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"PaintBackgroundType" 						"2"
-	
+
 		"RespecTextLabelLoss"
 		{
 			"ControlName"							"CExLabel"
@@ -156,7 +156,7 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White"
 		}
-		
+
 		"RespecCountLabel"
 		{
 			"ControlName"							"CExLabel"

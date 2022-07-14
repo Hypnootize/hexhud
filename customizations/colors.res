@@ -1,6 +1,6 @@
-Scheme
+"Scheme"
 {
-	Colors
+	"Colors"
 	{
 		//=============================================================================
 		// INGAME COLORS
@@ -11,12 +11,12 @@ Scheme
 		"Crosshair Shadow"									"0 0 0 255"
 		"HitMarker"											"255 0 0 255"
 
-		
+
 		"Health Numbers"									"230 235 240 255"
 
 		"Health Buff"										"22 162 134 255"
 		"Health Hurt"										"250 100 100 255"
-		
+
 		"Health Target Buff"								"22 162 134 255"
 		"Health Target Hurt"								"250 100 100 255"
 
@@ -26,10 +26,10 @@ Scheme
 		"Health Killer Buff"								"22 162 134 255"
 		"Health Killer Hurt"								"250 100 100 255"
 
-		
+
 		"Shadow"											"0 0 0 175"
 
-		
+
 		"Ammo In Clip"										"230 235 240 255"
 		"Ammo In Reserve"									"230 235 240 255"
 		"Ammo No Clip"										"230 235 240 255"
@@ -64,7 +64,7 @@ Scheme
 		"Yellow"											"228 186 78 255"
 
 		"Orange"											"243 155 83 255"
-		
+
 		"Background Light"									"59 61 72 255"
 		"Background"										"45 45 55 255"
 		"Background Dark"									"25 25 35 255"
@@ -114,15 +114,15 @@ Scheme
 		//=============================================================================
 		// ITEM QUALITY COLORS
 		//=============================================================================
-		
+
 		//-----------------------------------------------------------------------------
 		// LABEL COLORS
 		//-----------------------------------------------------------------------------
 
 		"QualityColorNormal"								"178 178 178 255"		// Empty
 		"QualityColorrarity1"								"77 116 85 255"			// Genuine
-		"QualityColorrarity2"								"141 131 75 255"		// 
-		"QualityColorrarity3"								"204 204 250 255"		// 
+		"QualityColorrarity2"								"141 131 75 255"		//
+		"QualityColorrarity3"								"204 204 250 255"		//
 		"QualityColorrarity4"								"134 80 172 255"		// Unusual
 		"QualityColorVintage"								"71 98 145 255"			// Vintage
 		"QualityColorUnique"								"255 215 0 255"			// Unique
@@ -147,11 +147,11 @@ Scheme
 		//-----------------------------------------------------------------------------
 		// LABEL COLORS MOUSE HOVER
 		//-----------------------------------------------------------------------------
-		
+
 		"QualityColorNormal_GreyedOut"						"44 44 44 255"			// Empty
 		"QualityColorrarity1_GreyedOut"						"20 29 21 255"			// Genuine
-		"QualityColorrarity2_GreyedOut"						"35 33 19 255"			// 
-		"QualityColorrarity3_GreyedOut"						"51 51 62 255"			// 
+		"QualityColorrarity2_GreyedOut"						"35 33 19 255"			//
+		"QualityColorrarity3_GreyedOut"						"51 51 62 255"			//
 		"QualityColorrarity4_GreyedOut"						"36 20 43 255"			// Unusual
 		"QualityColorVintage_GreyedOut"						"18 25 36 255"			// Vintage
 		"QualityColorUnique_GreyedOut"						"64 54 0 255"			// Unique
@@ -199,7 +199,7 @@ Scheme
 		"CommandoGrade"										"136 71 255 255"
 		"AssassinGrade"										"211 44 230 255"
 		"EliteGrade"										"235 75 75 255"
-		
+
 		//-----------------------------------------------------------------------------
 		// BACKGROUND COLORS MOUSE HOVER
 		//-----------------------------------------------------------------------------

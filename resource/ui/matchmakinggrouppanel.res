@@ -2,7 +2,7 @@
 {
 	"MatchmakingGroupPanel"
 	{
-		"fieldName"									"ScrollableImageListEntry"
+		"fieldName"									"MatchmakingGroupPanel"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -39,10 +39,10 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"smallcheckimage"							"1"
-		"fgcolor"									"WhiteDark"	
+		"fgcolor"									"WhiteDark"
 		"font"										"Light 14"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"button_activation_type"					"1"
-	}	
+	}
 }

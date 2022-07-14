@@ -1,4 +1,4 @@
-"Resource/UI/replaybrowser/cutspanel.res"
+"Resource/UI/ReplayBrowser/CutsPanel.res"
 {
 	"CutsPanel"
 	{
@@ -7,7 +7,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
-		
+
 		"cut_button_width"							"70"
 		"cut_button_height"							"53"
 		"cut_button_buffer"							"3"
@@ -16,16 +16,16 @@
 		"top_margin_height"							"5"
 		"button_start_y"							"18"
 		"name_label_top_margin"						"5"
-		
+
 		"button_settings"
 		{
 			"paintbackground"						"1"
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"255 255 255 255"
 			"image_selectedcolor"					"255 255 255 255"
-			
+
 			"sound_depressed"						"UI/buttonclick.wav"
-		
+
 			"SubImage"
 			{
 				"ControlName"						"ImagePanel"
@@ -34,8 +34,8 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-			}				
-			
+			}
+
 			"addtorenderqueuebutton_settings"
 			{
 				"xpos"								"4"
@@ -48,7 +48,7 @@
 			}
 		}
 	}
-	
+
 	"VerticalLine"
 	{
 		"ControlName"								"EditablePanel"
@@ -57,7 +57,7 @@
 		"PaintBackground"							"1"
 		"bgcolor_override" 							"WhiteDark"
 	}
-	
+
 	"NoCutsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -72,7 +72,7 @@
 		"centerwrap"								"1"
 		"fgcolor"									"WhiteDark"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"								"CExButton"
@@ -87,14 +87,14 @@
 		"brighttext"								"0"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override" 				"FullWhite"
 	}
-	
+
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
@@ -107,14 +107,14 @@
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override" 				"FullWhite"
 	}
-	
+
 	"OriginalLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -128,7 +128,7 @@
 		"tall"										"10"
 		"labelText"									"#Replay_Original"
 	}
-	
+
 	"CutsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -142,7 +142,7 @@
 		"tall"										"10"
 		"labelText"									"#Replay_Performances"
 	}
-	
+
 	"NameLabel"
 	{
 		"ControlName"								"CExLabel"

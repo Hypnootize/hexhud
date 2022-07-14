@@ -14,14 +14,14 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 		"proportionaltoparent"						"1"
-		
-		if_comp
+
+		"if_comp"
 		{
 			"xpos"									"cs-0.5"
 			"ypos"									"30"
 		}
 	}
-	
+
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -33,7 +33,7 @@
 		"tall"										"12"
 		"visible"									"0"
 		"enabled"									"1"
-		
+
 		"pin_to_sibling"							"Background"
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
@@ -87,12 +87,12 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background Dark"
-		
+
 		"pin_to_sibling"							"Background"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	
+
 	"StopWatchPointsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -113,7 +113,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background Dark"
-		
+
 		"pin_to_sibling"							"Background"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
@@ -136,16 +136,16 @@
 		"enabled"									"1"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		
+
 		"pin_to_sibling"							"Background"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	//REMOVED STUFF
-	
+
 	"HudStopWatchBG"
 	{
 		"ControlName"								"ImagePanel"

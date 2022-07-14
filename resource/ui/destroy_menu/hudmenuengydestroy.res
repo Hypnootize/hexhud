@@ -1,7 +1,7 @@
-"Resource/UI/build_menu/HudMenuEngyDestroy.res"
+"Resource/UI/Destroy_Menu/HudMenuEngyDestroy.res"
 {
 	"TitleLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"font"										"Light 11"
@@ -25,7 +25,7 @@
 	}
 
 	"CancelLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
 		"font"										"Light 7"
@@ -61,8 +61,8 @@
 		"wide"										"85"
 		"tall"										"35"
 		"visible"									"1"
-	}	
-	
+	}
+
 	"active_item_2"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -73,8 +73,8 @@
 		"wide"										"85"
 		"tall"										"27"
 		"visible"									"1"
-	}	
-	
+	}
+
 	"active_item_3"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -85,8 +85,8 @@
 		"wide"										"85"
 		"tall"										"27"
 		"visible"									"1"
-	}	
-	
+	}
+
 	"active_item_4"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -98,7 +98,7 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-	
+
 	"inactive_item_1"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -109,8 +109,8 @@
 		"wide"										"85"
 		"tall"										"35"
 		"visible"									"1"
-	}	
-	
+	}
+
 	"inactive_item_2"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -121,8 +121,8 @@
 		"wide"										"85"
 		"tall"										"27"
 		"visible"									"1"
-	}	
-	
+	}
+
 	"inactive_item_3"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -133,8 +133,8 @@
 		"wide"										"85"
 		"tall"										"27"
 		"visible"									"1"
-	}	
-	
+	}
+
 	"inactive_item_4"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -145,7 +145,7 @@
 		"wide"										"85"
 		"tall"										"27"
 		"visible"									"1"
-	}	
+	}
 
 	"unavailable_item_1"
 	{
@@ -157,8 +157,8 @@
 		"wide"										"85"
 		"tall"										"35"
 		"visible"									"1"
-	}	
-	
+	}
+
 	"unavailable_item_2"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -169,8 +169,8 @@
 		"wide"										"85"
 		"tall"										"27"
 		"visible"									"1"
-	}	
-	
+	}
+
 	"unavailable_item_3"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -181,8 +181,8 @@
 		"wide"										"85"
 		"tall"										"27"
 		"visible"									"1"
-	}	
-	
+	}
+
 	"unavailable_item_4"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -194,20 +194,20 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	//REMOVED STUFF
-	
-	"MainBackground"	
+
+	"MainBackground"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MainBackground"
 		"xpos"										"9999"
 	}
-	"DestroyIcon"	
+	"DestroyIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"DestroyIcon"
@@ -220,7 +220,7 @@
 		"xpos"										"9999"
 	}
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabelDropshadow"
 		"xpos"										"9999"
