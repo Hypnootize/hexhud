@@ -6,11 +6,11 @@
 		"fieldName"									"NextMapVoting"
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
-		"zpos"										"10000"
+		"zpos"										"9999"
 		"wide"										"260"
 		"tall"										"80"
 		"visible"									"1"
-		"proportionaltoparent"						"1"
+		"proportionaltoparent"						"0"
 		"keyboardinputenabled"						"0"
 		"mouseinputenabled"							"1"
 
@@ -80,10 +80,10 @@
 				"Command"							"toggle_hide"
 				"proportionaltoparent"				"1"
 				"actionsignallevel"					"2"
-			
+
 				"paintbackground"					"0"
 
-				"image_default"						"glyph_collapse"						
+				"image_default"						"glyph_collapse"
 
 				"image_drawcolor"					"155 160 165 255"
 				"image_armedcolor"					"255 255 255 255"
@@ -102,7 +102,7 @@
 					"image"							"glyph_store"
 					"scaleImage"					"1"
 					"proportionaltoparent" 			"1"
-				}				
+				}
 			} // HideButton
 
 			"ShowButton"
@@ -130,10 +130,10 @@
 				"Command"							"toggle_hide"
 				"proportionaltoparent" 				"1"
 				"actionsignallevel"					"2"
-			
+
 				"paintbackground"					"0"
 
-				"image_default"						"glyph_expand"						
+				"image_default"						"glyph_expand"
 
 				"image_drawcolor"					"155 160 165 255"
 				"image_armedcolor"					"255 255 255 255"
@@ -152,7 +152,7 @@
 					"image"							"glyph_store"
 					"scaleImage"					"1"
 					"proportionaltoparent" 			"1"
-				}				
+				}
 			} // HideButton
 
 

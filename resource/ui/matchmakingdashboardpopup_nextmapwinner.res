@@ -6,11 +6,11 @@
 		"fieldName"									"NextMapWinner"
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
-		"zpos"										"10000"
+		"zpos"										"9999"
 		"wide"										"260"
 		"tall"										"80"
 		"visible"									"1"
-		"proportionaltoparent"						"1"
+		"proportionaltoparent"						"0"
 		"keyboardinputenabled"						"0"
 		"mouseinputenabled"							"1"
 
@@ -83,7 +83,7 @@
 				"wide"								"50"
 				"tall"								"o0.75"
 				"zpos"								"1"
-				"proportionaltoparent"				"1"	
+				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 
 				"MapImage"
@@ -96,7 +96,7 @@
 					"tall"							"o1"
 					"zpos"							"0"
 					"image"							"..\vgui\maps\menu_thumb_pl_goldrush"
-					"proportionaltoparent"			"1"	
+					"proportionaltoparent"			"1"
 					"mouseinputenabled"				"0"
 				}
 			}

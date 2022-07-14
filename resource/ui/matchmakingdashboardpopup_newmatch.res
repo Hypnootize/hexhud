@@ -6,11 +6,11 @@
 		"fieldName"									"NewMatchFound"
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
-		"zpos"										"10000"
+		"zpos"										"9999"
 		"wide"										"200"
 		"tall"										"60"
 		"visible"									"1"
-		"proportionaltoparent"						"1"
+		"proportionaltoparent"						"0"
 		"keyboardinputenabled"						"0"
 		"mouseinputenabled"							"1"
 
@@ -61,7 +61,7 @@
 				"proportionaltoparent"				"1"
 				"pinCorner"							"3"
 				"AllCaps"							"1"
-				
+
 				"fonts"
 				{
 					"0"								"Light 11"
@@ -103,7 +103,7 @@
 				"pinCorner"							"3"
 				"visible"							"1"
 
-				if_queued
+				"if_queued"
 				{
 					"visible"						"0"
 				}
@@ -130,7 +130,7 @@
 				"defaultBgColor_override" 			"ButtonRed"
 				"armedBgColor_override" 			"ButtonRed_Hover"
 				"depressedBgColor_override" 		"ButtonRed_Hover"
-				
+
 				"defaultFgColor_override" 			"White"
 				"armedFgColor_override" 			"WhiteSolid"
 				"depressedFgColor_override" 		"WhiteSolid"
@@ -146,12 +146,12 @@
 				"zpos"								"100"
 				"tall"								"15"
 
-				if_expected
+				"if_expected"
 				{
 					"xpos"							"cs-0.5"
 					"wide"							"150"
 				}
-				
+
 				"autoResize"						"0"
 				"pinCorner"							"3"
 				"visible"							"1"
@@ -177,7 +177,7 @@
 				"defaultBgColor_override" 			"ButtonGreen"
 				"armedBgColor_override" 			"ButtonGreen_Hover"
 				"depressedBgColor_override" 		"ButtonGreen_Hover"
-				
+
 				"defaultFgColor_override" 			"White"
 				"armedFgColor_override" 			"WhiteSolid"
 				"depressedFgColor_override" 		"WhiteSolid"
@@ -192,7 +192,7 @@
 				"wide"								"150"
 				"zpos"								"100"
 				"tall"								"15"
-				
+
 				"autoResize"						"0"
 				"pinCorner"							"3"
 				"visible"							"1"
@@ -218,7 +218,7 @@
 				"defaultBgColor_override" 			"ButtonGreen"
 				"armedBgColor_override" 			"ButtonGreen_Hover"
 				"depressedBgColor_override" 		"ButtonGreen_Hover"
-				
+
 				"defaultFgColor_override" 			"White"
 				"armedFgColor_override" 			"WhiteSolid"
 				"depressedFgColor_override" 		"WhiteSolid"
