@@ -1,23 +1,18 @@
-![Logo](https://i.imgur.com/xX2ou3i.png)
+![logo](https://i.imgur.com/4U68WtV.png)
 
-**Hexagon Shaped Team Fortress 2 HUD by Hypnotize**
+<p align="center">
+  <a href="https://huds.tf/site/s-HExHUD--3435"><img src="https://i.imgur.com/WAusE3C.png"></a>
+  <a href="https://www.teamfortress.tv/59727/hexhud"><img src="https://i.imgur.com/xTQ26gp.png"></a>
+  <a href="https://gamebanana.com/mods/298232"><img src="https://i.imgur.com/UzXoexI.png"></a>
+  <a href="https://www.editor.criticalflaw.ca/"><img src="https://i.imgur.com/6JJTzkc.png"></a>
+</p>
 
-## TF2 EDITOR
-Install and easily customize the HUD directly from the [HUD Editor](https://www.editor.criticalflaw.ca) by CriticalFlaw!
+##
 
-## LINKS
-[Screenshots](https://imgur.com/a/ENQcIqO)
+<a href="https://imgur.com/a/ENQcIqO"><img src="https://i.imgur.com/QYET2Xn.png"></a>
 
-[HUDS.TF](https://huds.tf/site/s-HExHUD--3435)
+<a href="https://github.com/Hypnootize/hexhud/wiki"><img src="https://i.imgur.com/1oLfURy.png"></a>
 
-[Gamebanana](https://gamebanana.com/mods/298232)
+<a href="https://github.com/Hypnootize/hexhud/wiki/Customization"><img src="https://i.imgur.com/UOjsYoR.png"></a>
 
-[TeamfortressTV](https://www.teamfortress.tv/59727/hexhud)
-
-[HUD Wiki](https://github.com/Hypnootize/hexhud/wiki)
-
-[HUD Installation](https://github.com/Hypnootize/hexhud/wiki/Installation)
-
-[HUD Customization](https://github.com/Hypnootize/hexhud/wiki/Customization)
-
-[Credits](https://github.com/Hypnootize/hexhud/wiki/Credits)
+<a href="https://github.com/Hypnootize/hexhud/wiki/Credits"><img src="https://i.imgur.com/hQYCb0h.png"></a>
