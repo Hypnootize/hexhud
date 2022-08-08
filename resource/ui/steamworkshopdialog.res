@@ -562,6 +562,7 @@
 			"labelText"								"LOAD TEST MAP"
 			"font"									"Light 14"
 			"textAlignment"							"center"
+			"Command"								"itemtest"
 			"AllCaps"								"0"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
