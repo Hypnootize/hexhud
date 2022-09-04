@@ -50,8 +50,6 @@
 		"labelText"									"#TF_Object_Sentry"
 		"textAlignment"								"Center"
 		"centerwrap"								"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"OffWhite"
 	}
@@ -71,8 +69,6 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"bgcolor_override"							"Background"

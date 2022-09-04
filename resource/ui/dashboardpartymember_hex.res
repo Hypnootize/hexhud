@@ -147,8 +147,6 @@
 		"enabled"									"1"
 		"font"										""
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"interact"
 		"proportionaltoparent"						"1"
 		"labeltext"									""

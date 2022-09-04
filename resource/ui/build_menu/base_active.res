@@ -142,8 +142,6 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"WhiteDark"
 	}
@@ -165,8 +163,6 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"

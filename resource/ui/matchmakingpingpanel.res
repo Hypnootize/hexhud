@@ -35,7 +35,7 @@
 
 	"Title"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
 		"xpos"										"cs-0.5"
 		"ypos"										"20"
@@ -47,14 +47,14 @@
 		"AllCaps"									"1"
 		"textAlignment"								"center"
 		"font"										"Light 22"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 
 		"mouseinputenabled"							"0"
 	}
 
 	"InviteModeLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"InviteModeLabel"
 		"xpos"										"cs-0.5"
 		"ypos"										"50"
@@ -178,7 +178,7 @@
 	}
 	"KeepPartyOnSameTeamLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"KeepPartyOnSameTeamLabel"
 		"xpos"										"-19"
 		"ypos"										"0"
@@ -194,7 +194,7 @@
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"button_activation_type"					"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 
 		"pin_to_sibling" 							"KeepPartyOnSameTeam"
 	}
@@ -243,7 +243,7 @@
 	}
 	"CheckLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"CheckLabel"
 		"xpos"										"-19"
 		"ypos"										"0"
@@ -255,7 +255,7 @@
 		"textAlignment"								"west"
 		"font"										"Light 11"
 		"smallcheckimage"							"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"button_activation_type"					"1"
@@ -282,7 +282,7 @@
 
 	"CurrentPingLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"CurrentPingLabel"
 		"xpos"										"0"
 		"ypos"										"5"
@@ -294,7 +294,7 @@
 		"textAlignment"								"center"
 		"font"										"Light 11"
 		"AllCaps"									"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"paintbackground"							"1"
 		"bgcolor_override"							"BlackBlue"
 		"mouseinputenabled"							"0"
@@ -317,7 +317,6 @@
 		"RoundedCorners"							"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"bgcolor_override"							"BlackBlue"
@@ -360,7 +359,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"proportionaltoparent"						"1"
 
 		"DataCenterList"

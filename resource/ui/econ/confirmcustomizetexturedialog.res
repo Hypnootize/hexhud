@@ -29,7 +29,6 @@
 //		"pinCorner"									"0"
 //		"visible"									"1"
 //		"enabled"									"1"
-//		"tabPosition"								"0"
 //		"PaintBackgroundType"						"0"
 //		"paintbackground"							"1"
 //		"border"									"QuickplayBorder"
@@ -147,7 +146,7 @@
 			"tall"									"60"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
 

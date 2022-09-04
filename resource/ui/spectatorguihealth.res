@@ -36,7 +36,7 @@
 		"labeltext"									"%Health%"
 		"font"										"Bold 14"
 		"font_minmode"								"Light 12"
-		"fgcolor_override"  						"Health Numbers"
+		"fgcolor"		  							"Health Numbers"
 		"proportionaltoparent"						"1"
 	}
 	"Health_Target_Shadow"
@@ -55,7 +55,7 @@
 		"labeltext"									"%Health%"
 		"font"										"Bold 14 Blur"
 		"font_minmode"								"Light 12 Blur"
-		"fgcolor_override"  						"Shadow"
+		"fgcolor"		  							"Shadow"
 		"proportionaltoparent"						"1"
 
 		"pin_to_sibling"							"Health_Target"

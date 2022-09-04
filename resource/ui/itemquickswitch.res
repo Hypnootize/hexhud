@@ -10,7 +10,6 @@
 		"tall"										"220"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"proportionaltoparent"						"1"
 
@@ -78,7 +77,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"pin_to_sibling" 							"ItemSlotLabelBG"
 	}
 
@@ -170,7 +169,6 @@
 		"tall"										"110"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"paintbackground"							"0"
 		"proportionaltoparent"						"1"
 	}

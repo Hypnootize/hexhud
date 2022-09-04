@@ -50,7 +50,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"AvatarTextLabel"
 		"fgcolor"									"White"
-		"fgcolor_override" 							"White"
+		"fgcolor"		 							"White"
 		"xpos"										"45"
 		"ypos"										"7"
 		"zpos"										"2"
@@ -71,12 +71,12 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"TextLabel"
 		"fgcolor"									"White"
-		"fgcolor_override" 							"White"
+		"fgcolor"		 							"White"
 
 		"if_high_priority"
 		{
 			"fgcolor"								"White"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"font"									"Light 10"
 		}
 

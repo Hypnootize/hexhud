@@ -12,7 +12,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
 
 	"BackgroundCustom"
@@ -101,8 +100,6 @@
 			"labelText"								"#Building_hud_sentry_not_built"
 			"textAlignment"							"center"
 			"fgcolor"								"WhiteDark"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
@@ -153,7 +150,6 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"TargetHealth"
-				"font"								"Default"
 				"xpos"								"26"
 				"ypos"								"cs-0.5+1"
 				"wide"								"20"
@@ -162,9 +158,6 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"Left"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"bgcolor_override"					"WhiteDark"
 				"proportionaltoparent"				"1"
 			}

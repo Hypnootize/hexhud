@@ -27,22 +27,18 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_KART"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"font"										"Light 7"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 	}
 
 	"ItemEffectMeter"
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
-		"font"										"Default"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1-8"
 		"zpos"										"2"
@@ -53,8 +49,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
 
@@ -70,11 +64,8 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"font"										"Light 12"
 	}

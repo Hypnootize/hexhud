@@ -16,7 +16,7 @@
 
 	"AchievementName"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"AchievementName"
 		"labeltext"									""
 		"xpos"										"5"
@@ -27,11 +27,11 @@
 		"textinsetx"								"5"
 		"font"										"Light 8"
 		"textAlignment"								"north-west"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 	}
 	"AchievementNameGlow"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"AchievementNameGlow"
 		"labeltext"									""
 		"xpos"										"5"
@@ -39,7 +39,7 @@
 		"wide"										"270"
 		"tall"										"10"
 		"zpos"										"4"
-		"fgcolor_override"							"Blue"
+		"fgcolor"									"Blue"
 		"font"										"Light 8 Blur"
 		"textinsetx"								"5"
 		"textAlignment"								"north-west"
@@ -47,7 +47,7 @@
 
 	"AchievementDesc"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"AchievementDesc"
 		"labeltext"									""
 		"xpos"										"5"
@@ -56,7 +56,7 @@
 		"tall"										"18"
 		"zpos"										"4"
 		"textinsetx"								"5"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"font"										"Light 7"
 		"wrap"										"1"
 		"TextAlignment"								"north-west"

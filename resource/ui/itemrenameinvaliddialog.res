@@ -230,7 +230,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override" 							"RedDark"
+		"fgcolor"		 							"RedDark"
 	}
 
 	"GivenName"
@@ -251,7 +251,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"WarningLabel"
@@ -272,7 +272,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override" 							"RedDark"
+		"fgcolor"		 							"RedDark"
 	}
 
 	"BackFromInvalidButton"
@@ -288,12 +288,9 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_OK"
 		"font"										"Light 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"AllCaps"									"1"
 		"Command"									"backfrominvalid"

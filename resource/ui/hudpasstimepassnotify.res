@@ -43,7 +43,7 @@
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimeInPassRange"
-			"fgcolor_override" 						"White"
+			"fgcolor" 								"White"
 			"proportionaltoparent"					"1"
 		}
 
@@ -62,7 +62,7 @@
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimeLockedOn"
-			"fgcolor_override" 						"White"
+			"fgcolor" 								"White"
 			"proportionaltoparent"					"1"
 		}
 
@@ -81,7 +81,7 @@
 			"centerwrap"							"1"
 			"textAlignment" 						"center"
 			"labelText" 							"#Msg_PasstimePassIncoming"
-			"fgcolor_override" 						"White"
+			"fgcolor" 								"White"
 			"proportionaltoparent"					"1"
 		}
 
@@ -101,7 +101,7 @@
 			"wrap" 									"0"
 			"textAlignment" 						"center"
 			"labelText" 							"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
-			"fgcolor_override"						"Green"
+			"fgcolor"								"Green"
 			"proportionaltoparent"					"1"
 		}
 	}

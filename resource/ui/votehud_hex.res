@@ -30,7 +30,7 @@
 
 		"PassedTitle"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"PassedTitle"
 			"xpos"									"32"
 			"ypos"									"10"
@@ -40,17 +40,15 @@
 			"enabled"								"1"
 			"labelText"								"#GameUI_vote_passed"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 10"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor_override"						"Green"
+			"fgcolor"								"Green"
 		}
 
 		"PassedResult"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"PassedResult"
 			"xpos"									"10"
 			"ypos"									"29"
@@ -60,11 +58,9 @@
 			"enabled"								"1"
 			"labelText"								"%passedresult%"
 			"textAlignment"							"north-west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 8"
 			"wrap"									"1"
-			"fgcolor_override"						"OffWhite"
+			"fgcolor"								"OffWhite"
 			"noshortcutsyntax" 						"1"
 		}
 	}
@@ -85,7 +81,7 @@
 
 		"Header"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"Header"
 			"xpos"									"10"
 			"ypos"									"5"
@@ -95,16 +91,14 @@
 			"enabled"								"1"
 			"labelText"								"%header%"
 			"textAlignment"							"north-west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 8"
 			"wrap"									"1"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"Issue"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"Issue"
 			"xpos"									"10"
 			"ypos"									"22"
@@ -114,10 +108,8 @@
 			"enabled"								"1"
 			"labelText"								"%voteissue%"
 			"textAlignment"							"north-west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 10"
-			"fgcolor_override"						"OffWhite"
+			"fgcolor"								"OffWhite"
 			"wrap"									"1"
 			"noshortcutsyntax"						"1"
 		}
@@ -154,7 +146,7 @@
 
 		"LabelOption1"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"LabelOption1"
 			"xpos"									"10"
 			"ypos"									"57"
@@ -165,10 +157,8 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 8"
-			"fgcolor_override"						"OffWhite"
+			"fgcolor"								"OffWhite"
 		}
 
 		"Option1Background_Selected"
@@ -186,7 +176,7 @@
 
 		"Option1CountLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"Option1CountLabel"
 			"xpos"									"28"
 			"ypos"									"113"
@@ -197,15 +187,13 @@
 			"enabled"								"1"
 			"labelText"								"Yes"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 10"
-			"fgcolor_override"						"OffWhite"
+			"fgcolor"								"OffWhite"
 		}
 
 		"LabelOption2"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"LabelOption2"
 			"xpos"									"10"
 			"ypos"									"73"
@@ -216,10 +204,8 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 8"
-			"fgcolor_override"						"OffWhite"
+			"fgcolor"								"OffWhite"
 		}
 
 		"Option2Background_Selected"
@@ -237,7 +223,7 @@
 
 		"Option2CountLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"Option2CountLabel"
 			"xpos"									"74"
 			"ypos"									"113"
@@ -248,15 +234,13 @@
 			"enabled"								"1"
 			"labelText"								"No"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 10"
-			"fgcolor_override"						"OffWhite"
+			"fgcolor"								"OffWhite"
 		}
 
 		"LabelOption3"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"LabelOption3"
 			"xpos"									"10"
 			"ypos"									"89"
@@ -267,10 +251,8 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 8"
-			"fgcolor_override"						"OffWhite"
+			"fgcolor"								"OffWhite"
 		}
 
 		"Option3Background_Selected"
@@ -288,7 +270,7 @@
 
 		"LabelOption4"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"LabelOption4"
 			"xpos"									"10"
 			"ypos"									"105"
@@ -299,10 +281,8 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 8"
-			"fgcolor_override"						"OffWhite"
+			"fgcolor"								"OffWhite"
 		}
 
 		"Option4Background_Selected"
@@ -320,7 +300,7 @@
 
 		"LabelOption5"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"LabelOption5"
 			"xpos"									"10"
 			"ypos"									"121"
@@ -331,10 +311,8 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 8"
-			"fgcolor_override"						"OffWhite"
+			"fgcolor"								"OffWhite"
 		}
 
 		"Option5Background_Selected"
@@ -365,7 +343,7 @@
 
 		"VoteCountLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"VoteCountLabel"
 			"xpos"									"10"
 			"ypos"									"100"
@@ -375,10 +353,8 @@
 			"enabled"								"1"
 			"labelText"								"#GameUI_vote_current_vote_count"
 			"textAlignment"							"north-west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 8"
-			"fgcolor_override"						"OffWhite"
+			"fgcolor"								"OffWhite"
 		}
 
 		// vote bar
@@ -432,7 +408,7 @@
 
 		"FailedTitle"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"FailedTitle"
 			"xpos"									"32"
 			"ypos"									"10"
@@ -442,17 +418,15 @@
 			"enabled"								"1"
 			"labelText"								"#GameUI_vote_failed"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 10"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor_override"						"Red"
+			"fgcolor"								"Red"
 		}
 
 		"FailedReason"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"FailedReason"
 			"xpos"									"10"
 			"ypos"									"29"
@@ -462,11 +436,9 @@
 			"enabled"								"1"
 			"labelText"								"%FailedReason%"
 			"textAlignment"							"north-west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 8"
 			"wrap"									"1"
-			"fgcolor_override"						"OffWhite"
+			"fgcolor"								"OffWhite"
 		}
 	}
 
@@ -501,7 +473,7 @@
 
 		"FailedTitle"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"FailedTitle"
 			"xpos"									"32"
 			"ypos"									"10"
@@ -511,17 +483,15 @@
 			"enabled"								"1"
 			"labelText"								"#GameUI_vote_failed"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 10"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor_override"						"Red"
+			"fgcolor"								"Red"
 		}
 
 		"FailedReason"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"FailedReason"
 			"xpos"									"10"
 			"ypos"									"29"
@@ -531,11 +501,9 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"north-west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"font"									"Light 8"
 			"wrap"									"1"
-			"fgcolor_override"						"OffWhite"
+			"fgcolor"								"OffWhite"
 		}
 	}
 
@@ -549,7 +517,6 @@
 		"tall"										"310"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"proportionaltoparent"						"1"
 		"paintborder"								"1"
@@ -665,7 +632,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"1"
 			"textHidden"							"0"
 			"editable"								"0"
 			"maxchars"								"-1"
@@ -703,8 +669,6 @@
 			"enabled"								"0"
 			"labelText"								"#TF_call_vote"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"CallVote"
 			"Default"								"0"
 			"proportionaltoparent"					"1"
@@ -735,8 +699,6 @@
 			"enabled"								"1"
 			"labelText"								"-"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"Command"								"Close"
 			"Default"								"0"
 			"proportionaltoparent"					"1"

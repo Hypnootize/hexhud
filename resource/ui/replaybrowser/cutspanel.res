@@ -83,8 +83,6 @@
 		"labelText"									"<"
 		"font"										"Symbols 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 

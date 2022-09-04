@@ -64,8 +64,6 @@
 		"labelText"									"#TF_Class_Name_Scout"
 		"textAlignment"								"west"
 		"textinsetx"								"8"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 
@@ -115,8 +113,6 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 
 		"paintbackground"							"1"
@@ -143,8 +139,6 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 
 		"paintbackground"							"1"

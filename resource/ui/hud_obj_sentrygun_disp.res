@@ -12,7 +12,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
 
 	"Icon_Sentry_1"
@@ -218,7 +217,6 @@
 		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
-			"font"									"Default"
 			"xpos"									"rs1-2"
 			"ypos"									"cs-0.5"
 			"zpos"									"10"
@@ -228,9 +226,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"Left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 		}
 
@@ -278,8 +273,6 @@
 				"enabled"							"1"
 				"labelText"							"Kills:"
 				"textAlignment"						"west"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"fgcolor"							"WhiteSolid"
 				"proportionaltoparent"				"1"
 			}
@@ -296,8 +289,6 @@
 				"enabled"							"1"
 				"labelText"							"#Building_hud_sentry_kills_assists"
 				"textAlignment"						"west"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"drawcolor"							"WhiteSolid"
 				"proportionaltoparent"				"1"
 			}
@@ -306,16 +297,12 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Shells"
-				"font"								"Default"
 				"xpos"								"36"
 				"ypos"								"rs1-5"
 				"wide"								"35"
 				"tall"								"6"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"Left"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"WhiteDark"
 			}
@@ -334,8 +321,6 @@
 				"labelText"							"Ammo"
 				"textAlignment"						"center"
 				"AllCaps"							"1"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"fgcolor"							"Black"
 				"proportionaltoparent"				"1"
 				"pin_to_sibling" 					"Shells"

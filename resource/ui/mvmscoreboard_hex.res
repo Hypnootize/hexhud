@@ -253,7 +253,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RespecStatusLabel"
-			"font"									"HudFontSmall"
+			"font"									"Light 14"
 			"labelText"								"%respecstatus%"
 			"textAlignment" 						"north-east"
 			"xpos"									"115"

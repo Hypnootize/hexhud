@@ -1,4 +1,4 @@
-"Resource/HudLayout.res"
+"Scripts/Layouts/Layout_HEx.res"
 {
 	"HudWeaponAmmo"
 	{
@@ -125,7 +125,7 @@
 
 	"BuildingAnchor"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"BuildingAnchor"
 		"xpos"										"1"
 		"ypos"										"139"

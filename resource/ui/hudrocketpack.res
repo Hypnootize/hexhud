@@ -22,7 +22,6 @@
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter2"
-		"font"										"Default"
 		"xpos"										"1"
 		"ypos"										"0"
 		"zpos"										"2"
@@ -33,8 +32,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 

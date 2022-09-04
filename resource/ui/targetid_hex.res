@@ -65,11 +65,10 @@
 
 	"TargetNameLabel"
 	{
-		"ControlName"		       					"Label"
+		"ControlName"		       					"CExLabel"
 		"fieldName"		         					"TargetNameLabel"
 		"font"			           					"Light 11"
 		"font_minmode"			           			"Light 10"
-		"fgcolor_override"     						"White"
 		"xpos"			           					"40"
 		"ypos"			           					"10"
 		"ypos_minmode"                   			"0"
@@ -78,21 +77,20 @@
 		"tall"			           					"13"
 		"tall_minmode"			           			"11"
 		"visible"		           					"1"
-		"enabled"		           					"1"
+		"enabled"		           					"1"				//0 to enabled color changes
 		"labelText"		         					"%targetname%"
 		"textAlignment"		     					"west"
-		"dulltext"		         					"0"
-		"brighttext"		       					"0"
 		"proportionaltoparent"						"1"
+		"disabledfgcolor2_override"					"White"
 		"alpha"										"255"
 	}
 	"TargetNameLabelShadow"
 	{
-		"ControlName"		       					"Label"
+		"ControlName"		       					"CExLabel"
 		"fieldName"		         					"TargetNameLabelShadow"
 		"font"			           					"Light 11 Blur"
 		"font_minmode"			           			"Light 10 Blur"
-		"fgcolor_override"     						"Shadow"
+		"fgcolor"		     						"Shadow"
 		"xpos"			           					"-1"
 		"ypos"			           					"-1"
 		"zpos"			           					"1"
@@ -103,8 +101,6 @@
 		"enabled"		           					"1"
 		"labelText"		         					"%targetname%"
 		"textAlignment"		     					"west"
-		"dulltext"		         					"0"
-		"brighttext"		       					"0"
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
 		"pin_to_sibling"							"TargetNameLabel"
@@ -112,11 +108,10 @@
 
 	"TargetDataLabel"
 	{
-		"ControlName"		       					"Label"
+		"ControlName"		       					"CExLabel"
 		"fieldName"		        					"TargetDataLabel"
 		"font"			           					"Light 10 Shadow"
 		"font_minmode"			           			"Light 9 Shadow"
-		"fgcolor_override"     						"White"
 		"xpos"			           					"40"
 		"ypos"			           					"-1"
 		"ypos_minmode"			           			"12"
@@ -126,11 +121,10 @@
 		"autoResize"		       					"0"
 		"pinCorner"		         					"0"
 		"visible"		          					"1"
-		"enabled"		           					"1"
+		"enabled"		           					"1"			//0 to enabled color changes
 		"labelText"		        					"%targetdata%"
 		"textAlignment"		     					"west"
-		"dulltext"		         					"0"
-		"brighttext"		       					"0"
+		"disabledfgcolor2_override"					"White"
 		"proportionaltoparent"						"1"
 	}
 
@@ -148,7 +142,7 @@
 		"enabled"		                 			"1"
 		"HealthBonusPosAdj"	         				"10"
 		"HealthDeathWarning"	      			 	"0.49"
-		"TFFont"		                 			"HudFontSmall"
+		"TFFont"		                 			"Light 14"
 		"HealthDeathWarningColor"	   				"HUDDeathWarning"
 		"TextColor"		               				"HudOffWhite"
 		"proportionaltoparent"						"1"
@@ -231,8 +225,6 @@
 			"enabled"								"1"
 			"labelText"								"W"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"fgcolor"								"White"
 		}
 
@@ -272,7 +264,7 @@
 		}
 		"MoveableKeyLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"MoveableKeyLabel"
 			"font"									"Size 10"
 			"xpos"									"9999"
@@ -286,8 +278,6 @@
 			"enabled"								"0"
 			"labelText"								""
 			"textAlignment"							"North"
-			"dulltext"								"0"
-			"brighttext"							"0"
 		}
 	}
 

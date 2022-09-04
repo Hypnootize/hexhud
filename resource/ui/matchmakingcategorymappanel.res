@@ -33,7 +33,7 @@
 
 	"MapNameLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"MapNameLabel"
 		"xpos"										"19"
 		"ypos"										"cs-0.5"

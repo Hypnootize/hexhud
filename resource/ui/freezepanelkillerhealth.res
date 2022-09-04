@@ -19,7 +19,7 @@
 
 	"Health_Killer"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"Health_Killer"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
@@ -31,13 +31,13 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"Bold 24"
-		"fgcolor_override"  						"Health Numbers"
+		"fgcolor"  									"Health Numbers"
 		"proportionaltoparent"  					"1"
 	}
 
 	"Health_Killer_Shadow"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"Health_Killer_Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
@@ -49,7 +49,7 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"Bold 24 Blur"
-		"fgcolor_override"  						"Shadow"
+		"fgcolor"  									"Shadow"
 		"proportionaltoparent"  					"1"
 		"pin_to_sibling"							"Health_Killer"
 	}

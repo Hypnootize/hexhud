@@ -15,8 +15,6 @@
 		"labelText"									"#Hud_Menu_Teleport_Title"
 		"textinsetx"								"5"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"fgcolor"									"OffWhite"
 		"proportionaltoparent"						"1"

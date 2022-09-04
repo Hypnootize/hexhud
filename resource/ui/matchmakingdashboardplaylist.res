@@ -16,7 +16,7 @@
 
 	"Title"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
 		"xpos"										"cs-0.5"
 		"ypos"										"55"
@@ -29,7 +29,7 @@
 		"wrap"										"0"
 		"centerwrap"								"0"
 		"font"										"Light 48"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"alpha"										"10"
 		"AllCaps"									"1"
 

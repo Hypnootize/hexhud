@@ -26,7 +26,7 @@
 				"enabled"							"1"
 				"wrap"								"0"
 				"centerwrap"						"1"
-				"fgcolor_override" 					"WhiteDark"
+				"fgcolor"		 					"WhiteDark"
 				"proportionaltoparent"				"1"
 			}
 
@@ -71,7 +71,7 @@
 
 				"Answer0Label"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"Answer0Label"
 					"xpos"							"p0.3"
 					"ypos"							"15"
@@ -107,7 +107,7 @@
 
 				"Answer1Label"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"Answer1Label"
 					"xpos"							"p0.3"
 					"ypos"							"35"
@@ -141,7 +141,7 @@
 
 				"Answer2Label"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"Answer2Label"
 					"xpos"							"p0.3"
 					"ypos"							"55"
@@ -176,7 +176,7 @@
 
 				"Answer3Label"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"Answer3Label"
 					"xpos"							"p0.3"
 					"ypos"							"75"
@@ -210,7 +210,7 @@
 
 				"Answer4Label"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"Answer4Label"
 					"xpos"							"p0.3"
 					"ypos"							"95"
@@ -244,7 +244,7 @@
 
 				"Answer5Label"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"Answer5Label"
 					"xpos"							"p0.3"
 					"ypos"							"115"

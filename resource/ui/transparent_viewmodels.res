@@ -1,4 +1,4 @@
-"Resource/TransparentViewmodel.res"
+"Resource/UI/Transparent_Viewmodels.res"
 {
 	"TransparentViewmodelMask"
 	{

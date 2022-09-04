@@ -74,13 +74,10 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"east"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"font"										"Light 12"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 	}
 
@@ -95,14 +92,11 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"east"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"font"										"Light 12 Blur"
-		"fgcolor_override"							"Shadow"
+		"fgcolor"									"Shadow"
 	}
 
 

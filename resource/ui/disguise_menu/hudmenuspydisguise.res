@@ -31,8 +31,6 @@
 		"enabled"									"1"
 		"labelText"									"#Hud_Menu_Disguise_Title"
 		"textAlignment"								"west"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"				          			"1"
 		"proportionaltoparent"	          			"1"
 	}
@@ -52,8 +50,6 @@
 		"enabled"									"1"
 		"labelText"									"#Hud_Menu_Disguise_Title"
 		"textAlignment"								"west"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"AllCaps"				          			"1"
 		"proportionaltoparent"	          			"1"
 		"pin_to_sibling"							"TitleLabel"
@@ -74,8 +70,6 @@
 		"enabled"									"1"
 		"labelText"									"#Hud_Menu_Spy_Minus_Toggle"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"	          			"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
@@ -339,8 +333,6 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 
 		"paintbackground"							"1"
@@ -363,8 +355,6 @@
 		"enabled"									"1"
 		"labelText"									"2"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 
 		"paintbackground"							"1"
@@ -387,8 +377,6 @@
 		"enabled"									"1"
 		"labelText"									"3"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 
 		"paintbackground"							"1"

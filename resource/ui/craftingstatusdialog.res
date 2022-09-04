@@ -19,7 +19,7 @@
 
 	"CenterPositioner"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"CenterPositioner"
 		"font"										"Light 14"
 		"xpos"										"0"
@@ -45,7 +45,7 @@
 
 	"TitleLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"font"										"Light 14"
 		"xpos"										"0"
@@ -59,7 +59,7 @@
 		"centerwrap"								"1"
 		"labelText"									"%updatetext%"
 		"textAlignment"								"center"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor" 									"WhiteDark"
 		"paintbackground" 							"1"
 		"auto_wide_tocontents" 						"1"
 
@@ -70,7 +70,7 @@
 
 	"EllipsesLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"EllipsesLabel"
 		"font"										"Light 14"
 		"xpos"										"0"
@@ -82,7 +82,7 @@
 		"enabled"									"1"
 		"labelText"									"%ellipses%"
 		"textAlignment"								"west"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor" 									"WhiteDark"
 		"paintbackground" 							"1"
 
 		"pin_to_sibling"               				"TitleLabel"
@@ -101,12 +101,9 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#GameUI_Ok"
 		"font"										"Light 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"

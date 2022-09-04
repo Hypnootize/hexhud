@@ -37,7 +37,7 @@
 
 	"NameLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"NameLabel"
 		"xpos"										"2"
 		"ypos"										"0"

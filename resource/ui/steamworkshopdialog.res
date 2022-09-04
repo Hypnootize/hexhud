@@ -98,7 +98,6 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"labelText"							"#TF_SteamWorkshop_LearnHow"
 				"font"								"Light 14"
 				"textAlignment"						"center"
@@ -129,7 +128,6 @@
 			"tall"									"240"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"paintbackground"						"0"
 			"border"								"MaterialBlackDark"
 
@@ -588,7 +586,6 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#TF_SteamWorkshop_Publish"
 			"font"									"Light 14"
 			"textAlignment"							"center"

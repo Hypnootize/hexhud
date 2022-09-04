@@ -24,7 +24,7 @@
 				"enabled"							"1"
 				"wrap"								"0"
 				"centerwrap"						"1"
-				"fgcolor_override" 					"WhiteDark"
+				"fgcolor"		 					"WhiteDark"
 				"proportionaltoparent"				"1"
 			}
 
@@ -70,7 +70,7 @@
 
 				"Radio0Label"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"Radio0Label"
 					"xpos"							"p0.1-30"
 					"ypos"							"30"
@@ -107,7 +107,7 @@
 
 				"Radio1Label"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"Radio1Label"
 					"xpos"							"p0.3-36"
 					"ypos"							"30"
@@ -142,7 +142,7 @@
 
 				"Radio2Label"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"Radio2Label"
 					"xpos"							"p0.5-33"
 					"ypos"							"30"
@@ -178,7 +178,7 @@
 
 				"Radio3Label"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"Radio3Label"
 					"xpos"							"p0.7-33"
 					"ypos"							"30"
@@ -213,7 +213,7 @@
 
 				"Radio4Label"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"Radio4Label"
 					"xpos"							"p0.9-33"
 					"ypos"							"30"

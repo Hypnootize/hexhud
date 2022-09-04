@@ -175,7 +175,7 @@
 
 				"SortArrow"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"SortArrow"
 					"xpos"							"0"
 					"ypos"							"-2"
@@ -252,7 +252,7 @@
 					"actionsignallevel"				"4"
 
 					"labeltext"						"#TF_Competitive_Date"
-					"font"							"HudFontSmallest"
+					"font"							"Light 11"
 					"textAlignment"					"west"
 					"textinsetx"					"15"
 
@@ -294,7 +294,7 @@
 					"actionsignallevel"				"4"
 
 					"labeltext"						"#TF_Competitive_Map"
-					"font"							"HudFontSmallest"
+					"font"							"Light 11"
 					"textAlignment"					"west"
 					"textinsetx"					"15"
 
@@ -336,7 +336,7 @@
 					"actionsignallevel"				"4"
 
 					"labeltext"						"#TF_Competitive_KDR"
-					"font"							"HudFontSmallest"
+					"font"							"Light 11"
 					"textAlignment"					"west"
 
 					"sound_depressed"				"UI/buttonclick.wav"

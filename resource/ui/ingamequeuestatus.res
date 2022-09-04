@@ -34,7 +34,7 @@
 
 	"QueueText"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"QueueText"
 		"xpos"										"rs1-18"
 		"ypos"										"cs-0.5"
@@ -44,7 +44,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"AchievementTracker_Name"
-		"fgcolor_override"							"TanLight"
+		"fgcolor"									"White"
 		"textAlignment"								"east"
 		"labelText"									"%queue_state%"
 		"proportionaltoparent"						"1"

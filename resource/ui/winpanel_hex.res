@@ -383,8 +383,6 @@
 		"enabled"	    							"1"
 		"labelText"	  								"U"
 		"textAlignment"								"center"
-		"dulltext"	  								"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"235 185 50 255"
 
@@ -404,8 +402,6 @@
 		"enabled"	    							"1"
 		"labelText"	  								""
 		"textAlignment"								"center"
-		"dulltext"	  								"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 
 		"pin_to_sibling"							"Player1Icon"
@@ -426,8 +422,6 @@
 		"enabled"		    						"1"
 		"labelText"	  								""
 		"textAlignment"								"west"
-		"dulltext"		 							"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
 
@@ -451,8 +445,6 @@
 		"enabled"	    							"1"
 		"labelText"	  								"U"
 		"textAlignment"								"center"
-		"dulltext"	  								"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"170 175 180 255"
 
@@ -474,8 +466,6 @@
 		"enabled"	    							"1"
 		"labelText"	  								""
 		"textAlignment"								"center"
-		"dulltext"	  								"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 
 		"pin_to_sibling"							"Player2Icon"
@@ -496,8 +486,6 @@
 		"enabled"		    						"1"
 		"labelText"	  								""
 		"textAlignment"								"west"
-		"dulltext"		 							"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
 
@@ -520,8 +508,6 @@
 		"enabled"	    							"1"
 		"labelText"	  								"U"
 		"textAlignment"								"center"
-		"dulltext"	  								"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"150 105 0 255"
 
@@ -543,8 +529,6 @@
 		"enabled"	    							"1"
 		"labelText"	  								""
 		"textAlignment"								"center"
-		"dulltext"	  								"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 
 		"pin_to_sibling"							"Player3Icon"
@@ -565,8 +549,6 @@
 		"enabled"		    						"1"
 		"labelText"	  								""
 		"textAlignment"								"west"
-		"dulltext"		 							"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
 
@@ -589,8 +571,6 @@
 		"enabled"	    							"1"
 		"labelText"	  								"8"
 		"textAlignment"								"center"
-		"dulltext"	  								"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
 
@@ -612,8 +592,6 @@
 		"enabled"	    							"1"
 		"labelText"	  								""
 		"textAlignment"								"center"
-		"dulltext"	  								"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 
 		"pin_to_sibling"							"KillstreakIcon"
@@ -634,8 +612,6 @@
 		"enabled"		    						"1"
 		"labelText"	  								""
 		"textAlignment"								"west"
-		"dulltext"		 							"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
 

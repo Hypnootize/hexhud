@@ -13,7 +13,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"60"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -23,7 +22,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"60"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -40,7 +38,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"35"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -50,7 +47,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"35"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -67,7 +63,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -77,7 +72,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -94,7 +88,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -104,7 +97,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -120,7 +112,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"60"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -130,7 +121,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"60"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -142,7 +132,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -152,7 +141,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -168,7 +156,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"35"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -178,7 +165,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"35"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -190,7 +176,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -200,7 +185,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -216,7 +200,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"60"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -232,7 +215,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"35"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -248,7 +230,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -258,7 +239,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -274,7 +254,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -284,7 +263,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -300,7 +278,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"22"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -310,7 +287,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"22"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -326,7 +302,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -336,7 +311,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -352,7 +326,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -362,7 +335,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -378,7 +350,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -390,7 +361,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"22"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -402,7 +372,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"28"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -418,7 +387,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -430,7 +398,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"22"
-				"additive"									"0"
 				"antialias"									"1"
 				"outline"									"1"
 			}
@@ -442,7 +409,6 @@
 			{
 				"name"										"Lexend Numbers"
 				"tall"										"28"
-				"additive"									"0"
 				"antialias"									"1"
 				"outline"									"1"
 			}

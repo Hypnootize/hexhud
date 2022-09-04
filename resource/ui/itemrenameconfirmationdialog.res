@@ -252,7 +252,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override" 							"RedDark"
+		"fgcolor" 									"RedDark"
 	}
 	
 	"GivenName"
@@ -273,7 +273,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"WarningLabel"
@@ -294,7 +294,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override" 							"RedDark"
+		"fgcolor" 									"RedDark"
 	}
 
 	"CancelButton"
@@ -310,13 +310,10 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"Cancel (&Q)"
 		"font"										"Light 14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"cancel"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -346,13 +343,10 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#CraftNameConfirm"
 		"font"										"Light 14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"apply"
 		"sound_depressed"							"UI/buttonclick.wav"

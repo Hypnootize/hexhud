@@ -14,8 +14,6 @@
 		"AllCaps"									"1"
 		"labelText"									"60 seconds until gates open"
 		"textAlignment"								"West"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
 

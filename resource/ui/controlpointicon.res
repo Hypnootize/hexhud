@@ -44,7 +44,7 @@
 
 	"CapNumPlayers"
 	{
-		"ControlName"		  						"Label"
+		"ControlName"		  						"CExLabel"
 		"fieldName"		    						"CapNumPlayers"
 		"font"			      						"Light 12"
 		"xpos"			      						"rs1-1"
@@ -56,9 +56,7 @@
 		"enabled"		      						"1"
 		"labelText"		    						"#ControlPointIconCappers"
 		"textAlignment"								"east"
-		"dulltext"		    						"0"
-		"brighttext"		  						"0"
-		"fgcolor_override"		  					"Black"
+		"fgcolor"		  							"Black"
 		"proportionaltoparent"	    				"1"
 	}
 
@@ -91,8 +89,6 @@
 		"enabled"		    						"1"
 		"labelText"		  							"60"
 		"textAlignment"								"center"
-		"dulltext"		  							"0"
-		"brighttext"	  							"0"
 		"wrap"			    						"0"
 		"font"			    						"Light 11 Shadow"
 

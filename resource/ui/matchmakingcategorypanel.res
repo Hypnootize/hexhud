@@ -139,8 +139,6 @@
 			"use_proportional_insets" 				"1"
 			"font"									"Light 22"
 			"textAlignment"							"east"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"AllCaps"								"1"
 			"default"								"1"
 			"proportionaltoparent" 					"1"

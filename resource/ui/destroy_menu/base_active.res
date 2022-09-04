@@ -68,8 +68,6 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"WhiteDark"
 	}
@@ -89,8 +87,6 @@
 		"enabled"									"1"
 		"labelText"									"="
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
 
@@ -111,8 +107,6 @@
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
 

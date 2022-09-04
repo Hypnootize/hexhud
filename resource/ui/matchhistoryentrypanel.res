@@ -54,7 +54,7 @@
 
 		"WinLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"WinLabel"
 			"xpos"									"7"
 			"ypos"									"0"
@@ -66,13 +66,13 @@
 
 			"labeltext"								"#TF_Competitive_MatchHistory_Win"
 			"font"									"Light 12"
-			"fgcolor_override"						"Green"
+			"fgcolor"								"Green"
 			"textAlignment"							"west"
 		}
 
 		"LossLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"LossLabel"
 			"xpos"									"7"
 			"ypos"									"0"
@@ -84,13 +84,13 @@
 
 			"labeltext"								"#TF_Competitive_MatchHistory_Loss"
 			"font"									"Light 12"
-			"fgcolor_override"						"RedDark"
+			"fgcolor"								"RedDark"
 			"textAlignment"							"west"
 		}
 
 		"DateLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"DateLabel"
 			"xpos"									"55"
 			"ypos"									"0"
@@ -102,13 +102,13 @@
 
 			"labeltext"								"%match_date%"
 			"font"									"Light 11"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"textAlignment"							"west"
 		}
 
 		"MapNameLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"MapNameLabel"
 			"xpos"									"p0.60"
 			"ypos"									"0"
@@ -120,13 +120,13 @@
 
 			"labeltext"								"%map_name%"
 			"font"									"Light 11"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"textAlignment"							"west"
 		}
 
 		"KDLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"KDLabel"
 			"xpos"									"p0.9"
 			"ypos"									"0"
@@ -138,7 +138,7 @@
 
 			"labeltext"								"%kd_ratio%"
 			"font"									"Light 11"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"textAlignment"							"west"
 		}
 	}
@@ -216,7 +216,7 @@
 
 			"KillsLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"KillsLabel"
 				"xpos"								"p0.2"
 				"ypos"								"0"
@@ -228,13 +228,13 @@
 
 				"labeltext"							"%stat_kills%"
 				"font"								"Light 10"
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 				"textAlignment"						"west"
 			}
 
 			"DeathsLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"DeathsLabel"
 				"xpos"								"p0.2"
 				"ypos"								"10"
@@ -246,7 +246,7 @@
 
 				"labeltext"							"%stat_deaths%"
 				"font"								"Light 10"
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 				"textAlignment"						"west"
 			}
 
@@ -265,7 +265,7 @@
 
 			"DamageLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"DamageLabel"
 				"xpos"								"p0.2"
 				"ypos"								"20"
@@ -277,7 +277,7 @@
 
 				"labeltext"							"%stat_damage%"
 				"font"								"Light 10"
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 				"textAlignment"						"west"
 			}
 
@@ -297,7 +297,7 @@
 
 			"HealingLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"HealingLabel"
 				"xpos"								"p0.6"
 				"ypos"								"0"
@@ -309,7 +309,7 @@
 
 				"labeltext"							"%stat_healing%"
 				"font"								"Light 10"
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 				"textAlignment"						"west"
 			}
 
@@ -328,7 +328,7 @@
 
 			"SupportLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"SupportLabel"
 				"xpos"								"p0.6"
 				"ypos"								"10"
@@ -340,7 +340,7 @@
 
 				"labeltext"							"%stat_support%"
 				"font"								"Light 10"
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 				"textAlignment"						"west"
 			}
 
@@ -359,7 +359,7 @@
 
 			"ScoreLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"ScoreLabel"
 				"xpos"								"p0.6"
 				"ypos"								"20"
@@ -373,7 +373,7 @@
 
 				"labeltext"							"%stat_score%"
 				"font"								"Light 10"
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 				"textAlignment"						"west"
 			}
 

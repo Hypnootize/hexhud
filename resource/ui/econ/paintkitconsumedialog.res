@@ -23,7 +23,7 @@
 
 	"Title"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
 		"font"										"Light 18"
 		"labelText"									"#TF_UsePaintkit_Panel_Title"
@@ -41,7 +41,7 @@
 		"paintbackground"							"1"
 		"paintborder"								"1"
 		"paintbackgroundtype"						"0"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"BottomLineWhiteDark"
 	}
@@ -65,7 +65,7 @@
 
 	"DescText"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"DescText"
 		"font"										"Light 12"
 		"labelText"									"#TF_UsePaintkit_Panel_Desc"
@@ -77,7 +77,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor"		 							"WhiteDark"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 	}
@@ -104,7 +104,7 @@
 
 		"CTFLogoPanel"
 		{
-			"fieldName"								"WorkingLogo"
+			"fieldName"								"CTFLogoPanel"
 			"controlname"							"CTFLogoPanel"
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5-15"
@@ -119,7 +119,7 @@
 
 		"WorkingText"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"WorkingText"
 			"font"									"Light 14"
 			"labelText"								"#TF_UsePaintkit_Working"
@@ -130,7 +130,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override" 						"WhiteDark"
+			"fgcolor"		 						"WhiteDark"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 		}
@@ -151,7 +151,7 @@
 
 		"CTFLogoPanel"
 		{
-			"fieldName"								"SuccessLogo"
+			"fieldName"								"CTFLogoPanel"
 			"controlname"							"CTFLogoPanel"
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5-15"
@@ -166,7 +166,7 @@
 
 		"SuccessText"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"SuccessText"
 			"font"									"Light 24"
 			"labelText"								"#AbuseReport_SucceededTitle"
@@ -177,7 +177,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override"						"Green"
+			"fgcolor"								"Green"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 		}
@@ -198,7 +198,7 @@
 
 		"CTFLogoPanel"
 		{
-			"fieldName"								"FailureLogo"
+			"fieldName"								"CTFLogoPanel"
 			"controlname"							"CTFLogoPanel"
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5-15"
@@ -213,7 +213,7 @@
 
 		"FailureText"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"FailureText"
 			"font"									"Light 14"
 			"labelText"								"#TF_UsePaintkit_Failed"
@@ -224,7 +224,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor_override" 						"Red"
+			"fgcolor"		 						"Red"
 			"proportionaltoparent"					"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
@@ -244,13 +244,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"Cancel"
 		"font"										"Light 14"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"cancel"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
@@ -283,13 +280,10 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_QuestView_RedeemReward"
 		"font"										"Light 14"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"accept"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"

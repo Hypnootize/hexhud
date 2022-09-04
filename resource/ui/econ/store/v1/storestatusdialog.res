@@ -18,7 +18,7 @@
 
 	"TitleLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"font"										"Light 14"
 		"xpos"										"10"
@@ -50,12 +50,9 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#GameUI_Ok"
 		"font"										"Light 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"close"
 		"AllCaps"									"1"

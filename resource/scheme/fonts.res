@@ -18,7 +18,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"6"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -28,7 +27,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -38,7 +36,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"8"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -48,7 +45,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"8"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -59,7 +55,6 @@
 			{
 				"name"										"Product Sans Numbers"
 				"tall"										"8"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -69,7 +64,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"9"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -79,7 +73,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"9"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -90,7 +83,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"9"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -101,7 +93,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"10"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -111,7 +102,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"10"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -122,7 +112,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"10"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -133,7 +122,6 @@
 			{
 				"name"										"Product Sans Numbers"
 				"tall"										"10"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -143,7 +131,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"11"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -153,7 +140,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"11"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -164,7 +150,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"11"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -175,7 +160,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"12"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -185,7 +169,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"12"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -196,7 +179,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"12"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -207,7 +189,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"14"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -217,7 +198,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"14"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -228,7 +208,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"15"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -238,7 +217,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"16"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -248,7 +226,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"16"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -259,7 +236,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -269,7 +245,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -280,7 +255,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -290,7 +264,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -301,7 +274,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"22"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -311,7 +283,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -321,7 +292,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -332,7 +302,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -343,7 +312,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"30"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -353,7 +321,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"36"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -363,7 +330,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"48"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -378,7 +344,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"13"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -388,7 +353,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"13"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -399,7 +363,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"14"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -409,7 +372,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"14"
-				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
 			}
@@ -420,7 +382,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"14"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"1"
 			}
@@ -431,7 +392,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"16"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -441,7 +401,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"16"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -452,7 +411,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -462,7 +420,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"18"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -473,7 +430,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -483,7 +439,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"20"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -494,7 +449,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -504,7 +458,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"24"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -515,7 +468,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"30"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -525,7 +477,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"30"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -536,7 +487,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"36"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -546,7 +496,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"36"
-				"additive"									"0"
 				"antialias"									"1"
 				"blur"										"2"
 			}
@@ -557,7 +506,6 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"44"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -568,7 +516,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"10"
-				"weight"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -590,7 +537,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"12"
-				"weight"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -601,7 +547,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -612,7 +557,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"18"
-				"weight"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -635,7 +579,6 @@
 				"name"										"Product Sans"
 				"tall"										"6"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -646,7 +589,6 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -657,7 +599,6 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 				"yres"										"480 599"
 			}
@@ -666,7 +607,6 @@
 				"name"										"Product Sans"
 				"tall"										"32"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 				"yres"										"600 767"
 			}
@@ -675,7 +615,6 @@
 				"name"										"Product Sans"
 				"tall"										"44"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 				"yres"										"768 1023"
 			}
@@ -684,7 +623,6 @@
 				"name"										"Product Sans"
 				"tall"										"48"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 				"yres"										"1024 1199"
 			}
@@ -693,7 +631,6 @@
 				"name"										"Product Sans"
 				"tall"										"52"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 				"yres"										"1200 10000"
 			}
@@ -705,7 +642,6 @@
 				"name"										"Product Sans"
 				"tall"										"44"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -717,7 +653,6 @@
 				"name"										"Product Sans"
 				"tall"										"35"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -729,7 +664,6 @@
 				"name"										"Product Sans"
 				"tall"										"36"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -740,7 +674,6 @@
 				"name"										"Product Sans"
 				"tall"										"30"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -751,7 +684,6 @@
 				"name"										"Product Sans"
 				"tall"										"30"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -762,7 +694,6 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -773,7 +704,6 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -784,7 +714,6 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -795,7 +724,6 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -806,7 +734,6 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -817,7 +744,6 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -828,7 +754,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -839,7 +764,6 @@
 				"name"										"Product Sans"
 				"tall"										"16"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -850,7 +774,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -861,7 +784,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow"								"1"
 			}
@@ -873,7 +795,6 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -884,7 +805,6 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow"								"1"
 			}
@@ -896,7 +816,6 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -907,7 +826,6 @@
 				"name"										"Product Sans"
 				"tall"										"4"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -918,7 +836,6 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -929,7 +846,6 @@
 				"name"										"Product Sans"
 				"tall"										"16"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -939,8 +855,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"9"
-				"weight"									"0"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -950,8 +864,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"9"
-				"weight"									"0"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -961,8 +873,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"6"
-				"weight"									"0"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -973,7 +883,6 @@
 				"name"										"Product Sans"
 				"tall"										"12"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -984,7 +893,6 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1055,7 +963,6 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1066,7 +973,6 @@
 				"name"										"Product Sans"
 				"tall"										"16"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1077,7 +983,6 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1088,7 +993,6 @@
 				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1099,7 +1003,6 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1110,7 +1013,6 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1189,8 +1091,6 @@
 			{
 				"name"  									"tfd" // tfd.ttf
 				"tall"  									"28"
-				"weight" 									"0"
-				"additive" 									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1201,7 +1101,6 @@
 			 {
 				"name"  									"Team Fortress" // tf.ttf
 				"tall"  									"28"
-				"weight" 									"0"
 				"additive" 									"1"
 				"antialias" 								"1"
 			}
@@ -1215,7 +1114,6 @@
 				"weight"									"900"
 				"range"										"0x0000 0x007F"	//	Basic Latin
 				"antialias"									"1"
-				"additive"									"0"
 			}
 		}
 
@@ -1225,7 +1123,6 @@
 			{
 				"name"  									"Team Fortress" // tf.ttf
 				"tall"  									"28"
-				"weight" 									"0"
 				"additive" 									"1"
 				"antialias" 								"1"
 			}
@@ -1233,7 +1130,6 @@
 			{
 				"name"  									"Product Sans"
 				"tall"  									"28"
-				"weight" 									"0"
 				"additive" 									"1"
 				"antialias" 								"1"
 			}
@@ -1303,7 +1199,6 @@
 			{
 				"name"										"Marlett"
 				"tall"										"20"
-				"weight"									"0"
 				"symbol"									"1"
 				"range"										"0x0000 0x007F"	//	Basic Latin
 			}
@@ -1314,7 +1209,6 @@
 			{
 				"name"										"Marlett"
 				"tall"										"14"
-				"weight"									"0"
 				"symbol"									"1"
 				"range"										"0x0000 0x007F"	//	Basic Latin
 			}
@@ -1357,7 +1251,6 @@
 				"name"										"Product Sans"
 				"tall"										"13"
 				"weight"									"800"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1414,7 +1307,6 @@
 				"name"										"Product Sans"
 				"tall"										"6"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1425,7 +1317,6 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -1436,7 +1327,6 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1449,7 +1339,6 @@
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 		"ScoreboardMedium"
@@ -1461,7 +1350,6 @@
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 		"ScoreboardTeamName"
@@ -1473,7 +1361,6 @@
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 		"ScoreboardTeamCountNew"
@@ -1485,7 +1372,6 @@
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 		"ScoreboardTeamNameNew"
@@ -1497,7 +1383,6 @@
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 		"ScoreboardTeamNameLarge"
@@ -1509,7 +1394,6 @@
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 
@@ -1520,7 +1404,6 @@
 				"name"										"Product Sans"
 				"tall"										"36"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1581,7 +1464,6 @@
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 		"MatchSummaryStatsAndMedals"
@@ -1591,7 +1473,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1602,7 +1483,6 @@
 				"name"										"Product Sans"
 				"tall"										"20"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1613,7 +1493,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1624,7 +1503,6 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1635,7 +1513,6 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1647,7 +1524,6 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1660,7 +1536,6 @@
 				"tall"										"12"
 				"weight"									"700"
 				"yres"										"480 599"
-				"dropshadow"								"0"
 			}
 			"2"
 			{
@@ -1668,7 +1543,6 @@
 				"tall"										"13"
 				"weight"									"700"
 				"yres"										"600 767"
-				"dropshadow"								"0"
 			}
 			"3"
 			{
@@ -1676,7 +1550,6 @@
 				"tall"										"14"
 				"weight"									"700"
 				"yres"										"768 1023"
-				"dropshadow"								"0"
 			}
 			"4"
 			{
@@ -1684,7 +1557,6 @@
 				"tall"										"20"
 				"weight"									"700"
 				"yres"										"1024 1199"
-				"dropshadow"								"0"
 			}
 			"5"
 			{
@@ -1692,7 +1564,6 @@
 				"tall"										"24"
 				"weight"									"700"
 				"yres"										"1200 10000"
-				"dropshadow"								"0"
 			}
 		}
 		"ChatFont"
@@ -1836,7 +1707,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"8"
-				"weight"									"0"
 				"additive"									"1"
 				"antialias" 								"1"
 			}
@@ -1848,7 +1718,6 @@
 				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1861,7 +1730,6 @@
 				"tall"										"11"  [!$OSX]
 				"tall"										"9"  [$OSX]
 				"weight"									"800"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1964,7 +1832,6 @@
 				"name"										"Product Sans"
 				"tall"										"36"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1975,7 +1842,6 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"600"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -1986,7 +1852,6 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2007,7 +1872,6 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"600"
-				"additive"									"0"
 				"antialias"								 	"1"
 			}
 		}
@@ -2018,7 +1882,6 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2029,7 +1892,6 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
 			}
@@ -2041,7 +1903,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"10"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 				"antialias"									"1"
@@ -2050,7 +1911,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 1199"
 				"antialias"									"1"
@@ -2059,7 +1919,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"15"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
@@ -2073,7 +1932,6 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2084,7 +1942,6 @@
 				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias"								 	"1"
 			}
 		}
@@ -2095,7 +1952,6 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2106,7 +1962,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2117,7 +1972,6 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2138,7 +1992,6 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2149,7 +2002,6 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2160,7 +2012,6 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2172,7 +2023,6 @@
 				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2194,7 +2044,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"additive"									"1"
 				"antialias"								 	"1"
 			}
@@ -2205,7 +2054,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"additive"									"1"
 				"antialias" 								"1"
 			}
@@ -2216,7 +2064,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2226,7 +2073,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"blur"										"3"
 				"additive"									"1"
 				"antialias" 								"1"
@@ -2238,7 +2084,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2252,7 +2097,6 @@
 				"tall"										"10"
 				"weight"									"400"
 				"yres"										"480 599"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 			"2"
@@ -2261,7 +2105,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"400"
-				"additive"									"0"
 				"yres"										"600 1023"
 				"antialias"									"1"
 			}
@@ -2271,7 +2114,6 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"400"
-				"additive"									"0"
 				"yres"										"1024 6000"
 				"antialias"									"1"
 			}
@@ -2286,7 +2128,6 @@
 				"tall"										"10"
 				"weight"									"800"
 				"yres"										"480 599"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 			"2"
@@ -2295,7 +2136,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"800"
-				"additive"									"0"
 				"yres"										"600 1023"
 				"antialias"									"1"
 			}
@@ -2305,7 +2145,6 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"800"
-				"additive"									"0"
 				"yres"										"1024 6000"
 				"antialias"									"1"
 			}
@@ -2319,7 +2158,6 @@
 				"name"										"Product Sans"
 				"tall"										"16"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2344,7 +2182,6 @@
 				"tall"										"10"
 				"weight"									"400"
 				"yres"										"480 599"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 			"2"
@@ -2352,7 +2189,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"400"
-				"additive"									"0"
 				"yres"										"600 1023"
 				"antialias"									"1"
 			}
@@ -2361,7 +2197,6 @@
 				"name"										"Product Sans"
 				"tall"										"22"
 				"weight"									"400"
-				"additive"									"0"
 				"yres"										"1024 6000"
 				"antialias"									"1"
 			}
@@ -2375,7 +2210,6 @@
 				"tall"										"10"
 				"weight"									"400"
 				"yres"										"480 599"
-				"additive"									"0"
 				"antialias"									"1"
 				"italic"									"1"
 			}
@@ -2384,7 +2218,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"400"
-				"additive"									"0"
 				"yres"										"600 1023"
 				"antialias"									"1"
 				"italic"									"1"
@@ -2394,7 +2227,6 @@
 				"name"										"Product Sans"
 				"tall"										"22"
 				"weight"									"400"
-				"additive"									"0"
 				"yres"										"1024 6000"
 				"antialias"									"1"
 				"italic"									"1"
@@ -2409,7 +2241,6 @@
 				"tall"										"10"
 				"weight"									"800"
 				"yres"										"480 599"
-				"additive"									"0"
 				"antialias"									"1"
 			}
 			"2"
@@ -2417,7 +2248,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"800"
-				"additive"									"0"
 				"yres"										"600 1023"
 				"antialias"									"1"
 			}
@@ -2426,7 +2256,6 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"800"
-				"additive"									"0"
 				"yres"										"1024 6000"
 				"antialias"									"1"
 			}
@@ -2439,7 +2268,6 @@
 				"name"										"Product Sans"
 				"tall"										"13"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2451,7 +2279,6 @@
 				"name"										"Product Sans"
 				"tall"										"16"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2463,7 +2290,6 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2475,7 +2301,6 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2485,7 +2310,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"8"
-				"weight"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2498,7 +2322,6 @@
 				"tall"										"8"
 				"weight"									"400"
 				"antialias" 								"1"
-				"additive"									"0"
 			}
 		}
 
@@ -2510,7 +2333,6 @@
 				"tall"										"9"
 				"weight"									"400"
 				"antialias" 								"1"
-				"additive"									"0"
 				"italic"									"1"
 			}
 		}
@@ -2524,7 +2346,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
@@ -2532,7 +2353,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 			}
@@ -2540,7 +2360,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -2549,7 +2368,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"14"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -2558,7 +2376,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"16"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
@@ -2571,7 +2388,6 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2581,7 +2397,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"12"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
 			}
@@ -2589,7 +2404,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"13"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
 			}
@@ -2597,7 +2411,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"14"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"768 1023"
 				"antialias"									"1"
@@ -2606,7 +2419,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"20"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1024 1199"
 				"antialias"									"1"
@@ -2615,7 +2427,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"22"
-				"weight"									"0"
 				"range"										"0x0000 0x017F"
 				"yres"										"1200 6000"
 				"antialias"									"1"
@@ -2625,7 +2436,6 @@
 				"name"										"Product Sans"
 				"tall"										"12"
 				"range" 									"0x0000 0x00FF"
-				"weight"									"0"
 			}
 		}
 		"ReplayMediumSmall"
@@ -2635,7 +2445,6 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2646,7 +2455,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2657,7 +2465,6 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2668,7 +2475,6 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2679,7 +2485,6 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2694,7 +2499,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2705,7 +2509,6 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2719,7 +2522,6 @@
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
 				"antialias"									"1"
-				"additive"									"0"
 			}
 		}
 
@@ -2730,7 +2532,6 @@
 				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2766,7 +2567,6 @@
 				"name"										"Product Sans"
 				"tall"										"12"
 				"weight"									"500"
-				"additive"									"0"
 				"antialias" 								"1"
 				"dropshadow"								"1"
 			}
@@ -2779,7 +2579,6 @@
 				"name"										"OCR A Extended" [$WINDOWS]
 				"name"										"Product Sans"
 				"tall"										"7"
-				"weight"									"0"
 				"blur"										"3"
 				"additive"									"1"
 				"antialias" 								"1"
@@ -2794,7 +2593,6 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2807,7 +2605,6 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2820,7 +2617,6 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
@@ -2833,7 +2629,6 @@
 				"name"										"Product Sans"
 				"tall"										"30"
 				"weight"									"400"
-				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}

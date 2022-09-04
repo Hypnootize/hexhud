@@ -29,14 +29,11 @@
 				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"labelText"							""
 				"font"								"Light 14"
 				"textAlignment"						"west"
 				"textinsetx"						"30"
 				"use_proportional_insets" 			"1"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 
@@ -207,14 +204,12 @@
 			"labelText"								"Steam Friend List"
 			"font"									"Light 18"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
-			"FgColor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 		"FriendsIcon"
 		{
@@ -230,12 +225,10 @@
 			"labelText"								"R"
 			"font"									"Symbols 24"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
-			"FgColor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 	}
 
@@ -271,14 +264,12 @@
 			"labelText"								"Current Server"
 			"font"									"Light 18"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
-			"FgColor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 		"ServerIcon"
 		{
@@ -294,12 +285,10 @@
 			"labelText"								"u"
 			"font"									"Symbols 24"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
-			"FgColor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 	}
 
@@ -335,14 +324,12 @@
 			"labelText"								"Steam Profile"
 			"font"									"Light 18"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
-			"FgColor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 		"SteamIcon"
 		{
@@ -358,12 +345,10 @@
 			"labelText"								"p"
 			"font"									"Symbols 24"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
-			"FgColor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 	}
 
@@ -404,12 +389,9 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"Steam Friend List"
 			"font"									"Light 18"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
@@ -442,12 +424,9 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"Current Server"
 			"font"									"Light 18"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
@@ -480,12 +459,9 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"Steam Profile"
 			"font"									"Light 18"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
@@ -791,7 +767,7 @@
 
 		"URLHelpLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"URLHelpLabel"
 			"font"									"Light 8"
 			"labelText"								"#TF_TradeStartDialog_ProfileHelp"
@@ -809,7 +785,7 @@
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor_override" 						"WhiteDark"
+			"fgcolor"		 						"WhiteDark"
 		}
 
 		"URLEntry"
@@ -824,7 +800,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"textHidden"							"0"
 			"editable"								"1"
 			"maxchars"								"256"
@@ -842,7 +817,7 @@
 
 		"URLFailLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"URLFailLabel"
 			"font"									"Light 8"
 			"labelText"								"#TF_TradeStartDialog_ProfileFail"
@@ -860,12 +835,12 @@
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor_override" 						"RedDark"
+			"fgcolor"		 						"RedDark"
 		}
 
 		"URLSearchingLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"URLSearchingLabel"
 			"font"									"Light 8"
 			"labelText"								"#TF_TradeStartDialog_ProfileLookup"
@@ -883,7 +858,7 @@
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor_override" 						"WhiteDark"
+			"fgcolor"		 						"WhiteDark"
 		}
 
 		"subbutton0"
@@ -899,12 +874,9 @@
 			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"#TF_TradeStartDialog_ProfileGo"
 			"font"									"Light 14"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
@@ -957,8 +929,6 @@
 			"labelText"								"Back"
 			"font"									"Light 16"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"cancel"
 			"AllCaps"								"1"
@@ -991,12 +961,10 @@
 			"labelText"								"#"
 			"font"									"Symbols 24"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 
 			"paintbackground"						"1"
 			"BgColor_override"						"GrayBlueDark"
-			"FgColor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 	}
 
@@ -1013,12 +981,9 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"Back"
 		"font"										"Light 16"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"cancel"
 		"AllCaps"									"1"

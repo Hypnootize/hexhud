@@ -209,7 +209,7 @@
 
 		"NameLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"NameLabel"
 			"xpos"									"1"
 			"ypos"									"0"
@@ -219,7 +219,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Light 8"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
 			"proportionaltoparent"					"1"
@@ -389,7 +389,7 @@
 
 				"CurrentXPLabel"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"CurrentXPLabel"
 					"xpos"							"0"
 					"ypos"							"rs1"
@@ -399,7 +399,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"Light 8"
-					"fgcolor_override"				"WhiteDark"
+					"fgcolor"						"WhiteDark"
 					"textAlignment"					"south-west"
 					"labelText"						"%current_xp%"
 					"proportionaltoparent"			"1"
@@ -412,7 +412,7 @@
 
 				"NextLevelXPLabel"
 				{
-					"ControlName"					"Label"
+					"ControlName"					"CExLabel"
 					"fieldName"						"NextLevelXPLabel"
 					"xpos"							"rs1"
 					"ypos"							"rs1"
@@ -422,7 +422,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"Light 8"
-					"fgcolor_override"				"WhiteDark"
+					"fgcolor"						"WhiteDark"
 					"textAlignment"					"south-east"
 					"labelText"						"%next_level_xp%"
 					"proportionaltoparent"			"1"
@@ -552,7 +552,7 @@
 				// First column
 				"GamesLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"GamesLabel"
 					"xpos"								"10"
 					"ypos"								"0"
@@ -561,8 +561,8 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"font"								"Light 11"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_games%"
 					"proportionaltoparent"				"1"
@@ -570,7 +570,7 @@
 
 				"KillsLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"KillsLabel"
 					"xpos"								"10"
 					"ypos"								"10"
@@ -579,8 +579,8 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"font"								"Light 11"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_kills%"
 					"proportionaltoparent"				"1"
@@ -588,7 +588,7 @@
 
 				"DeathsLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"DeathsLabel"
 					"xpos"								"10"
 					"ypos"								"20"
@@ -597,8 +597,8 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"font"								"Light 11"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_deaths%"
 					"proportionaltoparent"				"1"
@@ -607,7 +607,7 @@
 				// Second column
 				"DamageLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"DamageLabel"
 					"xpos"								"c-20"
 					"ypos"								"0"
@@ -616,8 +616,8 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"font"								"Light 11"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_damage%"
 					"proportionaltoparent"				"1"
@@ -625,7 +625,7 @@
 
 				"HealingLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"HealingLabel"
 					"xpos"								"c-20"
 					"ypos"								"10"
@@ -634,8 +634,8 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"font"								"Light 11"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_healing%"
 					"proportionaltoparent"				"1"
@@ -643,7 +643,7 @@
 
 				"SupportLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"SupportLabel"
 					"xpos"								"c-20"
 					"ypos"								"20"
@@ -652,8 +652,8 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"font"								"Light 11"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_support%"
 					"proportionaltoparent"				"1"
@@ -662,7 +662,7 @@
 				// Third column
 				"ScoreLabel"
 				{
-					"ControlName"						"Label"
+					"ControlName"						"CExLabel"
 					"fieldName"							"ScoreLabel"
 					"xpos"								"rs1"
 					"ypos"								"0"
@@ -671,8 +671,8 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"HudFontSmallest"
-					"fgcolor_override"					"TanLight"
+					"font"								"Light 11"
+					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_score%"
 					"proportionaltoparent"				"1"

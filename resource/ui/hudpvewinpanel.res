@@ -42,13 +42,11 @@
 			"AllCaps"								"1"
 			"labelText"								"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"							"Center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 
 			// blue Background
 			"PaintBackgroundType" 					"0"
-			"fgcolor_override"						"Shadow"
+			"fgcolor"								"Shadow"
 			"bgcolor_override"						"Red"
 		}
 
@@ -88,8 +86,6 @@
 		"AllCaps"									"1"
 		"labelText"									"%WinReasonLabel%"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 	}
 
 	"DetailsLabel"
@@ -109,8 +105,6 @@
 		"AllCaps"									"1"
 		"labelText"									"%DetailsLabel%"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"wrap"										"1"
 		"centerwrap"								"1"
 	}

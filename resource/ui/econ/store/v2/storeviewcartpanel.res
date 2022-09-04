@@ -14,7 +14,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Main"
@@ -92,7 +91,7 @@
 
 			"quantitylabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldname"							"quantitylabel"
 				"font"								"Light 11"
 				"textAlignment"						"north-east"
@@ -106,7 +105,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"%quantity%"
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 			}
 
 			"SeparatorLine"
@@ -129,12 +128,9 @@
 				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
-				"tabPosition"						"0"
 				"labelText"							"#Store_Remove"
 				"font"								"Light 14"
 				"textAlignment"						"center"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"default"							"1"
 				"AllCaps"							"1"
 				"Command"							"remove"
@@ -154,7 +150,7 @@
 
 			"PriceLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldname"							"PriceLabel"
 				"font"								"Light 16"
 				"textAlignment"						"east"
@@ -168,7 +164,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"%price%"
-				"fgcolor_override" 					"WhiteDark"
+				"fgcolor"		 					"WhiteDark"
 			}
 		}
 	}
@@ -235,7 +231,7 @@
 
 		"EmptyCartLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"EmptyCartLabel"
 			"font"									"Light 24"
 			"labelText"								"#Store_CartIsEmpty"
@@ -250,7 +246,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor_override"						"Red"
+			"fgcolor"								"Red"
 		}
 
 		"ItemListContainerScroller"
@@ -397,7 +393,7 @@
 
 					"TotalPriceLabel"
 					{
-						"ControlName"				"Label"
+						"ControlName"				"CExLabel"
 						"fieldname"					"TotalPriceLabel"
 						"font"						"Light 16"
 						"textAlignment"				"east"
@@ -412,7 +408,7 @@
 						"enabled"					"1"
 						"AllCaps"					"1"
 						"labelText"					"%totalprice%"
-						"fgcolor_override" 			"RedDark"
+						"fgcolor"		 			"RedDark"
 					}
 
 				}
@@ -433,12 +429,9 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"Back"
 		"font"										"Light 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"AllCaps"									"1"
 		"Command"									"close"
@@ -479,12 +472,9 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"CHECKOUT"
 		"font"										"Light 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"0"
 		"Command"									"checkout"
 		"sound_depressed"							"UI/buttonclick.wav"

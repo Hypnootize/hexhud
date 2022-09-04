@@ -325,8 +325,6 @@
 			"enabled"								"1"
 			"labelText"								"%arenastreaktext%"
 			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
 
 			"pin_to_sibling"						"MidBG"
 			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
@@ -402,8 +400,6 @@
 		"AllCaps"									"1"
 		"labelText"									"%TopPlayersLabel%"
 		"textAlignment"								"west"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"fgcolor"									"OffWhite"
 
 		"pin_to_sibling" 							"ClassPlayedLabel"
@@ -425,8 +421,6 @@
 		"enabled"									"1"
 		"labelText"									"class:"
 		"textAlignment"								"west"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"fgcolor"									"OffWhite"
 		"AllCaps"									"1"
 
@@ -449,8 +443,6 @@
 		"enabled"									"1"
 		"labelText"									"#TF_Arena_Winpanel_DamageThisRound"
 		"textAlignment"								"west"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"fgcolor"									"OffWhite"
 		"AllCaps"									"1"
 
@@ -473,8 +465,6 @@
 		"enabled"									"1"
 		"labelText"									"#TF_Arena_Winpanel_HealingThisRound"
 		"textAlignment"								"west"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"fgcolor"									"OffWhite"
 		"AllCaps"									"1"
 
@@ -497,8 +487,6 @@
 		"enabled"									"1"
 		"labelText"									"#TF_Arena_Winpanel_TimeAliveThisRound"
 		"textAlignment"								"west"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"fgcolor"									"OffWhite"
 		"AllCaps"									"1"
 
@@ -523,8 +511,6 @@
 		"enabled"									"1"
 		"labelText"									"#TF_Arena_Winpanel_KillingBlows"
 		"textAlignment"								"west"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 
 		"pin_to_sibling" 							"LifetimeThisRoundLabel"
@@ -564,8 +550,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 			"alpha"									"255"
@@ -587,8 +571,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -609,8 +591,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 		}
@@ -627,8 +607,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -649,8 +627,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -671,8 +647,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -700,8 +674,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 			"alpha"									"255"
@@ -723,8 +695,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -745,8 +715,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -767,8 +735,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -789,8 +755,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -811,8 +775,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -840,8 +802,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 			"alpha"									"255"
@@ -863,8 +823,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -885,8 +843,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -907,8 +863,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -929,8 +883,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -951,8 +903,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -994,8 +944,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 			"alpha"									"255"
@@ -1017,8 +965,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1039,8 +985,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 		}
@@ -1057,8 +1001,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1079,8 +1021,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1101,8 +1041,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1130,8 +1068,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 			"alpha"									"255"
@@ -1153,8 +1089,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1175,8 +1109,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1197,8 +1129,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1219,8 +1149,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1241,8 +1169,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1270,8 +1196,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 			"alpha"									"255"
@@ -1293,8 +1217,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1315,8 +1237,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1337,8 +1257,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1359,8 +1277,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
@@ -1381,8 +1297,6 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 

@@ -8,7 +8,6 @@
 		"tall"										"180"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"1"
 	}
 
@@ -76,7 +75,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"ShowPrevButton"

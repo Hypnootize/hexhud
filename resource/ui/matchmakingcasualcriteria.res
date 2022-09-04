@@ -67,13 +67,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"d"
 			"font"									"Symbols 16"
 			"textAlignment"							"center"
 			"textinsety"							"-1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"restore_search_criteria"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -105,13 +102,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"e"
 			"font"									"Symbols 16"
 			"textAlignment"							"center"
 			"textinsety"							"-1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"save_search_criteria"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -143,13 +137,10 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"labelText"								"1"
 			"font"									"Symbols 16"
 			"textAlignment"							"center"
 			"textinsety"							"-1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"show_explanations"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -170,7 +161,7 @@
 
 		"SelectedCount"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"SelectedCount"
 			"xpos"									"5"
 			"ypos"									"0"
@@ -181,7 +172,7 @@
 			"labeltext"								"%selected_maps_count%"
 			"textAlignment"							"west"
 			"font"									"Light 14"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"AllCaps"								"1"
 
 			"mouseinputenabled"						"1"
@@ -189,7 +180,7 @@
 
 		"QueueEstimation"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"QueueEstimation"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -200,7 +191,7 @@
 			"labeltext"								"#TF_Casual_QueueEstimation"
 			"textAlignment"							"east"
 			"font"									"Light 14"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"AllCaps"								"1"
 			"visible"								"0"
 
@@ -209,7 +200,7 @@
 
 		"Title"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"Title"
 			"xpos"									"9999"
 		}

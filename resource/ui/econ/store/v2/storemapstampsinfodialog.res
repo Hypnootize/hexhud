@@ -13,7 +13,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
 
 	// Fullscreen background panel
@@ -118,12 +117,9 @@
 		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_BackCarat"
-		"font"										"HudFontSmallBold"
+		"font"										"Light 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"

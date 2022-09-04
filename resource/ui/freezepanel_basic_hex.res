@@ -48,7 +48,7 @@
 
 		"ItemLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ItemLabel"
 			"font"									"Light 10"
 			"xpos"									"10"
@@ -62,8 +62,6 @@
 			"enabled"								"1"
 			"labelText"								"#FreezePanel_Item"
 			"textAlignment"							"Left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 		}
 	}
 
@@ -143,7 +141,7 @@
 			"enabled"								"1"
 			"HealthBonusPosAdj"						"9"
 			"HealthDeathWarning"					"0.49"
-			"TFFont"								"HudFontSmall"
+			"TFFont"								"Light 14"
 			"HealthDeathWarningColor"				"HUDDeathWarning"
 			"TextColor"								"HudOffWhite"
 
@@ -238,7 +236,7 @@
 
 		"FreezeLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabel"
 			"xpos"									"9999"
 		}
@@ -292,9 +290,9 @@
 
 			"NemesisLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"NemesisLabel"
-				"font"								"HudFontMediumSmall"
+				"font"								"Light 18"
 				"xpos"								"134"
 				"ypos"								"10"
 				"zpos"								"6"
@@ -310,7 +308,7 @@
 
 			"NemesisLabel2"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"NemesisLabel2"
 				"font"								"Light 11"
 				"xpos"								"134"
@@ -371,7 +369,7 @@
 
 		"ScreenshotLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ScreenshotLabel"
 			"font"									"SpectatorKeyHints"
 			"xpos"									"40"
@@ -385,8 +383,6 @@
 			"enabled"								"1"
 			"labelText"								"%text%"
 			"textAlignment"							"west"
-			"dulltext"								"0"
-			"brighttext"							"0"
 		}
 	}
 }

@@ -10,7 +10,6 @@
 		"tall"					  					"480"
 		"visible"				  					"1"
 		"enabled"				  					"1"
-		"tabPosition"			  					"0"
 		"settitlebarvisible"	  					"0"
 		"paintbackground"							"0"
 	}
@@ -75,8 +74,6 @@
 		"labelText"									"#TF_WELCOME"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"dulltext"									"0"
-		"brighttext"								"1"
 		"font"										"Light 14"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"WhiteSolid"
@@ -123,7 +120,6 @@
 		"tall"										"214"
 		"visible"		 							"1"
 		"enabled"		 							"1"
-		"tabPosition"	 							"0"
 		"pin_to_sibling" 							"InfoBG"
 	}
 
@@ -138,12 +134,9 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"Continue"
 		"textAlignment"								"center"
 		"textinsety"								"1"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"command"									"okay"
 		"default"									"1"
@@ -199,7 +192,7 @@
 	}
 	"MessageTitle"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"MessageTitle"
 		"xpos"										"9999"
 	}

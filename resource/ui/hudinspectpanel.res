@@ -40,7 +40,7 @@
 
 		"ItemLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ItemLabel"
 			"font"									"Light 10"
 			"xpos"									"10"
@@ -52,8 +52,6 @@
 			"enabled"								"1"
 			"labelText"								"#FreezePanel_Item"
 			"textAlignment"							"Left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 		}
 	}
 }

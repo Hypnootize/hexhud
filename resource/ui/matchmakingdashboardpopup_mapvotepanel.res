@@ -40,11 +40,8 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"font"										"Light 11"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Command"									"select_map"
 		"proportionaltoparent"						"1"
 		"labeltext"									""
@@ -58,7 +55,7 @@
 
 	"VotesLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"VotesLabel"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1"
@@ -68,7 +65,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"Light 11"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"textAlignment"								"south"
 		"labelText"									"%votes%"
 		"proportionaltoparent"						"1"
@@ -77,7 +74,7 @@
 
 	"NameLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"NameLabel"
 		"xpos"										"0"
 		"ypos"										"5"
@@ -87,7 +84,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"Light 8"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 		"textAlignment"								"north"
 		"labelText"									"%mapname%"
 		"proportionaltoparent"						"1"

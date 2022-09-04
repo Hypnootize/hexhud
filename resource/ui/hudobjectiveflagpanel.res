@@ -318,8 +318,6 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"font"										"Light 6"
 		"fgcolor"									"WhiteDark"

@@ -12,7 +12,6 @@
 		"pinCorner"	          						"0"
 		"visible"		           					"1"
 		"enabled"		            				"1"
-		"tabPosition"								"0"
 
 		"medal_width"								"12"
 		"avatar_width"								"55"
@@ -568,7 +567,6 @@
 		"pinCorner"		        					"0"
 		"visible"		          					"1"
 		"enabled"		          					"1"
-		"tabPosition"	       						"0"
 		"autoresize"	        					"3"
 		"linespacing"       						"12"
 		"linegap"									"1"
@@ -593,7 +591,6 @@
 		"pinCorner"		        					"0"
 		"visible"		          					"1"
 		"enabled"		          					"1"
-		"tabPosition"	        					"0"
 		"autoresize"	        					"3"
 		"linespacing"       						"12"
 		"linegap"									"1"

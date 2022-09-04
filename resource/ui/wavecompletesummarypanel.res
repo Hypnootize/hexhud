@@ -47,7 +47,7 @@
 
 			// Red Background
 			"PaintBackgroundType" 					"0"
-			"fgcolor_override"						"Shadow"
+			"fgcolor"								"Shadow"
 			"bgcolor_override"						"Green"
 		}
 

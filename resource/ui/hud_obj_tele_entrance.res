@@ -12,7 +12,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
 
 	"Icon_Teleport_Entrance"
@@ -218,7 +217,6 @@
 		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
-			"font"									"Default"
 			"xpos"									"rs1-2"
 			"ypos"									"cs-0.5"
 			"zpos"									"10"
@@ -228,9 +226,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"textAlignment"							"Left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 		}
 
@@ -293,7 +288,6 @@
 				{
 					"ControlName"					"ContinuousProgressBar"
 					"fieldName"						"Recharge"
-					"font"							"Default"
 					"xpos"							"0"
 					"ypos"							"0"
 					"wide"							"f0"
@@ -302,9 +296,6 @@
 					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
-					"textAlignment"					"Left"
-					"dulltext"						"0"
-					"brighttext"					"0"
 					"bgcolor_override"				"WhiteDark"
 					"proportionaltoparent"			"1"
 				}
@@ -323,8 +314,6 @@
 					"labelText"						"Charge"
 					"textAlignment"					"center"
 					"AllCaps"						"1"
-					"dulltext"						"0"
-					"brighttext"					"0"
 					"fgcolor"						"Black"
 					"proportionaltoparent"			"1"
 					"pin_to_sibling" 				"Recharge"
@@ -357,8 +346,6 @@
 					"enabled"						"1"
 					"labelText"						"Used:"
 					"textAlignment"					"west"
-					"dulltext"						"0"
-					"brighttext"					"0"
 					"drawcolor"						"White"
 					"AllCaps"						"1"
 					"proportionaltoparent"			"1"
@@ -379,8 +366,6 @@
 					"enabled"						"1"
 					"labelText"						"%timesused%"
 					"textAlignment"					"west"
-					"dulltext"						"0"
-					"brighttext"					"0"
 					"drawcolor"						"White"
 					"proportionaltoparent"			"1"
 				}
@@ -390,7 +375,6 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
-				"font"								"Default"
 				"xpos"								"36"
 				"ypos"								"rs1-5"
 				"zpos"								"2"
@@ -398,9 +382,6 @@
 				"tall"								"6"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"Left"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"WhiteDark"
 			}
@@ -419,8 +400,6 @@
 				"labelText"							"Upgrade"
 				"textAlignment"						"center"
 				"AllCaps"							"1"
-				"dulltext"							"0"
-				"brighttext"						"0"
 				"fgcolor"							"Black"
 				"proportionaltoparent"				"1"
 				"pin_to_sibling" 					"Upgrade"

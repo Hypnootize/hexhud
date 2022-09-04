@@ -38,8 +38,6 @@
 		"enabled"									"1"
 		"labelText"									"#AnnotationPanel_Callout"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 	}
 	"ArrowIcon"
 	{
@@ -69,7 +67,5 @@
 		"enabled"									"1"
 		"labelText"									""
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 	}
 }

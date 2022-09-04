@@ -7,7 +7,6 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
 
 	"specgui"
@@ -27,7 +26,7 @@
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
 		"font"										"Light 12 Shadow"
-		"fgcolor_override"   						"White"
+		"fgcolor"		   						"White"
 		"AllCaps"   								"1"
 		"proportionaltoparent"   					"1"
 	}
@@ -89,7 +88,7 @@
 
 		"ItemLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"ItemLabel"
 			"font"									"Light 10"
 			"xpos"									"10"
@@ -101,8 +100,6 @@
 			"enabled"								"1"
 			"labelText"								"#FreezePanel_Item"
 			"textAlignment"							"Left"
-			"dulltext"								"0"
-			"brighttext"							"0"
 		}
 	}
 
@@ -136,7 +133,6 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
 	"BottomBar"
 	{
@@ -149,7 +145,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
-		"tabPosition"								"0"
 	}
 	"bottombarblank"
 	{
@@ -163,7 +158,6 @@
 		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"0"
 	}
 	"MapLabel"
 	{

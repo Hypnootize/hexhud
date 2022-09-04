@@ -28,19 +28,16 @@
 		"enabled"									"1"
 		"labelText"									"#TF_Ball"
 		"textAlignment"								"south"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"font"										"Light 7"
-		"fgcolor_override"							"White"
+		"fgcolor"									"White"
 	}
 
 	"ItemEffectMeter"
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
-		"font"										"Default"
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"zpos"										"2"
@@ -49,8 +46,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"proportionaltoparent"						"1"
 	}
 }

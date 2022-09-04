@@ -250,10 +250,10 @@
 
 	"TournamentBLUEStateLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentBLUEStateLabel"
 		"font"										"Light 9"
-		"fgcolor_override" 							"OffWhite"
+		"fgcolor" 									"OffWhite"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -336,10 +336,10 @@
 
 	"TournamentREDStateLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentREDStateLabel"
 		"font"										"Light 9"
-		"fgcolor_override" 							"OffWhite"
+		"fgcolor" 									"OffWhite"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -404,7 +404,7 @@
 
 	"TournamentInstructionsLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentInstructionsLabel"
 		"font"										"Light 9"
 		"fgcolor"									"White"
@@ -512,13 +512,13 @@
 
 	"TournamentBLUELabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentBLUELabel"
 		"xpos"										"9999"
 	}
 	"TournamentREDLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentREDLabel"
 		"xpos"										"9999"
 	}
@@ -530,7 +530,7 @@
 	}
 	"TournamentLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentLabel"
 		"xpos"										"9999"
 	}

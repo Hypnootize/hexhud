@@ -27,7 +27,7 @@
 
 		"Header"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"Header"
 			"labeltext"								"%header%"
 			"xpos"									"rs1"
@@ -35,7 +35,7 @@
 			"wide"									"500"
 			"tall"									"10"
 			"zpos"									"4"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"font"									"Light 10"
 			//"wrap"								"1"
 			"TextAlignment"							"east"
@@ -52,7 +52,7 @@
 			"wide"									"190"
 			"tall"									"8"
 			"zpos"									"4"
-			"fgcolor_override"						"White"
+			"fgcolor"								"White"
 			"font"									"Light 7"
 			//"wrap"								"1"
 			"TextAlignment"							"east"

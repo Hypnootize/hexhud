@@ -117,7 +117,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"image"									"../hud/hud_mvm_bomb_upgrade_1_disabled"
 			"scaleImage"							"1"
 		}
@@ -134,7 +133,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"image"									"../hud/hud_mvm_bomb_upgrade_2_disabled"
 			"scaleImage"							"1"
 		}
@@ -151,7 +149,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"image"									"../hud/hud_mvm_bomb_upgrade_3_disabled"
 			"scaleImage"							"1"
 		}
@@ -168,7 +165,6 @@
 			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"tabPosition"							"0"
 			"image"									"../hud/hud_mvm_bomb_upgrade_boss"
 			"scaleImage"							"1"
 		}

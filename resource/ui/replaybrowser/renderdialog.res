@@ -201,7 +201,6 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"fgcolor"									"White"
 	}
 
@@ -218,7 +217,6 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"fgcolor_override"							"WhiteDark"
 		"editable"									"0"
 	}
@@ -236,7 +234,6 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"fgcolor"									"WhiteDark"
 	}
 
@@ -253,7 +250,6 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"fgcolor_override"							"WhiteDark"
 		"editable"									"0"
 	}
@@ -271,7 +267,6 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"fgcolor"									"WhiteDark"
 	}
 
@@ -305,7 +300,6 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"fgcolor"									"WhiteDark"
 	}
 
@@ -341,7 +335,6 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 	}
 
 	"EstimateTimeLabel"
@@ -357,7 +350,6 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"fgcolor"									"WhiteDark"
 	}
 	"EstimateFileLabel"
@@ -373,7 +365,6 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"fgcolor"									"WhiteDark"
 	}
 
@@ -391,7 +382,6 @@
 		"tall"										"10"
 		"visible"									"0"
 		"enabled"									"1"
-		"tabPosition"								"10"
 		"fgcolor"									"WhiteDark"
 	}
 
@@ -413,7 +403,6 @@
 		"enabled"									"1"
 		"bgcolor_override"							"Black"
 		"fgcolor_override"							"WhiteDark"
-		"tabPosition"								"10"
 		"maxchars"									"255"
 	}
 
@@ -449,7 +438,6 @@
 		"tall"										"13"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 	}
 
 	"ExportRaw"
@@ -467,7 +455,6 @@
 		"tall"										"13"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 	}
 
 	"GlowEnabled"
@@ -485,7 +472,6 @@
 		"tall"										"13"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"10"
 	}
 
 	"LockWarningLabel"

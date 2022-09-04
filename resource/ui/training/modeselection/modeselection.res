@@ -45,7 +45,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"paintBackground"							"0"
 		"proportionaltoparent"						"1"
 
@@ -68,7 +67,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"paintBackground"							"0"
 		"proportionaltoparent"						"1"
 

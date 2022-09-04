@@ -51,7 +51,6 @@
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"StunMeter"
-		"font"										"Default"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"2"
@@ -59,7 +58,6 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Left"
 		"proportionaltoparent"						"1"
 		"fgcolor_override"							"255 255 0 255"
 		"bgcolor_override"							"50 0 0 255"

@@ -17,7 +17,7 @@
 
 	"TitleLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"font"										"Light 14"
 		"xpos"										"0"
@@ -39,7 +39,7 @@
 
 	"EllipsesLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"EllipsesLabel"
 		"font"										"Light 14"
 		"xpos"										"0"
@@ -59,7 +59,7 @@
 
 	"DurationLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"DurationLabel"
 		"font"										"Light 14"
 		"xpos"										"0"
@@ -90,12 +90,9 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Cancel"
 		"font"										"Light 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"user_close"
 		"AllCaps"									"1"

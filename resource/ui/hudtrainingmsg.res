@@ -19,7 +19,7 @@
 	}
 	"GoalLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"GoalLabel"
 		"font"										"Light 14"
 		"xpos"										"30"

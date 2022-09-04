@@ -19,7 +19,7 @@
 
 	"TitleLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"font"										"Light 24"
 		"xpos"										"0"
@@ -36,7 +36,7 @@
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override" 							"WhiteDark"
+		"fgcolor"		 							"WhiteDark"
 	}
 
 	"RecipeItemModelPanel"
@@ -90,12 +90,9 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#GameUI_Ok"
 		"font"										"Light 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"close"
 		"AllCaps"									"1"

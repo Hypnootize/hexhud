@@ -17,7 +17,7 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"visible"									"0"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"RecordInfoLabel"
@@ -31,7 +31,7 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"visible"									"0"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"ScoreBackgroundPanel"
@@ -56,6 +56,6 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"visible"									"0"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 }

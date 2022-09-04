@@ -12,7 +12,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 
 		"upgradebutton_xpos"						"37"
 		"upgradebutton_ypos"						"26"
@@ -87,7 +86,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
-		"tabPosition"								"0"
 
 		"scaleImage"								"1"
 
@@ -96,7 +94,7 @@
 
 	"PriceLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"PriceLabel"
 		"xpos"										"2"
 		"ypos"										"32"
@@ -107,7 +105,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 
 		"labelText"									""
 		"textAlignment"								"center"
@@ -116,7 +113,7 @@
 
 	"ShortDescriptionLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"ShortDescriptionLabel"
 		"xpos"										"37"
 		"ypos"										"4"
@@ -127,7 +124,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"wrap"										"1"
 
 		"labelText"									""
@@ -166,7 +162,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
-		"tabPosition"								"0"
 
 		"labelText"									""
 		"scaleImage"								"1"
@@ -200,7 +195,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
-		"tabPosition"								"0"
 
 		"labelText"									""
 		"scaleImage"								"1"

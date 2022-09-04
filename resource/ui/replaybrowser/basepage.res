@@ -26,7 +26,6 @@
 		"tall"										"17"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"unicode"									"1"
@@ -52,7 +51,7 @@
 		"textAlignment"								"west"
 		"textinsetx"								"10"
 		"labeltext"									"q"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"paintbackground"							"1"
 		"bgcolor_override"							"GrayBlueDark"
 

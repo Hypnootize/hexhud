@@ -58,7 +58,7 @@
 
 			"DescLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"DescLabel"
 				"xpos"								"0"
 				"ypos"								"3"
@@ -68,7 +68,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Light 12"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"center"
 				"labelText"							"#TF_Matchmaking_RollingQueue_NextMapWinner"
 				"proportionaltoparent"				"1"
@@ -103,7 +103,7 @@
 
 			"NameLabel"
 			{
-				"ControlName"						"Label"
+				"ControlName"						"CExLabel"
 				"fieldName"							"NameLabel"
 				"xpos"								"0"
 				"ypos"								"rs1-2"
@@ -113,7 +113,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Light 12"
-				"fgcolor_override"					"White"
+				"fgcolor"							"White"
 				"textAlignment"						"south"
 				"labelText"							"%mapname%"
 				"proportionaltoparent"				"1"

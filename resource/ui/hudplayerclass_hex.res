@@ -243,8 +243,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"North-West"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"auto_wide_tocontents"					"1"
 			"labelText"								"%carrying%"
@@ -252,7 +250,7 @@
 
 		"OwnerLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"OwnerLabel"
 			"font"									"Light 9"
 			"xpos"									"3"
@@ -263,8 +261,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"North-West"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"proportionaltoparent"					"1"
 			"auto_wide_tocontents"					"1"
 			"alpha"									"255"

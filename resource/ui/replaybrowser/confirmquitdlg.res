@@ -74,7 +74,6 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Replay_RenderNow"
 		"font"										"Light 11"
 		"textAlignment"								"center"

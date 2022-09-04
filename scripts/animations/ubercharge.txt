@@ -8,11 +8,6 @@ event HudMedicCharged
 	RunEvent HudMedicChargedLoop				0.7
 }
 
-event HudMedicChargedLoop
-{
-	RunEvent HudMedicCharged 					0.0
-}
-
 event HudMedicChargedStop
 {
 	StopEvent HudMedicCharged 					0.0

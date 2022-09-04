@@ -64,7 +64,7 @@
 			"FieldName"								"DateTimeLabel"
 			"Font"									"Light 11"
 			"TextAlignment"							"west"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"xpos"									"0"
 			"ypos"									"27"
 			"wide"									"160"

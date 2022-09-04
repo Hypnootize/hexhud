@@ -40,11 +40,8 @@
 		"tall"										"10"
 		"visible" 									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									""
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"Default"									"0"
 		"proportionaltoparent" 						"1"
 	}

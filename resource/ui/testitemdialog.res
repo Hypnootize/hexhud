@@ -91,12 +91,9 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#IT_SelectModel"
 		"font"										"Light 11"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"select_model"
 		"AllCaps"									"1"
@@ -161,7 +158,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"1"
 			"textHidden"							"0"
 			"editable"								"0"
 			"maxchars"								"-1"
@@ -233,7 +229,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"1"
 			"textHidden"							"0"
 			"editable"								"0"
 			"maxchars"								"-1"
@@ -349,8 +344,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
 
@@ -371,8 +364,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
 
@@ -393,8 +384,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
 
@@ -415,8 +404,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
 
@@ -437,8 +424,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
 
@@ -459,8 +444,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
 
@@ -481,8 +464,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
 
@@ -503,8 +484,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"dulltext"								"0"
-			"brighttext"							"0"
 			"disabledfgcolor2_override"				"WhiteDark"
 		}
 	}
@@ -554,7 +533,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"1"
 			"textHidden"							"0"
 			"editable"								"0"
 			"maxchars"								"-1"
@@ -614,7 +592,6 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"tabPosition"							"1"
 			"textHidden"							"0"
 			"editable"								"0"
 			"maxchars"								"-1"
@@ -655,12 +632,9 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Cancel"
 		"font"										"Light 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"cancel"
 		"AllCaps"									"1"
@@ -690,12 +664,9 @@
 		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"0"
-		"tabPosition"								"0"
 		"labelText"									"#GameUI_Ok"
 		"font"										"Light 14"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"ok"
 		"AllCaps"									"1"

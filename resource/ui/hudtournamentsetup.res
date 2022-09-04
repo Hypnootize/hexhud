@@ -101,7 +101,6 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"textHidden"								"0"
 		"editable"									"1"
 		"maxchars"									"6"
