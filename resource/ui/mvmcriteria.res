@@ -159,7 +159,7 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor_override"						"WhiteDark"
 			"mouseinputenabled"						"0"
 			"proportionaltoparent"					"1"
 		}
