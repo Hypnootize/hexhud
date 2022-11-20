@@ -302,7 +302,7 @@
 		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"Open Backpack"
+		"labelText"									"%loadouttext%"
 		"font"										"Light 12"
 		"textAlignment"								"center"
 		"Command"									"changeloadout"
