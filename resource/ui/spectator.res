@@ -26,7 +26,7 @@
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
 		"font"										"Light 12 Shadow"
-		"fgcolor"		   						"White"
+		"fgcolor"		   							"White"
 		"AllCaps"   								"1"
 		"proportionaltoparent"   					"1"
 	}
