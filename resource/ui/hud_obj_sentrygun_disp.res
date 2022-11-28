@@ -306,36 +306,30 @@
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"WhiteDark"
 			}
-			"ShellsLabel"
+			"ShellIcon"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"ShellsLabel"
-				"font"								"Light 7"
+				"ControlName"						"ImagePanel"
+				"fieldName"							"ShellIcon"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"1"
-				"wide"								"35"
+				"wide"								"25"
 				"tall"								"6"
 				"visible"							"1"
 				"enabled"							"1"
-				"labelText"							"Ammo"
-				"textAlignment"						"center"
-				"AllCaps"							"1"
-				"fgcolor"							"Black"
-				"proportionaltoparent"				"1"
+				"scaleImage"						"1"
+				"image"								"replay/thumbnails/misc/buildingstatus_ammo"
+				"drawcolor"							"Black"
+
 				"pin_to_sibling" 					"Shells"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 
 			"KillIcon"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"KillIcon"
-				"xpos"								"9999"
-			}
-			"ShellIcon"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"ShellIcon"
 				"xpos"								"9999"
 			}
 		}

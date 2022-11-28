@@ -274,31 +274,24 @@
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"WhiteDark"
 			}
-			"UpgradeLabel"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"UpgradeLabel"
-				"font"								"Light 7"
-				"xpos"								"0"
-				"ypos"								"0"
-				"zpos"								"3"
-				"wide"								"35"
-				"tall"								"6"
-				"visible"							"0"
-				"enabled"							"1"
-				"labelText"							"Upgrade"
-				"textAlignment"						"center"
-				"AllCaps"							"1"
-				"fgcolor"							"Black"
-				"proportionaltoparent"				"1"
-				"pin_to_sibling" 					"Upgrade"
-			}
-
 			"UpgradeIcon"
 			{
 				"ControlName"						"CIconPanel"
 				"fieldName"							"UpgradeIcon"
-				"xpos"								"9999"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"3"
+				"wide"								"25"
+				"tall"								"6"
+				"visible"							"1"
+				"enabled"							"1"
+				"scaleImage"						"1"
+				"icon"								"ico_metal"
+				"iconColor"							"Black"
+
+				"pin_to_sibling" 					"Upgrade"
+				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 		}
 	}
