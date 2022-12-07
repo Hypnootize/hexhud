@@ -214,7 +214,7 @@
 			"enabled"								"1"
 			"labelText"								"#ControlPointIconCappers"
 			"textAlignment"							"center"
-			"fgcolor"								"white"
+			"fgcolor"								"BlackBlue"
 			"paintbackground"						"0"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
@@ -244,7 +244,7 @@
 			"enabled"								"1"
 			"labelText"								"%recede%"
 			"textAlignment"							"center"
-			"fgcolor"								"Black"
+			"fgcolor"								"BlackBlue"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 
@@ -270,7 +270,7 @@
 			"tall"									"6"
 			"visible"								"0"
 			"enabled"								"1"
-			"labelText"								""
+			"drawcolor"								"BlackBlue"
 			"image"									"replay\thumbnails\cart_icons\cart_arrow_left"
 			"scaleImage"							"1"
 
