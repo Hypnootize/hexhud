@@ -5,6 +5,8 @@
 		"ControlName"								"Frame"
 		"fieldName"									"Spectator"
 		"tall"										"480"
+		"autoResize"								"0"
+		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 	}
@@ -17,10 +19,12 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ReinforcementsLabel"
-		"xpos"										"cs-0.5"
+		"xpos"										"c-100"
 		"ypos"										"50"
-		"wide"										"f0"
+		"wide"										"200"
 		"tall"										"20"
+		"autoResize"								"0"
+		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#game_respawntime_in_secs"
@@ -28,7 +32,6 @@
 		"font"										"Light 12 Shadow"
 		"fgcolor"		   							"White"
 		"AllCaps"   								"1"
-		"proportionaltoparent"   					"1"
 	}
 
 	"BuyBackLabel"
