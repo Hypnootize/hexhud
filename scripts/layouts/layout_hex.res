@@ -157,6 +157,14 @@
 		"pin_to_sibling"							"BuildingAnchor"
 	}
 
+	"CurrencyStatusPanel"
+	{
+		"xpos"										"0"
+		"ypos"										"rs1"
+		"wide"										"36"
+		"tall"										"14"
+	}
+
 	"HudDeathNotice"
 	{
 		"xpos"	 									"rs1-5"
