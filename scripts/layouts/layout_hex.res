@@ -160,7 +160,9 @@
 	"CurrencyStatusPanel"
 	{
 		"xpos"										"0"
+		"xpos_minmode"								"0"
 		"ypos"										"rs1"
+		"ypos_minmode"								"rs1"
 		"wide"										"36"
 		"tall"										"14"
 	}
