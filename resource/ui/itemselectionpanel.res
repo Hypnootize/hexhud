@@ -49,14 +49,19 @@
 		{
 			"wide"									"92"
 			"tall"									"72"
-			"model_xpos"							"2"
+
+			"model_center_x"						"1"
+			"model_center_y"						"0"
+			"model_xpos"							"0"
+			"model_ypos"							"3"
 			"model_wide"							"75"
 			"model_tall"							"50"
-			"model_center_x"						"1"
+
 			"text_ypos"								"0"
 			"text_forcesize"						"2"
 			"text_center"							"0"
 			"text_yoffset"							"2"
+
 			"inset_eq_y"							"60"
 			"inset_eq_x"							"80"
 
@@ -95,10 +100,13 @@
 			"PaintBackgroundType"					"0"
 			"paintborder"							"1"
 
-			"model_xpos"							"2"
-			"model_ypos"							"5"
-			"model_wide"							"50"
-			"model_tall"							"35"
+			"model_center_x"						"1"
+			"model_center_y"						"1"
+			"model_xpos"							"0"
+			"model_ypos"							"0"
+			"model_wide"							"45"
+			"model_tall"							"30"
+
 			"text_ypos"								"60"
 			"text_center"							"1"
 			"name_only"								"1"

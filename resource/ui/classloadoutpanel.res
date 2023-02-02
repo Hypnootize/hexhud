@@ -67,9 +67,12 @@
 			"paintborder"							"1"
 
 			"model_center_x"						"1"
-			"model_ypos"							"4"
+			"model_center_y"						"0"
+			"model_xpos"							"0"
+			"model_ypos"							"3"
 			"model_tall"							"52"
 			"model_wide"							"78"
+
 			"text_ypos"								"53"
 			"text_center"							"1"
 			"name_only"								"1"
@@ -85,6 +88,7 @@
 				"use_item_rendertarget" 			"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
+				"useparentbg"						"0"
 			}
 
 			"ItemBackground"
