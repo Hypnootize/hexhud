@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"10"
 				"antialias"							"1"
 			}
@@ -15,7 +15,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"12"
 				"antialias"							"1"
 			}
@@ -24,7 +24,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"14"
 				"antialias"							"1"
 			}
@@ -33,7 +33,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"14"
 				"antialias"							"1"
 				"blur"								"2"
@@ -43,7 +43,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"16"
 				"antialias"							"1"
 			}
@@ -52,7 +52,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"18"
 				"antialias"							"1"
 			}
@@ -61,7 +61,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"18"
 				"antialias"							"1"
 				"blur"								"2"
@@ -71,7 +71,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"20"
 				"antialias"							"1"
 			}
@@ -80,7 +80,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"22"
 				"antialias"							"1"
 			}
@@ -89,7 +89,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"24"
 				"antialias"							"1"
 			}
@@ -98,7 +98,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"26"
 				"antialias"							"1"
 			}
@@ -107,7 +107,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"30"
 				"antialias"							"1"
 			}
@@ -116,7 +116,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx5"
+				"name"								"Hypnotize Icons HEx6"
 				"tall"								"34"
 				"antialias"							"1"
 			}
@@ -139,7 +139,7 @@
 		"30"
 		{
 			"font" "resource/scheme/fonts/Hypnotize Icons.ttf"
-			"name" "Hypnotize Icons HEx5"
+			"name" "Hypnotize Icons HEx6"
 		}
 
 		"31"

@@ -1369,10 +1369,10 @@
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
-	"HUDS.TF"
+	"ComfigHUDs"
 	{
 		"ControlName"								"URLLabel"
-		"fieldname"									"HUDS.TF"
+		"fieldname"									"ComfigHUDs"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"16"
@@ -1381,10 +1381,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"labelText"									"Q"
+		"labelText"									"c"
 		"font"										"Symbols 18"
 		"textAlignment"								"center"
-		"urlText"									"https://huds.tf/site/s-HExHUD--3435"
+		"urlText"									"https://comfig.app/huds/page/hexhud"
 		"FgColor_override" 							"GrayBlueLight"
 
 		"pin_to_sibling" 							"HUDWiki"
@@ -1410,7 +1410,7 @@
 		"urlText"									"https://gamebanana.com/mods/298232"
 		"FgColor_override" 							"GrayBlueLight"
 
-		"pin_to_sibling" 							"HUDS.TF"
+		"pin_to_sibling" 							"ComfigHUDs"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
