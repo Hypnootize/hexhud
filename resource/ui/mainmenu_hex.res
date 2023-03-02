@@ -1392,6 +1392,29 @@
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
+	"TF2HUDs"
+	{
+		"ControlName"								"URLLabel"
+		"fieldname"									"TF2HUDs"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"16"
+		"wide"										"18"
+		"tall"										"18"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"!"
+		"font"										"Symbols 18"
+		"textAlignment"								"center"
+		"urlText"									"https://tf2huds.dev/hud/HExHUD"
+		"FgColor_override" 							"GrayBlueLight"
+
+		"pin_to_sibling" 							"ComfigHUDs"
+		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+
 	"GameBanana"
 	{
 		"ControlName"								"URLLabel"
@@ -1410,7 +1433,7 @@
 		"urlText"									"https://gamebanana.com/mods/298232"
 		"FgColor_override" 							"GrayBlueLight"
 
-		"pin_to_sibling" 							"ComfigHUDs"
+		"pin_to_sibling" 							"TF2HUDs"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
