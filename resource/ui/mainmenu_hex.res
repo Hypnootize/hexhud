@@ -34,11 +34,8 @@
 				"ypos"								"0"
 				"wide"								"150"
 				"tall"								"14"
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
-				"use_proportional_insets" 			"1"
 				"font"								"Light 15"
 				"AllCaps"							"1"
 				"textAlignment"						"west"
@@ -97,7 +94,7 @@
 			}
 		}
 	}
-	
+
 	"MainMenuBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -157,8 +154,9 @@
 			"tall"									"150"
 			"visible"								"1"
 			"enabled"								"1"
-			"scaleImage"							"1"
+			"mouseinputenabled"						"0"
 			"proportionaltoparent"					"1"
+			"scaleImage"							"1"
 			"image"									"replay/thumbnails/main_menu/servers"
 		}
 
@@ -173,6 +171,7 @@
 			"tall"									"2"
 			"visible"								"1"
 			"enabled"								"1"
+			"mouseinputenabled"						"0"
 			"painbackground"						"1"
 			"painbackgroundtype"					"0"
 			"bgcolor_override"						"White"
@@ -187,10 +186,9 @@
 			"ypos"									"0"
 			"wide"									"150"
 			"tall"									"176"
-			"zpos"									"14"
+			"zpos"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
 			"font"									"Light 18"
 			"AllCaps"								"1"
 			"textAlignment"							"south"
@@ -204,11 +202,11 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
 			"image_drawcolor"						"0 0 0 0"
-			"image_armedcolor"						"220 222 225 255"
+			"image_armedcolor"						"255 255 255 255"
 
 			"SubImage"
 			{
@@ -222,7 +220,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/main_menu/servers_gif"
+				"image"								"replay/thumbnails/main_menu/hexgif"
 				"proportionaltoparent"				"1"
 			}
 		}
@@ -255,6 +253,7 @@
 			"tall"									"150"
 			"visible"								"1"
 			"enabled"								"1"
+			"mouseinputenabled"						"0"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/items"
@@ -271,6 +270,7 @@
 			"tall"									"2"
 			"visible"								"1"
 			"enabled"								"1"
+			"mouseinputenabled"						"0"
 			"painbackground"						"1"
 			"painbackgroundtype"					"0"
 			"bgcolor_override"						"White"
@@ -285,10 +285,9 @@
 			"ypos"									"0"
 			"wide"									"150"
 			"tall"									"176"
-			"zpos"									"14"
+			"zpos"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
 			"font"									"Light 18"
 			"AllCaps"								"1"
 			"textAlignment"							"south"
@@ -302,8 +301,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
@@ -320,7 +319,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/main_menu/items_gif"
+				"image"								"replay/thumbnails/main_menu/hexgif"
 				"proportionaltoparent"				"1"
 			}
 		}
@@ -350,6 +349,7 @@
 			"tall"									"150"
 			"visible"								"1"
 			"enabled"								"1"
+			"mouseinputenabled"						"0"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/store"
@@ -366,6 +366,7 @@
 			"tall"									"2"
 			"visible"								"1"
 			"enabled"								"1"
+			"mouseinputenabled"						"0"
 			"painbackground"						"1"
 			"painbackgroundtype"					"0"
 			"bgcolor_override"						"White"
@@ -380,10 +381,9 @@
 			"ypos"									"0"
 			"wide"									"150"
 			"tall"									"176"
-			"zpos"									"14"
+			"zpos"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
 			"font"									"Light 18"
 			"AllCaps"								"1"
 			"textAlignment"							"south"
@@ -397,8 +397,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
@@ -415,7 +415,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/main_menu/store_gif"
+				"image"								"replay/thumbnails/main_menu/hexgif"
 				"proportionaltoparent"				"1"
 			}
 		}
@@ -448,6 +448,7 @@
 			"tall"									"150"
 			"visible"								"1"
 			"enabled"								"1"
+			"mouseinputenabled"						"0"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/settings"
@@ -464,6 +465,7 @@
 			"tall"									"2"
 			"visible"								"1"
 			"enabled"								"1"
+			"mouseinputenabled"						"0"
 			"painbackground"						"1"
 			"painbackgroundtype"					"0"
 			"bgcolor_override"						"White"
@@ -478,10 +480,9 @@
 			"ypos"									"0"
 			"wide"									"150"
 			"tall"									"176"
-			"zpos"									"14"
+			"zpos"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
 			"font"									"Light 18"
 			"AllCaps"								"1"
 			"textAlignment"							"south"
@@ -495,8 +496,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
@@ -513,7 +514,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/main_menu/settings_gif"
+				"image"								"replay/thumbnails/main_menu/hexgif"
 				"proportionaltoparent"				"1"
 			}
 		}
@@ -546,6 +547,7 @@
 			"tall"									"150"
 			"visible"								"1"
 			"enabled"								"1"
+			"mouseinputenabled"						"0"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/quit"
@@ -562,6 +564,7 @@
 			"tall"									"2"
 			"visible"								"1"
 			"enabled"								"1"
+			"mouseinputenabled"						"0"
 			"painbackground"						"1"
 			"painbackgroundtype"					"0"
 			"bgcolor_override"						"White"
@@ -576,10 +579,9 @@
 			"ypos"									"0"
 			"wide"									"150"
 			"tall"									"176"
-			"zpos"									"14"
+			"zpos"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
 			"font"									"Light 18"
 			"AllCaps"								"1"
 			"textAlignment"							"south"
@@ -593,8 +595,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
@@ -611,7 +613,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/main_menu/quit_gif"
+				"image"								"replay/thumbnails/main_menu/hexgif"
 				"proportionaltoparent"				"1"
 			}
 		}
@@ -644,6 +646,7 @@
 			"tall"									"150"
 			"visible"								"1"
 			"enabled"								"1"
+			"mouseinputenabled"						"0"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/quit"
@@ -660,6 +663,7 @@
 			"tall"									"2"
 			"visible"								"1"
 			"enabled"								"1"
+			"mouseinputenabled"						"0"
 			"painbackground"						"1"
 			"painbackgroundtype"					"0"
 			"bgcolor_override"						"White"
@@ -674,10 +678,9 @@
 			"ypos"									"0"
 			"wide"									"150"
 			"tall"									"176"
-			"zpos"									"14"
+			"zpos"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
 			"font"									"Light 18"
 			"AllCaps"								"1"
 			"textAlignment"							"south"
@@ -691,8 +694,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
@@ -709,7 +712,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/main_menu/quit_gif"
+				"image"								"replay/thumbnails/main_menu/hexgif"
 				"proportionaltoparent"				"1"
 			}
 		}

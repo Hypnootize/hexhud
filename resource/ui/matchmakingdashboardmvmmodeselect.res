@@ -50,30 +50,13 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
-		"Separator"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"Separator"
-			"xpos"									"cs-0.5"
-			"ypos"									"rs1-27"
-			"zpos"									"0"
-			"wide"									"66"
-			"tall"									"2"
-			"visible"								"1"
-			"enabled"								"1"
-			"painbackground"						"1"
-			"painbackgroundtype"					"0"
-			"bgcolor_override"						"White"
-			"proportionaltoparent"					"1"
-		}
-
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
 			"fieldName"								"SubButton"
 			"xpos"									"0"
 			"ypos"									"0"
-			"zpos"									"6"
+			"zpos"									"0"
 			"wide"									"f0"
 			"tall"									"f0"
 			"visible"								"1"
@@ -95,11 +78,11 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
-			"image_drawcolor"						"255 255 255 255"
-			"image_armedcolor"						"225 225 225 255"
+			"image_drawcolor"						"0 0 0 0"
+			"image_armedcolor"						"255 255 255 255"
 
 			"SubImage"
 			{
@@ -113,9 +96,44 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/mm_menu/mannup"
+				"image"								"replay/thumbnails/main_menu/hexgif"
 				"proportionaltoparent"				"1"
 			}
+		}
+
+		"MannUpImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"MannUpImage"
+			"xpos"									"cs-0.5"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"150"
+			"tall"									"150"
+			"visible"								"1"
+			"enabled"								"1"
+			"mouseinputenabled"						"0"
+			"scaleImage"							"1"
+			"image"									"replay/thumbnails/mm_menu/mannup"
+			"proportionaltoparent"					"1"
+		}
+
+		"Separator"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Separator"
+			"xpos"									"cs-0.5"
+			"ypos"									"rs1-27"
+			"zpos"									"1"
+			"wide"									"66"
+			"tall"									"2"
+			"visible"								"1"
+			"enabled"								"1"
+			"mouseinputenabled"						"0"
+			"painbackground"						"1"
+			"painbackgroundtype"					"0"
+			"bgcolor_override"						"White"
+			"proportionaltoparent"					"1"
 		}
 
 		"PlayForBraggingRightsExplanation"
@@ -134,12 +152,6 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"DropShadow"
-			"xpos"									"9999"
-		}
-		"MannUpImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"MannUpImage"
 			"xpos"									"9999"
 		}
 		"Gradient"
@@ -186,30 +198,13 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
-		"Separator"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"Separator"
-			"xpos"									"cs-0.5"
-			"ypos"									"rs1-27"
-			"zpos"									"0"
-			"wide"									"66"
-			"tall"									"2"
-			"visible"								"1"
-			"enabled"								"1"
-			"painbackground"						"1"
-			"painbackgroundtype"					"0"
-			"bgcolor_override"						"White"
-			"proportionaltoparent"					"1"
-		}
-
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
 			"fieldName"								"SubButton"
 			"xpos"									"0"
 			"ypos"									"0"
-			"zpos"									"6"
+			"zpos"									"0"
 			"wide"									"f0"
 			"tall"									"f0"
 			"visible"								"1"
@@ -230,11 +225,11 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
-			"image_drawcolor"						"255 255 255 255"
-			"image_armedcolor"						"225 225 225 255"
+			"image_drawcolor"						"0 0 0 0"
+			"image_armedcolor"						"255 255 255 255"
 
 			"SubImage"
 			{
@@ -248,9 +243,44 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/mm_menu/bootcamp"
+				"image"								"replay/thumbnails/main_menu/hexgif"
 				"proportionaltoparent"				"1"
 			}
+		}
+
+		"BootCampImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"BootCampImage"
+			"xpos"									"cs-0.5"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"150"
+			"tall"									"150"
+			"visible"								"1"
+			"enabled"								"1"
+			"mouseinputenabled"						"0"
+			"scaleImage"							"1"
+			"image"									"replay/thumbnails/mm_menu/bootcamp"
+			"proportionaltoparent"					"1"
+		}
+
+		"Separator"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Separator"
+			"xpos"									"cs-0.5"
+			"ypos"									"rs1-27"
+			"zpos"									"1"
+			"wide"									"66"
+			"tall"									"2"
+			"visible"								"1"
+			"enabled"								"1"
+			"mouseinputenabled"						"0"
+			"painbackground"						"1"
+			"painbackgroundtype"					"0"
+			"bgcolor_override"						"White"
+			"proportionaltoparent"					"1"
 		}
 
 		"PracticeButton"
@@ -263,12 +293,6 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"DropShadow"
-			"xpos"									"9999"
-		}
-		"BootcampImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"BootcampImage"
 			"xpos"									"9999"
 		}
 		"Gradient"

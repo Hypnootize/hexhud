@@ -194,10 +194,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"TeamBlue"
 		"xpos"										"0"
-		"ypos"										"-4"
+		"ypos"										"5"
 		"zpos"										"15"
 		"wide"										"150"
-		"tall"										"130"
+		"tall"										"150"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -213,10 +213,9 @@
 			"ypos"									"0"
 			"wide"									"f0"
 			"tall"									"f0"
-			"zpos"									"14"
+			"zpos"									"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
 			"font"									"Light 18"
 			"AllCaps"								"1"
 			"labeltext"								""
@@ -234,8 +233,8 @@
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
 
-			"image_drawcolor"						"255 255 255 255"
-			"image_armedcolor"						"220 222 225 255"
+			"image_drawcolor"						"0 0 0 0"
+			"image_armedcolor"						"255 255 255 255"
 
 			"SubImage"
 			{
@@ -249,9 +248,26 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/teams/team_blue"
+				"image"								"replay/thumbnails/main_menu/hexglow"
 				"proportionaltoparent"				"1"
 			}
+		}
+
+		"BlueImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"BlueImage"
+			"xpos"									"cs-0.5"
+			"ypos"									"cs-0.5"
+			"zpos"									"1"
+			"wide"									"150"
+			"tall"									"150"
+			"visible"								"1"
+			"enabled"								"1"
+			"mouseinputenabled"						"0"
+			"scaleImage"							"1"
+			"image"									"replay/thumbnails/teams/team_blue"
+			"proportionaltoparent"					"1"
 		}
 	}
 
@@ -260,10 +276,10 @@
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"BlueCount"
 		"xpos"			  							"0"
-		"ypos"			  							"0"
+		"ypos"			  							"-20"
 		"zpos"			  							"99"
-		"wide"			  							"120"
-		"tall"			  							"120"
+		"wide"			  							"50"
+		"tall"			  							"25"
 		"visible"		  							"1"
 		"enabled"		  							"1"
 		"labelText"		  							"%bluecount%"
@@ -273,8 +289,8 @@
 		"mouseinputenabled"							"0"
 
 		"pin_to_sibling"							"TeamBlue"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	"BlueCountShadow"
 	{
@@ -283,8 +299,8 @@
 		"xpos"			  							"-1"
 		"ypos"			  							"-1"
 		"zpos"			  							"98"
-		"wide"			  							"120"
-		"tall"			  							"120"
+		"wide"			  							"50"
+		"tall"			  							"25"
 		"visible"		  							"1"
 		"enabled"		  							"1"
 		"labelText"		  							"%bluecount%"
@@ -300,10 +316,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"TeamRed"
 		"xpos"										"0"
-		"ypos"										"-4"
+		"ypos"										"5"
 		"zpos"										"15"
 		"wide"										"150"
-		"tall"										"130"
+		"tall"										"150"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -319,7 +335,7 @@
 			"ypos"									"0"
 			"wide"									"f0"
 			"tall"									"f0"
-			"zpos"									"14"
+			"zpos"									"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets" 				"1"
@@ -340,8 +356,8 @@
 			"armedFgColor_override"					"WhiteDark"
 			"depressedFgColor_override"				"WhiteDark"
 
-			"image_drawcolor"						"255 255 255 255"
-			"image_armedcolor"						"220 222 225 255"
+			"image_drawcolor"						"0 0 0 0"
+			"image_armedcolor"						"255 255 255 255"
 
 			"SubImage"
 			{
@@ -355,9 +371,26 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/teams/team_red"
+				"image"								"replay/thumbnails/main_menu/hexglow"
 				"proportionaltoparent"				"1"
 			}
+		}
+
+		"RedImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"RedImage"
+			"xpos"									"cs-0.5"
+			"ypos"									"cs-0.5"
+			"zpos"									"1"
+			"wide"									"150"
+			"tall"									"150"
+			"visible"								"1"
+			"enabled"								"1"
+			"mouseinputenabled"						"0"
+			"scaleImage"							"1"
+			"image"									"replay/thumbnails/teams/team_red"
+			"proportionaltoparent"					"1"
 		}
 	}
 
@@ -366,10 +399,10 @@
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"RedCount"
 		"xpos"			  							"0"
-		"ypos"			  							"0"
+		"ypos"			  							"-20"
 		"zpos"			  							"99"
-		"wide"			  							"120"
-		"tall"			  							"120"
+		"wide"			  							"50"
+		"tall"			  							"25"
 		"visible"		  							"1"
 		"enabled"		  							"1"
 		"labelText"		  							"%redcount%"
@@ -379,8 +412,8 @@
 		"mouseinputenabled"							"0"
 
 		"pin_to_sibling"							"TeamRed"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	"RedCountShadow"
 	{
@@ -389,8 +422,8 @@
 		"xpos"			  							"-1"
 		"ypos"			  							"-1"
 		"zpos"			  							"98"
-		"wide"			  							"120"
-		"tall"			  							"120"
+		"wide"			  							"50"
+		"tall"			  							"25"
 		"visible"		  							"1"
 		"enabled"		  							"1"
 		"labelText"		  							"%redcount%"

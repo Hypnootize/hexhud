@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"$baseTexture"									"vgui\replay\thumbnails\main_menu\hexgif"
+	"$vertexcolor"									"1"
+	"$vertexalpha"									"1"
+	"$nolod"										"1"
+	"$translucent"									"1"
+	
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"					"$basetexture"
+			"animatedtextureframenumvar"			"$frame"
+			"animatedtextureframerate"				"24"
+		}
+	}
+}
