@@ -106,6 +106,11 @@
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 
+		"image_box"									"replay/thumbnails/misc/chalkboard_scroll_box"
+		"image_line"								"replay/thumbnails/misc/chalkboard_scroll_line"
+		"image_down_arrow"							"replay/thumbnails/misc/chalkboard_scroll_down"
+		"image_up_arrow"							"replay/thumbnails/misc/chalkboard_scroll_up"
+
 		"pin_to_sibling" 							"InfoBG"
 	}
 
