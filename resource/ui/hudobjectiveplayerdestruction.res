@@ -19,7 +19,6 @@
 		"robot_x_step"								"23"
 		"robot_y_step"								"0"
 
-
 		"color_blue"								"140 180 210 255"
 		"color_red"									"250 100 100 255"
 
