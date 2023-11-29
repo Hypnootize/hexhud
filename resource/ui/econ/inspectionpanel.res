@@ -753,7 +753,7 @@
 			"fgcolor_override"						"WhiteDark"
 			"paintbackground"						"1"
 			"bgcolor_override"						"BlackBlue"
-			"maxchars"								"18"
+			"maxchars"								"20"
 
 			"fixed_item"
 			{
