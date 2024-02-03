@@ -7,8 +7,6 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"bgcolor_override"							"Background_Secondary"

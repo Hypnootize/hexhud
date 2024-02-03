@@ -17,14 +17,17 @@
 		"collapsed_height"							"0"
 		"expanded_height"							"60"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"OuterShadow"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"OuterShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"BGPanel"
@@ -37,7 +40,6 @@
 			"wide"									"f5"
 			"tall"									"f5"
 			"visible"								"1"
-			"pinCorner"								"3"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
@@ -59,7 +61,6 @@
 				"textAlignment"						"center"
 				"labelText"							"%match_type%"
 				"proportionaltoparent"				"1"
-				"pinCorner"							"3"
 				"AllCaps"							"1"
 
 				"fonts"
@@ -86,7 +87,6 @@
 				"textAlignment"						"center"
 				"labelText"							"%auto_join%"
 				"proportionaltoparent"				"1"
-				"pinCorner"							"3"
 				"AllCaps"							"1"
 			}
 
@@ -99,8 +99,6 @@
 				"zpos"								"100"
 				"wide"								"75"
 				"tall"								"15"
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 
 				"if_queued"
@@ -124,13 +122,13 @@
 				"paintbackgroundtype"				"0"
 				"paintborder"						"0"
 
-				"defaultBgColor_override" 			"ButtonRed"
-				"armedBgColor_override" 			"ButtonRed_Hover"
-				"depressedBgColor_override" 		"ButtonRed_Hover"
+				"defaultBgColor_override"			"ButtonRed"
+				"armedBgColor_override"				"ButtonRed_Hover"
+				"depressedBgColor_override"			"ButtonRed_Hover"
 
-				"defaultFgColor_override" 			"White"
-				"armedFgColor_override" 			"WhiteSolid"
-				"depressedFgColor_override" 		"WhiteSolid"
+				"defaultFgColor_override"			"White"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
 			}
 
 			"SmallJoinButton"
@@ -149,8 +147,6 @@
 					"wide"							"150"
 				}
 
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Light 11"
@@ -168,13 +164,13 @@
 				"paintbackgroundtype"				"0"
 				"paintborder"						"0"
 
-				"defaultBgColor_override" 			"ButtonGreen"
-				"armedBgColor_override" 			"ButtonGreen_Hover"
-				"depressedBgColor_override" 		"ButtonGreen_Hover"
+				"defaultBgColor_override"			"ButtonGreen"
+				"armedBgColor_override"				"ButtonGreen_Hover"
+				"depressedBgColor_override"			"ButtonGreen_Hover"
 
-				"defaultFgColor_override" 			"White"
-				"armedFgColor_override" 			"WhiteSolid"
-				"depressedFgColor_override" 		"WhiteSolid"
+				"defaultFgColor_override"			"White"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
 			}
 
 			"WideJoinButton"
@@ -187,8 +183,6 @@
 				"zpos"								"100"
 				"tall"								"15"
 
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Light 11"
@@ -206,13 +200,13 @@
 				"paintbackgroundtype"				"0"
 				"paintborder"						"0"
 
-				"defaultBgColor_override" 			"ButtonGreen"
-				"armedBgColor_override" 			"ButtonGreen_Hover"
-				"depressedBgColor_override" 		"ButtonGreen_Hover"
+				"defaultBgColor_override"			"ButtonGreen"
+				"armedBgColor_override"				"ButtonGreen_Hover"
+				"depressedBgColor_override"			"ButtonGreen_Hover"
 
-				"defaultFgColor_override" 			"White"
-				"armedFgColor_override" 			"WhiteSolid"
-				"depressedFgColor_override" 		"WhiteSolid"
+				"defaultFgColor_override"			"White"
+				"armedFgColor_override"				"WhiteSolid"
+				"depressedFgColor_override"			"WhiteSolid"
 			}
 
 			"JoiningLabel"
@@ -231,7 +225,6 @@
 				"textAlignment"						"east"
 				"labelText"							"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
 				"proportionaltoparent"				"1"
-				"pinCorner"							"3"
 				"AllCaps"							"1"
 			}
 

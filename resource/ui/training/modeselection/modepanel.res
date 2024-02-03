@@ -42,18 +42,16 @@
 			"zpos"									"2"
 			"wide"									"225"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"TitleBG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"TitleBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 
 		"ImageFrame"
@@ -116,19 +114,17 @@
 			"zpos"									"2"
 			"wide"									"f0"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"wrap"				   					"0"
-			"centerwrap"		   					"0"
+			"wrap"									"0"
+			"centerwrap"							"0"
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"DESCBG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"DESCBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 	}
 
@@ -141,8 +137,6 @@
 		"zpos"										"100"
 		"wide"										"f0"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Training_SelectMode"
@@ -157,12 +151,12 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"ButtonGreen"
-		"armedBgColor_override" 					"ButtonGreen_Hover"
-		"depressedBgColor_override" 				"ButtonGreen_Hover"
+		"defaultBgColor_override"					"ButtonGreen"
+		"armedBgColor_override"						"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 }

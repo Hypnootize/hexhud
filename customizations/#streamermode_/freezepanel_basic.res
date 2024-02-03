@@ -15,7 +15,6 @@
 			"alpha"									"0"
 		}
 	}
-
 	"itempanel"
 	{
 		"xpos"										"9999"

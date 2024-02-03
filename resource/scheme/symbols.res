@@ -138,14 +138,13 @@
 	{
 		"30"
 		{
-			"font" "resource/scheme/fonts/Hypnotize Icons.ttf"
-			"name" "Hypnotize Icons HEx6"
+			"font"	"resource/scheme/fonts/Hypnotize Icons.ttf"
+			"name"	"Hypnotize Icons HEx6"
 		}
-
 		"31"
 		{
-			"font" "resource/scheme/fonts/Blocks.ttf"
-			"name" "Blocks"
+			"font"	"resource/scheme/fonts/Blocks.ttf"
+			"name"	"Blocks"
 		}
 	}
 }

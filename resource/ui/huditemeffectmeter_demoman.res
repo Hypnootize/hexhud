@@ -33,7 +33,7 @@
 		"proportionaltoparent"						"1"
 		"font"										"Symbols 18"
 		"font_minmode"								"Symbols 14"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 	}
 	"HeadsIconShadow"
 	{
@@ -53,8 +53,8 @@
 		"proportionaltoparent"						"1"
 		"font"										"Symbols 18 Blur"
 		"font_minmode"								"Symbols 14 Blur"
-		"fgcolor" 									"Shadow"
-		"pin_to_sibling" 							"HeadsIcon"
+		"fgcolor"									"Shadow"
+		"pin_to_sibling"							"HeadsIcon"
 	}
 
 	"ItemEffectMeterCount"
@@ -77,11 +77,11 @@
 		"proportionaltoparent"						"1"
 		"font"										"Bold 18"
 		"font_minmode"								"Bold 14"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"HeadsIcon"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"HeadsIcon"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"ItemEffectMeterCountShadow"
 	{
@@ -101,9 +101,9 @@
 		"proportionaltoparent"						"1"
 		"font"										"Bold 18 Blur"
 		"font_minmode"								"Bold 14 Blur"
-		"fgcolor" 									"Shadow"
+		"fgcolor"									"Shadow"
 
-		"pin_to_sibling" 							"ItemEffectMeterCount"
+		"pin_to_sibling"							"ItemEffectMeterCount"
 	}
 
 
@@ -112,17 +112,32 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectMeterBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemEffectMeter"
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ItemEffectMeter"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

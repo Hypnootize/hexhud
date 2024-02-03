@@ -25,8 +25,6 @@
 		"zpos"										"0"
 		"wide"										"200"
 		"tall"										"42"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
@@ -34,7 +32,7 @@
 		"labelText"									"%updatetext%"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"EllipsesLabel"
@@ -47,14 +45,12 @@
 		"zpos"										"0"
 		"wide"										"200"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%ellipses%"
 		"textAlignment"								"north"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"DurationLabel"
@@ -67,14 +63,12 @@
 		"zpos"										"0"
 		"wide"										"200"
 		"tall"										"60"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%duration%"
 		"textAlignment"								"north"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"CloseButton"
@@ -86,8 +80,6 @@
 		"zpos"										"1"
 		"wide"										"100"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Cancel"

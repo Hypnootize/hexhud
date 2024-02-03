@@ -9,7 +9,7 @@
 //=========================================================================================
 
 
-//#base "../resource/ui/scoreboard_short_6v6.res"       // 6v6 SHORT STATS SCOREBOARD
+//#base "../resource/ui/scoreboard_short_6v6.res"		// 6v6 SHORT STATS SCOREBOARD
 //#base "../resource/ui/scoreboard_short_9v9.res"		// 9v9 SHORT STATS SCOREBOARD
 #base "../resource/ui/scoreboard_short_12v12.res"		// 12v12 SHORT STATS SCOREBOARD
 //#base "../resource/ui/scoreboard_short_16v16.res"		// 16v16 SHORT STATS SCOREBOARD

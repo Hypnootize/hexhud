@@ -29,7 +29,6 @@
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			"AutoResize"							"0"
 			"skip_autoresize"						"1"
 
 			"model_center_x"						"1"
@@ -157,8 +156,6 @@
 			"ypos"									"50"
 			"wide"									"427"
 			"tall"									"225"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 
@@ -529,8 +526,6 @@
 		"zpos"										"128"
 		"wide"										"300"
 		"tall"										"280"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"render_texture"							"0"

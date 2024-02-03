@@ -11,8 +11,6 @@
 		"wide"										"70"
 		"wide_minmode"								"60"
 		"tall"										"2"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -36,9 +34,9 @@
 		"font"										"Light 7"
 		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"ChargeMeter"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"ChargeMeter"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"PipesPresentPanel"
@@ -63,15 +61,13 @@
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"20"
-			"autoResize"							"1"
-			"pinCorner"								"2"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
 			"font"									"Sticky"
 			"font_minmode"							"Sticky Minmode"
-			"fgcolor"   							"White"
+			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
 
@@ -84,8 +80,6 @@
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"20"
-			"autoResize"							"1"
-			"pinCorner"								"2"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%activepipes%"
@@ -95,7 +89,7 @@
 			"fgcolor"								"Shadow"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"NumPipesLabel"
+			"pin_to_sibling"						"NumPipesLabel"
 		}
 
 		"PipeIcon"
@@ -103,6 +97,11 @@
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"PipeIcon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -112,11 +111,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NoPipesPresentPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NoPipesPresentPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

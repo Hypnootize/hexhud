@@ -16,24 +16,22 @@
 		{
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"210"
+			"wide"									"225"
 			"tall"									"30"
 
 			"button"
 			{
 				"xpos"								"2"
 				"ypos"								"0"
-				"wide"								"210"
+				"wide"								"225"
 				"tall"								"30"
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							""
 				"font"								"Light 14"
 				"textAlignment"						"west"
 				"textinsetx"						"30"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 
@@ -90,6 +88,18 @@
 			"tall"									"194"
 			"visible"								"1"
 		}
+		"ScrollBar"
+		{
+			"ControlName"							"ScrollBar"
+			"FieldName"								"ScrollBar"
+			"xpos"									"rs1"
+			"ypos"									"2"
+			"tall"									"f0"
+			"wide"									"5"
+			"zpos"									"1000"
+			"nobuttons"								"1"
+			"proportionaltoparent"					"1"
+		}
 	}
 
 	"Background"
@@ -143,9 +153,9 @@
 		"bgcolor_override"							"Background_Secondary"
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling" 							"MainButtonsBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"MainButtonsBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"TitleLabel"
@@ -160,15 +170,13 @@
 		"zpos"										"3"
 		"wide"										"253"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 
-		"pin_to_sibling" 							"TitleBG"
+		"pin_to_sibling"							"TitleBG"
 	}
 
 	//FAKE BUTTONS
@@ -186,9 +194,9 @@
 		"PaintBackground"							"0"
 		"PaintBorder"								"0"
 
-		"pin_to_sibling" 							"MainButtonsBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"MainButtonsBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 
 		"FriendListButton"
 		{
@@ -246,9 +254,9 @@
 		"PaintBackground"							"0"
 		"PaintBorder"								"0"
 
-		"pin_to_sibling" 							"MainButtonsBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"MainButtonsBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 
 		"ServerListButton"
 		{
@@ -306,9 +314,9 @@
 		"PaintBackground"							"0"
 		"PaintBorder"								"0"
 
-		"pin_to_sibling" 							"MainButtonsBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"MainButtonsBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 
 		"SteamListButton"
 		{
@@ -355,19 +363,19 @@
 	"StatePanel0"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel0"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"fieldName"									"StatePanel0"
+		"visible"									"1"
+		"enabled"									"1"
 		"xpos"										"-4"
 		"ypos"										"-4"
 		"zpos"										"10"
-		"wide"	 									"216"
-		"tall"	 									"100"
+		"wide"										"216"
+		"tall"										"100"
 		"PaintBackgroundType"						"0"
 
-		"pin_to_sibling" 							"MainButtonsBG"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"MainButtonsBG"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"QueryLabel"
 		{
@@ -385,8 +393,6 @@
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Steam Friend List"
@@ -402,13 +408,13 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
 
-			"defaultBgColor_override" 				"Button"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"subbutton1"
@@ -420,8 +426,6 @@
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Current Server"
@@ -437,13 +441,13 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
 
-			"defaultBgColor_override" 				"Button"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"subbutton2"
@@ -455,8 +459,6 @@
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Steam Profile"
@@ -472,35 +474,35 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
 
-			"defaultBgColor_override" 				"Button"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
 	"StatePanel1"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel1"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"fieldName"									"StatePanel1"
+		"visible"									"1"
+		"enabled"									"1"
 		"xpos"										"15"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"	 									"240"
-		"tall"	 									"225"
+		"wide"										"240"
+		"tall"										"225"
 		"PaintBackgroundType"						"0"
 		"PaintBackground"							"0"
 		"bgcolor_override"							"Background_Secondary"
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling" 							"TitleBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"TitleBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"MainBG"
 		{
@@ -552,13 +554,11 @@
 			"zpos"									"1"
 			"wide"									"f10"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"EmptyPlayerListLabel"
@@ -573,35 +573,33 @@
 			"zpos"									"1"
 			"wide"									"232"
 			"tall"									"192"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 	}
 
 	"StatePanel2"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel2"
+		"fieldName"									"StatePanel2"
 		"xpos"										"15"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"	 									"240"
-		"tall"	 									"225"
+		"wide"										"240"
+		"tall"										"225"
 		"PaintBackgroundType"						"0"
 		"PaintBackground"							"0"
 		"bgcolor_override"							"Background_Secondary"
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling" 							"TitleBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"TitleBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"MainBG"
 		{
@@ -653,13 +651,11 @@
 			"zpos"									"1"
 			"wide"									"f10"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"EmptyPlayerListLabel"
@@ -674,37 +670,35 @@
 			"zpos"									"1"
 			"wide"									"232"
 			"tall"									"192"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 	}
 
 	"StatePanel3"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName" 								"StatePanel3"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"fieldName"									"StatePanel3"
+		"visible"									"1"
+		"enabled"									"1"
 		"xpos"										"15"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"	 									"240"
-		"tall"	 									"225"
+		"wide"										"240"
+		"tall"										"225"
 		"PaintBackgroundType"						"0"
 		"PaintBackground"							"0"
 		"bgcolor_override"							"Background_Secondary"
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling" 							"TitleBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"TitleBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"MainBG"
 		{
@@ -756,13 +750,11 @@
 			"zpos"									"1"
 			"wide"									"f10"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"URLHelpLabel"
@@ -777,15 +769,13 @@
 			"zpos"									"1"
 			"wide"									"f4"
 			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"		 						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"URLEntry"
@@ -796,8 +786,6 @@
 			"ypos"									"85"
 			"wide"									"200"
 			"tall"									"16"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textHidden"							"0"
@@ -808,7 +796,7 @@
 			"wrap"									"0"
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			"paintbackgroundtype" 					"0"
+			"PaintBackgroundType"					"0"
 			"labelText"								""
 			"proportionaltoparent"					"1"
 			"font"									"Light 12"
@@ -827,15 +815,13 @@
 			"zpos"									"1"
 			"wide"									"f4"
 			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"		 						"RedDark"
+			"fgcolor"								"RedDark"
 		}
 
 		"URLSearchingLabel"
@@ -850,15 +836,13 @@
 			"zpos"									"1"
 			"wide"									"f4"
 			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"		 						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"subbutton0"
@@ -870,8 +854,6 @@
 			"zpos"									"5"
 			"wide"									"f0"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_TradeStartDialog_ProfileGo"
@@ -887,13 +869,13 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
 
-			"defaultBgColor_override" 				"ButtonGreen"
-			"armedBgColor_override" 				"ButtonGreen_Hover"
-			"depressedBgColor_override" 			"ButtonGreen_Hover"
+			"defaultBgColor_override"				"ButtonGreen"
+			"armedBgColor_override"					"ButtonGreen_Hover"
+			"depressedBgColor_override"				"ButtonGreen_Hover"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -911,9 +893,9 @@
 		"PaintBackground"							"0"
 		"PaintBorder"								"0"
 
-		"pin_to_sibling" 							"MainButtonsBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"MainButtonsBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 
 		"BackButton"
 		{
@@ -933,19 +915,19 @@
 			"Command"								"cancel"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"actionsignallevel" 					"2"
+			"actionsignallevel"						"2"
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
-			"defaultBgColor_override" 				"Button"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 		"BackIcon"
 		{
@@ -977,8 +959,6 @@
 		"zpos"										"5"
 		"wide"										"135"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Back"
@@ -997,13 +977,13 @@
 		"border_default"							"BottomLineWhite"
 		"border_armed"								"BottomLineWhite"
 
-		"defaultBgColor_override" 					"Button"
-		"armedBgColor_override" 					"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"defaultBgColor_override"					"Button"
+		"armedBgColor_override"						"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 
 		"SubImage"
 		{

@@ -20,8 +20,6 @@
 		"zpos"										"3"
 		"wide"										"f0"
 		"tall"										"f0"
-		"autoResize"								"1"
-		"pinCorner"									"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%metal%"
@@ -29,7 +27,7 @@
 		"proportionaltoparent"						"1"
 		"font"										"Metal"
 		"font_minmode"								"Metal Minmode"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 	}
 
 	"AccountValueShadow"
@@ -41,8 +39,6 @@
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"f0"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%metal%"
@@ -50,9 +46,9 @@
 		"proportionaltoparent"						"1"
 		"font"										"Metal Shadow"
 		"font_minmode"								"Metal Shadow Minmode"
-		"fgcolor"   								"Shadow"
+		"fgcolor"									"Shadow"
 
-		"pin_to_sibling" 							"AccountValue"
+		"pin_to_sibling"							"AccountValue"
 	}
 
 
@@ -61,11 +57,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"AccountBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MetalIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MetalIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

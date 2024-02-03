@@ -34,18 +34,18 @@
 		"font"										"Symbols 12"
 
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
-		"selectedFgColor_override" 					"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
 
 		"paintbackground"							"1"
 
 		"bgcolor"									"ButtonGreen"
-		"defaultBgColor_override" 					"ButtonGreen"
+		"defaultBgColor_override"					"ButtonGreen"
 		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override" 				"ButtonGreen_Hover"
-		"selectedBgColor_override" 					"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
+		"selectedBgColor_override"					"ButtonGreen_Hover"
 
 		"proportionaltoparent"						"1"
 	}
@@ -68,24 +68,24 @@
 		"font"										"Symbols 12"
 
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
+		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
-		"selectedFgColor_override" 					"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
 
 		"paintbackground"							"1"
 
 		"bgcolor"									"ButtonRed"
-		"defaultBgColor_override" 					"ButtonRed"
+		"defaultBgColor_override"					"ButtonRed"
 		"armedBgColor_override"						"ButtonRed_Hover"
-		"depressedBgColor_override" 				"ButtonRed_Hover"
-		"selectedBgColor_override" 					"ButtonRed_Hover"
+		"depressedBgColor_override"					"ButtonRed_Hover"
+		"selectedBgColor_override"					"ButtonRed_Hover"
 
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling" 							"TournamentReadyButton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"TournamentReadyButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"TournamentNameEdit"
@@ -97,8 +97,6 @@
 		"zpos"										"20"
 		"wide"										"f28"
 		"tall"										"f0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textHidden"								"0"
@@ -107,7 +105,7 @@
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
 		"wrap"										"0"
-		"font" 										"Light 12"
+		"font"										"Light 12"
 		"fgcolor_override"							"OffWhite"
 		"bgcolor_override"							"Background"
 		"labelText"									"%teamname%"
@@ -124,26 +122,46 @@
 
 	"HudTournamentSetupBG"
 	{
-		"ControlName"	      						"ScalableImagePanel"
-		"fieldName"		       					 	"HudTournamentSetupBG"
-		"xpos"		          						"9999"
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"HudTournamentSetupBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TournamentSetupLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentSetupLabel"
-		"xpos"		          						"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TournamentTeamNameLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentTeamNameLabel"
-		"xpos"		          						"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HudTournamentNameBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"HudTournamentNameBG"
-		"xpos"		          						"9999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

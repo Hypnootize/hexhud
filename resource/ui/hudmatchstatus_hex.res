@@ -52,11 +52,11 @@
 		{
 			"0"
 			{
-				"particle_xpos" 					"c0"
-				"particle_ypos" 					"c0"
+				"particle_xpos"						"c0"
+				"particle_ypos"						"c0"
 				"particle_scale"					"2"
 				"particleName"						"versus_door_slam"
-				"start_activated" 					"0"
+				"start_activated"					"0"
 				"loop"								"0"
 			}
 		}
@@ -73,8 +73,6 @@
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"f0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"fov"										"70"
@@ -129,8 +127,6 @@
 		"wide"										"600"
 		"tall"										"60"
 		"zpos"										"5"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
@@ -198,11 +194,11 @@
 		"6v6_gap"									"2"
 		"12v12_gap"									"1"
 
-		"team1_grow_dir" 							"west"
+		"team1_grow_dir"							"west"
 		"team1_base_x"								"c-49"
 		"team1_max_expand"							"300"
 
-		"team2_grow_dir" 							"east"
+		"team2_grow_dir"							"east"
 		"team2_base_x"								"c49"
 		"team2_max_expand"							"300"
 
@@ -223,7 +219,7 @@
 			"color_bar_health_low"					"Red"
 			"percentage_health_low"					"0.3"
 			"color_portrait_blend_dead_red"			"White"
-			"color_portrait_blend_dead_blue" 		"White"
+			"color_portrait_blend_dead_blue"		"White"
 			"color_portrait_bg_red_local_player"	"Red"
 			"color_portrait_bg_blue_local_player"	"Blue"
 
@@ -274,7 +270,7 @@
 				"enabled"							"1"
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"0"
-				"bgcolor_override"	   				"Background Dark"
+				"bgcolor_override"					"Background Dark"
 				"proportionaltoparent"				"1"
 			}
 			"healthbar"
@@ -288,7 +284,7 @@
 				"tall"								"12"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"	   				"Blank"
+				"bgcolor_override"					"Blank"
 				"proportionaltoparent"				"1"
 			}
 			"overhealbar"
@@ -302,8 +298,8 @@
 				"tall"								"12"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"	   				"Blank"
-				"fgcolor_override"	   				"255 255 255 100"
+				"bgcolor_override"					"Blank"
+				"fgcolor_override"					"255 255 255 100"
 				"proportionaltoparent"				"1"
 			}
 			"respawntime"
@@ -330,49 +326,88 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"classimagebg"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
 				"visible"							"0"
+				"enabled"							"0"
 			}
 			"ReadyBG"
 			{
 				"ControlName"						"ScalableImagePanel"
 				"fieldName"							"ReadyBG"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"ReadyImage"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"chargeamount"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"chargeamount"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"specindex"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"specindex"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"DeathPanel"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"DeathPanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"SkullPanel"
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SkullPanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 	}
@@ -458,7 +493,7 @@
 			"enabled"								"1"
 			"centerwrap"							"1"
 			"fgcolor"								"Shadow"
-			"pin_to_sibling" 						"BlueTeamLabel"
+			"pin_to_sibling"						"BlueTeamLabel"
 		}
 		"BlueLeaderAvatar"
 		{
@@ -499,7 +534,6 @@
 			"tall"									"205"
 			"visible"								"1"
 			"enabled"								"1"
-			"autoresize"							"3"
 			"linespacing"							"26"
 			"linegap"								"4"
 			//"show_columns"						"1"
@@ -612,7 +646,7 @@
 			"enabled"								"1"
 			"centerwrap"							"1"
 			"fgcolor"								"Shadow"
-			"pin_to_sibling" 						"RedTeamLabel"
+			"pin_to_sibling"						"RedTeamLabel"
 		}
 		"RedLeaderAvatar"
 		{
@@ -653,7 +687,6 @@
 			"tall"									"205"
 			"visible"								"1"
 			"enabled"								"1"
-			"autoresize"							"3"
 			"linespacing"							"26"
 			"linegap"								"4"
 			//"show_columns"						"1"
@@ -690,28 +723,53 @@
 		"ControlName"								"CModelPanel"
 		"fieldName"									"RoundSignModel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CountdownLabelShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"RoundCounter"
 	{
 		"fieldName"									"RoundCounter"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BGFrame"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BGFrame"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"RankUpShadowLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpShadowLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

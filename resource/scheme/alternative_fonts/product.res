@@ -364,8 +364,8 @@ Scheme
 	{
 		"80"
 		{
-			"font" 		"resource/scheme/fonts/Product.ttf"
-			"name" 		"Product Sans"
+			"font"		"resource/scheme/fonts/Product.ttf"
+			"name"		"Product Sans"
 		}
 	}
 }

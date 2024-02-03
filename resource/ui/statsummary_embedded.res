@@ -56,9 +56,9 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"WhiteDark"
 
-		"pin_to_sibling" 							"StatsIcon"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"StatsIcon"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	"StatsLabel"
 	{
@@ -77,11 +77,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"		 							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 
-		"pin_to_sibling" 							"Line"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"Line"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"TFStatsSummary"
@@ -106,8 +106,6 @@
 		"zpos"										"20"
 		"wide"										"18"
 		"tall"										"18"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"D"
@@ -121,8 +119,8 @@
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"GrayBlueLight"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"StatData"
@@ -166,9 +164,9 @@
 			"PaintBackground"						"1"
 			"bgcolor_override"						"Background_Secondary"
 
-			"pin_to_sibling" 						"PerformanceBackground"
-			"pin_corner_to_sibling" 				"PIN_CENTER_BOTTOM"
-			"pin_to_sibling_corner" 				"PIN_CENTER_TOP"
+			"pin_to_sibling"						"PerformanceBackground"
+			"pin_corner_to_sibling"					"PIN_CENTER_BOTTOM"
+			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
 		}
 		"AveragesLabel"								// YOUR PERFORMANCE REPORT
 		{
@@ -181,13 +179,11 @@
 			"ypos"									"0"
 			"wide"									"500"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"fgcolor"								"WhiteDark"
-			"pin_to_sibling" 						"TitleBG"
+			"pin_to_sibling"						"TitleBG"
 		}
 
 		"BestMomentsBackground"
@@ -205,9 +201,9 @@
 			"bgcolor_override"						"Background_Secondary"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"PerformanceBackground"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
+			"pin_to_sibling"						"PerformanceBackground"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 
 		"InteractiveHeaders"
@@ -232,8 +228,6 @@
 				"zpos"								"10"
 				"wide"								"190"
 				"tall"								"14"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"textHidden"						"0"
@@ -246,11 +240,11 @@
 
 				"fgcolor_override"					"WhiteDark"
 				"bgcolor_override"					"GrayBlueDark"
-				"disabledFgColor_override" 			"WhiteDark"
-				"disabledBgColor_override" 			"GrayBlueDark"
-				"selectionColor_override" 			"GrayBlueDark"
-				"selectionTextColor_override" 		"WhiteDark"
-				"defaultSelectionBG2Color_override" "GrayBlueDark"
+				"disabledFgColor_override"			"WhiteDark"
+				"disabledBgColor_override"			"GrayBlueDark"
+				"selectionColor_override"			"GrayBlueDark"
+				"selectionTextColor_override"		"WhiteDark"
+				"defaultSelectionBG2Color_override"	"GrayBlueDark"
 
 				"Button"
 				{
@@ -271,8 +265,6 @@
 				"zpos"								"6"
 				"wide"								"100"
 				"tall"								"14"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"textHidden"						"0"
@@ -285,11 +277,11 @@
 
 				"fgcolor_override"					"WhiteDark"
 				"bgcolor_override"					"GrayBlueDark"
-				"disabledFgColor_override" 			"WhiteDark"
-				"disabledBgColor_override" 			"GrayBlueDark"
-				"selectionColor_override" 			"GrayBlueDark"
-				"selectionTextColor_override" 		"WhiteDark"
-				"defaultSelectionBG2Color_override" "GrayBlueDark"
+				"disabledFgColor_override"			"WhiteDark"
+				"disabledBgColor_override"			"GrayBlueDark"
+				"selectionColor_override"			"GrayBlueDark"
+				"selectionTextColor_override"		"WhiteDark"
+				"defaultSelectionBG2Color_override"	"GrayBlueDark"
 
 				"Button"
 				{
@@ -310,8 +302,6 @@
 				"zpos"								"10"
 				"wide"								"190"
 				"tall"								"14"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"textHidden"						"0"
@@ -324,11 +314,11 @@
 
 				"fgcolor_override"					"WhiteDark"
 				"bgcolor_override"					"GrayBlueDark"
-				"disabledFgColor_override" 			"WhiteDark"
-				"disabledBgColor_override" 			"GrayBlueDark"
-				"selectionColor_override" 			"GrayBlueDark"
-				"selectionTextColor_override" 		"WhiteDark"
-				"defaultSelectionBG2Color_override" "GrayBlueDark"
+				"disabledFgColor_override"			"WhiteDark"
+				"disabledBgColor_override"			"GrayBlueDark"
+				"selectionColor_override"			"GrayBlueDark"
+				"selectionTextColor_override"		"WhiteDark"
+				"defaultSelectionBG2Color_override"	"GrayBlueDark"
 
 				"Button"
 				{
@@ -350,8 +340,6 @@
 			"zpos"									"2"
 			"wide"									"490"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"BlackBlue"
@@ -368,8 +356,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -386,8 +372,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -407,8 +391,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -427,8 +409,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -447,8 +427,6 @@
 			"zpos"									"5"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -467,8 +445,6 @@
 			"zpos"									"2"
 			"wide"									"490"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"BlackBlue"
@@ -485,8 +461,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -502,8 +476,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -522,8 +494,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -542,8 +512,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -562,8 +530,6 @@
 			"zpos"									"5"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -582,8 +548,6 @@
 			"zpos"									"2"
 			"wide"									"490"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"BlackBlue"
@@ -600,8 +564,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -618,8 +580,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -639,8 +599,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -659,8 +617,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -679,8 +635,6 @@
 			"zpos"									"5"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -699,8 +653,6 @@
 			"zpos"									"2"
 			"wide"									"490"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"BlackBlue"
@@ -717,8 +669,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -735,8 +685,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -756,8 +704,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -776,8 +722,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -796,8 +740,6 @@
 			"zpos"									"5"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -816,8 +758,6 @@
 			"zpos"									"2"
 			"wide"									"490"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"BlackBlue"
@@ -834,8 +774,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -852,8 +790,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -873,8 +809,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -893,8 +827,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -913,8 +845,6 @@
 			"zpos"									"5"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -933,8 +863,6 @@
 			"zpos"									"2"
 			"wide"									"490"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"BlackBlue"
@@ -951,8 +879,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -969,8 +895,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -990,8 +914,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -1010,8 +932,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -1030,8 +950,6 @@
 			"zpos"									"5"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -1050,8 +968,6 @@
 			"zpos"									"2"
 			"wide"									"490"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"BlackBlue"
@@ -1068,8 +984,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -1086,8 +1000,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -1107,8 +1019,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -1127,8 +1037,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -1147,8 +1055,6 @@
 			"zpos"									"5"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -1167,8 +1073,6 @@
 			"zpos"									"2"
 			"wide"									"490"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"BlackBlue"
@@ -1185,8 +1089,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -1203,8 +1105,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -1224,8 +1124,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -1244,8 +1142,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -1264,8 +1160,6 @@
 			"zpos"									"5"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -1284,8 +1178,6 @@
 			"zpos"									"2"
 			"wide"									"490"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"BlackBlue"
@@ -1302,8 +1194,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -1320,8 +1210,6 @@
 			"zpos"									"3"
 			"wide"									"188"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fillcolor"								"GrayBlueLight"
@@ -1341,8 +1229,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -1361,8 +1247,6 @@
 			"zpos"									"6"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -1381,8 +1265,6 @@
 			"zpos"									"5"
 			"wide"									"100"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -1434,7 +1316,7 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"BestMomentsBackground"
+			"pin_to_sibling"						"BestMomentsBackground"
 		}
 		"OverallRecord1Value"
 		{
@@ -1457,9 +1339,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord1Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord1Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord2Label"
@@ -1483,9 +1365,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord1Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"OverallRecord1Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"OverallRecord2Value"
@@ -1509,9 +1391,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord2Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord2Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord3Label"
@@ -1535,9 +1417,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord2Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"OverallRecord2Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"OverallRecord3Value"
@@ -1561,9 +1443,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord3Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord3Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord4Label"
@@ -1587,9 +1469,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord3Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"OverallRecord3Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"OverallRecord4Value"
@@ -1613,9 +1495,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord4Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord4Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord5Label"
@@ -1639,9 +1521,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord4Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"OverallRecord4Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"OverallRecord5Value"
@@ -1665,9 +1547,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord5Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord5Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord6Label"
@@ -1691,9 +1573,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord1Value"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord1Value"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord6Value"
@@ -1717,9 +1599,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord6Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord6Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord7Label"
@@ -1743,9 +1625,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord6Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"OverallRecord6Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"OverallRecord7Value"
@@ -1769,9 +1651,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord7Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord7Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord8Label"
@@ -1795,9 +1677,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord7Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"OverallRecord7Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"OverallRecord8Value"
@@ -1821,9 +1703,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord8Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord8Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord9Label"
@@ -1847,9 +1729,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord8Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"OverallRecord8Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"OverallRecord9Value"
@@ -1873,9 +1755,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord9Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord9Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord10Label"
@@ -1899,9 +1781,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord9Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"OverallRecord9Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"OverallRecord10Value"
@@ -1925,9 +1807,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord10Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord10Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord11Label"
@@ -1951,9 +1833,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord6Value"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord6Value"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord11Value"
@@ -1977,9 +1859,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord11Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord11Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord12Label"
@@ -2003,9 +1885,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord11Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"OverallRecord11Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"OverallRecord12Value"
@@ -2029,9 +1911,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord12Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord12Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord13Label"
@@ -2055,9 +1937,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord12Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"OverallRecord12Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"OverallRecord13Value"
@@ -2081,9 +1963,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord13Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord13Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord14Label"
@@ -2107,9 +1989,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord13Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"OverallRecord13Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"OverallRecord14Value"
@@ -2133,9 +2015,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord14Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord14Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"OverallRecord15Label"
@@ -2159,9 +2041,9 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
 
-			"pin_to_sibling" 						"OverallRecord14Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"OverallRecord14Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"OverallRecord15Value"
@@ -2185,94 +2067,164 @@
 			"fgcolor"								"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"OverallRecord15Label"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"OverallRecord15Label"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"NonInteractiveHeaders"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"NonInteractiveHeaders"
-			"xpos"									"99999"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"AveragesBG"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"AveragesBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ClassBarBG1B"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"ClassBarBG1B"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ClassBarBG2B"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"ClassBarBG2B"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ClassBarBG3B"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"ClassBarBG3B"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ClassBarBG4B"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"ClassBarBG4B"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ClassBarBG5B"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"ClassBarBG5B"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ClassBarBG6B"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"ClassBarBG6B"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ClassBarBG7B"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"ClassBarBG7B"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ClassBarBG8B"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"ClassBarBG8B"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ClassBarBG9B"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"ClassBarBG9B"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"RecordsBG"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RecordsBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"RecordsSubBG1"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"RecordsSubBG1"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"RecordsLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RecordsLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 	"MainBackground"
@@ -2280,53 +2232,98 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MainBackground"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"OnYourWayLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"OnYourWayLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapType"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapType"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TipImage"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"TipImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TipText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TipText"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NextTipButton"
 	{
 		"ControlName"								"Button"
 		"fieldName"									"NextTipButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CloseButton"
 	{
 		"ControlName"								"Button"
 		"fieldName"									"CloseButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ResetStatsButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ResetStatsButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -2,16 +2,16 @@
 {
 	"Background"
 	{
-		"ControlName"		     					"EditablePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"Background"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"-1"
 		"wide"										"f0"
 		"tall"										"f0"
-		"visible"		        					"1"
-		"enabled"	          						"1"
-		"proportionaltoparent"	          			"1"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
@@ -31,8 +31,8 @@
 		"enabled"									"1"
 		"labelText"									"#Hud_Menu_Disguise_Title"
 		"textAlignment"								"west"
-		"AllCaps"				          			"1"
-		"proportionaltoparent"	          			"1"
+		"AllCaps"									"1"
+		"proportionaltoparent"						"1"
 	}
 
 	"TitleLabelDropshadow"
@@ -50,8 +50,8 @@
 		"enabled"									"1"
 		"labelText"									"#Hud_Menu_Disguise_Title"
 		"textAlignment"								"west"
-		"AllCaps"				          			"1"
-		"proportionaltoparent"	          			"1"
+		"AllCaps"									"1"
+		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"TitleLabel"
 	}
 
@@ -70,7 +70,7 @@
 		"enabled"									"1"
 		"labelText"									"#Hud_Menu_Spy_Minus_Toggle"
 		"textAlignment"								"center"
-		"proportionaltoparent"	          			"1"
+		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background Dark"
@@ -113,8 +113,8 @@
 		"tall"										"21"
 		"visible"									"1"
 		"pin_to_sibling"							"class_item_red_1"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"class_item_blue_2"
 	{
@@ -140,8 +140,8 @@
 		"tall"										"21"
 		"visible"									"1"
 		"pin_to_sibling"							"class_item_red_2"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"class_item_blue_3"
 	{
@@ -167,8 +167,8 @@
 		"tall"										"21"
 		"visible"									"1"
 		"pin_to_sibling"							"class_item_red_3"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"class_item_blue_4"
 	{
@@ -194,8 +194,8 @@
 		"tall"										"21"
 		"visible"									"1"
 		"pin_to_sibling"							"class_item_red_4"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"class_item_blue_5"
 	{
@@ -221,8 +221,8 @@
 		"tall"										"21"
 		"visible"									"1"
 		"pin_to_sibling"							"class_item_red_5"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"class_item_blue_6"
 	{
@@ -248,8 +248,8 @@
 		"tall"										"21"
 		"visible"									"1"
 		"pin_to_sibling"							"class_item_red_6"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"class_item_blue_7"
 	{
@@ -275,8 +275,8 @@
 		"tall"										"21"
 		"visible"									"1"
 		"pin_to_sibling"							"class_item_red_7"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"class_item_blue_8"
 	{
@@ -302,8 +302,8 @@
 		"tall"										"21"
 		"visible"									"1"
 		"pin_to_sibling"							"class_item_red_8"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"class_item_blue_9"
 	{
@@ -394,35 +394,65 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MainBackground"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Divider"
 	{
-		"ControlName"		     					"ImagePanel"
+		"ControlName"								"ImagePanel"
 		"fieldName"									"Divider"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CancelLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg1"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg1"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg2"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg2"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg3"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg3"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

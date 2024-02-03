@@ -364,8 +364,8 @@ Scheme
 	{
 		"86"
 		{
-			"font" 		"resource/scheme/fonts/surface.otf"
-			"name" 		"Surface-Medium"
+			"font"		"resource/scheme/fonts/surface.otf"
+			"name"		"Surface-Medium"
 		}
 	}
 }

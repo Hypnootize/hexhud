@@ -48,7 +48,7 @@
 		"scaleImage"								"1"
 		"icon"										"obj_status_sentrygun_3"
 		"iconColor"									"White"
-		"pin_to_sibling" 							"IconBackgound"
+		"pin_to_sibling"							"IconBackgound"
 	}
 
 	"NotBuiltLabel"
@@ -101,8 +101,6 @@
 		"zpos"										"7"
 		"wide"										"54"
 		"tall"										"22"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"1"
@@ -121,23 +119,43 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ItemBackground"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemNameLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"DestroyIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"DestroyIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

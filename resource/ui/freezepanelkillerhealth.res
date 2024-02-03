@@ -11,10 +11,10 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-		"proportionaltoparent"  					"1"
-		"paintbackground"  							"1"
-		"paintbackgroundtype"  						"0"
-		"bgcolor_override"  						"Background"
+		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Background"
 	}
 
 	"Health_Killer"
@@ -31,8 +31,8 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"Bold 24"
-		"fgcolor"  									"Health Numbers"
-		"proportionaltoparent"  					"1"
+		"fgcolor"									"Health Numbers"
+		"proportionaltoparent"						"1"
 	}
 
 	"Health_Killer_Shadow"
@@ -49,8 +49,8 @@
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
 		"font"										"Bold 24 Blur"
-		"fgcolor"  									"Shadow"
-		"proportionaltoparent"  					"1"
+		"fgcolor"									"Shadow"
+		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"Health_Killer"
 	}
 
@@ -66,23 +66,43 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImageBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BuildingStatusHealthImageBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

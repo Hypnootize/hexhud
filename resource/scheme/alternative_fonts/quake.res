@@ -364,8 +364,8 @@ Scheme
 	{
 		"90"
 		{
-			"font" 		"resource/scheme/fonts/handel gothic.ttf"
-			"name" 		"Handel Gothic BT"
+			"font"		"resource/scheme/fonts/handel gothic.ttf"
+			"name"		"Handel Gothic BT"
 		}
 	}
 }

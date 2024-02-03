@@ -35,7 +35,7 @@
 			"fieldName"								"RespawnTimeLabel"
 			"font"									"Light 12"
 			"labelText"								"%time%"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"10"

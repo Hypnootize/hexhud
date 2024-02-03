@@ -24,8 +24,8 @@
 		"wide"										"125"
 		"tall"										"125"
 		"visible"									"1"
-		"mouseinputenabled" 						"0"
-		"bgcolor_override" 							"GrayBlue"
+		"mouseinputenabled"							"0"
+		"bgcolor_override"							"GrayBlue"
 	}
 
 	"PreviewImage"
@@ -38,7 +38,7 @@
 		"wide"										"121"
 		"tall"										"121"
 		"visible"									"1"
-		"mouseinputenabled" 						"0"
+		"mouseinputenabled"							"0"
 	}
 
 	"LabelTitle"
@@ -55,7 +55,7 @@
 		"textAlignment"								"north-west"
 		"wrap"										"0"
 		"font"										"Light 11"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"mouseinputenabled"							"0"
 	}
 }

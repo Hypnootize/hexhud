@@ -364,8 +364,8 @@ Scheme
 	{
 		"83"
 		{
-			"font" 		"resource/scheme/fonts/Cerbetica.ttf"
-			"name" 		"Cerbetica Bold"
+			"font"		"resource/scheme/fonts/Cerbetica.ttf"
+			"name"		"Cerbetica Bold"
 		}
 	}
 }

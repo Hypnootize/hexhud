@@ -11,8 +11,6 @@
 		"wide"										"70"
 		"wide_minmode"								"60"
 		"tall"										"3"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"White"

@@ -8,8 +8,6 @@
 		"ypos"										"140"
 		"wide"										"300"
 		"tall"										"230"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
@@ -30,12 +28,10 @@
 		"zpos"										"1"
 		"wide"										"300"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"ExplanationLabel"
@@ -50,13 +46,11 @@
 		"zpos"										"1"
 		"wide"										"280"
 		"tall"										"170"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"ConfirmButton"
@@ -68,8 +62,6 @@
 		"zpos"										"20"
 		"wide"										"175"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#ConfirmButtonText"
@@ -96,5 +88,10 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"Icon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

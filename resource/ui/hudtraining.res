@@ -1,6 +1,6 @@
 "Resource/UI/HudTraining.res"
 {
- 	"ObjectiveStatusTraining"
+	"ObjectiveStatusTraining"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusTraining"
@@ -47,7 +47,7 @@
 		"labelText"									"%goal%"
 		"font"										"Light 12 Blur"
 		"textAlignment"								"North"
-		"pin_to_sibling" 							"GoalLabel"
+		"pin_to_sibling"							"GoalLabel"
 	}
 
 	"MsgLabel"

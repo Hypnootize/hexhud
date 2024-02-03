@@ -53,9 +53,9 @@
 		"font"										"Light 7"
 		"mouseinputenabled"							"0"
 
-		"pin_to_sibling" 							"avatar"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"avatar"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"StatusLabel"
@@ -77,8 +77,8 @@
 		"fgcolor_override"							"TanDark"
 		"mouseinputenabled"							"0"
 
-		"pin_to_sibling" 							"avatar"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"avatar"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 }

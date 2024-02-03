@@ -93,11 +93,11 @@
 
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override" 					"WhiteDark"
-		"disabledBgColor_override" 					"GrayBlueDark"
-		"selectionColor_override" 					"GrayBlueDark"
-		"selectionTextColor_override" 				"WhiteDark"
-		"defaultSelectionBG2Color_override" 		"GrayBlueDark"
+		"disabledFgColor_override"					"WhiteDark"
+		"disabledBgColor_override"					"GrayBlueDark"
+		"selectionColor_override"					"GrayBlueDark"
+		"selectionTextColor_override"				"WhiteDark"
+		"defaultSelectionBG2Color_override"			"GrayBlueDark"
 
 		"Button"
 		{
@@ -108,9 +108,9 @@
 			"paintbackgroundtype"					"0"
 		}
 
-		"pin_to_sibling" 							"InviteModeLabel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"InviteModeLabel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"IgnorePartyInvites"
@@ -133,7 +133,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"button_activation_type"					"1"
 
-		"cvar_name" 								"tf_party_ignore_invites"
+		"cvar_name"									"tf_party_ignore_invites"
 	}
 	"IgnorePartyInvitesBG"
 	{
@@ -150,7 +150,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDark"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"IgnorePartyInvites"
+		"pin_to_sibling"							"IgnorePartyInvites"
 	}
 
 	"KeepPartyOnSameTeam"
@@ -172,9 +172,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"button_activation_type"					"1"
 
-		"pin_to_sibling" 							"IgnorePartyInvites"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"IgnorePartyInvites"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"KeepPartyOnSameTeamLabel"
 	{
@@ -196,7 +196,7 @@
 		"button_activation_type"					"1"
 		"fgcolor"									"WhiteDark"
 
-		"pin_to_sibling" 							"KeepPartyOnSameTeam"
+		"pin_to_sibling"							"KeepPartyOnSameTeam"
 	}
 	"KeepPartyOnSameTeamBG"
 	{
@@ -213,7 +213,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDark"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"KeepPartyOnSameTeam"
+		"pin_to_sibling"							"KeepPartyOnSameTeam"
 	}
 
 	"CustomPingCheckButton"
@@ -237,9 +237,9 @@
 
 		"cvar_name"									"tf_mm_custom_ping_enabled"
 
-		"pin_to_sibling" 							"KeepPartyOnSameTeam"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"KeepPartyOnSameTeam"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"CheckLabel"
 	{
@@ -260,7 +260,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"button_activation_type"					"1"
 
-		"pin_to_sibling" 							"CustomPingCheckButton"
+		"pin_to_sibling"							"CustomPingCheckButton"
 	}
 	"CustomPingCheckButtonBG"
 	{
@@ -277,7 +277,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDark"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"CustomPingCheckButton"
+		"pin_to_sibling"							"CustomPingCheckButton"
 	}
 
 	"CurrentPingLabel"
@@ -299,9 +299,9 @@
 		"bgcolor_override"							"BlackBlue"
 		"mouseinputenabled"							"0"
 
-		"pin_to_sibling" 							"CustomPingCheckButton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"CustomPingCheckButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"PingSlider"
@@ -312,8 +312,6 @@
 		"ypos"										"5"
 		"wide"										"f10"
 		"tall"										"30"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"RoundedCorners"							"0"
 		"visible"									"1"
 		"enabled"									"1"
@@ -322,11 +320,11 @@
 		"bgcolor_override"							"BlackBlue"
 
 		"cvar_name"									"tf_mm_custom_ping"
-		"use_convar_minmax" 						"1"
+		"use_convar_minmax"							"1"
 
-		"pin_to_sibling" 							"CurrentPingLabel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"CurrentPingLabel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"DataCenterBackground"
@@ -355,8 +353,6 @@
 		"zpos"										"100"
 		"wide"										"f10"
 		"tall"										"238"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -372,7 +368,7 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
-			"restrict_width" 						"0"
+			"restrict_width"						"0"
 
 			"ScrollBar"
 			{
@@ -412,6 +408,11 @@
 			"Controlname"							"EditablePanel"
 			"fieldName"								"Frame"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 

@@ -43,7 +43,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -107,7 +107,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"paintbackground"						"1"
-			"PaintBackgroundType" 					"0"
+			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"Background"
 		}
 
@@ -344,8 +344,8 @@
 			"tall"									"140"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"0"
-			"fgcolor" 								"WhiteDark"
+			"mouseinputenabled"						"0"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"QuickEquipButton"							//DEAD
@@ -523,7 +523,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Light"
 			"fgcolor"								"OffWhite"
-			"pin_to_sibling" 						"CreditsBG"
+			"pin_to_sibling"						"CreditsBG"
 		}
 		"CreditsLabel"
 		{
@@ -542,9 +542,9 @@
 			"AllCaps"								"1"
 			"fgcolor"								"Green"
 
-			"pin_to_sibling" 						"CreditsBG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_RIGHT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
+			"pin_to_sibling"						"CreditsBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
+			"pin_to_sibling_corner"					"PIN_CENTER_RIGHT"
 		}
 
 		"CancelButton"
@@ -659,5 +659,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"TipPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

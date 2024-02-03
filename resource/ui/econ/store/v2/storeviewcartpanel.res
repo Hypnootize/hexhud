@@ -10,8 +10,6 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
@@ -61,13 +59,13 @@
 				"text_ypos"							"24"
 				"text_wide"							"250"
 				"text_center"						"0"
-				"text_forcesize" 					"1"
+				"text_forcesize"					"1"
 
 				"name_only"							"1"
 
 				"itemmodelpanel"
 				{
-					"use_item_rendertarget" 		"0"
+					"use_item_rendertarget"			"0"
 					"allow_rot"						"0"
 					"inventory_image_type"			"1"
 				}
@@ -100,8 +98,6 @@
 				"zpos"								"15"
 				"wide"								"16"
 				"tall"								"10"
-				"autoResize"						"1"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"%quantity%"
@@ -113,6 +109,11 @@
 				"ControlName"						"ImagePanel"
 				"fieldName"							"SeparatorLine"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 
 			"RemoveButton"
@@ -124,8 +125,6 @@
 				"zpos"								"5"
 				"wide"								"100"
 				"tall"								"20"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"#Store_Remove"
@@ -159,12 +158,10 @@
 				"zpos"								"15"
 				"wide"								"95"
 				"tall"								"60"
-				"autoResize"						"1"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"%price%"
-				"fgcolor"		 					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 			}
 		}
 	}
@@ -200,6 +197,11 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"HeaderLine"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"CartItemsLabel"
@@ -214,8 +216,6 @@
 			"zpos"									"1"
 			"wide"									"350"
 			"tall"									"20"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -227,6 +227,11 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"SeparatorLine"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"EmptyCartLabel"
@@ -241,8 +246,6 @@
 			"zpos"									"6"
 			"wide"									"600"
 			"tall"									"240"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -261,7 +264,7 @@
 			"PaintBackgroundType"					"0"
 			"fgcolor_override"						"GrayDark"
 			"bgcolor_override"						"Background_Secondary"
-			"autohide_buttons" 						"1"
+			"autohide_buttons"						"1"
 
 			"Scrollbar"
 			{
@@ -345,8 +348,6 @@
 						"zpos"						"100"
 						"wide"						"425"
 						"tall"						"15"
-						"autoResize"				"1"
-						"pinCorner"					"0"
 						"visible"					"1"
 						"enabled"					"1"
 						"AllCaps"					"1"
@@ -364,12 +365,10 @@
 						"zpos"						"100"
 						"wide"						"425"
 						"tall"						"12"
-						"autoResize"				"1"
-						"pinCorner"					"0"
 						"visible"					"1"
 						"enabled"					"1"
 						"AllCaps"					"1"
-						"fgcolor" 					"WhiteDark"
+						"fgcolor"					"WhiteDark"
 					}
 					"TotalSubtextLabelB"
 					{
@@ -383,12 +382,10 @@
 						"zpos"						"100"
 						"wide"						"425"
 						"tall"						"12"
-						"autoResize"				"1"
-						"pinCorner"					"0"
 						"visible"					"1"
 						"enabled"					"1"
 						"AllCaps"					"1"
-						"fgcolor" 					"WhiteDark"
+						"fgcolor"					"WhiteDark"
 					}
 
 					"TotalPriceLabel"
@@ -402,13 +399,11 @@
 						"zpos"						"15"
 						"wide"						"100"
 						"tall"						"60"
-						"autoResize"				"1"
-						"pinCorner"					"0"
 						"visible"					"1"
 						"enabled"					"1"
 						"AllCaps"					"1"
 						"labelText"					"%totalprice%"
-						"fgcolor"		 			"RedDark"
+						"fgcolor"					"RedDark"
 					}
 
 				}
@@ -425,8 +420,6 @@
 		"zpos"										"2"
 		"wide"										"70"
 		"tall"										"19"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Back"
@@ -441,13 +434,13 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 
-		"defaultBgColor_override" 					"GrayBlueDarkest"
-		"armedBgColor_override" 					"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"defaultBgColor_override"					"GrayBlueDarkest"
+		"armedBgColor_override"						"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 	"CloseShortKey"
 	{
@@ -468,8 +461,6 @@
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"19"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"CHECKOUT"
@@ -483,31 +474,46 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 
-		"defaultBgColor_override" 					"GrayBlueDarkest"
-		"armedBgColor_override" 					"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"defaultBgColor_override"					"GrayBlueDarkest"
+		"armedBgColor_override"						"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"BackgroundHeader"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BackgroundHeader"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BackgroundFooter"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BackgroundFooter"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"FooterLine"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"FooterLine"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -85,13 +85,13 @@
 			"border_default"						"BottomLineWhite"
 			"border_armed"							"BottomLineWhite"
 
-			"defaultBgColor_override" 				"Button"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"ShowMatchHistoryButton"
@@ -123,13 +123,13 @@
 			"border_default"						"BottomLineWhite"
 			"border_armed"							"BottomLineWhite"
 
-			"defaultBgColor_override" 				"Button"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"PlaylistBGPanel"
@@ -191,9 +191,9 @@
 					"font"							"MarlettSmall"
 					"textAlignment"					"west"
 
-					"defaultFgColor_override" 		"WhiteDark"
+					"defaultFgColor_override"		"WhiteDark"
 					"armedFgColor_override"			"WhiteDark"
-					"selectedFgColor_override" 		"WhiteDark"
+					"selectedFgColor_override"		"WhiteDark"
 				}
 
 				"ResultButton"
@@ -224,14 +224,14 @@
 					"border_armed"					"BottomLineWhite"
 					"border_selected"				"BottomLineWhite"
 
-					"defaultBgColor_override" 		"Button"
-					"armedBgColor_override" 		"Button_Hover"
-					"depressedBgColor_override" 	"Button_Hover"
-					"SelectedBgColor_override" 		"Button_Hover"
+					"defaultBgColor_override"		"Button"
+					"armedBgColor_override"			"Button_Hover"
+					"depressedBgColor_override"		"Button_Hover"
+					"selectedBgColor_override"		"Button_Hover"
 
-					"defaultFgColor_override" 		"WhiteDark"
-					"armedFgColor_override" 		"WhiteSolid"
-					"depressedFgColor_override" 	"WhiteSolid"
+					"defaultFgColor_override"		"WhiteDark"
+					"armedFgColor_override"			"WhiteSolid"
+					"depressedFgColor_override"		"WhiteSolid"
 
 					"image_selectedcolor"			"255 255 255 255"
 					"image_armedcolor"				"0 0 0 0"
@@ -266,14 +266,14 @@
 					"border_armed"					"BottomLineWhite"
 					"border_selected"				"BottomLineWhite"
 
-					"defaultBgColor_override" 		"Button"
-					"armedBgColor_override" 		"Button_Hover"
-					"depressedBgColor_override" 	"Button_Hover"
-					"SelectedBgColor_override" 		"Button_Hover"
+					"defaultBgColor_override"		"Button"
+					"armedBgColor_override"			"Button_Hover"
+					"depressedBgColor_override"		"Button_Hover"
+					"selectedBgColor_override"		"Button_Hover"
 
-					"defaultFgColor_override" 		"WhiteDark"
-					"armedFgColor_override" 		"WhiteSolid"
-					"depressedFgColor_override" 	"WhiteSolid"
+					"defaultFgColor_override"		"WhiteDark"
+					"armedFgColor_override"			"WhiteSolid"
+					"depressedFgColor_override"		"WhiteSolid"
 
 					"image_selectedcolor"			"255 255 255 255"
 					"image_armedcolor"				"0 0 0 0"
@@ -308,14 +308,14 @@
 					"border_armed"					"BottomLineWhite"
 					"border_selected"				"BottomLineWhite"
 
-					"defaultBgColor_override" 		"Button"
-					"armedBgColor_override" 		"Button_Hover"
-					"depressedBgColor_override" 	"Button_Hover"
-					"SelectedBgColor_override" 		"Button_Hover"
+					"defaultBgColor_override"		"Button"
+					"armedBgColor_override"			"Button_Hover"
+					"depressedBgColor_override"		"Button_Hover"
+					"selectedBgColor_override"		"Button_Hover"
 
-					"defaultFgColor_override" 		"WhiteDark"
-					"armedFgColor_override" 		"WhiteSolid"
-					"depressedFgColor_override" 	"WhiteSolid"
+					"defaultFgColor_override"		"WhiteDark"
+					"armedFgColor_override"			"WhiteSolid"
+					"depressedFgColor_override"		"WhiteSolid"
 
 					"image_selectedcolor"			"255 255 255 255"
 					"image_armedcolor"				"0 0 0 0"
@@ -349,14 +349,14 @@
 					"border_armed"					"BottomLineWhite"
 					"border_selected"				"BottomLineWhite"
 
-					"defaultBgColor_override" 		"Button"
-					"armedBgColor_override" 		"Button_Hover"
-					"depressedBgColor_override" 	"Button_Hover"
-					"SelectedBgColor_override" 		"Button_Hover"
+					"defaultBgColor_override"		"Button"
+					"armedBgColor_override"			"Button_Hover"
+					"depressedBgColor_override"		"Button_Hover"
+					"selectedBgColor_override"		"Button_Hover"
 
-					"defaultFgColor_override" 		"WhiteDark"
-					"armedFgColor_override" 		"WhiteSolid"
-					"depressedFgColor_override" 	"WhiteSolid"
+					"defaultFgColor_override"		"WhiteDark"
+					"armedFgColor_override"			"WhiteSolid"
+					"depressedFgColor_override"		"WhiteSolid"
 
 					"image_selectedcolor"			"255 255 255 255"
 					"image_armedcolor"				"0 0 0 0"
@@ -374,8 +374,7 @@
 				"tall"								"p0.89"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
-				"restrict_width" 					"0"
-
+				"restrict_width"					"0"
 
 				"ScrollBar"
 				{
@@ -421,7 +420,7 @@
 				"tall"								"f20"
 				"visible"							"0"
 				"enabled"							"1"
-				"mouseinputenabled" 				"1"
+				"mouseinputenabled"					"1"
 				"scaleImage"						"1"
 				"entry_step"						"23"
 				"proportionaltoparent"				"1"

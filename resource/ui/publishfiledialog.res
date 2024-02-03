@@ -133,11 +133,11 @@
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 	}
 
 	"LabelTitle"
@@ -173,7 +173,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 14"
 	}
 
@@ -209,7 +209,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 14"
 	}
 
@@ -268,11 +268,11 @@
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 
 		"SubImage"
 		{
@@ -308,11 +308,11 @@
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 	}
 
 	"ButtonSourceMaps"
@@ -334,11 +334,11 @@
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 	}
 
 	"BrowseDescription"
@@ -383,7 +383,7 @@
 		"wide"										"160"
 		"tall"										"228"
 		"visible"									"1"
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 
 		"ClassCheckBox1"
 		{
@@ -723,7 +723,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"TagCheckbox_CommunityFix"
@@ -740,7 +740,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 
@@ -758,7 +758,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_CP"
@@ -775,7 +775,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_Escort"
@@ -792,7 +792,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_EscortRace"
@@ -809,7 +809,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_RobotDestruction"
@@ -826,7 +826,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_Koth"
@@ -843,7 +843,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_AttackDefense"
@@ -860,7 +860,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_SD"
@@ -877,7 +877,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_MVM"
@@ -894,7 +894,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_PD"
@@ -911,7 +911,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_Arena"
@@ -928,7 +928,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_Powerup"
@@ -945,7 +945,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_Medieval"
@@ -962,7 +962,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_PassTime"
@@ -979,7 +979,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_Specialty"
@@ -996,7 +996,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_Halloween"
@@ -1013,7 +1013,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckbox_Smissmas"
@@ -1030,7 +1030,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckbox_Night"
@@ -1047,7 +1047,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckbox_Jungle"
@@ -1064,7 +1064,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 		"MapsCheckBox_Summer"
@@ -1081,7 +1081,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"smallcheckimage" 						"1"
+			"smallcheckimage"						"1"
 			"disabledfgcolor2_override"				"WhiteDarker"
 		}
 	}
@@ -1111,7 +1111,7 @@
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 	}
 
 	"ButtonPublish"
@@ -1137,11 +1137,11 @@
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"ButtonGreen"
 		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override" 				"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 	}
 
 	"WorkshopBG"
@@ -1149,11 +1149,21 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"WorkshopBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BackgroundBottom"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BackgroundBottom"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

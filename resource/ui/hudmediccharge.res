@@ -1,5 +1,5 @@
-#base 	"../../customizations/chargemeter.res"
-#base 	"../../customizations/resisticon.res"
+#base	"../../customizations/chargemeter.res"
+#base	"../../customizations/resisticon.res"
 
 "Resource/UI/HudMedicCharge.res"
 {
@@ -69,12 +69,22 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"Background"
-		"xpos"										"99999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HealthClusterIcon"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HealthClusterIcon"
-		"xpos"										"99999"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

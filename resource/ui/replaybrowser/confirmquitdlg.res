@@ -42,7 +42,7 @@
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"ExplanationLabel"
@@ -60,7 +60,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"RenderButton"

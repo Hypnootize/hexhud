@@ -364,8 +364,8 @@ Scheme
 	{
 		"91"
 		{
-			"font" 		"resource/scheme/fonts/neutra.ttf"
-			"name" 		"NeutraText-Bold"
+			"font"		"resource/scheme/fonts/neutra.ttf"
+			"name"		"NeutraText-Bold"
 		}
 	}
 }

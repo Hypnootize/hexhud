@@ -40,7 +40,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"PaintBackgroundType" 						"0"
+		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"White"
 		"proportionaltoparent"						"1"
 	}
@@ -56,8 +56,8 @@
 		"tall"										"f16"
 		"visible"									"1"
 		"enabled"									"1"
-		"PaintBackground" 							"1"
-		"PaintBackgroundType" 						"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background"
 		"proportionaltoparent"						"1"
 	}

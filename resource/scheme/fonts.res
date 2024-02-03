@@ -567,7 +567,7 @@
 			{
 				"name"										"Product Sans Bold"
 				"tall"										"18"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"additive"									"1"
 			}
 		}
@@ -579,7 +579,7 @@
 				"name"										"Product Sans"
 				"tall"										"6"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudHintText"
@@ -589,7 +589,7 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontGiant"
@@ -599,7 +599,7 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"480 599"
 			}
 			"2"
@@ -607,7 +607,7 @@
 				"name"										"Product Sans"
 				"tall"										"32"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"600 767"
 			}
 			"3"
@@ -615,7 +615,7 @@
 				"name"										"Product Sans"
 				"tall"										"44"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"768 1023"
 			}
 			"4"
@@ -623,7 +623,7 @@
 				"name"										"Product Sans"
 				"tall"										"48"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"1024 1199"
 			}
 			"5"
@@ -631,7 +631,7 @@
 				"name"										"Product Sans"
 				"tall"										"52"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"1200 10000"
 			}
 		}
@@ -642,7 +642,7 @@
 				"name"										"Product Sans"
 				"tall"										"44"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -653,7 +653,7 @@
 				"name"										"Product Sans"
 				"tall"										"35"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -664,7 +664,7 @@
 				"name"										"Product Sans"
 				"tall"										"36"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumBig"
@@ -674,7 +674,7 @@
 				"name"										"Product Sans"
 				"tall"										"30"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumBigBold"
@@ -684,7 +684,7 @@
 				"name"										"Product Sans"
 				"tall"										"30"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMedium"
@@ -694,7 +694,7 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumSecondary"
@@ -704,7 +704,7 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumBold"
@@ -714,7 +714,7 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumSmallBold"
@@ -724,7 +724,7 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumSmall"
@@ -734,7 +734,7 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumSmallSecondary"
@@ -744,7 +744,7 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmall"
@@ -754,7 +754,7 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmallishBold"
@@ -764,7 +764,7 @@
 				"name"										"Product Sans"
 				"tall"										"16"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmallBold"
@@ -774,7 +774,7 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmallBoldShadow"
@@ -784,7 +784,7 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"dropshadow"								"1"
 			}
 		}
@@ -795,7 +795,7 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmallestShadow"
@@ -805,7 +805,7 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"dropshadow"								"1"
 			}
 		}
@@ -816,7 +816,7 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"PerformanceModeSmall"
@@ -826,7 +826,7 @@
 				"name"										"Product Sans"
 				"tall"										"4"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"StorePromotionsTitle"
@@ -836,7 +836,7 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontCartPrice"
@@ -846,7 +846,7 @@
 				"name"										"Product Sans"
 				"tall"										"16"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontStorePrice"
@@ -855,7 +855,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"9"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontStoreOriginalPrice"
@@ -864,7 +864,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"9"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontStorePriceSmall"
@@ -873,7 +873,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"6"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontStorePromotion"
@@ -883,7 +883,7 @@
 				"name"										"Product Sans"
 				"tall"										"12"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"TextTooltipFont"
@@ -893,7 +893,7 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"GameUIButtons"
@@ -963,7 +963,7 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudClassHealth"
@@ -973,7 +973,7 @@
 				"name"										"Product Sans"
 				"tall"										"16"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"SpectatorKeyHints"
@@ -983,7 +983,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ClockSubText"
@@ -993,7 +993,7 @@
 				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ClockSubTextSuddenDeath"
@@ -1003,7 +1003,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ClockSubTextTiny"
@@ -1013,7 +1013,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudSelectionText"
@@ -1023,7 +1023,7 @@
 				"name"										"Product Sans"
 				"tall"										"15"
 				"weight"									"700"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"1 599"
 				"range"										"0x0000 0x017F"
 				"additive"									"1"
@@ -1034,7 +1034,7 @@
 				"tall"										"15"	[$WIN32]
 				"tall"										"21"
 				"weight"									"700"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"600 767"
 				"range"										"0x0000 0x017F"
 				"additive"									"1"
@@ -1044,7 +1044,7 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"900"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"768 1023"
 				"range"										"0x0000 0x017F"
 			}
@@ -1053,7 +1053,7 @@
 				"name"										"Product Sans"
 				"tall"										"21"
 				"weight"									"900"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"1024 1199"
 				"range"										"0x0000 0x017F"
 			}
@@ -1062,7 +1062,7 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"1000"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"yres"										"1200 10000"
 				"range"										"0x0000 0x017F"
 			}
@@ -1089,20 +1089,20 @@
 		{
 			"1"
 			{
-				"name"  									"tfd" // tfd.ttf
-				"tall"  									"28"
-				"antialias" 								"1"
+				"name"										"tfd" // tfd.ttf
+				"tall"										"28"
+				"antialias"									"1"
 			}
 		}
 
 		"Icons"
 		{
 			"1"
-			 {
-				"name"  									"Team Fortress" // tf.ttf
-				"tall"  									"28"
-				"additive" 									"1"
-				"antialias" 								"1"
+			{
+				"name"										"Team Fortress" // tf.ttf
+				"tall"										"28"
+				"additive"									"1"
+				"antialias"									"1"
 			}
 		}
 		"BetaFont"
@@ -1121,17 +1121,17 @@
 		{
 			"1"
 			{
-				"name"  									"Team Fortress" // tf.ttf
-				"tall"  									"28"
-				"additive" 									"1"
-				"antialias" 								"1"
+				"name"										"Team Fortress" // tf.ttf
+				"tall"										"28"
+				"additive"									"1"
+				"antialias"									"1"
 			}
 			"2"
 			{
-				"name"  									"Product Sans"
-				"tall"  									"28"
-				"additive" 									"1"
-				"antialias" 								"1"
+				"name"										"Product Sans"
+				"tall"										"28"
+				"additive"									"1"
+				"antialias"									"1"
 			}
 		}
 		"CloseCaption_Normal"
@@ -1140,8 +1140,8 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"20"
-				"additive" 									"1"
-				"antialias" 								"1"
+				"additive"									"1"
+				"antialias"									"1"
 				"range"										"0x0000 0x017F"
 			}
 		}
@@ -1151,8 +1151,8 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"20"
-				"additive" 									"1"
-				"antialias" 								"1"
+				"additive"									"1"
+				"antialias"									"1"
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
 			}
@@ -1163,8 +1163,8 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"20"
-				"additive" 									"1"
-				"antialias" 								"1"
+				"additive"									"1"
+				"antialias"									"1"
 				"range"										"0x0000 0x017F"
 			}
 		}
@@ -1174,8 +1174,8 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"20"
-				"additive" 									"1"
-				"antialias" 								"1"
+				"additive"									"1"
+				"antialias"									"1"
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
 			}
@@ -1186,8 +1186,8 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"14"
-				"additive" 									"1"
-				"antialias" 								"1"
+				"additive"									"1"
+				"antialias"									"1"
 				"range"										"0x0000 0x017F"
 			}
 		}
@@ -1219,7 +1219,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"24"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"weight"									"500"
 			}
 		}
@@ -1239,7 +1239,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"12"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"weight"									"500"
 			}
 		}
@@ -1251,7 +1251,7 @@
 				"name"										"Product Sans"
 				"tall"										"13"
 				"weight"									"800"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1283,7 +1283,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"24"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"custom"									"1" [$OSX]
 				"weight"									"500"
 			}
@@ -1307,7 +1307,7 @@
 				"name"										"Product Sans"
 				"tall"										"6"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardVerySmall"
@@ -1327,7 +1327,7 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardMediumSmall"
@@ -1338,7 +1338,7 @@
 				"tall"										"14"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardMedium"
@@ -1349,7 +1349,7 @@
 				"tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardTeamName"
@@ -1360,7 +1360,7 @@
 				"tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardTeamCountNew"
@@ -1371,7 +1371,7 @@
 				"tall"										"14"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardTeamNameNew"
@@ -1382,7 +1382,7 @@
 				"tall"										"20"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardTeamNameLarge"
@@ -1393,18 +1393,18 @@
 				"tall"										"34"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
 		"ScoreboardTeamScoreNew"
- 		{
+		{
 			"1"
 			{
 				"name"										"Product Sans"
 				"tall"										"36"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardTeamScore"
@@ -1413,46 +1413,46 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"52"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"1 599"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 			"2"
 			{
 				"name"										"Product Sans"
 				"tall"										"72"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"600 767"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 			"3"
 			{
 				"name"										"Product Sans"
 				"tall"										"100"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"768 1023"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 			"4"
 			{
 				"name"										"Product Sans"
 				"tall"										"140"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"1024 1199"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 			"5"
 			{
 				"name"										"Product Sans"
 				"tall"										"180"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"400"
 				"yres"										"1200 10000"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"MatchSummaryTeamScores"
@@ -1463,7 +1463,7 @@
 				"tall"										"36"
 				"weight"									"500"
 				"range"										"0x0000 0x007F"	//	Basic Latin
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"MatchSummaryStatsAndMedals"
@@ -1473,7 +1473,7 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"MatchSummaryWinner"
@@ -1483,7 +1483,7 @@
 				"name"										"Product Sans"
 				"tall"										"20"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"CompMatchStartTeamNames"
@@ -1493,7 +1493,7 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ControlPointTimer"
@@ -1503,7 +1503,7 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ControlPointTimerSmaller"
@@ -1513,7 +1513,7 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1524,7 +1524,7 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1659,7 +1659,7 @@
 			{
 				"name"										"Product Sans Black"
 				"tall"										"8"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"300"
 				"antialias"									"1"
 			}
@@ -1671,7 +1671,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"14"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 				"weight"									"300"
 				"antialias"									"1"
 			}
@@ -1685,7 +1685,7 @@
 				"weight"									"500"
 				"range"										"0x0000 0x017F"
 				"TextColor"									"Black"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"CapPlayerFontSmall"
@@ -1697,7 +1697,7 @@
 				"weight"									"500"
 				"range"										"0x0000 0x017F"
 				"TextColor"									"Black"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1708,7 +1708,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"TFFontMedium"
@@ -1718,7 +1718,7 @@
 				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1730,7 +1730,7 @@
 				"tall"										"11"  [!$OSX]
 				"tall"										"9"  [$OSX]
 				"weight"									"800"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -1832,7 +1832,7 @@
 				"name"										"Product Sans"
 				"tall"										"36"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"TeamMenu"
@@ -1842,7 +1842,7 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"600"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"IntroMenuCaption"
@@ -1852,7 +1852,7 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"AchievementNotification"
@@ -1862,7 +1862,7 @@
 				"name"										"Trebuchet MS"
 				"tall"										"14"
 				"weight"									"900"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ImportToolSmallestBold"
@@ -1872,7 +1872,7 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"600"
-				"antialias"								 	"1"
+				"antialias"									"1"
 			}
 		}
 		"ImportToolSmallest"
@@ -1882,7 +1882,7 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"SpectatorVerySmall"
@@ -1892,8 +1892,8 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
@@ -1932,7 +1932,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontNameSmall"
@@ -1942,7 +1942,7 @@
 				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"500"
-				"antialias"								 	"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontNameLarge"
@@ -1952,7 +1952,7 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontNameLarger"
@@ -1962,7 +1962,7 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribSmallest"
@@ -1972,7 +1972,7 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribSmallv2"
@@ -1981,7 +1981,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"weight"									"500"
 			}
 		}
@@ -1992,7 +1992,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribLarge"
@@ -2002,7 +2002,7 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribLarger"
@@ -2012,7 +2012,7 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2023,7 +2023,7 @@
 				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"AchievementTracker_NameGlow"
@@ -2035,7 +2035,7 @@
 				"weight"									"500"
 				"blur"										"3"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"AchievementTracker_Desc"
@@ -2045,7 +2045,7 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"additive"									"1"
-				"antialias"								 	"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestObjectiveTracker_Desc"
@@ -2055,7 +2055,7 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestObjectiveTracker_DescGlow"
@@ -2064,7 +2064,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestObjectiveTracker_DescBlur"
@@ -2075,7 +2075,7 @@
 				"tall"										"7"
 				"blur"										"3"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemTrackerScore_InGame"
@@ -2084,7 +2084,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"7"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2158,7 +2158,7 @@
 				"name"										"Product Sans"
 				"tall"										"16"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2268,7 +2268,7 @@
 				"name"										"Product Sans"
 				"tall"										"13"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2279,7 +2279,7 @@
 				"name"										"Product Sans"
 				"tall"										"16"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2290,7 +2290,7 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2301,7 +2301,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"AdFont_PurchaseButton"
@@ -2310,7 +2310,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2321,7 +2321,7 @@
 				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2332,7 +2332,7 @@
 				"name"										"Trebuchet MS"
 				"tall"										"9"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"italic"									"1"
 			}
 		}
@@ -2388,7 +2388,7 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ReplaySmaller"
@@ -2435,7 +2435,7 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"12"
-				"range" 									"0x0000 0x00FF"
+				"range"										"0x0000 0x00FF"
 			}
 		}
 		"ReplayMediumSmall"
@@ -2445,7 +2445,7 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ReplayMedium"
@@ -2455,7 +2455,7 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ReplayMediumBig"
@@ -2465,7 +2465,7 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ReplayBrowserTab"
@@ -2475,7 +2475,7 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ReplayLarger"
@@ -2485,7 +2485,7 @@
 				"name"										"Product Sans"
 				"tall"										"18"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2499,7 +2499,7 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"EconFontMedium"
@@ -2509,7 +2509,7 @@
 				"name"										"Product Sans"
 				"tall"										"24"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2532,7 +2532,7 @@
 				"name"										"Product Sans"
 				"tall"										"9"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2543,7 +2543,7 @@
 				"name"										"Product Sans"
 				"tall"										"11"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2556,7 +2556,7 @@
 				"weight"									"500"
 				"blur"										"3"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2567,7 +2567,7 @@
 				"name"										"Product Sans"
 				"tall"										"12"
 				"weight"									"500"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"dropshadow"								"1"
 			}
 		}
@@ -2581,7 +2581,7 @@
 				"tall"										"7"
 				"blur"										"3"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2593,7 +2593,7 @@
 				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2605,7 +2605,7 @@
 				"name"										"Product Sans"
 				"tall"										"10"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2617,7 +2617,7 @@
 				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 
@@ -2629,152 +2629,152 @@
 				"name"										"Product Sans"
 				"tall"										"30"
 				"weight"									"400"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 	}
 
 	"CustomFontFiles"
 	{
-		"1" "resource/tf.ttf"
-		"2" "resource/tfd.ttf"
+		"1"	"resource/tf.ttf"
+		"2"	"resource/tfd.ttf"
 		"3"
 		{
-			"font" 	"resource/TF2.ttf"
-			"name" 	"TF2"
+			"font"	"resource/TF2.ttf"
+			"name"	"TF2"
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 		}
 		"4"
 		{
-			"font" 	"resource/TF2Secondary.ttf"
-			"name" 	"TF2 Secondary"
+			"font"	"resource/TF2Secondary.ttf"
+			"name"	"TF2 Secondary"
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 		}
 		"5"
 		{
-			"font" 	"resource/TF2Professor.ttf"
-			"name" 	"TF2 Professor"
+			"font"	"resource/TF2Professor.ttf"
+			"name"	"TF2 Professor"
 			"russian"
 			{
-				"range" "0x0000 0x00FF"
+				"range"	"0x0000 0x00FF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x00FF"
+				"range"	"0x0000 0x00FF"
 			}
 		}
 		"6"
 		{
-			"font" 	"resource/TF2Build.ttf"
-			"name" 	"TF2 Build"
+			"font"	"resource/TF2Build.ttf"
+			"name"	"TF2 Build"
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 			"turkish"
 			{
-				"range" "0x0000 0xFFFF"
+				"range"	"0x0000 0xFFFF"
 			}
 		}
 		"7"
 		{
 			"font"	"resource/ocra.ttf"
-			"name" 	"ocra"
+			"name"	"ocra"
 			"turkish"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"swedish"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"spanish"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"romanian"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"norwegian"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"danish"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"hungarian"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"german"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"french"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"finnish"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"czech"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"bulgarian"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 			"russian"
 			{
-				"range" "0x0000 0x007E"
+				"range"	"0x0000 0x007E"
 			}
 		}
 
 		"20"
 		{
-			"font" 		"resource/scheme/fonts/product.ttf"
-			"name" 		"Product Sans"
+			"font"	"resource/scheme/fonts/product.ttf"
+			"name"	"Product Sans"
 		}
 		"21"
 		{
-			"font" 		"resource/scheme/fonts/product bold.ttf"
-			"name" 		"Product Sans Bold"
+			"font"	"resource/scheme/fonts/product bold.ttf"
+			"name"	"Product Sans Bold"
 		}
 		"22"
 		{
-			"font" 		"resource/scheme/fonts/product numbers.ttf"
-			"name" 		"Product Sans Numbers"
+			"font"	"resource/scheme/fonts/product numbers.ttf"
+			"name"	"Product Sans Numbers"
 		}
 		"23"
 		{
-			"font" 		"resource/scheme/fonts/product bold numbers.ttf"
-			"name" 		"Product Sans Bold Numbers"
+			"font"	"resource/scheme/fonts/product bold numbers.ttf"
+			"name"	"Product Sans Bold Numbers"
 		}
 	}
 }

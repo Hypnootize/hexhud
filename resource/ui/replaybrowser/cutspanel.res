@@ -55,7 +55,7 @@
 		"fieldName"									"VerticalLine"
 		"wide"										"1"
 		"PaintBackground"							"1"
-		"bgcolor_override" 							"WhiteDark"
+		"bgcolor_override"							"WhiteDark"
 	}
 
 	"NoCutsLabel"
@@ -90,7 +90,7 @@
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 	}
 
 	"NextButton"
@@ -110,7 +110,7 @@
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 	}
 
 	"OriginalLabel"
@@ -148,8 +148,6 @@
 		"font"										"Light 11"
 		"labelText"									""
 		"zpos"										"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"0"

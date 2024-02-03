@@ -8,8 +8,6 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
@@ -39,9 +37,9 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 
-		"pin_to_sibling" 							"VideoPanelBG"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling"							"VideoPanelBG"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"VideoPanel"
@@ -73,7 +71,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
-		"pin_to_sibling" 							"VideoPanel"
+		"pin_to_sibling"							"VideoPanel"
 
 		"InnerBG"
 		{
@@ -107,9 +105,9 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background Dark"
 
-		"pin_to_sibling" 							"VideoPanelBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"VideoPanelBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"VideoCaption"
@@ -129,7 +127,7 @@
 		"fgcolor"									"White"
 		"wrap"										"1"
 		"centerwrap"								"1"
-		"pin_to_sibling" 							"CaptionBG"
+		"pin_to_sibling"							"CaptionBG"
 	}
 
 	"Skip"
@@ -163,9 +161,9 @@
 		"armedBgColor_override"						"Background Dark"
 		"depressedBgColor_override"					"Background Dark"
 
-		"pin_to_sibling" 							"CaptionBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"CaptionBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"SkipShortKey"
 	{
@@ -186,29 +184,54 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MenuBG"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"MenuBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Continue"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"Continue"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Back"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"Back"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ReplayVideo"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ReplayVideo"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

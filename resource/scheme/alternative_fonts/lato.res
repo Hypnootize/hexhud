@@ -364,8 +364,8 @@ Scheme
 	{
 		"82"
 		{
-			"font" 		"resource/scheme/fonts/lato.ttf"
-			"name" 		"Lato Bold"
+			"font"		"resource/scheme/fonts/lato.ttf"
+			"name"		"Lato Bold"
 		}
 	}
 }

@@ -31,7 +31,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"ExplanationLabel"
@@ -50,7 +50,7 @@
 		"enabled"									"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"CancelButton"
@@ -143,6 +143,6 @@
 		"textAlignment"								"center"
 		"wrap"										"0"
 		"font"										"Light 11"
-		"selected_fgcolor_override" 				"White"
+		"selected_fgcolor_override"					"White"
 	}
 }

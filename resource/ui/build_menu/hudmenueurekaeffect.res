@@ -82,35 +82,65 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MainBackground"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BuildIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BuildIconShadow"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildIconShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Divider"
 	{
-		"ControlName"		     					"ImagePanel"
+		"ControlName"								"ImagePanel"
 		"fieldName"									"Divider"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TitleLabelDropshadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabelDropshadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CancelLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -27,7 +27,7 @@
 			"bgcolor_override"						"Blank"
 			"PaintBackground"						"1"
 			"paintborder"							"0"
-			"text_forcesize" 						"2"
+			"text_forcesize"						"2"
 
 			"model_xpos"							"0"
 			"model_ypos"							"5"
@@ -51,7 +51,7 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"f0"
-		"tall"	 									"12"
+		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -78,7 +78,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
-		"pin_to_sibling" 							"ItemSlotLabelBG"
+		"pin_to_sibling"							"ItemSlotLabelBG"
 	}
 
 	"itemcontainerscroller"
@@ -91,7 +91,7 @@
 		"tall"										"f12"
 		"fgcolor_override"							"WhiteDark"
 		"PaintBackground"							"0"
-		"autohide_buttons" 							"1"
+		"autohide_buttons"							"1"
 		"proportionaltoparent"						"1"
 
 		"ScrollBar"
@@ -137,7 +137,7 @@
 			"wide"									"30"
 			"tall"									"30"
 			"visible"								"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
 	}
@@ -178,17 +178,32 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CaratLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NoItemsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NoItemsLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

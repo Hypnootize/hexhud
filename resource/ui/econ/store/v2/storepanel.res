@@ -16,8 +16,6 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
@@ -63,7 +61,7 @@
 		"tabxdelta"									"3"
 		"tabwidth"									"240"
 		"tabheight"									"20"
-		"transition_time" 							"0"
+		"transition_time"							"0"
 		"yoffset"									"10"
 
 		"tabskv"
@@ -76,7 +74,7 @@
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"
-			"normalborder_override" 				"NoBorder"
+			"normalborder_override"					"NoBorder"
 		}
 	}
 
@@ -89,8 +87,6 @@
 		"zpos"										"2"
 		"wide"										"70"
 		"tall"										"19"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"BACK"
@@ -105,13 +101,13 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 
-		"defaultBgColor_override" 					"GrayBlueDarkest"
-		"armedBgColor_override" 					"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"defaultBgColor_override"					"GrayBlueDarkest"
+		"armedBgColor_override"						"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 	"CloseShortKey"
 	{
@@ -191,8 +187,6 @@
 		"zpos"										"2"
 		"wide"										"80"
 		"tall"										"19"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"CHECKOUT"
@@ -208,13 +202,13 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 
-		"defaultBgColor_override" 					"GrayBlueDarkest"
-		"armedBgColor_override" 					"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"defaultBgColor_override"					"GrayBlueDarkest"
+		"armedBgColor_override"						"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 
@@ -224,20 +218,32 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BackgroundHeader"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BackgroundFooter"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BackgroundFooter"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"FooterLine"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"FooterLine"
 		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

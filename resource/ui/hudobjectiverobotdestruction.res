@@ -38,8 +38,7 @@
 			"visible"								"1"
 			"paintbackground"						"0"
 			"paintborder"							"0"
-			"AutoResize" 							"1"
-			"skip_autoresize" 						"1"
+			"skip_autoresize"						"1"
 		}
 	}
 
@@ -209,12 +208,22 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"CarriedImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"CarriedProgressBar"
 		{
 			"fieldName"								"CarriedProgressBar"
 			"ControlName"							"ImagePanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"FlagValue"
@@ -272,6 +281,11 @@
 			"fieldName"								"ProgressBarContainer"
 			"ControlName"							"EditablePanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"BlueScoreValueContainer"
@@ -321,7 +335,7 @@
 				"font"								"Bold 18 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
-				"pin_to_sibling" 					"Score"
+				"pin_to_sibling"					"Score"
 			}
 		}
 
@@ -372,7 +386,7 @@
 				"font"								"Bold 18 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
-				"pin_to_sibling" 					"Score"
+				"pin_to_sibling"					"Score"
 			}
 		}
 
@@ -471,7 +485,7 @@
 				"font"								"Light 12 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
-				"pin_to_sibling" 					"IntelValue"
+				"pin_to_sibling"					"IntelValue"
 			}
 		}
 
@@ -570,7 +584,7 @@
 				"font"								"Light 12 Blur"
 				"fgcolor"							"Shadow"
 				"proportionalToParent"				"1"
-				"pin_to_sibling" 					"IntelValue"
+				"pin_to_sibling"					"IntelValue"
 			}
 		}
 	}

@@ -11,14 +11,12 @@
 		"ypos"										"10"
 		"wide"										"f20"
 		"tall"										"30"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"auto_tall_tocontents"						"1"
 	}
 
@@ -33,13 +31,11 @@
 		"ypos"										"45"
 		"wide"										"f20"
 		"tall"										"135"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
 		"proportionaltoparent"						"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"auto_tall_tocontents"						"1"
 	}
 
@@ -52,7 +48,6 @@
 		"zpos"										"10"
 		"wide"										"18"
 		"tall"										"18"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"%"
@@ -61,15 +56,14 @@
 		"default"									"0"
 		"Command"									"close"
 		"proportionaltoparent"						"1"
-		"autoresize"								"0"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"PrevButton"
@@ -95,9 +89,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 	"NextButton"
 	{
@@ -108,7 +102,6 @@
 		"zpos"										"10"
 		"wide"										"30"
 		"tall"										"30"
-		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"$"
@@ -123,9 +116,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 	"PositionLabel"
 	{
@@ -141,7 +134,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"
 	}

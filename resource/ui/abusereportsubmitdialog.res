@@ -117,11 +117,11 @@
 
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override" 					"WhiteDark"
-		"disabledBgColor_override" 					"GrayBlueDark"
-		"selectionColor_override" 					"GrayBlueDark"
-		"selectionTextColor_override" 				"WhiteDark"
-		"defaultSelectionBG2Color_override" 		"GrayBlueDark"
+		"disabledFgColor_override"					"WhiteDark"
+		"disabledBgColor_override"					"GrayBlueDark"
+		"selectionColor_override"					"GrayBlueDark"
+		"selectionTextColor_override"				"WhiteDark"
+		"defaultSelectionBG2Color_override"			"GrayBlueDark"
 
 		"Button"
 		{
@@ -166,11 +166,11 @@
 
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override" 					"WhiteDark"
-		"disabledBgColor_override" 					"GrayBlueDark"
-		"selectionColor_override" 					"GrayBlueDark"
-		"selectionTextColor_override" 				"WhiteDark"
-		"defaultSelectionBG2Color_override" 		"GrayBlueDark"
+		"disabledFgColor_override"					"WhiteDark"
+		"disabledBgColor_override"					"GrayBlueDark"
+		"selectionColor_override"					"GrayBlueDark"
+		"selectionTextColor_override"				"WhiteDark"
+		"defaultSelectionBG2Color_override"			"GrayBlueDark"
 
 		"Button"
 		{
@@ -215,11 +215,11 @@
 
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override" 					"WhiteDark"
-		"disabledBgColor_override" 					"GrayBlueDark"
-		"selectionColor_override" 					"GrayBlueDark"
-		"selectionTextColor_override" 				"WhiteDark"
-		"defaultSelectionBG2Color_override" 		"GrayBlueDark"
+		"disabledFgColor_override"					"WhiteDark"
+		"disabledBgColor_override"					"GrayBlueDark"
+		"selectionColor_override"					"GrayBlueDark"
+		"selectionTextColor_override"				"WhiteDark"
+		"defaultSelectionBG2Color_override"			"GrayBlueDark"
 
 		"Button"
 		{
@@ -313,8 +313,6 @@
 		"zpos"										"20"
 		"wide"										"18"
 		"tall"										"43"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_LessThan"
@@ -329,7 +327,7 @@
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"CustomTextureNextButton"
@@ -341,8 +339,6 @@
 		"zpos"										"20"
 		"wide"										"18"
 		"tall"										"43"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_GreaterThan"
@@ -356,7 +352,7 @@
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"NoCustomTexturesLabel"

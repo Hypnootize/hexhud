@@ -35,6 +35,11 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MvMLogoImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"MannUpGroupBox"
@@ -61,7 +66,7 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"font"									"Light 18"
 			"labelText"								"Mann Up"
 			"textAlignment"							"south"
@@ -72,7 +77,7 @@
 			"Command"								"mannup"
 			"actionsignallevel"						"2"
 
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 
 			"paintbackground"						"0"
 			"paintborder"							"0"
@@ -141,24 +146,44 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"PlayForBraggingRightsExplanation"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"PlayNowButton"
 		{
 			"ControlName"							"CExButton"
 			"fieldName"								"PlayNowButton"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"DropShadow"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"DropShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Gradient"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Gradient"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -176,13 +201,13 @@
 		"wide"										"150"
 		"tall"										"60"
 		"wrap"										"1"
-		"centerwrap" 								"1"
+		"centerwrap"								"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 
-		"pin_to_sibling" 							"MannUpGroupBox"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"MannUpGroupBox"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
 	"PracticeGroupBox"
@@ -209,7 +234,7 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"font"									"Light 18"
 			"labelText"								"Practice"
 			"textAlignment"							"south"
@@ -219,7 +244,7 @@
 			"default"								"1"
 			"Command"								"bootcamp"
 			"actionsignallevel"						"2"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 
 			"paintbackground"						"0"
 			"paintborder"							"0"
@@ -288,24 +313,44 @@
 			"ControlName"							"CExButton"
 			"fieldName"								"PracticeButton"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"DropShadow"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"DropShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Gradient"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Gradient"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"PlayOnCommunityServerExplanation"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PlayOnCommunityServerExplanation"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -323,12 +368,12 @@
 		"wide"										"150"
 		"tall"										"60"
 		"wrap"										"1"
-		"centerwrap" 								"1"
+		"centerwrap"								"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 
-		"pin_to_sibling" 							"PracticeGroupBox"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"PracticeGroupBox"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 }

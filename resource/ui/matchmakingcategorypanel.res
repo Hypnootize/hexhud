@@ -85,7 +85,7 @@
 
 			"defaultBgColor_override"				"GrayBlueDark"
 			"armedBgColor_override"					"GrayBlue"
-			"selectedBGColor_override" 				"GrayBlue"
+			"selectedBgColor_override"				"GrayBlue"
 
 			"image_default"							"glyph_expand"
 			"image_drawcolor"						"235 240 245 255"
@@ -136,12 +136,12 @@
 			"enabled"								"1"
 			"labelText"								"%title_token%"
 			"textinsetx"							"0"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"font"									"Light 22"
 			"textAlignment"							"east"
 			"AllCaps"								"1"
 			"default"								"1"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 			"fgcolor"								"WhiteDark"
 		}
@@ -151,24 +151,44 @@
 			"fieldName"								"Shade"
 			"ControlName"							"EditablePanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"TitleShadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"DescLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DescLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"DescLabelShadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DescLabelShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -183,8 +203,6 @@
 		"tall"										"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"pinCorner"									"2"
-		"autoResize"								"1"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"
 		"paintbackgrond"							"0"
@@ -196,5 +214,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayListDropShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

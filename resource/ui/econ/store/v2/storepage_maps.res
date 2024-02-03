@@ -14,7 +14,7 @@
 			"itemmodelpanel"
 			{
 				"force_square_image"				"1"
-				"inventory_image_type" 				"1"
+				"inventory_image_type"				"1"
 			}
 		}
 	}
@@ -91,8 +91,6 @@
 		"zpos"										"5"
 		"wide"										"500"
 		"tall"										"25"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
@@ -111,8 +109,6 @@
 		"zpos"										"5"
 		"wide"										"500"
 		"tall"										"25"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"AllCaps"									"1"
@@ -128,8 +124,6 @@
 		"zpos"										"5"
 		"wide"										"80"
 		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"learn more"
@@ -142,11 +136,11 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 
 		"defaultBgColor_override"					"Button"
-		"armedBgColor_override" 					"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"armedBgColor_override"						"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 	}
 }

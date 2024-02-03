@@ -25,7 +25,7 @@
 		"wide"										"300"
 		"tall"										"25"
 		"visible"									"1"
-		"PaintBackgroundType" 						"0"
+		"PaintBackgroundType"						"0"
 
 		"WinningTeamLabelDropshadow"
 		{
@@ -45,7 +45,7 @@
 			"proportionaltoparent"					"1"
 
 			// blue Background
-			"PaintBackgroundType" 					"0"
+			"PaintBackgroundType"					"0"
 			"fgcolor"								"Shadow"
 			"bgcolor_override"						"Red"
 		}
@@ -65,7 +65,7 @@
 			"labelText"								"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"							"Center"
 			"proportionaltoparent"					"1"
-			"pin_to_sibling" 						"WaveCompleteLabelShadow"
+			"pin_to_sibling"						"WaveCompleteLabelShadow"
 		}
 	}
 
@@ -79,8 +79,6 @@
 		"zpos"										"1"
 		"wide"										"292"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
@@ -98,8 +96,6 @@
 		"zpos"										"1"
 		"wide"										"265"
 		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
@@ -133,7 +129,7 @@
 		"tall"										"12"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"PaintBackgroundType" 						"2"
+		"PaintBackgroundType"						"2"
 
 		"RespecTextLabelLoss"
 		{
@@ -141,7 +137,7 @@
 			"fieldName"								"RespecTextLabelLoss"
 			"font"									"Light 11"
 			"labelText"								"#TF_PVE_Respecs"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"160"
@@ -157,7 +153,7 @@
 			"fieldName"								"RespecCountLabel"
 			"font"									"Light 11"
 			"labelText"								"%respeccount%"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"xpos"									"145"
 			"ypos"									"0"
 			"wide"									"30"

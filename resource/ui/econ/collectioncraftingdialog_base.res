@@ -63,7 +63,6 @@
 				"zpos"								"0"
 				"wide"								"p0.8"
 				"tall"								"f0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"#TF_CollectionCrafting_AttachItem"
@@ -84,8 +83,6 @@
 				"zpos"								"1"
 				"wide"								"o1"
 				"tall"								"p0.8"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							""
@@ -344,7 +341,6 @@
 		"zpos"										"5"
 		"wide"										"p1"
 		"tall"										"30"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#TF_CollectionCrafting_WaitingForResponse"
@@ -366,7 +362,6 @@
 		"zpos"										"5"
 		"wide"										"p1"
 		"tall"										"30"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#TF_CollectionCrafting_ReponseTimeout"
@@ -401,7 +396,6 @@
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"50"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%resultstring%"
@@ -585,9 +579,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
 			"pin_to_sibling"						"MainContainer"
 			"pin_corner_to_sibling"					"PIN_BOTTOMLEFT"
@@ -603,8 +597,6 @@
 			"zpos"									"100"
 			"wide"									"60"
 			"tall"									"25"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -619,8 +611,6 @@
 			{
 				"wide"								"19"
 				"tall"								"19"
-				"autoResize"						"0"
-				"pinCorner"							"2"
 				"visible"							"0"
 				"enabled"							"1"
 				"labelText"							""
@@ -698,8 +688,6 @@
 		"zpos"										"100"
 		"wide"										"o1.3333"
 		"tall"										"450"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"mouseinputenabled"							"0"
@@ -879,8 +867,6 @@
 				"zpos"								"1"
 				"wide"								"p0.175"
 				"tall"								"p0.085"
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"#TF_CollectionCrafting_Submit"
@@ -923,9 +909,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 
 		"pin_to_sibling"							"MainContainer"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -954,13 +940,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"ButtonGreen"
-		"armedBgColor_override" 					"ButtonGreen_Hover"
-		"depressedBgColor_override" 				"ButtonGreen_Hover"
+		"defaultBgColor_override"					"ButtonGreen"
+		"armedBgColor_override"						"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"ShowExplanationsButton1"
@@ -972,8 +958,6 @@
 		"zpos"										"100"
 		"wide"										"14"
 		"tall"										"14"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"1"
@@ -988,8 +972,8 @@
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"GrayBlueLight"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"DebugReload"
@@ -1001,8 +985,6 @@
 		"zpos"										"100"
 		"wide"										"20"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"?"
@@ -1017,13 +999,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"Button"
-		"armedBgColor_override" 					"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"defaultBgColor_override"					"Button"
+		"armedBgColor_override"						"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"ShowExplanationsButton2"
@@ -1035,8 +1017,6 @@
 		"zpos"										"100"
 		"wide"										"14"
 		"tall"										"14"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"1"
@@ -1051,8 +1031,8 @@
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"GrayBlueLight"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"StartExplanation"
@@ -1074,7 +1054,7 @@
 		"callout_inparents_y"						"150"
 		"next_explanation"							"ItemSlotsExplanation"
 
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -1090,13 +1070,11 @@
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -1110,12 +1088,10 @@
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"85"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -1127,8 +1103,6 @@
 			"zpos"									"10"
 			"wide"									"14"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
@@ -1141,9 +1115,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"PositionLabel"
@@ -1158,11 +1132,9 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"NextButton"
@@ -1174,8 +1146,6 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
@@ -1188,9 +1158,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -1212,7 +1182,7 @@
 		"callout_inparents_x"						"c-130"
 		"callout_inparents_y"						"153"
 
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -1228,13 +1198,11 @@
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -1248,13 +1216,11 @@
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"p0.8"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -1266,8 +1232,6 @@
 			"zpos"									"10"
 			"wide"									"14"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
@@ -1280,9 +1244,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"PrevButton"
@@ -1294,8 +1258,6 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
@@ -1308,9 +1270,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"PositionLabel"
@@ -1325,12 +1287,10 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 	}
 
@@ -1353,7 +1313,7 @@
 		"callout_inparents_y"						"100"
 		"next_explanation"							"StampExplanation"
 
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -1369,13 +1329,11 @@
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -1389,13 +1347,11 @@
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"p0.8"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -1407,8 +1363,6 @@
 			"zpos"									"10"
 			"wide"									"14"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
@@ -1420,9 +1374,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"PositionLabel"
@@ -1437,12 +1391,10 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"NextButton"
@@ -1454,8 +1406,6 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
@@ -1468,9 +1418,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -1492,7 +1442,7 @@
 		"callout_inparents_x"						"c190"
 		"callout_inparents_y"						"123"
 
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -1508,13 +1458,11 @@
 			"ypos"									"10"
 			"wide"									"260"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -1528,13 +1476,11 @@
 			"ypos"									"45"
 			"wide"									"260"
 			"tall"									"p0.8"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -1546,8 +1492,6 @@
 			"zpos"									"10"
 			"wide"									"14"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
@@ -1559,9 +1503,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"PrevButton"
@@ -1573,8 +1517,6 @@
 			"zpos"									"10"
 			"wide"									"30"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
@@ -1587,9 +1529,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"PositionLabel"
@@ -1604,12 +1546,10 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 	}
 }

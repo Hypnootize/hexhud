@@ -27,8 +27,6 @@
 		"zpos"										"0"
 		"wide"										"400"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
@@ -36,7 +34,7 @@
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"		 							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"RecipeItemModelPanel"
@@ -68,8 +66,6 @@
 			"zpos"									"2"
 			"wide"									"140"
 			"tall"									"100"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%attriblist%"

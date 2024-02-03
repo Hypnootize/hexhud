@@ -364,8 +364,8 @@ Scheme
 	{
 		"88"
 		{
-			"font" 		"resource/scheme/fonts/Roboto.ttf"
-			"name" 		"Roboto Bold"
+			"font"		"resource/scheme/fonts/Roboto.ttf"
+			"name"		"Roboto Bold"
 		}
 	}
 }

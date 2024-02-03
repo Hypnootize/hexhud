@@ -31,13 +31,11 @@
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"25"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor"									"WhiteDark"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"TitleBG"
+		"pin_to_sibling"							"TitleBG"
 	}
 
 	"MapImagePanel"
@@ -67,8 +65,6 @@
 		"zpos"										"20"
 		"wide"										"30"
 		"tall"										"50"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
@@ -83,9 +79,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"NextButton"
@@ -97,8 +93,6 @@
 		"zpos"										"20"
 		"wide"										"30"
 		"tall"										"50"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
@@ -114,9 +108,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"CurPageLabel"
@@ -131,8 +125,6 @@
 		"zpos"										"1"
 		"wide"										"40"
 		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
@@ -171,15 +163,13 @@
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
 		"fgcolor"									"WhiteDark"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"SettingsBG"
+		"pin_to_sibling"							"SettingsBG"
 	}
 
 	"DifficultyComboBox"
@@ -192,8 +182,6 @@
 		"zpos"										"2"
 		"wide"										"80"
 		"tall"										"16"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textHidden"								"0"
@@ -207,11 +195,11 @@
 
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override" 					"WhiteDark"
-		"disabledBgColor_override" 					"GrayBlueDark"
-		"selectionColor_override" 					"GrayBlueDark"
-		"selectionTextColor_override" 				"WhiteDark"
-		"defaultSelectionBG2Color_override" 		"GrayBlueDark"
+		"disabledFgColor_override"					"WhiteDark"
+		"disabledBgColor_override"					"GrayBlueDark"
+		"selectionColor_override"					"GrayBlueDark"
+		"selectionTextColor_override"				"WhiteDark"
+		"defaultSelectionBG2Color_override"			"GrayBlueDark"
 
 		"Button"
 		{
@@ -222,7 +210,7 @@
 			"paintbackgroundtype"					"0"
 		}
 
-		"pin_to_sibling" 							"SettingsBG"
+		"pin_to_sibling"							"SettingsBG"
 	}
 
 	"PlayersLabel"
@@ -237,8 +225,6 @@
 		"zpos"										"1"
 		"wide"										"35"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
@@ -246,9 +232,9 @@
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 
-		"pin_to_sibling" 							"SettingsBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"SettingsBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"NumPlayersTextEntry"
@@ -265,8 +251,6 @@
 		"zpos"										"50"
 		"wide"										"22"
 		"tall"										"16"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"maxchars"									"2"
@@ -279,9 +263,9 @@
 
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"PlayersLabel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"PlayersLabel"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 
 	"SuggestedPlayerCountLabel"
@@ -296,8 +280,6 @@
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
@@ -306,9 +288,9 @@
 
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"NumPlayersTextEntry"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"NumPlayersTextEntry"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 
 	"StartOfflinePracticeButton"
@@ -319,8 +301,6 @@
 		"ypos"										"rs1-24"
 		"wide"										"f0"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_StartPractice"
@@ -335,13 +315,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"ButtonGreen"
-		"armedBgColor_override" 					"ButtonGreen_Hover"
-		"depressedBgColor_override" 				"ButtonGreen_Hover"
+		"defaultBgColor_override"					"ButtonGreen"
+		"armedBgColor_override"						"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"HackCoverBottomOfMapImagePanel"
@@ -349,11 +329,21 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HackCoverBottomOfMapImagePanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"GradientPanel"
 	{
 		"ControlName"								"ImagePanel"
 		"FieldName"									"GradientPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

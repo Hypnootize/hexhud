@@ -16,8 +16,6 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"SelectButton"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%selectbuttontext%"
@@ -36,13 +34,13 @@
 		"border_default"							"BottomLineWhiteDark"
 		"border_armed"								"BottomLineWhite"
 
-		"defaultBgColor_override" 					"Button"
-		"armedBgColor_override" 					"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"defaultBgColor_override"					"Button"
+		"armedBgColor_override"						"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"ProgressLabel"
@@ -56,8 +54,6 @@
 		"ypos"										"245"
 		"wide"										"30"
 		"tall"										"15"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"Allcaps"									"1"

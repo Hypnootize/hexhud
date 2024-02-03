@@ -98,6 +98,11 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"TourLevelLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"TourlistGroupBox"
@@ -240,7 +245,7 @@
 			"tall"									"110"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 			"image"									"pve/mvm_loot_image"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
@@ -335,7 +340,7 @@
 			"tall"									"60"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 			"image"									"../hud/mvm_tours"
 			"scaleImage"							"1"
 		}
@@ -572,7 +577,7 @@
 			"tall"									"44"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"1"
+			"mouseinputenabled"						"1"
 			"paintbackground"						"1"
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
@@ -606,7 +611,7 @@
 			"tall"									"20"
 			"mouseinputenabled"						"0"
 
-			"pin_to_sibling" 						"MannUpTicketAd"
+			"pin_to_sibling"						"MannUpTicketAd"
 		}
 
 		"SquadSurplusTicketAd"
@@ -620,7 +625,7 @@
 			"tall"									"44"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"1"
+			"mouseinputenabled"						"1"
 			"paintbackground"						"1"
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
@@ -652,9 +657,9 @@
 			"zpos"									"2"
 			"wide"									"60"
 			"tall"									"20"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 
-			"pin_to_sibling" 						"SquadSurplusTicketAd"
+			"pin_to_sibling"						"SquadSurplusTicketAd"
 		}
 
 		"SquadSurplusCheckButton"
@@ -684,9 +689,9 @@
 			"tall"									"25"
 			"fgcolor"								"WhiteDark"
 
-			"pin_to_sibling" 						"SquadSurplusCheckButton"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
+			"pin_to_sibling"						"SquadSurplusCheckButton"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_RIGHT"
 		}
 		"SquadSurplusCheckButtonBG"
 		{
@@ -704,7 +709,7 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"BlackBlue"
 
-			"pin_to_sibling" 						"SquadSurplusCheckButton"
+			"pin_to_sibling"						"SquadSurplusCheckButton"
 		}
 
 		"AlertBG"
@@ -741,9 +746,9 @@
 			"proportionaltoparent"					"1"
 			"drawcolor"								"255 255 255 255"
 
-			"pin_to_sibling" 						"AlertBG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"AlertBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 		"MissingTicketsLabel"
 		{
@@ -761,9 +766,9 @@
 			"tall"									"30"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"AlertBG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"AlertBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 	}
 
@@ -843,7 +848,7 @@
 			"tall"									"110"
 			"visible"								"1"
 			"enabled"								"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 			"image"									"pve/mvm_loot_image"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
@@ -875,28 +880,26 @@
 			"zpos"									"2"
 			"wide"									"120"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_MvM_MannUpNow"
 			"font"									"Light 14"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"command" 								"mann_up_now"
+			"command"								"mann_up_now"
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
-			"defaultBgColor_override" 				"Button"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
-			"FgColor" 								"White"
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"fgcolor"								"White"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 }

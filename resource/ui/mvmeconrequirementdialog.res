@@ -50,7 +50,7 @@
 		"enabled"									"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"CyclingAd"

@@ -31,7 +31,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 11"
 	}
 	"NameFilterBG"
@@ -46,8 +46,6 @@
 		"tall"										"17"
 		"visible"									"1"
 		"enabled"									"1"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"textAlignment"								"west"
 		"textinsetx"								"10"
 		"labeltext"									"q"
@@ -55,7 +53,7 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"GrayBlueDark"
 
-		"pin_to_sibling" 							"SearchTextEntry"
+		"pin_to_sibling"							"SearchTextEntry"
 	}
 	"NameFilterSearchBG"
 	{
@@ -71,9 +69,9 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"BlackBlue"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"SearchTextEntry"
-		"pin_corner_to_sibling"					 	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMRIGHT"
+		"pin_to_sibling"							"SearchTextEntry"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 
 	"ReplayList"
@@ -86,7 +84,7 @@
 		"tall"										"350"
 		"visible"									"1"
 		"enabled"									"1"
-		"autohide_scrollbar" 						"1"
+		"autohide_scrollbar"						"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"bgcolor_override"							"Background_Secondary"

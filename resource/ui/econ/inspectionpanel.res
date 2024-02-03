@@ -47,9 +47,9 @@
 		"enable"									"1"
 		"bgcolor_override"							"Background_Secondary"
 
-		"pin_to_sibling" 							"ItemName"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"ItemName"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 
 		"consume_mode"
 		{
@@ -78,9 +78,9 @@
 		"enable"									"1"
 		"bgcolor_override"							"Background_Secondary"
 
-		"pin_to_sibling" 							"WeaponBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"WeaponBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"consume_mode"
 		{
@@ -119,14 +119,14 @@
 
 		"text_ypos"									"0"
 		"text_center"								"1"
-		"paint_icon_hide" 							"1"
+		"paint_icon_hide"							"1"
 		"model_hide"								"1"
 		"text_forcesize"							"4"
 		"name_only"									"1"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"allow_rot"								"0"
 			"inventory_image_type"					"1"
 			"continued_velocity"					"1"
@@ -181,9 +181,9 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"BottomLineWhiteDark"
 
-		"pin_to_sibling" 							"OptionsBG"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"OptionsBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 
 		"consume_mode"
 		{
@@ -214,7 +214,7 @@
 		"proportionaltoparent"						"1"
 
 		"force_use_model"							"1"
-		"use_item_rendertarget" 					"0"
+		"use_item_rendertarget"						"0"
 		"allow_rot"									"1"
 		"allow_pitch"								"1"
 		"max_pitch"									"30"
@@ -251,23 +251,23 @@
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"7"
-			"angles_y" 								"130"
-			"angles_z" 								"0"
-			"origin_x" 								"175"
-			"origin_y" 								"0"
-			"origin_z" 								"0"
+			"angles_x"								"7"
+			"angles_y"								"130"
+			"angles_z"								"0"
+			"origin_x"								"175"
+			"origin_y"								"0"
+			"origin_z"								"0"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" 							"1"
+			"spotlight"								"1"
 
 			"modelname"								""
 
 			"consume_mode"
 			{
-				"origin_y" 							"10"
-				"origin_z" 							"5"
+				"origin_y"							"10"
+				"origin_z"							"5"
 			}
 		}
 
@@ -313,8 +313,6 @@
 		"zpos"										"100"
 		"wide"										"60"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -346,8 +344,6 @@
 		{
 			"wide"									"19"
 			"tall"									"19"
-			"autoResize"							"0"
-			"pinCorner"								"2"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								""
@@ -355,9 +351,9 @@
 			"scaleImage"							"1"
 
 			"fgcolor"								"TanDark"
-			"defaultFgColor_override" 				"TanDark"
-			"armedFgColor_override" 				"TanDark"
-			"depressedFgColor_override" 			"TanDark"
+			"defaultFgColor_override"				"TanDark"
+			"armedFgColor_override"					"TanDark"
+			"depressedFgColor_override"				"TanDark"
 
 			"sound_depressed"						"UI/buttonclick.wav"
 
@@ -433,20 +429,20 @@
 
 		"visible"									"0"
 
-		"pin_to_sibling" 							"OptionsBG"
+		"pin_to_sibling"							"OptionsBG"
 
 		"fixed_item"
 		{
 			"wide"									"f0"
 			"tall"									"f0"
-			"pin_to_sibling" 						""
+			"pin_to_sibling"						""
 		}
 		"fixed_paintkit"
 		{
 			"ypos"									"rs1-55"
 			"wide"									"f0"
 			"tall"									"50"
-			"pin_to_sibling" 						""
+			"pin_to_sibling"						""
 		}
 		"consume_mode"
 		{
@@ -454,7 +450,7 @@
 			"ypos"									"rs1-75"
 			"wide"									"150"
 			"tall"									"28"
-			"pin_to_sibling" 						""
+			"pin_to_sibling"						""
 			"paintbackground"						"0"
 		}
 
@@ -471,8 +467,6 @@
 			"ypos"									"5"
 			"wide"									"140"
 			"tall"									"12"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"WhiteDark"
@@ -500,8 +494,6 @@
 			"zpos"									"100"
 			"wide"									"140"
 			"tall"									"16"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textHidden"							"0"
@@ -517,11 +509,11 @@
 
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			"disabledFgColor_override" 				"WhiteDark"
-			"disabledBgColor_override" 				"GrayBlueDark"
-			"selectionColor_override" 				"GrayBlueDark"
-			"selectionTextColor_override" 			"WhiteDark"
-			"defaultSelectionBG2Color_override" 	"GrayBlueDark"
+			"disabledFgColor_override"				"WhiteDark"
+			"disabledBgColor_override"				"GrayBlueDark"
+			"selectionColor_override"				"GrayBlueDark"
+			"selectionTextColor_override"			"WhiteDark"
+			"defaultSelectionBG2Color_override"		"GrayBlueDark"
 
 			"Button"
 			{
@@ -532,9 +524,9 @@
 				"paintbackgroundtype"				"0"
 			}
 
-			"pin_to_sibling" 						"PaintkitLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"PaintkitLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 
 			"fixed_paintkit"
 			{
@@ -559,8 +551,6 @@
 			"ypos"									"7"
 			"wide"									"140"
 			"tall"									"12"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"WhiteDark"
@@ -581,12 +571,12 @@
 				"ypos"								"0"
 				"wide"								"f0"
 				"labelText"							"#TF_ItemPreview_RedeemItem"
-				"pin_to_sibling" 					""
+				"pin_to_sibling"					""
 			}
 
-			"pin_to_sibling" 						"ComboBoxValidPaintkits"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"ComboBoxValidPaintkits"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"ComboBoxValidItems"
@@ -600,8 +590,6 @@
 			"zpos"									"100"
 			"wide"									"140"
 			"tall"									"16"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textHidden"							"0"
@@ -621,14 +609,14 @@
 				"xpos"								"cs-0.5+60"
 				"ypos"								"5"
 				"wide"								"150"
-				"pin_to_sibling" 					""
+				"pin_to_sibling"					""
 			}
 			"consume_mode"
 			{
 				"xpos"								"0"
 				"ypos"								"rs1"
 				"wide"								"f0"
-				"pin_to_sibling" 					""
+				"pin_to_sibling"					""
 			}
 
 			"proportionaltoparent"					"1"
@@ -637,11 +625,11 @@
 
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"GrayBlueDark"
-			"disabledFgColor_override" 				"WhiteDark"
-			"disabledBgColor_override" 				"GrayBlueDark"
-			"selectionColor_override" 				"GrayBlueDark"
-			"selectionTextColor_override" 			"WhiteDark"
-			"defaultSelectionBG2Color_override" 	"GrayBlueDark"
+			"disabledFgColor_override"				"WhiteDark"
+			"disabledBgColor_override"				"GrayBlueDark"
+			"selectionColor_override"				"GrayBlueDark"
+			"selectionTextColor_override"			"WhiteDark"
+			"defaultSelectionBG2Color_override"		"GrayBlueDark"
 
 			"Button"
 			{
@@ -652,9 +640,9 @@
 				"paintbackgroundtype"				"0"
 			}
 
-			"pin_to_sibling" 						"ItemLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"ItemLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"WearLabel"
@@ -670,8 +658,6 @@
 			"ypos"									"7"
 			"wide"									"140"
 			"tall"									"12"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"WhiteDark"
@@ -691,9 +677,9 @@
 				"visible"							"0"
 			}
 
-			"pin_to_sibling" 						"ComboBoxValidItems"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"ComboBoxValidItems"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"WearSlider"
@@ -729,9 +715,9 @@
 				"visible"							"0"
 			}
 
-			"pin_to_sibling" 						"WearLabel"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"WearLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"SeedTextEntry"
@@ -744,10 +730,9 @@
 			"zpos"									"10"
 			"wide"									"140"
 			"tall"									"12"
-			"autoResize"							"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"actionsignallevel" 					"2"
+			"actionsignallevel"						"2"
 			"default"								"1"
 			"NumericInputOnly"						"1"
 			"fgcolor_override"						"WhiteDark"
@@ -768,9 +753,9 @@
 				"visible"							"0"
 			}
 
-			"pin_to_sibling" 						"WearSlider"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"WearSlider"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"NewSeedButton"
@@ -783,12 +768,11 @@
 			"zpos"									"10"
 			"wide"									"140"
 			"tall"									"16"
-			"autoResize"							"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_ItemPreview_PaintkitSeed"
-			"actionsignallevel" 					"2"
-			"use_proportional_insets" 				"1"
+			"actionsignallevel"						"2"
+			"use_proportional_insets"				"1"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"keyboardinputenabled"					"0"
@@ -800,13 +784,13 @@
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
-			"defaultBgColor_override" 				"Button"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
 			"fixed_item"
 			{
@@ -821,9 +805,9 @@
 				"visible"							"0"
 			}
 
-			"pin_to_sibling" 						"SeedTextEntry"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
+			"pin_to_sibling"						"SeedTextEntry"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 
 		"MarketButton"
@@ -870,13 +854,13 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
 
-			"defaultBgColor_override" 				"ButtonGreen"
-			"armedBgColor_override" 				"ButtonGreen_Hover"
-			"depressedBgColor_override" 			"ButtonGreen_Hover"
+			"defaultBgColor_override"				"ButtonGreen"
+			"armedBgColor_override"					"ButtonGreen_Hover"
+			"depressedBgColor_override"				"ButtonGreen_Hover"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
 			"sound_depressed"						"UI/buttonclick.wav"
 		}
@@ -890,8 +874,6 @@
 			"zpos"									"1005"
 			"wide"									"8"
 			"tall"									"8"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"0"
 			"enabled"								"1"
 			"labeltext"								""
@@ -900,14 +882,14 @@
 			"default"								"0"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"Command"								"debug_menu"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 			"actionsignallevel"						"2"
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"0 0 0 0"
-			"armedFgColor_override" 				"Red"
-			"depressedFgColor_override" 			"46 43 42 255"
+			"defaultFgColor_override"				"0 0 0 0"
+			"armedFgColor_override"					"Red"
+			"depressedFgColor_override"				"46 43 42 255"
 
 			"image_drawcolor"						"TanDark"
 			"image_armedcolor"						"200 80 60 255"
@@ -934,5 +916,10 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BGImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

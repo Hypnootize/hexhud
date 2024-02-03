@@ -99,7 +99,7 @@
 		// tells the code where the end of the progress bar is since the image
 		// might be padded for npot reasons.
 
-		"ControlName" 								"Panel"
+		"ControlName"								"Panel"
 		"fieldName"									"BlueProgressEnd"
 		"xpos"										"c-62"
 		"ypos"										"rs1-4"
@@ -127,8 +127,6 @@
 		"zpos"										"1"
 		"wide"										"9"
 		"tall"										"9"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									""
@@ -145,8 +143,6 @@
 		"zpos"										"1"
 		"wide"										"9"
 		"tall"										"9"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									""
@@ -163,8 +159,6 @@
 		"zpos"										"1"
 		"wide"										"9"
 		"tall"										"9"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									""
@@ -181,8 +175,6 @@
 		"zpos"										"1"
 		"wide"										"9"
 		"tall"										"9"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									""
@@ -199,8 +191,6 @@
 		"zpos"										"1"
 		"wide"										"9"
 		"tall"										"9"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									""
@@ -218,8 +208,6 @@
 		"zpos"										"1"
 		"wide"										"9"
 		"tall"										"9"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									""
@@ -236,8 +224,6 @@
 		"zpos"										"10"
 		"wide"										"18"
 		"tall"										"18"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""
@@ -254,8 +240,6 @@
 		"zpos"										"-100"
 		"wide"										"20"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""
@@ -280,91 +264,72 @@
 		"pin_to_sibling_corner"						"6"
 	}
 
-
-
 	"BallPowerCluster"
 	{
-		"ControlName" 								"EditablePanel"
-		"fieldName"  								"BallPowerCluster"
-		"xpos"  									"0"
-		"ypos"  									"0"
-		"zpos" 								 		"5"
-		"wide"  									"0"			//f0
-		"tall"  									"f0"
-		"autoResize"	 							"0"
-		"visible"		 							"1"
-		"enabled"		 							"1"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BallPowerCluster"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"5"
+		"wide"										"0"			//f0
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
 
 		"BallPowerMeterFrame"
 		{
-			"ControlName"	 						"ImagePanel"
-			"fieldName"		 						"BallPowerMeterFrame"
-			"xpos"			 						"c-100"
-			"ypos"			 						"0"
-			"zpos"			 						"5"
-			"wide"			 						"200"
-			"tall"			 						"50"
-			"autoResize"	 						"0"
-			"pinCorner"		 						"0"
-			"visible"		 						"1"
-			"enabled"		 						"1"
-			"image"			 						"../passtime/hud/passtime_powerball_meter_frame"
-			"scaleImage"	 						"1"
+			"ControlName"							"ImagePanel"
+			"fieldName"								"BallPowerMeterFrame"
+			"xpos"									"c-100"
+			"ypos"									"0"
+			"zpos"									"5"
+			"wide"									"200"
+			"tall"									"50"
+			"visible"								"1"
+			"enabled"								"1"
+			"image"									"../passtime/hud/passtime_powerball_meter_frame"
+			"scaleImage"							"1"
 		}
 
 		"BallPowerMeterFinalSectionContainer"
 		{
-			// This exists because the bar is filled by changing the width dynamically
-			// and if you change the width of the ImagePanel, it will stretch the image.
-			// But if you instead change the width of this container, the image is simply
-			// cut off instead of stretched.
-			// Also so that the bar is clipped nicely to the border.
-
-			"ControlName"		 					"EditablePanel"
-			"fieldName"				 				"BallPowerMeterFinalSectionContainer"
-			"xpos"				 					"c-85"
-			"ypos"				 					"16"
-			"zpos"				 					"3"
-			"wide"				 					"168"
-			"tall"				 					"18"
-			"visible"				 				"1"
-			"enabled"				 				"1"
+			"ControlName"							"EditablePanel"
+			"fieldName"								"BallPowerMeterFinalSectionContainer"
+			"xpos"									"c-85"
+			"ypos"									"16"
+			"zpos"									"3"
+			"wide"									"168"
+			"tall"									"18"
+			"visible"								"1"
+			"enabled"								"1"
 
 			"BallPowerMeterFinalSection"
 			{
-				"ControlName"		 				"ImagePanel"
-				"fieldName"			 				"BallPowerMeterFinalSection"
-				"xpos"				 				"0"
-				"ypos"				 				"0"
-				"zpos"				 				"0"
-				"wide"				 				"168"
-				"tall"				 				"18"
-				"autoResize"		 				"0"
-				"pinCorner"			 				"0"
-				"visible"			 				"1"
-				"enabled"			 				"1"
-				"image"				 				"white"
-				"scaleImage"		 				"1"
+				"ControlName"						"ImagePanel"
+				"fieldName"							"BallPowerMeterFinalSection"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"0"
+				"wide"								"168"
+				"tall"								"18"
+				"visible"							"1"
+				"enabled"							"1"
+				"image"								"white"
+				"scaleImage"						"1"
 			}
 		}
 
 		"BallPowerMeterFillContainer"
 		{
-			// This exists because the bar is filled by changing the width dynamically
-			// and if you change the width of the ImagePanel, it will stretch the image.
-			// But if you instead change the width of this container, the image is simply
-			// cut off instead of stretched.
-			// Also so that the bar is clipped nicely to the border.
-
-			"ControlName"			 				"EditablePanel"
-			"fieldName"				 				"BallPowerMeterFillContainer"
-			"xpos"					 				"c-85"
-			"ypos"					 				"16"
-			"zpos"					 				"4"
-			"wide"					 				"168"
-			"tall"					 				"18"
-			"visible"				 				"1"
-			"enabled"				 				"1"
+			"ControlName"							"EditablePanel"
+			"fieldName"								"BallPowerMeterFillContainer"
+			"xpos"									"c-85"
+			"ypos"									"16"
+			"zpos"									"4"
+			"wide"									"168"
+			"tall"									"18"
+			"visible"								"1"
+			"enabled"								"1"
 
 			"BallPowerMeterFill"
 			{
@@ -375,8 +340,6 @@
 				"zpos"								"0"
 				"wide"								"168"
 				"tall"								"18"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"white"
@@ -389,263 +352,231 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon0"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon1"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon1"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon2"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon2"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon3"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon3"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon4"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon4"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon5"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon5"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon6"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon6"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon7"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon7"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon8"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon8"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon9"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon9"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon10"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon10"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon11"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon11"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon12"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon12"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon13"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon13"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon14"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon14"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon15"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon15"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon16"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon16"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon17"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon17"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon18"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon18"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon19"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon19"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon20"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon20"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon21"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon21"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon22"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon22"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon23"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon23"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon24"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon24"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon25"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon25"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon26"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon26"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon27"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon27"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon28"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon28"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon29"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon29"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon30"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon30"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon31"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon31"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
-
 	"playericon32"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"playericon32"
-		"wide" 										"12"
-		"tall" 										"12"
+		"wide"										"12"
+		"tall"										"12"
 	}
 }

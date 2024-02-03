@@ -76,9 +76,9 @@
 		"AllCaps"									"0"
 		"mouseinputenabled"							"0"
 
-		"pin_to_sibling" 							"Title"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"Title"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"ShowExplanationsButton"
@@ -90,8 +90,6 @@
 		"zpos"										"100"
 		"wide"										"20"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"1"
@@ -110,13 +108,13 @@
 		"border_default"							"BottomLineWhite"
 		"border_armed"								"BottomLineWhite"
 
-		"defaultBgColor_override" 					"Button"
-		"armedBgColor_override" 					"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"defaultBgColor_override"					"Button"
+		"armedBgColor_override"						"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"RankTooltipPanel"
@@ -150,7 +148,7 @@
 		"mouseinputenabled"							"1"
 		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
 
 	"QueueButton"
@@ -162,8 +160,6 @@
 		"zpos"										"101"
 		"wide"										"300"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"Light 18"
@@ -182,12 +178,12 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"ButtonGreen"
-		"armedBgColor_override" 					"ButtonGreen_Hover"
-		"depressedBgColor_override" 				"ButtonGreen_Hover"
+		"defaultBgColor_override"					"ButtonGreen"
+		"armedBgColor_override"						"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 }

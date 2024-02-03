@@ -16,7 +16,6 @@
 					}
 				}
 			}
-
 			"RedTeamPanel"
 			{
 				"alpha"								"0"

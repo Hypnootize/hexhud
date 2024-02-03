@@ -8,8 +8,6 @@
 		"ypos"										"0"
 		"wide"										"85"
 		"tall"										"26"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 	}
@@ -82,6 +80,11 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"NotBuiltBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"NotBuiltLabel"
@@ -93,8 +96,6 @@
 			"ypos"									"1"
 			"wide"									"f0"
 			"tall"									"f0"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#Building_hud_sentry_not_built"
@@ -154,8 +155,6 @@
 				"ypos"								"cs-0.5+1"
 				"wide"								"20"
 				"tall"								"5"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"bgcolor_override"					"WhiteDark"
@@ -168,12 +167,22 @@
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"BuildingPanel"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BuildingPanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

@@ -46,8 +46,6 @@
 			"zpos"									"0"
 			"wide"									"200"
 			"tall"									"60"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"centerwrap"							"1"
@@ -61,6 +59,11 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"ToolBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"SourceItem"
 		{
@@ -83,7 +86,7 @@
 			"text_ypos"								"100"		// Hide it off the bottom
 			"text_center"							"1"
 			"name_only"								"1"
-			"paint_icon_hide" 						"1"
+			"paint_icon_hide"						"1"
 			"actionsignallevel"						"2"
 
 			"proportionaltoparent"					"1"
@@ -103,7 +106,7 @@
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"GrayBlueDark"
 				"proportionaltoparent"				"1"
-				"mouseinputenabled" 				"0"
+				"mouseinputenabled"					"0"
 			}
 			"ItemBackgroundRarity"
 			{
@@ -120,7 +123,7 @@
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"QualityColorCommunity"
 				"proportionaltoparent"				"1"
-				"mouseinputenabled" 				"0"
+				"mouseinputenabled"					"0"
 			}
 
 			"itemmodelpanel"
@@ -136,6 +139,11 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"SubjectBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"TargetItem"
@@ -178,7 +186,7 @@
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"GrayBlueDark"
 				"proportionaltoparent"				"1"
-				"mouseinputenabled" 				"0"
+				"mouseinputenabled"					"0"
 			}
 			"ItemBackgroundRarity"
 			{
@@ -195,7 +203,7 @@
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"QualityColorVintage"
 				"proportionaltoparent"				"1"
-				"mouseinputenabled" 				"0"
+				"mouseinputenabled"					"0"
 			}
 
 			"itemmodelpanel"
@@ -218,15 +226,13 @@
 			"zpos"									"0"
 			"wide"									"f20"
 			"tall"									"80"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"proportionaltoparent"					"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CancelButton"
@@ -238,8 +244,6 @@
 			"zpos"									"1"
 			"wide"									"150"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Cancel (&Q)"
@@ -272,8 +276,6 @@
 			"zpos"									"1"
 			"wide"									"150"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#CraftNameConfirm"

@@ -61,7 +61,7 @@
 			"font"									"Light 8"
 			"wrap"									"1"
 			"fgcolor"								"OffWhite"
-			"noshortcutsyntax" 						"1"
+			"noshortcutsyntax"						"1"
 		}
 	}
 
@@ -603,9 +603,9 @@
 			"paintBackgroundtype"					"0"
 			"bgcolor_override"						"TransparentLightBlack"
 
-			"pin_to_sibling" 						"VoteSetupList"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_TOP"
+			"pin_to_sibling"						"VoteSetupList"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
 		}
 
 		"VoteParameterList"
@@ -638,9 +638,9 @@
 			"paintBackgroundtype"					"0"
 			"bgcolor_override"						"TransparentLightBlack"
 
-			"pin_to_sibling" 						"VoteParameterList"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_TOP"
+			"pin_to_sibling"						"VoteParameterList"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
 		}
 
 		"ComboLabel"
@@ -672,11 +672,11 @@
 
 			"fgcolor_override"						"White"
 			"bgcolor_override"						"Blank"
-			"disabledFgColor_override" 				"WhiteDark"
-			"disabledBgColor_override" 				"Blank"
-			"selectionColor_override" 				"Blank"
-			"selectionTextColor_override" 			"White"
-			"defaultSelectionBG2Color_override" 	"WhiteDark"
+			"disabledFgColor_override"				"WhiteDark"
+			"disabledBgColor_override"				"Blank"
+			"selectionColor_override"				"Blank"
+			"selectionTextColor_override"			"White"
+			"defaultSelectionBG2Color_override"		"WhiteDark"
 
 			"Button"
 			{
@@ -703,9 +703,9 @@
 			"paintBackgroundtype"					"0"
 			"bgcolor_override"						"TransparentLightBlack"
 
-			"pin_to_sibling" 						"ComboBox"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"ComboBox"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 
 		"CallVoteButton"

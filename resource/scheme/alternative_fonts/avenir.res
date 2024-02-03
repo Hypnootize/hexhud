@@ -364,8 +364,8 @@ Scheme
 	{
 		"84"
 		{
-			"font" 		"resource/scheme/fonts/avenir black.ttf"
-			"name" 		"AvenirLTStd-Black"
+			"font"		"resource/scheme/fonts/avenir black.ttf"
+			"name"		"AvenirLTStd-Black"
 		}
 	}
 }

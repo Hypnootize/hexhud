@@ -12,7 +12,6 @@
 	{
 		"alpha"										"0"
 	}
-
 	"Player1Name"
 	{
 		"alpha"										"0"
@@ -25,7 +24,6 @@
 	{
 		"alpha"										"0"
 	}
-
 	"KillStreakPlayer1Avatar"
 	{
 		"alpha"										"0"

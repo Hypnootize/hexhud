@@ -8,8 +8,6 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
@@ -45,8 +43,6 @@
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"25"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -65,8 +61,6 @@
 			"ypos"									"88"
 			"wide"									"300"
 			"tall"									"20"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"WhiteDark"
@@ -85,8 +79,6 @@
 			"ypos"									"90"
 			"wide"									"280"
 			"tall"									"150"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
@@ -126,7 +118,7 @@
 			"tileImage"								"0"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
-			"pin_to_sibling" 						"WeaponBG0"
+			"pin_to_sibling"						"WeaponBG0"
 		}
 		"PrimaryLabel"
 		{
@@ -140,8 +132,6 @@
 			"zpos"									"1"
 			"wide"									"70"
 			"tall"									"15"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -153,9 +143,9 @@
 			"paintborder"							"1"
 			"border"								"BottomLineWhiteDark"
 
-			"pin_to_sibling" 						"WeaponBG0"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
+			"pin_to_sibling"						"WeaponBG0"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 
 		"WeaponBG1"
@@ -176,9 +166,9 @@
 			"border"								"BottomLineWhiteDark"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"WeaponBG0"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"WeaponBG0"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"WeaponImage1"
 		{
@@ -193,7 +183,7 @@
 			"tileImage"								"0"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
-			"pin_to_sibling" 						"WeaponBG1"
+			"pin_to_sibling"						"WeaponBG1"
 		}
 		"SecondaryLabel"
 		{
@@ -207,8 +197,6 @@
 			"zpos"									"1"
 			"wide"									"70"
 			"tall"									"15"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -220,9 +208,9 @@
 			"paintborder"							"1"
 			"border"								"BottomLineWhiteDark"
 
-			"pin_to_sibling" 						"WeaponBG1"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
+			"pin_to_sibling"						"WeaponBG1"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 
 		"WeaponBG2"
@@ -243,9 +231,9 @@
 			"border"								"BottomLineWhiteDark"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"WeaponBG1"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"WeaponBG1"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"WeaponImage2"
 		{
@@ -260,7 +248,7 @@
 			"tileImage"								"0"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
-			"pin_to_sibling" 						"WeaponBG2"
+			"pin_to_sibling"						"WeaponBG2"
 		}
 		"MeleeLabel"
 		{
@@ -274,8 +262,6 @@
 			"zpos"									"1"
 			"wide"									"70"
 			"tall"									"15"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
@@ -287,9 +273,9 @@
 			"paintborder"							"1"
 			"border"								"BottomLineWhiteDark"
 
-			"pin_to_sibling" 						"WeaponBG2"
-			"pin_corner_to_sibling" 				"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 				"PIN_CENTER_BOTTOM"
+			"pin_to_sibling"						"WeaponBG2"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 	}
 
@@ -302,8 +288,6 @@
 		"zpos"										"100"
 		"wide"										"f0"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Training_StartTraining"
@@ -318,13 +302,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"ButtonGreen"
-		"armedBgColor_override" 					"ButtonGreen_Hover"
-		"depressedBgColor_override" 				"ButtonGreen_Hover"
+		"defaultBgColor_override"					"ButtonGreen"
+		"armedBgColor_override"						"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"ClassImage"

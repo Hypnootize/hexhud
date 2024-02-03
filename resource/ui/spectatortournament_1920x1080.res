@@ -6,7 +6,7 @@
 		{
 			"HealthIcon"
 			{
-				"HealthBonusPosAdj"	     			"253"
+				"HealthBonusPosAdj"					"253"
 			}
 		}
 	}

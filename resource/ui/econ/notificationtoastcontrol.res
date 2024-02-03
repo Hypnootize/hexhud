@@ -14,7 +14,7 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"BgColor_override" 							"GrayBlueLight"
+		"bgcolor_override"							"GrayBlueLight"
 	}
 
 	"DeleteButton"
@@ -26,8 +26,6 @@
 		"zpos"										"20"
 		"wide"										"24"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"-"
@@ -41,13 +39,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"GrayBlueDark"
-		"armedBgColor_override" 					"BlackBlue"
-		"depressedBgColor_override" 				"BlackBlue"
+		"defaultBgColor_override"					"GrayBlueDark"
+		"armedBgColor_override"						"BlackBlue"
+		"depressedBgColor_override"					"BlackBlue"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"TriggerButton"
@@ -65,8 +63,6 @@
 		"zpos"										"20"
 		"wide"										"24"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"m"
@@ -80,13 +76,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"GrayBlueDark"
-		"armedBgColor_override" 					"BlackBlue"
-		"depressedBgColor_override" 				"BlackBlue"
+		"defaultBgColor_override"					"GrayBlueDark"
+		"armedBgColor_override"						"BlackBlue"
+		"depressedBgColor_override"					"BlackBlue"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"AcceptButton"
@@ -104,8 +100,6 @@
 		"zpos"										"20"
 		"wide"										"24"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"m"
@@ -119,13 +113,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"GrayBlueDark"
-		"armedBgColor_override" 					"BlackBlue"
-		"depressedBgColor_override" 				"BlackBlue"
+		"defaultBgColor_override"					"GrayBlueDark"
+		"armedBgColor_override"						"BlackBlue"
+		"depressedBgColor_override"					"BlackBlue"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"DeclineButton"
@@ -137,8 +131,6 @@
 		"zpos"										"20"
 		"wide"										"24"
 		"tall"										"24"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"-"
@@ -152,12 +144,12 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"GrayBlueDark"
-		"armedBgColor_override" 					"BlackBlue"
-		"depressedBgColor_override" 				"BlackBlue"
+		"defaultBgColor_override"					"GrayBlueDark"
+		"armedBgColor_override"						"BlackBlue"
+		"depressedBgColor_override"					"BlackBlue"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 }

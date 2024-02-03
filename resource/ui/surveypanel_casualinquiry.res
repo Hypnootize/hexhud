@@ -20,13 +20,11 @@
 				"zpos"								"1000"
 				"wide"								"p0.85"
 				"tall"								"30"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"wrap"								"0"
 				"centerwrap"						"1"
-				"fgcolor"		 					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 				"proportionaltoparent"				"1"
 			}
 
@@ -50,6 +48,11 @@
 					"ControlName"					"EditablePanel"
 					"fieldName"						"InnerShadow"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
 
 				"Answer0"

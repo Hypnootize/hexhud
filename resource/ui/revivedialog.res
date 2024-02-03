@@ -45,12 +45,10 @@
 			"zpos"									"1"
 			"wide"									"200"
 			"tall"									"170"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"centerwrap"							"1"
-			"fgcolor" 								"White"
+			"fgcolor"								"White"
 		}
 
 		"ConfirmButton"
@@ -99,7 +97,6 @@
 			"TFFont"								"Size 11"
 			"HealthDeathWarningColor"				"HUDDeathWarning"
 			"TextColor"								"HudOffWhite"
-			"autoResize"							"1"
 			"proportionaltoparent"					"1"
 		}
 	}

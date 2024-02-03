@@ -37,8 +37,8 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Main"
-		"infocus_bgcolor_override" 					"Background_Main"
-		"outoffocus_bgcolor_override" 				"Background_Main"
+		"infocus_bgcolor_override"					"Background_Main"
+		"outoffocus_bgcolor_override"				"Background_Main"
 
 		"item_ypos"									"85"
 		"output_item_ypos"							"255"
@@ -71,8 +71,8 @@
 
 			"text_center"							"1"
 			"name_only"								"1"
-			"text_forcesize" 						"3"
-			"noitem_use_fullpanel" 					"1"
+			"text_forcesize"						"3"
+			"noitem_use_fullpanel"					"1"
 
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
@@ -92,7 +92,7 @@
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"GrayBlueDark"
 				"proportionaltoparent"				"1"
-				"mouseinputenabled" 				"0"
+				"mouseinputenabled"					"0"
 			}
 
 			"MainContentsContainer"
@@ -108,7 +108,7 @@
 
 				"itemmodelpanel"
 				{
-					"use_item_rendertarget" 		"0"
+					"use_item_rendertarget"			"0"
 					"inventory_image_type"			"1"
 					"allow_rot"						"0"
 				}
@@ -144,14 +144,14 @@
 			"visible"								"1"
 			"wrap"									"0"
 			"centerwrap"							"0"
-			"textAlignment" 						"center"
+			"textAlignment"							"center"
 			"textinsetx"							"0"
-			"defaultFgColor_override" 				"WhiteDark"
-			"defaultBgColor_override" 				"Button"
-			"armedFgColor_override" 				"WhiteSolid"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedFgColor_override" 			"WhiteSolid"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultFgColor_override"				"WhiteDark"
+			"defaultBgColor_override"				"Button"
+			"armedFgColor_override"					"WhiteSolid"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedFgColor_override"				"WhiteSolid"
+			"depressedBgColor_override"				"Button_Hover"
 		}
 
 		"filter_xoffset"							"-136"
@@ -220,7 +220,7 @@
 		"tall"										"263"
 		"PaintBackground"							"0"
 		"fgcolor_override"							"Blank"
-		"autohide_buttons" 							"1"
+		"autohide_buttons"							"1"
 		"proportionaltoparent"						"1"
 
 		"ScrollBar"
@@ -328,13 +328,13 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
 
-			"defaultBgColor_override" 				"ButtonGreen"
-			"armedBgColor_override" 				"ButtonGreen_Hover"
-			"depressedBgColor_override" 			"ButtonGreen_Hover"
+			"defaultBgColor_override"				"ButtonGreen"
+			"armedBgColor_override"					"ButtonGreen_Hover"
+			"depressedBgColor_override"				"ButtonGreen_Hover"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"FreeAccountLabel"
@@ -383,13 +383,13 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
 
-			"defaultBgColor_override" 				"Button"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"RecipeTitle"
@@ -468,7 +468,7 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -514,11 +514,21 @@
 		"ControlName"								"CExButton"
 		"fieldName"									"ShowExplanationsButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

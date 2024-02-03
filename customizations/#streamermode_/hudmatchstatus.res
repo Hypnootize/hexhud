@@ -10,12 +10,10 @@
 			}
 		}
 	}
-
 	"BlueTeamPanel"
 	{
 		"alpha"										"0"
 	}
-
 	"RedTeamPanel"
 	{
 		"alpha"										"0"

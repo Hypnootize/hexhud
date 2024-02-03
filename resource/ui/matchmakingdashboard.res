@@ -9,11 +9,11 @@
 		"ypos"										"0"
 		"zpos"										"10001"
 		"wide"										"f0"
-		"tall"										"28"
+		"tall"										"30"
 		"keyboardinputenabled"						"0"
 
 		"collapsed_height"							"0"
-		"expanded_height"							"28"
+		"expanded_height"							"30"
 		"resize_time"								"0.2"
 	}
 
@@ -25,12 +25,10 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"f0"
-		"tall"										"28"
+		"tall"										"30"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"Background"
 		{
@@ -40,7 +38,7 @@
 			"ypos"									"0"
 			"zpos"									"-1"
 			"wide"									"f0"
-			"tall"									"f4"
+			"tall"									"f6"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -58,8 +56,6 @@
 			"zpos"									"100"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -86,7 +82,7 @@
 			"show_model"							"0"
 			"show_type"								"1"
 
-			"pin_to_sibling" 						"PartySlot0"
+			"pin_to_sibling"						"PartySlot0"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
@@ -100,8 +96,6 @@
 			"zpos"									"100"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -109,7 +103,7 @@
 			"keyboardinputenabled"					"0"
 			"party_slot"							"1"
 
-			"pin_to_sibling" 						"RankPanel"
+			"pin_to_sibling"						"RankPanel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
@@ -123,8 +117,6 @@
 			"zpos"									"100"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -132,7 +124,7 @@
 			"keyboardinputenabled"					"0"
 			"party_slot"							"2"
 
-			"pin_to_sibling" 						"PartySlot1"
+			"pin_to_sibling"						"PartySlot1"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
@@ -146,8 +138,6 @@
 			"zpos"									"100"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -155,7 +145,7 @@
 			"keyboardinputenabled"					"0"
 			"party_slot"							"3"
 
-			"pin_to_sibling" 						"PartySlot2"
+			"pin_to_sibling"						"PartySlot2"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
@@ -169,8 +159,6 @@
 			"zpos"									"100"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -178,7 +166,7 @@
 			"keyboardinputenabled"					"0"
 			"party_slot"							"4"
 
-			"pin_to_sibling" 						"PartySlot3"
+			"pin_to_sibling"						"PartySlot3"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
@@ -192,8 +180,6 @@
 			"zpos"									"100"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -201,7 +187,7 @@
 			"keyboardinputenabled"					"0"
 			"party_slot"							"5"
 
-			"pin_to_sibling" 						"PartySlot4"
+			"pin_to_sibling"						"PartySlot4"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
@@ -215,8 +201,6 @@
 			"zpos"									"100"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Symbols 16"
@@ -232,22 +216,22 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"FgColor"								"White"
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"255 255 255 255"
-			"depressedFgColor_override" 			"255 255 255 255"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"255 255 255 255"
+			"depressedFgColor_override"				"255 255 255 255"
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"defaultBgColor_override" 				"GrayBlueDarkest"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"GrayBlueDarkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
 			"paintborder"							"1"
 			"border"								"BottomLineWhite"
 			"border_default"						"BottomLineWhite"
 			"border_armed"							"BottomLineWhite"
 
-			"pin_to_sibling" 						"PartySlot5"
+			"pin_to_sibling"						"PartySlot5"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
@@ -260,7 +244,7 @@
 			"ypos"									"-50"
 			"zpos"									"111"
 			"wide"									"220"
-			"tall"									"f6"
+			"tall"									"f8"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
@@ -313,8 +297,6 @@
 				"zpos"								"10"
 				"wide"								"20"
 				"tall"								"20"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							"~"
@@ -329,9 +311,9 @@
 				"paintbackground"					"0"
 				"paintborder"						"0"
 
-				"defaultFgColor_override" 			"White"
-				"armedFgColor_override" 			"WhiteDark"
-				"depressedFgColor_override" 		"WhiteDark"
+				"defaultFgColor_override"			"White"
+				"armedFgColor_override"				"WhiteDark"
+				"depressedFgColor_override"			"WhiteDark"
 			}
 
 			"CloseButton"
@@ -343,8 +325,6 @@
 				"zpos"								"10"
 				"wide"								"20"
 				"tall"								"20"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							"-"
@@ -359,9 +339,9 @@
 				"paintbackground"					"0"
 				"paintborder"						"0"
 
-				"defaultFgColor_override" 			"White"
-				"armedFgColor_override" 			"WhiteDark"
-				"depressedFgColor_override" 		"WhiteDark"
+				"defaultFgColor_override"			"White"
+				"armedFgColor_override"				"WhiteDark"
+				"depressedFgColor_override"			"WhiteDark"
 			}
 
 			"OuterShadow"
@@ -369,24 +349,44 @@
 				"ControlName"						"Panel"
 				"fieldName"							"OuterShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"BGPanel"
 			{
 				"ControlName"						"Panel"
 				"fieldName"							"BGPanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"QueueLogoButton"
 			{
 				"ControlName"						"Button"
 				"fieldName"							"QueueLogoButton"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"CTFLogoPanel"
 			{
 				"ControlName"						"CTFLogoPanel"
 				"fieldname"							"CTFLogoPanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -398,7 +398,7 @@
 			"ypos"									"-50"
 			"zpos"									"110"
 			"wide"									"220"
-			"tall"									"f6"
+			"tall"									"f8"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
@@ -442,8 +442,6 @@
 					"wide"							"150"
 				}
 
-				"autoResize"						"0"
-				"pinCorner"							"3"
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Light 11"
@@ -462,13 +460,13 @@
 				"paintbackgroundtype"				"0"
 				"paintborder"						"0"
 
-				"defaultBgColor_override" 			"ButtonGreen"
-				"armedBgColor_override" 			"ButtonGreen_Hover"
-				"depressedBgColor_override" 		"ButtonGreen_Hover"
+				"defaultBgColor_override"			"ButtonGreen"
+				"armedBgColor_override"				"ButtonGreen_Hover"
+				"depressedBgColor_override"			"ButtonGreen_Hover"
 
-				"defaultFgColor_override" 			"White"
-				"armedFgColor_override" 			"WhiteDark"
-				"depressedFgColor_override" 		"WhiteDark"
+				"defaultFgColor_override"			"White"
+				"armedFgColor_override"				"WhiteDark"
+				"depressedFgColor_override"			"WhiteDark"
 			}
 
 			"OuterShadow"
@@ -476,12 +474,22 @@
 				"ControlName"						"Panel"
 				"fieldName"							"OuterShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"BGPanel"
 			{
 				"ControlName"						"Panel"
 				"fieldName"							"BGPanel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -494,8 +502,6 @@
 			"zpos"									"100"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Symbols 16"
@@ -512,15 +518,15 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"FgColor"								"White"
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"255 255 255 255"
-			"depressedFgColor_override" 			"255 255 255 255"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"255 255 255 255"
+			"depressedFgColor_override"				"255 255 255 255"
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"defaultBgColor_override" 				"GrayBlueDarkest"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"GrayBlueDarkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
 			"paintborder"							"1"
 			"border"								"BottomLineWhite"
@@ -537,8 +543,6 @@
 			"zpos"									"100"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Symbols 16"
@@ -555,15 +559,15 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"FgColor"								"White"
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"defaultBgColor_override" 				"GrayBlueDarkest"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"GrayBlueDarkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
 			"paintborder"							"1"
 			"border"								"BottomLineWhite"
@@ -580,8 +584,6 @@
 			"zpos"									"100"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Symbols 16"
@@ -598,15 +600,15 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"FgColor"								"White"
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"defaultBgColor_override" 				"GrayBlueDarkest"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"GrayBlueDarkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
 			"paintborder"							"1"
 			"border"								"BottomLineWhite"
@@ -627,8 +629,6 @@
 			"zpos"									"100"
 			"wide"									"0"
 			"tall"									"0"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Light 14"
@@ -647,8 +647,8 @@
 			"armedBgColor_override"					"192 28 0 150"
 			"defaultBgColor_override"				"192 28 0 50"
 
-			"defaultFgColor_override" 				"TanLight"
-			"armedFgColor_override" 				"TanLight"
+			"defaultFgColor_override"				"TanLight"
+			"armedFgColor_override"					"TanLight"
 
 			"image_drawcolor"						"TanLight"
 			"image_armedcolor"						"TanLight"
@@ -667,7 +667,7 @@
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 				"image"								"glyph_quit"
-				"drawcolor_override" 				"TanLight"
+				"drawcolor_override"				"TanLight"
 			}
 		}
 		"ResumeButton"
@@ -679,8 +679,6 @@
 			"zpos"									"100"
 			"wide"									"0"
 			"tall"									"0"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"0"
 			"enabled"								"1"
 			"font"									"Light 14"
@@ -701,8 +699,8 @@
 		//	"armedBgColor_override"					"CreditsGreen"
 		//	"defaultBgColor_override"				"GreenSolid"
 
-			"defaultFgColor_override" 				"TanLight"
-			"armedFgColor_override"  				"TanLight"
+			"defaultFgColor_override"				"TanLight"
+			"armedFgColor_override"					"TanLight"
 			"image_drawcolor"						"235 226 202 255"
 			"image_armedcolor"						"235 226 202 255"
 
@@ -720,7 +718,7 @@
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 				"image"								"icon_resume"
-				"drawcolor_override" 				"TanLight"
+				"drawcolor_override"				"TanLight"
 			}
 		}
 		"FindAGameButton"
@@ -732,8 +730,6 @@
 			"zpos"									"100"
 			"wide"									"115"
 			"tall"									"0"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"1"
 			"enabled"								"1"
 			"font"									"Light 14"
@@ -754,8 +750,8 @@
 			"armedBgColor_override"					"CreditsGreen"
 			"defaultBgColor_override"				"GreenSolid"
 
-			"defaultFgColor_override" 				"TanLight"
-			"armedFgColor_override" 				"TanLight"
+			"defaultFgColor_override"				"TanLight"
+			"armedFgColor_override"					"TanLight"
 			"image_drawcolor"						"235 226 202 255"
 			"image_armedcolor"						"235 226 202 255"
 
@@ -773,7 +769,7 @@
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 				"image"								"glyph_multiplayer"
-				"drawcolor_override" 				"TanLight"
+				"drawcolor_override"				"TanLight"
 			}
 		}
 	}

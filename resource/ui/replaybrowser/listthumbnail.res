@@ -34,8 +34,6 @@
 		"zpos"										"1"
 		"wide"										"84"
 		"tall"										"50"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 	}
 
 	"DownloadProgress"
@@ -46,8 +44,8 @@
 		"visible"									"0"
 		"tall"										"10"
 		"enabled"									"1"
-		"bgcolor_override" 							"Black"
-		"fgcolor_override" 							"White"
+		"bgcolor_override"							"Black"
+		"fgcolor_override"							"White"
 	}
 
 	"RecordingInProgressLabel"
@@ -62,7 +60,7 @@
 		"enabled"									"1"
 		"centerwrap"								"1"
 		"paintbackground"							"0"
-		"fgcolor"		 							"Red"
+		"fgcolor"									"Red"
 	}
 
 	"DownloadLabel"
@@ -75,7 +73,7 @@
 		"zpos"										"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"ErrorLabel"
@@ -88,7 +86,7 @@
 		"zpos"										"3"
 		"visible"									"0"
 		"enabled"									"1"
-		"fgcolor" 									"Red"
+		"fgcolor"									"Red"
 	}
 
 	"TitleLabel"
@@ -104,7 +102,7 @@
 		"tall"										"15"
 		"zpos"										"10"
 		"enabled"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"DownloadButton"
@@ -141,8 +139,6 @@
 		"ControlName"								"Panel"
 		"fieldName"									"DownloadOverlay"
 		"zpos"										"2"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"bgcolor_override"							"Blank"

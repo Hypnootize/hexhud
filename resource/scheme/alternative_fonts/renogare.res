@@ -364,8 +364,8 @@ Scheme
 	{
 		"89"
 		{
-			"font" 		"resource/scheme/fonts/renogare.ttf"
-			"name" 		"RenogareSoft-Regular"
+			"font"		"resource/scheme/fonts/renogare.ttf"
+			"name"		"RenogareSoft-Regular"
 		}
 	}
 }

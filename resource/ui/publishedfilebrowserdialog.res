@@ -142,11 +142,11 @@
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 	}
 
 	"ButtonDeleteFile"
@@ -167,11 +167,11 @@
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 	}
 
 	"ButtonEditFile"
@@ -192,11 +192,11 @@
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 	}
 
 	"ButtonRefresh"
@@ -217,11 +217,11 @@
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 	}
 
 	"ButtonClose"
@@ -242,10 +242,10 @@
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"FullWhite"
-		"depressedFgColor_override" 				"FullWhite"
+		"depressedFgColor_override"					"FullWhite"
 	}
 }

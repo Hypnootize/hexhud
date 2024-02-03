@@ -58,7 +58,7 @@
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
 
-		"pin_to_sibling" 							"AmmoInClip"
+		"pin_to_sibling"							"AmmoInClip"
 	}
 
 	"AmmoInReserve"
@@ -102,7 +102,7 @@
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
 
-		"pin_to_sibling" 							"AmmoInReserve"
+		"pin_to_sibling"							"AmmoInReserve"
 	}
 
 	"AmmoNoClip"
@@ -114,8 +114,8 @@
 		"fgcolor"									"Ammo No Clip"
 		"xpos"										"0"
 		"xpos_minmode"								"0"
-		"ypos"    									"0"
-		"ypos_minmode"    							"0"
+		"ypos"										"0"
+		"ypos_minmode"								"0"
 		"zpos"										"5"
 		"wide"										"150"
 		"tall"										"50"
@@ -148,7 +148,7 @@
 		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
 
-		"pin_to_sibling" 							"AmmoNoClip"
+		"pin_to_sibling"							"AmmoNoClip"
 	}
 
 
@@ -160,11 +160,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"HudWeaponAmmoBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HudWeaponLowAmmoImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

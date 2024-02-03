@@ -2,35 +2,35 @@
 {
 	"Servers"
 	{
-		"command" 									"OpenServerBrowser"
-		"label" 									"Servers"
+		"command"									"OpenServerBrowser"
+		"label"										"Servers"
 	}
 	"Items"
 	{
 		"command"									"engine open_charinfo"
-		"label" 									"Items"
+		"label"										"Items"
 	}
 	"Store"
 	{
 		"command"									"engine open_store"
-		"label" 									"Store"
+		"label"										"Store"
 	}
 	"Settings"
 	{
 		"command"									"OpenOptionsDialog"
-		"label" 									"Settings"
+		"label"										"Settings"
 	}
 	"Quit"
 	{
-		"command" 									"engine replay_confirmquit"
-		"label" 									"Quit"
+		"command"									"engine replay_confirmquit"
+		"label"										"Quit"
 		"OnlyAtMenu"								"1"
 	}
 	"Disconnect"
 	{
-		"command" 									"engine disconnect"
-		"label" 									"Disconnect"
-		"OnlyInGame" 								"1"
+		"command"									"engine disconnect"
+		"label"										"Disconnect"
+		"OnlyInGame"								"1"
 	}
 
 
@@ -89,14 +89,14 @@
 		"label"										"y"
 		"command"									"callvote"
 		"tooltip"									"Call a Vote"
-		"OnlyInGame" 								"1"
+		"OnlyInGame"								"1"
 	}
 	"Mute"
 	{
 		"label"										"h"
 		"command"									"OpenMutePlayerDialog"
 		"tooltip"									"Mute a Player"
-		"OnlyInGame" 								"1"
+		"OnlyInGame"								"1"
 	}
 	"Report"
 	{

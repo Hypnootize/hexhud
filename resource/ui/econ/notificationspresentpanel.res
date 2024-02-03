@@ -15,7 +15,7 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"BgColor_override" 							"GrayBlueDark"
+		"bgcolor_override"							"GrayBlueDark"
 	}
 
 	"TextLabel"
@@ -28,8 +28,6 @@
 		"zpos"										"2"
 		"wide"										"f10"
 		"tall"										"f0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"

@@ -9,8 +9,6 @@
 		"zpos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"0"
@@ -85,9 +83,9 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 
-		"pin_to_sibling" 							"InfoBG"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling"							"InfoBG"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"MapInfoText"
@@ -113,7 +111,7 @@
 		"image_down_arrow"							"replay/thumbnails/misc/chalkboard_scroll_down"
 		"image_up_arrow"							"replay/thumbnails/misc/chalkboard_scroll_up"
 
-		"pin_to_sibling" 							"InfoBG"
+		"pin_to_sibling"							"InfoBG"
 	}
 
 	"ok"
@@ -147,9 +145,9 @@
 		"armedBgColor_override"						"Background Dark"
 		"depressedBgColor_override"					"Background Dark"
 
-		"pin_to_sibling" 							"InfoBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"InfoBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"OKShortKey"
 	{
@@ -191,9 +189,9 @@
 		"armedBgColor_override"						"Background Light"
 		"depressedBgColor_override"					"Background Light"
 
-		"pin_to_sibling" 							"ok"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"ok"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 
 
@@ -205,41 +203,76 @@
 		"ControlName"								"CTFButton"
 		"fieldName"									"MapInfoBack"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapInfoType"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapInfoType"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapInfoContinue"
 	{
 		"ControlName"								"CTFButton"
 		"fieldName"									"MapInfoContinue"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapInfoWatchIntro"
 	{
 		"ControlName"								"CTFButton"
 		"fieldName"									"MapInfoWatchIntro"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MenuBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"MenuBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MapImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

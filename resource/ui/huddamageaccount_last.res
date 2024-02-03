@@ -35,6 +35,6 @@
 		"fgcolor"									"Shadow"
 		"font"										"Last Damage Done Shadow"
 
-		"pin_to_sibling" 							"DamageAccountValue"
+		"pin_to_sibling"							"DamageAccountValue"
 	}
 }

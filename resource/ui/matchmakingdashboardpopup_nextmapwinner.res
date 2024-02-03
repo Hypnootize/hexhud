@@ -17,8 +17,6 @@
 		"collapsed_height"							"0"
 		"expanded_height"							"80"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"OuterShadow"
 		{
@@ -34,8 +32,6 @@
 			"border"								"OuterShadowBorder"
 			"proportionaltoparent"					"1"
 
-			"pinCorner"								"0"
-			"autoResize"							"2"
 		}
 
 		"BGPanel"
@@ -54,7 +50,6 @@
 			"border"								"BorderGrayBlueLight"
 			"paintborder"							"1"
 			"proportionaltoparent"					"1"
-			"pinCorner"								"2"
 
 			"DescLabel"
 			{

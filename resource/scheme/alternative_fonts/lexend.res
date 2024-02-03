@@ -364,8 +364,8 @@ Scheme
 	{
 		"92"
 		{
-			"font" 		"resource/scheme/fonts/lexend numbers.ttf"
-			"name" 		"Lexend Numbers"
+			"font"		"resource/scheme/fonts/lexend numbers.ttf"
+			"name"		"Lexend Numbers"
 		}
 	}
 }

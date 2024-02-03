@@ -68,7 +68,7 @@
 		"font"										"Light 10"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"	   						"Background Dark"
+		"bgcolor_override"							"Background Dark"
 	}
 
 
@@ -77,20 +77,35 @@
 
 	"ItemEffectMeterBG"
 	{
-		"ControlName"			"CTFImagePanel"
-		"fieldName"				"ItemEffectMeterBG"
-		"xpos"					"9999"
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ItemEffectMeterBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"9999"
+		"ControlName"								"CExLabel"
+		"fieldName"									"ItemEffectMeterLabel"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemEffectMeter"
 	{
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"xpos"					"9999"
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

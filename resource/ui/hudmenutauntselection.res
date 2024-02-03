@@ -8,7 +8,7 @@
 		"ypos"										"0"
 		"zpos"										"-1"
 		"wide"										"f0"
-		"tall"	 									"15"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -27,7 +27,7 @@
 		"ypos"										"0"
 		"zpos"										"-1"
 		"wide"										"f0"
-		"tall"	 									"2"
+		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -35,9 +35,9 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
 
-		"pin_to_sibling" 							"TitleBG"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"TitleBG"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 	"TitleLabel"
 	{
@@ -56,7 +56,7 @@
 		"textAlignment"								"west"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"TitleBG"
+		"pin_to_sibling"							"TitleBG"
 	}
 	"TitleLabelShadow"
 	{
@@ -75,28 +75,28 @@
 		"textAlignment"								"west"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"TitleLabel"
+		"pin_to_sibling"							"TitleLabel"
 	}
 
 	"Background"
 	{
-		"ControlName"		     					"EditablePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"Background"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-		"visible"		        					"1"
-		"enabled"	          						"1"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 
-		"pin_to_sibling" 							"TitleBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"TitleBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"WeaponTauntLabel"
@@ -110,8 +110,6 @@
 		"zpos"										"2"
 		"wide"										"0"		//f0
 		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Hud_Menu_Taunt_Weapon"
@@ -135,8 +133,6 @@
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Hud_Menu_Taunt_Cancel"
@@ -186,7 +182,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Light"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
@@ -197,7 +193,7 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -216,8 +212,6 @@
 		"zpos"										"115"
 		"wide"										"40"
 		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"1"
@@ -227,8 +221,8 @@
 		"bgcolor_override"							"Background Dark"
 
 		"pin_to_sibling"							"TauntModelPanel1"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"TauntModelPanel2"
@@ -268,7 +262,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Light"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
@@ -279,14 +273,14 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 
 		"pin_to_sibling"							"TauntModelPanel1"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"NumberLabel2"
@@ -300,8 +294,6 @@
 		"zpos"										"115"
 		"wide"										"40"
 		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"2"
@@ -311,8 +303,8 @@
 		"bgcolor_override"							"Background Dark"
 
 		"pin_to_sibling"							"TauntModelPanel2"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"TauntModelPanel3"
@@ -352,7 +344,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Light"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
@@ -363,14 +355,14 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 
 		"pin_to_sibling"							"NumberLabel1"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"NumberLabel3"
@@ -384,8 +376,6 @@
 		"zpos"										"115"
 		"wide"										"40"
 		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"3"
@@ -395,8 +385,8 @@
 		"bgcolor_override"							"Background Dark"
 
 		"pin_to_sibling"							"TauntModelPanel3"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"TauntModelPanel4"
@@ -436,7 +426,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Light"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
@@ -453,8 +443,8 @@
 		}
 
 		"pin_to_sibling"							"TauntModelPanel3"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"NumberLabel4"
@@ -468,8 +458,6 @@
 		"zpos"										"115"
 		"wide"										"40"
 		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"4"
@@ -479,8 +467,8 @@
 		"bgcolor_override"							"Background Dark"
 
 		"pin_to_sibling"							"TauntModelPanel4"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"TauntModelPanel5"
@@ -520,7 +508,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Light"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
@@ -531,14 +519,14 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 
 		"pin_to_sibling"							"NumberLabel3"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"NumberLabel5"
@@ -552,8 +540,6 @@
 		"zpos"										"115"
 		"wide"										"40"
 		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"5"
@@ -563,8 +549,8 @@
 		"bgcolor_override"							"Background Dark"
 
 		"pin_to_sibling"							"TauntModelPanel5"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"TauntModelPanel6"
@@ -604,7 +590,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Light"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
@@ -615,14 +601,14 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 
 		"pin_to_sibling"							"TauntModelPanel5"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"NumberLabel6"
@@ -636,8 +622,6 @@
 		"zpos"										"115"
 		"wide"										"40"
 		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"6"
@@ -647,8 +631,8 @@
 		"bgcolor_override"							"Background Dark"
 
 		"pin_to_sibling"							"TauntModelPanel6"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"TauntModelPanel7"
@@ -688,7 +672,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Light"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
@@ -699,14 +683,14 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 
 		"pin_to_sibling"							"NumberLabel5"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"NumberLabel7"
@@ -720,8 +704,6 @@
 		"zpos"										"115"
 		"wide"										"40"
 		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"7"
@@ -731,8 +713,8 @@
 		"bgcolor_override"							"Background Dark"
 
 		"pin_to_sibling"							"TauntModelPanel7"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"TauntModelPanel8"
@@ -772,7 +754,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background Light"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
@@ -783,14 +765,14 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 
 		"pin_to_sibling"							"TauntModelPanel7"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"NumberLabel8"
@@ -804,8 +786,6 @@
 		"zpos"										"115"
 		"wide"										"40"
 		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"8"
@@ -815,8 +795,8 @@
 		"bgcolor_override"							"Background Dark"
 
 		"pin_to_sibling"							"TauntModelPanel8"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 
@@ -829,65 +809,120 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MainBackground"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Divider"
 	{
-		"ControlName"		     					"ImagePanel"
+		"ControlName"								"ImagePanel"
 		"fieldName"									"Divider"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"IcoReelIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"IcoReelIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg1"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg1"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg2"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg2"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg3"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg3"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg4"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg4"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg5"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg5"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg6"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg6"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg7"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg7"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg8"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg8"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

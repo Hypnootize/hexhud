@@ -364,8 +364,8 @@ Scheme
 	{
 		"81"
 		{
-			"font" 		"resource/scheme/fonts/Product Bold.ttf"
-			"name" 		"Product Sans Bold"
+			"font"		"resource/scheme/fonts/Product Bold.ttf"
+			"name"		"Product Sans Bold"
 		}
 	}
 }

@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"labelText"									"%button_token%"
 		"textinsetx"								"0"
-		"use_proportional_insets" 					"1"
+		"use_proportional_insets"					"1"
 		"font"										"Light 18"
 		"textAlignment"								"south"
 		"wrap"										"0"
@@ -21,7 +21,7 @@
 		"AllCaps"									"1"
 		"default"									"1"
 		"command"									"%button_command%"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 		"actionsignallevel"							"2"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -99,8 +99,6 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"proportionaltoparent"					"1"
 
 			"paintbackground"						"0"
@@ -136,12 +134,22 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayListDropShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BGColor"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BGColor"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ToolTipHack"
 	{
@@ -172,24 +180,39 @@
 		"mouseinputenabled"							"1"
 		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
 	"DisabledIcon"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"DisabledIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"DescLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DescLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"DescLabelShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DescLabelShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

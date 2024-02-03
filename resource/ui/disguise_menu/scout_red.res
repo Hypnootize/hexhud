@@ -8,7 +8,7 @@
 		"ypos"										"0"
 		"zpos"										"-1"
 		"wide"										"f0"
-		"tall"	 									"15"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -24,7 +24,7 @@
 			"ypos"									"rs1"
 			"zpos"									"-1"
 			"wide"									"f0"
-			"tall"	 								"2"
+			"tall"									"2"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -64,7 +64,7 @@
 		"labelText"									"#TF_Class_Name_Scout"
 		"textAlignment"								"west"
 		"textinsetx"								"8"
-		"use_proportional_insets" 					"1"
+		"use_proportional_insets"					"1"
 		"proportionaltoparent"						"1"
 
 		"fgcolor"									"OffWhite"
@@ -73,8 +73,8 @@
 		"bgcolor_override"							"GrayBluerDark"
 
 		"pin_to_sibling"							"ClassImage"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 	"DarkBar"
 	{
@@ -94,8 +94,8 @@
 		"bgcolor_override"							"Background Dark"
 
 		"pin_to_sibling"							"ItemNameLabel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"NumberLabel"
@@ -120,8 +120,8 @@
 		"bgcolor_override"							"Background Dark"
 
 		"pin_to_sibling"							"ItemNameLabel"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"NewNumberLabel"
@@ -156,11 +156,21 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ClassIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -8,8 +8,6 @@
 		"ypos"										"0"
 		"wide"										"f-19"
 		"tall"										"f0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionalToParent"						"1"
@@ -26,8 +24,6 @@
 			"ypos"									"0"
 			"wide"									"140"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"RoundedCorners"						"15"
 			"pin_corner_to_sibling"					"0"
 			"pin_to_sibling_corner"					"0"
@@ -52,7 +48,6 @@
 			"ypos"									"0"
 			"wide"									"140"
 			"tall"									"14"
-			"autoResize"							"0"
 			"RoundedCorners"						"15"
 			"visible"								"0"
 			"enabled"								"1"
@@ -67,8 +62,6 @@
 			"ypos"									"0"
 			"wide"									"140"
 			"tall"									"14"
-			"autoResize"							"0"
-			"pinCorner"								"3"
 			"visible"								"0"
 			"enabled"								"1"
 			"labelText"								"#TF_Item_SelectStyle"
@@ -81,12 +74,12 @@
 			"paintbackground"						"1"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
 			"defaultBgColor_override"				"Button"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 		}
 	}
 }

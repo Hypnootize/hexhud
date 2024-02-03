@@ -8,8 +8,6 @@
 		"fieldName"									"specgui"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"enabled"									"1"
 
 		"team1_player_base_offset_x"				"0"
@@ -79,7 +77,7 @@
 				"textAlignment"						"west"
 				"fgcolor"							"Black"
 				"proportionaltoparent"				"1"
-				"pin_to_sibling" 					"PlayerName"
+				"pin_to_sibling"					"PlayerName"
 			}
 
 			"classimagebg"
@@ -119,17 +117,17 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
-				"xpos"			              		"17"
-				"ypos"				           		"0"
-				"zpos"				            	"3"
-				"wide"				            	"109"
-				"tall"				            	"f0"
-				"visible"			            	"1"
-				"enabled"			     	       	"1"
-				"HealthDeathWarning"		 		"1.0"
-				"TFFont"					        "Light 11"
-				"HealthDeathWarningColor"	        "HUDDeathWarning"
-				"TextColor"					        "HudOffWhite"
+				"xpos"								"17"
+				"ypos"								"0"
+				"zpos"								"3"
+				"wide"								"109"
+				"tall"								"f0"
+				"visible"							"1"
+				"enabled"							"1"
+				"HealthDeathWarning"				"1.0"
+				"TFFont"							"Light 11"
+				"HealthDeathWarningColor"			"HUDDeathWarning"
+				"TextColor"							"HudOffWhite"
 				"proportionaltoparent"				"1"
 			}
 
@@ -143,8 +141,6 @@
 				"zpos"								"5"
 				"wide"								"25"
 				"tall"								"f2"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
@@ -162,8 +158,6 @@
 				"zpos"								"19"
 				"wide"								"17"
 				"tall"								"f0"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"labelText"							"%chargeamount%"
 				"textAlignment"						"east"
@@ -180,22 +174,20 @@
 				"zpos"								"20"
 				"wide"								"17"
 				"tall"								"f0"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"labelText"							"%chargeamount%"
 				"textAlignment"						"center"
 				"fgcolor"							"Green"
 				"proportionaltoparent"				"1"
-				"pin_to_sibling" 					"chargeamountcover"
+				"pin_to_sibling"					"chargeamountcover"
 			}
 
 
 
 			"ReadyBG"
 			{
-				"ControlName"			       		"ScalableImagePanel"
-				"fieldName"					      	"ReadyBG"
+				"ControlName"						"ScalableImagePanel"
+				"fieldName"							"ReadyBG"
 				"xpos"								"9999"
 			}
 			"ReadyImage"
@@ -226,9 +218,9 @@
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
 		"font"										"Light 12 Shadow"
-		"fgcolor"   								"White"
-		"AllCaps"   								"1"
-		"proportionaltoparent"   					"1"
+		"fgcolor"									"White"
+		"AllCaps"									"1"
+		"proportionaltoparent"						"1"
 
 		"if_mvm"
 		{
@@ -244,8 +236,6 @@
 		"ypos"										"16"
 		"wide"										"f0"
 		"tall"										"14"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#TF_PVE_Buyback"
@@ -293,7 +283,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"								"itemmodelpanel"
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"useparentbg"							"1"
 		}
@@ -308,8 +298,6 @@
 			"zpos"									"1"
 			"wide"									"270"
 			"tall"									"10"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#FreezePanel_Item"
@@ -332,8 +320,6 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 	}

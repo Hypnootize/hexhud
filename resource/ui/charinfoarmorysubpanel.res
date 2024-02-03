@@ -30,14 +30,12 @@
 		"wide"										"f0"
 		"zpos"										"501"
 		"visible"									"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Main"
-		"infocus_bgcolor_override" 					"Background_Main"
-		"outoffocus_bgcolor_override" 				"Background_Main"
+		"infocus_bgcolor_override"					"Background_Main"
+		"outoffocus_bgcolor_override"				"Background_Main"
 
 		"thumbnail_bgcolor"							"Button"
 		"thumbnail_bgcolor_mouseover"				"Button_Hover"
@@ -79,7 +77,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -118,9 +116,9 @@
 		"PaintBackground"							"1"
 		"bgcolor_override"							"Background_Secondary"
 
-		"pin_to_sibling" 							"ButtonsBG"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling"							"ButtonsBG"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"FilterComboBox"
@@ -133,8 +131,6 @@
 		"zpos"										"1"
 		"wide"										"170"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"textHidden"								"0"
@@ -146,11 +142,11 @@
 
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"Blank"
-		"disabledFgColor_override" 					"WhiteDark"
-		"disabledBgColor_override" 					"Blank"
-		"selectionColor_override" 					"Blank"
-		"selectionTextColor_override" 				"WhiteDark"
-		"defaultSelectionBG2Color_override" 		"Blank"
+		"disabledFgColor_override"					"WhiteDark"
+		"disabledBgColor_override"					"Blank"
+		"selectionColor_override"					"Blank"
+		"selectionTextColor_override"				"WhiteDark"
+		"defaultSelectionBG2Color_override"			"Blank"
 
 		"Button"
 		{
@@ -161,7 +157,7 @@
 			"paintbackgroundtype"					"0"
 		}
 
-		"pin_to_sibling" 							"FilterBG"
+		"pin_to_sibling"							"FilterBG"
 	}
 
 	"PagesBG"
@@ -179,9 +175,9 @@
 		"PaintBackground"							"1"
 		"bgcolor_override"							"Background_Secondary"
 
-		"pin_to_sibling" 							"FilterBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"FilterBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"PrevPageButton"
@@ -193,8 +189,6 @@
 		"zpos"										"1"
 		"wide"										"20"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
@@ -236,8 +230,6 @@
 		"zpos"										"1"
 		"wide"										"65"
 		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor"									"WhiteDark"
@@ -256,8 +248,6 @@
 		"zpos"										"1"
 		"wide"										"20"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
@@ -326,8 +316,8 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"inventory_image_type" 					"1"
+			"use_item_rendertarget"					"0"
+			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 
@@ -351,12 +341,12 @@
 
 		"model_hide"								"1"
 		"text_center"								"1"
-		"resize_to_text" 							"0"
+		"resize_to_text"							"0"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"inventory_image_type" 					"1"
+			"use_item_rendertarget"					"0"
+			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 
@@ -374,8 +364,6 @@
 		"zpos"										"20"
 		"wide"										"200"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#ArmoryButton_Wiki"
@@ -389,13 +377,13 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 
-		"defaultBgColor_override" 					"GrayBlueDarkest"
-		"armedBgColor_override" 					"GrayBlue"
-		"depressedBgColor_override" 				"GrayBlue"
+		"defaultBgColor_override"					"GrayBlueDarkest"
+		"armedBgColor_override"						"GrayBlue"
+		"depressedBgColor_override"					"GrayBlue"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 
 		"pin_to_sibling"							"DataBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
@@ -411,8 +399,6 @@
 		"zpos"										"20"
 		"wide"										"200"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#ArmoryButton_SetDetails"
@@ -426,13 +412,13 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 
-		"defaultBgColor_override" 					"GrayBlueDarkest"
-		"armedBgColor_override" 					"GrayBlue"
-		"depressedBgColor_override" 				"GrayBlue"
+		"defaultBgColor_override"					"GrayBlueDarkest"
+		"armedBgColor_override"						"GrayBlue"
+		"depressedBgColor_override"					"GrayBlue"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 
 		"pin_to_sibling"							"DataBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -448,8 +434,6 @@
 		"zpos"										"20"
 		"wide"										"298"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#ArmoryButton_Store"
@@ -463,13 +447,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"ButtonGreen"
-		"armedBgColor_override" 					"ButtonGreen_Hover"
-		"depressedBgColor_override" 				"ButtonGreen_Hover"
+		"defaultBgColor_override"					"ButtonGreen"
+		"armedBgColor_override"						"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 
 		"pin_to_sibling"							"ButtonsBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -478,7 +462,7 @@
 
 
 
-	"DataPanel"										// Bitch
+	"DataPanel"										//Bitch
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"DataPanel"
@@ -503,8 +487,6 @@
 			"ypos"									"138"
 			"wide"									"260"
 			"tall"									"125"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"TanLight"
@@ -525,23 +507,43 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CaratLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ArmoryLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ArmoryLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"FiltersLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"FiltersLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"mouseoveritempanel"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

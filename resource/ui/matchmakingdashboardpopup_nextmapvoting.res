@@ -17,8 +17,6 @@
 		"collapsed_height"							"0"
 		"expanded_height"							"80"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"OuterShadow"
 		{
@@ -34,8 +32,6 @@
 			"border"								"OuterShadowBorder"
 			"proportionaltoparent"					"1"
 
-			"pinCorner"								"0"
-			"autoResize"							"2"
 		}
 
 		"BGPanel"
@@ -54,7 +50,6 @@
 			"border"								"BorderGrayBlueLight"
 			"paintborder"							"1"
 			"proportionaltoparent"					"1"
-			"pinCorner"								"2"
 
 			"HideButton"
 			{
@@ -65,8 +60,6 @@
 				"zpos"								"1000"
 				"wide"								"o1"
 				"tall"								"20"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Light 14"
@@ -98,7 +91,7 @@
 					"enabled"						"1"
 					"image"							"glyph_store"
 					"scaleImage"					"1"
-					"proportionaltoparent" 			"1"
+					"proportionaltoparent"			"1"
 				}
 			} // HideButton
 
@@ -111,8 +104,6 @@
 				"zpos"								"1000"
 				"wide"								"o1"
 				"tall"								"20"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"Light 14"
@@ -122,7 +113,7 @@
 				"sound_depressed"					"UI/buttonclick.wav"
 				"sound_released"					"UI/buttonclickrelease.wav"
 				"Command"							"toggle_hide"
-				"proportionaltoparent" 				"1"
+				"proportionaltoparent"				"1"
 				"actionsignallevel"					"2"
 
 				"paintbackground"					"0"
@@ -145,7 +136,7 @@
 					"enabled"						"1"
 					"image"							"glyph_store"
 					"scaleImage"					"1"
-					"proportionaltoparent" 			"1"
+					"proportionaltoparent"			"1"
 				}
 			} // HideButton
 

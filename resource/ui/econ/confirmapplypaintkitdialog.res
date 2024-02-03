@@ -46,8 +46,6 @@
 			"zpos"									"2"
 			"wide"									"140"
 			"tall"									"60"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
@@ -69,8 +67,6 @@
 		"zpos"										"0"
 		"wide"										"200"
 		"tall"										"60"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"1"
@@ -84,12 +80,22 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ToolBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"tool_icon"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"tool_icon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"tool_modelpanel"
@@ -113,7 +119,7 @@
 		"text_ypos"									"100"
 		"text_center"								"1"
 		"name_only"									"1"
-		"paint_icon_hide" 							"1"
+		"paint_icon_hide"							"1"
 		"proportionaltoparent"						"1"
 
 		"ItemBackground"
@@ -131,7 +137,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"GrayBlueDark"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 		"ItemBackgroundRarity"
 		{
@@ -148,7 +154,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"QualityColorCommunity"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"itemmodelpanel"
@@ -163,12 +169,22 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"SubjectBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"subject_icon"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"subject_icon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"subject_modelpanel"
 	{
@@ -208,7 +224,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"GrayBlueDark"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 		"ItemBackgroundRarity"
 		{
@@ -225,12 +241,12 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"QualityColorVintage"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -248,14 +264,12 @@
 		"zpos"										"0"
 		"wide"										"f20"
 		"tall"										"80"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"centerwrap"								"1"
 		"proportionaltoparent"						"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"PreviewLabel"
@@ -270,12 +284,10 @@
 		"zpos"										"6"
 		"wide"										"360"
 		"tall"										"100"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"centerwrap"								"1"
 		"mouseinputenabled"							"0"
 	}
@@ -295,7 +307,7 @@
 		"proportionaltoparent"						"1"
 
 		"force_use_model"							"1"
-		"use_item_rendertarget" 					"0"
+		"use_item_rendertarget"						"0"
 		"allow_rot"									"1"
 		"allow_pitch"								"1"
 		"max_pitch"									"30"
@@ -307,16 +319,16 @@
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"7"
-			"angles_y" 								"130"
-			"angles_z" 								"0"
-			"origin_x" 								"175"
-			"origin_y" 								"0"
-			"origin_z" 								"0"
+			"angles_x"								"7"
+			"angles_y"								"130"
+			"angles_z"								"0"
+			"origin_x"								"175"
+			"origin_y"								"0"
+			"origin_z"								"0"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" 							"1"
+			"spotlight"								"1"
 
 			"modelname"								""
 		}
@@ -361,8 +373,6 @@
 		"zpos"										"1"
 		"wide"										"150"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Cancel (&Q)"
@@ -394,8 +404,6 @@
 		"zpos"										"1"
 		"wide"										"150"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#CraftNameConfirm"

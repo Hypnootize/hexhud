@@ -46,13 +46,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"Black"
-		"armedBgColor_override" 					"GrayBlueDarkest"
-		"depressedBgColor_override" 				"GrayBlueDarkest"
+		"defaultBgColor_override"					"Black"
+		"armedBgColor_override"						"GrayBlueDarkest"
+		"depressedBgColor_override"					"GrayBlueDarkest"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"CloseButton"
@@ -84,13 +84,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"Black"
-		"armedBgColor_override" 					"GrayBlueDarkest"
-		"depressedBgColor_override" 				"GrayBlueDarkest"
+		"defaultBgColor_override"					"Black"
+		"armedBgColor_override"						"GrayBlueDarkest"
+		"depressedBgColor_override"					"GrayBlueDarkest"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"Shade"
@@ -98,23 +98,43 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"Shade"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TitleGradient"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"TitleGradient"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"InnerGradient"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"InnerGradient"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"OuterGradient"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OuterGradient"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

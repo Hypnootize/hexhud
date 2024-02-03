@@ -9,8 +9,6 @@
 		"zpos"										"1000"
 		"wide"										"f0"
 		"tall"										"f0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 	}
@@ -21,6 +19,11 @@
 		"ControlName"								"Panel"
 		"fieldName"									"BgPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"DialogFrame"
@@ -45,18 +48,33 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"PreviewViewportBg"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"FooterTopPanel"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"FooterTopPanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"FootBottomPanel"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"FootBottomPanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"MapsDescLabel"
@@ -71,8 +89,6 @@
 			"zpos"									"5"
 			"wide"									"f20"
 			"tall"									"125"
-			"autoResize"							"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
@@ -103,6 +119,11 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"CloseButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"BackButton"
@@ -114,7 +135,6 @@
 		"zpos"										"2"
 		"wide"										"229"
 		"tall"										"22"
-		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_BackCarat"

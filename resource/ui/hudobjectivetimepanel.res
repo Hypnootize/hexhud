@@ -37,7 +37,7 @@
 		"src_corner_height"							"32"
 		"src_corner_width"							"32"
 		"draw_corner_width"							"0"
-		"draw_corner_height" 						"0"
+		"draw_corner_height"						"0"
 	}
 
 	"OvertimeLabel"
@@ -105,53 +105,98 @@
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"TimePanelBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TimePanelProgressBar"
 	{
 		"ControlName"								"CTFProgressBar"
 		"fieldName"									"TimePanelProgressBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"WaitingForPlayersBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"WaitingForPlayersBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"WaitingForPlayersLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WaitingForPlayersLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"OvertimeBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"OvertimeBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SuddenDeathBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"SuddenDeathBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SuddenDeathLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SuddenDeathLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SetupBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"SetupBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ServerTimeLimitLabelBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -27,7 +27,7 @@
 			"wide"									"250"
 			"tall"									"20"
 			"visible"								"0"
-			"paintbackground" 						"1"
+			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"GrayBlueDarkest"
 			"border"								"BottomLineWhiteDark"
@@ -56,7 +56,7 @@
 			"wide"									"250"
 			"tall"									"20"
 			"visible"								"0"
-			"paintbackground" 						"1"
+			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"GrayBlueDarkest"
 			"border"								"BottomLineWhiteDark"
@@ -85,7 +85,7 @@
 			"wide"									"250"
 			"tall"									"20"
 			"visible"								"0"
-			"paintbackground" 						"1"
+			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"GrayBlueDarkest"
 			"border"								"BottomLineWhiteDark"
@@ -114,7 +114,7 @@
 			"wide"									"250"
 			"tall"									"20"
 			"visible"								"0"
-			"paintbackground" 						"1"
+			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"GrayBlueDarkest"
 			"border"								"BottomLineWhiteDark"
@@ -143,7 +143,7 @@
 			"wide"									"250"
 			"tall"									"260"
 			"visible"								"0"
-			"paintbackground" 						"1"
+			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"GrayBlueDarkest"
 			"border"								"BottomLineWhiteDark"
@@ -172,7 +172,7 @@
 			"wide"									"250"
 			"tall"									"260"
 			"visible"								"0"
-			"paintbackground" 						"1"
+			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"GrayBlueDarkest"
 			"border"								"BottomLineWhiteDark"
@@ -201,7 +201,7 @@
 			"wide"									"250"
 			"tall"									"20"
 			"visible"								"0"
-			"paintbackground" 						"1"
+			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"GrayBlueDarkest"
 			"border"								"BottomLineWhiteDark"
@@ -230,7 +230,7 @@
 			"wide"									"250"
 			"tall"									"20"
 			"visible"								"0"
-			"paintbackground" 						"1"
+			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"GrayBlueDarkest"
 			"border"								"BottomLineWhiteDark"
@@ -259,7 +259,7 @@
 			"wide"									"250"
 			"tall"									"20"
 			"visible"								"0"
-			"paintbackground" 						"1"
+			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"GrayBlueDarkest"
 			"border"								"BottomLineWhiteDark"
@@ -288,7 +288,7 @@
 			"wide"									"250"
 			"tall"									"20"
 			"visible"								"0"
-			"paintbackground" 						"1"
+			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"GrayBlueDarkest"
 			"border"								"BottomLineWhiteDark"
@@ -317,7 +317,7 @@
 			"wide"									"250"
 			"tall"									"20"
 			"visible"								"0"
-			"paintbackground" 						"1"
+			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"GrayBlueDarkest"
 			"border"								"BottomLineWhiteDark"
@@ -346,7 +346,7 @@
 			"wide"									"250"
 			"tall"									"20"
 			"visible"								"0"
-			"paintbackground" 						"1"
+			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"GrayBlueDarkest"
 			"border"								"BottomLineWhiteDark"
@@ -374,7 +374,7 @@
 		"wide"										"250"
 		"tall"										"20"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -402,7 +402,7 @@
 		"wide"										"250"
 		"tall"										"120"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -429,13 +429,11 @@
 			"ypos"									"10"
 			"wide"									"210"
 			"tall"									"60"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -449,12 +447,10 @@
 			"ypos"									"60"
 			"wide"									"210"
 			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -466,8 +462,6 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
@@ -480,9 +474,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -494,7 +488,7 @@
 		"wide"										"250"
 		"tall"										"120"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -521,13 +515,11 @@
 			"ypos"									"10"
 			"wide"									"210"
 			"tall"									"50"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -541,11 +533,9 @@
 			"ypos"									"50"
 			"wide"									"210"
 			"tall"									"40"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -557,8 +547,6 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
@@ -571,9 +559,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -587,7 +575,7 @@
 		"wide"										"250"
 		"tall"										"120"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -614,13 +602,11 @@
 			"ypos"									"10"
 			"wide"									"210"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -634,12 +620,10 @@
 			"ypos"									"30"
 			"wide"									"210"
 			"tall"									"90"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -651,8 +635,6 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
@@ -665,9 +647,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -681,7 +663,7 @@
 		"wide"										"250"
 		"tall"										"120"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -708,13 +690,11 @@
 			"ypos"									"10"
 			"wide"									"210"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -728,12 +708,10 @@
 			"ypos"									"30"
 			"wide"									"210"
 			"tall"									"90"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -745,8 +723,6 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
@@ -759,9 +735,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -775,7 +751,7 @@
 		"wide"										"250"
 		"tall"										"120"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -802,13 +778,11 @@
 			"ypos"									"10"
 			"wide"									"210"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -822,12 +796,10 @@
 			"ypos"									"30"
 			"wide"									"210"
 			"tall"									"190"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -839,8 +811,6 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
@@ -853,9 +823,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -869,7 +839,7 @@
 		"wide"										"250"
 		"tall"										"60"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -896,13 +866,11 @@
 			"ypos"									"10"
 			"wide"									"210"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -916,12 +884,10 @@
 			"ypos"									"30"
 			"wide"									"210"
 			"tall"									"190"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -933,8 +899,6 @@
 			"zpos"									"10"
 			"wide"									"18"
 			"tall"									"18"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
@@ -947,9 +911,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -963,7 +927,7 @@
 		"wide"										"250"
 		"tall"										"260"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -991,7 +955,7 @@
 		"wide"										"250"
 		"tall"										"260"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -1021,7 +985,7 @@
 		"wide"										"250"
 		"tall"										"260"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"

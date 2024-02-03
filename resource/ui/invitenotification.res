@@ -11,7 +11,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
-		"bgcolor_override" 							"Dashboard"
+		"bgcolor_override"							"Dashboard"
 	}
 
 	"avatar"
@@ -131,13 +131,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"ButtonGreen"
-		"armedBgColor_override" 					"ButtonGreen_Hover"
-		"depressedBgColor_override" 				"ButtonGreen_Hover"
+		"defaultBgColor_override"					"ButtonGreen"
+		"armedBgColor_override"						"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"DeclineButton"
@@ -173,12 +173,12 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"ButtonRed"
-		"armedBgColor_override" 					"ButtonRed_Hover"
-		"depressedBgColor_override" 				"ButtonRed_Hover"
+		"defaultBgColor_override"					"ButtonRed"
+		"armedBgColor_override"						"ButtonRed_Hover"
+		"depressedBgColor_override"					"ButtonRed_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 }

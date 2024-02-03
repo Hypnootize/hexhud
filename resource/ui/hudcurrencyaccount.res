@@ -66,7 +66,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labelText"									"%currency%"
-		"pin_to_sibling" 							"Currency"
+		"pin_to_sibling"							"Currency"
 	}
 
 	"WhiteBG"
@@ -74,5 +74,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"WhiteBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

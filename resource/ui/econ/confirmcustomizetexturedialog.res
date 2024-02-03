@@ -25,8 +25,6 @@
 //		"ypos"										"c-225"
 //		"wide"										"560"
 //		"tall"										"345"
-//		"autoResize"								"0"
-//		"pinCorner"									"0"
 //		"visible"									"1"
 //		"enabled"									"1"
 //		"PaintBackgroundType"						"0"
@@ -74,12 +72,22 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"ToolBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"tool_icon"
 		{
 			"ControlName"							"ScalableImagePanel"
 			"fieldName"								"tool_icon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"tool_modelpanel"
@@ -103,7 +111,7 @@
 			"text_ypos"								"100"
 			"text_center"							"1"
 			"name_only"								"1"
-			"paint_icon_hide" 						"1"
+			"paint_icon_hide"						"1"
 			"proportionaltoparent"					"1"
 
 			"ItemBackground"
@@ -121,12 +129,12 @@
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"GrayBlueDark"
 				"proportionaltoparent"				"1"
-				"mouseinputenabled" 				"0"
+				"mouseinputenabled"					"0"
 			}
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -155,12 +163,22 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"SubjectBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"subject_icon"
 		{
 			"ControlName"							"ScalableImagePanel"
 			"fieldName"								"subject_icon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"subject_modelpanel"
@@ -201,7 +219,7 @@
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"GrayBlueDark"
 				"proportionaltoparent"				"1"
-				"mouseinputenabled" 				"0"
+				"mouseinputenabled"					"0"
 			}
 			"ItemBackgroundRarity"
 			{
@@ -218,12 +236,12 @@
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"QualityColorVintage"
 				"proportionaltoparent"				"1"
-				"mouseinputenabled" 				"0"
+				"mouseinputenabled"					"0"
 			}
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -252,14 +270,14 @@
 			//"text_center"							"1"
 			//"name_only"							"1"
 			"model_only"							"1"
-			"paint_icon_hide" 						"1"
+			"paint_icon_hide"						"1"
 			"proportionaltoparent"					"1"
 
 			"itemmodelpanel"
 			{
 				"force_use_model"					"1"
 				"inventory_image_type"				"1"
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"allow_rot"							"1"
 			}
 		}
@@ -372,9 +390,9 @@
 					"tall"							"10"
 					"labelText"						"#ToolCustomizeTextureBestResults"
 					"textAlignment"					"west"
-					"wrap" 							"0"
+					"wrap"							"0"
 					"AllCaps"						"0"
-					"fgcolor" 						"WhiteDark"
+					"fgcolor"						"WhiteDark"
 					"proportionaltoparent"			"1"
 				}
 			}
@@ -418,10 +436,10 @@
 
 					"fgcolor_override"				"WhiteDark"
 					"bgcolor_override"				"GrayBlueDark"
-					"disabledFgColor_override" 		"WhiteDark"
-					"disabledBgColor_override" 		"GrayBlueDark"
-					"selectionColor_override" 		"GrayBlueDark"
-					"selectionTextColor_override" 	"WhiteDark"
+					"disabledFgColor_override"		"WhiteDark"
+					"disabledBgColor_override"		"GrayBlueDark"
+					"selectionColor_override"		"GrayBlueDark"
+					"selectionTextColor_override"	"WhiteDark"
 					"defaultSelectionBG2Color_override"	"GrayBlueDark"
 
 					"Button"
@@ -675,16 +693,16 @@
 
 						"fgcolor_override"			"WhiteDark"
 						"bgcolor_override"			"GrayBlueDark"
-						"disabledFgColor_override" 	"WhiteDark"
-						"disabledBgColor_override" 	"GrayBlueDark"
-						"selectionColor_override" 	"GrayBlueDark"
-						"selectionTextColor_override" "WhiteDark"
+						"disabledFgColor_override"	"WhiteDark"
+						"disabledBgColor_override"	"GrayBlueDark"
+						"selectionColor_override"	"GrayBlueDark"
+						"selectionTextColor_override""WhiteDark"
 						"defaultSelectionBG2Color_override"	"GrayBlueDark"
 
 						"Button"
 						{
-							"defaultFgColor_override" "WhiteDark"
-							"defaultBgColor_override" "GrayBlueDark"
+							"defaultFgColor_override""WhiteDark"
+							"defaultBgColor_override""GrayBlueDark"
 							"armedFgColor_override"	"WhiteDark"
 							"armedBgColor_override"	"GrayBlueDark"
 							"paintbackgroundtype"	"0"
@@ -903,7 +921,7 @@
 					"ypos"							"0"
 					"wide"							"f0"
 					"tall"							"f0"
-					"labelText"		 				"#ToolCustomizeTextureConfirmWarning"
+					"labelText"						"#ToolCustomizeTextureConfirmWarning"
 					"textAlignment"					"center"
 					"wrap"							"1"
 					"centerwrap"					"1"
@@ -1084,6 +1102,11 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"PreviewModelGroupBox"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 //	}

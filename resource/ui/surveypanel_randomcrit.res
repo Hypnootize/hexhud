@@ -18,13 +18,11 @@
 				"zpos"								"1000"
 				"wide"								"p0.85"
 				"tall"								"30"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"wrap"								"0"
 				"centerwrap"						"1"
-				"fgcolor"		 					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 				"proportionaltoparent"				"1"
 			}
 
@@ -50,7 +48,7 @@
 					"xpos"							"9999"
 				}
 
-				"Radio0" 							// Horrible
+				"Radio0"							// Horrible
 				{
 					"ControlName"					"RadioButton"
 					"fieldName"						"Radio0"
@@ -87,7 +85,7 @@
 					"associate"						"Radio0"
 				}
 
-				"Radio1" 							// Bad
+				"Radio1"							// Bad
 				{
 					"ControlName"					"RadioButton"
 					"fieldName"						"Radio1"
@@ -158,7 +156,7 @@
 					"default"						"1"
 				}
 
-				"Radio3" 							// Good
+				"Radio3"							// Good
 				{
 					"ControlName"					"RadioButton"
 					"fieldName"						"Radio3"
@@ -193,7 +191,7 @@
 					"textAlignment"					"center"
 				}
 
-				"Radio4" 							// Great
+				"Radio4"							// Great
 				{
 					"ControlName"					"RadioButton"
 					"fieldName"						"Radio4"

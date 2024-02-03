@@ -47,8 +47,6 @@
 
 		"paintbackground"							"0"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
 
 		"ScrollBar"
 		{
@@ -100,12 +98,10 @@
 		"alpha"										"0"
 		"mouseinputenabled"							"0"
 
-		"pinCorner"									"2"
-		//"autoResize"								"1"
 
-		"pin_to_sibling" 							"chatlog"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"chatlog"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"EntryShadow"
@@ -126,6 +122,5 @@
 		"keyboardinputenabled"						"0"
 		"mouseinputenabled"							"0"
 
-		"pinCorner"									"2"
 	}
 }

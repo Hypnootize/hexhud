@@ -32,7 +32,7 @@
 			"border"								"BottomLineWhiteDark"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"BgColor_override" 						"GrayBlueDarkest"
+			"bgcolor_override"						"GrayBlueDarkest"
 		}
 
 		"SubButton"
@@ -46,7 +46,7 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"font"									"Light 12"
 			"textAlignment"							"west"
 			"textinsetx"							"25"
@@ -63,13 +63,13 @@
 			"border_default"						"BottomLineWhite"
 			"border_armed"							"BottomLineWhite"
 
-			"defaultBgColor_override" 				"Button"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -104,12 +104,12 @@
 			"textinsetx"							"3"
 			"fgcolor"								"WhiteDark"
 			"proportionaltoparent"					"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"mouseinputenabled"						"0"
 			"paintborder"							"0"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"BgColor_override" 						"GrayBlueDarkest"
+			"bgcolor_override"						"GrayBlueDarkest"
 		}
 
 		"CloseButton"
@@ -123,7 +123,7 @@
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"font"									"Symbols 12"
 			"textAlignment"							"center"
 			"labeltext"								"-"
@@ -137,13 +137,13 @@
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
-			"defaultBgColor_override" 				"ButtonRed"
-			"armedBgColor_override" 				"ButtonRed_Hover"
-			"depressedBgColor_override" 			"ButtonRed_Hover"
+			"defaultBgColor_override"				"ButtonRed"
+			"armedBgColor_override"					"ButtonRed_Hover"
+			"depressedBgColor_override"				"ButtonRed_Hover"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"FriendsContainer"

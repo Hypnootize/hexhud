@@ -46,7 +46,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor_override"						"White"
-			"auto_wide_tocontents" 					"1"
+			"auto_wide_tocontents"					"1"
 			"auto_tall_tocontents"					"1"
 			"wrap"									"1"
 			"alpha"									"255"

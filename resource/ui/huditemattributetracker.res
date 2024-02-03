@@ -2,9 +2,9 @@
 {
 	"ItemAttributeTracker"
 	{
-		"fieldName" 								"ItemAttributeTracker"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"fieldName"									"ItemAttributeTracker"
+		"visible"									"1"
+		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -39,7 +39,7 @@
 			"font"									"Light 10"
 			//"wrap"								"1"
 			"TextAlignment"							"east"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 		}
 
 		"CallToAction"
@@ -56,7 +56,7 @@
 			"font"									"Light 7"
 			//"wrap"								"1"
 			"TextAlignment"							"east"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 		}
 
 		"Image"
@@ -64,6 +64,11 @@
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"Image"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

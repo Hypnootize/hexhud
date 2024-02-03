@@ -22,8 +22,6 @@
 		"zpos"										"10"
 		"wide"										"14"
 		"tall"										"14"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"x"
@@ -37,10 +35,10 @@
 
 		"defaultFgColor_override"					"White"
 		"ArmedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 
 		"defaultBgColor_override"					"ButtonGreen"
 		"ArmedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override" 				"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
 	}
 }

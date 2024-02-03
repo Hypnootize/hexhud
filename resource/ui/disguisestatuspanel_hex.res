@@ -35,8 +35,8 @@
 		"ypos"										"rs1"
 		"zpos"										"-1"
 		"wide"										"105"
-		"tall"	 									"22"
-		"tall_minmode"	 							"20"
+		"tall"										"22"
+		"tall_minmode"								"20"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -61,9 +61,9 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
-		"pin_to_sibling" 							"DisguiseStatusBG"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"DisguiseStatusBG"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"DisguiseNameLabel"
@@ -71,7 +71,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"DisguiseNameLabel"
 		"font"										"Light 9"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 		"xpos"										"-2"
 		"ypos"										"0"
 		"zpos"										"5"
@@ -82,14 +82,14 @@
 		"labelText"									"%disguisename%"
 		"textAlignment"								"West"
 		"alpha"										"255"
-		"pin_to_sibling" 							"DisguiseStatusBG"
+		"pin_to_sibling"							"DisguiseStatusBG"
 	}
 	"DisguiseNameLabelShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DisguiseNameLabelShadow"
 		"font"										"Light 9 Blur"
-		"fgcolor"   								"Shadow"
+		"fgcolor"									"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"4"
@@ -100,7 +100,7 @@
 		"labelText"									"%disguisename%"
 		"textAlignment"								"West"
 		"alpha"										"255"
-		"pin_to_sibling" 							"DisguiseNameLabel"
+		"pin_to_sibling"							"DisguiseNameLabel"
 	}
 
 	"WeaponNameLabel"
@@ -108,7 +108,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"WeaponNameLabel"
 		"font"										"Light 8"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 		"xpos"										"-2"
 		"ypos"										"0"
 		"zpos"										"5"
@@ -120,9 +120,9 @@
 		"textAlignment"								"West"
 		"AllCaps"									"0"
 
-		"pin_to_sibling" 							"DisguiseStatusBG"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"DisguiseStatusBG"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"SpectatorGUIHealth"
@@ -133,8 +133,8 @@
 		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"25"
-		"tall"			    						"13"
-		"tall_minmode"			    				"11"
+		"tall"										"13"
+		"tall_minmode"								"11"
 		"visible"									"1"
 		"enabled"									"1"
 		"HealthBonusPosAdj"							"10"
@@ -143,8 +143,8 @@
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
 
-		"pin_to_sibling" 							"DisguiseStatusBG"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"DisguiseStatusBG"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 }

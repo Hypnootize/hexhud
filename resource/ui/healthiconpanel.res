@@ -14,7 +14,6 @@
 		"enabled"									"1"
 		"TFFont"									"Size 14"
 		"TextColor"									"HudOffWhite"
-		"autoResize"								"1"
 	}
 
 	"SpectatorGUIHealth"
@@ -31,6 +30,5 @@
 		"enabled"									"1"
 		"TFFont"									"Size 14"
 		"TextColor"									"HudOffWhite"
-		"autoResize"								"1"
 	}
 }

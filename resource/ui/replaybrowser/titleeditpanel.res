@@ -39,7 +39,7 @@
 		"zpos"										"1000"
 		"font"										"Light 11"
 		"Visible"									"1"
-		"fgcolor"		 							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"CaratLabel"

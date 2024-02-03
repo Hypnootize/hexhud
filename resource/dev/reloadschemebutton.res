@@ -20,6 +20,6 @@
 		"font"					"Default"
 		"textAlignment"			"center"
 		"Command"				"reloadscheme"
-		"proportionaltoparent" 	"1"
+		"proportionaltoparent"	"1"
 	}
 }

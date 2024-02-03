@@ -10,7 +10,6 @@
 		{
 			"alpha"									"0"
 		}
-
 		"Player2Avatar"
 		{
 			"alpha"									"0"
@@ -19,7 +18,6 @@
 		{
 			"alpha"									"0"
 		}
-
 		"Player3Avatar"
 		{
 			"alpha"									"0"
@@ -40,7 +38,6 @@
 		{
 			"alpha"									"0"
 		}
-
 		"Player2Avatar"
 		{
 			"alpha"									"0"
@@ -49,7 +46,6 @@
 		{
 			"alpha"									"0"
 		}
-
 		"Player3Avatar"
 		{
 			"alpha"									"0"

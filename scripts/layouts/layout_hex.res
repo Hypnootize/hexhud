@@ -55,11 +55,11 @@
 
 	"CHudAccountPanel"
 	{
-		"xpos"         								"cs-0.5"
+		"xpos"										"cs-0.5"
 		"ypos"										"c85"
 		"ypos_minmode"								"c50"
 		"wide"										"200"
-		"tall"  									"30"
+		"tall"										"30"
 	}
 
 	"CHealthAccountPanel"
@@ -69,7 +69,7 @@
 		"ypos"										"r90"
 		"ypos_minmode"								"r163"
 		"wide"										"100"
-		"tall"  									"25"
+		"tall"										"25"
 	}
 
 	"HudDamageIndicator"
@@ -104,23 +104,23 @@
 	{
 		"ypos"										"c65"
 		"ypos_minmode"								"c25"
-		"tall"	 									"50"
-		"tall_minmode"	 							"50"
+		"tall"										"50"
+		"tall_minmode"								"50"
 	}
 
 	"CSecondaryTargetID"
 	{
 		"ypos"										"r129"
 		"ypos_minmode"								"c85"
-		"tall"	 									"50"
-		"tall_minmode"	 							"50"
+		"tall"										"50"
+		"tall_minmode"								"50"
 	}
 
 	"CSpectatorTargetID"
 	{
 		"ypos"										"330"
-		"tall"	 									"50"
-		"tall_minmode"	 							"50"
+		"tall"										"50"
+		"tall_minmode"								"50"
 	}
 
 	"BuildingAnchor"
@@ -169,15 +169,15 @@
 
 	"HudDeathNotice"
 	{
-		"xpos"	 									"rs1-5"
-		"ypos"	 									"25"
+		"xpos"										"rs1-5"
+		"ypos"										"25"
 
-		"MaxDeathNotices" 							"6"
-		"IconScale"	  								"0.35"
-		"LineHeight"	  							"12"
-		"LineSpacing"	 							"0"
-		"CornerRadius"	  							"0"
-		"RightJustify"	  							"1"
+		"MaxDeathNotices"							"6"
+		"IconScale"									"0.35"
+		"LineHeight"								"12"
+		"LineSpacing"								"0"
+		"CornerRadius"								"0"
+		"RightJustify"								"1"
 
 		"TextFont"									"Light 10"
 
@@ -209,10 +209,10 @@
 	{
 		"show_avatar"								"1"
 
-        "avatar_xpos"  							 	"-12"
-        "avatar_ypos"  							 	"-1"
-        "avatar_wide"  							 	"17"
-        "avatar_tall"  								"17"
+		"avatar_xpos"								"-12"
+		"avatar_ypos"								"-1"
+		"avatar_wide"								"17"
+		"avatar_tall"								"17"
 
 		"icon_ypos"									"2"
 		"icon_xpos"									"17"

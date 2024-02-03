@@ -8,8 +8,6 @@
 		"ypos"										"0"
 		"wide"										"85"
 		"tall"										"36"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 	}
@@ -116,6 +114,11 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"NotBuiltLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -181,8 +184,8 @@
 			"iconColor"								"WhiteDark"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"IconBackgound"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"IconBackgound"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
@@ -202,8 +205,8 @@
 			"iconColor"								"WhiteDark"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"IconBackgound"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"IconBackgound"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
@@ -223,8 +226,8 @@
 			"iconColor"								"WhiteDark"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"IconBackgound"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"IconBackgound"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
@@ -256,8 +259,6 @@
 			"zpos"									"10"
 			"wide"									"7"
 			"tall"									"f4"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -268,18 +269,33 @@
 			"ControlName"							"CBuildingStatusAlertTray"
 			"fieldName"								"AlertTray"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"WrenchIcon"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"WrenchIcon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"BuildingPanel"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BuildingPanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"RunningPanel"
@@ -319,8 +335,6 @@
 				"ypos"								"2"
 				"wide"								"200"
 				"tall"								"8"
-				"autoResize"						"0"
-				"pinCorner"							"0"
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"#Building_hud_sentry_kills_assists"
@@ -357,8 +371,8 @@
 				"image"								"replay/thumbnails/misc/buildingstatus_ammo"
 				"drawcolor"							"Black"
 
-				"pin_to_sibling" 					"Shells"
-				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling"					"Shells"
+				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
 				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 
@@ -389,8 +403,8 @@
 				"scaleImage"						"1"
 				"image"								"replay/thumbnails/misc/buildingstatus_rockets"
 				"drawcolor"							"Black"
-				"pin_to_sibling" 					"Rockets"
-				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling"					"Rockets"
+				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
 				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 
@@ -423,8 +437,8 @@
 				"icon"								"ico_metal"
 				"iconColor"							"Black"
 
-				"pin_to_sibling" 					"Upgrade"
-				"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+				"pin_to_sibling"					"Upgrade"
+				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
 				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
 
@@ -433,6 +447,11 @@
 				"ControlName"						"ImagePanel"
 				"fieldName"							"KillIcon"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 	}
@@ -442,5 +461,10 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

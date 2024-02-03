@@ -32,8 +32,8 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Main"
-		"infocus_bgcolor_override" 					"Background_Main"
-		"outoffocus_bgcolor_override" 				"Background_Main"
+		"infocus_bgcolor_override"					"Background_Main"
+		"outoffocus_bgcolor_override"				"Background_Main"
 
 		"item_ypos"									"30"
 		"output_item_ypos"							"215"
@@ -64,15 +64,15 @@
 			"model_tall"							"20"
 			"text_center"							"1"
 			"name_only"								"1"
-			"text_forcesize" 						"3"
-			"noitem_use_fullpanel" 					"1"
+			"text_forcesize"						"3"
+			"noitem_use_fullpanel"					"1"
 
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -92,7 +92,7 @@
 				"paintbackgroundtype"				"0"
 				"bgcolor_override"					"GrayBlueDark"
 				"proportionaltoparent"				"1"
-				"mouseinputenabled" 				"0"
+				"mouseinputenabled"					"0"
 			}
 		}
 
@@ -193,11 +193,11 @@
 			"FgColor"								"WhiteDark"
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
-			"pin_to_sibling" 						"CurPageLabel"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"CurPageLabel"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 
 		"CurPageLabel"
@@ -214,7 +214,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
 			"paintbackgroundtype"					"0"
@@ -242,11 +242,11 @@
 			"FgColor"								"WhiteDark"
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
-			"pin_to_sibling" 						"CurPageLabel"
-			"pin_corner_to_sibling" 				"PIN_CENTER_RIGHT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
+			"pin_to_sibling"						"CurPageLabel"
+			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
+			"pin_to_sibling_corner"					"PIN_CENTER_RIGHT"
 		}
 
 		"UntradableCheckBox"
@@ -292,13 +292,13 @@
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
-			"defaultBgColor_override" 				"Button"
-			"armedBgColor_override" 				"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"defaultBgColor_override"				"Button"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"NoMatches"
@@ -397,11 +397,11 @@
 			"FgColor"								"WhiteDark"
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
-			"pin_to_sibling" 						"CurInputPageLabel"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"CurInputPageLabel"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 
 		"CurInputPageLabel"
@@ -418,7 +418,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
 			"paintbackgroundtype"					"0"
@@ -446,11 +446,11 @@
 			"FgColor"								"WhiteDark"
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 
-			"pin_to_sibling" 						"CurInputPageLabel"
-			"pin_corner_to_sibling" 				"PIN_CENTER_RIGHT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
+			"pin_to_sibling"						"CurInputPageLabel"
+			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
+			"pin_to_sibling_corner"					"PIN_CENTER_RIGHT"
 		}
 
 		"InputLabel"
@@ -530,13 +530,13 @@
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
-			"defaultBgColor_override" 				"ButtonGreen"
-			"armedBgColor_override" 				"ButtonGreen_Hover"
-			"depressedBgColor_override" 			"ButtonGreen_Hover"
+			"defaultBgColor_override"				"ButtonGreen"
+			"armedBgColor_override"					"ButtonGreen_Hover"
+			"depressedBgColor_override"				"ButtonGreen_Hover"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -602,7 +602,7 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}

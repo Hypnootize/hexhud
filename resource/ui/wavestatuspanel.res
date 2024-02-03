@@ -49,7 +49,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"scaleImage"								"1"
-		"PaintBackgroundType" 						"0"
+		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"White"
 
 		"if_verbose"
@@ -95,9 +95,9 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"image"										"replay/thumbnails/panels/flat_background"
-		"pin_to_sibling" 							"ProgressBar"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"pin_to_sibling"							"ProgressBar"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"ProgressBar"

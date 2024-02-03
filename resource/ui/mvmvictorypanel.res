@@ -15,6 +15,11 @@
 			"ControlName"							"ScalableImagePanel"
 			"fieldName"								"SplashBackground"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"StatsBackground2"
 		{
@@ -63,6 +68,11 @@
 			{
 				"ControlName"						"CExLabel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 
@@ -89,7 +99,6 @@
 			"ypos"									"90"
 			"wide"									"400"
 			"tall"									"70"
-			"autoResize"							"1"
 			"visible"								"1"
 		}
 
@@ -102,7 +111,6 @@
 			"zpos"									"75"
 			"wide"									"400"
 			"tall"									"400"
-			"autoResize"							"1"
 			"visible"								"1"
 
 			"RatingLabel"
@@ -111,7 +119,7 @@
 				"fieldName"							"RatingLabel"
 				"font"								"Light 24"
 				"labelText"							"%ratinglabel%"
-				"textAlignment" 					"center"
+				"textAlignment"						"center"
 				"xpos"								"0"
 				"ypos"								"0"
 				"wide"								"180"
@@ -124,6 +132,11 @@
 			{
 				"ControlName"						"CExLabel"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 
 			"RatingText"
@@ -132,7 +145,7 @@
 				"fieldName"							"RatingText"
 				"font"								"Light 36"
 				"labelText"							"%ratingscore%"
-				"textAlignment" 					"center"
+				"textAlignment"						"center"
 				"xpos"								"0"
 				"ypos"								"40"
 				"wide"								"180"
@@ -149,7 +162,6 @@
 			"ypos"									"135"
 			"wide"									"400"
 			"tall"									"70"
-			"autoResize"							"1"
 			"visible"								"1"
 		}
 	}
@@ -177,13 +189,13 @@
 
 		"defaultBgColor_override"					"Background"
 		"armedBgColor_override"						"Background Dark"
-		"depressedBgColor_override" 				"Background Dark"
+		"depressedBgColor_override"					"Background Dark"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 
-		"pin_to_sibling"              			 	"StatsContainer"
+		"pin_to_sibling"							"StatsContainer"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}

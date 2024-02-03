@@ -364,8 +364,8 @@ Scheme
 	{
 		"87"
 		{
-			"font" 		"resource/scheme/fonts/rubik.otf"
-			"name" 		"Rubik SemiBold"
+			"font"		"resource/scheme/fonts/rubik.otf"
+			"name"		"Rubik SemiBold"
 		}
 	}
 }

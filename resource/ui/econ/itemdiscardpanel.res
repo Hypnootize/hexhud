@@ -16,8 +16,8 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Main"
-		"infocus_bgcolor_override" 					"Background_Main"
-		"outoffocus_bgcolor_override" 				"Background_Main"
+		"infocus_bgcolor_override"					"Background_Main"
+		"outoffocus_bgcolor_override"				"Background_Main"
 
 		"title"										""
 		"title_font"								"Light 6"
@@ -62,14 +62,14 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"GrayBlueDark"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"allow_rot"								"0"
-			"inventory_image_type" 					"1"
+			"inventory_image_type"					"1"
 		}
 	}
 	"ItemMouseOverItemPanel"
@@ -140,8 +140,6 @@
 		"zpos"										"10"
 		"wide"										"175"
 		"tall"										"50"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
@@ -162,7 +160,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"		 							"Red"
+		"fgcolor"									"Red"
 	}
 
 	"DiscardButton"
@@ -207,7 +205,7 @@
 		"zpos"										"0"
 		"visible"									"1"
 		"items_only"								"1"
-		"button_override_delete_xpos" 				"0"
+		"button_override_delete_xpos"				"0"
 	}
 
 	"CloseButton"
@@ -266,8 +264,8 @@
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"GrayBlueLight"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"StartExplanation"
@@ -280,7 +278,7 @@
 		"wide"										"250"
 		"tall"										"140"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -309,7 +307,7 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -326,7 +324,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -351,9 +349,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"PositionLabel"
@@ -370,7 +368,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor" 								"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"NextButton"
@@ -394,9 +392,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -410,7 +408,7 @@
 		"wide"										"250"
 		"tall"										"100"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -439,7 +437,7 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"		 						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -456,7 +454,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"		 						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -480,9 +478,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 		"PrevButton"
 		{
@@ -505,9 +503,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 
 		"PositionLabel"
@@ -524,7 +522,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"		 						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"NextButton"
@@ -548,9 +546,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 
@@ -564,7 +562,7 @@
 		"wide"										"250"
 		"tall"										"100"
 		"visible"									"0"
-		"paintbackground" 							"1"
+		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"GrayBlueDarkest"
 		"border"									"BottomLineWhiteDark"
@@ -592,7 +590,7 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"		 						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"TextLabel"
@@ -609,7 +607,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"		 						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 
 		"CloseButton"
@@ -633,9 +631,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 		"PrevButton"
 		{
@@ -658,9 +656,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override" 				"WhiteDark"
-			"armedFgColor_override" 				"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"defaultFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 		"PositionLabel"
 		{
@@ -674,11 +672,9 @@
 			"zpos"									"-1"
 			"wide"									"300"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"		 						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 		}
 	}
 
@@ -687,11 +683,21 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CaratLabel2"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"DiscardedCaratLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DiscardedCaratLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

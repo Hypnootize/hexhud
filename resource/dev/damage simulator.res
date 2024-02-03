@@ -15,6 +15,6 @@
 		"font"										"Damage Big Outline"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
 }

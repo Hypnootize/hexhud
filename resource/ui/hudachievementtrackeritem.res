@@ -70,7 +70,7 @@
 		"ypos"										"19"
 		"wide"										"100"
 		"tall"										"6"
-		"fillcolor"	 								"255 255 255 50"
+		"fillcolor"									"255 255 255 50"
 		"zpos"										"4"
 		"visible"									"1"
 		"enabled"									"1"

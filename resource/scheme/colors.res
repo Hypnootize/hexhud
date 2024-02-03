@@ -33,7 +33,7 @@
 		"RedSolid"											"192 28 0 255"
 		"TransparentYellow"									"235 240 245 255"
 		"BrightYellow"										"251 235 0 255"
-		"GreenSolid"		 								"76 107 34 255"
+		"GreenSolid"										"76 107 34 255"
 
 		"FooterBGBlack"										"52 48 55 255"
 
@@ -92,9 +92,9 @@
 		"DisguiseMenuIconRed"								"250 100 100 255"
 		"DisguiseMenuIconBlue"								"140 180 210 255"
 
- 		"MatchmakingDialogTitleColor"						"235 240 245 255"
- 		"MatchmakingMenuItemBackground"						"35 35 42 255"
- 		"MatchmakingMenuItemBackgroundActive"				"50 50 57"
+		"MatchmakingDialogTitleColor"						"235 240 245 255"
+		"MatchmakingMenuItemBackground"						"35 35 42 255"
+		"MatchmakingMenuItemBackgroundActive"				"50 50 57"
 		"MatchmakingMenuItemTitleColor"						"235 240 245 255"
 		"MatchmakingMenuItemDescriptionColor"				"235 240 245 255"
 
@@ -179,8 +179,8 @@
 		"CheckButton.TextColor"								"WhiteDark"
 		"CheckButton.SelectedTextColor"						"WhiteDark"
 		"CheckButton.BgColor"								"TransparentBlack"
-		"CheckButton.Border1" 								"WhiteDark"
-		"CheckButton.Border2"  								"WhiteDark"
+		"CheckButton.Border1"								"WhiteDark"
+		"CheckButton.Border2"								"WhiteDark"
 		"CheckButton.Check"									"WhiteDark"
 		"CheckButton.HighlightFgColor"						"WhiteDark"
 
@@ -345,12 +345,12 @@
 
 		"SelectionNumberFg"									"White"
 		"SelectionTextFg"									"White"
-		"SelectionEmptyBoxBg" 								"Background Dark"
-		"SelectionBoxBg" 									"Background"
-		"SelectionSelectedBoxBg" 							"Background Light"
+		"SelectionEmptyBoxBg"								"Background Dark"
+		"SelectionBoxBg"									"Background"
+		"SelectionSelectedBoxBg"							"Background Light"
 
 		"HintMessageFg"										"White"
-		"HintMessageBg" 									"TransparentLightBlack"
+		"HintMessageBg"										"TransparentLightBlack"
 
 		"ProgressBarFg"										"Red"
 

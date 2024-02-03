@@ -16,7 +16,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Blue"
 
-		"pin_to_sibling" 							"BlueTimer"
+		"pin_to_sibling"							"BlueTimer"
 	}
 
 	"BlueTimer"
@@ -67,7 +67,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Red"
 
-		"pin_to_sibling" 							"RedTimer"
+		"pin_to_sibling"							"RedTimer"
 	}
 
 	"RedTimer"
@@ -113,7 +113,7 @@
 		"tall"										"1"
 		"visible"									"0"
 		"enabled"									"1"
-		"fillcolor"  								"OffWhite"
+		"fillcolor"									"OffWhite"
 		"scaleImage"								"1"
 	}
 }

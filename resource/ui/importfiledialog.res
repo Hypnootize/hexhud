@@ -42,13 +42,22 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"WorkshopBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
-
 	"BackgroundBottom"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BackgroundBottom"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"Title"
@@ -99,7 +108,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 11"
 	}
 
@@ -135,11 +144,11 @@
 
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"BlackBlue"
-		"disabledFgColor_override" 					"WhiteDark"
-		"disabledBgColor_override" 					"BlackBlue"
-		"selectionColor_override" 					"Blank"
-		"selectionTextColor_override" 				"WhiteDark"
-		"defaultSelectionBG2Color_override" 		"BlackBlue"
+		"disabledFgColor_override"					"WhiteDark"
+		"disabledBgColor_override"					"BlackBlue"
+		"selectionColor_override"					"Blank"
+		"selectionTextColor_override"				"WhiteDark"
+		"defaultSelectionBG2Color_override"			"BlackBlue"
 
 		"Button"
 		{
@@ -194,11 +203,11 @@
 
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			"disabledFgColor_override" 				"WhiteDark"
-			"disabledBgColor_override" 				"BlackBlue"
-			"selectionColor_override" 				"Blank"
-			"selectionTextColor_override" 			"WhiteDark"
-			"defaultSelectionBG2Color_override" 	"BlackBlue"
+			"disabledFgColor_override"				"WhiteDark"
+			"disabledBgColor_override"				"BlackBlue"
+			"selectionColor_override"				"Blank"
+			"selectionTextColor_override"			"WhiteDark"
+			"defaultSelectionBG2Color_override"		"BlackBlue"
 
 			"Button"
 			{
@@ -244,7 +253,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 11"
 	}
 
@@ -281,7 +290,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 11"
 	}
 
@@ -326,9 +335,9 @@
 		"wide"										"190"
 		"tall"										"122"
 		"visible"									"1"
-		"paintbackground" 							"1"
-		"paintbackgroundtype" 						"0"
-		"bgcolor_override" 							"BlackBlue"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"BlackBlue"
 
 		"ButtonIconClear"
 		{
@@ -339,7 +348,7 @@
 			"zpos"									"2"
 			"wide"									"15"
 			"tall"									"15"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"font"									"Symbols 12"
 			"textAlignment"							"center"
 
@@ -366,7 +375,7 @@
 			"zpos"									"2"
 			"wide"									"19"
 			"tall"									"15"
-			"use_proportional_insets" 				"1"
+			"use_proportional_insets"				"1"
 			"font"									"Symbols 12"
 			"textAlignment"							"center"
 
@@ -422,9 +431,9 @@
 		"wide"										"70"
 		"tall"										"219"
 		"visible"									"1"
-		"paintbackground" 							"1"
-		"paintbackgroundtype" 						"0"
-		"bgcolor_override" 							"BlackBlue"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"BlackBlue"
 
 		"ClassesTitle"
 		{
@@ -451,7 +460,7 @@
 			"wide"									"63"
 			"tall"									"20"
 			"visible"								"0"
-			"PaintBackgroundType" 					"0"
+			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"TanDark"
 		}
 		"ClassButton1"
@@ -475,7 +484,7 @@
 			"wide"									"63"
 			"tall"									"20"
 			"visible"								"0"
-			"PaintBackgroundType" 					"0"
+			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"TanDark"
 		}
 		"ClassButton2"
@@ -499,7 +508,7 @@
 			"wide"									"63"
 			"tall"									"20"
 			"visible"								"0"
-			"PaintBackgroundType" 					"0"
+			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"TanDark"
 		}
 		"ClassButton3"
@@ -523,7 +532,7 @@
 			"wide"									"63"
 			"tall"									"20"
 			"visible"								"0"
-			"PaintBackgroundType" 					"0"
+			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"TanDark"
 		}
 		"ClassButton4"
@@ -571,7 +580,7 @@
 			"wide"									"63"
 			"tall"									"20"
 			"visible"								"0"
-			"PaintBackgroundType" 					"0"
+			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"TanDark"
 		}
 		"ClassButton6"
@@ -595,7 +604,7 @@
 			"wide"									"63"
 			"tall"									"20"
 			"visible"								"0"
-			"PaintBackgroundType" 					"0"
+			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"TanDark"
 		}
 		"ClassButton7"
@@ -619,7 +628,7 @@
 			"wide"									"63"
 			"tall"									"20"
 			"visible"								"0"
-			"PaintBackgroundType" 					"0"
+			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"TanDark"
 		}
 		"ClassButton8"
@@ -643,7 +652,7 @@
 			"wide"									"63"
 			"tall"									"20"
 			"visible"								"0"
-			"PaintBackgroundType" 					"0"
+			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"TanDark"
 		}
 		"ClassButton9"
@@ -670,9 +679,9 @@
 		"tall"										"219"
 		"visible"									"1"
 		"enabled"									"1"
-		"paintbackground" 							"1"
-		"paintbackgroundtype" 						"0"
-		"bgcolor_override" 							"BlackBlue"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"BlackBlue"
 
 		"BodygroupTitle"
 		{
@@ -872,9 +881,9 @@
 			"wide"									"150"
 			"tall"									"50"
 			"visible"								"1"
-			"paintbackground" 						"1"
-			"paintbackgroundtype" 					"0"
-			"bgcolor_override" 						"BlackBlue"
+			"paintbackground"						"1"
+			"PaintBackgroundType"					"0"
+			"bgcolor_override"						"BlackBlue"
 
 			"LOD0Label"
 			{
@@ -897,7 +906,7 @@
 				"ypos"								"2"
 				"wide"								"15"
 				"tall"								"15"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -922,7 +931,7 @@
 				"ypos"								"2"
 				"wide"								"19"
 				"tall"								"15"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -974,9 +983,9 @@
 			"wide"									"150"
 			"tall"									"50"
 			"visible"								"1"
-			"paintbackground" 						"1"
-			"paintbackgroundtype" 					"0"
-			"bgcolor_override" 						"BlackBlue"
+			"paintbackground"						"1"
+			"PaintBackgroundType"					"0"
+			"bgcolor_override"						"BlackBlue"
 
 			"LOD1Label"
 			{
@@ -1001,7 +1010,7 @@
 				"wide"								"15"
 				"tall"								"15"
 				"enabled"							"0"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -1027,7 +1036,7 @@
 				"wide"								"19"
 				"tall"								"15"
 				"enabled"							"0"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -1081,9 +1090,9 @@
 			"wide"									"150"
 			"tall"									"50"
 			"visible"								"1"
-			"paintbackground" 						"1"
-			"paintbackgroundtype" 					"0"
-			"bgcolor_override" 						"BlackBlue"
+			"paintbackground"						"1"
+			"PaintBackgroundType"					"0"
+			"bgcolor_override"						"BlackBlue"
 
 			"LOD2Label"
 			{
@@ -1107,7 +1116,7 @@
 				"wide"								"15"
 				"tall"								"15"
 				"enabled"							"0"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -1133,7 +1142,7 @@
 				"wide"								"19"
 				"tall"								"15"
 				"enabled"							"0"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -1216,9 +1225,9 @@
 		"wide"										"190"
 		"tall"										"219"
 		"visible"									"1"
-		"paintbackground" 							"1"
-		"paintbackgroundtype" 						"0"
-		"bgcolor_override" 							"BlackBlue"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"BlackBlue"
 
 		"SkinsTitle"
 		{
@@ -1278,11 +1287,11 @@
 
 			"fgcolor_override"						"WhiteDark"
 			"bgcolor_override"						"BlackBlue"
-			"disabledFgColor_override" 				"WhiteDark"
-			"disabledBgColor_override" 				"BlackBlue"
-			"selectionColor_override" 				"Blank"
-			"selectionTextColor_override" 			"WhiteDark"
-			"defaultSelectionBG2Color_override" 	"BlackBlue"
+			"disabledFgColor_override"				"WhiteDark"
+			"disabledBgColor_override"				"BlackBlue"
+			"selectionColor_override"				"Blank"
+			"selectionTextColor_override"			"WhiteDark"
+			"defaultSelectionBG2Color_override"		"BlackBlue"
 
 			"Button"
 			{
@@ -1303,9 +1312,9 @@
 			"wide"									"250"
 			"tall"									"50"
 			"visible"								"0"
-			"paintbackground" 						"1"
-			"paintbackgroundtype" 					"0"
-			"bgcolor_override" 						"GrayBlueDarkest"
+			"paintbackground"						"1"
+			"PaintBackgroundType"					"0"
+			"bgcolor_override"						"GrayBlueDarkest"
 
 			"Material0Label"
 			{
@@ -1327,7 +1336,7 @@
 				"ypos"								"3"
 				"wide"								"19"
 				"tall"								"15"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -1367,9 +1376,9 @@
 			"wide"									"250"
 			"tall"									"50"
 			"visible"								"0"
-			"paintbackground" 						"1"
-			"paintbackgroundtype" 					"0"
-			"bgcolor_override" 						"GrayBlueDarkest"
+			"paintbackground"						"1"
+			"PaintBackgroundType"					"0"
+			"bgcolor_override"						"GrayBlueDarkest"
 
 			"Material1Label"
 			{
@@ -1391,7 +1400,7 @@
 				"ypos"								"3"
 				"wide"								"19"
 				"tall"								"15"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -1431,9 +1440,9 @@
 			"wide"									"250"
 			"tall"									"50"
 			"visible"								"0"
-			"paintbackground" 						"1"
-			"paintbackgroundtype" 					"0"
-			"bgcolor_override" 						"GrayBlueDarkest"
+			"paintbackground"						"1"
+			"PaintBackgroundType"					"0"
+			"bgcolor_override"						"GrayBlueDarkest"
 
 			"Material2Label"
 			{
@@ -1455,7 +1464,7 @@
 				"ypos"								"3"
 				"wide"								"19"
 				"tall"								"15"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -1495,9 +1504,9 @@
 			"wide"									"250"
 			"tall"									"50"
 			"visible"								"0"
-			"paintbackground" 						"1"
-			"paintbackgroundtype" 					"0"
-			"bgcolor_override" 						"GrayBlueDarkest"
+			"paintbackground"						"1"
+			"PaintBackgroundType"					"0"
+			"bgcolor_override"						"GrayBlueDarkest"
 
 			"Material3Label"
 			{
@@ -1519,7 +1528,7 @@
 				"ypos"								"3"
 				"wide"								"19"
 				"tall"								"15"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -1611,7 +1620,7 @@
 		"tall"										"219"
 		"visible"									"1"
 		"enabled"									"1"
-		"paintbackground" 							"0"
+		"paintbackground"							"0"
 
 		"AnimationSourcePanel"
 		{
@@ -1622,9 +1631,9 @@
 			"wide"									"150"
 			"tall"									"50"
 			"visible"								"1"
-			"paintbackground" 						"1"
-			"paintbackgroundtype" 					"0"
-			"bgcolor_override" 						"GrayBlueDarkest"
+			"paintbackground"						"1"
+			"PaintBackgroundType"					"0"
+			"bgcolor_override"						"GrayBlueDarkest"
 
 
 			"AnimationSourceLabel"
@@ -1648,7 +1657,7 @@
 				"ypos"								"2"
 				"wide"								"15"
 				"tall"								"15"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -1673,7 +1682,7 @@
 				"ypos"								"2"
 				"wide"								"19"
 				"tall"								"15"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -1725,9 +1734,9 @@
 			"wide"									"150"
 			"tall"									"50"
 			"visible"								"1"
-			"paintbackground" 						"1"
-			"paintbackgroundtype" 					"0"
-			"bgcolor_override" 						"GrayBlueDarkest"
+			"paintbackground"						"1"
+			"PaintBackgroundType"					"0"
+			"bgcolor_override"						"GrayBlueDarkest"
 
 
 			"AnimationVCDLabel"
@@ -1751,7 +1760,7 @@
 				"ypos"								"2"
 				"wide"								"15"
 				"tall"								"15"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -1776,7 +1785,7 @@
 				"ypos"								"2"
 				"wide"								"19"
 				"tall"								"15"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Symbols 12"
 				"textAlignment"						"center"
 
@@ -1869,7 +1878,7 @@
 			"unicode"								"1"
 			"fgcolor_override"						"0 0 0 255"
 			"bgcolor_override"						"255 255 255 255"
-			"paintbackgroundtype" 					"0"
+			"PaintBackgroundType"					"0"
 			"font"									"Light 11"
 		}
 
@@ -1910,7 +1919,7 @@
 		"ypos"										"365"
 		"wide"										"25"
 		"tall"										"25"
-		"use_proportional_insets" 					"1"
+		"use_proportional_insets"					"1"
 		"font"										"Symbols 16"
 		"textAlignment"								"center"
 
@@ -2059,7 +2068,6 @@
 		"zpos"										"1"
 		"wide"										"340"
 		"tall"										"313"
-		"autoResize"								"1"
 		"visible"									"0"
 		"enabled"									"1"
 
@@ -2067,20 +2075,20 @@
 		"fov"										"40"
 		"allow_manip"								"1"
 
-		"paintbackground" 							"1"
-		"paintbackgroundenabled" 					"1"
-		"bgcolor_override" 							"255 255 255 0"
+		"paintbackground"							"1"
+		"paintbackgroundenabled"					"1"
+		"bgcolor_override"							"255 255 255 0"
 
 		"model"
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"0"
-			"angles_y" 								"170"
-			"angles_z" 								"0"
-			"origin_x" 								"190"
-			"origin_y" 								"0"
-			"origin_z" 								"-36"
+			"angles_x"								"0"
+			"angles_y"								"170"
+			"angles_z"								"0"
+			"origin_x"								"190"
+			"origin_y"								"0"
+			"origin_z"								"-36"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"

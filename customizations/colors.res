@@ -120,16 +120,16 @@
 		//-----------------------------------------------------------------------------
 
 		"QualityColorNormal"								"178 178 178 255"		// Empty
-		"QualityColorrarity1"								"77 116 85 255"			// Genuine
+		"QualityColorrarity1"								"77 116 85 255"		// Genuine
 		"QualityColorrarity2"								"141 131 75 255"		//
 		"QualityColorrarity3"								"204 204 250 255"		//
 		"QualityColorrarity4"								"134 80 172 255"		// Unusual
-		"QualityColorVintage"								"71 98 145 255"			// Vintage
-		"QualityColorUnique"								"255 215 0 255"			// Unique
+		"QualityColorVintage"								"71 98 145 255"		// Vintage
+		"QualityColorUnique"								"255 215 0 255"		// Unique
 		"QualityColorCommunity"								"112 176 74 255"		// Community
 		"QualityColorDeveloper"								"165 15 121 255"		// Developer
 		"QualityColorSelfMade"								"112 176 74 255"		// Self Made
-		"QualityColorCustomized"							"71 98 145 255"			// Customized
+		"QualityColorCustomized"							"71 98 145 255"		// Customized
 		"QualityColorStrange"								"207 106 50 255"		// Strange
 		"QualityColorCompleted"								"134 80 172 255"		// Completed
 		"QualityColorHaunted"								"56 243 171 255"		// Haunted
@@ -142,7 +142,7 @@
 		"ItemRarityRare"									"75 105 255 255"		// Mercenary Grade
 		"ItemRarityMythical"								"136 71 255 255"		// Commando Grade
 		"ItemRarityLegendary"								"211 44 230 255"		// Assassin Grade
-		"ItemRarityAncient"									"235 75 75 255"			// Elite Grade
+		"ItemRarityAncient"									"235 75 75 255"		// Elite Grade
 
 		//-----------------------------------------------------------------------------
 		// LABEL COLORS MOUSE HOVER

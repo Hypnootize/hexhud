@@ -74,8 +74,6 @@
 		"zpos"										"2"
 		"wide"										"120"
 		"tall"										"140"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -87,12 +85,12 @@
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"0"
-			"angles_y" 								"270"
-			"angles_z" 								"0"
-			"origin_x" 								"200"
-			"origin_y" 								"28"
-			"origin_z" 								"-60"
+			"angles_x"								"0"
+			"angles_y"								"270"
+			"angles_z"								"0"
+			"origin_x"								"200"
+			"origin_y"								"28"
+			"origin_z"								"-60"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
@@ -207,7 +205,7 @@
 		"ypos"										"r25"
 		"zpos"										"100"
 		"wide"										"500"
-		"tall"	 									"28"
+		"tall"										"28"
 
 		"CarryingBackground"
 		{
@@ -217,7 +215,7 @@
 			"ypos"									"0"
 			"zpos"									"0"
 			"wide"									"f0"
-			"tall"	 								"f0"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"replay/thumbnails/panels/flat_background"
@@ -237,9 +235,7 @@
 			"ypos"									"0"
 			"zpos"									"1"
 			"wide"									"200"
-			"tall"	 								"f0"
-			"autoResize"							"0"
-			"pinCorner"								"0"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"North-West"
@@ -257,7 +253,7 @@
 			"ypos"									"10"
 			"zpos"									"0"
 			"wide"									"200"
-			"tall"	 								"f0"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"North-West"
@@ -271,6 +267,11 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"CarryingLabelDropShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -280,11 +281,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"classmodelpanelBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayerStatusClassImageBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

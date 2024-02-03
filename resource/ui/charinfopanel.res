@@ -43,7 +43,7 @@
 		"tabxdelta"									"3"
 		"tabwidth"									"240"
 		"tabheight"									"20"
-		"transition_time" 							"0"
+		"transition_time"							"0"
 		"yoffset"									"14"
 
 		"HeaderLine"
@@ -62,7 +62,7 @@
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"
-			"normalborder_override" 				"NoBorder"
+			"normalborder_override"					"NoBorder"
 		}
 	}
 
@@ -91,8 +91,6 @@
 		"zpos"										"2"
 		"wide"										"135"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Back"
@@ -111,13 +109,13 @@
 		"border_default"							"BottomLineWhite"
 		"border_armed"								"BottomLineWhite"
 
-		"defaultBgColor_override" 					"Button"
-		"armedBgColor_override" 					"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"defaultBgColor_override"					"Button"
+		"armedBgColor_override"						"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 
 		"image_drawcolor"							"235 240 245 255"
 		"image_armedcolor"							"255 255 255 255"
@@ -166,17 +164,32 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BackgroundHeader"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BackgroundFooter"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BackgroundFooter"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"FooterLine"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"FooterLine"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

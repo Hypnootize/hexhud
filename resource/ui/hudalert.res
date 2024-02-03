@@ -37,7 +37,7 @@
 		"labelText"									""
 		"fgcolor"									"Shadow"
 		"textAlignment"								"center"
-		"pin_to_sibling" 							"AlertLabel"
+		"pin_to_sibling"							"AlertLabel"
 	}
 
 	//REMOVED
@@ -46,11 +46,21 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"HudAlertBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"AlertImage"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"AlertImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

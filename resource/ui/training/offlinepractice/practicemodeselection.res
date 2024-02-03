@@ -29,15 +29,13 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"25"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
 		"fgcolor"									"WhiteDark"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"TitleBG"
+		"pin_to_sibling"							"TitleBG"
 	}
 
 	"GameModeImagePanel"
@@ -66,8 +64,6 @@
 		"zpos"										"20"
 		"wide"										"30"
 		"tall"										"50"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
@@ -82,9 +78,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"NextButton"
@@ -96,8 +92,6 @@
 		"zpos"										"20"
 		"wide"										"30"
 		"tall"										"50"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
@@ -111,9 +105,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"CurPageLabel"
@@ -128,8 +122,6 @@
 		"zpos"										"1"
 		"wide"										"40"
 		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
@@ -166,15 +158,13 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
 		"fgcolor"									"WhiteDark"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling" 							"DescBG"
+		"pin_to_sibling"							"DescBG"
 	}
 
 	"SelectCurrentGameModeButton"
@@ -185,8 +175,6 @@
 		"ypos"										"rs1-24"
 		"wide"										"f0"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Select"
@@ -202,13 +190,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"GrayBlueLight"
-		"armedBgColor_override" 					"GrayLight"
-		"depressedBgColor_override" 				"GrayLight"
+		"defaultBgColor_override"					"GrayBlueLight"
+		"armedBgColor_override"						"GrayLight"
+		"depressedBgColor_override"					"GrayLight"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"GameModeImageBgPanel"
@@ -216,5 +204,10 @@
 		"ControlName"								"ImagePanel"
 		"FieldName"									"GameModeImageBgPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

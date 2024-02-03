@@ -364,8 +364,8 @@ Scheme
 	{
 		"85"
 		{
-			"font" 		"resource/scheme/fonts/tf2build.ttf"
-			"name" 		"TF2 Build"
+			"font"		"resource/scheme/fonts/tf2build.ttf"
+			"name"		"TF2 Build"
 		}
 	}
 }

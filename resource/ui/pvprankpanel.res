@@ -33,11 +33,11 @@
 			{
 				"0"
 				{
-					"particle_xpos" 				"c0"
-					"particle_ypos" 				"c0"
-					"particle_scale" 				"3"
+					"particle_xpos"					"c0"
+					"particle_ypos"					"c0"
+					"particle_scale"				"3"
 					"particleName"					"rankup_base"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 			}
@@ -54,8 +54,6 @@
 			"zpos"									"0"
 			"wide"									"o1"
 			"tall"									"p0.12"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"fov"									"70"
@@ -132,27 +130,27 @@
 			{
 				"0"
 				{
-					"particle_xpos" 				"c0"
-					"particle_ypos" 				"c0"
+					"particle_xpos"					"c0"
+					"particle_ypos"					"c0"
 					"particle_scale"				"5"
 					"particleName"					"rankup_glitter"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 				"1"
 				{
 					"particle_xpos"					"c0"
 					"particle_ypos"					"c0"
-					"particle_scale" 				"4"
+					"particle_scale"				"4"
 					"particleName"					"badgepress_base"
-					"start_activated" 				"0"
+					"start_activated"				"0"
 					"loop"							"0"
 				}
 				"2"
 				{
-					"particle_xpos" 				"c-8"
-					"particle_ypos" 				"c0"
-					"particle_scale" 				"4"
+					"particle_xpos"					"c-8"
+					"particle_ypos"					"c0"
+					"particle_scale"				"4"
 					"particleName"					"rankdown_base"
 					"start_activated"				"0"
 					"loop"							"0"

@@ -63,7 +63,7 @@
 				"font"								"Light 22"
 				"labelText"							"#TF_SteamWorkshop_Title"
 				"textAlignment"						"center"
-				"fgcolor" 							"WhiteDark"
+				"fgcolor"							"WhiteDark"
 			}
 
 			"DescLabel"
@@ -84,7 +84,7 @@
 				"font"								"Light 12"
 				"labelText"							"#TF_SteamWorkshop_Desc"
 				"textAlignment"						"north"
-				"fgcolor" 							"WhiteDark"
+				"fgcolor"							"WhiteDark"
 			}
 
 			"LearnMoreButton"
@@ -109,11 +109,11 @@
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override" 		"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
-				"depressedFgColor_override" 		"FullWhite"
+				"depressedFgColor_override"			"FullWhite"
 			}
 		}
 
@@ -147,7 +147,7 @@
 				"enabled"							"1"
 				"AllCaps"							"1"
 				"proportionaltoparent"				"1"
-				"fgcolor"		 					"WhiteDark"
+				"fgcolor"							"WhiteDark"
 			}
 
 			"ViewPublishedButton"
@@ -171,11 +171,11 @@
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override" 		"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
-				"depressedFgColor_override" 		"FullWhite"
+				"depressedFgColor_override"			"FullWhite"
 			}
 
 			"SteamWorkshopItem0"
@@ -244,15 +244,15 @@
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override" 		"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
-				"depressedFgColor_override" 		"FullWhite"
+				"depressedFgColor_override"			"FullWhite"
 
-				"pin_to_sibling" 					"CurPageLabel"
-				"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
-				"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+				"pin_to_sibling"					"CurPageLabel"
+				"pin_corner_to_sibling"				"PIN_TOPRIGHT"
+				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
 			"PrevPageSkipButton"
 			{
@@ -274,15 +274,15 @@
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override" 		"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
-				"depressedFgColor_override" 		"FullWhite"
+				"depressedFgColor_override"			"FullWhite"
 
-				"pin_to_sibling" 					"PrevPageButton"
-				"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
-				"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+				"pin_to_sibling"					"PrevPageButton"
+				"pin_corner_to_sibling"				"PIN_TOPRIGHT"
+				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
 			"SkipToStartButton"
 			{
@@ -304,15 +304,15 @@
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override" 		"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
-				"depressedFgColor_override" 		"FullWhite"
+				"depressedFgColor_override"			"FullWhite"
 
-				"pin_to_sibling" 					"PrevPageSkipButton"
-				"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
-				"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+				"pin_to_sibling"					"PrevPageSkipButton"
+				"pin_corner_to_sibling"				"PIN_TOPRIGHT"
+				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
 
 			"CurPageLabel"
@@ -331,7 +331,7 @@
 				"enabled"							"1"
 				"AllCaps"							"1"
 				"proportionaltoparent"				"1"
-				"fgcolor" 							"WhiteDark"
+				"fgcolor"							"WhiteDark"
 			}
 
 			"NextPageButton"
@@ -355,15 +355,15 @@
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override" 		"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
-				"depressedFgColor_override" 		"FullWhite"
+				"depressedFgColor_override"			"FullWhite"
 
-				"pin_to_sibling" 					"CurPageLabel"
-				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
+				"pin_to_sibling"					"CurPageLabel"
+				"pin_corner_to_sibling"				"PIN_TOPLEFT"
+				"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 			}
 			"NextPageSkipButton"
 			{
@@ -385,15 +385,15 @@
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override" 		"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
-				"depressedFgColor_override" 		"FullWhite"
+				"depressedFgColor_override"			"FullWhite"
 
-				"pin_to_sibling" 					"NextPageButton"
-				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
+				"pin_to_sibling"					"NextPageButton"
+				"pin_corner_to_sibling"				"PIN_TOPLEFT"
+				"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 			}
 			"SkipToEndButton"
 			{
@@ -415,15 +415,15 @@
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override" 		"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
-				"depressedFgColor_override" 		"FullWhite"
+				"depressedFgColor_override"			"FullWhite"
 
-				"pin_to_sibling" 					"NextPageSkipButton"
-				"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-				"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
+				"pin_to_sibling"					"NextPageSkipButton"
+				"pin_corner_to_sibling"				"PIN_TOPLEFT"
+				"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 			}
 
 			"EditButton"
@@ -436,7 +436,7 @@
 				"tall"								"25"
 				"visible"							"1"
 				"enabled"							"1"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Light 14"
 				"textAlignment"						"center"
 				"default"							"1"
@@ -446,11 +446,11 @@
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override" 		"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
-				"depressedFgColor_override" 		"FullWhite"
+				"depressedFgColor_override"			"FullWhite"
 
 				"labelText"							"#TF_SteamWorkshop_Edit"
 				"command"							"edit"
@@ -466,7 +466,7 @@
 				"tall"								"25"
 				"visible"							"1"
 				"enabled"							"1"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Light 14"
 				"textAlignment"						"center"
 				"default"							"1"
@@ -476,11 +476,11 @@
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override" 		"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
-				"depressedFgColor_override" 		"FullWhite"
+				"depressedFgColor_override"			"FullWhite"
 
 				"labelText"							"#TF_SteamWorkshop_View"
 				"command"							"view"
@@ -496,7 +496,7 @@
 				"tall"								"25"
 				"visible"							"1"
 				"enabled"							"1"
-				"use_proportional_insets" 			"1"
+				"use_proportional_insets"			"1"
 				"font"								"Light 14"
 				"textAlignment"						"center"
 				"default"							"1"
@@ -506,11 +506,11 @@
 				"paintbackground"					"1"
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
-				"depressedBgColor_override" 		"Button_Hover"
+				"depressedBgColor_override"			"Button_Hover"
 
 				"defaultFgColor_override"			"WhiteDark"
 				"armedFgColor_override"				"FullWhite"
-				"depressedFgColor_override" 		"FullWhite"
+				"depressedFgColor_override"			"FullWhite"
 
 				"labelText"							"#TF_SteamWorkshop_Delete"
 				"command"							"delete_item"
@@ -539,11 +539,11 @@
 			"paintbackground"						"1"
 			"defaultBgColor_override"				"ButtonGreen"
 			"armedBgColor_override"					"ButtonGreen_Hover"
-			"depressedBgColor_override" 			"ButtonGreen_Hover"
+			"depressedBgColor_override"				"ButtonGreen_Hover"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"FullWhite"
-			"depressedFgColor_override" 			"FullWhite"
+			"depressedFgColor_override"				"FullWhite"
 		}
 
 		"LoadTestMapButton"
@@ -568,11 +568,11 @@
 			"paintbackground"						"1"
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"FullWhite"
-			"depressedFgColor_override" 			"FullWhite"
+			"depressedFgColor_override"				"FullWhite"
 		}
 
 		"PublishButton"
@@ -597,11 +597,11 @@
 			"paintbackground"						"1"
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override" 			"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"FullWhite"
-			"depressedFgColor_override" 			"FullWhite"
+			"depressedFgColor_override"				"FullWhite"
 		}
 
 		"CancelButton"
@@ -626,11 +626,11 @@
 			"paintbackground"						"1"
 			"defaultBgColor_override"				"ButtonRed"
 			"armedBgColor_override"					"ButtonRed_Hover"
-			"depressedBgColor_override" 			"ButtonRed_Hover"
+			"depressedBgColor_override"				"ButtonRed_Hover"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"FullWhite"
-			"depressedFgColor_override" 			"FullWhite"
+			"depressedFgColor_override"				"FullWhite"
 		}
 
 		"LearnMore2Button"
@@ -638,30 +638,55 @@
 			"ControlName"							"CExButton"
 			"fieldName"								"LearnMore2Button"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"ViewLegalAgreementButton"
 		{
 			"ControlName"							"CExButton"
 			"fieldName"								"ViewLegalAgreementButton"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"Background"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"Background"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"WorkshopBranding"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"WorkshopBranding"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"BackgroundBottom"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BackgroundBottom"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

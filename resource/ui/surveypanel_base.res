@@ -131,8 +131,6 @@
 			"zpos"									"10"
 			"wide"									"20"
 			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"-"
@@ -140,7 +138,7 @@
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"close"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 			"actionsignallevel"						"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 
@@ -148,7 +146,7 @@
 
 			"defaultFgColor_override"				"WhiteDark"
 			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override" 			"WhiteSolid"
+			"depressedFgColor_override"				"WhiteSolid"
 		}
 	}
 }

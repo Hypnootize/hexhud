@@ -86,8 +86,6 @@
 		"ypos"										"c-218"
 		"wide"										"55"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"0"
 		"labelText"									""
@@ -124,7 +122,7 @@
 		"zpos"										"1"
 		"wide"										"19"
 		"tall"										"15"
-		"use_proportional_insets" 					"1"
+		"use_proportional_insets"					"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"center"
 
@@ -164,8 +162,6 @@
 		"ypos"										"60"
 		"wide"										"190"
 		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"labelText"									"#TF_PublishFile_NoFileSelected"
 		"font"										"Light 10"
 		"fgcolor"									"White"
@@ -181,7 +177,7 @@
 		"zpos"										"1"
 		"wide"										"19"
 		"tall"										"15"
-		"use_proportional_insets" 					"1"
+		"use_proportional_insets"					"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"center"
 
@@ -207,7 +203,7 @@
 		"ypos"										"77"
 		"wide"										"15"
 		"tall"										"15"
-		"use_proportional_insets" 					"1"
+		"use_proportional_insets"					"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"center"
 
@@ -276,8 +272,6 @@
 		"ypos"										"90"
 		"wide"										"175"
 		"tall"										"12"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"editable"									"0"
 		"visible"									"1"
 
@@ -285,11 +279,11 @@
 
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"BlackBlue"
-		"disabledFgColor_override" 					"WhiteDark"
-		"disabledBgColor_override" 					"BlackBlue"
-		"selectionColor_override" 					"Blank"
-		"selectionTextColor_override" 				"WhiteDark"
-		"defaultSelectionBG2Color_override" 		"BlackBlue"
+		"disabledFgColor_override"					"WhiteDark"
+		"disabledBgColor_override"					"BlackBlue"
+		"selectionColor_override"					"Blank"
+		"selectionTextColor_override"				"WhiteDark"
+		"defaultSelectionBG2Color_override"			"BlackBlue"
 
 		"Button"
 		{
@@ -326,8 +320,6 @@
 		"ypos"										"103"
 		"wide"										"30"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"command"									"UpdateBaseMapAlphaPhongMask"
@@ -343,7 +335,7 @@
 		"zpos"										"1"
 		"wide"										"19"
 		"tall"										"15"
-		"use_proportional_insets" 					"1"
+		"use_proportional_insets"					"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"west"
 
@@ -369,7 +361,7 @@
 		"ypos"										"125"
 		"wide"										"15"
 		"tall"										"15"
-		"use_proportional_insets" 					"1"
+		"use_proportional_insets"					"1"
 		"font"										"Symbols 14"
 		"textAlignment"								"west"
 
@@ -446,7 +438,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -481,7 +473,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -516,7 +508,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -551,7 +543,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -581,8 +573,6 @@
 		"ypos"										"203"
 		"wide"										"30"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
 		"command"									"UpdateRimMask"
@@ -614,8 +604,6 @@
 		"ypos"										"223"
 		"wide"										"30"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"command"									"UpdateHalfLambert"
@@ -648,8 +636,6 @@
 		"ypos"										"243"
 		"wide"										"30"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
 		"command"									"UpdateBlendTintByBaseAlpha"
@@ -688,7 +674,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -724,7 +710,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -745,7 +731,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -766,7 +752,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -795,8 +781,6 @@
 		"ypos"										"293"
 		"wide"										"30"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"command"									"UpdateAdditive"
@@ -828,8 +812,6 @@
 		"ypos"										"293"
 		"wide"										"30"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"command"									"UpdateTranslucent"
@@ -862,8 +844,6 @@
 		"ypos"										"293"
 		"wide"										"30"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"0"
 		"command"									"UpdateAlphaTest"
@@ -893,8 +873,6 @@
 		"ypos"										"315"
 		"wide"										"175"
 		"tall"										"12"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"editable"									"0"
 		"visible"									"1"
 
@@ -902,11 +880,11 @@
 
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"BlackBlue"
-		"disabledFgColor_override" 					"WhiteDark"
-		"disabledBgColor_override" 					"BlackBlue"
-		"selectionColor_override" 					"Blank"
-		"selectionTextColor_override" 				"WhiteDark"
-		"defaultSelectionBG2Color_override" 		"BlackBlue"
+		"disabledFgColor_override"					"WhiteDark"
+		"disabledBgColor_override"					"BlackBlue"
+		"selectionColor_override"					"Blank"
+		"selectionTextColor_override"				"WhiteDark"
+		"defaultSelectionBG2Color_override"			"BlackBlue"
 
 		"Button"
 		{
@@ -942,8 +920,6 @@
 		"ypos"										"330"
 		"wide"										"175"
 		"tall"										"12"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"editable"									"0"
 		"visible"									"1"
 		"enabled"									"0"
@@ -952,11 +928,11 @@
 
 		"fgcolor_override"							"WhiteDark"
 		"bgcolor_override"							"BlackBlue"
-		"disabledFgColor_override" 					"WhiteDark"
-		"disabledBgColor_override" 					"BlackBlue"
-		"selectionColor_override" 					"Blank"
-		"selectionTextColor_override" 				"WhiteDark"
-		"defaultSelectionBG2Color_override" 		"BlackBlue"
+		"disabledFgColor_override"					"WhiteDark"
+		"disabledBgColor_override"					"BlackBlue"
+		"selectionColor_override"					"Blank"
+		"selectionTextColor_override"				"WhiteDark"
+		"defaultSelectionBG2Color_override"			"BlackBlue"
 
 		"Button"
 		{
@@ -1000,7 +976,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -1021,7 +997,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -1042,7 +1018,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -1071,8 +1047,6 @@
 		"ypos"										"357"
 		"wide"										"30"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"command"									"UpdateSelfIllum"
@@ -1192,7 +1166,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -1213,7 +1187,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 
@@ -1234,7 +1208,7 @@
 		"unicode"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"BlackBlue"
-		"paintbackgroundtype" 						"0"
+		"PaintBackgroundType"						"0"
 		"font"										"Light 10"
 	}
 

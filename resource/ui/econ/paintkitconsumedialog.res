@@ -77,7 +77,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"		 							"WhiteDark"
+		"fgcolor"									"WhiteDark"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 	}
@@ -87,6 +87,11 @@
 		"fieldName"									"Shade"
 		"controlname"								"EditablePanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"RedeemingPanel"
@@ -130,7 +135,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"		 						"WhiteDark"
+			"fgcolor"								"WhiteDark"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 		}
@@ -224,7 +229,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"		 						"Red"
+			"fgcolor"								"Red"
 			"proportionaltoparent"					"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
@@ -240,8 +245,6 @@
 		"zpos"										"20"
 		"wide"										"f4"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Cancel"
@@ -257,13 +260,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"Button"
-		"armedBgColor_override" 					"Button_Hover"
-		"depressedBgColor_override" 				"Button_Hover"
+		"defaultBgColor_override"					"Button"
+		"armedBgColor_override"						"Button_Hover"
+		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"ConfirmButton"
@@ -276,8 +279,6 @@
 		"wide"										"f4"
 		"tall"										"20"
 		"default"									"1"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_QuestView_RedeemReward"
@@ -293,12 +294,12 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"ButtonGreen"
-		"armedBgColor_override" 					"ButtonGreen_Hover"
-		"depressedBgColor_override" 				"ButtonGreen_Hover"
+		"defaultBgColor_override"					"ButtonGreen"
+		"armedBgColor_override"						"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
 
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 }

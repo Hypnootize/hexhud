@@ -11,9 +11,7 @@
 		"zpos"										"1000"
 		"wide"										"f0"
 		"tall"										"f0"
-		"autoResize"								"0"
 		"skip_autoresize"							"1"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 
@@ -121,12 +119,22 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"FooterTopPanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"FootBottomPanel"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"FootBottomPanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"ItemNameLabel"
@@ -140,9 +148,7 @@
 			"ypos"									"5"
 			"wide"									"220"
 			"tall"									"15"
-			"autoResize"							"0"
 			"skip_autoresize"						"1"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
@@ -161,7 +167,6 @@
 			"visible"								"1"
 			"PaintBackground"						"0"
 			"skip_autoresize"						"1"
-			"autoresize"							"0"
 
 			"ScrollableChild"
 			{
@@ -175,7 +180,6 @@
 				"visible"							"1"
 				"PaintBackground"					"0"
 				"skip_autoresize"					"1"
-				"autoresize"						"0"
 
 				"ItemLevelInfoLabel"
 				{
@@ -186,8 +190,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"228"
 					"tall"							"15"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -203,8 +205,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"228"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"0"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -220,8 +220,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"228"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"0"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -237,8 +235,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"228"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -254,8 +250,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"228"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -271,8 +265,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"228"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -288,8 +280,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"228"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -304,8 +294,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"228"
 					"tall"							"25"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -321,8 +309,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"228"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -338,8 +324,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"228"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -353,8 +337,6 @@
 					"zpos"							"20"
 					"wide"							"150"
 					"tall"							"15"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"labelText"						"#Store_ItemDesc_ItemWikiPage"
@@ -385,8 +367,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"205"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -403,8 +383,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"205"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -421,8 +399,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"205"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -439,8 +415,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"205"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -457,8 +431,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"205"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -475,8 +447,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"205"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -493,8 +463,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"205"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -511,8 +479,6 @@
 					"textAlignment"					"north-west"
 					"wide"							"205"
 					"tall"							"10"
-					"autoResize"					"0"
-					"pinCorner"						"0"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
@@ -532,8 +498,6 @@
 		"zpos"										"1"
 		"wide"										"220"
 		"tall"										"213"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -541,24 +505,24 @@
 		"fov"										"40"
 		"allow_rot"									"1"
 
-		"paintbackground" 							"1"
-		"paintbackgroundenabled" 					"1"
-		"bgcolor_override" 							"Blank"
+		"paintbackground"							"1"
+		"paintbackgroundenabled"					"1"
+		"bgcolor_override"							"Blank"
 
 		"model"
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"0"
-			"angles_y" 								"170"
+			"angles_x"								"0"
+			"angles_y"								"170"
 			"angles_z"								"0"
-			"origin_x"							 	"190"
-			"origin_y"							 	"0"
-			"origin_z"							 	"-36"
+			"origin_x"								"190"
+			"origin_y"								"0"
+			"origin_z"								"-36"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" 							"1"
+			"spotlight"								"1"
 
 			"modelname"								""
 		}
@@ -606,8 +570,8 @@
 		"wide"										"30"
 		"tall"										"20"
 		"visible"									"1"
-		"panel_bgcolor" 							"WhiteDark"
-		"panel_bgcolor_mouseover" 					"White"
+		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 
@@ -623,7 +587,7 @@
 			"visible"								"1"
 			"enabled"								"0"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override" 						"Gray"
+			"bgcolor_override"						"Gray"
 		}
 
 		"itempanel"
@@ -644,7 +608,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -661,8 +625,8 @@
 		"wide"										"30"
 		"tall"										"20"
 		"visible"									"1"
-		"panel_bgcolor" 							"WhiteDark"
-		"panel_bgcolor_mouseover" 					"White"
+		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 
@@ -678,7 +642,7 @@
 			"visible"								"1"
 			"enabled"								"0"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override" 						"Gray"
+			"bgcolor_override"						"Gray"
 		}
 
 		"itempanel"
@@ -699,7 +663,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -716,8 +680,8 @@
 		"wide"										"30"
 		"tall"										"20"
 		"visible"									"1"
-		"panel_bgcolor" 							"WhiteDark"
-		"panel_bgcolor_mouseover" 					"White"
+		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 
@@ -733,7 +697,7 @@
 			"visible"								"1"
 			"enabled"								"0"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override" 						"Gray"
+			"bgcolor_override"						"Gray"
 		}
 
 		"itempanel"
@@ -754,7 +718,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -771,8 +735,8 @@
 		"wide"										"30"
 		"tall"										"20"
 		"visible"									"1"
-		"panel_bgcolor" 							"WhiteDark"
-		"panel_bgcolor_mouseover" 					"White"
+		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 
@@ -788,7 +752,7 @@
 			"visible"								"1"
 			"enabled"								"0"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override" 						"Gray"
+			"bgcolor_override"						"Gray"
 		}
 
 		"itempanel"
@@ -809,7 +773,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
@@ -826,8 +790,8 @@
 		"wide"										"30"
 		"tall"										"20"
 		"visible"									"1"
-		"panel_bgcolor" 							"WhiteDark"
-		"panel_bgcolor_mouseover" 					"White"
+		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 
@@ -843,7 +807,7 @@
 			"visible"								"1"
 			"enabled"								"0"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override" 						"Gray"
+			"bgcolor_override"						"Gray"
 		}
 
 		"itempanel"
@@ -882,8 +846,8 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"panel_bgcolor" 							"WhiteDark"
-		"panel_bgcolor_mouseover" 					"White"
+		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 	}
@@ -898,8 +862,8 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"panel_bgcolor" 							"WhiteDark"
-		"panel_bgcolor_mouseover" 					"White"
+		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 	}
@@ -914,8 +878,8 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"panel_bgcolor" 							"WhiteDark"
-		"panel_bgcolor_mouseover" 					"White"
+		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 	}
@@ -930,8 +894,8 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"panel_bgcolor" 							"WhiteDark"
-		"panel_bgcolor_mouseover" 					"White"
+		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 	}
@@ -946,8 +910,8 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"panel_bgcolor" 							"WhiteDark"
-		"panel_bgcolor_mouseover" 					"White"
+		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 	}
@@ -962,8 +926,8 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"panel_bgcolor" 							"WhiteDark"
-		"panel_bgcolor_mouseover" 					"White"
+		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 	}
@@ -977,8 +941,6 @@
 		"zpos"										"20"
 		"wide"										"20"
 		"tall"										"27"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
@@ -991,7 +953,7 @@
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"IconsMoveRightButton"
@@ -1003,8 +965,6 @@
 		"zpos"										"20"
 		"wide"										"20"
 		"tall"										"27"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
@@ -1017,7 +977,7 @@
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"ClassUsageMouseoverLabel"
@@ -1031,8 +991,6 @@
 		"zpos"										"100"
 		"wide"										"230"
 		"tall"										"55"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"bgcolor_override"							"Blank"
@@ -1052,8 +1010,6 @@
 		"zpos"										"20"
 		"wide"										"22"
 		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
@@ -1066,7 +1022,7 @@
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 
 		"button_activation_type"					"0"
 	}
@@ -1080,8 +1036,6 @@
 		"zpos"										"20"
 		"wide"										"22"
 		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
@@ -1094,7 +1048,7 @@
 
 		"defaultFgColor_override"					"WhiteDark"
 		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 
 		"button_activation_type"					"0"
 	}
@@ -1104,8 +1058,6 @@
 		"ControlName"								"CExButton"
 		"fieldName"									"NextWeaponButton"
 		"zpos"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#Store_NextWeapon"
@@ -1125,8 +1077,6 @@
 		"zpos"										"20"
 		"wide"										"15"
 		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"*"
@@ -1156,8 +1106,6 @@
 		"zpos"										"20"
 		"wide"										"15"
 		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"r"
@@ -1187,8 +1135,6 @@
 		"zpos"										"20"
 		"wide"										"15"
 		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"|"
@@ -1218,8 +1164,6 @@
 		"zpos"										"2"
 		"wide"										"19"
 		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -1234,8 +1178,6 @@
 		{
 			"wide"									"19"
 			"tall"									"19"
-			"autoResize"							"0"
-			"pinCorner"								"2"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								""
@@ -1243,9 +1185,9 @@
 			"scaleImage"							"1"
 
 			"fgcolor"								"TanDark"
-			"defaultFgColor_override" 				"TanDark"
-			"armedFgColor_override" 				"TanDark"
-			"depressedFgColor_override" 			"TanDark"
+			"defaultFgColor_override"				"TanDark"
+			"armedFgColor_override"					"TanDark"
+			"depressedFgColor_override"				"TanDark"
 
 			"sound_depressed"						"UI/buttonclick.wav"
 
@@ -1317,8 +1259,6 @@
 		"ypos"										"c56"
 		"wide"										"138"
 		"tall"										"28"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
@@ -1341,8 +1281,6 @@
 		"ypos"										"-1000"
 		"wide"										"138"
 		"tall"										"28"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"wrap"										"1"
@@ -1361,8 +1299,6 @@
 		"ypos"										"-1000"
 		"wide"										"110"
 		"tall"										"25"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
@@ -1381,8 +1317,6 @@
 		"zpos"										"10"
 		"wide"										"20"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"-"
@@ -1394,9 +1328,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override" 					"WhiteDark"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"defaultFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"BackButton"
@@ -1408,7 +1342,6 @@
 		"zpos"										"2"
 		"wide"										"90"
 		"tall"										"22"
-		"autoResize"								"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#TF_BackCarat"
@@ -1422,7 +1355,7 @@
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
 	}
 
 	"TryItOutButton"
@@ -1434,7 +1367,6 @@
 		"zpos"										"3"
 		"wide"										"60"
 		"tall"										"18"
-		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Store_TryItOut"
@@ -1449,11 +1381,11 @@
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"ButtonGreen_Hover"
 		"armedBgColor_override"						"ButtonGreen"
-		"depressedBgColor_override" 				"ButtonGreen"
+		"depressedBgColor_override"					"ButtonGreen"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"AddToCartButton"
@@ -1465,7 +1397,6 @@
 		"zpos"										"2"
 		"wide"										"474"
 		"tall"										"20"
-		"autoResize"								"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%storeaddtocart%"
@@ -1480,11 +1411,11 @@
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"ButtonGreen"
 		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override" 				"ButtonGreen_Hover"
+		"depressedBgColor_override"					"ButtonGreen_Hover"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"depressedFgColor_override"					"WhiteSolid"
 	}
 
 	"mouseoveritempanel"
@@ -1509,7 +1440,7 @@
 		"model_wide"								"150"
 		"model_tall"								"100"
 
-		"hide_collection_panel" 					"1"
+		"hide_collection_panel"						"1"
 		"model_center_x"							"1"
 
 		"name_only"									"1"

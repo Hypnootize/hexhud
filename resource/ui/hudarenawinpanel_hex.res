@@ -13,14 +13,14 @@
 		"MidBG"
 		{
 			"ControlName"							"EditablePanel"
-			"fieldname"    							"MidBG"
-			"xpos"		    						"cs-0.5"
-			"ypos"		    						"0"
-			"zpos"          						"-1"
-			"wide"		    						"0"
-			"tall"		    						"20"
-			"visible"	    						"1"
-			"enabled"		    					"1"
+			"fieldName"								"MidBG"
+			"xpos"									"cs-0.5"
+			"ypos"									"0"
+			"zpos"									"-1"
+			"wide"									"0"
+			"tall"									"20"
+			"visible"								"1"
+			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"paintborder"							"0"
 			"paintbackground"						"1"
@@ -45,9 +45,9 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Blue"
 
-			"pin_to_sibling" 						"MidBG"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+			"pin_to_sibling"						"MidBG"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 		"BlueScoreBG2"
 		{
@@ -66,9 +66,9 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"BlueDark"
 
-			"pin_to_sibling" 						"BlueScoreBG"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"BlueScoreBG"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"BlueBottomLine"
 		{
@@ -87,9 +87,9 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"TransparentLightBlack"
 
-			"pin_to_sibling" 						"BlueScoreBG2"
-			"pin_corner_to_sibling" 				"PIN_BOTTOMRIGHT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMRIGHT"
+			"pin_to_sibling"						"BlueScoreBG2"
+			"pin_corner_to_sibling"					"PIN_BOTTOMRIGHT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMRIGHT"
 		}
 		"BlueTeamLabel"
 		{
@@ -107,9 +107,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"pin_to_sibling" 						"BlueScoreBG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+			"pin_to_sibling"						"BlueScoreBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 		"BlueTeamLabelShadow"
 		{
@@ -127,7 +127,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"pin_to_sibling" 						"BlueTeamLabel"
+			"pin_to_sibling"						"BlueTeamLabel"
 		}
 
 		"BlueTeamScore"
@@ -164,8 +164,6 @@
 			"zpos"									"4"
 			"wide"									"25"
 			"tall"									"19"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -189,9 +187,9 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Red"
 
-			"pin_to_sibling" 						"MidBG"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"MidBG"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 		"RedScoreBG2"
 		{
@@ -209,7 +207,7 @@
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"RedDark"
-			"pin_to_sibling" 						"RedScoreBG"
+			"pin_to_sibling"						"RedScoreBG"
 		}
 		"RedBottomLine"
 		{
@@ -228,9 +226,9 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"TransparentLightBlack"
 
-			"pin_to_sibling" 						"RedScoreBG2"
-			"pin_corner_to_sibling" 				"PIN_BOTTOMLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"RedScoreBG2"
+			"pin_corner_to_sibling"					"PIN_BOTTOMLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 		"RedTeamLabel"
 		{
@@ -248,9 +246,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"pin_to_sibling" 						"RedScoreBG"
-			"pin_corner_to_sibling" 				"PIN_CENTER_RIGHT"
-			"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
+			"pin_to_sibling"						"RedScoreBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
+			"pin_to_sibling_corner"					"PIN_CENTER_RIGHT"
 		}
 		"RedTeamLabelShadow"
 		{
@@ -268,7 +266,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"pin_to_sibling" 						"RedTeamLabel"
+			"pin_to_sibling"						"RedTeamLabel"
 		}
 		"RedTeamScore"
 		{
@@ -336,18 +334,33 @@
 			"ControlName"							"ScalableImagePanel"
 			"fieldName"								"ArenaStreaksBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"BlueTeamScoreDropshadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamScoreDropshadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"RedTeamScoreDropshadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamScoreDropshadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -402,9 +415,9 @@
 		"textAlignment"								"west"
 		"fgcolor"									"OffWhite"
 
-		"pin_to_sibling" 							"ClassPlayedLabel"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling"							"ClassPlayedLabel"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"ClassPlayedLabel"
@@ -424,9 +437,9 @@
 		"fgcolor"									"OffWhite"
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"DamageThisRoundLabel"
-		"pin_corner_to_sibling" 					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling"							"DamageThisRoundLabel"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 	"DamageThisRoundLabel"
@@ -446,9 +459,9 @@
 		"fgcolor"									"OffWhite"
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"TopBar"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"TopBar"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"HealingThisRoundLabel"
@@ -468,9 +481,9 @@
 		"fgcolor"									"OffWhite"
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"DamageThisRoundLabel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"DamageThisRoundLabel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"LifetimeThisRoundLabel"
@@ -490,9 +503,9 @@
 		"fgcolor"									"OffWhite"
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"HealingThisRoundLabel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"HealingThisRoundLabel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"KillingBlowsThisRoundLabel"
@@ -505,17 +518,15 @@
 		"zpos"										"3"
 		"wide"										"70"
 		"tall"										"8"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Arena_Winpanel_KillingBlows"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
 
-		"pin_to_sibling" 							"LifetimeThisRoundLabel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"LifetimeThisRoundLabel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"ArenaWinPanelWinnersPanel"
@@ -529,13 +540,18 @@
 		"visible"									"1"
 		"zpos"										"3"
 
-		"pin_to_sibling" 							"TopBar"
+		"pin_to_sibling"							"TopBar"
 
 		"Player1Avatar"
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player1Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"Player1Name"
@@ -554,9 +570,9 @@
 			"font"									"Light 10"
 			"alpha"									"255"
 
-			"pin_to_sibling" 						"Player1Class"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+			"pin_to_sibling"						"Player1Class"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 
 		"Player1Class"
@@ -574,9 +590,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Damage"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+			"pin_to_sibling"						"Player1Damage"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 
 		"Player1Damage"
@@ -610,9 +626,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Damage"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"Player1Damage"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"Player1Lifetime"
@@ -630,9 +646,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Healing"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"Player1Healing"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"Player1Kills"
@@ -650,9 +666,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Lifetime"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"Player1Lifetime"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"Player2Avatar"
@@ -660,6 +676,11 @@
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player2Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"Player2Name"
@@ -678,9 +699,9 @@
 			"font"									"Light 10"
 			"alpha"									"255"
 
-			"pin_to_sibling" 						"Player1Name"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player1Name"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player2Class"
@@ -698,9 +719,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Class"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player1Class"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player2Damage"
@@ -718,9 +739,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Damage"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player1Damage"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player2Healing"
@@ -738,9 +759,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Healing"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player1Healing"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player2Lifetime"
@@ -758,9 +779,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Lifetime"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player1Lifetime"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player2Kills"
@@ -778,9 +799,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Kills"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player1Kills"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player3Avatar"
@@ -788,6 +809,11 @@
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player3Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"Player3Name"
@@ -806,9 +832,9 @@
 			"font"									"Light 10"
 			"alpha"									"255"
 
-			"pin_to_sibling" 						"Player2Name"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player2Name"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player3Class"
@@ -826,9 +852,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player2Class"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player2Class"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player3Damage"
@@ -846,9 +872,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player2Damage"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player2Damage"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player3Healing"
@@ -866,9 +892,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player2Healing"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player2Healing"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player3Lifetime"
@@ -886,9 +912,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player2Lifetime"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player2Lifetime"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player3Kills"
@@ -906,9 +932,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player2Kills"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player2Kills"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 	}
 
@@ -923,13 +949,18 @@
 		"visible"									"1"
 		"zpos"										"3"
 
-		"pin_to_sibling" 							"TopBar"
+		"pin_to_sibling"							"TopBar"
 
 		"Player1Avatar"
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player1Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"Player1Name"
@@ -948,9 +979,9 @@
 			"font"									"Light 10"
 			"alpha"									"255"
 
-			"pin_to_sibling" 						"Player1Class"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+			"pin_to_sibling"						"Player1Class"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 
 		"Player1Class"
@@ -968,9 +999,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Damage"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-			"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+			"pin_to_sibling"						"Player1Damage"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
 
 		"Player1Damage"
@@ -1004,9 +1035,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Damage"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"Player1Damage"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"Player1Lifetime"
@@ -1024,9 +1055,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Healing"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"Player1Healing"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"Player1Kills"
@@ -1044,9 +1075,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Lifetime"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"Player1Lifetime"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"Player2Avatar"
@@ -1054,6 +1085,11 @@
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player2Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"Player2Name"
@@ -1072,9 +1108,9 @@
 			"font"									"Light 10"
 			"alpha"									"255"
 
-			"pin_to_sibling" 						"Player1Name"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player1Name"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player2Class"
@@ -1092,9 +1128,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Class"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player1Class"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player2Damage"
@@ -1112,9 +1148,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Damage"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player1Damage"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player2Healing"
@@ -1132,9 +1168,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Healing"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player1Healing"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player2Lifetime"
@@ -1152,9 +1188,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Lifetime"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player1Lifetime"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player2Kills"
@@ -1172,9 +1208,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player1Kills"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player1Kills"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player3Avatar"
@@ -1182,6 +1218,11 @@
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"Player3Avatar"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"Player3Name"
@@ -1200,9 +1241,9 @@
 			"font"									"Light 10"
 			"alpha"									"255"
 
-			"pin_to_sibling" 						"Player2Name"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player2Name"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player3Class"
@@ -1220,9 +1261,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player2Class"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player2Class"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player3Damage"
@@ -1240,9 +1281,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player2Damage"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player2Damage"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player3Healing"
@@ -1260,9 +1301,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player2Healing"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player2Healing"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player3Lifetime"
@@ -1280,9 +1321,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player2Lifetime"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player2Lifetime"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
 		"Player3Kills"
@@ -1300,9 +1341,9 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light 10"
 
-			"pin_to_sibling" 						"Player2Kills"
-			"pin_corner_to_sibling" 				"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 				"PIN_BOTTOMLEFT"
+			"pin_to_sibling"						"Player2Kills"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 	}
 
@@ -1316,53 +1357,98 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"WinPanelBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"WinReasonLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WinReasonLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"DetailsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DetailsLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HorizontalLine"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HorizontalLine"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"WinningTeamLabel"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"	  								"WinningTeamLabel"
+		"fieldName"									"WinningTeamLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"WinningTeamLabelDropshadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WinningTeamLabelDropshadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"LosingTeamLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LosingTeamLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"LosingTeamLabelDropshadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LosingTeamLabelDropshadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

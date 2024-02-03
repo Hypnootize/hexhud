@@ -72,18 +72,33 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"CountShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"background"
 		{
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"background"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"playerimage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"playerimage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
@@ -159,18 +174,33 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"CountShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"background"
 		{
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"background"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"playerimage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"playerimage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

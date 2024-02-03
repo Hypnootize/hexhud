@@ -10,8 +10,6 @@
 			"zpos"										"20"
 			"wide"										"25"
 			"tall"										"25"
-			"autoResize"								"0"
-			"pinCorner"									"0"
 			"visible"									"0"
 			"enabled"									"1"
 			"font"										"Light 18"
@@ -30,15 +28,15 @@
 			"border_depressed"							"BottomLineWhite"
 			"border_armed"								"BottomLineWhite"
 
-			"defaultBgColor_override" 					"Button"
-			"armedBgColor_override" 					"Button_Hover"
-			"depressedBgColor_override" 				"Button_Hover"
-			"selectedBgColor_override" 					"Button_Hover"
+			"defaultBgColor_override"					"Button"
+			"armedBgColor_override"						"Button_Hover"
+			"depressedBgColor_override"					"Button_Hover"
+			"selectedBgColor_override"					"Button_Hover"
 
-			"defaultFgColor_override" 					"White"
-			"armedFgColor_override" 					"WhiteSolid"
-			"depressedFgColor_override" 				"WhiteSolid"
-			"selectedFgColor_override" 					"WhiteSolid"
+			"defaultFgColor_override"					"White"
+			"armedFgColor_override"						"WhiteSolid"
+			"depressedFgColor_override"					"WhiteSolid"
+			"selectedFgColor_override"					"WhiteSolid"
 		}
 	}
 }

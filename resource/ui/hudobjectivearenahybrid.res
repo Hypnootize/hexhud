@@ -37,7 +37,6 @@
 			"bgcolor_override"						"Blank"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
-			"AutoResize"							"0"
 			"skip_autoresize"						"1"
 		}
 	}
@@ -448,18 +447,33 @@
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"Background"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"scaleimage"							"0"
+			"visible"								"0"
 		}
 		"CountdownImage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"CountdownImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"scaleimage"							"0"
+			"visible"								"0"
 		}
 		"CountdownLabelTimeTimeShadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CountdownLabelTimeTimeShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"scaleimage"							"0"
+			"visible"								"0"
 		}
 	}
 	"CarriedContainer"
@@ -550,12 +564,22 @@
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"TeamLeaderImage"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"scaleimage"							"0"
+			"visible"								"0"
 		}
 		"CarriedProgressBar"
 		{
 			"fieldName"								"CarriedProgressBar"
 			"ControlName"							"ImagePanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"scaleimage"							"0"
+			"visible"								"0"
 		}
 	}
 	"ScoreContainer"
@@ -738,12 +762,22 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabel"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"scaleimage"					"0"
+					"visible"						"0"
 				}
 				"VictoryLabelShadow"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelShadow"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"scaleimage"					"0"
+					"visible"						"0"
 				}
 			}
 
@@ -801,12 +835,22 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabel"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"scaleimage"					"0"
+					"visible"						"0"
 				}
 				"VictoryLabelShadow"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"VictoryLabelShadow"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"scaleimage"					"0"
+					"visible"						"0"
 				}
 			}
 			"ScoreOutline"

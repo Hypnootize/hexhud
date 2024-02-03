@@ -4,9 +4,9 @@
 	{
 		"xpos"										"0"
 		"ypos"										"rs1"
-		"zpos" 										"2"
-		"wide"	 									"30"
-		"tall"	 									"15"
+		"zpos"										"2"
+		"wide"										"30"
+		"tall"										"15"
 	}
 
 	"Background"
@@ -52,7 +52,7 @@
 		"fieldName"									"CountText"
 		"font"										"Light 16"
 		"labelText"									"%counttext%"
-		"textAlignment" 							"east"
+		"textAlignment"								"east"
 		"xpos"										"rs1-4"
 		"ypos"										"cs-0.5"
 		"zpos"										"5"
@@ -67,7 +67,7 @@
 		"fieldName"									"CountTextShadow"
 		"font"										"Light 16 Blur"
 		"labelText"									"%counttext%"
-		"textAlignment" 							"east"
+		"textAlignment"								"east"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"4"
@@ -75,7 +75,7 @@
 		"tall"										"18"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"Shadow"
-		"pin_to_sibling" 							"CountText"
+		"pin_to_sibling"							"CountText"
 	}
 
 	"ActionText"
@@ -84,7 +84,7 @@
 		"fieldName"									"ActionText"
 		"font"										"Light 14"
 		"labelText"									"%actiontext%"
-		"textAlignment"							 	"center"
+		"textAlignment"								"center"
 		"xpos"										"rs1"
 		"ypos"										"0"
 		"wide"										"18"
@@ -108,17 +108,32 @@
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectMeterBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Spellbook"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"Spellbook"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SpellText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SpellText"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

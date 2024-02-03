@@ -44,8 +44,6 @@
 			"zpos"									"2"
 			"wide"									"140"
 			"tall"									"60"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
@@ -60,12 +58,22 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ToolBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"tool_icon"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"tool_icon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 
 	"tool_modelpanel"
@@ -89,7 +97,7 @@
 		"text_ypos"									"100"
 		"text_center"								"1"
 		"name_only"									"1"
-		"paint_icon_hide" 							"1"
+		"paint_icon_hide"							"1"
 		"proportionaltoparent"						"1"
 
 		"ItemBackground"
@@ -107,7 +115,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"GrayBlueDark"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 		"ItemBackgroundRarity"
 		{
@@ -124,7 +132,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"QualityColorCommunity"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"itemmodelpanel"
@@ -139,12 +147,22 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"SubjectBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"subject_icon"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"subject_icon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"subject_modelpanel"
 	{
@@ -184,7 +202,7 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"GrayBlueDark"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 		"ItemBackgroundRarity"
 		{
@@ -201,12 +219,12 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"QualityColorVintage"
 			"proportionaltoparent"					"1"
-			"mouseinputenabled" 					"0"
+			"mouseinputenabled"						"0"
 		}
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
@@ -224,13 +242,11 @@
 		"zpos"										"0"
 		"wide"										"f20"
 		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"		 							"RedDark"
+		"fgcolor"									"RedDark"
 	}
 
 	"GivenName"
@@ -245,8 +261,6 @@
 		"zpos"										"0"
 		"wide"										"f20"
 		"tall"										"30"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
@@ -266,13 +280,11 @@
 		"zpos"										"0"
 		"wide"										"f20"
 		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"		 							"RedDark"
+		"fgcolor"									"RedDark"
 	}
 
 	"BackFromInvalidButton"
@@ -284,8 +296,6 @@
 		"zpos"										"1"
 		"wide"										"f20"
 		"tall"										"20"
-		"autoResize"								"0"
-		"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_OK"

@@ -37,7 +37,7 @@
 		"enabled"									"1"
 		"wide"										"f0"
 		"AllCaps"									"1"
-		"fgcolor" 									"WhiteDark"
+		"fgcolor"									"WhiteDark"
 	}
 
 	"WarningLabel"
@@ -50,7 +50,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor" 									"Red"
+		"fgcolor"									"Red"
 		"wrap"										"1"
 	}
 
@@ -61,7 +61,7 @@
 		"zpos"										"1"
 		"visible"									"0"
 		"enabled"									"1"
-		"bgcolor_override" 							"GrayBlue"
+		"bgcolor_override"							"GrayBlue"
 	}
 
 	"NoReplayItemsLabel"
