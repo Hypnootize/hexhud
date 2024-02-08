@@ -14,7 +14,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 	}
 
 //	"Container"
@@ -54,7 +54,7 @@
 
 			"attriblabel"
 			{
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"xpos"								"0"
 				"ypos"								"30"
 				"zpos"								"2"
@@ -127,7 +127,7 @@
 				"enabled"							"1"
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"GrayBlueDark"
+				"bgcolor_override"					"Gray_Blue_Dark"
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
@@ -144,7 +144,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"dynamic"
 			"textAlignment"							"center"
 			"xpos"									"100"
@@ -217,7 +217,7 @@
 				"enabled"							"1"
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"GrayBlueDark"
+				"bgcolor_override"					"Gray_Blue_Dark"
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
@@ -299,7 +299,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"PageTitleLabel"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"labelText"							"#ToolCustomizeTextureStep1"
 				"textAlignment"						"north-west"
 				"xpos"								"12"
@@ -334,7 +334,7 @@
 					"tall"							"20"
 					"labelText"						"#ToolCustomizeTextureUseAvatarImage"
 					"textAlignment"					"west"
-					"font"							"Light 14"
+					"font"							"Light_14"
 					"proportionaltoparent"			"1"
 				}
 
@@ -348,7 +348,7 @@
 					"tall"							"20"
 					"labelText"						"#ToolCustomizeTextureUseAnyImage"
 					"textAlignment"					"west"
-					"font"							"Light 14"
+					"font"							"Light_14"
 					"proportionaltoparent"			"1"
 				}
 
@@ -362,7 +362,7 @@
 					"wide"							"100"
 					"tall"							"14"
 					"labelText"						"#ToolCustomizeTextureBrowseButton"
-					"font"							"Light 10"
+					"font"							"Light_10"
 					"textinsetx"					"10"
 					"AllCaps"						"1"
 					"Command"						"pick_image"
@@ -370,9 +370,9 @@
 
 					"paintbackground"				"1"
 
-					"defaultFgColor_override"		"WhiteDark"
-					"armedFgColor_override"			"WhiteSolid"
-					"depressedFgColor_override"		"WhiteSolid"
+					"defaultFgColor_override"		"White_Dark"
+					"armedFgColor_override"			"White_Solid"
+					"depressedFgColor_override"		"White_Solid"
 
 					"border_default"				"Button"
 					"border_armed"					"Button_hover"
@@ -383,7 +383,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"ForBestResultsLabel"
-					"font"							"Light 10"
+					"font"							"Light_10"
 					"xpos"							"15"
 					"ypos"							"58"
 					"wide"							"300"
@@ -392,7 +392,7 @@
 					"textAlignment"					"west"
 					"wrap"							"0"
 					"AllCaps"						"0"
-					"fgcolor"						"WhiteDark"
+					"fgcolor"						"White_Dark"
 					"proportionaltoparent"			"1"
 				}
 			}
@@ -431,23 +431,23 @@
 					"wide"							"84"
 					"tall"							"16"
 					"editable"						"0"
-					"font"							"Light 12"
+					"font"							"Light_12"
 					"proportionaltoparent"			"1"
 
-					"fgcolor_override"				"WhiteDark"
-					"bgcolor_override"				"GrayBlueDark"
-					"disabledFgColor_override"		"WhiteDark"
-					"disabledBgColor_override"		"GrayBlueDark"
-					"selectionColor_override"		"GrayBlueDark"
-					"selectionTextColor_override"	"WhiteDark"
-					"defaultSelectionBG2Color_override"	"GrayBlueDark"
+					"fgcolor_override"				"White_Dark"
+					"bgcolor_override"				"Gray_Blue_Dark"
+					"disabledFgColor_override"		"White_Dark"
+					"disabledBgColor_override"		"Gray_Blue_Dark"
+					"selectionColor_override"		"Gray_Blue_Dark"
+					"selectionTextColor_override"	"White_Dark"
+					"defaultSelectionBG2Color_override"	"Gray_Blue_Dark"
 
 					"Button"
 					{
-						"defaultFgColor_override"	"WhiteDark"
-						"defaultBgColor_override"	"GrayBlueDark"
-						"armedFgColor_override"		"WhiteDark"
-						"armedBgColor_override"		"GrayBlueDark"
+						"defaultFgColor_override"	"White_Dark"
+						"defaultBgColor_override"	"Gray_Blue_Dark"
+						"armedFgColor_override"		"White_Dark"
+						"armedBgColor_override"		"Gray_Blue_Dark"
 						"paintbackgroundtype"		"0"
 					}
 				}
@@ -464,7 +464,7 @@
 				"wide"								"130"
 				"tall"								"20"
 				"labelText"							"Cancel (&Q)"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"AllCaps"							"1"
 				"textAlignment"						"center"
 				"Command"							"cancel"
@@ -473,9 +473,9 @@
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -492,7 +492,7 @@
 				"wide"								"130"
 				"tall"								"20"
 				"labelText"							"#TF_NextCarat"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"AllCaps"							"1"
 				"textAlignment"						"center"
 				"Command"							"next_page"
@@ -501,9 +501,9 @@
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -528,7 +528,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"PageTitleLabel"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"labelText"							"#ToolCustomizeTextureStep2"
 				"textAlignment"						"north-west"
 				"xpos"								"12"
@@ -537,7 +537,7 @@
 				"wide"								"540"
 				"tall"								"20"
 				"AllCaps"							"1"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 				"proportionaltoparent"				"1"
 			}
 
@@ -545,7 +545,7 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"FilterOptionsGroupBox"
-				"Font"								"Light 11"
+				"Font"								"Light_11"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"-1"
@@ -594,7 +594,7 @@
 						"tall"						"60"
 						"labelText"					"#ToolCustomizeTextureStencilDescription"
 						"textAlignment"				"north-west"
-						"font"						"Light 14"
+						"font"						"Light_14"
 						"wrap"						"1"
 						"visible"					"0"
 						"AllCaps"					"1"
@@ -612,10 +612,10 @@
 						"tall"						"15"
 						"labelText"					"#ToolCustomizeTextureColorPalette"
 						"textAlignment"				"north-west"
-						"font"						"Light 11"
+						"font"						"Light_11"
 						"AllCaps"					"1"
 						"proportionaltoparent"		"1"
-						"fgcolor"					"WhiteDark"
+						"fgcolor"					"White_Dark"
 					}
 
 					"PrevStencilPaletteButton"
@@ -628,7 +628,7 @@
 						"wide"						"15"
 						"tall"						"15"
 						"labelText"					"<"
-						"font"						"Symbols 16"
+						"font"						"Symbols_16"
 						"textAlignment"				"west"
 						"proportionaltoparent"		"1"
 						"Command"					"prev_stencil_palette"
@@ -636,9 +636,9 @@
 
 						"paintbackground"			"0"
 
-						"defaultFgColor_override"	"WhiteDark"
-						"armedFgColor_override"		"WhiteSolid"
-						"depressedFgColor_override"	"WhiteSolid"
+						"defaultFgColor_override"	"White_Dark"
+						"armedFgColor_override"		"White_Solid"
+						"depressedFgColor_override"	"White_Solid"
 					}
 
 					"NextStencilPaletteButton"
@@ -651,7 +651,7 @@
 						"wide"						"15"
 						"tall"						"15"
 						"labelText"					">"
-						"font"						"Symbols 16"
+						"font"						"Symbols_16"
 						"textAlignment"				"west"
 						"proportionaltoparent"		"1"
 						"Command"					"next_stencil_palette"
@@ -659,9 +659,9 @@
 
 						"paintbackground"			"0"
 
-						"defaultFgColor_override"	"WhiteDark"
-						"armedFgColor_override"		"WhiteSolid"
-						"depressedFgColor_override"	"WhiteSolid"
+						"defaultFgColor_override"	"White_Dark"
+						"armedFgColor_override"		"White_Solid"
+						"depressedFgColor_override"	"White_Solid"
 					}
 
 					"StencilGradientMap"
@@ -686,25 +686,25 @@
 						"wide"						"127"
 						"tall"						"15"
 						"editable"					"0"
-						"font"						"Light 14"
+						"font"						"Light_14"
 						"AllCaps"					"1"
 						"paintborder"				"0"
 						"proportionaltoparent"		"1"
 
-						"fgcolor_override"			"WhiteDark"
-						"bgcolor_override"			"GrayBlueDark"
-						"disabledFgColor_override"	"WhiteDark"
-						"disabledBgColor_override"	"GrayBlueDark"
-						"selectionColor_override"	"GrayBlueDark"
-						"selectionTextColor_override""WhiteDark"
-						"defaultSelectionBG2Color_override"	"GrayBlueDark"
+						"fgcolor_override"			"White_Dark"
+						"bgcolor_override"			"Gray_Blue_Dark"
+						"disabledFgColor_override"	"White_Dark"
+						"disabledBgColor_override"	"Gray_Blue_Dark"
+						"selectionColor_override"	"Gray_Blue_Dark"
+						"selectionTextColor_override""White_Dark"
+						"defaultSelectionBG2Color_override"	"Gray_Blue_Dark"
 
 						"Button"
 						{
-							"defaultFgColor_override""WhiteDark"
-							"defaultBgColor_override""GrayBlueDark"
-							"armedFgColor_override"	"WhiteDark"
-							"armedBgColor_override"	"GrayBlueDark"
+							"defaultFgColor_override""White_Dark"
+							"defaultBgColor_override""Gray_Blue_Dark"
+							"armedFgColor_override"	"White_Dark"
+							"armedBgColor_override"	"Gray_Blue_Dark"
 							"paintbackgroundtype"	"0"
 						}
 					}
@@ -771,7 +771,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"DragToRotateLabel"
-					"font"							"Light 12"
+					"font"							"Light_12"
 					"labelText"						"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"					"center"
 					"xpos"							"0"
@@ -782,7 +782,7 @@
 					"centerwrap"					"1"
 					"AllCaps"						"1"
 					"proportionaltoparent"			"1"
-					"fgcolor"						"WhiteDark"
+					"fgcolor"						"White_Dark"
 				}
 			}
 
@@ -796,7 +796,7 @@
 				"wide"								"130"
 				"tall"								"0"		//20
 				"labelText"							"#Cancel"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"AllCaps"							"1"
 				"Command"							"cancel"
@@ -805,9 +805,9 @@
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -824,7 +824,7 @@
 				"wide"								"130"
 				"tall"								"20"
 				"labelText"							"Back (&Q)"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"AllCaps"							"1"
 				"Command"							"prev_page"
@@ -833,9 +833,9 @@
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -852,7 +852,7 @@
 				"wide"								"130"
 				"tall"								"20"
 				"labelText"							"#TF_NextCarat"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"AllCaps"							"1"
 				"Command"							"next_page"
@@ -861,9 +861,9 @@
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -886,7 +886,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"PageTitleLabel"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"labelText"							"#ToolCustomizeTextureStep3"
 				"textAlignment"						"center"
 				"xpos"								"cs-0.5"
@@ -895,7 +895,7 @@
 				"wide"								"200"
 				"tall"								"20"
 				"AllCaps"							"1"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 				"proportionaltoparent"				"1"
 			}
 
@@ -903,7 +903,7 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"WarningTextGroupBox"
-				"Font"								"Light 11"
+				"Font"								"Light_11"
 				"xpos"								"cs-0.5"
 				"ypos"								"cs-0.5+25"
 				"zpos"								"-1"
@@ -916,7 +916,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"WarningText"
-					"font"							"Light 12"
+					"font"							"Light_12"
 					"xpos"							"0"
 					"ypos"							"0"
 					"wide"							"f0"
@@ -926,7 +926,7 @@
 					"wrap"							"1"
 					"centerwrap"					"1"
 					"AllCaps"						"1"
-					"fgcolor"						"RedDark"
+					"fgcolor"						"Red_Dark"
 					"proportionaltoparent"			"1"
 				}
 			}
@@ -966,7 +966,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"DragToRotateLabel"
-					"font"							"Light 12"
+					"font"							"Light_12"
 					"labelText"						"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"					"center"
 					"xpos"							"0"
@@ -977,7 +977,7 @@
 					"centerwrap"					"1"
 					"AllCaps"						"1"
 					"proportionaltoparent"			"1"
-					"fgcolor"						"WhiteDark"
+					"fgcolor"						"White_Dark"
 				}
 			}
 
@@ -991,7 +991,7 @@
 				"wide"								"130"
 				"tall"								"0"		//20
 				"labelText"							"#Cancel"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"default"							"0"
 				"AllCaps"							"1"
@@ -1001,9 +1001,9 @@
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1020,7 +1020,7 @@
 				"wide"								"130"
 				"tall"								"20"
 				"labelText"							"BACK (&Q)"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"AllCaps"							"1"
 				"Command"							"prev_page"
@@ -1029,9 +1029,9 @@
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1048,7 +1048,7 @@
 				"wide"								"130"
 				"tall"								"20"
 				"labelText"							"#ToolCustomizeTextureOKButton"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"AllCaps"							"1"
 				"default"							"1"
@@ -1058,9 +1058,9 @@
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1083,7 +1083,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"PleaseWaitLabel"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"labelText"							"#ToolCustomizeTexturePleaseWait"
 				"textAlignment"						"center"
 				"xpos"								"cs-0.5"
@@ -1094,7 +1094,7 @@
 				"wrap"								"1"
 				"centerwrap"						"1"
 				"AllCaps"							"1"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 
 			"PreviewModelGroupBox"

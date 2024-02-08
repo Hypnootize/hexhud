@@ -24,7 +24,7 @@
 		"StatsBackground2"
 		{
 			"ControlName"							"EditablePanel"
-			"fieldName"								"SplashBackground2"
+			"fieldName"								"StatsBackground2"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"f0"
@@ -52,7 +52,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"HeaderLabel"
-				"font"								"Bold 20"
+				"font"								"Bold_20"
 				"labelText"							"%header%"
 				"textAlignment"						"center"
 				"xpos"								"0"
@@ -80,7 +80,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditLabel"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"labelText"								"#TF_PVE_Currency"
 			"textAlignment"							"west"
 			"xpos"									"80"
@@ -117,7 +117,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"RatingLabel"
-				"font"								"Light 24"
+				"font"								"Light_24"
 				"labelText"							"%ratinglabel%"
 				"textAlignment"						"center"
 				"xpos"								"0"
@@ -143,7 +143,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"RatingText"
-				"font"								"Light 36"
+				"font"								"Light_36"
 				"labelText"							"%ratingscore%"
 				"textAlignment"						"center"
 				"xpos"								"0"
@@ -177,7 +177,7 @@
 		"tall"										"16"
 		"enabled"									"1"
 		"labelText"									"#DoneButton"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"AllCaps"									"1"
@@ -188,8 +188,8 @@
 		"paintbackground"							"1"
 
 		"defaultBgColor_override"					"Background"
-		"armedBgColor_override"						"Background Dark"
-		"depressedBgColor_override"					"Background Dark"
+		"armedBgColor_override"						"Background_Dark"
+		"depressedBgColor_override"					"Background_Dark"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"

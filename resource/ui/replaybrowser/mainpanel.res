@@ -1,4 +1,4 @@
-#base "../../../resource/dev/reloadschemebutton.res"
+#base "../../dev/reloadschemebutton.res"
 
 "Resource/UI/ReplayBrowser/MainPanel.res"
 {
@@ -26,7 +26,7 @@
 		"outoffocus_bgcolor_override"				"Background_Main"
 
 		"title"										"#Replay_Replay"
-		"title_font"								"Light 18"
+		"title_font"								"Light_18"
 		"titletextinsetX"							"40"
 		"titletextinsetY"							"15"
 		"titlebarfgcolor_override"					"Blank"
@@ -51,9 +51,9 @@
 		"tabskv"
 		{
 			"textinsetx"							"0"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"selectedcolor"							"White"
-			"unselectedcolor"						"WhiteDark"
+			"unselectedcolor"						"White_Dark"
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"
@@ -73,7 +73,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"BACK"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"back"
@@ -85,13 +85,13 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 
-		"defaultBgColor_override"					"GrayBlueDarkest"
+		"defaultBgColor_override"					"Gray_Blue_Darkest"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"BackShortKey"
 	{

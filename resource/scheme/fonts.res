@@ -12,7 +12,7 @@
 		// PRODUCT DEFINITIONS
 		//=========================================================================================
 
-		"Light 6"
+		"Light_6"
 		{
 			"1"
 			{
@@ -21,7 +21,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 7"
+		"Light_7"
 		{
 			"1"
 			{
@@ -30,7 +30,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 8"
+		"Light_8"
 		{
 			"1"
 			{
@@ -39,7 +39,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 8 Blur"
+		"Light_8_Blur"
 		{
 			"1"
 			{
@@ -49,7 +49,7 @@
 				"blur"										"1"
 			}
 		}
-		"Light 8 Numbers"
+		"Light_8_Numbers"
 		{
 			"1"
 			{
@@ -58,7 +58,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 9"
+		"Light_9"
 		{
 			"1"
 			{
@@ -67,7 +67,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 9 Blur"
+		"Light_9_Blur"
 		{
 			"1"
 			{
@@ -77,7 +77,7 @@
 				"blur"										"1"
 			}
 		}
-		"Light 9 Shadow"
+		"Light_9_Shadow"
 		{
 			"1"
 			{
@@ -87,7 +87,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Light 10"
+		"Light_10"
 		{
 			"1"
 			{
@@ -96,7 +96,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 10 Shadow"
+		"Light_10_Shadow"
 		{
 			"1"
 			{
@@ -106,7 +106,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Light 10 Blur"
+		"Light_10_Blur"
 		{
 			"1"
 			{
@@ -116,7 +116,7 @@
 				"blur"										"1"
 			}
 		}
-		"Light 10 Numbers"
+		"Light_10_Numbers"
 		{
 			"1"
 			{
@@ -125,7 +125,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 11"
+		"Light_11"
 		{
 			"1"
 			{
@@ -134,7 +134,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 11 Shadow"
+		"Light_11_Shadow"
 		{
 			"1"
 			{
@@ -144,7 +144,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Light 11 Blur"
+		"Light_11_Blur"
 		{
 			"1"
 			{
@@ -154,7 +154,7 @@
 				"blur"										"1"
 			}
 		}
-		"Light 12"
+		"Light_12"
 		{
 			"1"
 			{
@@ -163,7 +163,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 12 Shadow"
+		"Light_12_Shadow"
 		{
 			"1"
 			{
@@ -173,7 +173,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Light 12 Blur"
+		"Light_12_Blur"
 		{
 			"1"
 			{
@@ -183,7 +183,7 @@
 				"blur"										"1"
 			}
 		}
-		"Light 14"
+		"Light_14"
 		{
 			"1"
 			{
@@ -192,7 +192,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 14 Blur"
+		"Light_14_Blur"
 		{
 			"1"
 			{
@@ -202,7 +202,7 @@
 				"blur"										"1"
 			}
 		}
-		"Light 15"
+		"Light_15"
 		{
 			"1"
 			{
@@ -211,7 +211,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 16"
+		"Light_16"
 		{
 			"1"
 			{
@@ -220,7 +220,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 16 Blur"
+		"Light_16_Blur"
 		{
 			"1"
 			{
@@ -230,7 +230,7 @@
 				"blur"										"2"
 			}
 		}
-		"Light 18"
+		"Light_18"
 		{
 			"1"
 			{
@@ -239,7 +239,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 18 Blur"
+		"Light_18_Blur"
 		{
 			"1"
 			{
@@ -249,7 +249,7 @@
 				"blur"										"2"
 			}
 		}
-		"Light 20"
+		"Light_20"
 		{
 			"1"
 			{
@@ -258,7 +258,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 20 Blur"
+		"Light_20_Blur"
 		{
 			"1"
 			{
@@ -268,7 +268,7 @@
 				"blur"										"2"
 			}
 		}
-		"Light 22"
+		"Light_22"
 		{
 			"1"
 			{
@@ -277,7 +277,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 24"
+		"Light_24"
 		{
 			"1"
 			{
@@ -286,7 +286,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 24 Shadow"
+		"Light_24_Shadow"
 		{
 			"1"
 			{
@@ -296,7 +296,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Light 24 Blur"
+		"Light_24_Blur"
 		{
 			"1"
 			{
@@ -306,7 +306,7 @@
 				"blur"										"2"
 			}
 		}
-		"Light 30"
+		"Light_30"
 		{
 			"1"
 			{
@@ -315,7 +315,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 36"
+		"Light_36"
 		{
 			"1"
 			{
@@ -324,7 +324,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Light 48"
+		"Light_48"
 		{
 			"1"
 			{
@@ -338,7 +338,7 @@
 		// PRODUCT BOLD DEFINITIONS
 		//=========================================================================================
 
-		"Bold 13"
+		"Bold_13"
 		{
 			"1"
 			{
@@ -347,7 +347,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Bold 13 Blur"
+		"Bold_13_Blur"
 		{
 			"1"
 			{
@@ -357,7 +357,7 @@
 				"blur"										"1"
 			}
 		}
-		"Bold 14"
+		"Bold_14"
 		{
 			"1"
 			{
@@ -366,7 +366,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Bold 14 Shadow"
+		"Bold_14_Shadow"
 		{
 			"1"
 			{
@@ -376,7 +376,7 @@
 				"dropshadow"								"1"
 			}
 		}
-		"Bold 14 Blur"
+		"Bold_14_Blur"
 		{
 			"1"
 			{
@@ -386,7 +386,7 @@
 				"blur"										"1"
 			}
 		}
-		"Bold 16"
+		"Bold_16"
 		{
 			"1"
 			{
@@ -395,7 +395,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Bold 16 Blur"
+		"Bold_16_Blur"
 		{
 			"1"
 			{
@@ -405,7 +405,7 @@
 				"blur"										"2"
 			}
 		}
-		"Bold 18"
+		"Bold_18"
 		{
 			"1"
 			{
@@ -414,7 +414,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Bold 18 Blur"
+		"Bold_18_Blur"
 		{
 			"1"
 			{
@@ -424,7 +424,7 @@
 				"blur"										"2"
 			}
 		}
-		"Bold 20"
+		"Bold_20"
 		{
 			"1"
 			{
@@ -433,7 +433,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Bold 20 Blur"
+		"Bold_20_Blur"
 		{
 			"1"
 			{
@@ -443,7 +443,7 @@
 				"blur"										"2"
 			}
 		}
-		"Bold 24"
+		"Bold_24"
 		{
 			"1"
 			{
@@ -452,7 +452,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Bold 24 Blur"
+		"Bold_24_Blur"
 		{
 			"1"
 			{
@@ -462,7 +462,7 @@
 				"blur"										"2"
 			}
 		}
-		"Bold 30"
+		"Bold_30"
 		{
 			"1"
 			{
@@ -471,7 +471,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Bold 30 Blur"
+		"Bold_30_Blur"
 		{
 			"1"
 			{
@@ -481,7 +481,7 @@
 				"blur"										"2"
 			}
 		}
-		"Bold 36"
+		"Bold_36"
 		{
 			"1"
 			{
@@ -490,7 +490,7 @@
 				"antialias"									"1"
 			}
 		}
-		"Bold 36 Blur"
+		"Bold_36_Blur"
 		{
 			"1"
 			{
@@ -500,7 +500,7 @@
 				"blur"										"2"
 			}
 		}
-		"Bold 44"
+		"Bold_44"
 		{
 			"1"
 			{
@@ -2763,17 +2763,17 @@
 		}
 		"21"
 		{
-			"font"	"resource/scheme/fonts/product bold.ttf"
+			"font"	"resource/scheme/fonts/product_bold.ttf"
 			"name"	"Product Sans Bold"
 		}
 		"22"
 		{
-			"font"	"resource/scheme/fonts/product numbers.ttf"
+			"font"	"resource/scheme/fonts/product_numbers.ttf"
 			"name"	"Product Sans Numbers"
 		}
 		"23"
 		{
-			"font"	"resource/scheme/fonts/product bold numbers.ttf"
+			"font"	"resource/scheme/fonts/product_bold_numbers.ttf"
 			"name"	"Product Sans Bold Numbers"
 		}
 	}

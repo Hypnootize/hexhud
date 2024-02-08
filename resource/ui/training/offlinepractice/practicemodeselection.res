@@ -15,14 +15,14 @@
 		"paintBorder"								"1"
 		"paintBackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
-		"border"									"BottomLineWhiteDark"
+		"border"									"Bottom_Line_White_Dark"
 		"proportionaltoparent"						"1"
 	}
 	"GameModeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"GameModeLabel"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"labelText"									"%gamemode%"
 		"textAlignment"								"west"
 		"xpos"										"-10"
@@ -32,7 +32,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"TitleBG"
@@ -67,7 +67,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"textAlignment"								"center"
 		"Command"									"goprev"
 
@@ -78,9 +78,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"NextButton"
@@ -95,7 +95,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"textAlignment"								"center"
 		"Command"									"gonext"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -105,16 +105,16 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurPageLabel"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"labelText"									"%curpage%"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5+10"
@@ -125,7 +125,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 	}
 
@@ -143,15 +143,15 @@
 		"paintBackground"							"1"
 		"paintBorder"								"1"
 		"paintBackgroundtype"						"0"
-		"bgcolor_override"							"BlackBlue"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Black_Blue"
+		"border"									"Bottom_Line_White_Dark"
 		"proportionaltoparent"						"1"
 	}
 	"DescLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DescLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"labelText"									"%description%"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -161,7 +161,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"DescBG"
@@ -178,7 +178,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Select"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"Command"									"selectcurrentgamemode"
@@ -190,13 +190,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"GrayBlueLight"
-		"armedBgColor_override"						"GrayLight"
-		"depressedBgColor_override"					"GrayLight"
+		"defaultBgColor_override"					"Gray_Blue_Light"
+		"armedBgColor_override"						"Gray_Light"
+		"depressedBgColor_override"					"Gray_Light"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"GameModeImageBgPanel"

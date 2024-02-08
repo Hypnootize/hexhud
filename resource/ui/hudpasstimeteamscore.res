@@ -27,7 +27,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
-		"font"										"Bold 20"
+		"font"										"Bold_20"
 		"fgcolor"									"Blue"
 		"proportionaltoparent"						"1"
 	}
@@ -44,7 +44,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
-		"font"										"Bold 20 Blur"
+		"font"										"Bold_20_Blur"
 		"fgcolor"									"Shadow"
 
 		"pin_to_sibling"							"BlueScore"
@@ -63,7 +63,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"
 		"labelText"									"%redscore%"
-		"font"										"Bold 20"
+		"font"										"Bold_20"
 		"fgcolor"									"Red"
 		"proportionaltoparent"						"1"
 	}
@@ -80,7 +80,7 @@
 		"enabled"									"1"
 		"textAlignment"								"east"
 		"labelText"									"%redscore%"
-		"font"										"Bold 20 Blur"
+		"font"										"Bold_20_Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"RedScore"
 	}
@@ -112,7 +112,7 @@
 			"labelText"								"#TF_PlayingTo"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}

@@ -29,7 +29,7 @@
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"fgcolor"									"White"
 	}
 
@@ -62,7 +62,7 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"font"										"Light 12"
+		"font"										"Light_12"
 	}
 
 	"ItemEffectMeterBG"

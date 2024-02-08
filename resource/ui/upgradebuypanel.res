@@ -19,11 +19,11 @@
 			"wide"									"12"
 			"tall"									"12"
 			"textAlignment"							"center"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"image"									"pve/upgrade_unowned"
 			"scaleImage"							"1"
 
-			"defaultFgColor_override"				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"defaultBgColor_override"				"Blank"
 			"armedFgColor_override"					"White"
 			"armedBgColor_override"					"Blank"
@@ -64,7 +64,7 @@
 		"enabled"									"1"
 
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 	}
 
 	"Icon"
@@ -98,7 +98,7 @@
 
 		"labelText"									""
 		"textAlignment"								"center"
-		"font"										"Light 12"
+		"font"										"Light_12"
 	}
 
 	"ShortDescriptionLabel"
@@ -115,8 +115,8 @@
 		"wrap"										"1"
 
 		"labelText"									""
-		"textAlignment"								"center-west"	//Ok Valve
-		"font"										"Light 11"
+		"textAlignment"								"west"
+		"font"										"Light_11"
 	}
 
 	"BuySellBG"
@@ -132,7 +132,7 @@
 		"enabled"									"1"
 
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"Background Light"
+		"bgcolor_override"							"Background_Light"
 	}
 
 	"IncrementButton"
@@ -155,7 +155,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"defaultBgColor_override"					"Blank"
 		"armedFgColor_override"						"White"
 		"armedBgColor_override"						"Blank"

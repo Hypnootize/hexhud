@@ -56,7 +56,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Dark"
+			"bgcolor_override"						"Background_Dark"
 		}
 	}
 
@@ -74,11 +74,11 @@
 		"labelText"									"%mapname%"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteSolid"
+		"fgcolor"									"White_Solid"
 		"paintborder"								"1"
-		"border"									"BottomLineWhiteDark"
+		"border"									"Bottom_Line_White_Dark"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
@@ -92,7 +92,7 @@
 	{
 		"ControlName"								"CExRichText"
 		"fieldName"									"MapInfoText"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"xpos"										"-3"
 		"ypos"										"-3"
 		"zpos"										"3"
@@ -102,7 +102,7 @@
 		"enabled"									"1"
 		"paintborder"								"0"
 		"textAlignment"								"west"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 
@@ -131,19 +131,19 @@
 		"AllCaps"									"1"
 		"command"									"continue"
 		"default"									"1"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"OffWhite"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"Off_White"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Background"
-		"armedBgColor_override"						"Background Dark"
-		"depressedBgColor_override"					"Background Dark"
+		"armedBgColor_override"						"Background_Dark"
+		"depressedBgColor_override"					"Background_Dark"
 
 		"pin_to_sibling"							"InfoBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -175,19 +175,19 @@
 		"command"									"intro"
 		"default"									"1"
 		"AllCaps"									"1"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"defaultBgColor_override"					"Background Dark"
-		"armedBgColor_override"						"Background Light"
-		"depressedBgColor_override"					"Background Light"
+		"defaultBgColor_override"					"Background_Dark"
+		"armedBgColor_override"						"Background_Light"
+		"depressedBgColor_override"					"Background_Light"
 
 		"pin_to_sibling"							"ok"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"

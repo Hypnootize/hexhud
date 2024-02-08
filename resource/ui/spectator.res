@@ -1,4 +1,4 @@
-#base	"hudinspectpanel.res"
+#base "hudinspectpanel.res"
 
 "Resource/UI/Spectator.res"
 {
@@ -27,7 +27,7 @@
 		"enabled"									"1"
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
-		"font"										"Light 12 Shadow"
+		"font"										"Light_12_Shadow"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 	}
@@ -44,7 +44,7 @@
 		"enabled"									"1"
 		"labelText"									""
 		"textAlignment"								"center"
-		"font"										"Light 12 Shadow"
+		"font"										"Light_12_Shadow"
 		"wrap"										"1"
 		"centerwrap"								"1"
 	}

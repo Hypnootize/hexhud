@@ -37,8 +37,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyGood"
-		"font"										"Light 11"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_11"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"4"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyBad"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"fgcolor"									"Red"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -73,7 +73,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyShadow"
-		"font"										"Light 11 Blur"
+		"font"										"Light_11_Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"1"
 		"ypos"										"1"

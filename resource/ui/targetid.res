@@ -1,2 +1,2 @@
-#base	"../../customizations/#streamermode/targetid.res"
-#base	"targetid_hex.res"
+#base "../../customizations/#streamermode/targetid.res"
+#base "targetid_hex.res"

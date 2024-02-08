@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AlertLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"cs-0.5"
 		"ypos"										"80"
 		"zpos"										"2"
@@ -23,7 +23,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AlertLabelShadow"
-		"font"										"Light 12 Blur"
+		"font"										"Light_12_Blur"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"

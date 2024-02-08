@@ -25,7 +25,7 @@
 		"tall"										"10"
 		"zpos"										"4"
 		"textinsetx"								"5"
-		"font"										"Light 8"
+		"font"										"Light_8"
 		"textAlignment"								"north-west"
 		"fgcolor"									"White"
 	}
@@ -40,7 +40,7 @@
 		"tall"										"10"
 		"zpos"										"4"
 		"fgcolor"									"Blue"
-		"font"										"Light 8 Blur"
+		"font"										"Light_8_Blur"
 		"textinsetx"								"5"
 		"textAlignment"								"north-west"
 	}
@@ -57,7 +57,7 @@
 		"zpos"										"4"
 		"textinsetx"								"5"
 		"fgcolor"									"White"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"wrap"										"1"
 		"TextAlignment"								"north-west"
 	}

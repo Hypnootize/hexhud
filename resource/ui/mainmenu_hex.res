@@ -36,7 +36,7 @@
 				"tall"								"14"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Light 15"
+				"font"								"Light_15"
 				"AllCaps"							"1"
 				"textAlignment"						"west"
 				"default"							"1"
@@ -45,7 +45,7 @@
 				"paintbackground"					"1"
 				"paintborder"						"0"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"White"
 				"depressedFgColor_override"			"White"
 			}
@@ -106,7 +106,7 @@
 		"enabled"									"1"
 		"painbackground"							"1"
 		"painbackgroundtype"						"0"
-		"bgcolor_override"							"Main Menu Background"
+		"bgcolor_override"							"Main_Menu_Background"
 	}
 
 	"PauseMenuBG"
@@ -122,7 +122,7 @@
 		"enabled"									"1"
 		"painbackground"							"1"
 		"painbackgroundtype"						"0"
-		"bgcolor_override"							"Pause Menu Background"
+		"bgcolor_override"							"Pause_Menu_Background"
 	}
 
 	"Servers"
@@ -187,7 +187,7 @@
 			"zpos"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"AllCaps"								"1"
 			"textAlignment"							"south"
 			"wrap"									"1"
@@ -200,8 +200,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -286,7 +286,7 @@
 			"zpos"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"AllCaps"								"1"
 			"textAlignment"							"south"
 			"wrap"									"1"
@@ -299,8 +299,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
@@ -382,7 +382,7 @@
 			"zpos"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"AllCaps"								"1"
 			"textAlignment"							"south"
 			"wrap"									"1"
@@ -395,8 +395,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
@@ -481,7 +481,7 @@
 			"zpos"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"AllCaps"								"1"
 			"textAlignment"							"south"
 			"wrap"									"1"
@@ -494,8 +494,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
@@ -580,7 +580,7 @@
 			"zpos"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"AllCaps"								"1"
 			"textAlignment"							"south"
 			"wrap"									"1"
@@ -593,8 +593,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
@@ -679,7 +679,7 @@
 			"zpos"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"AllCaps"								"1"
 			"textAlignment"							"south"
 			"wrap"									"1"
@@ -692,8 +692,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"220 222 225 255"
@@ -739,7 +739,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-2"
 			"default"								"1"
@@ -750,16 +750,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -790,7 +790,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"textinsety"							"-2"
 			"default"								"1"
@@ -801,16 +801,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -841,7 +841,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-2"
 			"default"								"1"
@@ -852,16 +852,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -892,7 +892,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-2"
 			"default"								"1"
@@ -903,16 +903,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -943,7 +943,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-2"
 			"default"								"1"
@@ -954,16 +954,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -994,7 +994,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-2"
 			"default"								"1"
@@ -1005,16 +1005,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -1045,7 +1045,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-2"
 			"default"								"1"
@@ -1056,16 +1056,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -1096,7 +1096,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-2"
 			"default"								"1"
@@ -1107,16 +1107,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -1147,7 +1147,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-2"
 			"default"								"1"
@@ -1159,16 +1159,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -1199,7 +1199,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-2"
 			"default"								"1"
@@ -1211,16 +1211,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -1251,7 +1251,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-2"
 			"default"								"1"
@@ -1263,16 +1263,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -1303,7 +1303,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-2"
 			"default"								"1"
@@ -1315,16 +1315,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -1341,10 +1341,10 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"2"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"urlText"									"https://github.com/Hypnootize/hexhud"
-		"FgColor_override"							"GrayBlueLight"
+		"FgColor_override"							"Gray_Blue_Light"
 	}
 
 	"HUDWiki"
@@ -1360,10 +1360,10 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"`"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"urlText"									"https://github.com/Hypnootize/hexhud/wiki"
-		"FgColor_override"							"GrayBlueLight"
+		"FgColor_override"							"Gray_Blue_Light"
 
 		"pin_to_sibling"							"HUDRepository"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -1383,10 +1383,10 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"c"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"urlText"									"https://comfig.app/huds/page/hexhud"
-		"FgColor_override"							"GrayBlueLight"
+		"FgColor_override"							"Gray_Blue_Light"
 
 		"pin_to_sibling"							"HUDWiki"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -1406,10 +1406,10 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"!"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"urlText"									"https://tf2huds.dev/hud/HExHUD"
-		"FgColor_override"							"GrayBlueLight"
+		"FgColor_override"							"Gray_Blue_Light"
 
 		"pin_to_sibling"							"ComfigHUDs"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -1429,10 +1429,10 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"A"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"urlText"									"https://gamebanana.com/mods/298232"
-		"FgColor_override"							"GrayBlueLight"
+		"FgColor_override"							"Gray_Blue_Light"
 
 		"pin_to_sibling"							"TF2HUDs"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -1452,10 +1452,10 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"O"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"urlText"									"https://www.teamfortress.tv/59727/hexhud"
-		"FgColor_override"							"GrayBlueLight"
+		"FgColor_override"							"Gray_Blue_Light"
 
 		"pin_to_sibling"							"GameBanana"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -1476,13 +1476,13 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 
 		"Notifications_CountLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Notifications_CountLabel"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%noticount%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1492,9 +1492,9 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"paintbackground"						"1"
-			"bgcolor_override"						"GrayBlueLight"
+			"bgcolor_override"						"Gray_Blue_Light"
 			"mouseinputenabled"						"0"
 			"proportionaltoparent"					"1"
 		}
@@ -1512,7 +1512,7 @@
 			"enabled"								"1"
 			"textinsetx"							"25"
 			"use_proportional_insets"				"1"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labeltext"								"New Notification"
 			"AllCaps"								"1"
 			"textAlignment"							"west"
@@ -1527,8 +1527,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -1547,7 +1547,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 
 		"pin_to_sibling"							"Notifications_ShowButtonPanel"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -1565,7 +1565,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"-"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"default"								"0"
 			"actionsignallevel"						"2"
@@ -1578,16 +1578,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"Notifications_TitleLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Notifications_TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%notititle%"
 			"textAlignment"							"north-west"
 			"xpos"									"12"
@@ -1596,7 +1596,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"wrap"									"1"
 		}
 
@@ -1609,7 +1609,7 @@
 			"wide"									"210"
 			"tall"									"135"
 			"PaintBackgroundType"					"0"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor_override"						"White_Dark"
 
 			"Notifications_Control"
 			{
@@ -1637,14 +1637,14 @@
 		"PaintBackground"							"1"
 		"PaintBorder"								"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDark"
-		"border"									"BottomLineWhite"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"border"									"Bottom_Line_White"
 
 		"TipSubLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipSubLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%tipsubtext%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1662,7 +1662,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%tiptext%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1691,8 +1691,8 @@
 		"mouseinputenabled"							"0"
 		"AllCaps"									"1"
 
-		"font"										"Light 18"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_18"
+		"fgcolor"									"White_Dark"
 		"labelText"									"Not currently connected to the TF game coordinator service!"
 		"textAlignment"								"center"
 		"use_proportional_insets"					"1"
@@ -1721,7 +1721,7 @@
 
 		"attriblabel"
 		{
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"

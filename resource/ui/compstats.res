@@ -71,7 +71,7 @@
 			"actionsignallevel"						"2"
 			"command"								"show_leaderboards"
 			"labeltext"								"#TF_Competitive_ViewLeaderboards"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"textinsety"							"-1"
 			"AllCaps"								"1"
@@ -82,16 +82,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"ShowMatchHistoryButton"
@@ -109,7 +109,7 @@
 			"actionsignallevel"						"2"
 			"command"								"show_match_history"
 			"labeltext"								"#TF_Competitive_ViewMatches"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"textinsety"							"-1"
 			"AllCaps"								"1"
@@ -120,16 +120,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PlaylistBGPanel"
@@ -144,7 +144,7 @@
 			"visible"								"1"
 			"PaintBackground"						"0"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 			"proportionaltoparent"					"1"
 
 			"PlayListDropShadow"
@@ -191,9 +191,9 @@
 					"font"							"MarlettSmall"
 					"textAlignment"					"west"
 
-					"defaultFgColor_override"		"WhiteDark"
-					"armedFgColor_override"			"WhiteDark"
-					"selectedFgColor_override"		"WhiteDark"
+					"defaultFgColor_override"		"White_Dark"
+					"armedFgColor_override"			"White_Dark"
+					"selectedFgColor_override"		"White_Dark"
 				}
 
 				"ResultButton"
@@ -210,7 +210,7 @@
 					"actionsignallevel"				"4"
 
 					"labeltext"						"#TF_Competitive_Result"
-					"font"							"Light 11"
+					"font"							"Light_11"
 					"textAlignment"					"west"
 					"textinsetx"					"15"
 
@@ -220,18 +220,18 @@
 					"paintbackgroundtype"			"0"
 					"paintborder"					"1"
 
-					"border_default"				"BottomLineWhiteDark"
-					"border_armed"					"BottomLineWhite"
-					"border_selected"				"BottomLineWhite"
+					"border_default"				"Bottom_Line_White_Dark"
+					"border_armed"					"Bottom_Line_White"
+					"border_selected"				"Bottom_Line_White"
 
 					"defaultBgColor_override"		"Button"
 					"armedBgColor_override"			"Button_Hover"
 					"depressedBgColor_override"		"Button_Hover"
 					"selectedBgColor_override"		"Button_Hover"
 
-					"defaultFgColor_override"		"WhiteDark"
-					"armedFgColor_override"			"WhiteSolid"
-					"depressedFgColor_override"		"WhiteSolid"
+					"defaultFgColor_override"		"White_Dark"
+					"armedFgColor_override"			"White_Solid"
+					"depressedFgColor_override"		"White_Solid"
 
 					"image_selectedcolor"			"255 255 255 255"
 					"image_armedcolor"				"0 0 0 0"
@@ -252,7 +252,7 @@
 					"actionsignallevel"				"4"
 
 					"labeltext"						"#TF_Competitive_Date"
-					"font"							"Light 11"
+					"font"							"Light_11"
 					"textAlignment"					"west"
 					"textinsetx"					"15"
 
@@ -262,18 +262,18 @@
 					"paintbackgroundtype"			"0"
 					"paintborder"					"1"
 
-					"border_default"				"BottomLineWhiteDark"
-					"border_armed"					"BottomLineWhite"
-					"border_selected"				"BottomLineWhite"
+					"border_default"				"Bottom_Line_White_Dark"
+					"border_armed"					"Bottom_Line_White"
+					"border_selected"				"Bottom_Line_White"
 
 					"defaultBgColor_override"		"Button"
 					"armedBgColor_override"			"Button_Hover"
 					"depressedBgColor_override"		"Button_Hover"
 					"selectedBgColor_override"		"Button_Hover"
 
-					"defaultFgColor_override"		"WhiteDark"
-					"armedFgColor_override"			"WhiteSolid"
-					"depressedFgColor_override"		"WhiteSolid"
+					"defaultFgColor_override"		"White_Dark"
+					"armedFgColor_override"			"White_Solid"
+					"depressedFgColor_override"		"White_Solid"
 
 					"image_selectedcolor"			"255 255 255 255"
 					"image_armedcolor"				"0 0 0 0"
@@ -294,7 +294,7 @@
 					"actionsignallevel"				"4"
 
 					"labeltext"						"#TF_Competitive_Map"
-					"font"							"Light 11"
+					"font"							"Light_11"
 					"textAlignment"					"west"
 					"textinsetx"					"15"
 
@@ -304,18 +304,18 @@
 					"paintbackgroundtype"			"0"
 					"paintborder"					"1"
 
-					"border_default"				"BottomLineWhiteDark"
-					"border_armed"					"BottomLineWhite"
-					"border_selected"				"BottomLineWhite"
+					"border_default"				"Bottom_Line_White_Dark"
+					"border_armed"					"Bottom_Line_White"
+					"border_selected"				"Bottom_Line_White"
 
 					"defaultBgColor_override"		"Button"
 					"armedBgColor_override"			"Button_Hover"
 					"depressedBgColor_override"		"Button_Hover"
 					"selectedBgColor_override"		"Button_Hover"
 
-					"defaultFgColor_override"		"WhiteDark"
-					"armedFgColor_override"			"WhiteSolid"
-					"depressedFgColor_override"		"WhiteSolid"
+					"defaultFgColor_override"		"White_Dark"
+					"armedFgColor_override"			"White_Solid"
+					"depressedFgColor_override"		"White_Solid"
 
 					"image_selectedcolor"			"255 255 255 255"
 					"image_armedcolor"				"0 0 0 0"
@@ -336,7 +336,7 @@
 					"actionsignallevel"				"4"
 
 					"labeltext"						"#TF_Competitive_KDR"
-					"font"							"Light 11"
+					"font"							"Light_11"
 					"textAlignment"					"west"
 
 					"sound_depressed"				"UI/buttonclick.wav"
@@ -345,18 +345,18 @@
 					"paintbackgroundtype"			"0"
 					"paintborder"					"1"
 
-					"border_default"				"BottomLineWhiteDark"
-					"border_armed"					"BottomLineWhite"
-					"border_selected"				"BottomLineWhite"
+					"border_default"				"Bottom_Line_White_Dark"
+					"border_armed"					"Bottom_Line_White"
+					"border_selected"				"Bottom_Line_White"
 
 					"defaultBgColor_override"		"Button"
 					"armedBgColor_override"			"Button_Hover"
 					"depressedBgColor_override"		"Button_Hover"
 					"selectedBgColor_override"		"Button_Hover"
 
-					"defaultFgColor_override"		"WhiteDark"
-					"armedFgColor_override"			"WhiteSolid"
-					"depressedFgColor_override"		"WhiteSolid"
+					"defaultFgColor_override"		"White_Dark"
+					"armedFgColor_override"			"White_Solid"
+					"depressedFgColor_override"		"White_Solid"
 
 					"image_selectedcolor"			"255 255 255 255"
 					"image_armedcolor"				"0 0 0 0"

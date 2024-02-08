@@ -67,7 +67,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"labelText"								"Mann Up"
 			"textAlignment"							"south"
 			"wrap"									"0"
@@ -83,8 +83,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -191,8 +191,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayForBraggingRightsExplanation"
-		"font"										"Light 11"
-		"fgcolor"									"GrayBlueLight"
+		"font"										"Light_11"
+		"fgcolor"									"Gray_Blue_Light"
 		"labelText"									"#TF_MvM_BraggingRightsExplaination"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -235,7 +235,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"labelText"								"Practice"
 			"textAlignment"							"south"
 			"wrap"									"0"
@@ -250,8 +250,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -358,8 +358,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayOnCommunityServerExplanation"
-		"font"										"Light 11"
-		"fgcolor"									"GrayBlueLight"
+		"font"										"Light_11"
+		"fgcolor"									"Gray_Blue_Light"
 		"labelText"									"#TF_MvM_PracticeExplaination"
 		"textAlignment"								"center"
 		"xpos"										"0"

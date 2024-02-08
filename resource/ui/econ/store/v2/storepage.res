@@ -1,4 +1,4 @@
-#base "../../../../../resource/dev/reloadschemebutton.res"
+#base "../../../../dev/reloadschemebutton.res"
 
 "Resource/UI/Econ/Store/V2/StorePage.res"
 {
@@ -39,7 +39,7 @@
 		"item_backdrop_bottom_margin"				"42"
 		"item_backdrop_paintbackgroundtype"			"2"
 
-		"item_panel_bgcolor"						"GrayBlue"
+		"item_panel_bgcolor"						"Gray_Blue"
 		"item_panel_bgcolor_mouseover"				"Gray"
 		"item_panel_bgcolor_selected"				"Gray"
 
@@ -92,7 +92,7 @@
 
 		"modelpanel_labels_kv"
 		{
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"textAlignment"							"north-east"
 			"xpos"									"c-61"
 			"ypos"									"32"
@@ -141,7 +141,7 @@
 
 		"cart_labels_kv"
 		{
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"textAlignment"							"north-east"
 			"xpos"									"c-61"
 			"ypos"									"32"
@@ -386,10 +386,10 @@
 		"textHidden"								"0"
 		"editable"									"1"
 		"unicode"									"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 		"bgcolor_override"							"Blank"
 		"paintbackground"							"1"
-		"font"										"Light 11"
+		"font"										"Light_11"
 
 		"pin_to_sibling"							"BackgroundCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -399,7 +399,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NameFilterBG"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"xpos"										"20"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -410,9 +410,9 @@
 		"textAlignment"								"west"
 		"textinsetx"								"10"
 		"labeltext"									"q"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"paintbackground"							"1"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 
 		"pin_to_sibling"							"NameFilterTextEntry"
 	}
@@ -428,7 +428,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"NameFilterTextEntry"
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
@@ -439,7 +439,7 @@
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"SubcategoryFilterComboBox"
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -455,20 +455,20 @@
 		"paintborder"								"0"
 		"paintbackground"							"1"
 
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"GrayBlueDark"
-		"selectionColor_override"					"GrayBlueDark"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"GrayBlueDark"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Gray_Blue_Dark"
+		"selectionColor_override"					"Gray_Blue_Dark"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Gray_Blue_Dark"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
-			"defaultBgColor_override"				"GrayBlueDark"
-			"armedFgColor_override"					"WhiteDark"
-			"armedBgColor_override"					"GrayBlueDark"
+			"defaultFgColor_override"				"White_Dark"
+			"defaultBgColor_override"				"Gray_Blue_Dark"
+			"armedFgColor_override"					"White_Dark"
+			"armedBgColor_override"					"Gray_Blue_Dark"
 			"paintbackgroundtype"					"0"
 		}
 
@@ -481,7 +481,7 @@
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"SortFilterComboBox"
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"xpos"										"0"
 		"ypos"										"5"
 		"zpos"										"1"
@@ -498,20 +498,20 @@
 		"paintborder"								"0"
 		"paintbackground"							"1"
 
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"GrayBlueDark"
-		"selectionColor_override"					"GrayBlueDark"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"GrayBlueDark"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Gray_Blue_Dark"
+		"selectionColor_override"					"Gray_Blue_Dark"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Gray_Blue_Dark"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
-			"defaultBgColor_override"				"GrayBlueDark"
-			"armedFgColor_override"					"WhiteDark"
-			"armedBgColor_override"					"GrayBlueDark"
+			"defaultFgColor_override"				"White_Dark"
+			"defaultBgColor_override"				"Gray_Blue_Dark"
+			"armedFgColor_override"					"White_Dark"
+			"armedBgColor_override"					"Gray_Blue_Dark"
 			"paintbackgroundtype"					"0"
 		}
 
@@ -524,7 +524,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BackpackSpaceLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"labelText"									"%freebackpackspace%"
 		"textAlignment"								"west"
 		"textinsetx"								"8"
@@ -538,8 +538,8 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"GrayBlueDark"
-		"fgcolor"									"WhiteDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"fgcolor"									"White_Dark"
 
 		"pin_to_sibling"							"NameFilterTextEntry"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -569,7 +569,7 @@
 
 		"attriblabel"
 		{
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
@@ -596,16 +596,16 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"textAlignment"								"center"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"BackgroundCustom"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -626,7 +626,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurPageLabel"
-		"font"										"Light 20"
+		"font"										"Light_20"
 		"labelText"									"%backpackpage%"
 		"textAlignment"								"east"
 		"xpos"										"-8"
@@ -636,7 +636,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 
 		"pin_to_sibling"							"BackgroundCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
@@ -655,16 +655,16 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"BackgroundCustom"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -685,7 +685,7 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CartButton"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"GO TO THE SHOPPING CART"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -696,14 +696,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"Command"									"viewcart"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -736,7 +736,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PriceLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"%selectionprice%"
 		"textAlignment"								"east"
 		"xpos"										"c20"
@@ -762,7 +762,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"1"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
 		"default"									"0"
@@ -774,7 +774,7 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
-		"defaultFgColor_override"					"GrayBlueLight"
+		"defaultFgColor_override"					"Gray_Blue_Light"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 	}
@@ -791,8 +791,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-150"
@@ -807,7 +807,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreWelcomeExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -818,14 +818,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreWelcomeExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -835,7 +835,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -850,7 +850,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"close"
@@ -859,16 +859,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -878,7 +878,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"NextButton"
@@ -893,7 +893,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -902,9 +902,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -920,8 +920,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-200"
@@ -936,7 +936,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreTabsExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -947,14 +947,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreTabsExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -964,7 +964,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -979,7 +979,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"close"
@@ -988,9 +988,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PrevButton"
@@ -1005,7 +1005,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1014,16 +1014,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1033,7 +1033,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"NextButton"
@@ -1048,7 +1048,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1057,9 +1057,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -1075,8 +1075,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-190"
@@ -1091,7 +1091,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreItemsExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -1102,14 +1102,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreItemsExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -1119,7 +1119,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -1134,7 +1134,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -1143,9 +1143,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PrevButton"
@@ -1160,7 +1160,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1169,9 +1169,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"NextButton"
@@ -1186,7 +1186,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1195,16 +1195,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1214,7 +1214,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -1230,8 +1230,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-260"
@@ -1246,7 +1246,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreDetailsExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -1257,14 +1257,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreDetailsExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -1274,7 +1274,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -1289,7 +1289,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -1298,9 +1298,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PrevButton"
@@ -1315,7 +1315,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1324,9 +1324,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"NextButton"
@@ -1341,7 +1341,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1350,16 +1350,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1369,7 +1369,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -1385,8 +1385,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 		"next_explanation"							"AddToCartExplanation"
 
 		"force_close"								"1"
@@ -1401,7 +1401,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StorePreviewToggleExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -1412,14 +1412,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StorePreviewToggleExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -1429,7 +1429,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -1444,7 +1444,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -1453,9 +1453,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PrevButton"
@@ -1470,7 +1470,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1479,9 +1479,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"NextButton"
@@ -1496,7 +1496,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1505,16 +1505,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1524,7 +1524,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -1540,8 +1540,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-260"
@@ -1556,7 +1556,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreAddToCartExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -1567,14 +1567,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreAddToCartExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -1584,7 +1584,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -1599,7 +1599,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -1608,9 +1608,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PrevButton"
@@ -1625,7 +1625,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1634,9 +1634,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"NextButton"
@@ -1651,7 +1651,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1660,16 +1660,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1679,7 +1679,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -1695,8 +1695,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-150"
@@ -1711,7 +1711,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreCartStatusExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -1722,14 +1722,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreCartStatusExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -1739,7 +1739,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -1754,7 +1754,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -1763,9 +1763,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PrevButton"
@@ -1780,7 +1780,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1789,9 +1789,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"NextButton"
@@ -1806,7 +1806,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1815,16 +1815,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1834,7 +1834,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -1850,8 +1850,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 		"next_explanation"							"HelpExplanation"
 
 		"force_close"								"1"
@@ -1866,7 +1866,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreCheckoutExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -1877,14 +1877,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreCheckoutExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -1894,7 +1894,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -1909,7 +1909,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -1918,9 +1918,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PrevButton"
@@ -1935,7 +1935,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -1944,9 +1944,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"NextButton"
@@ -1961,7 +1961,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"$"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"nextexplanation"
@@ -1970,16 +1970,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -1989,7 +1989,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -2005,8 +2005,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"force_close"								"1"
 		"end_x"										"c-150"
@@ -2020,7 +2020,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreHelpExplanation_Title"
 			"textAlignment"							"north"
 			"xpos"									"20"
@@ -2031,14 +2031,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#StoreHelpExplanation_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -2048,7 +2048,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -2063,7 +2063,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -2072,9 +2072,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PrevButton"
@@ -2089,7 +2089,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"prevexplanation"
@@ -2098,16 +2098,16 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PositionLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%explanationnumber%"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -2117,7 +2117,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 

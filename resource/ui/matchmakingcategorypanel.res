@@ -40,7 +40,7 @@
 			"mouseinputenabled"						"0"
 
 			"proportionaltoparent"					"1"
-			"bgcolor_override"						"BlackBlue"
+			"bgcolor_override"						"Black_Blue"
 		}
 
 		"BGImage"
@@ -73,7 +73,7 @@
 			"command"								"toggle_collapse"
 			"labeltext"								""
 			"textAlignment"							"center"
-			"font"									"Light 7"
+			"font"									"Light_7"
 
 			"stay_armed_on_click"					"1"
 			"button_activation_type"				"1"
@@ -83,9 +83,9 @@
 			"paintborder"							"0"
 			"paintbackground"						"1"
 
-			"defaultBgColor_override"				"GrayBlueDark"
-			"armedBgColor_override"					"GrayBlue"
-			"selectedBgColor_override"				"GrayBlue"
+			"defaultBgColor_override"				"Gray_Blue_Dark"
+			"armedBgColor_override"					"Gray_Blue"
+			"selectedBgColor_override"				"Gray_Blue"
 
 			"image_default"							"glyph_expand"
 			"image_drawcolor"						"235 240 245 255"
@@ -137,13 +137,13 @@
 			"labelText"								"%title_token%"
 			"textinsetx"							"0"
 			"use_proportional_insets"				"1"
-			"font"									"Light 22"
+			"font"									"Light_22"
 			"textAlignment"							"east"
 			"AllCaps"								"1"
 			"default"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"Shade"

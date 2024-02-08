@@ -56,7 +56,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"textAlignment"								"center"
 		"Command"									"select_tour"
 		"proportionaltoparent"						"1"
@@ -77,8 +77,8 @@
 		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"MannUpQueueButton"
 	{
@@ -91,7 +91,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"textAlignment"								"center"
 		"Command"									"start_search"
 		"proportionaltoparent"						"1"
@@ -107,13 +107,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"ButtonGreen"
-		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override"					"ButtonGreen_Hover"
+		"defaultBgColor_override"					"Button_Green"
+		"armedBgColor_override"						"Button_Green_Hover"
+		"depressedBgColor_override"					"Button_Green_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"BackButton"
 	{
@@ -126,7 +126,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"textAlignment"								"center"
 		"Command"									"back"
 		"proportionaltoparent"						"1"
@@ -147,8 +147,8 @@
 		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"BootCampQueueButton"
@@ -162,7 +162,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"textAlignment"								"center"
 		"Command"									"start_search"
 		"proportionaltoparent"						"1"
@@ -178,13 +178,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"ButtonGreen"
-		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override"					"ButtonGreen_Hover"
+		"defaultBgColor_override"					"Button_Green"
+		"armedBgColor_override"						"Button_Green_Hover"
+		"depressedBgColor_override"					"Button_Green_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"JoinLateCheckButton"
@@ -196,7 +196,7 @@
 		"zpos"										"105"
 		"wide"										"22"
 		"tall"										"20"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									""
 		"proportionaltoparent"						"1"
 		"smallcheckimage"							"0"
@@ -210,7 +210,7 @@
 		"zpos"										"105"
 		"wide"										"115"
 		"tall"										"0"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"#TF_Matchmaking_JoinInProgress"
 		"proportionaltoparent"						"1"
 	}

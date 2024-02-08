@@ -14,8 +14,8 @@
 		"enabled"									"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"fgcolor"									"Last Damage Done"
-		"font"										"Last Damage Done"
+		"fgcolor"									"Last_Damage_Done"
+		"font"										"Last_Damage_Done"
 	}
 
 	"DamageAccountValueShadow"
@@ -33,7 +33,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"Shadow"
-		"font"										"Last Damage Done Shadow"
+		"font"										"Last_Damage_Done_Shadow"
 
 		"pin_to_sibling"							"DamageAccountValue"
 	}

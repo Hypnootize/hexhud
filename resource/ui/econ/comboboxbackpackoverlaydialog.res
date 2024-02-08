@@ -14,14 +14,14 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 		"paintborder"								"1"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"labelText"									"#TF_Item_SelectStyle"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -34,7 +34,7 @@
 		"centerwrap"								"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"preview_model"
@@ -58,10 +58,10 @@
 		"paint_icon_hide"							"0"
 		"proportionaltoparent"						"1"
 
-		"noitem_textcolor"							"WhiteDark"
+		"noitem_textcolor"							"White_Dark"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 		"paintborder"								"0"
 
 		"itemmodelpanel"
@@ -77,7 +77,7 @@
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"ComboBox"
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"xpos"										"cs-0.5"
 		"ypos"										"175"
 		"zpos"										"20"
@@ -93,20 +93,20 @@
 		"paintborder"								"0"
 		"proportionaltoparent"						"1"
 
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"GrayBlueDark"
-		"selectionColor_override"					"GrayBlueDark"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"GrayBlueDark"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Gray_Blue_Dark"
+		"selectionColor_override"					"Gray_Blue_Dark"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Gray_Blue_Dark"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
-			"defaultBgColor_override"				"GrayBlueDark"
-			"armedFgColor_override"					"WhiteDark"
-			"armedBgColor_override"					"GrayBlueDark"
+			"defaultFgColor_override"				"White_Dark"
+			"defaultBgColor_override"				"Gray_Blue_Dark"
+			"armedFgColor_override"					"White_Dark"
+			"armedBgColor_override"					"Gray_Blue_Dark"
 			"paintbackgroundtype"					"0"
 		}
 	}
@@ -123,7 +123,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Cancel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"0"
@@ -134,9 +134,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -155,7 +155,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_OK"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"1"
@@ -166,9 +166,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

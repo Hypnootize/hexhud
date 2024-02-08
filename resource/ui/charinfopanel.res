@@ -1,4 +1,4 @@
-#base "../../resource/dev/ReloadSchemeButton.res"
+#base "../dev/reloadschemebutton.res"
 
 "Resource/UI/CharInfoPanel.res"
 {
@@ -24,7 +24,7 @@
 		"outoffocus_bgcolor_override"				"Background_Main"
 
 		"title"										"#CharInfoAndSetup"
-		"title_font"								"Light 16"
+		"title_font"								"Light_16"
 		"titletextinsetX"							"40"
 		"titletextinsetY"							"0"
 		"titlebarfgcolor_override"					"Blank"
@@ -51,14 +51,19 @@
 			"ControlName"							"ImagePanel"
 			"fieldName"								"HeaderLine"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 
 		"tabskv"
 		{
 			"textinsetx"							"0"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"selectedcolor"							"White"
-			"unselectedcolor"						"WhiteDark"
+			"unselectedcolor"						"White_Dark"
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"
@@ -94,7 +99,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Back"
-		"font"										"Light 16"
+		"font"										"Light_16"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"back"
@@ -106,16 +111,16 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"1"
 
-		"border_default"							"BottomLineWhite"
-		"border_armed"								"BottomLineWhite"
+		"border_default"							"Bottom_Line_White"
+		"border_armed"								"Bottom_Line_White"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"image_drawcolor"							"235 240 245 255"
 		"image_armedcolor"							"255 255 255 255"

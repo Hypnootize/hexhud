@@ -10,7 +10,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"TextLabel"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"labelText"							"#TF_SurveyQuestion_RandomCrit"
 				"textAlignment"						"north"
 				"xpos"								"cs-0.5"
@@ -22,7 +22,7 @@
 				"enabled"							"1"
 				"wrap"								"0"
 				"centerwrap"						"1"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 				"proportionaltoparent"				"1"
 			}
 
@@ -39,7 +39,7 @@
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"BlackBlue"
+				"bgcolor_override"					"Black_Blue"
 
 				"InnerShadow"
 				{
@@ -79,7 +79,7 @@
 					"proportionaltoparent"			"1"
 
 					"labelText"						"#TF_SurveyQuestion_Rating0"
-					"font"							"Light 11"
+					"font"							"Light_11"
 					"textAlignment"					"center"
 
 					"associate"						"Radio0"
@@ -116,7 +116,7 @@
 					"proportionaltoparent"			"1"
 
 					"labelText"						"#TF_SurveyQuestion_Rating1"
-					"font"							"Light 11"
+					"font"							"Light_11"
 					"textAlignment"					"center"
 				}
 
@@ -151,7 +151,7 @@
 					"proportionaltoparent"			"1"
 
 					"labelText"						"#TF_SurveyQuestion_Rating2"
-					"font"							"Light 11"
+					"font"							"Light_11"
 					"textAlignment"					"center"
 					"default"						"1"
 				}
@@ -187,7 +187,7 @@
 					"proportionaltoparent"			"1"
 
 					"labelText"						"#TF_SurveyQuestion_Rating3"
-					"font"							"Light 11"
+					"font"							"Light_11"
 					"textAlignment"					"center"
 				}
 
@@ -222,7 +222,7 @@
 					"proportionaltoparent"			"1"
 
 					"labelText"						"#TF_SurveyQuestion_Rating4"
-					"font"							"Light 11"
+					"font"							"Light_11"
 					"textAlignment"					"center"
 				}
 			}
@@ -237,7 +237,7 @@
 				"wide"								"130"
 				"tall"								"25"
 				"labelText"							"#AbuseReport_Submit"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"Command"							"submit"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -246,9 +246,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"

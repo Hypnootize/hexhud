@@ -27,12 +27,12 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
-		"fgcolor"									"WhiteDark"
+		"bgcolor_override"							"Background_Dark"
+		"fgcolor"									"White_Dark"
 
 		"pin_to_sibling"							"BlueTeamBG"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -66,11 +66,11 @@
 			"tall"									"35"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 34"
+			"font"									"Symbols_34"
 			"AllCaps"								"1"
 			"labeltext"								"R"
 			"textAlignment"							"center"
-			"fgcolor"								"OffWhite"
+			"fgcolor"								"Off_White"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"CenterBG"
@@ -88,11 +88,11 @@
 			"tall"									"25"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"AllCaps"								"1"
 			"labeltext"								"Pick"
 			"textAlignment"							"center"
-			"fgcolor"								"OffWhite"
+			"fgcolor"								"Off_White"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"Icon"
@@ -110,11 +110,11 @@
 			"tall"									"25"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 20"
+			"font"									"Light_20"
 			"AllCaps"								"1"
 			"labeltext"								"a"
 			"textAlignment"							"center"
-			"fgcolor"								"OffWhite"
+			"fgcolor"								"Off_White"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"PICK"
@@ -132,11 +132,11 @@
 			"tall"									"25"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 20"
+			"font"									"Light_20"
 			"AllCaps"								"1"
 			"labeltext"								"Team"
 			"textAlignment"							"center"
-			"fgcolor"								"OffWhite"
+			"fgcolor"								"Off_White"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"A"
@@ -158,7 +158,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 		"proportionaltoparent"						"1"
 
 		"pin_to_sibling"							"CenterBG"
@@ -179,7 +179,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 		"proportionaltoparent"						"1"
 
 		"pin_to_sibling"							"CenterBG"
@@ -214,7 +214,7 @@
 			"zpos"									"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"AllCaps"								"1"
 			"labeltext"								""
 			"textAlignment"							"south"
@@ -228,8 +228,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"White_Dark"
+			"depressedFgColor_override"				"White_Dark"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -282,8 +282,8 @@
 		"enabled"									"1"
 		"labelText"									"%bluecount%"
 		"textAlignment"								"south"
-		"font"										"Light 24"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_24"
+		"fgcolor"									"Off_White"
 		"mouseinputenabled"							"0"
 
 		"pin_to_sibling"							"TeamBlue"
@@ -303,7 +303,7 @@
 		"enabled"									"1"
 		"labelText"									"%bluecount%"
 		"textAlignment"								"south"
-		"font"										"Light 24 Blur"
+		"font"										"Light_24_Blur"
 		"fgcolor"									"Shadow"
 		"mouseinputenabled"							"0"
 		"pin_to_sibling"							"BlueCount"
@@ -337,7 +337,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"AllCaps"								"1"
 			"labeltext"								""
 			"textAlignment"							"south"
@@ -351,8 +351,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"White_Dark"
+			"depressedFgColor_override"				"White_Dark"
 
 			"image_drawcolor"						"0 0 0 0"
 			"image_armedcolor"						"255 255 255 255"
@@ -405,8 +405,8 @@
 		"enabled"									"1"
 		"labelText"									"%redcount%"
 		"textAlignment"								"south"
-		"font"										"Light 24"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_24"
+		"fgcolor"									"Off_White"
 		"mouseinputenabled"							"0"
 
 		"pin_to_sibling"							"TeamRed"
@@ -426,7 +426,7 @@
 		"enabled"									"1"
 		"labelText"									"%redcount%"
 		"textAlignment"								"south"
-		"font"										"Light 24 Blur"
+		"font"										"Light_24_Blur"
 		"fgcolor"									"Shadow"
 		"mouseinputenabled"							"0"
 		"pin_to_sibling"							"RedCount"
@@ -460,7 +460,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"AllCaps"								"1"
 			"labeltext"								"Spectate"
 			"textAlignment"							"center"
@@ -474,12 +474,12 @@
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override"				"Background"
-			"armedBgColor_override"					"Background Dark"
-			"depressedBgColor_override"				"Background Dark"
+			"armedBgColor_override"					"Background_Dark"
+			"depressedBgColor_override"				"Background_Dark"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -511,7 +511,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"AllCaps"								"1"
 			"labeltext"								"Random"
 			"textAlignment"							"center"
@@ -525,12 +525,12 @@
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override"				"Background"
-			"armedBgColor_override"					"Background Dark"
-			"depressedBgColor_override"				"Background Dark"
+			"armedBgColor_override"					"Background_Dark"
+			"depressedBgColor_override"				"Background_Dark"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -562,7 +562,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"AllCaps"								"1"
 			"labeltext"								"Cancel"
 			"textAlignment"							"center"
@@ -576,12 +576,12 @@
 			"paintbackgroundtype"					"0"
 
 			"defaultBgColor_override"				"Background"
-			"armedBgColor_override"					"Background Dark"
-			"depressedBgColor_override"				"Background Dark"
+			"armedBgColor_override"					"Background_Dark"
+			"depressedBgColor_override"				"Background_Dark"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 

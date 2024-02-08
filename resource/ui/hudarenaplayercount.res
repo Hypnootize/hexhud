@@ -43,10 +43,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"labelText"								"R"
 			"textAlignment"							"west"
-			"fgcolor"								"OffWhite"
+			"fgcolor"								"Off_White"
 		}
 
 		"Count"
@@ -61,10 +61,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"labelText"								"%blue_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"OffWhite"
+			"fgcolor"								"Off_White"
 		}
 
 		"CountShadow"
@@ -145,10 +145,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"labelText"								"R"
 			"textAlignment"							"west"
-			"fgcolor"								"OffWhite"
+			"fgcolor"								"Off_White"
 		}
 
 		"Count"
@@ -163,10 +163,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"labelText"								"%red_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"OffWhite"
+			"fgcolor"								"Off_White"
 		}
 
 		"CountShadow"

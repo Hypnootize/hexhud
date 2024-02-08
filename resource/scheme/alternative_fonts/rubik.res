@@ -15,7 +15,7 @@ Scheme
 				"tall"										"40"
 			}
 		}
-		"Health Shadow"
+		"Health_Shadow"
 		{
 			"1"
 			{
@@ -29,7 +29,7 @@ Scheme
 		// Used on: Default - Minimal - Box - External cross Customizations
 		//===========================================================================================================
 
-		"Health Minmode"
+		"Health_Minmode"
 		{
 			"1"
 			{
@@ -37,7 +37,7 @@ Scheme
 				"tall"										"24"
 			}
 		}
-		"Health Shadow Minmode"
+		"Health_Shadow_Minmode"
 		{
 			"1"
 			{
@@ -51,7 +51,7 @@ Scheme
 		// Used for the HEALTH CROSS Customization only
 		//===========================================================================================================
 
-		"Health Cross"
+		"Health_Cross"
 		{
 			"1"
 			{
@@ -59,7 +59,7 @@ Scheme
 				"tall"										"18"
 			}
 		}
-		"Health Cross Shadow"
+		"Health_Cross_Shadow"
 		{
 			"1"
 			{
@@ -73,7 +73,7 @@ Scheme
 		// Used for the HEALTH CROSS Customization with minmode enabled
 		//===========================================================================================================
 
-		"Health Minmode Cross"
+		"Health_Minmode_Cross"
 		{
 			"1"
 			{
@@ -81,7 +81,7 @@ Scheme
 				"tall"										"14"
 			}
 		}
-		"Health Minmode Cross Shadow"
+		"Health_Minmode_Cross_Shadow"
 		{
 			"1"
 			{
@@ -94,7 +94,7 @@ Scheme
 		// Ammo Clip and Reserve Fonts
 		//===========================================================================================================
 
-		"Ammo Clip"
+		"Ammo_Clip"
 		{
 			"1"
 			{
@@ -102,7 +102,7 @@ Scheme
 				"tall"										"40"
 			}
 		}
-		"Ammo Clip Shadow"
+		"Ammo_Clip_Shadow"
 		{
 			"1"
 			{
@@ -111,7 +111,7 @@ Scheme
 			}
 		}
 
-		"Ammo Reserve"
+		"Ammo_Reserve"
 		{
 			"1"
 			{
@@ -119,7 +119,7 @@ Scheme
 				"tall"										"20"
 			}
 		}
-		"Ammo Reserve Shadow"
+		"Ammo_Reserve_Shadow"
 		{
 			"1"
 			{
@@ -132,7 +132,7 @@ Scheme
 		// MINMODE Ammo Clip and Reserve Fonts
 		//===========================================================================================================
 
-		"Ammo Clip Minmode"
+		"Ammo_Clip_Minmode"
 		{
 			"1"
 			{
@@ -140,7 +140,7 @@ Scheme
 				"tall"										"24"
 			}
 		}
-		"Ammo Clip Shadow Minmode"
+		"Ammo_Clip_Shadow_Minmode"
 		{
 			"1"
 			{
@@ -149,7 +149,7 @@ Scheme
 			}
 		}
 
-		"Ammo Reserve Minmode"
+		"Ammo_Reserve_Minmode"
 		{
 			"1"
 			{
@@ -157,7 +157,7 @@ Scheme
 				"tall"										"14"
 			}
 		}
-		"Ammo Reserve Shadow Minmode"
+		"Ammo_Reserve_Shadow_Minmode"
 		{
 			"1"
 			{
@@ -183,7 +183,7 @@ Scheme
 		// Minmode Ubercharge Font
 		//===========================================================================================================
 
-		"Ubercharge Minmode"
+		"Ubercharge_Minmode"
 		{
 			"1"
 			{
@@ -204,7 +204,7 @@ Scheme
 				"tall"										"18"
 			}
 		}
-		"Metal Shadow"
+		"Metal_Shadow"
 		{
 			"1"
 			{
@@ -217,7 +217,7 @@ Scheme
 		// MINMODE Metal Font
 		//===========================================================================================================
 
-		"Metal Minmode"
+		"Metal_Minmode"
 		{
 			"1"
 			{
@@ -225,7 +225,7 @@ Scheme
 				"tall"										"14"
 			}
 		}
-		"Metal Shadow Minmode"
+		"Metal_Shadow_Minmode"
 		{
 			"1"
 			{
@@ -246,7 +246,7 @@ Scheme
 				"tall"										"18"
 			}
 		}
-		"Sticky Shadow"
+		"Sticky_Shadow"
 		{
 			"1"
 			{
@@ -259,7 +259,7 @@ Scheme
 		// MINMODE Stickies Font
 		//===========================================================================================================
 
-		"Sticky Minmode"
+		"Sticky_Minmode"
 		{
 			"1"
 			{
@@ -267,7 +267,7 @@ Scheme
 				"tall"										"16"
 			}
 		}
-		"Sticky Shadow Minmode"
+		"Sticky_Shadow_Minmode"
 		{
 			"1"
 			{
@@ -280,7 +280,7 @@ Scheme
 		// Last Damage Done Font
 		//===========================================================================================================
 
-		"Last Damage Done"
+		"Last_Damage_Done"
 		{
 			"1"
 			{
@@ -288,7 +288,7 @@ Scheme
 				"tall"										"20"
 			}
 		}
-		"Last Damage Done Shadow"
+		"Last_Damage_Done_Shadow"
 		{
 			"1"
 			{
@@ -301,7 +301,7 @@ Scheme
 		// Damage Fonts Dropshadow
 		//===========================================================================================================
 
-		"Damage Small Shadow"
+		"Damage_Small_Shadow"
 		{
 			"1"
 			{
@@ -310,7 +310,7 @@ Scheme
 			}
 		}
 
-		"Damage Medium Shadow"
+		"Damage_Medium_Shadow"
 		{
 			"1"
 			{
@@ -319,7 +319,7 @@ Scheme
 			}
 		}
 
-		"Damage Big Shadow"
+		"Damage_Big_Shadow"
 		{
 			"1"
 			{
@@ -332,7 +332,7 @@ Scheme
 		// Damage Fonts Ouline
 		//===========================================================================================================
 		
-		"Damage Small Outline"
+		"Damage_Small_Outline"
 		{
 			"1"
 			{
@@ -341,7 +341,7 @@ Scheme
 			}
 		}
 
-		"Damage Medium Outline"
+		"Damage_Medium_Outline"
 		{
 			"1"
 			{
@@ -350,7 +350,7 @@ Scheme
 			}
 		}
 
-		"Damage Big Outline"
+		"Damage_Big_Outline"
 		{
 			"1"
 			{

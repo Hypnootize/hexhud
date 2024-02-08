@@ -64,7 +64,7 @@
 			"paintborder"							"0"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"BlueDark"
+			"bgcolor_override"						"Blue_Dark"
 
 			"pin_to_sibling"						"BlueScoreBG"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -95,7 +95,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamLabel"
-			"font"									"Bold 20"
+			"font"									"Bold_20"
 			"fgcolor"								"White"
 			"labelText"								"%blueteamname%"
 			"textAlignment"							"west"
@@ -115,7 +115,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamLabelShadow"
-			"font"									"Bold 20 Blur"
+			"font"									"Bold_20_Blur"
 			"fgcolor"								"Shadow"
 			"labelText"								"%blueteamname%"
 			"textAlignment"							"west"
@@ -134,7 +134,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamScore"
-			"font"									"Bold 24"
+			"font"									"Bold_24"
 			"fgcolor"								"White"
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"center"
@@ -155,7 +155,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamScoreShadow"
-			"font"									"Bold 24 Blur"
+			"font"									"Bold_24_Blur"
 			"fgcolor"								"Shadow"
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"center"
@@ -206,7 +206,7 @@
 			"paintborder"							"0"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"RedDark"
+			"bgcolor_override"						"Red_Dark"
 			"pin_to_sibling"						"RedScoreBG"
 		}
 		"RedBottomLine"
@@ -234,7 +234,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamLabel"
-			"font"									"Bold 20"
+			"font"									"Bold_20"
 			"fgcolor"								"White"
 			"labelText"								"%redteamname%"
 			"textAlignment"							"east"
@@ -254,7 +254,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamLabelShadow"
-			"font"									"Bold 20 Blur"
+			"font"									"Bold_20_Blur"
 			"fgcolor"								"Shadow"
 			"labelText"								"%redteamname%"
 			"textAlignment"							"east"
@@ -272,7 +272,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamScore"
-			"font"									"Bold 24"
+			"font"									"Bold_24"
 			"fgcolor"								"White"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"center"
@@ -293,7 +293,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamScoreShadow"
-			"font"									"Bold 24 Blur"
+			"font"									"Bold_24_Blur"
 			"fgcolor"								"Shadow"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"center"
@@ -312,7 +312,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ArenaStreakLabel"
-			"font"									"Light 10 Shadow"
+			"font"									"Light_10_Shadow"
 			"fgcolor"								"White"
 			"xpos"									"0"
 			"ypos"									"10"
@@ -377,7 +377,7 @@
 		"enabled"									"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 	"ScoresBar"
 	{
@@ -402,7 +402,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TopPlayersLabel"
-		"font"										"Light 6"
+		"font"										"Light_6"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -413,7 +413,7 @@
 		"AllCaps"									"1"
 		"labelText"									"%TopPlayersLabel%"
 		"textAlignment"								"west"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 
 		"pin_to_sibling"							"ClassPlayedLabel"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -424,7 +424,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassPlayedLabel"
-		"font"										"Light 6"
+		"font"										"Light_6"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -434,7 +434,7 @@
 		"enabled"									"1"
 		"labelText"									"class:"
 		"textAlignment"								"west"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"AllCaps"									"1"
 
 		"pin_to_sibling"							"DamageThisRoundLabel"
@@ -446,7 +446,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DamageThisRoundLabel"
-		"font"										"Light 6"
+		"font"										"Light_6"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -456,7 +456,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_Arena_Winpanel_DamageThisRound"
 		"textAlignment"								"west"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"AllCaps"									"1"
 
 		"pin_to_sibling"							"TopBar"
@@ -468,7 +468,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"HealingThisRoundLabel"
-		"font"										"Light 6"
+		"font"										"Light_6"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -478,7 +478,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_Arena_Winpanel_HealingThisRound"
 		"textAlignment"								"west"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"AllCaps"									"1"
 
 		"pin_to_sibling"							"DamageThisRoundLabel"
@@ -490,7 +490,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LifetimeThisRoundLabel"
-		"font"										"Light 6"
+		"font"										"Light_6"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -500,7 +500,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_Arena_Winpanel_TimeAliveThisRound"
 		"textAlignment"								"west"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"AllCaps"									"1"
 
 		"pin_to_sibling"							"HealingThisRoundLabel"
@@ -512,7 +512,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"KillingBlowsThisRoundLabel"
-		"font"										"Light 6"
+		"font"										"Light_6"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -567,7 +567,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"alpha"									"255"
 
 			"pin_to_sibling"						"Player1Class"
@@ -588,7 +588,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Damage"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -608,7 +608,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 		}
 
 		"Player1Healing"
@@ -624,7 +624,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Damage"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -644,7 +644,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Healing"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -664,7 +664,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Lifetime"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -696,7 +696,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"alpha"									"255"
 
 			"pin_to_sibling"						"Player1Name"
@@ -717,7 +717,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Class"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -737,7 +737,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Damage"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -757,7 +757,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Healing"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -777,7 +777,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Lifetime"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -797,7 +797,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Kills"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -829,7 +829,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"alpha"									"255"
 
 			"pin_to_sibling"						"Player2Name"
@@ -850,7 +850,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player2Class"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -870,7 +870,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player2Damage"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -890,7 +890,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player2Healing"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -910,7 +910,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player2Lifetime"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -930,7 +930,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player2Kills"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -976,7 +976,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"alpha"									"255"
 
 			"pin_to_sibling"						"Player1Class"
@@ -997,7 +997,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Damage"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -1017,7 +1017,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 		}
 
 		"Player1Healing"
@@ -1033,7 +1033,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Damage"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1053,7 +1053,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Healing"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1073,7 +1073,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Lifetime"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1105,7 +1105,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"alpha"									"255"
 
 			"pin_to_sibling"						"Player1Name"
@@ -1126,7 +1126,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Class"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1146,7 +1146,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Damage"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1166,7 +1166,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Healing"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1186,7 +1186,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Lifetime"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1206,7 +1206,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player1Kills"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1238,7 +1238,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"alpha"									"255"
 
 			"pin_to_sibling"						"Player2Name"
@@ -1259,7 +1259,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player2Class"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1279,7 +1279,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player2Damage"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1299,7 +1299,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player2Healing"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1319,7 +1319,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player2Lifetime"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1339,7 +1339,7 @@
 			"labelText"								""
 			"textAlignment"							"west"
 			"proportionaltoparent"					"1"
-			"font"									"Light 10"
+			"font"									"Light_10"
 
 			"pin_to_sibling"						"Player2Kills"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"

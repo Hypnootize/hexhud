@@ -62,7 +62,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#Replay_ExportMovie"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"center"
 		"Command"									"exportmovie"
 		"AllCaps"									"1"
@@ -71,8 +71,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -89,7 +89,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									""
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"showrenderinfo"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -97,8 +97,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -132,7 +132,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Replay_YouTubeUpload"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"youtubeupload"
 		"AllCaps"									"1"
@@ -140,8 +140,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -158,7 +158,7 @@
 		"visible"									"1"
 		"enabled"									"0"
 		"labelText"									"#Replay_YouTubeView"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"viewyoutube"
 		"AllCaps"									"1"
@@ -167,8 +167,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -185,7 +185,7 @@
 		"visible"									"1"
 		"enabled"									"0"
 		"labelText"									"#Replay_YouTubeShareURL"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"shareyoutubeurl"
 		"AllCaps"									"1"
@@ -194,8 +194,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -213,7 +213,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Delete"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"delete_replayitem"
 		"AllCaps"									"1"
@@ -223,8 +223,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -243,7 +243,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Replay_Watch"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"play"
 		"AllCaps"									"1"
@@ -253,8 +253,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -272,7 +272,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Replay_RenderEllipsis"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"render_replay_dlg"
 		"AllCaps"									"1"
@@ -282,8 +282,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

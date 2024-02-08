@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"HeaderLabel"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"labelText"									"%header%"
 		"textAlignment"								"west"
 		"textinsetx"								"5"
@@ -13,7 +13,7 @@
 		"wide"										"f0"
 		"tall"										"12"
 		"AllCaps"									"0"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"bgcolor_override"							"45 45 55 235"
@@ -37,7 +37,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditCollectedTextLabel"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"labelText"									"#TF_PVE_Collected"
 		"textAlignment"								"west"
 		"xpos"										"-3"
@@ -46,7 +46,7 @@
 		"tall"										"10"
 		"AllCaps"									"0"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 
 		"pin_to_sibling"							"TableBackground"
 	}
@@ -55,7 +55,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditCollectedCountLabel"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"labelText"									"%creditscollected%"
 		"textAlignment"								"east"
 		"xpos"										"2"
@@ -63,7 +63,7 @@
 		"wide"										"35"
 		"tall"										"10"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 
 		"pin_to_sibling"							"CreditCollectedTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -74,7 +74,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditMissedTextLabel"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"labelText"									"#TF_PVE_Missed"
 		"textAlignment"								"west"
 		"xpos"										"0"
@@ -83,7 +83,7 @@
 		"tall"										"10"
 		"AllCaps"									"0"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 
 		"pin_to_sibling"							"CreditCollectedTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -94,7 +94,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditMissedCountLabel"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"labelText"									"%creditsmissed%"
 		"textAlignment"								"east"
 		"xpos"										"2"
@@ -102,7 +102,7 @@
 		"wide"										"35"
 		"tall"										"10"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 
 		"pin_to_sibling"							"CreditMissedTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -113,7 +113,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditBonusTextLabel"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"labelText"									"#TF_PVE_Bonus"
 		"textAlignment"								"west"
 		"xpos"										"0"
@@ -122,7 +122,7 @@
 		"tall"										"10"
 		"AllCaps"									"0"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 
 		"pin_to_sibling"							"CreditMissedTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -133,7 +133,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CreditBonusCountLabel"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"labelText"									"%creditbonus%"
 		"textAlignment"								"east"
 		"xpos"										"2"
@@ -141,7 +141,7 @@
 		"wide"										"35"
 		"tall"										"10"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 
 		"pin_to_sibling"							"CreditBonusTextLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"

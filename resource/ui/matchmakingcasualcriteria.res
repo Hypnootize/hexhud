@@ -63,7 +63,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"d"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-1"
 			"default"								"0"
@@ -79,9 +79,9 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override"				"OffWhite"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"Off_White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"SaveCasualSearchCriteria"
@@ -96,7 +96,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"e"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-1"
 			"default"								"0"
@@ -112,9 +112,9 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override"				"OffWhite"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"Off_White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"ShowExplanationsButton"
@@ -129,7 +129,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"textinsety"							"-1"
 			"default"								"0"
@@ -145,9 +145,9 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override"				"OffWhite"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"Off_White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"SelectedCount"
@@ -162,8 +162,8 @@
 			"proportionaltoparent"					"1"
 			"labeltext"								"%selected_maps_count%"
 			"textAlignment"							"west"
-			"font"									"Light 14"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_14"
+			"fgcolor"								"White_Dark"
 			"AllCaps"								"1"
 
 			"mouseinputenabled"						"1"
@@ -181,8 +181,8 @@
 			"proportionaltoparent"					"1"
 			"labeltext"								"#TF_Casual_QueueEstimation"
 			"textAlignment"							"east"
-			"font"									"Light 14"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_14"
+			"fgcolor"								"White_Dark"
 			"AllCaps"								"1"
 			"visible"								"0"
 
@@ -227,7 +227,7 @@
 			"paintborder"							"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 
 			"ScrollBar"
 			{
@@ -243,7 +243,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"				"WhiteDark"
+					"fgcolor_override"				"White_Dark"
 				}
 
 				"UpButton"

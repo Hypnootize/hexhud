@@ -1,3 +1,3 @@
 
-#base	"../../customizations/health style.res"
-#base	"hudplayerhealth_base.res"
+#base "../../customizations/health_styles.res"
+#base "hudplayerhealth_base.res"

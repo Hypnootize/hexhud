@@ -35,7 +35,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 24"
+		"font"										"Light_24"
 		"labelText"									"#Replay_RenderReplay"
 		"textAlignment"								"west"
 		"xpos"										"0"
@@ -60,7 +60,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#GameUI_CancelBold"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"cancel"
 		"AllCaps"									"1"
@@ -69,8 +69,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -89,7 +89,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Replay_Go"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"render"
 		"AllCaps"									"1"
@@ -98,8 +98,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -111,7 +111,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"QualityPresetLabel"
 		"labelText"									"#Replay_RenderSetting"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -119,14 +119,14 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"QualityPresetCombo"
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"QualityPresetCombo"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"70"
@@ -135,7 +135,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"editable"									"0"
 	}
 
@@ -144,7 +144,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"PlayVoice"
 		"labelText"									"#Replay_PlayVoice"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -161,7 +161,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"ShowAdvancedOptions"
 		"labelText"									"#Replay_RenderAdvancedOptions"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -193,7 +193,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"VideoModeLabel"
 		"labelText"									"#GameUI_Resolution"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -208,7 +208,7 @@
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"VideoModeCombo"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"70"
@@ -217,7 +217,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 		"editable"									"0"
 	}
 
@@ -226,7 +226,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"CodecLabel"
 		"labelText"									"#Replay_Codec"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -234,14 +234,14 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"CodecCombo"
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"CodecCombo"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"70"
@@ -250,7 +250,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 		"editable"									"0"
 	}
 
@@ -259,7 +259,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"MotionBlurLabel"
 		"labelText"									"#Replay_MotionBlur"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -267,7 +267,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"MotionBlurSlider"
@@ -292,7 +292,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"QualityLabel"
 		"labelText"									"#Replay_Quality"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -300,7 +300,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"QualitySlider"
@@ -325,7 +325,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"MotionBlurEnabled"
 		"labelText"									"#Replay_MotionBlur_Enabled"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -342,7 +342,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"EstimateTimeLabel"
 		"labelText"									""
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -350,14 +350,14 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 	"EstimateFileLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EstimateFileLabel"
 		"labelText"									""
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -365,14 +365,14 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"EnterANameLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EnterANameLabel"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"labelText"									"#Replay_Title"
 		"textAlignment"								"west"
 		"xpos"										"0"
@@ -382,14 +382,14 @@
 		"tall"										"10"
 		"visible"									"0"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"TitleInput"
 	{
 		"ControlName"								"TextEntry"
 		"fieldName"									"TitleInput"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textHidden"								"0"
 		"textAlignment"								"west"
 		"unicode"									"0"
@@ -402,7 +402,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"bgcolor_override"							"Black"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 		"maxchars"									"255"
 	}
 
@@ -410,7 +410,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ResolutionNoteLabel"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"labelText"									"#Replay_NotAllVideoModesAvailable"
 		"textAlignment"								"west"
 		"xpos"										"0"
@@ -420,7 +420,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"wrap"										"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"QuitWhenDone"
@@ -428,7 +428,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"QuitWhenDone"
 		"labelText"									"#Replay_QuitWhenDone"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -445,7 +445,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"ExportRaw"
 		"labelText"									"#Replay_ExportRaw"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -462,7 +462,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"GlowEnabled"
 		"labelText"									"#Replay_Glow_Enabled"
-		"Font"										"Light 7"
+		"Font"										"Light_7"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"0"
@@ -478,7 +478,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LockWarningLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"#Replay_LockWarning"
 		"textAlignment"								"west"
 		"xpos"										"0"

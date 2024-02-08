@@ -1,4 +1,4 @@
-#base "../../resource/dev/reloadschemebutton.res"
+#base "../dev/reloadschemebutton.res"
 
 "Resource/SteamWorkshopDialog.res"
 {
@@ -30,7 +30,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Secondary"
 		"paintborder"								"1"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 
 		"NoItemsContainer"
 		{
@@ -45,7 +45,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
+			"bgcolor_override"						"Black_Blue"
 
 			"TitleLabel"
 			{
@@ -60,10 +60,10 @@
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"AllCaps"							"1"
-				"font"								"Light 22"
+				"font"								"Light_22"
 				"labelText"							"#TF_SteamWorkshop_Title"
 				"textAlignment"						"center"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 
 			"DescLabel"
@@ -81,10 +81,10 @@
 				"wrap"								"1"
 				"centerwrap"						"1"
 				"AllCaps"							"1"
-				"font"								"Light 12"
+				"font"								"Light_12"
 				"labelText"							"#TF_SteamWorkshop_Desc"
 				"textAlignment"						"north"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 
 			"LearnMoreButton"
@@ -99,7 +99,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"#TF_SteamWorkshop_LearnHow"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"Command"							"learn_more"
 				"AllCaps"							"1"
@@ -111,7 +111,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override"			"FullWhite"
 			}
@@ -135,7 +135,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"TitleLabel"
-				"font"								"Light 20"
+				"font"								"Light_20"
 				"labelText"							"#TF_SteamWorkshop_YourItems"
 				"textAlignment"						"west"
 				"xpos"								"8"
@@ -147,7 +147,7 @@
 				"enabled"							"1"
 				"AllCaps"							"1"
 				"proportionaltoparent"				"1"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 
 			"ViewPublishedButton"
@@ -162,7 +162,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"#TF_SteamWorkshop_ViewPublished"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
 				"Command"							"view_files"
@@ -173,7 +173,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override"			"FullWhite"
 			}
@@ -235,7 +235,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"<"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
 				"Command"							"prevpage"
@@ -246,7 +246,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override"			"FullWhite"
 
@@ -266,7 +266,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"<<"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"Command"							"prevpageskip"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -276,7 +276,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override"			"FullWhite"
 
@@ -296,7 +296,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"|<"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"Command"							"skiptostart"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -306,7 +306,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override"			"FullWhite"
 
@@ -319,7 +319,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"CurPageLabel"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"labelText"							"%page%"
 				"textAlignment"						"center"
 				"xpos"								"cs-0.5"
@@ -331,7 +331,7 @@
 				"enabled"							"1"
 				"AllCaps"							"1"
 				"proportionaltoparent"				"1"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 
 			"NextPageButton"
@@ -346,7 +346,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							">"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
 				"Command"							"nextpage"
@@ -357,7 +357,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override"			"FullWhite"
 
@@ -377,7 +377,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							">>"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"Command"							"nextpageskip"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -387,7 +387,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override"			"FullWhite"
 
@@ -407,7 +407,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							">|"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"Command"							"skiptoend"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -417,7 +417,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override"			"FullWhite"
 
@@ -437,7 +437,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"use_proportional_insets"			"1"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"default"							"1"
 				"proportionaltoparent"				"1"
@@ -448,7 +448,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override"			"FullWhite"
 
@@ -467,7 +467,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"use_proportional_insets"			"1"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"default"							"1"
 				"proportionaltoparent"				"1"
@@ -478,7 +478,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override"			"FullWhite"
 
@@ -497,7 +497,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"use_proportional_insets"			"1"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"default"							"1"
 				"proportionaltoparent"				"1"
@@ -508,7 +508,7 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override"			"FullWhite"
 
@@ -529,7 +529,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_SteamWorkshop_BrowseTheWorkshop"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"textAlignment"							"center"
 			"Command"								"browse"
 			"proportionaltoparent"					"1"
@@ -537,9 +537,9 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"paintbackground"						"1"
-			"defaultBgColor_override"				"ButtonGreen"
-			"armedBgColor_override"					"ButtonGreen_Hover"
-			"depressedBgColor_override"				"ButtonGreen_Hover"
+			"defaultBgColor_override"				"Button_Green"
+			"armedBgColor_override"					"Button_Green_Hover"
+			"depressedBgColor_override"				"Button_Green_Hover"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"FullWhite"
@@ -558,7 +558,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"LOAD TEST MAP"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"Command"								"itemtest"
 			"AllCaps"								"0"
@@ -570,7 +570,7 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override"				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"FullWhite"
 			"depressedFgColor_override"				"FullWhite"
 		}
@@ -587,7 +587,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_SteamWorkshop_Publish"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"Command"								"publish"
 			"AllCaps"								"1"
@@ -599,7 +599,7 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override"				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"armedFgColor_override"					"FullWhite"
 			"depressedFgColor_override"				"FullWhite"
 		}
@@ -616,7 +616,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Back"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"Command"								"cancel"
 			"proportionaltoparent"					"1"
@@ -624,9 +624,9 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"paintbackground"						"1"
-			"defaultBgColor_override"				"ButtonRed"
-			"armedBgColor_override"					"ButtonRed_Hover"
-			"depressedBgColor_override"				"ButtonRed_Hover"
+			"defaultBgColor_override"				"Button_Red"
+			"armedBgColor_override"					"Button_Red_Hover"
+			"depressedBgColor_override"				"Button_Red_Hover"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"FullWhite"

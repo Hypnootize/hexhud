@@ -1,4 +1,4 @@
-#base "../../resource/dev/reloadschemebutton.res"
+#base "../dev/reloadschemebutton.res"
 
 "Resource/SteamWorkshopItem.res"
 {
@@ -25,7 +25,7 @@
 		"tall"										"125"
 		"visible"									"1"
 		"mouseinputenabled"							"0"
-		"bgcolor_override"							"GrayBlue"
+		"bgcolor_override"							"Gray_Blue"
 	}
 
 	"PreviewImage"
@@ -54,8 +54,8 @@
 		"labelText"									"%title%"
 		"textAlignment"								"north-west"
 		"wrap"										"0"
-		"font"										"Light 11"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_11"
+		"fgcolor"									"White_Dark"
 		"mouseinputenabled"							"0"
 	}
 }

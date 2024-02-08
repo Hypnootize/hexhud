@@ -55,14 +55,14 @@
 		"fieldName"									"VerticalLine"
 		"wide"										"1"
 		"PaintBackground"							"1"
-		"bgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 	}
 
 	"NoCutsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NoCutsLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"#Replay_NoCuts"
 		"wide"										"200"
 		"tall"										"58"
@@ -70,7 +70,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"centerwrap"								"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"PrevButton"
@@ -81,14 +81,14 @@
 		"wide"										"18"
 		"tall"										"18"
 		"labelText"									"<"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
@@ -101,14 +101,14 @@
 		"wide"										"18"
 		"tall"										"18"
 		"labelText"									">"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
@@ -117,9 +117,9 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"OriginalLabel"
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"TextAlignment"								"west"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"65"
@@ -131,9 +131,9 @@
 	{
 		"ControlName"								"CExLabel"
 		"FieldName"									"CutsLabel"
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"TextAlignment"								"west"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"120"
@@ -145,12 +145,12 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NameLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									""
 		"zpos"										"1"
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"0"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 }

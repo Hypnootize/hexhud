@@ -40,7 +40,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"<"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"AllCaps"								"1"
 			"textAlignment"							"center"
 			"textinsetx"							"0"
@@ -55,12 +55,12 @@
 			"paintborder"							"0"
 
 			"defaultBgColor_override"				"Black"
-			"armedBgColor_override"					"GrayBlueDarkest"
-			"depressedBgColor_override"				"GrayBlueDarkest"
+			"armedBgColor_override"					"Gray_Blue_Darkest"
+			"depressedBgColor_override"				"Gray_Blue_Darkest"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 		"CancelButton2"
 		{
@@ -74,7 +74,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"-"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"AllCaps"								"1"
 			"textAlignment"							"center"
 			"textinsetx"							"0"
@@ -89,12 +89,12 @@
 			"paintborder"							"0"
 
 			"defaultBgColor_override"				"Black"
-			"armedBgColor_override"					"GrayBlueDarkest"
-			"depressedBgColor_override"				"GrayBlueDarkest"
+			"armedBgColor_override"					"Gray_Blue_Darkest"
+			"depressedBgColor_override"				"Gray_Blue_Darkest"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"TrainingImage"
@@ -143,7 +143,7 @@
 			"paintBorder"							"1"
 			"paintBackgroundtype"					"0"
 			"bgcolor_override"						"Background_Secondary"
-			"border"								"BottomLineWhiteDark"
+			"border"								"Bottom_Line_White_Dark"
 			"proportionaltoparent"					"1"
 		}
 

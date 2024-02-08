@@ -13,7 +13,7 @@
 		"mouseinputenabled"							"0"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 
 		"TipLabel"
 		{
@@ -23,17 +23,17 @@
 
 			"if_small"
 			{
-				"font"								"Light 10"
+				"font"								"Light_10"
 			}
 
 			"if_medium"
 			{
-				"font"								"Light 14"
+				"font"								"Light_14"
 			}
 
 			"if_large"
 			{
-				"font"								"Light 16"
+				"font"								"Light_16"
 			}
 
 			"labelText"								"%tiptext%"

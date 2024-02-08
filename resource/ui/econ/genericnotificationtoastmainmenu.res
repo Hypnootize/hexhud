@@ -61,7 +61,7 @@
 		"wrap"										"1"
 		"labelText"									"%avatartext%"
 		"textAlignment"								"West"
-		"font"										"Light 12"
+		"font"										"Light_12"
 	}
 
 	"TextLabel"
@@ -75,7 +75,7 @@
 		{
 			"fgcolor"								"White"
 			"fgcolor"								"White"
-			"font"									"Light 10"
+			"font"									"Light_10"
 		}
 
 		"xpos"										"7"
@@ -88,6 +88,6 @@
 		"wrap"										"1"
 		"labelText"									"%text%"
 		"textAlignment"								"West"
-		"font"										"Light 12"
+		"font"										"Light_12"
 	}
 }

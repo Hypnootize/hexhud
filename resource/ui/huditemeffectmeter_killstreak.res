@@ -46,8 +46,8 @@
 		"textAlignment"								"west"
 		"AllCaps"									"0"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"OffWhite"
-		"font"										"Light 10"
+		"fgcolor"									"Off_White"
+		"font"										"Light_10"
 	}
 
 	"ItemEffectMeterCount"
@@ -64,11 +64,11 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"OffWhite"
-		"font"										"Light 10"
+		"fgcolor"									"Off_White"
+		"font"										"Light_10"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 

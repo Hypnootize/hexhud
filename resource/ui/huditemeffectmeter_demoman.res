@@ -31,8 +31,8 @@
 		"labelText"									"K"
 		"textAlignment"								"east"
 		"proportionaltoparent"						"1"
-		"font"										"Symbols 18"
-		"font_minmode"								"Symbols 14"
+		"font"										"Symbols_18"
+		"font_minmode"								"Symbols_14"
 		"fgcolor"									"White"
 	}
 	"HeadsIconShadow"
@@ -51,8 +51,8 @@
 		"labelText"									"K"
 		"textAlignment"								"east"
 		"proportionaltoparent"						"1"
-		"font"										"Symbols 18 Blur"
-		"font_minmode"								"Symbols 14 Blur"
+		"font"										"Symbols_18_Blur"
+		"font_minmode"								"Symbols_14_Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"HeadsIcon"
 	}
@@ -75,8 +75,8 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
 		"proportionaltoparent"						"1"
-		"font"										"Bold 18"
-		"font_minmode"								"Bold 14"
+		"font"										"Bold_18"
+		"font_minmode"								"Bold_14"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"HeadsIcon"
@@ -99,8 +99,8 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
 		"proportionaltoparent"						"1"
-		"font"										"Bold 18 Blur"
-		"font_minmode"								"Bold 14 Blur"
+		"font"										"Bold_18_Blur"
+		"font_minmode"								"Bold_14_Blur"
 		"fgcolor"									"Shadow"
 
 		"pin_to_sibling"							"ItemEffectMeterCount"

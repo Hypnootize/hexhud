@@ -41,7 +41,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 
 		"PreviewViewportBg"
 		{
@@ -81,7 +81,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MapsDescLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#Store_MapsDesc"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5"
@@ -93,7 +93,7 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -138,7 +138,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_BackCarat"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"close"
@@ -147,9 +147,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

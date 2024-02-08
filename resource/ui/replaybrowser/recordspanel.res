@@ -10,28 +10,28 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"#Replay_NoNewRecord"
 		"textAlignment"								"west"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
 		"visible"									"0"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"RecordInfoLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RecordInfoLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"#Replay_NoNewRecord"
 		"textAlignment"								"west"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
 		"visible"									"0"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ScoreBackgroundPanel"
@@ -49,13 +49,13 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ScoreLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"0"
 		"textAlignment"								"west"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
 		"visible"									"0"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 }

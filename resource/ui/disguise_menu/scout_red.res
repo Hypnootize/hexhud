@@ -52,7 +52,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"xpos"										"-5"
 		"ypos"										"-1"
 		"zpos"										"1"
@@ -67,10 +67,10 @@
 		"use_proportional_insets"					"1"
 		"proportionaltoparent"						"1"
 
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"GrayBluerDark"
+		"bgcolor_override"							"Gray_Bluer_Dark"
 
 		"pin_to_sibling"							"ClassImage"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -91,7 +91,7 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"ItemNameLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -102,8 +102,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Light 11"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_11"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"13"
@@ -117,7 +117,7 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"ItemNameLabel"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -128,8 +128,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NewNumberLabel"
-		"font"										"Light 11"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_11"
+		"fgcolor"									"Off_White"
 		"xpos"										"80"
 		"ypos"										"22"
 		"zpos"										"13"
@@ -143,7 +143,7 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 

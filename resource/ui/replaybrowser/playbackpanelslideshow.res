@@ -13,12 +13,12 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NoScreenshotLabel"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"labelText"									"#Replay_NoScreenshot"
 		"textAlignment"								"center"
 		"zpos"										"5"
 		"visible"									"0"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 }

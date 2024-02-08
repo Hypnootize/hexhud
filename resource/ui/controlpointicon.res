@@ -46,7 +46,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CapNumPlayers"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"rs1-1"
 		"ypos"										"cs-0.5"
 		"zpos"										"3"
@@ -90,7 +90,7 @@
 		"labelText"									"60"
 		"textAlignment"								"center"
 		"wrap"										"0"
-		"font"										"Light 11 Shadow"
+		"font"										"Light_11_Shadow"
 
 		"if_mvm"
 		{

@@ -6,23 +6,23 @@ event HudHealthBonusPulse
 
 	//SHADOW STYLE
 	Animate Health_Shadow						Alpha		"0" 								Linear	0.0		0.0
-	Animate Health_Shadow_Buff					FgColor		"Health Buff"						Linear	0.0		0.0
+	Animate Health_Shadow_Buff					FgColor		"Health_Buff"						Linear	0.0		0.0
 	Animate Health_Shadow_Buff					Alpha		"255"								Linear	0.0		0.0
 	Animate Health_Shadow_Extra					Alpha		"255"								Linear	0.0		0.0
 	Animate Health_Static_Cross_Buff			Alpha		"175"								Linear	0.0		0.0
 
 	//MINIMAL STYLE
-	Animate MINIMAL_Health						FgColor		"Health Buff"						Linear	0.0		0.0
+	Animate MINIMAL_Health						FgColor		"Health_Buff"						Linear	0.0		0.0
 
 	//BOX STYLE
 	Animate BOX_Buff							Alpha		"255"								Linear	0.0		0.0
 
 	// TARGET - SPEC - KILLER
-	Animate Health_Target_BG					BgColor		"Health Target Buff"				Linear	0.0		0.0
-	Animate Health_Spectator					FgColor		"Health Spectator Buff"				Linear	0.0		0.0
+	Animate Health_Target_BG					BgColor		"Health_Target_Buff"				Linear	0.0		0.0
+	Animate Health_Spectator					FgColor		"Health_Spectator_Buff"				Linear	0.0		0.0
 	Animate Health_Spectator_Bar_Buff			Alpha		"255"								Linear	0.0		0.0
-	Animate Health_Spectator_BG					BgColor		"Health Buff"						Linear	0.0		0.0
-	Animate Health_Killer_BG					BgColor		"Health Killer Buff"				Linear	0.0		0.0
+	Animate Health_Spectator_BG					BgColor		"Health_Buff"						Linear	0.0		0.0
+	Animate Health_Killer_BG					BgColor		"Health_Killer_Buff"				Linear	0.0		0.0
 
 	RunEvent HudHealthBonusPulseLoop			0.7
 }
@@ -39,14 +39,14 @@ event HudHealthBonusPulseStop
 	Animate Health_Static_Cross_Buff			Alpha		"0"									Linear	0.0		0.0
 
 	//MINIMAL STYLE
-	Animate MINIMAL_Health						FgColor		"Health Numbers"					Linear	0.0		0.0
+	Animate MINIMAL_Health						FgColor		"Health_Numbers"					Linear	0.0		0.0
 
 	//BOX STYLE
 	Animate BOX_Buff							Alpha		"0"									Linear	0.0		0.0
 
 	// TARGET - SPEC - KILLER
 	Animate Health_Target_BG					BgColor		"TransparentLightBlack"				Linear	0.0		0.0
-	Animate Health_Spectator					FgColor		"Health Numbers"					Linear	0.0		0.0
+	Animate Health_Spectator					FgColor		"Health_Numbers"					Linear	0.0		0.0
 	Animate Health_Spectator_Bar_Buff			Alpha		"0"									Linear	0.0		0.0
 	Animate Health_Spectator_BG					BgColor		"TransparentLightBlack"				Linear	0.0		0.0
 	Animate Health_Killer_BG					BgColor		"Background"						Linear	0.0		0.0
@@ -64,22 +64,22 @@ event HudHealthDyingPulse
 
 	//SHADOW STYLE
 	Animate Health_Shadow						Alpha		"0"									Linear	0.0		0.0
-	Animate Health_Shadow_Buff					FgColor		"Health Hurt"						Linear	0.0		0.0
+	Animate Health_Shadow_Buff					FgColor		"Health_Hurt"						Linear	0.0		0.0
 	Animate Health_Shadow_Buff					Alpha		"255"								Linear	0.0		0.0
 	Animate Health_Shadow_Extra					Alpha		"255"								Linear	0.0		0.0
 	Animate Health_Static_Cross_Hurt			Alpha		"175"								Linear	0.0		0.0
 
 	//MINIMAL STYLE
-	Animate MINIMAL_Health						FgColor		"Health Hurt"						Linear	0.0		0.0
+	Animate MINIMAL_Health						FgColor		"Health_Hurt"						Linear	0.0		0.0
 
 	//BOX STYLE
 	Animate BOX_Hurt							Alpha		"255" 								Linear	0.0		0.0
 
 	// TARGET - SPEC - KILLER
-	Animate Health_Target_BG					BgColor		"Health Target Hurt"				Linear	0.0		0.0
+	Animate Health_Target_BG					BgColor		"Health_Target_Hurt"				Linear	0.0		0.0
 	Animate Health_Spectator_Bar_Hurt			Alpha		"255"								Linear	0.0		0.0
-	Animate Health_Spectator_BG					BgColor		"Health Spectator Hurt"				Linear	0.0		0.0
-	Animate Health_Killer_BG					BgColor		"Health Killer Hurt"				Linear	0.0		0.0
+	Animate Health_Spectator_BG					BgColor		"Health_Spectator_Hurt"				Linear	0.0		0.0
+	Animate Health_Killer_BG					BgColor		"Health_Killer_Hurt"				Linear	0.0		0.0
 
 	RunEvent HudHealthDyingPulseLoop			0.4
 }
@@ -96,7 +96,7 @@ event HudHealthDyingPulseStop
 	Animate Health_Static_Cross_Hurt			Alpha		"0"									Linear	0.0		0.0
 
 	//MINIMAL STYLE
-	Animate MINIMAL_Health						FgColor		"Health Numbers"					Linear	0.0		0.0
+	Animate MINIMAL_Health						FgColor		"Health_Numbers"					Linear	0.0		0.0
 
 	//BOX STYLE
 	Animate BOX_Hurt							Alpha		"0"									Linear	0.0		0.0

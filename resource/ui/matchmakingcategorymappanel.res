@@ -24,7 +24,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"smallcheckimage"							"1"
 
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -43,7 +43,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"%title_token%"
 		"textAlignment"								"west"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"textinsetx"								"0"
 		"use_proportional_insets"					"1"
 
@@ -63,7 +63,7 @@
 		"progress"									"0.5"
 
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"GrayBluerDark"
+		"bgcolor_override"							"Gray_Bluer_Dark"
 	}
 
 	"BG"
@@ -79,6 +79,6 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 	}
 }

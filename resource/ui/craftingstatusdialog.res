@@ -14,14 +14,14 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 		"paintborder"								"1"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 	}
 
 	"CenterPositioner"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CenterPositioner"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"xpos"										"0"
 		"ypos"										"10"
 		"zpos"										"0"
@@ -47,7 +47,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -59,7 +59,7 @@
 		"centerwrap"								"1"
 		"labelText"									"%updatetext%"
 		"textAlignment"								"center"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"paintbackground"							"1"
 		"auto_wide_tocontents"						"1"
 
@@ -72,7 +72,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EllipsesLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -82,7 +82,7 @@
 		"enabled"									"1"
 		"labelText"									"%ellipses%"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"paintbackground"							"1"
 
 		"pin_to_sibling"							"TitleLabel"
@@ -102,7 +102,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#GameUI_Ok"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"close"
@@ -111,9 +111,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

@@ -31,7 +31,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 	"BuildingIcon"
@@ -90,7 +90,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Cost"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"fgcolor"									"White"
 		"xpos"										"cs-0.5-3"
 		"ypos"										"cs-0.5"
@@ -107,7 +107,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CostLabel"
-		"font"										"Light 15"
+		"font"										"Light_15"
 		"fgcolor"									"White"
 		"xpos"										"rs1-10"
 		"ypos"										"cs-0.5"
@@ -125,7 +125,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CantBuildReason"
-		"font"										"Light 9"
+		"font"										"Light_9"
 		"xpos"										"39"
 		"ypos"										"0"
 		"zpos"										"2"
@@ -139,14 +139,14 @@
 		"centerwrap"								"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"NumberLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"fgcolor"									"White"
 		"xpos"										"rs1"
 		"ypos"										"0"
@@ -160,7 +160,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 

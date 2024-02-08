@@ -40,19 +40,19 @@
 
 		"textAlignment"								"center"
 		"textinsety"								"0"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
 		"defaultBgColor_override"					"Black"
-		"armedBgColor_override"						"GrayBlueDarkest"
-		"depressedBgColor_override"					"GrayBlueDarkest"
+		"armedBgColor_override"						"Gray_Blue_Darkest"
+		"depressedBgColor_override"					"Gray_Blue_Darkest"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"CloseButton"
@@ -78,19 +78,19 @@
 
 		"textAlignment"								"center"
 		"textinsety"								"0"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 
 		"paintbackground"							"0"
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
 		"defaultBgColor_override"					"Black"
-		"armedBgColor_override"						"GrayBlueDarkest"
-		"depressedBgColor_override"					"GrayBlueDarkest"
+		"armedBgColor_override"						"Gray_Blue_Darkest"
+		"depressedBgColor_override"					"Gray_Blue_Darkest"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"Shade"

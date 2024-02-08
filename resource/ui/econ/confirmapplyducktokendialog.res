@@ -14,7 +14,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 	}
 
 	"mouseoveritempanel"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"dynamic"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -72,7 +72,7 @@
 		"centerwrap"								"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ToolBG"
@@ -135,7 +135,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
@@ -222,7 +222,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
@@ -256,7 +256,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ConfirmLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"#ToolDuckTokenConfirm"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -268,7 +268,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"CancelButton"
@@ -283,7 +283,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Cancel (&Q)"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"0"
@@ -293,9 +293,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -314,7 +314,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#CraftNameConfirm"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"1"
@@ -324,9 +324,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

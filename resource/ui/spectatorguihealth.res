@@ -34,9 +34,9 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"Bold 14"
-		"font_minmode"								"Light 12"
-		"fgcolor"									"Health Numbers"
+		"font"										"Bold_14"
+		"font_minmode"								"Light_12"
+		"fgcolor"									"Health_Numbers"
 		"proportionaltoparent"						"1"
 	}
 	"Health_Target_Shadow"
@@ -53,8 +53,8 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"Bold 14 Blur"
-		"font_minmode"								"Light 12 Blur"
+		"font"										"Bold_14_Blur"
+		"font_minmode"								"Light_12_Blur"
 		"fgcolor"									"Shadow"
 		"proportionaltoparent"						"1"
 

@@ -48,35 +48,35 @@
 		"textAlignment"								"east"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 
 		"fonts"
 		{
 			"1"
 			{
-				"font"								"Light 10"
+				"font"								"Light_10"
 			}
 
 			"2"
 			{
-				"font"								"Light 9"
+				"font"								"Light_9"
 			}
 
 			"3"
 			{
-				"font"								"Light 8"
+				"font"								"Light_8"
 			}
 
 			"4"
 			{
-				"font"								"Light 7"
+				"font"								"Light_7"
 			}
 		}
 
 		"colors"
 		{
 			"1"										"White"
-			"2"										"WhiteDark"
+			"2"										"White_Dark"
 		}
 	}
 
@@ -102,7 +102,7 @@
 
 		"radius"									"10"
 		"velocity"									"60"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 	}
 
 	"AcceptButton"
@@ -116,7 +116,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"center"
 		"Command"									"accept"
 		"proportionaltoparent"						"1"
@@ -131,13 +131,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"ButtonGreen"
-		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override"					"ButtonGreen_Hover"
+		"defaultBgColor_override"					"Button_Green"
+		"armedBgColor_override"						"Button_Green_Hover"
+		"depressedBgColor_override"					"Button_Green_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"DeclineButton"
@@ -158,7 +158,7 @@
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"center"
 		"Command"									"decline"
 		"proportionaltoparent"						"1"
@@ -173,12 +173,12 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"ButtonRed"
-		"armedBgColor_override"						"ButtonRed_Hover"
-		"depressedBgColor_override"					"ButtonRed_Hover"
+		"defaultBgColor_override"					"Button_Red"
+		"armedBgColor_override"						"Button_Red_Hover"
+		"depressedBgColor_override"					"Button_Red_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 }

@@ -213,7 +213,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ServerChangeLabel"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"textAlignment"							"center"
 			"labelText"								"%servermessage%"
 			"xpos"									"cs-0.5"

@@ -32,7 +32,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 24"
+		"font"										"Light_24"
 		"labelText"									"#Replay_ConfirmQuitTitle"
 		"textAlignment"								"north"
 		"xpos"										"0"
@@ -42,14 +42,14 @@
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ExplanationLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"#Replay_ConfirmQuit"
 		"textAlignment"								"north"
 		"xpos"										"10"
@@ -60,7 +60,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"RenderButton"
@@ -75,7 +75,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Replay_RenderNow"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"center"
 		"Command"									"rendernow"
 		"AllCaps"									"1"
@@ -83,9 +83,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -104,7 +104,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Replay_TakeMeToReplays"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"center"
 		"Command"									"gotoreplays"
 		"AllCaps"									"1"
@@ -112,9 +112,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -133,7 +133,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Replay_YesReallyQuit"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"center"
 		"Command"									"quit"
 		"AllCaps"									"1"
@@ -141,9 +141,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -155,7 +155,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"DontShowThisAgainCheckbox"
 		"labelText"									"#Replay_DontShowThisAgain"
-		"Font"										"Light 8"
+		"Font"										"Light_8"
 		"textAlignment"								"west"
 		"wrap"										"0"
 		"xpos"										"130"

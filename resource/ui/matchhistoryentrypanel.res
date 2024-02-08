@@ -40,16 +40,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
 
-			"border_default"						"BottomLineWhiteDark"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White_Dark"
+			"border_armed"							"Bottom_Line_White"
 
-			"defaultBgColor_override"				"GrayBlueDarkest"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"WinLabel"
@@ -65,7 +65,7 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"#TF_Competitive_MatchHistory_Win"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"fgcolor"								"Green"
 			"textAlignment"							"west"
 		}
@@ -83,8 +83,8 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"#TF_Competitive_MatchHistory_Loss"
-			"font"									"Light 12"
-			"fgcolor"								"RedDark"
+			"font"									"Light_12"
+			"fgcolor"								"Red_Dark"
 			"textAlignment"							"west"
 		}
 
@@ -101,8 +101,8 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"%match_date%"
-			"font"									"Light 11"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_11"
+			"fgcolor"								"White_Dark"
 			"textAlignment"							"west"
 		}
 
@@ -119,8 +119,8 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"%map_name%"
-			"font"									"Light 11"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_11"
+			"fgcolor"								"White_Dark"
 			"textAlignment"							"west"
 		}
 
@@ -137,8 +137,8 @@
 			"mouseinputenabled"						"0"
 
 			"labeltext"								"%kd_ratio%"
-			"font"									"Light 11"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_11"
+			"fgcolor"								"White_Dark"
 			"textAlignment"							"west"
 		}
 	}
@@ -227,8 +227,8 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_kills%"
-				"font"								"Light 10"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_10"
+				"fgcolor"							"White_Dark"
 				"textAlignment"						"west"
 			}
 
@@ -245,8 +245,8 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_deaths%"
-				"font"								"Light 10"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_10"
+				"fgcolor"							"White_Dark"
 				"textAlignment"						"west"
 			}
 
@@ -276,8 +276,8 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_damage%"
-				"font"								"Light 10"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_10"
+				"fgcolor"							"White_Dark"
 				"textAlignment"						"west"
 			}
 
@@ -308,8 +308,8 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_healing%"
-				"font"								"Light 10"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_10"
+				"fgcolor"							"White_Dark"
 				"textAlignment"						"west"
 			}
 
@@ -339,8 +339,8 @@
 				"mouseinputenabled"					"0"
 
 				"labeltext"							"%stat_support%"
-				"font"								"Light 10"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_10"
+				"fgcolor"							"White_Dark"
 				"textAlignment"						"west"
 			}
 
@@ -372,8 +372,8 @@
 				"pincorner"							"3"
 
 				"labeltext"							"%stat_score%"
-				"font"								"Light 10"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_10"
+				"fgcolor"							"White_Dark"
 				"textAlignment"						"west"
 			}
 

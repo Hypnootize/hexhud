@@ -20,7 +20,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 24"
+		"font"										"Light_24"
 		"labelText"									"#ConfirmTitle"
 		"textAlignment"								"north"
 		"xpos"										"0"
@@ -31,14 +31,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ExplanationLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"%text%"
 		"textAlignment"								"north"
 		"xpos"										"10"
@@ -50,7 +50,7 @@
 		"enabled"									"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ConfirmButton"
@@ -65,7 +65,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#ConfirmButtonText"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"confirm"
@@ -74,9 +74,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

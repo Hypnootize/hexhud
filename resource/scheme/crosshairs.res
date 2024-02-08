@@ -682,7 +682,7 @@
 	{
 		"100"
 		{
-			"font"	"resource/scheme/fonts/TF2Crosshairs.ttf"
+			"font"	"resource/scheme/fonts/TF2_Crosshairs.ttf"
 			"name"	"TF2Crosshairs_HH2"
 		}
 	}

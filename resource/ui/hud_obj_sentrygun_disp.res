@@ -72,7 +72,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Dark"
+			"bgcolor_override"						"Background_Dark"
 		}
 
 		"NotBuiltLabel"
@@ -131,7 +131,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Dark"
+			"bgcolor_override"						"Background_Dark"
 		}
 
 		"Icon_Upgrade_1"
@@ -147,7 +147,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_1"
-			"iconColor"								"WhiteDark"
+			"iconColor"								"White_Dark"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"IconBackgound"
@@ -168,7 +168,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_2"
-			"iconColor"								"WhiteDark"
+			"iconColor"								"White_Dark"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"IconBackgound"
@@ -189,7 +189,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_3"
-			"iconColor"								"WhiteDark"
+			"iconColor"								"White_Dark"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"IconBackgound"
@@ -280,7 +280,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"Kills"
-				"font"								"Light 8"
+				"font"								"Light_8"
 				"xpos"								"36"
 				"ypos"								"4"
 				"wide"								"40"
@@ -289,14 +289,14 @@
 				"enabled"							"1"
 				"labelText"							"Kills:"
 				"textAlignment"						"west"
-				"fgcolor"							"WhiteSolid"
+				"fgcolor"							"White_Solid"
 				"proportionaltoparent"				"1"
 			}
 			"KillsLabel"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"KillsLabel"
-				"font"								"Light 8"
+				"font"								"Light_8"
 				"xpos"								"52"
 				"ypos"								"4"
 				"wide"								"200"
@@ -305,7 +305,7 @@
 				"enabled"							"1"
 				"labelText"							"#Building_hud_sentry_kills_assists"
 				"textAlignment"						"west"
-				"drawcolor"							"WhiteSolid"
+				"drawcolor"							"White_Solid"
 				"proportionaltoparent"				"1"
 			}
 
@@ -320,7 +320,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"bgcolor_override"					"WhiteDark"
+				"bgcolor_override"					"White_Dark"
 			}
 			"ShellIcon"
 			{

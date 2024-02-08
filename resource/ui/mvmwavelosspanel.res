@@ -33,7 +33,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"HeaderLabel"
-		"font"										"Bold 24"
+		"font"										"Bold_24"
 		"labelText"									"%waveheader%"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SummaryHeader"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"labelText"									"%summaryheader%"
 		"textAlignment"								"west"
 		"xpos"										"c-250"
@@ -83,7 +83,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Header"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#TF_PVE_Credit_Collection"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -96,7 +96,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CollectedLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#TF_PVE_Collected"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -108,7 +108,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CollectedCount"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%creditscollected%"
 			"textAlignment"							"east"
 			"xpos"									"120"
@@ -121,7 +121,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MissedLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#TF_PVE_Missed"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -133,7 +133,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MissedCount"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%creditsmissed%"
 			"textAlignment"							"east"
 			"xpos"									"120"
@@ -146,7 +146,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BonusLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#TF_PVE_Bonus"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -158,7 +158,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BonusCount"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%creditbonus%"
 			"textAlignment"							"east"
 			"xpos"									"120"
@@ -182,7 +182,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Header"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#TF_PVE_Credit_Use"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -195,7 +195,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"YouLabel"
-			"font"									"Light 6"
+			"font"									"Light_6"
 			"labelText"								"#TF_PVE_You"
 			"textAlignment"							"east"
 			"xpos"									"120"
@@ -208,7 +208,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TeamLabel"
-			"font"									"Light 6"
+			"font"									"Light_6"
 			"labelText"								"#Winpanel_Team2"
 			"textAlignment"							"east"
 			"xpos"									"175"
@@ -221,7 +221,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BuybackLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#TF_PVE_Buybacks"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -234,7 +234,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BuybackCountYou"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%buybacksyou%"
 			"textAlignment"							"east"
 			"xpos"									"120"
@@ -247,7 +247,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BuybackCountTeam"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%buybacksteam%"
 			"textAlignment"							"east"
 			"xpos"									"175"
@@ -260,7 +260,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BottleLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#TF_PVE_Bottles"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -273,7 +273,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BottleCountYou"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%bottlesyou%"
 			"textAlignment"							"east"
 			"xpos"									"120"
@@ -286,7 +286,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BottleCountTeam"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%bottlesteam%"
 			"textAlignment"							"east"
 			"xpos"									"175"
@@ -299,7 +299,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"InactiveLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#TF_PVE_Inactive_Upgrades"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -312,7 +312,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ActiveCountYou"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%inactiveupgradesyou%"
 			"textAlignment"							"east"
 			"xpos"									"120"
@@ -325,7 +325,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ActiveCountTeam"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%inactiveupgradesteam%"
 			"textAlignment"							"east"
 			"xpos"									"175"
@@ -346,7 +346,7 @@
 		"tall"										"16"
 		"enabled"									"1"
 		"labelText"									"#TF_PVE_Vote_MissionRestart"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"1"
@@ -356,7 +356,7 @@
 		"image_drawcolor"							"255 255 255 255"
 		"paintbackground"							"1"
 
-		"defaultBgColor_override"					"Background Dark"
+		"defaultBgColor_override"					"Background_Dark"
 		"armedBgColor_override"						"Background"
 		"depressedBgColor_override"					"Background"
 
@@ -381,7 +381,7 @@
 		"tall"										"16"
 		"enabled"									"1"
 		"labelText"									"#ConfirmButtonText"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"continue"
@@ -391,7 +391,7 @@
 		"image_drawcolor"							"255 255 255 255"
 		"paintbackground"							"1"
 
-		"defaultBgColor_override"					"Background Dark"
+		"defaultBgColor_override"					"Background_Dark"
 		"armedBgColor_override"						"Background"
 		"depressedBgColor_override"					"Background"
 

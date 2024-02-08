@@ -1,4 +1,4 @@
-#base "../../resource/dev/ReloadSchemeButton.res"
+#base "../dev/reloadschemebutton.res"
 
 "Resource/UI/CraftingPanel.res"
 {
@@ -90,7 +90,7 @@
 				"enabled"							"1"
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"GrayBlueDark"
+				"bgcolor_override"					"Gray_Blue_Dark"
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
@@ -135,7 +135,7 @@
 
 		"recipebuttons_kv"
 		{
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"1"
@@ -146,11 +146,11 @@
 			"centerwrap"							"0"
 			"textAlignment"							"center"
 			"textinsetx"							"0"
-			"defaultFgColor_override"				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"defaultBgColor_override"				"Button"
-			"armedFgColor_override"					"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
 			"armedBgColor_override"					"Button_Hover"
-			"depressedFgColor_override"				"WhiteSolid"
+			"depressedFgColor_override"				"White_Solid"
 			"depressedBgColor_override"				"Button_Hover"
 		}
 
@@ -190,7 +190,7 @@
 		"PaintBackgroundType"						"0"
 		"PaintBackground"							"1"
 		"PaintBorder"								"1"
-		"border"									"BottomLineWhiteDark"
+		"border"									"Bottom_Line_White_Dark"
 		"bgcolor_override"							"Background_Secondary"
 	}
 	"ButtonsBG"
@@ -274,7 +274,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"InputLabel"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"#Craft_Recipe_Inputs"
 			"textAlignment"							"west"
 			"xpos"									"4"
@@ -285,13 +285,13 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 		"OutputLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OutputLabel"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"#Craft_Recipe_Outputs"
 			"textAlignment"							"west"
 			"xpos"									"4"
@@ -302,7 +302,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CraftButton"
@@ -317,7 +317,7 @@
 			"visible"								"1"
 			"enabled"								"0"
 			"labelText"								"#CraftConfirm"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"textAlignment"							"center"
 			"textinsetx"							"0"
 			"AllCaps"								"1"
@@ -328,20 +328,20 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
 
-			"defaultBgColor_override"				"ButtonGreen"
-			"armedBgColor_override"					"ButtonGreen_Hover"
-			"depressedBgColor_override"				"ButtonGreen_Hover"
+			"defaultBgColor_override"				"Button_Green"
+			"armedBgColor_override"					"Button_Green_Hover"
+			"depressedBgColor_override"				"Button_Green_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"FreeAccountLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreeAccountLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#Craft_PremiumRecipe"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -352,12 +352,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"0"
-			"fgcolor"								"RedDark"
+			"fgcolor"								"Red_Dark"
 			"PaintBackgroundType"					"0"
 			"PaintBackground"						"1"
 			"PaintBorder"							"1"
-			"border"								"BottomLineWhiteDark"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"border"								"Bottom_Line_White_Dark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 		}
 
 		"UpgradeButton"
@@ -372,7 +372,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_Trial_Upgrade"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"textAlignment"							"center"
 			"textinsetx"							"0"
 			"AllCaps"								"1"
@@ -388,8 +388,8 @@
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"RecipeTitle"
@@ -419,7 +419,7 @@
 		"noitem_textcolor"							"White"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueLight"
+		"bgcolor_override"							"Gray_Blue_Light"
 
 		"text_ypos"									"20"
 		"text_center"								"1"
@@ -429,7 +429,7 @@
 
 		"attriblabel"
 		{
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
@@ -486,13 +486,13 @@
 		"visible"									"0"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlue"
+		"bgcolor_override"							"Gray_Blue"
 
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%tiptext%"
 			"textAlignment"							"center"
 			"xpos"									"20"

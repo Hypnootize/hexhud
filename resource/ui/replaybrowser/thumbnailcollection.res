@@ -15,7 +15,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"labelText"									"%titleandcount%"
 		"textAlignment"								"west"
 		"zpos"										"2"
@@ -23,28 +23,28 @@
 		"enabled"									"1"
 		"wide"										"f0"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"DateLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DateLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"textAlignment"								"west"
 		"zpos"										"2"
 		"visible"									"0"
 		"enabled"									"1"
 		"wide"										"f0"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"WarningLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WarningLabel"
-		"font"										"Light 9"
+		"font"										"Light_9"
 		"textAlignment"								"west"
 		"zpos"										"1"
 		"visible"									"0"
@@ -61,21 +61,21 @@
 		"zpos"										"1"
 		"visible"									"0"
 		"enabled"									"1"
-		"bgcolor_override"							"GrayBlue"
+		"bgcolor_override"							"Gray_Blue"
 	}
 
 	"NoReplayItemsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NoReplayItemsLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"wide"										"400"
 		"tall"										"40"
 		"zpos"										"5"
 		"visible"									"1"
 		"enabled"									"1"
 		"centerwrap"								"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ShowPrevButton"
@@ -90,7 +90,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%prevbuttontext%"
-		"font"										"Light 9"
+		"font"										"Light_9"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"show_prev"
@@ -99,8 +99,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -118,7 +118,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%nextbuttontext%"
-		"font"										"Light 9"
+		"font"										"Light_9"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"show_next"
@@ -128,8 +128,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -145,7 +145,7 @@
 		"zpos"										"100"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"text"										"#Replay_RenderAll"
 		"Command"									"render_queued_replays"
@@ -154,8 +154,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

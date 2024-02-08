@@ -6,7 +6,7 @@
 		// CUSTOM BORDERS
 		//========================================================================
 
-		"BottomLineWhite"
+		"Bottom_Line_White"
 		{
 			"inset"									"0 0 0 0"
 
@@ -30,7 +30,7 @@
 			}
 		}
 
-		"BottomLineWhiteDark"
+		"Bottom_Line_White_Dark"
 		{
 			"inset"									"0 0 0 0"
 
@@ -38,23 +38,23 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"3"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
 		}
 
-		"BorderGrayBlueLight"
+		"Border_Gray_Blue_Light"
 		{
 			"inset"									"0 0 0 0"
 
@@ -62,22 +62,22 @@
 			{
 				"1"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 				"3"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 				"4"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 			}
@@ -85,22 +85,22 @@
 			{
 				"1"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 				"3"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 				"4"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 			}
@@ -108,22 +108,22 @@
 			{
 				"1"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 				"3"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 				"4"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 			}
@@ -131,22 +131,22 @@
 			{
 				"1"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 				"3"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 				"4"
 				{
-					"color"							"GrayBlueLight"
+					"color"							"Gray_Blue_Light"
 					"offset"						"0 0"
 				}
 			}
@@ -160,7 +160,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"BlackBlue"
+			"color"									"Black_Blue"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -172,7 +172,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDarkest"
+			"color"									"Gray_Blue_Darkest"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -184,7 +184,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -196,7 +196,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlue"
+			"color"									"Gray_Blue"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -208,7 +208,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueLight"
+			"color"									"Gray_Blue_Light"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -232,7 +232,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayLight"
+			"color"									"Gray_Light"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -376,7 +376,7 @@
 			{
 				"1"
 				{
-					"color"							"GrayBlue"
+					"color"							"Gray_Blue"
 					"offset"						"0 1"
 				}
 			}
@@ -384,7 +384,7 @@
 			{
 				"1"
 				{
-					"color"							"GrayBlue"
+					"color"							"Gray_Blue"
 					"offset"						"1 0"
 				}
 			}
@@ -392,7 +392,7 @@
 			{
 				"1"
 				{
-					"color"							"GrayBlue"
+					"color"							"Gray_Blue"
 					"offset"						"0 0"
 				}
 			}
@@ -400,7 +400,7 @@
 			{
 				"1"
 				{
-					"color"							"GrayBlue"
+					"color"							"Gray_Blue"
 					"offset"						"0 0"
 				}
 			}
@@ -412,7 +412,7 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 1"
 				}
 			}
@@ -420,7 +420,7 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"1 0"
 				}
 			}
@@ -428,7 +428,7 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -436,7 +436,7 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -486,7 +486,7 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 1"
 				}
 			}
@@ -494,7 +494,7 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"1 0"
 				}
 			}
@@ -512,7 +512,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -524,7 +524,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -537,7 +537,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -549,7 +549,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -661,17 +661,17 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"3"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -679,17 +679,17 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"3"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -697,17 +697,17 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"3"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -715,17 +715,17 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"3"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -738,12 +738,12 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -752,12 +752,12 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -766,12 +766,12 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -780,12 +780,12 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -799,17 +799,17 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"3"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -832,7 +832,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueLight"
+			"color"									"Gray_Blue_Light"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3133,7 +3133,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlue"
+			"color"									"Gray_Blue"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3196,7 +3196,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3209,7 +3209,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3270,7 +3270,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDarkest"
+			"color"									"Gray_Blue_Darkest"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3306,7 +3306,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDarkest"
+			"color"									"Gray_Blue_Darkest"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3318,7 +3318,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDarkest"
+			"color"									"Gray_Blue_Darkest"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3330,7 +3330,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDarkest"
+			"color"									"Gray_Blue_Darkest"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3342,7 +3342,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDarkest"
+			"color"									"Gray_Blue_Darkest"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3355,7 +3355,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDarkest"
+			"color"									"Gray_Blue_Darkest"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3368,7 +3368,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3381,7 +3381,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayLight"
+			"color"									"Gray_Light"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3407,7 +3407,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayLight"
+			"color"									"Gray_Light"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3433,7 +3433,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3445,7 +3445,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3457,7 +3457,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3469,7 +3469,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3481,7 +3481,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3494,7 +3494,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"WhiteDark"
+			"color"									"White_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3506,7 +3506,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"WhiteDark"
+			"color"									"White_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3522,12 +3522,12 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -3536,12 +3536,12 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -3550,12 +3550,12 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -3564,12 +3564,12 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"0 0"
 				}
 			}
@@ -3583,12 +3583,12 @@
 			{
 				"1"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"1 0"
 				}
 				"2"
 				{
-					"color"							"WhiteDark"
+					"color"							"White_Dark"
 					"offset"						"1 0"
 				}
 			}
@@ -3598,7 +3598,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDarkest"
+			"color"									"Gray_Blue_Darkest"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3611,7 +3611,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3624,7 +3624,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3636,7 +3636,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3648,7 +3648,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3660,7 +3660,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3672,7 +3672,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3684,7 +3684,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3696,7 +3696,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"
@@ -3708,7 +3708,7 @@
 		{
 			"bordertype"							"scalable_image"
 			"backgroundtype"						"0"
-			"color"									"GrayBlueDark"
+			"color"									"Gray_Blue_Dark"
 
 			"image"									"replay/thumbnails/panels/flat_generic"
 			"src_corner_height"						"32"

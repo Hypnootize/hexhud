@@ -1,4 +1,4 @@
-#base "../../resource/tools/reloadschemebutton.res"
+#base "../tools/reloadschemebutton.res"
 
 "Resource/UI/ImportMaterialEditDialog.res"
 {
@@ -74,7 +74,7 @@
 		"wrap"										"0"
 		"Command"									"EditSkin0"
 		"Default"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"defaultBgColor_override"					"Blank"
 		"armedBgColor_override"						"Blank"
 	}
@@ -93,7 +93,7 @@
 		"wrap"										"0"
 		"Command"									"EditSkin1"
 		"Default"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"defaultBgColor_override"					"Blank"
 		"armedBgColor_override"						"Blank"
 	}
@@ -102,7 +102,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 24"
+		"font"										"Light_24"
 		"textAlignment"								"east"
 		"labelText"									""
 		"xpos"										"c-100"
@@ -123,7 +123,7 @@
 		"wide"										"19"
 		"tall"										"15"
 		"use_proportional_insets"					"1"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 
 		"labelText"									"q"
@@ -131,9 +131,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -144,7 +144,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BaseTextureLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Base Texture"
 		"xpos"										"c-80"
@@ -163,7 +163,7 @@
 		"wide"										"190"
 		"tall"										"15"
 		"labelText"									"#TF_PublishFile_NoFileSelected"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"fgcolor"									"White"
 		"textAlignment"								"west"
 	}
@@ -178,7 +178,7 @@
 		"wide"										"19"
 		"tall"										"15"
 		"use_proportional_insets"					"1"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 
 		"labelText"									"q"
@@ -186,9 +186,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -204,7 +204,7 @@
 		"wide"										"15"
 		"tall"										"15"
 		"use_proportional_insets"					"1"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 
 		"labelText"									"-"
@@ -212,9 +212,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -225,7 +225,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NormalTextureLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Shared Normal"
 		"xpos"										"c-70"
@@ -244,7 +244,7 @@
 		"wide"										"190"
 		"tall"										"15"
 		"labelText"									"#TF_PublishFile_Optional"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"fgcolor"									"White"
 		"textAlignment"								"west"
 	}
@@ -253,7 +253,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"LightwarpLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Lightwarp"
 		"xpos"										"c-80"
@@ -267,7 +267,7 @@
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"LightwarpComboBox"
-		"Font"										"Light 10"
+		"Font"										"Light_10"
 		"xpos"										"c+5"
 		"ypos"										"90"
 		"wide"										"175"
@@ -277,19 +277,19 @@
 
 		"paintborder"								"0"
 
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"BlackBlue"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"BlackBlue"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Black_Blue"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Black_Blue"
 		"selectionColor_override"					"Blank"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"BlackBlue"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Black_Blue"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"defaultBgColor_override"				"Blank"
-			"armedFgColor_override"					"WhiteDark"
+			"armedFgColor_override"					"White_Dark"
 			"armedBgColor_override"					"Blank"
 			"paintbackgroundtype"					"0"
 		}
@@ -299,7 +299,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BaseMapAlphaPhongMaskLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Base Map Alpha Phong Mask"
 		"xpos"										"c-125"
@@ -314,7 +314,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"BaseMapAlphaPhongMaskCheckButton"
 		"labelText"									""
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"textAlignment"								"west"
 		"xpos"										"c+1"
 		"ypos"										"103"
@@ -336,7 +336,7 @@
 		"wide"										"19"
 		"tall"										"15"
 		"use_proportional_insets"					"1"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"west"
 
 		"labelText"									"q"
@@ -344,9 +344,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -362,7 +362,7 @@
 		"wide"										"15"
 		"tall"										"15"
 		"use_proportional_insets"					"1"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"west"
 
 		"labelText"									"-"
@@ -370,9 +370,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -383,7 +383,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PhongExponentTextureLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Shared Phong Exponent / Rim Mask"
 		"xpos"										"c-170"
@@ -402,7 +402,7 @@
 		"wide"										"190"
 		"tall"										"15"
 		"labelText"									"#TF_PublishFile_Optional"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"fgcolor"									"White"
 		"textAlignment"								"west"
 	}
@@ -411,7 +411,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PhongExponentLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Phong Exponent"
 		"xpos"										"c-100"
@@ -437,16 +437,16 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"PhongBoostLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PhongBoostLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Phong Boost"
 		"xpos"										"c-100"
@@ -472,16 +472,16 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"RimLightExponentLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RimLightExponentLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Rim Light Exponent"
 		"xpos"										"c-100"
@@ -507,16 +507,16 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"RimLightBoostLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RimLightBoostLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Rim Light Boost"
 		"xpos"										"c-100"
@@ -542,16 +542,16 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"RimMaskLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RimMaskLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Rim Mask"
 		"xpos"										"c-100"
@@ -567,7 +567,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"RimMaskCheckButton"
 		"labelText"									""
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"textAlignment"								"west"
 		"xpos"										"c+1"
 		"ypos"										"203"
@@ -583,7 +583,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"HalfLambertLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Half Lambert"
 		"xpos"										"c-100"
@@ -598,7 +598,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"HalfLambertCheckButton"
 		"labelText"									""
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"textAlignment"								"west"
 		"xpos"										"c+1"
 		"ypos"										"223"
@@ -614,7 +614,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlendTintByBaseAlphaLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Blend Tint By Base Alpha"
 		"xpos"										"c-150"
@@ -630,7 +630,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"BlendTintByBaseAlphaCheckButton"
 		"labelText"									""
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"textAlignment"								"west"
 		"xpos"										"c+1"
 		"ypos"										"243"
@@ -646,7 +646,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlendTintColorOverBaseLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Blend Tint Color Over Base"
 		"xpos"										"c-150"
@@ -673,16 +673,16 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"ColorTintBaseLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ColorTintBaseLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Color Tint Base (RGB)"
 		"xpos"										"c-150"
@@ -709,9 +709,9 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"ColorTintBaseGreenTextEntry"
@@ -730,9 +730,9 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"ColorTintBaseBlueTextEntry"
@@ -751,16 +751,16 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"AdditiveLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AdditiveLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Additive"
 		"xpos"										"c-100"
@@ -775,7 +775,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"AdditiveCheckButton"
 		"labelText"									""
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"textAlignment"								"west"
 		"xpos"										"c+1"
 		"ypos"										"293"
@@ -791,7 +791,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TranslucentLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Translucent"
 		"xpos"										"c+19"
@@ -806,7 +806,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"TranslucentCheckButton"
 		"labelText"									""
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"textAlignment"								"west"
 		"xpos"										"c+81"
 		"ypos"										"293"
@@ -822,7 +822,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AlphaTestLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Alpha Test"
 		"xpos"										"c+96"
@@ -838,7 +838,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"AlphaTestCheckButton"
 		"labelText"									""
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"textAlignment"								"west"
 		"xpos"										"c+158"
 		"ypos"										"293"
@@ -854,7 +854,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EnvmapLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Cube Map"
 		"xpos"										"c-100"
@@ -868,7 +868,7 @@
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"EnvmapComboBox"
-		"Font"										"Light 10"
+		"Font"										"Light_10"
 		"xpos"										"c+5"
 		"ypos"										"315"
 		"wide"										"175"
@@ -878,19 +878,19 @@
 
 		"paintborder"								"0"
 
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"BlackBlue"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"BlackBlue"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Black_Blue"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Black_Blue"
 		"selectionColor_override"					"Blank"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"BlackBlue"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Black_Blue"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"defaultBgColor_override"				"Blank"
-			"armedFgColor_override"					"WhiteDark"
+			"armedFgColor_override"					"White_Dark"
 			"armedBgColor_override"					"Blank"
 			"paintbackgroundtype"					"0"
 		}
@@ -900,7 +900,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EnvmapAlphaMaskLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Cube Map Alpha Mask"
 		"xpos"										"c-150"
@@ -915,7 +915,7 @@
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"EnvmapAlphaMaskComboBox"
-		"Font"										"Light 10"
+		"Font"										"Light_10"
 		"xpos"										"c+5"
 		"ypos"										"330"
 		"wide"										"175"
@@ -926,19 +926,19 @@
 
 		"paintborder"								"0"
 
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"BlackBlue"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"BlackBlue"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Black_Blue"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Black_Blue"
 		"selectionColor_override"					"Blank"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"BlackBlue"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Black_Blue"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"defaultBgColor_override"				"Blank"
-			"armedFgColor_override"					"WhiteDark"
+			"armedFgColor_override"					"White_Dark"
 			"armedBgColor_override"					"Blank"
 			"paintbackgroundtype"					"0"
 		}
@@ -948,7 +948,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EnvmapTintLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Cube Map Tint (RGB)"
 		"xpos"										"c-150"
@@ -975,9 +975,9 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"CubemapTintGreenTextEntry"
@@ -996,9 +996,9 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"CubemapTintBlueTextEntry"
@@ -1017,16 +1017,16 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"SelfIllumLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelfIllumLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Self Illumination"
 		"xpos"										"c-100"
@@ -1041,7 +1041,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"SelfIllumCheckButton"
 		"labelText"									""
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"textAlignment"								"west"
 		"xpos"										"c+1"
 		"ypos"										"357"
@@ -1063,7 +1063,7 @@
 		"wide"										"19"
 		"tall"										"15"
 		"use_proportional_insets"					"1"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 
 		"labelText"									"q"
@@ -1071,9 +1071,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -1089,7 +1089,7 @@
 		"wide"										"15"
 		"tall"										"15"
 		"use_proportional_insets"					"1"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 
 		"labelText"									"-"
@@ -1097,9 +1097,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -1110,7 +1110,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelfIllumTextureLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Shared Illum Mask"
 		"xpos"										"c-85"
@@ -1129,7 +1129,7 @@
 		"wide"										"190"
 		"tall"										"15"
 		"labelText"									"#TF_PublishFile_Optional"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"fgcolor"									"White"
 		"textAlignment"								"west"
 	}
@@ -1138,7 +1138,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelfIllumTintLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"east"
 		"labelText"									"Self Illumination Tint"
 		"xpos"										"c-150"
@@ -1165,9 +1165,9 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"SelfIllumTintGreenTextEntry"
@@ -1186,9 +1186,9 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"SelfIllumTintBlueTextEntry"
@@ -1207,9 +1207,9 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 10"
+		"font"										"Light_10"
 	}
 
 	"ButtonDone"
@@ -1226,13 +1226,13 @@
 		"textAlignment"								"center"
 		"Command"									"Done"
 		"Default"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -1253,13 +1253,13 @@
 		"textAlignment"								"center"
 		"Command"									"Close"
 		"Default"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

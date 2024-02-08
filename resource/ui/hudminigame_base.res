@@ -115,7 +115,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labelText"									"%bluescore%"
-		"font"										"Bold 18"
+		"font"										"Bold_18"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"BlueBG"
@@ -136,7 +136,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labelText"									"%bluescore%"
-		"font"										"Bold 18 Blur"
+		"font"										"Bold_18_Blur"
 		"fgcolor"									"Shadow"
 
 		"pin_to_sibling"							"BlueScore"
@@ -155,7 +155,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labelText"									"%redscore%"
-		"font"										"Bold 18"
+		"font"										"Bold_18"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"RedBG"
@@ -176,7 +176,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labelText"									"%redscore%"
-		"font"										"Bold 18 Blur"
+		"font"										"Bold_18_Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"RedScore"
 	}
@@ -195,8 +195,8 @@
 		"labelText"									"#TF_PlayingTo"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Light 8"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_8"
+		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 	}
 

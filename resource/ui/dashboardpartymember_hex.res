@@ -27,9 +27,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"GrayBlueDarkest"
+		"bgcolor_override"							"Gray_Blue_Darkest"
 		"paintborder"								"1"
-		"border"									"BottomLineWhite"
+		"border"									"Bottom_Line_White"
 
 		"proportionaltoparent"						"1"
 	}

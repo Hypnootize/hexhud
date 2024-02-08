@@ -1,4 +1,4 @@
-#base "../../../resource/dev/ReloadSchemeButton.res"
+#base "../../dev/reloadschemebutton.res"
 
 "Resource/UI/Econ/ItemPickupPanel.res"
 {
@@ -54,9 +54,9 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemsFoundLabel"
-		"font"										"Light 24"
+		"font"										"Light_24"
 		"labelText"									"#NewItemsAcquired"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
 		"ypos"										"20"
@@ -96,7 +96,7 @@
 		"tall"										"34"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"GrayBlueDarkest"
+		"bgcolor_override"							"Gray_Blue_Darkest"
 		"pin_to_sibling"							"classimage"
 	}
 
@@ -104,7 +104,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelectedItemFoundMethodLabel"
-		"font"										"Light 16"
+		"font"										"Light_16"
 		"labelText"									""
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -116,14 +116,14 @@
 		"enabled"									"1"
 		"AllCaps"									"0"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ItemCountLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemCountLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"#Item"
 		"textAlignment"								"west"
 		"xpos"										"c-245"
@@ -135,14 +135,14 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"SelectedItemNumberLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelectedItemNumberLabel"
-		"font"										"Light 30"
+		"font"										"Light_30"
 		"labelText"									"#SelectedItemNumber"
 		"textAlignment"								"north-west"
 		"xpos"										"c-245"
@@ -154,7 +154,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"NextButton"
@@ -169,7 +169,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Symbols 26"
+		"font"										"Symbols_26"
 		"textAlignment"								"center"
 		"Command"									"nextitem"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -180,9 +180,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"NextButtonShortCut"
 	{
@@ -207,7 +207,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Symbols 26"
+		"font"										"Symbols_26"
 		"textAlignment"								"center"
 		"Command"									"previtem"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -218,9 +218,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"PrevButtonShortCut"
 	{
@@ -245,7 +245,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#CloseItemPanel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"vguicancel"
 		"default"									"1"
@@ -254,9 +254,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -285,7 +285,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%loadouttext%"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"textAlignment"								"center"
 		"Command"									"changeloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -293,9 +293,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -328,7 +328,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"D"
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"textAlignment"								"center"
 		"Command"									"discarditem"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -336,9 +336,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"DiscardButtonTooltip"
@@ -360,7 +360,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"labelText"								"#DiscardItem"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5"
@@ -369,7 +369,7 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"0"
@@ -381,7 +381,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DiscardedLabel"
-		"font"										"Light 30"
+		"font"										"Light_30"
 		"labelText"									"#Discarded"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -392,7 +392,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"RedDark"
+		"fgcolor"									"Red_Dark"
 		"bgcolor_override"							"Black"
 	}
 

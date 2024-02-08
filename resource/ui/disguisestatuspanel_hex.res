@@ -70,7 +70,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DisguiseNameLabel"
-		"font"										"Light 9"
+		"font"										"Light_9"
 		"fgcolor"									"White"
 		"xpos"										"-2"
 		"ypos"										"0"
@@ -88,7 +88,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DisguiseNameLabelShadow"
-		"font"										"Light 9 Blur"
+		"font"										"Light_9_Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
@@ -107,7 +107,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WeaponNameLabel"
-		"font"										"Light 8"
+		"font"										"Light_8"
 		"fgcolor"									"White"
 		"xpos"										"-2"
 		"ypos"										"0"
@@ -139,7 +139,7 @@
 		"enabled"									"1"
 		"HealthBonusPosAdj"							"10"
 		"HealthDeathWarning"						"0.49"
-		"TFFont"									"Light 14"
+		"TFFont"									"Light_14"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
 

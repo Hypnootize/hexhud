@@ -1,5 +1,5 @@
-#base 	"../../customizations/spectator bars.res"
-#base	"hudinspectpanel.res"
+#base "../../customizations/spectator_bars.res"
+#base "hudinspectpanel.res"
 
 "Resource/UI/SpectatorTournament.res"
 {
@@ -51,7 +51,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"PlayerName"
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"xpos"								"19"
 				"ypos"								"0"
 				"zpos"								"5"
@@ -67,7 +67,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"PlayerNameShadow"
-				"font"								"Light 11 Blur"
+				"font"								"Light_11_Blur"
 				"xpos"								"-1"
 				"ypos"								"-1"
 				"zpos"								"5"
@@ -126,7 +126,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"HealthDeathWarning"				"1.0"
-				"TFFont"							"Light 11"
+				"TFFont"							"Light_11"
 				"HealthDeathWarningColor"			"HUDDeathWarning"
 				"TextColor"							"HudOffWhite"
 				"proportionaltoparent"				"1"
@@ -136,7 +136,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
-				"font"								"Bold 13"
+				"font"								"Bold_13"
 				"xpos"								"rs1"
 				"ypos"								"0"
 				"zpos"								"5"
@@ -145,7 +145,7 @@
 				"visible"							"1"
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 				"proportionaltoparent"				"1"
 			}
 
@@ -153,7 +153,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"chargeamountcover"
-				"font"								"BlocksSharp64"
+				"font"								"BlocksSharp_64"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"19"
@@ -169,7 +169,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"chargeamount"
-				"font"								"Light 10 Numbers"
+				"font"								"Light_10_Numbers"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"20"
@@ -233,7 +233,7 @@
 		"enabled"									"1"
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
-		"font"										"Light 12 Shadow"
+		"font"										"Light_12_Shadow"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
@@ -255,7 +255,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PVE_Buyback"
 		"textAlignment"								"center"
-		"font"										"Size 12 Shadow"
+		"font"										"Light_12_Shadow"
 		"wrap"										"1"
 		"centerwrap"								"1"
 

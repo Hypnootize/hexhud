@@ -30,7 +30,7 @@
 		"textAlignment"								"south"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"fgcolor"									"White"
 	}
 

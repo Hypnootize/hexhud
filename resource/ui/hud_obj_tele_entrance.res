@@ -72,7 +72,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Dark"
+			"bgcolor_override"						"Background_Dark"
 		}
 
 		"NotBuiltLabel"
@@ -131,7 +131,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Dark"
+			"bgcolor_override"						"Background_Dark"
 		}
 
 		"Icon_Upgrade_1"
@@ -147,7 +147,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_1"
-			"iconColor"								"WhiteDark"
+			"iconColor"								"White_Dark"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"IconBackgound"
@@ -168,7 +168,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_2"
-			"iconColor"								"WhiteDark"
+			"iconColor"								"White_Dark"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"IconBackgound"
@@ -189,7 +189,7 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 			"icon"									"obj_status_upgrade_3"
-			"iconColor"								"WhiteDark"
+			"iconColor"								"White_Dark"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"IconBackgound"
@@ -320,14 +320,14 @@
 					"tall"							"f0"
 					"visible"						"1"
 					"enabled"						"1"
-					"bgcolor_override"				"WhiteDark"
+					"bgcolor_override"				"White_Dark"
 					"proportionaltoparent"			"1"
 				}
 				"RechargeLabel"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RechargeLabel"
-					"font"							"Light 7"
+					"font"							"Light_7"
 					"xpos"							"0"
 					"ypos"							"0"
 					"zpos"							"3"
@@ -359,7 +359,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"Used"
-					"font"							"Light 8"
+					"font"							"Light_8"
 					"xpos"							"0"
 					"ypos"							"0"
 					"wide"							"50"
@@ -377,7 +377,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"TimesUsedLabel"
-					"font"							"Light 8"
+					"font"							"Light_8"
 					"xpos"							"20"
 					"ypos"							"0"
 					"wide"							"50"
@@ -403,7 +403,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"bgcolor_override"					"WhiteDark"
+				"bgcolor_override"					"White_Dark"
 			}
 			"UpgradeIcon"
 			{

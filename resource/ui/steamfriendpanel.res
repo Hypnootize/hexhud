@@ -50,7 +50,7 @@
 		"wrap"										"0"
 		"labelText"									"%name%"
 		"proportionaltoparent"						"1"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"mouseinputenabled"							"0"
 
 		"pin_to_sibling"							"avatar"
@@ -73,7 +73,7 @@
 		"wrap"										"0"
 		"labelText"									"%status%"
 		"proportionaltoparent"						"1"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"fgcolor_override"							"TanDark"
 		"mouseinputenabled"							"0"
 

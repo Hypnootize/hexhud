@@ -19,7 +19,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%selectbuttontext%"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"AllCaps"									"1"
@@ -31,23 +31,23 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"1"
 
-		"border_default"							"BottomLineWhiteDark"
-		"border_armed"								"BottomLineWhite"
+		"border_default"							"Bottom_Line_White_Dark"
+		"border_armed"								"Bottom_Line_White"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"ProgressLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ProgressLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"labelText"									""
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -58,7 +58,7 @@
 		"enabled"									"1"
 		"Allcaps"									"1"
 		"wrap"										"0"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 	}
 }

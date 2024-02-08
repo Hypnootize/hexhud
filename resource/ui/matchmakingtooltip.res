@@ -1,2 +1,2 @@
-#base	"..\..\customizations\#streamermode\matchmakingtooltip.res"
-#base	"matchmakingtooltip_hex.res"
+#base "..\..\customizations\#streamermode\matchmakingtooltip.res"
+#base "matchmakingtooltip_hex.res"

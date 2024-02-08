@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 8"
+		"font"										"Light_8"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
@@ -16,7 +16,7 @@
 		"textinsetx"								"5"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"

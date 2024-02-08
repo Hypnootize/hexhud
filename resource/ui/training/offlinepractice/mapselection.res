@@ -15,14 +15,14 @@
 		"paintBorder"								"1"
 		"paintBackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
-		"border"									"BottomLineWhiteDark"
+		"border"									"Bottom_Line_White_Dark"
 		"proportionaltoparent"						"1"
 	}
 	"MapNameLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapNameLabel"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"labelText"									"%mapname%"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
@@ -33,7 +33,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"TitleBG"
 	}
@@ -68,7 +68,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"textAlignment"								"center"
 		"Command"									"goprev"
 
@@ -79,9 +79,9 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"NextButton"
@@ -96,7 +96,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"textAlignment"								"center"
 		"Command"									"gonext"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -108,16 +108,16 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurPageLabel"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"labelText"									"%curpage%"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5+10"
@@ -128,7 +128,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 	}
 
@@ -146,8 +146,8 @@
 		"paintBackground"							"1"
 		"paintBorder"								"1"
 		"paintBackgroundtype"						"0"
-		"bgcolor_override"							"BlackBlue"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Black_Blue"
+		"border"									"Bottom_Line_White_Dark"
 		"proportionaltoparent"						"1"
 	}
 
@@ -155,7 +155,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DifficultyLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"Difficulty:"
 		"textAlignment"								"west"
 		"xpos"										"-10"
@@ -166,7 +166,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"SettingsBG"
@@ -176,7 +176,7 @@
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"DifficultyComboBox"
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"xpos"										"-70"
 		"ypos"										"-6"
 		"zpos"										"2"
@@ -193,20 +193,20 @@
 		"proportionaltoparent"						"1"
 		"paintborder"								"0"
 
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"GrayBlueDark"
-		"selectionColor_override"					"GrayBlueDark"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"GrayBlueDark"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Gray_Blue_Dark"
+		"selectionColor_override"					"Gray_Blue_Dark"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Gray_Blue_Dark"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
-			"defaultBgColor_override"				"GrayBlueDark"
-			"armedFgColor_override"					"WhiteDark"
-			"armedBgColor_override"					"GrayBlueDark"
+			"defaultFgColor_override"				"White_Dark"
+			"defaultBgColor_override"				"Gray_Blue_Dark"
+			"armedFgColor_override"					"White_Dark"
+			"armedBgColor_override"					"Gray_Blue_Dark"
 			"paintbackgroundtype"					"0"
 		}
 
@@ -217,7 +217,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayersLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"#IT_BotAddition_Title"
 		"textAlignment"								"west"
 		"xpos"										"20"
@@ -228,7 +228,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 
@@ -241,7 +241,7 @@
 	{
 		"ControlName"								"TextEntry"
 		"fieldName"									"NumPlayersTextEntry"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textHidden"								"0"
 		"textAlignment"								"west"
 		"unicode"									"1"
@@ -258,8 +258,8 @@
 		"selectallonfirstfocus"						"1"
 		"proportionaltoparent"						"1"
 
-		"bgcolor_override"							"GrayBlueDark"
-		"fgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"fgcolor_override"							"White_Dark"
 
 		"AllCaps"									"1"
 
@@ -272,7 +272,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SuggestedPlayerCountLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									""
 		"textAlignment"								"west"
 		"xpos"										"10"
@@ -283,7 +283,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 
 		"AllCaps"									"1"
@@ -304,7 +304,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_StartPractice"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"Command"									"startofflinepractice"
@@ -315,13 +315,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"ButtonGreen"
-		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override"					"ButtonGreen_Hover"
+		"defaultBgColor_override"					"Button_Green"
+		"armedBgColor_override"						"Button_Green_Hover"
+		"depressedBgColor_override"					"Button_Green_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"HackCoverBottomOfMapImagePanel"

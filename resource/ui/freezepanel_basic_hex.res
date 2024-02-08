@@ -54,14 +54,14 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Background Dark"
+			"bgcolor_override"						"Background_Dark"
 			"pin_to_sibling"						"DeathIconBG"
 		}
 		"DeathIcon"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DeathIcon"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"2"
@@ -89,7 +89,7 @@
 			"enabled"								"1"
 			"HealthBonusPosAdj"						"9"
 			"HealthDeathWarning"					"0.49"
-			"TFFont"								"Light 14"
+			"TFFont"								"Light_14"
 			"HealthDeathWarningColor"				"HUDDeathWarning"
 			"TextColor"								"HudOffWhite"
 
@@ -119,7 +119,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabelKiller"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"xpos"									"3"
 			"ypos"									"0"
 			"zpos"									"1"

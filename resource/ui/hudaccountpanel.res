@@ -8,7 +8,7 @@
 		"PositiveColor"								"Green"
 		"NegativeColor"								"255 0 0 155"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"Bold 14"
+		"delta_item_font"							"Bold_14"
 	}
 
 	"AccountValue"
@@ -26,7 +26,7 @@
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 		"font"										"Metal"
-		"font_minmode"								"Metal Minmode"
+		"font_minmode"								"Metal_Minmode"
 		"fgcolor"									"White"
 	}
 
@@ -44,8 +44,8 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"font"										"Metal Shadow"
-		"font_minmode"								"Metal Shadow Minmode"
+		"font"										"Metal_Shadow"
+		"font_minmode"								"Metal_Shadow_Minmode"
 		"fgcolor"									"Shadow"
 
 		"pin_to_sibling"							"AccountValue"

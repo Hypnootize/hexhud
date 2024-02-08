@@ -31,7 +31,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WinningTeamLabelDropshadow"
-			"font"									"Light 16 Blur"
+			"font"									"Light_16_Blur"
 			"fgcolor"								"Shadow"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -54,7 +54,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WinningTeamLabel"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"xpos"									"1"
 			"ypos"									"1"
 			"wide"									"f0"
@@ -65,7 +65,6 @@
 			"labelText"								"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"							"Center"
 			"proportionaltoparent"					"1"
-			"pin_to_sibling"						"WaveCompleteLabelShadow"
 		}
 	}
 
@@ -73,7 +72,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WinReasonLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"0"
 		"ypos"										"75"
 		"zpos"										"1"
@@ -90,7 +89,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DetailsLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"15"
 		"ypos"										"92"
 		"zpos"										"1"
@@ -135,7 +134,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RespecTextLabelLoss"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#TF_PVE_Respecs"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -151,7 +150,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RespecCountLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%respeccount%"
 			"textAlignment"							"center"
 			"xpos"									"145"

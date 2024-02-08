@@ -25,7 +25,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"x"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"default"									"0"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -37,8 +37,8 @@
 		"ArmedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 
-		"defaultBgColor_override"					"ButtonGreen"
-		"ArmedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override"					"ButtonGreen_Hover"
+		"defaultBgColor_override"					"Button_Green"
+		"ArmedBgColor_override"						"Button_Green_Hover"
+		"depressedBgColor_override"					"Button_Green_Hover"
 	}
 }

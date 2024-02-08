@@ -7,67 +7,67 @@
 		//=============================================================================
 
 		"Crosshair"											"230 235 240 255"
-		"Crosshair Pulse"									"255 0 0 255"
-		"Crosshair Shadow"									"0 0 0 255"
+		"Crosshair_Pulse"									"255 0 0 255"
+		"Crosshair_Shadow"									"0 0 0 255"
 		"HitMarker"											"255 0 0 255"
 
 
-		"Health Numbers"									"230 235 240 255"
+		"Health_Numbers"									"230 235 240 255"
 
-		"Health Buff"										"22 162 134 255"
-		"Health Hurt"										"250 100 100 255"
+		"Health_Buff"										"22 162 134 255"
+		"Health_Hurt"										"250 100 100 255"
 
-		"Health Target Buff"								"22 162 134 255"
-		"Health Target Hurt"								"250 100 100 255"
+		"Health_Target_Buff"								"22 162 134 255"
+		"Health_Target_Hurt"								"250 100 100 255"
 
-		"Health Spectator Buff"								"90 205 140 255"
-		"Health Spectator Hurt"								"243 155 83 255"
+		"Health_Spectator_Buff"								"90 205 140 255"
+		"Health_Spectator_Hurt"								"243 155 83 255"
 
-		"Health Killer Buff"								"22 162 134 255"
-		"Health Killer Hurt"								"250 100 100 255"
+		"Health_Killer_Buff"								"22 162 134 255"
+		"Health_Killer_Hurt"								"250 100 100 255"
 
 
 		"Shadow"											"0 0 0 175"
 
 
-		"Ammo In Clip"										"230 235 240 255"
-		"Ammo In Reserve"									"230 235 240 255"
-		"Ammo No Clip"										"230 235 240 255"
+		"Ammo_In_Clip"										"230 235 240 255"
+		"Ammo_In_Reserve"									"230 235 240 255"
+		"Ammo_No_Clip"										"230 235 240 255"
 
-		"Ammo In Clip Low"									"250 100 100 255"
-		"Ammo In Reserve Low"								"250 100 100 255"
-		"Ammo No Clip Low"									"250 100 100 255"
+		"Ammo_In_Clip_Low"									"250 100 100 255"
+		"Ammo_In_Reserve_Low"								"250 100 100 255"
+		"Ammo_No_Clip_Low"									"250 100 100 255"
 
 
 		"Ubercharge"										"230 235 240 255"
-		"Ubercharge Full"									"22 162 134 255"
+		"Ubercharge_Full"									"22 162 134 255"
 
 
-		"Heal Numbers"										"22 162 134 255"
-		"Last Damage Done"									"230 235 240 255"
+		"Heal_Numbers"										"22 162 134 255"
+		"Last_Damage_Done"									"230 235 240 255"
 
-		"Health Gained"										"22 162 134 255"
-		"Health Lost"										"250 100 100 255"
+		"Health_Gained"										"22 162 134 255"
+		"Health_Lost"										"250 100 100 255"
 
 
 		"Red"												"250 100 100 255"
-		"RedDark"											"200 60 60 255"
-		"RedDarker"											"180 45 45 255"
+		"Red_Dark"											"200 60 60 255"
+		"Red_Darker"										"180 45 45 255"
 
 		"Blue"												"140 180 210 255"
-		"BlueDark"											"85 145 190 255"
-		"BlueDarker"										"55 110 150 255"
+		"Blue_Dark"											"85 145 190 255"
+		"Blue_Darker"										"55 110 150 255"
 
 		"Green"												"22 162 134 255"
-		"GreenDark"											"15 108 89 255"
+		"Green_Dark"										"15 108 89 255"
 
 		"Yellow"											"228 186 78 255"
 
 		"Orange"											"243 155 83 255"
 
-		"Background Light"									"59 61 72 255"
+		"Background_Light"									"59 61 72 255"
 		"Background"										"45 45 55 255"
-		"Background Dark"									"25 25 35 255"
+		"Background_Dark"									"25 25 35 255"
 
 		"TransparentBackground"								"45 45 55 200"
 		"TransparentBlack"									"0 0 0 150"
@@ -77,8 +77,8 @@
 		// MENU COLORS
 		//=============================================================================
 
-		"Main Menu Background"								"15 15 20 255"		// "0 0 0 0" to remove
-		"Pause Menu Background"								"15 15 20 255"		// "0 0 0 0" to remove
+		"Main_Menu_Background"								"15 15 20 255"		// "0 0 0 0" to remove
+		"Pause_Menu_Background"								"15 15 20 255"		// "0 0 0 0" to remove
 
 		"Background_Main"									"15 15 20 255"
 		"Background_Secondary"								"25 25 32 255"
@@ -88,28 +88,28 @@
 
 		"Button"											"35 35 42 255"
 		"Button_Hover"										"50 50 57 255"
-		"ButtonGreen"										"15 108 89 255"
-		"ButtonGreen_Hover"									"22 162 134 255"
-		"ButtonRed"											"175 60 70 255"
-		"ButtonRed_Hover"									"225 71 75 255"
+		"Button_Green"										"15 108 89 255"
+		"Button_Green_Hover"								"22 162 134 255"
+		"Button_Red"										"175 60 70 255"
+		"Button_Red_Hover"									"225 71 75 255"
 
 		"White"												"235 240 245 255"
-		"WhiteSolid"										"255 255 255 255"
-		"OffWhite"											"215 220 225 255"
-		"WhiteDark"											"155 160 165 255"
-		"WhiteDarker"										"135 130 135 255"
+		"White_Solid"										"255 255 255 255"
+		"Off_White"											"215 220 225 255"
+		"White_Dark"										"155 160 165 255"
+		"White_Darker"										"135 130 135 255"
 
 		"Black"												"2 5 9 255"
-		"BlackBlue"											"15 15 20 255"
+		"Black_Blue"										"15 15 20 255"
 
-		"GrayBlueDarkest"									"25 25 32 255"
-		"GrayBlueDark"										"35 35 42 255"
-		"GrayBluerDark"										"35 36 48 255"
-		"GrayBlue"											"42 42 49 255"
-		"GrayBlueLight"										"50 50 57 255"
+		"Gray_Blue_Darkest"									"25 25 32 255"
+		"Gray_Blue_Dark"									"35 35 42 255"
+		"Gray_Bluer_Dark"									"35 36 48 255"
+		"Gray_Blue"											"42 42 49 255"
+		"Gray_Blue_Light"									"50 50 57 255"
 
 		"Gray"												"62 62 72 255"
-		"GrayLight"											"75 75 85 255"
+		"Gray_Light"										"75 75 85 255"
 
 		//=============================================================================
 		// ITEM QUALITY COLORS

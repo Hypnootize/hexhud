@@ -13,7 +13,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
-		"font"										"Light 24 Shadow"
+		"font"										"Light_24_Shadow"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.1"
 		"wide"										"40"
@@ -121,7 +121,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpLabel"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"xpos"										"cs-0.5"
 		"ypos"										"80"
 		"wide"										"600"
@@ -162,8 +162,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Light 12"
-			"fgcolor"								"OffWhite"
+			"font"									"Light_12"
+			"fgcolor"								"Off_White"
 			"xpos"									"cs-0.5"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -235,7 +235,7 @@
 				"visible"							"1"
 				"textinsetx"						"1"
 				"labelText"							"%playername%"
-				"font"								"Light 6"
+				"font"								"Light_6"
 				"textinsetx"						"1"
 				"textAlignment"						"west"
 				"bgcolor_override"					"Background"
@@ -270,7 +270,7 @@
 				"enabled"							"1"
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"0"
-				"bgcolor_override"					"Background Dark"
+				"bgcolor_override"					"Background_Dark"
 				"proportionaltoparent"				"1"
 			}
 			"healthbar"
@@ -306,7 +306,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
-				"font"								"Light 10"
+				"font"								"Light_10"
 				"xpos"								"rs1"
 				"ypos"								"0"
 				"zpos"								"10"
@@ -316,7 +316,7 @@
 				"labelText"							"%respawntime%"
 				"textinsetx"						"0"
 				"textAlignment"						"center"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 				"proportionaltoparent"				"1"
 			}
 
@@ -464,7 +464,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%blueteamname%"
 			"textAlignment"							"center"
 			"xpos"									"48"
@@ -481,7 +481,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamLabelShadow"
-			"font"									"Light 14 Blur"
+			"font"									"Light_14_Blur"
 			"labelText"								"%blueteamname%"
 			"textAlignment"							"center"
 			"xpos"									"-1"
@@ -617,7 +617,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%redteamname%"
 			"textAlignment"							"center"
 			"xpos"									"5"
@@ -634,7 +634,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamLabelShadow"
-			"font"									"Light 14 Blur"
+			"font"									"Light_14_Blur"
 			"labelText"								"%redteamname%"
 			"textAlignment"							"center"
 			"xpos"									"-1"

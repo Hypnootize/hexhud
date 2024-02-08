@@ -12,7 +12,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"TFFont"									"Size 14"
+		"TFFont"									"Light_14"
 		"TextColor"									"HudOffWhite"
 	}
 
@@ -28,7 +28,7 @@
 		"tall"										"128"
 		"visible"									"1"
 		"enabled"									"1"
-		"TFFont"									"Size 14"
+		"TFFont"									"Light_14"
 		"TextColor"									"HudOffWhite"
 	}
 }

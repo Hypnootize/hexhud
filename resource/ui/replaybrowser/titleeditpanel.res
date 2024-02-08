@@ -28,7 +28,7 @@
 		"enabled"									"1"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"		// Background is drawn explicitly in CTitleEditPanel::PaintBackground()
-		"Font"										"Light 18"
+		"Font"										"Light_18"
 	}
 
 	"ClickToEditLabel"
@@ -37,9 +37,9 @@
 		"FieldName"									"ClickToEditLabel"
 		"LabelText"									"#Replay_ClickToEdit"
 		"zpos"										"1000"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"Visible"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"CaratLabel"

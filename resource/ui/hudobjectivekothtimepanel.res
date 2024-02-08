@@ -36,8 +36,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Light 12"
-			"fgcolor"								"OffWhite"
+			"font"									"Light_12"
+			"fgcolor"								"Off_White"
 			"xpos"									"cs-0.5"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -87,8 +87,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Light 12"
-			"fgcolor"								"OffWhite"
+			"font"									"Light_12"
+			"fgcolor"								"Off_White"
 			"xpos"									"cs-0.5"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -113,7 +113,7 @@
 		"tall"										"1"
 		"visible"									"0"
 		"enabled"									"1"
-		"fillcolor"									"OffWhite"
+		"fillcolor"									"Off_White"
 		"scaleImage"								"1"
 	}
 }

@@ -15,14 +15,14 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 	}
 
 	"TextLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TextLabel"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"zpos"										"2"
@@ -33,7 +33,7 @@
 		"wrap"										"0"
 		"labelText"									"#Notifications_Present"
 		"textAlignment"								"center"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 	}

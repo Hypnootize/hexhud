@@ -52,7 +52,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RecordingInProgressLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"#Replay_RecordingInProgress"
 		"textAlignment"								"west"
 		"zpos"										"3"
@@ -67,20 +67,20 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DownloadLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"#Replay_Connecting"
 		"textAlignment"								"west"
 		"zpos"										"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ErrorLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ErrorLabel"
-		"font"										"Light 24"
+		"font"										"Light_24"
 		"labelText"									"#Replay_Error"
 		"textAlignment"								"west"
 		"zpos"										"3"
@@ -93,7 +93,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"labelText"									"Untitled"
 		"textAlignment"								"north-west"
 		"xpos"										"2"
@@ -102,7 +102,7 @@
 		"tall"										"15"
 		"zpos"										"10"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"DownloadButton"
@@ -117,7 +117,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#Replay_Download"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"center"
 		"Command"									"download"
 		"AllCaps"									"1"
@@ -126,8 +126,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -157,7 +157,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"X"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"center"
 		"Command"									"delete_replayitem"
 		"AllCaps"									"1"
@@ -166,8 +166,8 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

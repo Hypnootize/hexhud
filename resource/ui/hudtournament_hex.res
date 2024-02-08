@@ -54,7 +54,7 @@
 				"visible"							"1"
 				"textinsetx"						"1"
 				"labelText"							"%playername%"
-				"font"								"Light 6"
+				"font"								"Light_6"
 				"textAlignment"						"west"
 				"bgcolor_override"					"Background"
 				"proportionaltoparent"				"1"
@@ -62,7 +62,7 @@
 
 				"if_readymode"
 				{
-					"bgcolor_override"				"Background Light"
+					"bgcolor_override"				"Background_Light"
 				}
 			}
 
@@ -94,7 +94,7 @@
 				"enabled"							"1"
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"0"
-				"bgcolor_override"					"Background Dark"
+				"bgcolor_override"					"Background_Dark"
 				"proportionaltoparent"				"1"
 			}
 
@@ -280,8 +280,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentBLUEStateLabel"
-		"font"										"Light 9"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_9"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -366,8 +366,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentREDStateLabel"
-		"font"										"Light 9"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_9"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -402,7 +402,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentConditionLabel"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"fgcolor"									"White"
 		"xpos"										"cs-0.5"
 		"ypos"										"22"
@@ -434,7 +434,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentInstructionsLabel"
-		"font"										"Light 9"
+		"font"										"Light_9"
 		"fgcolor"									"White"
 		"xpos"										"cs-0.5"
 		"ypos"										"22"
@@ -467,7 +467,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentInstructionsLabelShadow"
-		"font"										"Light 9 Blur"
+		"font"										"Light_9_Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
@@ -500,7 +500,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"xpos"										"cs-0.5"
 		"ypos"										"r55"
 		"wide"										"40"
@@ -518,7 +518,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
-		"font"										"Light 18 Blur"
+		"font"										"Light_18_Blur"
 		"xpos"										"cs-0.5+1"
 		"ypos"										"r54"
 		"wide"										"40"

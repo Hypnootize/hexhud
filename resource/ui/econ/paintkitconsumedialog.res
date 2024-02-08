@@ -25,7 +25,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Title"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"labelText"									"#TF_UsePaintkit_Panel_Title"
 		"textAlignment"								"center"
 		"textinsetx"								"5"
@@ -41,9 +41,9 @@
 		"paintbackground"							"1"
 		"paintborder"								"1"
 		"paintbackgroundtype"						"0"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"bgcolor_override"							"Background_Secondary"
-		"border"									"BottomLineWhiteDark"
+		"border"									"Bottom_Line_White_Dark"
 	}
 
 	"BGPanel"
@@ -58,16 +58,16 @@
 		"paintbackground"							"1"
 		"paintborder"								"1"
 		"paintbackgroundtype"						"0"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 		"bgcolor_override"							"Background_Secondary"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 	}
 
 	"DescText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DescText"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"labelText"									"#TF_UsePaintkit_Panel_Desc"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -77,7 +77,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 	}
@@ -119,14 +119,14 @@
 			"proportionaltoparent"					"1"
 			"velocity"								"200"
 			"radius"								"30"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor_override"						"White_Dark"
 		}
 
 		"WorkingText"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WorkingText"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#TF_UsePaintkit_Working"
 			"textAlignment"							"north"
 			"xpos"									"cs-0.5"
@@ -135,7 +135,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
 		}
@@ -166,14 +166,14 @@
 			"proportionaltoparent"					"1"
 			"velocity"								"0"
 			"radius"								"30"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor_override"						"White_Dark"
 		}
 
 		"SuccessText"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"SuccessText"
-			"font"									"Light 24"
+			"font"									"Light_24"
 			"labelText"								"#AbuseReport_SucceededTitle"
 			"textAlignment"							"north"
 			"xpos"									"cs-0.5"
@@ -213,14 +213,14 @@
 			"proportionaltoparent"					"1"
 			"velocity"								"0"
 			"radius"								"30"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor_override"						"White_Dark"
 		}
 
 		"FailureText"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FailureText"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#TF_UsePaintkit_Failed"
 			"textAlignment"							"north"
 			"xpos"									"cs-0.5"
@@ -248,7 +248,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Cancel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
 		"Command"									"cancel"
@@ -265,8 +265,8 @@
 		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"ConfirmButton"
@@ -282,7 +282,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_QuestView_RedeemReward"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
 		"Command"									"accept"
@@ -294,12 +294,12 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"ButtonGreen"
-		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override"					"ButtonGreen_Hover"
+		"defaultBgColor_override"					"Button_Green"
+		"armedBgColor_override"						"Button_Green_Hover"
+		"depressedBgColor_override"					"Button_Green_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 }

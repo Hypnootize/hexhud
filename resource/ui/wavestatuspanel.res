@@ -18,8 +18,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WaveCountLabel"
-		"font"										"Light 9"
-		"font_minmode"								"Light 9"
+		"font"										"Light_9"
+		"font_minmode"								"Light_9"
 		"fgcolor"									"White"
 		"xpos"										"200"
 		"ypos"										"6"
@@ -62,7 +62,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SupportLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"fgcolor"									"White"
 		"xpos"										"55"
 		"ypos"										"6"

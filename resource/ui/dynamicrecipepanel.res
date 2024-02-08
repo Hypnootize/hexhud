@@ -1,4 +1,4 @@
-#base "../../resource/dev/reloadschemebutton.res"
+#base "../dev/reloadschemebutton.res"
 
 "Resource/UI/DynamicRecipePanel.res"
 {
@@ -90,7 +90,7 @@
 				"enabled"							"1"
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"GrayBlueDark"
+				"bgcolor_override"					"Gray_Blue_Dark"
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
@@ -150,7 +150,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BackpackItems"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#Dynamic_Recipe_Matching_Items"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -161,7 +161,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"wrap"									"0"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
@@ -169,7 +169,7 @@
 			"paintborder"							"1"
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background_Secondary"
-			"border"								"BottomLineWhiteDark"
+			"border"								"Bottom_Line_White_Dark"
 		}
 
 		"PrevPageButton"
@@ -184,16 +184,16 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"<"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"Command"								"prevpage"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"FgColor"								"WhiteDark"
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"FgColor"								"White_Dark"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"pin_to_sibling"						"CurPageLabel"
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
@@ -204,7 +204,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CurPageLabel"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"labelText"								"%backpackpage%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5"
@@ -214,11 +214,11 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 		}
 
 		"NextPageButton"
@@ -233,16 +233,16 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								">"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"Command"								"nextpage"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"FgColor"								"WhiteDark"
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"FgColor"								"White_Dark"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"pin_to_sibling"						"CurPageLabel"
 			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
@@ -254,7 +254,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"UntradableCheckBox"
 			"labelText"								"#Dynamic_Recipe_Untradable_Checkbox"
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"2"
 			"ypos"									"160"
@@ -264,7 +264,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 			"smallcheckimage"						"1"
 		}
@@ -281,7 +281,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#Cancel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"textinsetx"							"0"
 			"Command"								"cancel"
@@ -297,15 +297,15 @@
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"NoMatches"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NoMatches"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#Dynamic_Recipe_No_Matching_Items"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5"
@@ -315,7 +315,7 @@
 			"tall"									"50"
 			"visible"								"0"
 			"enabled"								"1"
-			"fgcolor"								"RedDark"
+			"fgcolor"								"Red_Dark"
 			"AllCaps"								"1"
 			"centerwrap"							"1"
 			"wrap"									"1"
@@ -355,7 +355,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RecipeTitle"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"labelText"								"%recipetitle%"
 			"textAlignment"							"center"
 			"textinsetx"							"5"
@@ -366,14 +366,14 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintborder"							"1"
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background_Secondary"
-			"border"								"BottomLineWhiteDark"
+			"border"								"Bottom_Line_White_Dark"
 		}
 
 		"PrevInputPageButton"
@@ -388,16 +388,16 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"<"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"Command"								"previnputpage"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"FgColor"								"WhiteDark"
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"FgColor"								"White_Dark"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"pin_to_sibling"						"CurInputPageLabel"
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
@@ -408,7 +408,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CurInputPageLabel"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"labelText"								"%inputpage%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5"
@@ -418,11 +418,11 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 			"paintbackground"						"0"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 		}
 
 		"NextInputPageButton"
@@ -437,16 +437,16 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								">"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"Command"								"nextinputpage"
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"FgColor"								"WhiteDark"
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"FgColor"								"White_Dark"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"pin_to_sibling"						"CurInputPageLabel"
 			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
@@ -457,7 +457,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"InputLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#Craft_Recipe_Inputs"
 			"textAlignment"							"west"
 			"xpos"									"9999"
@@ -468,14 +468,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"OutputLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OutputLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#Dynamic_Recipe_Outputs_Not_Complete"
 			"textAlignment"							"west"
 			"xpos"									"9999"
@@ -486,14 +486,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"UntradableLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"UntradableLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#Dynamic_Recipe_Outputs_Not_Tradable"
 			"textAlignment"							"west"
 			"xpos"									"9999"
@@ -504,7 +504,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CraftButton"
@@ -519,7 +519,7 @@
 			"visible"								"1"
 			"enabled"								"0"
 			"labelText"								"#CraftConfirm"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"textinsetx"							"0"
 			"Command"								"craft"
@@ -530,13 +530,13 @@
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
-			"defaultBgColor_override"				"ButtonGreen"
-			"armedBgColor_override"					"ButtonGreen_Hover"
-			"depressedBgColor_override"				"ButtonGreen_Hover"
+			"defaultBgColor_override"				"Button_Green"
+			"armedBgColor_override"					"Button_Green_Hover"
+			"depressedBgColor_override"				"Button_Green_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 

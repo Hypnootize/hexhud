@@ -1,4 +1,4 @@
-#base "../../resource/dev/ReloadSchemeButton.res"
+#base "../dev/reloadschemebutton.res"
 
 "Resource/UI/ItemSelectionPanel.res"
 {
@@ -79,7 +79,7 @@
 				"enabled"							"1"
 				"paintbackground"					"1"
 				"paintbackgroundtype"				"0"
-				"bgcolor_override"					"GrayBlueDark"
+				"bgcolor_override"					"Gray_Blue_Dark"
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
@@ -131,7 +131,7 @@
 			"tall"									"15"
 			"zpos"									"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -149,16 +149,16 @@
 		"textHidden"								"0"
 		"editable"									"1"
 		"unicode"									"1"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 		"bgcolor_override"							"Blank"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 11"
+		"font"										"Light_11"
 	}
 	"NameFilterBG"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NameFilterBG"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"xpos"										"20"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -169,9 +169,9 @@
 		"textAlignment"								"west"
 		"textinsetx"								"10"
 		"labeltext"									"q"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"paintbackground"							"1"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 
 		"pin_to_sibling"							"NameFilterTextEntry"
 	}
@@ -187,7 +187,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"NameFilterTextEntry"
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
@@ -206,7 +206,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Selection_ShowBackpack"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
@@ -220,9 +220,9 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"ShowSelection"
 	{
@@ -236,7 +236,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Selection_ShowSelection"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
@@ -250,9 +250,9 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"PrevPageButton"
@@ -267,14 +267,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 
@@ -297,7 +297,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurPageLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"%backpackpage%"
 		"textAlignment"								"center"
 		"xpos"										"c298"
@@ -307,7 +307,7 @@
 		"tall"										"24"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"NextPageButton"
@@ -322,14 +322,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 
@@ -352,7 +352,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NoItemsLabel"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"labelText"									"#NoItemsToEquip"
 		"textAlignment"								"center"
 		"xpos"										"135"
@@ -364,7 +364,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"RedDark"
+		"fgcolor"									"Red_Dark"
 	}
 
 	"CancelButton"
@@ -379,7 +379,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Cancel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"Command"									"vguicancel"
@@ -391,7 +391,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"OnlyAllowUniqueQuality"
 		"labelText"									"#OnlyAllowUniqueQuality"
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"textAlignment"								"west"
 		"xpos"										"c-202"
 		"ypos"										"r173"
@@ -426,7 +426,7 @@
 
 		"attriblabel"
 		{
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"

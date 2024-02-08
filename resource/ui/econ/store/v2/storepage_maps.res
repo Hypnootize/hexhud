@@ -1,4 +1,4 @@
-#base 	"storepage.res"
+#base "storepage.res"
 
 "Resource/UI/Econ/Store/V2/StorePage_Maps.res"
 {
@@ -83,7 +83,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"#Store_Maps_Title"
 		"textAlignment"								"west"
 		"xpos"										"c-296"
@@ -94,14 +94,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"SubTitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SubTitleLabel"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"labelText"									"#Store_Maps_SubTitle"
 		"textAlignment"								"south-west"
 		"xpos"										"c-301"
@@ -127,7 +127,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"learn more"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"textAlignment"								"center"
 		"Command"									"maps_learnmore"
 		"AllCaps"									"1"
@@ -135,9 +135,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

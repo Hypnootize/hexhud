@@ -1,4 +1,4 @@
-#base "../../../../../resource/dev/reloadschemebutton.res"
+#base "../../../../dev/reloadschemebutton.res"
 
 "Resource/UI/Econ/Store/V2/StoreViewCartPanel.res"
 {
@@ -19,7 +19,7 @@
 		"outoffocus_bgcolor_override"				"Background_Main"
 
 		"title"										"#StoreTitle"
-		"title_font"								"Light 24"
+		"title_font"								"Light_24"
 		"titletextinsetX"							"40"
 		"titletextinsetY"							"0"
 		"titlebarfgcolor_override"					"Blank"
@@ -84,14 +84,14 @@
 				"enabled"							"1"
 				"paintbackground"					"1"
 				"proportionaltoparent"				"1"
-				"bgcolor_override"					"GrayBlueDark"
+				"bgcolor_override"					"Gray_Blue_Dark"
 			}
 
 			"quantitylabel"
 			{
 				"ControlName"						"CExLabel"
 				"fieldname"							"quantitylabel"
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"textAlignment"						"north-east"
 				"xpos"								"70"
 				"ypos"								"45"
@@ -101,7 +101,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"%quantity%"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 
 			"SeparatorLine"
@@ -128,7 +128,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"#Store_Remove"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"center"
 				"default"							"1"
 				"AllCaps"							"1"
@@ -138,11 +138,11 @@
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
-				"defaultBgColor_override"			"GrayBlue"
+				"defaultBgColor_override"			"Gray_Blue"
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
@@ -151,7 +151,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldname"							"PriceLabel"
-				"font"								"Light 16"
+				"font"								"Light_16"
 				"textAlignment"						"east"
 				"xpos"								"475"
 				"ypos"								"0"
@@ -161,7 +161,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							"%price%"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 		}
 	}
@@ -208,7 +208,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CartItemsLabel"
-			"font"									"Light 24"
+			"font"									"Light_24"
 			"labelText"								"%storecart%"
 			"textAlignment"							"west"
 			"xpos"									"c-296"
@@ -219,7 +219,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"SeparatorLine"
@@ -238,7 +238,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"EmptyCartLabel"
-			"font"									"Light 24"
+			"font"									"Light_24"
 			"labelText"								"#Store_CartIsEmpty"
 			"textAlignment"							"center"
 			"xpos"									"c-300"
@@ -278,7 +278,7 @@
 				"Slider"
 				{
 					"PaintBackgroundType"			"0"
-					"fgcolor_override"				"WhiteDark"
+					"fgcolor_override"				"White_Dark"
 				}
 
 				"nobuttons"							"1"
@@ -340,7 +340,7 @@
 					{
 						"ControlName"				"CExLabel"
 						"fieldName"					"EstimatedTotalLabel"
-						"font"						"Light 14"
+						"font"						"Light_14"
 						"labelText"					"#Store_EstimatedTotal"
 						"textAlignment"				"south-east"
 						"xpos"						"0"
@@ -351,13 +351,13 @@
 						"visible"					"1"
 						"enabled"					"1"
 						"AllCaps"					"1"
-						"fgcolor"					"WhiteDark"
+						"fgcolor"					"White_Dark"
 					}
 					"WashingtonStateSalesTaxLabel"
 					{
 						"ControlName"				"CExLabel"
 						"fieldName"					"WashingtonStateSalesTaxLabel"
-						"font"						"Light 11"
+						"font"						"Light_11"
 						"labelText"					"#Store_WAStateSalesTax"
 						"textAlignment"				"north-east"
 						"xpos"						"0"
@@ -368,13 +368,13 @@
 						"visible"					"1"
 						"enabled"					"1"
 						"AllCaps"					"1"
-						"fgcolor"					"WhiteDark"
+						"fgcolor"					"White_Dark"
 					}
 					"TotalSubtextLabelB"
 					{
 						"ControlName"				"CExLabel"
 						"fieldName"					"TotalSubtextLabelB"
-						"font"						"Light 11"
+						"font"						"Light_11"
 						"labelText"					"#Store_TotalSubtextB"
 						"textAlignment"				"north-east"
 						"xpos"						"0"
@@ -385,14 +385,14 @@
 						"visible"					"1"
 						"enabled"					"1"
 						"AllCaps"					"1"
-						"fgcolor"					"WhiteDark"
+						"fgcolor"					"White_Dark"
 					}
 
 					"TotalPriceLabel"
 					{
 						"ControlName"				"CExLabel"
 						"fieldname"					"TotalPriceLabel"
-						"font"						"Light 16"
+						"font"						"Light_16"
 						"textAlignment"				"east"
 						"xpos"						"475"
 						"ypos"						"0"
@@ -403,7 +403,7 @@
 						"enabled"					"1"
 						"AllCaps"					"1"
 						"labelText"					"%totalprice%"
-						"fgcolor"					"RedDark"
+						"fgcolor"					"Red_Dark"
 					}
 
 				}
@@ -423,7 +423,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Back"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"AllCaps"									"1"
@@ -434,13 +434,13 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 
-		"defaultBgColor_override"					"GrayBlueDarkest"
+		"defaultBgColor_override"					"Gray_Blue_Darkest"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"CloseShortKey"
 	{
@@ -464,7 +464,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"CHECKOUT"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"checkout"
@@ -474,13 +474,13 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 
-		"defaultBgColor_override"					"GrayBlueDarkest"
+		"defaultBgColor_override"					"Gray_Blue_Darkest"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"BackgroundHeader"

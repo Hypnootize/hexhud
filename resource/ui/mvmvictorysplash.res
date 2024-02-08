@@ -28,7 +28,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"SplashLabel"
-			"font"									"Bold 30"
+			"font"									"Bold_30"
 			"labelText"								"#TF_MVM_Victory"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -43,7 +43,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"SplashLabelShadow"
-			"font"									"Bold 30 Blur"
+			"font"									"Bold_30_Blur"
 			"labelText"								"#TF_MVM_Victory"
 			"textAlignment"							"center"
 			"xpos"									"-1"

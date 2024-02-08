@@ -21,7 +21,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"3"
 		"ypos"										"0"
 		"zpos"										"11"
@@ -39,7 +39,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabelDropshadow"
-		"font"										"Light 12 Blur"
+		"font"										"Light_12_Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
@@ -59,8 +59,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ToggleLabel"
-		"font"										"Light 7"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_7"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"rs1"
 		"zpos"										"2"
@@ -73,7 +73,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 	"class_item_red_1"
@@ -322,8 +322,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel1"
-		"font"										"Light 11"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_11"
+		"fgcolor"									"Off_White"
 		"xpos"										"80"
 		"ypos"										"43"
 		"zpos"										"13"
@@ -337,15 +337,15 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 	"NumberLabel2"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel2"
-		"font"										"Light 11"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_11"
+		"fgcolor"									"Off_White"
 		"xpos"										"80"
 		"ypos"										"105"
 		"zpos"										"13"
@@ -359,15 +359,15 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 	"NumberLabel3"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel3"
-		"font"										"Light 11"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_11"
+		"fgcolor"									"Off_White"
 		"xpos"										"80"
 		"ypos"										"168"
 		"zpos"										"13"
@@ -381,7 +381,7 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 

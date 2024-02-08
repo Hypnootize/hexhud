@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"%title%"
 		"textAlignment"								"north"
 		"xpos"										"cs-0.5"
@@ -16,7 +16,7 @@
 		"wrap"										"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"auto_tall_tocontents"						"1"
 	}
 
@@ -24,7 +24,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TextLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"%body%"
 		"textAlignment"								"north-west"
 		"xpos"										"cs-0.5"
@@ -35,7 +35,7 @@
 		"enabled"									"1"
 		"wrap"										"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"auto_tall_tocontents"						"1"
 	}
 
@@ -51,7 +51,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"%"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"close"
@@ -61,9 +61,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"PrevButton"
@@ -78,7 +78,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"#"
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"prevexplanation"
@@ -89,9 +89,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"NextButton"
 	{
@@ -105,7 +105,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"$"
-		"font"										"Symbols 24"
+		"font"										"Symbols_24"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"nextexplanation"
@@ -116,15 +116,15 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 	"PositionLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PositionLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"%explanationnumber%"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -134,7 +134,7 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"
 	}

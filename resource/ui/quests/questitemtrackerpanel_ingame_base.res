@@ -272,7 +272,7 @@
 		"zpos"										"4"
 		"proportionaltoparent"						"1"
 		"labeltext"									"%itemname%"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"TextAlignment"								"north-east"
 		"textinsetx"								"5"
 		"fgcolor_override"							"White"

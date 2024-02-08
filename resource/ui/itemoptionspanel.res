@@ -65,7 +65,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"labelText"								"#TF_Item_SelectStyle"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -74,8 +74,8 @@
 			"paintbackground"						"1"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"

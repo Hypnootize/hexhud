@@ -46,8 +46,8 @@
 		"labeltext"									"Ping Settings"
 		"AllCaps"									"1"
 		"textAlignment"								"center"
-		"font"										"Light 22"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_22"
+		"fgcolor"									"White_Dark"
 
 		"mouseinputenabled"							"0"
 	}
@@ -65,11 +65,11 @@
 		"labeltext"									"#TF_MM_InviteMode"
 		"textAlignment"								"west"
 		"textinsetx"								"5"
-		"font"										"Light 10"
+		"font"										"Light_10"
 		"smallcheckimage"							"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"button_activation_type"					"1"
@@ -84,27 +84,27 @@
 		"wide"										"f10"
 		"tall"										"15"
 		"textAlignment"								"west"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"keyboardinputenabled"						"0"
 		"proportionaltoparent"						"1"
 
 		"editable"									"0"
 		"paintborder"								"0"
 
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"GrayBlueDark"
-		"selectionColor_override"					"GrayBlueDark"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"GrayBlueDark"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Gray_Blue_Dark"
+		"selectionColor_override"					"Gray_Blue_Dark"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Gray_Blue_Dark"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
-			"defaultBgColor_override"				"GrayBlueDark"
-			"armedFgColor_override"					"WhiteDark"
-			"armedBgColor_override"					"GrayBlueDark"
+			"defaultFgColor_override"				"White_Dark"
+			"defaultBgColor_override"				"Gray_Blue_Dark"
+			"armedFgColor_override"					"White_Dark"
+			"armedBgColor_override"					"Gray_Blue_Dark"
 			"paintbackgroundtype"					"0"
 		}
 
@@ -125,10 +125,10 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_IgnoreInvites"
 		"textAlignment"								"west"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"smallcheckimage"							"1"
-		"fgcolor_override"							"WhiteDark"
-		"fgcolor"									"WhiteDark"
+		"fgcolor_override"							"White_Dark"
+		"fgcolor"									"White_Dark"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"button_activation_type"					"1"
@@ -148,7 +148,7 @@
 		"PaintBackground"							"1"
 		"PaintBorder"								"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"IgnorePartyInvites"
 	}
@@ -165,7 +165,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"smallcheckimage"							"1"
 		"enabled"									"0"
 
@@ -188,13 +188,13 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_MM_PartySameTeam"
 		"textAlignment"								"west"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"smallcheckimage"							"1"
 		"wrap"										"1"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"button_activation_type"					"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 
 		"pin_to_sibling"							"KeepPartyOnSameTeam"
 	}
@@ -211,7 +211,7 @@
 		"PaintBackground"							"1"
 		"PaintBorder"								"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"KeepPartyOnSameTeam"
 	}
@@ -228,7 +228,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"smallcheckimage"							"1"
 		"actionsignallevel"							"1"
 
@@ -253,9 +253,9 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_LobbyContainer_CustomPingButton"
 		"textAlignment"								"west"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"smallcheckimage"							"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"button_activation_type"					"1"
@@ -275,7 +275,7 @@
 		"PaintBackground"							"1"
 		"PaintBorder"								"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"CustomPingCheckButton"
 	}
@@ -292,11 +292,11 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"center"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"mouseinputenabled"							"0"
 
 		"pin_to_sibling"							"CustomPingCheckButton"
@@ -317,7 +317,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 
 		"cvar_name"									"tf_mm_custom_ping"
 		"use_convar_minmax"							"1"
@@ -340,7 +340,7 @@
 		"PaintBackground"							"1"
 		"PaintBorder"								"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 		"proportionaltoparent"						"1"
 	}
 
@@ -384,7 +384,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"				"WhiteDark"
+					"fgcolor_override"				"White_Dark"
 				}
 
 				"UpButton"
@@ -439,7 +439,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"textAlignment"								"east"
-		"font"										"Light 14"
+		"font"										"Light_14"
 
 		"armedBgColor_override"						"Blank"
 		"defaultBgColor_override"					"Blank"
@@ -471,7 +471,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"textAlignment"								"west"
-		"font"										"Light 14"
+		"font"										"Light_14"
 
 		"armedBgColor_override"						"Blank"
 		"defaultBgColor_override"					"Blank"
@@ -547,9 +547,9 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_LobbyContainer_CustomPingDesc"
 		"textAlignment"								"north-west"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"wrap"										"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"AllCaps"									"1"
 
 		"sound_depressed"							"UI/buttonclick.wav"

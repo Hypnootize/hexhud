@@ -53,7 +53,7 @@
 		"enabled"									"1"
 		"labelText"									"#game_Overtime"
 		"textAlignment"								"center"
-		"font"										"Light 8"
+		"font"										"Light_8"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
@@ -74,12 +74,12 @@
 		"enabled"									"1"
 		"labelText"									"#game_Setup"
 		"textAlignment"								"center"
-		"font"										"Light 8"
+		"font"										"Light_8"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"bgcolor_override"							"Background"
 	}
 
@@ -96,7 +96,7 @@
 		"enabled"									"1"
 		"labelText"									"%servertimeleft%"
 		"textAlignment"								"center"
-		"font"										"Light 10 Shadow"
+		"font"										"Light_10_Shadow"
 		"proportionaltoparent"						"1"
 	}
 

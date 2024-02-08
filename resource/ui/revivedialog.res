@@ -19,7 +19,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#ConfirmTitle"
 			"textAlignment"							"north"
 			"xpos"									"0"
@@ -37,7 +37,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ExplanationLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%text%"
 			"textAlignment"							"north"
 			"xpos"									"10"
@@ -63,7 +63,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#ConfirmButtonText"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"textAlignment"							"center"
 			"Command"								"confirm"
 			"AllCaps"								"1"
@@ -73,8 +73,8 @@
 			"paintbackground"						"1"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"defaultBgColor_override"				"TransparentLightBlack"
 			"armedBgColor_override"					"TransparentBlack"
@@ -94,7 +94,7 @@
 			"enabled"								"1"
 			"HealthBonusPosAdj"						"10"
 			"HealthDeathWarning"					"0.49"
-			"TFFont"								"Size 11"
+			"TFFont"								"Light_11"
 			"HealthDeathWarningColor"				"HUDDeathWarning"
 			"TextColor"								"HudOffWhite"
 			"proportionaltoparent"					"1"

@@ -28,7 +28,7 @@
 			"wide"									"70"
 			"tall"									"50"
 			"bgcolor_override"						"Blank"
-			"noitem_textcolor"						"WhiteDark"
+			"noitem_textcolor"						"White_Dark"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"
 
@@ -92,7 +92,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Dark"
+			"bgcolor_override"						"Background_Dark"
 		}
 
 		"InnerPanelRim"
@@ -123,7 +123,7 @@
 			"visible"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Dark"
+			"bgcolor_override"						"Background_Dark"
 		}
 
 		"PlayerUpgradeButton"
@@ -138,7 +138,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"PLAYER"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
 			"Command"								"PlayerUpgrade"
@@ -205,7 +205,7 @@
 			"tall"									"54"
 			"visible"								"0"
 			"enabled"								"1"
-			"bgcolor_override"						"WhiteDark"
+			"bgcolor_override"						"White_Dark"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -220,7 +220,7 @@
 			"tall"									"48"
 			"visible"								"0"
 			"enabled"								"1"
-			"bgcolor_override"						"WhiteDark"
+			"bgcolor_override"						"White_Dark"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -235,7 +235,7 @@
 			"tall"									"54"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -250,7 +250,7 @@
 			"tall"									"54"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -265,7 +265,7 @@
 			"tall"									"54"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -280,7 +280,7 @@
 			"tall"									"54"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -295,7 +295,7 @@
 			"tall"									"54"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -310,7 +310,7 @@
 			"tall"									"54"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -325,14 +325,14 @@
 			"tall"									"5"
 			"visible"								"0"
 			"enabled"								"1"
-			"bgcolor_override"						"WhiteDark"
+			"bgcolor_override"						"White_Dark"
 		}
 
 		"GreyedOutLabel"							//DEAD
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"GreyedOutLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%powerup_hint%"
 			"textAlignment"							"north"
 			"wrap"									"1"
@@ -345,7 +345,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"mouseinputenabled"						"0"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"QuickEquipButton"							//DEAD
@@ -360,7 +360,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"labelText"								"#TF_PVE_Quick_Equip_Bottle"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
 			"Command"								"quick_equip_bottle"
@@ -380,7 +380,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"labelText"								"#OpenGeneralLoadout"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"textAlignment"							"center"
 			"textinsetx"							"50"
 			"Command"								"open_charinfo_direct"
@@ -407,7 +407,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"UpgradeItemsDescriptionLabel"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"labelText"								"%upgrade_description%"
 			"textAlignment"							"center"
 			"wrap"									"1"
@@ -420,7 +420,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"OffWhite"
+			"fgcolor"								"Off_White"
 		}
 
 		"UpgradeItemsBG"
@@ -450,14 +450,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 		}
 
 		"UpgradeItemsLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"UpgradeItemsLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"%upgrade_label%"
 			"textAlignment"							"center"
 			"xpos"									"25"
@@ -475,7 +475,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"UpgradeItemStatsLabel"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"labelText"								""
 			"textAlignment"							"north-west"
 			"xpos"									"30"
@@ -487,7 +487,7 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CreditsBG"
@@ -508,7 +508,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditsIcon"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"labelText"								"6"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -521,15 +521,15 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Light"
-			"fgcolor"								"OffWhite"
+			"bgcolor_override"						"Background_Light"
+			"fgcolor"								"Off_White"
 			"pin_to_sibling"						"CreditsBG"
 		}
 		"CreditsLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CreditsLabel"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"labelText"								"%credits%"
 			"textAlignment"							"center"
 			"xpos"									"-2"
@@ -559,7 +559,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_PVE_UpgradeCancel"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"textAlignment"							"center"
 			"Command"								"cancel"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -569,13 +569,13 @@
 
 			"paintbackground"						"1"
 
-			"defaultFgColor_override"				"OffWhite"
+			"defaultFgColor_override"				"Off_White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override"				"OffWhite"
+			"depressedFgColor_override"				"Off_White"
 
 			"defaultBgColor_override"				"Background"
-			"armedBgColor_override"					"Background Light"
-			"depressedBgColor_override"				"Background Light"
+			"armedBgColor_override"					"Background_Light"
+			"depressedBgColor_override"				"Background_Light"
 		}
 
 		"CloseButton"
@@ -590,7 +590,7 @@
 			"visible"								"1"
 			"enabled"								"0"
 			"labelText"								"#TF_PVE_UpgradeDone"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"textAlignment"							"center"
 			"Command"								"close"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -600,13 +600,13 @@
 
 			"paintbackground"						"1"
 
-			"defaultFgColor_override"				"OffWhite"
+			"defaultFgColor_override"				"Off_White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override"				"OffWhite"
+			"depressedFgColor_override"				"Off_White"
 
 			"defaultBgColor_override"				"Background"
-			"armedBgColor_override"					"Background Light"
-			"depressedBgColor_override"				"Background Light"
+			"armedBgColor_override"					"Background_Light"
+			"depressedBgColor_override"				"Background_Light"
 		}
 
 		"RespecButton"
@@ -621,7 +621,7 @@
 			"visible"								"0"
 			"enabled"								"0"
 			"labelText"								"#TF_PVE_UpgradeRespec"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"textAlignment"							"center"
 			"Command"								"respec"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -631,13 +631,13 @@
 
 			"paintbackground"						"1"
 
-			"defaultFgColor_override"				"OffWhite"
+			"defaultFgColor_override"				"Off_White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override"				"OffWhite"
+			"depressedFgColor_override"				"Off_White"
 
 			"defaultBgColor_override"				"Background"
-			"armedBgColor_override"					"Background Light"
-			"depressedBgColor_override"				"Background Light"
+			"armedBgColor_override"					"Background_Light"
+			"depressedBgColor_override"				"Background_Light"
 		}
 
 		"CreditsTextLabel"

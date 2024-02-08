@@ -32,7 +32,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextInPassRange"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"xpos"									"cs-0.5"
 			"ypos"									"2"
 			"zpos"									"3"
@@ -51,7 +51,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLockedOn"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"xpos"									"cs-0.5"
 			"ypos"									"2"
 			"zpos"									"3"
@@ -70,7 +70,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextPassIncoming"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"xpos"									"cs-0.5"
 			"ypos"									"2"
 			"zpos"									"3"
@@ -89,7 +89,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextPlayerName"
-			"font"									"Light 8"
+			"font"									"Light_8"
 			"xpos"									"cs-0.5"
 			"ypos"									"rs1-2"
 			"zpos"									"3"

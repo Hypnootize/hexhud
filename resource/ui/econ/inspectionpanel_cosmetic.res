@@ -58,16 +58,16 @@
 				"visible"							"0"
 				"enabled"							"1"
 				"labelText"							"<"
-				"font"								"Symbols 22"
+				"font"								"Symbols_22"
 				"textAlignment"						"center"
 				"sound_depressed"					"UI/buttonclick.wav"
 
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -86,16 +86,16 @@
 				"visible"							"0"
 				"enabled"							"1"
 				"labelText"							">"
-				"font"								"Symbols 22"
+				"font"								"Symbols_22"
 				"textAlignment"						"center"
 				"sound_depressed"					"UI/buttonclick.wav"
 
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -114,7 +114,7 @@
 				"visible"							"0"
 				"enabled"							"1"
 				"labelText"							"r"
-				"font"								"Symbols 22"
+				"font"								"Symbols_22"
 				"textAlignment"						"center"
 				"default"							"0"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -123,9 +123,9 @@
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -149,7 +149,7 @@
 		"Slider"
 		{
 			"PaintBackgroundType"					"0"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor_override"						"White_Dark"
 		}
 	}
 
@@ -184,7 +184,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 
 		"PreviewViewportBg"
 		{
@@ -199,7 +199,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"BlackBlue"
+			"bgcolor_override"						"Black_Blue"
 			"proportionaltoparent"					"1"
 		}
 
@@ -207,7 +207,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ItemNameLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%itemname%"
 			"textAlignment"							"west"
 			"xpos"									"245"
@@ -252,7 +252,7 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"ItemLevelInfoLabel"
-					"font"							"Light 8"
+					"font"							"Light_8"
 					"labelText"						"%item_level_info%"
 					"textAlignment"					"north-west"
 					"wide"							"228"
@@ -260,14 +260,14 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
-					"fgcolor"						"WhiteDark"
+					"fgcolor"						"White_Dark"
 				}
 
 				"RestrictionsLabel"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RestrictionsLabel"
-					"font"							"Light 8"
+					"font"							"Light_8"
 					"labelText"						"#Store_ItemDesc_Restrictions"
 					"textAlignment"					"north-west"
 					"wide"							"228"
@@ -275,14 +275,14 @@
 					"visible"						"0"
 					"enabled"						"1"
 					"wrap"							"1"
-					"fgcolor"						"WhiteDark"
+					"fgcolor"						"White_Dark"
 				}
 
 				"RestrictionsTextLabel"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RestrictionsTextLabel"
-					"font"							"Light 8"
+					"font"							"Light_8"
 					"labelText"						"#Store_HolidayRestrictionText"
 					"textAlignment"					"north-west"
 					"wide"							"228"
@@ -290,14 +290,14 @@
 					"visible"						"0"
 					"enabled"						"1"
 					"wrap"							"1"
-					"fgcolor"						"WhiteDark"
+					"fgcolor"						"White_Dark"
 				}
 
 				"UsedByLabel"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"UsedByLabel"
-					"font"							"Light 8"
+					"font"							"Light_8"
 					"labelText"						"#Store_ItemDesc_UsedBy"
 					"textAlignment"					"north-west"
 					"wide"							"228"
@@ -305,14 +305,14 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
-					"fgcolor"						"WhiteDark"
+					"fgcolor"						"White_Dark"
 				}
 
 				"UsedByTextLabel"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"UsedByTextLabel"
-					"font"							"Light 8"
+					"font"							"Light_8"
 					"labelText"						"%used_by_classes%"
 					"textAlignment"					"north-west"
 					"wide"							"228"
@@ -320,14 +320,14 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
-					"fgcolor"						"WhiteDark"
+					"fgcolor"						"White_Dark"
 				}
 
 				"SlotLabel"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"SlotLabel"
-					"font"							"Light 8"
+					"font"							"Light_8"
 					"labelText"						"#Store_ItemDesc_Slot"
 					"textAlignment"					"north-west"
 					"wide"							"228"
@@ -335,14 +335,14 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
-					"fgcolor"						"WhiteDark"
+					"fgcolor"						"White_Dark"
 				}
 
 				"SlotTextLabel"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"SlotTextLabel"
-					"font"							"Light 8"
+					"font"							"Light_8"
 					"labelText"						"%slot%"
 					"textAlignment"					"north-west"
 					"wide"							"228"
@@ -350,14 +350,14 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
-					"fgcolor"						"WhiteDark"
+					"fgcolor"						"White_Dark"
 				}
 
 				"ArmoryTextLabel"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"ArmoryTextLabel"
-					"font"							"Light 8"
+					"font"							"Light_8"
 					"textAlignment"					"north-west"
 					"wide"							"228"
 					"tall"							"10"
@@ -365,21 +365,21 @@
 					"enabled"						"1"
 					"wrap"							"1"
 					"labeltext"						"%armory_text%"
-					"fgcolor"						"WhiteDark"
+					"fgcolor"						"White_Dark"
 				}
 
 				"AttributesLabel"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"AttributesLabel"
-					"font"							"Light 8"
+					"font"							"Light_8"
 					"textAlignment"					"north-west"
 					"wide"							"228"
 					"tall"							"10"
 					"visible"						"1"
 					"enabled"						"1"
 					"wrap"							"1"
-					"fgcolor"						"WhiteDark"
+					"fgcolor"						"White_Dark"
 				}
 
 				"collectionhighlight"
@@ -406,7 +406,7 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"labelText"						"#Store_ItemDesc_ItemWikiPage"
-					"font"							"Light 12"
+					"font"							"Light_12"
 					"textAlignment"					"center"
 					"AllCaps"						"1"
 					"command"						"viewwikipage"
@@ -415,9 +415,9 @@
 					"proportionaltoparent"			"1"
 					"paintbackground"				"1"
 
-					"defaultFgColor_override"		"WhiteDark"
-					"armedFgColor_override"			"WhiteSolid"
-					"depressedFgColor_override"		"WhiteSolid"
+					"defaultFgColor_override"		"White_Dark"
+					"armedFgColor_override"			"White_Solid"
+					"depressedFgColor_override"		"White_Solid"
 
 					"defaultBgColor_override"		"Button"
 					"armedBgColor_override"			"Button_Hover"
@@ -510,7 +510,7 @@
 		"wide"										"30"
 		"tall"										"20"
 		"visible"									"1"
-		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor"								"White_Dark"
 		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
@@ -565,7 +565,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor"								"White_Dark"
 		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
@@ -581,7 +581,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor"								"White_Dark"
 		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
@@ -597,7 +597,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor"								"White_Dark"
 		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
@@ -613,7 +613,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor"								"White_Dark"
 		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
@@ -629,7 +629,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor"								"White_Dark"
 		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
@@ -645,7 +645,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"panel_bgcolor"								"WhiteDark"
+		"panel_bgcolor"								"White_Dark"
 		"panel_bgcolor_mouseover"					"White"
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
@@ -663,7 +663,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"command"									"icons_left"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -671,9 +671,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -692,7 +692,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"command"									"icons_right"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -700,9 +700,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -713,7 +713,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassUsageMouseoverLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"center"
 		"xpos"										"c-205"
 		"ypos"										"c125"
@@ -742,7 +742,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"*"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"textAlignment"								"center"
 		"default"									"0"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -750,9 +750,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -771,7 +771,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"}"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"default"									"0"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -779,9 +779,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -885,9 +885,9 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTextLabel"
-		"font"										"Light 9"
+		"font"										"Light_9"
 		"labelText"									""
-		"textAlignment"								"left"
+		"textAlignment"								"west"
 		"xpos"										"c-126"
 		"ypos"										"c-176"
 		"wide"										"138"
@@ -897,7 +897,7 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	//---
@@ -907,9 +907,9 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PaintNameLabel"
-		"font"										"Light 9"
+		"font"										"Light_9"
 		"labelText"									"#Store_NoPaint"
-		"textAlignment"								"left"
+		"textAlignment"								"west"
 		"xpos"										"c-126"
 		"ypos"										"-1000"
 		"wide"										"138"
@@ -924,9 +924,9 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StyleNameLabel"
-		"font"										"Light 9"
+		"font"										"Light_9"
 		"labelText"									"None"
-		"textAlignment"								"left"
+		"textAlignment"								"west"
 		"xpos"										"182"
 		"ypos"										"-1000"
 		"wide"										"110"
@@ -949,7 +949,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"-"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"textAlignment"								"center"
 		"default"									"0"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -957,9 +957,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"mouseoveritempanel"
@@ -972,7 +972,7 @@
 		"tall"										"150"
 		"visible"									"0"
 		"bgcolor_override"							"Blank"
-		"noitem_textcolor"							"WhiteDark"
+		"noitem_textcolor"							"White_Dark"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"1"
 

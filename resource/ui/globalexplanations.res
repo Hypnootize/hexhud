@@ -29,8 +29,8 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White_Dark"
 
 			"force_close"							"1"
 			"end_x"									"r515"
@@ -58,8 +58,8 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White_Dark"
 
 			"force_close"							"1"
 			"end_x"									"r280"
@@ -87,8 +87,8 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White_Dark"
 
 			"force_close"							"1"
 			"end_x"									"r515"
@@ -116,8 +116,8 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White_Dark"
 
 			"force_close"							"1"
 			"end_x"									"r280"
@@ -145,8 +145,8 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White_Dark"
 
 			"force_close"							"1"
 			"end_x"									"r515"
@@ -174,8 +174,8 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White_Dark"
 
 			"force_close"							"0"
 			"end_x"									"r515"
@@ -203,8 +203,8 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White_Dark"
 
 			"force_close"							"1"
 			"end_x"									"r515"
@@ -232,8 +232,8 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White_Dark"
 
 			"force_close"							"1"
 			"end_x"									"r515"
@@ -261,8 +261,8 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White_Dark"
 
 			"force_close"							"1"
 			"end_x"									"r515"
@@ -290,8 +290,8 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White_Dark"
 
 			"force_close"							"1"
 			"end_x"									"r515"
@@ -319,8 +319,8 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White_Dark"
 
 			"force_close"							"1"
 			"end_x"									"r515"
@@ -348,8 +348,8 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White_Dark"
 
 			"force_close"							"1"
 			"end_x"									"r515"
@@ -376,8 +376,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"force_close"								"1"
 		"end_x"										"r100"
@@ -404,8 +404,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"start_x"									"c-85"
 		"start_y"									"185"
@@ -422,7 +422,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%highlighttext%"
 			"textAlignment"							"center"
 			"xpos"									"20"
@@ -433,14 +433,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#MMenu_TutorialHighlight_Text"
 			"textAlignment"							"south-west"
 			"xpos"									"20"
@@ -450,7 +450,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -465,7 +465,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -474,9 +474,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -490,8 +490,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"start_x"									"c-85"
 		"start_y"									"185"
@@ -508,7 +508,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#MMenu_PracticeHighlight_Title"
 			"textAlignment"							"center"
 			"xpos"									"20"
@@ -519,14 +519,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#MMenu_PracticeHighlight_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -535,7 +535,7 @@
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -550,7 +550,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -559,9 +559,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -577,8 +577,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"start_x"									"c-112"
 		"start_y"									"437"
@@ -595,7 +595,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#MMenu_NewUserForumHighlight_Title"
 			"textAlignment"							"north-west"
 			"xpos"									"10"
@@ -606,14 +606,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#MMenu_NewUserForumHighlight_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -623,7 +623,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -638,7 +638,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -647,9 +647,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -665,8 +665,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"start_x"									"c238"
 		"start_y"									"437"
@@ -683,7 +683,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#MMenu_OptionsHighlightPanel_Title"
 			"textAlignment"							"north-west"
 			"xpos"									"10"
@@ -694,14 +694,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#MMenu_OptionsHighlightPanel_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -711,7 +711,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -726,7 +726,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -735,9 +735,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -753,8 +753,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"start_x"									"c-190"
 		"start_y"									"267"
@@ -771,7 +771,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#MMenu_LoadoutHighlightPanel_Title"
 			"textAlignment"							"north-west"
 			"xpos"									"10"
@@ -782,14 +782,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#MMenu_LoadoutHighlightPanel_Text"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -799,7 +799,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -814,7 +814,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -823,9 +823,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -841,8 +841,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"start_x"									"c20"
 		"start_y"									"285"
@@ -859,7 +859,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#MMenu_StoreHighlightPanel_Title"
 			"textAlignment"							"north-west"
 			"xpos"									"10"
@@ -870,14 +870,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TextLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%highlighttext%"
 			"textAlignment"							"north-west"
 			"xpos"									"20"
@@ -887,7 +887,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CloseButton"
@@ -902,7 +902,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"%"
-			"font"									"Symbols 20"
+			"font"									"Symbols_20"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"close"
@@ -911,9 +911,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -929,8 +929,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"force_close"								"0"
 		"end_x"										"r300"
@@ -957,8 +957,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"force_close"								"0"
 		"end_x"										"r450"
@@ -987,8 +987,8 @@
 		"visible"									"0"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDarkest"
-		"border"									"BottomLineWhiteDark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
 		"force_close"								"0"
 		"end_x"										"r600"

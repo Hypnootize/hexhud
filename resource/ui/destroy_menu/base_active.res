@@ -31,7 +31,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 	"BuildingIcon"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NotBuiltLabel"
-		"font"										"Light 9"
+		"font"										"Light_9"
 		"xpos"										"rs1-2"
 		"ypos"										"cs-0.5"
 		"zpos"										"2"
@@ -69,14 +69,14 @@
 		"centerwrap"								"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"DestroyNumberIcon"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DestroyNumberIcon"
-		"font"										"Symbols 26"
+		"font"										"Symbols_26"
 		"fgcolor"									"Red"
 		"xpos"										"rs1"
 		"ypos"										"cs-0.5-1"
@@ -94,7 +94,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"fgcolor"									"White"
 		"xpos"										"rs1"
 		"ypos"										"cs-0.5-1"

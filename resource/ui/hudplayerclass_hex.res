@@ -1,6 +1,3 @@
-#base 	"../../customizations/crosshairs and hitmarker.res"
-#base 	"../../customizations/speedometer.res"
-
 "Resource/UI/HudPlayerClass.res"
 {
 	"HudPlayerClass"
@@ -230,7 +227,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CarryingLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"xpos"									"3"
 			"ypos"									"0"
 			"zpos"									"1"
@@ -248,7 +245,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OwnerLabel"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"xpos"									"3"
 			"ypos"									"10"
 			"zpos"									"0"

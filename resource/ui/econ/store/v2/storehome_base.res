@@ -1,4 +1,4 @@
-#base "../../../../../resource/dev/reloadschemebutton.res"
+#base "../../../../dev/reloadschemebutton.res"
 
 "Resource/UI/Econ/Store/V2/StoreHome_Base.res"
 {
@@ -43,7 +43,7 @@
 
 		"item_backdrop_zpos"						"1"
 
-		"item_panel_bgcolor"						"GrayBlue"
+		"item_panel_bgcolor"						"Gray_Blue"
 		"item_panel_bgcolor_mouseover"				"Gray"
 		"item_panel_bgcolor_selected"				"Gray"
 
@@ -93,7 +93,7 @@
 
 		"modelpanel_labels_kv"
 		{
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"textAlignment"							"north-east"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -241,16 +241,16 @@
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"scaleImage"							"1"
-			"font"									"Light 16"
+			"font"									"Light_16"
 
 			"paintbackground"						"1"
-			"fgcolor"								"WhiteDark"
-			"defaultBgColor_override"				"GrayBlueDark"
-			"defaultFgColor_override"				"WhiteDark"
-			"armedBgColor_override"					"GrayBlueDarkest"
-			"armedFgColor_override"					"WhiteSolid"
-			"selectedBgColor_override"				"GrayBlueDarkest"
-			"selectedFgColor_override"				"WhiteSolid"
+			"fgcolor"								"White_Dark"
+			"defaultBgColor_override"				"Gray_Blue_Dark"
+			"defaultFgColor_override"				"White_Dark"
+			"armedBgColor_override"					"Gray_Blue_Darkest"
+			"armedFgColor_override"					"White_Solid"
+			"selectedBgColor_override"				"Gray_Blue_Darkest"
+			"selectedFgColor_override"				"White_Solid"
 
 			"sound_depressed"						"UI/buttonclick.wav"
 
@@ -271,16 +271,16 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"textAlignment"								"center"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"BackgroundCustom"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -301,7 +301,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurPageLabel"
-		"font"										"Light 20"
+		"font"										"Light_20"
 		"labelText"									"%backpackpage%"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -311,7 +311,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 
 		"pin_to_sibling"							"BackgroundCustom"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
@@ -330,16 +330,16 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Symbols 20"
+		"font"										"Symbols_20"
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"BackgroundCustom"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
@@ -360,7 +360,7 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CartButton"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"GO TO THE SHOPPING CART"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -371,14 +371,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"Command"									"viewcart"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -419,7 +419,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"p"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"marketplace"
@@ -427,11 +427,11 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"defaultBgColor_override"					"BlackBlue"
+		"defaultBgColor_override"					"Black_Blue"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
@@ -444,7 +444,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BackpackSpaceLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"%freebackpackspace%"
 		"textAlignment"								"west"
 		"AllCaps"									"1"

@@ -26,14 +26,14 @@
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"Background_Secondary"
-			"border"								"BottomLineWhiteDark"
+			"border"								"Bottom_Line_White_Dark"
 		}
 
 		"ChallengeLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ChallengeLabel"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"Tour Of Duty"
 			"textAlignment"							"west"
 			"xpos"									"22"
@@ -42,14 +42,14 @@
 			"wide"									"125"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"DifficultyLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DifficultyLabel"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"Difficulty"
 			"textAlignment"							"west"
 			"xpos"									"192"
@@ -58,14 +58,14 @@
 			"wide"									"80"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CompleteLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CompleteLabel"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"Progress"
 			"textAlignment"							"west"
 			"xpos"									"282"
@@ -74,14 +74,14 @@
 			"wide"									"80"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TourLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TourLabel"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"Tour"
 			"textAlignment"							"west"
 			"xpos"									"351"
@@ -90,7 +90,7 @@
 			"wide"									"80"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TourLevelLabel"
@@ -137,7 +137,7 @@
 			{
 				"ControlName"						"SectionedListPanel"
 				"fieldName"							"TourList"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"xpos"								"0"
 				"ypos"								"5"
 				"zpos"								"0"
@@ -152,7 +152,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TourDifficultyWarning"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#TF_MVM_Tour_ExpertDifficulty_Warning"
 			"xpos"									"0"
 			"ypos"									"rs1-15"
@@ -164,7 +164,7 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
-			"fgcolor_override"						"WhiteDark"
+			"fgcolor_override"						"White_Dark"
 			"mouseinputenabled"						"0"
 			"proportionaltoparent"					"1"
 		}
@@ -197,14 +197,14 @@
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"Background_Secondary"
-			"border"								"BottomLineWhiteDark"
+			"border"								"Bottom_Line_White_Dark"
 			"proportionaltoparent"					"1"
 		}
 		"ToorLootTitle"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ToorLootTitle"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"labelText"								"#TF_MvM_TourLootTitle"
 			"textAlignment"							"west"
 			"xpos"									"5"
@@ -212,7 +212,7 @@
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"25"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
@@ -254,7 +254,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ToorLootDetailLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%tour_loot_detail%"
 			"textAlignment"							"west"
 			"wrap"									"1"
@@ -263,7 +263,7 @@
 			"zpos"									"1"
 			"wide"									"280"
 			"tall"									"50"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 	}
@@ -294,14 +294,14 @@
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"Background_Secondary"
-			"border"								"BottomLineWhiteDark"
+			"border"								"Bottom_Line_White_Dark"
 		}
 
 		"ChallengeLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ChallengeLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%tour_name%"
 			"textAlignment"							"west"
 			"xpos"									"5"
@@ -310,14 +310,14 @@
 			"wide"									"225"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"CompleteLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CompleteLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%complete_heading%"
 			"textAlignment"							"west"
 			"xpos"									"260"
@@ -326,7 +326,7 @@
 			"wide"									"100"
 			"tall"									"20"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"TourLevelImage"
@@ -349,7 +349,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TourLevelLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%tour_level%"
 			"textAlignment"							"center"
 			"xpos"									"357"
@@ -357,7 +357,7 @@
 			"zpos"									"0"
 			"wide"									"30"
 			"tall"									"20"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ChallengeListGroupBox"
@@ -392,7 +392,7 @@
 			{
 				"ControlName"						"SectionedListPanel"
 				"fieldName"							"ChallengeList"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"xpos"								"70"
 				"ypos"								"5"
 				"zpos"								"0"
@@ -431,14 +431,14 @@
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"Background_Secondary"
-			"border"								"BottomLineWhiteDark"
+			"border"								"Bottom_Line_White_Dark"
 		}
 
 		"InventoryTitleLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"InventoryTitleLabel"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"labelText"								"#TF_MvM_InventoryTitle"
 			"textAlignment"							"west"
 			"xpos"									"5"
@@ -446,7 +446,7 @@
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"25"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
@@ -482,8 +482,8 @@
 			"paintbackground"						"1"
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Black_Blue"
+			"border"								"Bottom_Line_White_Dark"
 		}
 		"Slot1"
 		{
@@ -498,8 +498,8 @@
 			"paintbackground"						"1"
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Black_Blue"
+			"border"								"Bottom_Line_White_Dark"
 		}
 		"Slot2"
 		{
@@ -514,8 +514,8 @@
 			"paintbackground"						"1"
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Black_Blue"
+			"border"								"Bottom_Line_White_Dark"
 		}
 		"Slot3"
 		{
@@ -530,8 +530,8 @@
 			"paintbackground"						"1"
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Black_Blue"
+			"border"								"Bottom_Line_White_Dark"
 		}
 		"Slot4"
 		{
@@ -546,8 +546,8 @@
 			"paintbackground"						"1"
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Black_Blue"
+			"border"								"Bottom_Line_White_Dark"
 		}
 		"Slot5"
 		{
@@ -562,8 +562,8 @@
 			"paintbackground"						"1"
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Black_Blue"
+			"border"								"Bottom_Line_White_Dark"
 		}
 
 		"MannUpTicketAd"
@@ -581,8 +581,8 @@
 			"paintbackground"						"1"
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Black_Blue"
+			"border"								"Bottom_Line_White_Dark"
 
 			"items"
 			{
@@ -600,10 +600,10 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MannUpTicketCountLabel"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"labelText"								"%ticket_count%"
 			"textAlignment"							"west"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"xpos"									"-4"
 			"ypos"									"-2"
 			"zpos"									"2"
@@ -629,8 +629,8 @@
 			"paintbackground"						"1"
 			"paintborder"							"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
-			"border"								"BottomLineWhiteDark"
+			"bgcolor_override"						"Black_Blue"
+			"border"								"Bottom_Line_White_Dark"
 
 			"items"
 			{
@@ -648,10 +648,10 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"SquadSurplusCountLabel"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"labelText"								"%voucher_count%"
 			"textAlignment"							"west"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"xpos"									"-4"
 			"ypos"									"-2"
 			"zpos"									"2"
@@ -678,7 +678,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ActivateSquadSurplusLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#TF_MvM_ActivateSquadSurplus"
 			"textAlignment"							"west"
 			"wrap"									"1"
@@ -687,7 +687,7 @@
 			"zpos"									"1"
 			"wide"									"120"
 			"tall"									"25"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 
 			"pin_to_sibling"						"SquadSurplusCheckButton"
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
@@ -707,7 +707,7 @@
 			"paintbackground"						"1"
 			"paintborder"							"0"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"SquadSurplusCheckButton"
 		}
@@ -726,7 +726,7 @@
 			"paintborder"							"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
 		"MissingTicketsAlertImage"
@@ -754,8 +754,8 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MissingTicketsLabel"
-			"font"									"Light 14"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_14"
+			"fgcolor"								"White_Dark"
 			"labelText"								"#TF_Matchmaking_CantQueue_NoTicket"
 			"textAlignment"							"west"
 			"wrap"									"0"
@@ -799,14 +799,14 @@
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"Background_Secondary"
-			"border"								"BottomLineWhiteDark"
+			"border"								"Bottom_Line_White_Dark"
 			"proportionaltoparent"					"1"
 		}
 		"NoMannUpTitleLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NoMannUpTitleLabel"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"labelText"								"#TF_MvM_NoMannUpTitle"
 			"textAlignment"							"west"
 			"xpos"									"5"
@@ -814,7 +814,7 @@
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"25"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
@@ -858,7 +858,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NoMannUpDescriptionLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#TF_MvM_NoMannUpDescription"
 			"textAlignment"							"west"
 			"wrap"									"1"
@@ -867,7 +867,7 @@
 			"zpos"									"1"
 			"wide"									"280"
 			"tall"									"50"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -883,7 +883,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_MvM_MannUpNow"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"command"								"mann_up_now"
@@ -898,8 +898,8 @@
 
 			"fgcolor"								"White"
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 }

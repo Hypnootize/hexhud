@@ -13,7 +13,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 
 		"QuestionContainer"
 		{
@@ -49,8 +49,8 @@
 				"tall"								"25"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Light 14"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_14"
+				"fgcolor"							"White_Dark"
 				"textAlignment"						"center"
 				"labelText"							"#TF_SurveyQuestion_Submitting"
 				"proportionaltoparent"				"1"
@@ -94,8 +94,8 @@
 				"tall"								"25"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Light 14"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_14"
+				"fgcolor"							"White_Dark"
 				"textAlignment"						"center"
 				"labelText"							"#TF_SurveyQuestion_ThankYouTitle"
 				"proportionaltoparent"				"1"
@@ -112,8 +112,8 @@
 				"tall"								"50"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Light 14"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_14"
+				"fgcolor"							"White_Dark"
 				"textAlignment"						"center"
 				"wrap"								"0"
 				"centerwrap"						"1"
@@ -134,7 +134,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								"-"
-			"font"									"Symbols 18"
+			"font"									"Symbols_18"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"close"
@@ -144,9 +144,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 }

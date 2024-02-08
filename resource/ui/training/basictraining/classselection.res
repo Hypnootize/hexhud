@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DescLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"#TF_COMPLETE_TRAINING_DESC"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -16,6 +16,6 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 }

@@ -2,26 +2,26 @@
 // COLOR SCHEMES
 //============================================================
 
-#base	"../resource/scheme/colors.res"
-#base	"../customizations/colors.res"
+#base "scheme/colors.res"
+#base "../customizations/colors.res"
 
 //============================================================
 // FONT SCHEMES
 //============================================================
 
-#base	"../customizations/alternative fonts.res"
-#base	"../resource/scheme/fonts.res"
-#base	"../resource/scheme/fonts_game.res"
-#base	"../resource/scheme/symbols.res"
+#base "../customizations/alternative_fonts.res"
+#base "scheme/fonts.res"
+#base "scheme/fonts_game.res"
+#base "scheme/symbols.res"
 
 //============================================================
 // BORDER SCHEME
 //============================================================
 
-#base	"../resource/scheme/borders.res"
+#base "scheme/borders.res"
 
 //============================================================
 // CROSHAIRS SCHEMES
 //============================================================
 
-#base	"../resource/scheme/crosshairs.res"
+#base "scheme/crosshairs.res"

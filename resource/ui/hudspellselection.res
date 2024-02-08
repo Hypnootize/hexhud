@@ -50,7 +50,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountText"
-		"font"										"Light 16"
+		"font"										"Light_16"
 		"labelText"									"%counttext%"
 		"textAlignment"								"east"
 		"xpos"										"rs1-4"
@@ -65,7 +65,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountTextShadow"
-		"font"										"Light 16 Blur"
+		"font"										"Light_16_Blur"
 		"labelText"									"%counttext%"
 		"textAlignment"								"east"
 		"xpos"										"-1"
@@ -82,7 +82,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ActionText"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"%actiontext%"
 		"textAlignment"								"center"
 		"xpos"										"rs1"
@@ -96,7 +96,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 

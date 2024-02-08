@@ -1,4 +1,4 @@
-#base "../../resource/dev/ReloadSchemeButton.res"
+#base "../dev/reloadschemebutton.res"
 
 // THIS WHOLE SCREEN DESIGN KINDA SUCKS, REVIEW IN THE FUTURE!!
 
@@ -54,7 +54,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 
 		"pin_to_sibling"							"StatsIcon"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -64,7 +64,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StatsLabel"
-		"font"										"Light 16"
+		"font"										"Light_16"
 		"labelText"									"YOUR PERFORMANCE REPORT"
 		"textAlignment"								"center"
 		"xpos"										"3"
@@ -77,7 +77,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 
 		"pin_to_sibling"							"Line"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -109,7 +109,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"D"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"Command"									"resetstatsbutton"
 
@@ -118,7 +118,7 @@
 		"paintbackground"							"0"
 		"paintborder"								"0"
 
-		"defaultFgColor_override"					"GrayBlueLight"
+		"defaultFgColor_override"					"Gray_Blue_Light"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 	}
@@ -172,7 +172,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"AveragesLabel"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"labelText"								"#StatSummary_Label_PerformanceReport"
 			"textAlignment"							"west"
 			"xpos"									"-5"
@@ -182,7 +182,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"pin_to_sibling"						"TitleBG"
 		}
 
@@ -238,20 +238,20 @@
 				"paintborder"						"0"
 				"proportionaltoparent"				"1"
 
-				"fgcolor_override"					"WhiteDark"
-				"bgcolor_override"					"GrayBlueDark"
-				"disabledFgColor_override"			"WhiteDark"
-				"disabledBgColor_override"			"GrayBlueDark"
-				"selectionColor_override"			"GrayBlueDark"
-				"selectionTextColor_override"		"WhiteDark"
-				"defaultSelectionBG2Color_override"	"GrayBlueDark"
+				"fgcolor_override"					"White_Dark"
+				"bgcolor_override"					"Gray_Blue_Dark"
+				"disabledFgColor_override"			"White_Dark"
+				"disabledBgColor_override"			"Gray_Blue_Dark"
+				"selectionColor_override"			"Gray_Blue_Dark"
+				"selectionTextColor_override"		"White_Dark"
+				"defaultSelectionBG2Color_override"	"Gray_Blue_Dark"
 
 				"Button"
 				{
-					"defaultFgColor_override"		"WhiteDark"
-					"defaultBgColor_override"		"GrayBlueDark"
-					"armedFgColor_override"			"WhiteDark"
-					"armedBgColor_override"			"GrayBlueDark"
+					"defaultFgColor_override"		"White_Dark"
+					"defaultBgColor_override"		"Gray_Blue_Dark"
+					"armedFgColor_override"			"White_Dark"
+					"armedBgColor_override"			"Gray_Blue_Dark"
 					"paintbackgroundtype"			"0"
 				}
 			}
@@ -275,20 +275,20 @@
 				"paintborder"						"0"
 				"proportionaltoparent"				"1"
 
-				"fgcolor_override"					"WhiteDark"
-				"bgcolor_override"					"GrayBlueDark"
-				"disabledFgColor_override"			"WhiteDark"
-				"disabledBgColor_override"			"GrayBlueDark"
-				"selectionColor_override"			"GrayBlueDark"
-				"selectionTextColor_override"		"WhiteDark"
-				"defaultSelectionBG2Color_override"	"GrayBlueDark"
+				"fgcolor_override"					"White_Dark"
+				"bgcolor_override"					"Gray_Blue_Dark"
+				"disabledFgColor_override"			"White_Dark"
+				"disabledBgColor_override"			"Gray_Blue_Dark"
+				"selectionColor_override"			"Gray_Blue_Dark"
+				"selectionTextColor_override"		"White_Dark"
+				"defaultSelectionBG2Color_override"	"Gray_Blue_Dark"
 
 				"Button"
 				{
-					"defaultFgColor_override"		"WhiteDark"
-					"defaultBgColor_override"		"GrayBlueDark"
-					"armedFgColor_override"			"WhiteDark"
-					"armedBgColor_override"			"GrayBlueDark"
+					"defaultFgColor_override"		"White_Dark"
+					"defaultBgColor_override"		"Gray_Blue_Dark"
+					"armedFgColor_override"			"White_Dark"
+					"armedBgColor_override"			"Gray_Blue_Dark"
 					"paintbackgroundtype"			"0"
 				}
 			}
@@ -312,20 +312,20 @@
 				"paintborder"						"0"
 				"proportionaltoparent"				"1"
 
-				"fgcolor_override"					"WhiteDark"
-				"bgcolor_override"					"GrayBlueDark"
-				"disabledFgColor_override"			"WhiteDark"
-				"disabledBgColor_override"			"GrayBlueDark"
-				"selectionColor_override"			"GrayBlueDark"
-				"selectionTextColor_override"		"WhiteDark"
-				"defaultSelectionBG2Color_override"	"GrayBlueDark"
+				"fgcolor_override"					"White_Dark"
+				"bgcolor_override"					"Gray_Blue_Dark"
+				"disabledFgColor_override"			"White_Dark"
+				"disabledBgColor_override"			"Gray_Blue_Dark"
+				"selectionColor_override"			"Gray_Blue_Dark"
+				"selectionTextColor_override"		"White_Dark"
+				"defaultSelectionBG2Color_override"	"Gray_Blue_Dark"
 
 				"Button"
 				{
-					"defaultFgColor_override"		"WhiteDark"
-					"defaultBgColor_override"		"GrayBlueDark"
-					"armedFgColor_override"			"WhiteDark"
-					"armedBgColor_override"			"GrayBlueDark"
+					"defaultFgColor_override"		"White_Dark"
+					"defaultBgColor_override"		"Gray_Blue_Dark"
+					"armedFgColor_override"			"White_Dark"
+					"armedBgColor_override"			"Gray_Blue_Dark"
 					"paintbackgroundtype"			"0"
 				}
 			}
@@ -342,7 +342,7 @@
 			"tall"									"18"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"BlackBlue"
+			"fillcolor"								"Black_Blue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -358,7 +358,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -374,7 +374,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -383,7 +383,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel1A"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel1A%"
 			"textAlignment"							"west"
 			"xpos"									"c-285"
@@ -394,14 +394,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassBarLabel1B"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel1B"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel1B%"
 			"textAlignment"							"west"
 			"xpos"									"c-61"
@@ -412,14 +412,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassLabel1"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassLabel1"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%class1%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5+60"
@@ -431,8 +431,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"paintbackground"						"1"
-			"bgcolor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -447,7 +447,7 @@
 			"tall"									"18"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"BlackBlue"
+			"fillcolor"								"Black_Blue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -463,7 +463,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -478,7 +478,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 		}
 
@@ -486,7 +486,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel2A"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel2A%"
 			"textAlignment"							"west"
 			"xpos"									"c-285"
@@ -497,14 +497,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassBarLabel2B"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel2B"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel2B%"
 			"textAlignment"							"west"
 			"xpos"									"c-61"
@@ -515,14 +515,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassLabel2"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassLabel2"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%class2%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5+60"
@@ -534,8 +534,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"paintbackground"						"1"
-			"bgcolor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -550,7 +550,7 @@
 			"tall"									"18"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"BlackBlue"
+			"fillcolor"								"Black_Blue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -566,7 +566,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -582,7 +582,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -591,7 +591,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel3A"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel3A%"
 			"textAlignment"							"west"
 			"xpos"									"c-285"
@@ -602,14 +602,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassBarLabel3B"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel3B"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel3B%"
 			"textAlignment"							"west"
 			"xpos"									"c-61"
@@ -620,14 +620,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassLabel3"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassLabel3"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%class3%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5+60"
@@ -639,8 +639,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"paintbackground"						"1"
-			"bgcolor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -655,7 +655,7 @@
 			"tall"									"18"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"BlackBlue"
+			"fillcolor"								"Black_Blue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -671,7 +671,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -687,7 +687,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -696,7 +696,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel4A"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel4A%"
 			"textAlignment"							"west"
 			"xpos"									"c-285"
@@ -707,14 +707,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassBarLabel4B"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel4B"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel4B%"
 			"textAlignment"							"west"
 			"xpos"									"c-61"
@@ -725,14 +725,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassLabel4"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassLabel4"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%class4%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5+60"
@@ -744,8 +744,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"paintbackground"						"1"
-			"bgcolor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -760,7 +760,7 @@
 			"tall"									"18"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"BlackBlue"
+			"fillcolor"								"Black_Blue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -776,7 +776,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -792,7 +792,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -801,7 +801,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel5A"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel5A%"
 			"textAlignment"							"west"
 			"xpos"									"c-285"
@@ -812,14 +812,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassBarLabel5B"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel5B"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel5B%"
 			"textAlignment"							"west"
 			"xpos"									"c-61"
@@ -830,14 +830,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassLabel5"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassLabel5"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%class5%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5+60"
@@ -849,8 +849,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"paintbackground"						"1"
-			"bgcolor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -865,7 +865,7 @@
 			"tall"									"18"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"BlackBlue"
+			"fillcolor"								"Black_Blue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -881,7 +881,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -897,7 +897,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -906,7 +906,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel6A"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel6A%"
 			"textAlignment"							"west"
 			"xpos"									"c-285"
@@ -917,14 +917,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassBarLabel6B"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel6B"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel6B%"
 			"textAlignment"							"west"
 			"xpos"									"c-61"
@@ -935,14 +935,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassLabel6"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassLabel6"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%class6%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5+60"
@@ -954,8 +954,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"paintbackground"						"1"
-			"bgcolor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -970,7 +970,7 @@
 			"tall"									"18"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"BlackBlue"
+			"fillcolor"								"Black_Blue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -986,7 +986,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -1002,7 +1002,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -1011,7 +1011,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel7A"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel7A%"
 			"textAlignment"							"west"
 			"xpos"									"c-285"
@@ -1022,14 +1022,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassBarLabel7B"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel7B"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel7B%"
 			"textAlignment"							"west"
 			"xpos"									"c-61"
@@ -1040,14 +1040,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassLabel7"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassLabel7"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%class7%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5+60"
@@ -1059,8 +1059,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"paintbackground"						"1"
-			"bgcolor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -1075,7 +1075,7 @@
 			"tall"									"18"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"BlackBlue"
+			"fillcolor"								"Black_Blue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -1091,7 +1091,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -1107,7 +1107,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -1116,7 +1116,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel8A"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel8A%"
 			"textAlignment"							"west"
 			"xpos"									"c-285"
@@ -1127,14 +1127,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassBarLabel8B"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel8B"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel8B%"
 			"textAlignment"							"west"
 			"xpos"									"c-61"
@@ -1145,14 +1145,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassLabel8"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassLabel8"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%class8%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5+60"
@@ -1164,8 +1164,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"paintbackground"						"1"
-			"bgcolor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -1180,7 +1180,7 @@
 			"tall"									"18"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"BlackBlue"
+			"fillcolor"								"Black_Blue"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -1196,7 +1196,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -1212,7 +1212,7 @@
 			"tall"									"14"
 			"visible"								"1"
 			"enabled"								"1"
-			"fillcolor"								"GrayBlueLight"
+			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
@@ -1221,7 +1221,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel9A"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel9A%"
 			"textAlignment"							"west"
 			"xpos"									"c-285"
@@ -1232,14 +1232,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassBarLabel9B"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassBarLabel9B"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%classbarlabel9B%"
 			"textAlignment"							"west"
 			"xpos"									"c-61"
@@ -1250,14 +1250,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassLabel9"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ClassLabel9"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%class9%"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5+60"
@@ -1269,8 +1269,8 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"paintbackground"						"1"
-			"bgcolor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
 
@@ -1278,7 +1278,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RecordsLabel1"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"#StatSummary_Label_BestMoments"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1291,15 +1291,15 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 		}
 
 		"OverallRecord1Label"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord1Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord1label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1313,8 +1313,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"BestMomentsBackground"
 		}
@@ -1322,7 +1322,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord1Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord1value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1336,8 +1336,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord1Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1348,7 +1348,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord2Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord2label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1362,8 +1362,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord1Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1374,7 +1374,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord2Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord2value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1388,8 +1388,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord2Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1400,7 +1400,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord3Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord3label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1414,8 +1414,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord2Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1426,7 +1426,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord3Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord3value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1440,8 +1440,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord3Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1452,7 +1452,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord4Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord4label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1466,8 +1466,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord3Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1478,7 +1478,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord4Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord4value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1492,8 +1492,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord4Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1504,7 +1504,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord5Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord5label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1518,8 +1518,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord4Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1530,7 +1530,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord5Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord5value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1544,8 +1544,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord5Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1556,7 +1556,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord6Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord6label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1570,8 +1570,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord1Value"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1582,7 +1582,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord6Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord6value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1596,8 +1596,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord6Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1608,7 +1608,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord7Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord7label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1622,8 +1622,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord6Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1634,7 +1634,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord7Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord7value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1648,8 +1648,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord7Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1660,7 +1660,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord8Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord8label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1674,8 +1674,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord7Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1686,7 +1686,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord8Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord8value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1700,8 +1700,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord8Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1712,7 +1712,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord9Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord9label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1726,8 +1726,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord8Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1738,7 +1738,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord9Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord9value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1752,8 +1752,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord9Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1764,7 +1764,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord10Label"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"labelText"								"%classrecord10label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1778,8 +1778,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord9Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1790,7 +1790,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord10Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord10value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1804,8 +1804,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord10Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1816,7 +1816,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord11Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord11label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1830,8 +1830,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord6Value"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1842,7 +1842,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord11Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord11value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1856,8 +1856,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord11Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1868,7 +1868,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord12Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord12label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1882,8 +1882,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord11Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1894,7 +1894,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord12Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord12value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1908,8 +1908,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord12Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1920,7 +1920,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord13Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord13label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1934,8 +1934,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord12Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1946,7 +1946,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord13Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord13value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1960,8 +1960,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord13Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1972,7 +1972,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord14Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord14label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -1986,8 +1986,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord13Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1998,7 +1998,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord14Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord14value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -2012,8 +2012,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord14Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2024,7 +2024,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord15Label"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"labelText"								"%classrecord15label%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -2038,8 +2038,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 
 			"pin_to_sibling"						"OverallRecord14Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2050,7 +2050,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"OverallRecord15Value"
-			"font"									"Light 7"
+			"font"									"Light_7"
 			"labelText"								"%classrecord15value%"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
@@ -2064,8 +2064,8 @@
 			"AllCaps"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"fgcolor"								"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor"								"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 
 			"pin_to_sibling"						"OverallRecord15Label"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"

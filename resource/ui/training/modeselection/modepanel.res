@@ -27,14 +27,14 @@
 			"paintBorder"							"1"
 			"paintBackgroundtype"					"0"
 			"bgcolor_override"						"Background_Secondary"
-			"border"								"BottomLineWhiteDark"
+			"border"								"Bottom_Line_White_Dark"
 			"proportionaltoparent"					"1"
 		}
 		"ModeNameLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ModeNameLabel"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"labelText"								"%modename%"
 			"textAlignment"							"west"
 			"xpos"									"-2"
@@ -46,7 +46,7 @@
 			"enabled"								"1"
 			"mouseinputenabled"						"0"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"TitleBG"
@@ -99,14 +99,14 @@
 			"paintBorder"							"0"
 			"paintBackgroundtype"					"0"
 			"bgcolor_override"						"Background_Secondary"
-			"border"								"BottomLineWhiteDark"
+			"border"								"Bottom_Line_White_Dark"
 			"proportionaltoparent"					"1"
 		}
 		"DescLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DescLabel"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"labelText"								"%description%"
 			"textAlignment"							"west"
 			"xpos"									"-2"
@@ -119,7 +119,7 @@
 			"wrap"									"0"
 			"centerwrap"							"0"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 
 			"pin_to_sibling"						"DESCBG"
@@ -140,7 +140,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Training_SelectMode"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
 		"Command"									"%startcommand%"
@@ -151,12 +151,12 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"ButtonGreen"
-		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override"					"ButtonGreen_Hover"
+		"defaultBgColor_override"					"Button_Green"
+		"armedBgColor_override"						"Button_Green_Hover"
+		"depressedBgColor_override"					"Button_Green_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 }

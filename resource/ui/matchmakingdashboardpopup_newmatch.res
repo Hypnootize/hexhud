@@ -43,7 +43,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 
 			"DescLabel"
 			{
@@ -56,8 +56,8 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Light 14"
-				"fgcolor_override"					"WhiteDark"
+				"font"								"Light_14"
+				"fgcolor_override"					"White_Dark"
 				"textAlignment"						"center"
 				"labelText"							"%match_type%"
 				"proportionaltoparent"				"1"
@@ -65,9 +65,9 @@
 
 				"fonts"
 				{
-					"0"								"Light 11"
-					"1"								"Light 10"
-					"2"								"Light 9"
+					"0"								"Light_11"
+					"1"								"Light_10"
+					"2"								"Light_9"
 				}
 			}
 
@@ -82,8 +82,8 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Light 11"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_11"
+				"fgcolor"							"White_Dark"
 				"textAlignment"						"center"
 				"labelText"							"%auto_join%"
 				"proportionaltoparent"				"1"
@@ -107,7 +107,7 @@
 				}
 
 				"enabled"							"1"
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"textAlignment"						"center"
 				"Command"							"abandon_match"
 				"proportionaltoparent"				"1"
@@ -122,13 +122,13 @@
 				"paintbackgroundtype"				"0"
 				"paintborder"						"0"
 
-				"defaultBgColor_override"			"ButtonRed"
-				"armedBgColor_override"				"ButtonRed_Hover"
-				"depressedBgColor_override"			"ButtonRed_Hover"
+				"defaultBgColor_override"			"Button_Red"
+				"armedBgColor_override"				"Button_Red_Hover"
+				"depressedBgColor_override"			"Button_Red_Hover"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 			}
 
 			"SmallJoinButton"
@@ -149,7 +149,7 @@
 
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"textAlignment"						"center"
 				"Command"							"join_match"
 				"proportionaltoparent"				"1"
@@ -164,13 +164,13 @@
 				"paintbackgroundtype"				"0"
 				"paintborder"						"0"
 
-				"defaultBgColor_override"			"ButtonGreen"
-				"armedBgColor_override"				"ButtonGreen_Hover"
-				"depressedBgColor_override"			"ButtonGreen_Hover"
+				"defaultBgColor_override"			"Button_Green"
+				"armedBgColor_override"				"Button_Green_Hover"
+				"depressedBgColor_override"			"Button_Green_Hover"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 			}
 
 			"WideJoinButton"
@@ -185,7 +185,7 @@
 
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"textAlignment"						"center"
 				"Command"							"join_match"
 				"proportionaltoparent"				"1"
@@ -200,13 +200,13 @@
 				"paintbackgroundtype"				"0"
 				"paintborder"						"0"
 
-				"defaultBgColor_override"			"ButtonGreen"
-				"armedBgColor_override"				"ButtonGreen_Hover"
-				"depressedBgColor_override"			"ButtonGreen_Hover"
+				"defaultBgColor_override"			"Button_Green"
+				"armedBgColor_override"				"Button_Green_Hover"
+				"depressedBgColor_override"			"Button_Green_Hover"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 			}
 
 			"JoiningLabel"
@@ -220,8 +220,8 @@
 				"tall"								"20"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Light 11"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_11"
+				"fgcolor"							"White_Dark"
 				"textAlignment"						"east"
 				"labelText"							"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
 				"proportionaltoparent"				"1"
@@ -245,7 +245,7 @@
 
 				"radius"							"10"
 				"velocity"							"250"
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor_override"					"White_Dark"
 			}
 		}
 	}

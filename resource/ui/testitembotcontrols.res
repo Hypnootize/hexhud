@@ -1,4 +1,4 @@
-#base "../../resource/dev/reloadschemebutton.res"
+#base "../dev/reloadschemebutton.res"
 
 "Resource/UI/TestItemBotControls.res"
 {
@@ -21,7 +21,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"#IT_BotControl_Title"
 		"textAlignment"								"west"
 		"xpos"										"7"
@@ -33,14 +33,14 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"BotAnimationTitle"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BotAnimationTitle"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"Bots Should: "
 		"textAlignment"								"west"
 		"xpos"										"7"
@@ -52,14 +52,14 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"BotAnimationComboBox"
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"BotAnimationComboBox"
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"xpos"										"95"
 		"ypos"										"30"
 		"zpos"										"1"
@@ -76,20 +76,20 @@
 		"proportionaltoparent"						"1"
 
 		"paintborder"								"0"
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"GrayBlueDark"
-		"selectionColor_override"					"GrayBlueDark"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"GrayBlueDark"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Gray_Blue_Dark"
+		"selectionColor_override"					"Gray_Blue_Dark"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Gray_Blue_Dark"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
-			"defaultBgColor_override"				"GrayBlueDark"
-			"armedFgColor_override"					"WhiteDark"
-			"armedBgColor_override"					"GrayBlueDark"
+			"defaultFgColor_override"				"White_Dark"
+			"defaultBgColor_override"				"Gray_Blue_Dark"
+			"armedFgColor_override"					"White_Dark"
+			"armedBgColor_override"					"Gray_Blue_Dark"
 			"paintbackgroundtype"					"0"
 		}
 	}
@@ -99,7 +99,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"BotForceFireCheckBox"
 		"labelText"									"#IT_BotAnim_ForceFire"
-		"Font"										"Light 8"
+		"Font"										"Light_8"
 		"textAlignment"								"west"
 		"xpos"										"10"
 		"ypos"										"50"
@@ -117,7 +117,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"BotTurntableCheckBox"
 		"labelText"									"#IT_BotAnim_Turntable"
-		"Font"										"Light 8"
+		"Font"										"Light_8"
 		"textAlignment"								"west"
 		"xpos"										"10"
 		"ypos"										"70"
@@ -134,7 +134,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"BotViewScanCheckBox"
 		"labelText"									"#IT_BotAnim_ViewScan"
-		"Font"										"Light 8"
+		"Font"										"Light_8"
 		"textAlignment"								"west"
 		"xpos"										"10"
 		"ypos"										"90"
@@ -151,7 +151,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BotAnimationAnimTitle"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"#IT_BotAnimSpeed_Title"
 		"textAlignment"								"west"
 		"xpos"										"7"
@@ -162,7 +162,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 	"BotAnimationSpeedSlider"
 	{
@@ -177,7 +177,7 @@
 		"rightText"									"1"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"CloseButton"
@@ -192,7 +192,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Cancel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"cancel"
@@ -222,7 +222,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#IT_Apply"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"ok"

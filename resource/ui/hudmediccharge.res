@@ -1,5 +1,5 @@
-#base	"../../customizations/chargemeter.res"
-#base	"../../customizations/resisticon.res"
+#base "../../customizations/ubercharge_meter.res"
+#base "../../customizations/resist_icon.res"
 
 "Resource/UI/HudMedicCharge.res"
 {
@@ -32,7 +32,7 @@
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
 		"font"										"Ubercharge"
-		"font_minmode"								"Ubercharge Minmode"
+		"font_minmode"								"Ubercharge_Minmode"
 		"fgcolor"									"Ubercharge"
 		"proportionaltoparent"						"1"
 
@@ -55,7 +55,7 @@
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
 		"font"										"Ubercharge"
-		"font_minmode"								"Ubercharge Minmode"
+		"font_minmode"								"Ubercharge_Minmode"
 		"fgcolor"									"Ubercharge"
 		"proportionaltoparent"						"1"
 

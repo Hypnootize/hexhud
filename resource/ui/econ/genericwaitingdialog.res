@@ -19,7 +19,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"xpos"										"0"
 		"ypos"										"8"
 		"zpos"										"0"
@@ -32,14 +32,14 @@
 		"labelText"									"%updatetext%"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"EllipsesLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EllipsesLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"xpos"										"0"
 		"ypos"										"42"
 		"zpos"										"0"
@@ -50,14 +50,14 @@
 		"labelText"									"%ellipses%"
 		"textAlignment"								"north"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"DurationLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DurationLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"xpos"										"0"
 		"ypos"										"52"
 		"zpos"										"0"
@@ -68,7 +68,7 @@
 		"labelText"									"%duration%"
 		"textAlignment"								"north"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"CloseButton"
@@ -83,7 +83,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Cancel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"user_close"
@@ -92,9 +92,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

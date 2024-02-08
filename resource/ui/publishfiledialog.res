@@ -15,7 +15,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Secondary"
 		"paintborder"								"1"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 	}
 
 	"Background"
@@ -48,8 +48,8 @@
 		"AllCaps"									"1"
 		"labelText"									"#TF_PublishFile_Title"
 		"textAlignment"								"west"
-		"font"										"Light 24"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_24"
+		"fgcolor"									"White_Dark"
 	}
 
 	"LabelPreview"
@@ -64,8 +64,8 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PublishFile_Preview"
 		"textAlignment"								"west"
-		"font"										"Light 14"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_14"
+		"fgcolor"									"White_Dark"
 	}
 
 	"PreviewImageBorder"
@@ -81,7 +81,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 
 		"PreviewDescription"
 		{
@@ -97,8 +97,8 @@
 			"textAlignment"							"center"
 			"wrap"									"1"
 			"centerwrap"							"1"
-			"font"									"Light 12"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_12"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -128,14 +128,14 @@
 		"Command"									"PreviewBrowse"
 		"Default"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Light 14"
+		"font"										"Light_14"
 
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
@@ -152,8 +152,8 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PublishFile_TitleLabel"
 		"textAlignment"								"west"
-		"font"										"Light 14"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_14"
+		"fgcolor"									"White_Dark"
 	}
 
 	"FileTitle"
@@ -172,9 +172,9 @@
 		"NumericInputOnly"							"0"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 	}
 
 	"LabelDesc"
@@ -189,8 +189,8 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PublishFile_DescLabel"
 		"textAlignment"								"west"
-		"font"										"Light 14"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_14"
+		"fgcolor"									"White_Dark"
 	}
 	"FileDesc"
 	{
@@ -208,9 +208,9 @@
 		"NumericInputOnly"							"0"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 	}
 
 	"LabelSourceFile"
@@ -225,8 +225,8 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PublishFile_FileLabel"
 		"textAlignment"								"west"
-		"font"										"Light 14"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_14"
+		"fgcolor"									"White_Dark"
 	}
 
 	"SourceFile"
@@ -245,8 +245,8 @@
 		"maxchars"									"256"
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
-		"font"										"Light 14"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_14"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ButtonSourceCosmetics"
@@ -263,14 +263,14 @@
 		"textAlignment"								"center"
 		"Command"									"MainFileCosmetics"
 		"Default"									"1"
-		"font"										"Light 14"
+		"font"										"Light_14"
 
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 
@@ -303,14 +303,14 @@
 		"textAlignment"								"center"
 		"Command"									"MainFileOther"
 		"Default"									"1"
-		"font"										"Light 14"
+		"font"										"Light_14"
 
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
@@ -329,14 +329,14 @@
 		"textAlignment"								"center"
 		"Command"									"MainFileMaps"
 		"Default"									"1"
-		"font"										"Light 14"
+		"font"										"Light_14"
 
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
@@ -354,8 +354,8 @@
 		"labelText"									"#TF_PublishFile_BrowseDesc"
 		"textAlignment"								"center"
 		"wrap"										"1"
-		"font"										"Light 12"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_12"
+		"fgcolor"									"White_Dark"
 	}
 
 	"TagsTitle"
@@ -370,8 +370,8 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PublishFile_Tags"
 		"textAlignment"								"west"
-		"font"										"Light 14"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_14"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ClassUsagePanel"
@@ -390,7 +390,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"ClassCheckBox1"
 			"labelText"								"#TF_Class_Name_Scout"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"25"
@@ -400,14 +400,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"ClassCheckBox2"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"ClassCheckBox2"
 			"labelText"								"#TF_Class_Name_Sniper"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"40"
@@ -417,14 +417,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"ClassCheckBox3"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"ClassCheckBox3"
 			"labelText"								"#TF_Class_Name_Soldier"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"55"
@@ -434,14 +434,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"ClassCheckBox4"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"ClassCheckBox4"
 			"labelText"								"#TF_Class_Name_Demoman"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"70"
@@ -451,14 +451,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"ClassCheckBox5"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"ClassCheckBox5"
 			"labelText"								"#TF_Class_Name_Medic"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"85"
@@ -468,14 +468,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"ClassCheckBox6"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"ClassCheckBox6"
 			"labelText"								"#TF_Class_Name_HWGuy"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"100"
@@ -485,14 +485,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"ClassCheckBox7"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"ClassCheckBox7"
 			"labelText"								"#TF_Class_Name_Pyro"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"115"
@@ -502,14 +502,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"ClassCheckBox8"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"ClassCheckBox8"
 			"labelText"								"#TF_Class_Name_Spy"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"130"
@@ -519,14 +519,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"ClassCheckBox9"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"ClassCheckBox9"
 			"labelText"								"#TF_Class_Name_Engineer"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"145"
@@ -536,7 +536,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 
 		"TagCheckbox_Headgear"
@@ -544,7 +544,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"TagCheckbox_Headgear"
 			"labelText"								"#TF_SteamWorkshop_Tag_Headgear"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"80"
 			"ypos"									"25"
@@ -554,14 +554,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"TagCheckbox_Weapon"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"TagCheckbox_Weapon"
 			"labelText"								"#TF_SteamWorkshop_Tag_Weapon"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"80"
 			"ypos"									"40"
@@ -571,14 +571,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"TagCheckbox_Misc"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"TagCheckbox_Misc"
 			"labelText"								"#TF_SteamWorkshop_Tag_Misc"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"80"
 			"ypos"									"55"
@@ -588,14 +588,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"TagCheckbox_SoundDevice"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"TagCheckbox_SoundDevice"
 			"labelText"								"#TF_SteamWorkshop_Tag_SoundDevice"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"80"
 			"ypos"									"70"
@@ -605,14 +605,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"TagCheckbox_Halloween"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"TagCheckbox_Halloween"
 			"labelText"								"#TF_SteamWorkshop_Tag_Halloween"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"80"
 			"ypos"									"85"
@@ -622,14 +622,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"TagCheckbox_Smissmas"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"TagCheckbox_Smissmas"
 			"labelText"								"#TF_SteamWorkshop_Tag_Smissmas"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"80"
 			"ypos"									"100"
@@ -639,14 +639,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"TagCheckbox_Taunt"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"TagCheckbox_Taunt"
 			"labelText"								"#TF_SteamWorkshop_Tag_Taunt"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"80"
 			"ypos"									"115"
@@ -656,14 +656,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"TagCheckbox_UnusualEffect"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"TagCheckbox_UnusualEffect"
 			"labelText"								"#TF_SteamWorkshop_Tag_UnusualEffect"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"80"
 			"ypos"									"130"
@@ -673,14 +673,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"TagCheckbox_WarPaint"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"TagCheckbox_WarPaint"
 			"labelText"								"#TF_SteamWorkshop_Tag_WarPaint"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"80"
 			"ypos"									"145"
@@ -690,14 +690,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"TagCheckbox_Jungle"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"TagCheckbox_Jungle"
 			"labelText"								"#TF_SteamWorkshop_Tag_Jungle"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"80"
 			"ypos"									"160"
@@ -707,14 +707,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"TagCheckbox_Summer"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"TagCheckbox_Summer"
 			"labelText"								"#TF_SteamWorkshop_Tag_Summer"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"80"
 			"ypos"									"175"
@@ -724,14 +724,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"TagCheckbox_CommunityFix"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"TagCheckbox_CommunityFix"
 			"labelText"								"#TF_SteamWorkshop_Tag_CommunityFix"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"80"
 			"ypos"									"190"
@@ -741,7 +741,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 
 		"MapsCheckBox_CTF"
@@ -749,7 +749,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_CTF"
 			"labelText"								"#TF_SteamWorkshop_Tag_CTF"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"25"
@@ -759,14 +759,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_CP"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_CP"
 			"labelText"								"#TF_SteamWorkshop_Tag_CP"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"40"
@@ -776,14 +776,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_Escort"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_Escort"
 			"labelText"								"#TF_SteamWorkshop_Tag_Escort"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"55"
@@ -793,14 +793,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_EscortRace"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_EscortRace"
 			"labelText"								"#TF_SteamWorkshop_Tag_EscortRace"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"70"
@@ -810,14 +810,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_RobotDestruction"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_RobotDestruction"
 			"labelText"								"#TF_SteamWorkshop_Tag_RobotDestruction"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"85"
@@ -827,14 +827,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_Koth"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_Koth"
 			"labelText"								"#TF_SteamWorkshop_Tag_Koth"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"100"
@@ -844,14 +844,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_AttackDefense"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_AttackDefense"
 			"labelText"								"#TF_SteamWorkshop_Tag_AttackDefense"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"115"
@@ -861,14 +861,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_SD"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_SD"
 			"labelText"								"#TF_SteamWorkshop_Tag_SD"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"130"
@@ -878,14 +878,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_MVM"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_MVM"
 			"labelText"								"#TF_SteamWorkshop_Tag_MVM"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"145"
@@ -895,14 +895,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_PD"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_PD"
 			"labelText"								"#TF_SteamWorkshop_Tag_PD"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"160"
@@ -912,14 +912,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_Arena"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_Arena"
 			"labelText"								"#TF_SteamWorkshop_Tag_Arena"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"85"
 			"ypos"									"25"
@@ -929,14 +929,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_Powerup"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_Powerup"
 			"labelText"								"#TF_SteamWorkshop_Tag_Powerup"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"85"
 			"ypos"									"40"
@@ -946,14 +946,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_Medieval"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_Medieval"
 			"labelText"								"#TF_SteamWorkshop_Tag_Medieval"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"85"
 			"ypos"									"55"
@@ -963,14 +963,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_PassTime"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_PassTime"
 			"labelText"								"#TF_SteamWorkshop_Tag_PassTime"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"85"
 			"ypos"									"70"
@@ -980,14 +980,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_Specialty"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_Specialty"
 			"labelText"								"#TF_SteamWorkshop_Tag_Specialty"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"85"
 			"ypos"									"85"
@@ -997,14 +997,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_Halloween"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_Halloween"
 			"labelText"								"#TF_SteamWorkshop_Tag_Halloween"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"85"
 			"ypos"									"100"
@@ -1014,14 +1014,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckbox_Smissmas"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckbox_Smissmas"
 			"labelText"								"#TF_SteamWorkshop_Tag_Smissmas"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"85"
 			"ypos"									"115"
@@ -1031,14 +1031,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckbox_Night"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckbox_Night"
 			"labelText"								"#TF_SteamWorkshop_Tag_Night"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"85"
 			"ypos"									"130"
@@ -1048,14 +1048,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckbox_Jungle"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckbox_Jungle"
 			"labelText"								"#TF_SteamWorkshop_Tag_Jungle"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"85"
 			"ypos"									"145"
@@ -1065,14 +1065,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 		"MapsCheckBox_Summer"
 		{
 			"ControlName"							"CheckButton"
 			"fieldName"								"MapsCheckBox_Summer"
 			"labelText"								"#TF_SteamWorkshop_Tag_Summer"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"85"
 			"ypos"									"160"
@@ -1082,7 +1082,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"smallcheckimage"						"1"
-			"disabledfgcolor2_override"				"WhiteDarker"
+			"disabledfgcolor2_override"				"White_Darker"
 		}
 	}
 
@@ -1098,7 +1098,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"-"
-		"font"										"Symbols 26"
+		"font"										"Symbols_26"
 		"textAlignment"								"center"
 		"Command"									"Close"
 		"Default"									"0"
@@ -1109,7 +1109,7 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
@@ -1129,15 +1129,15 @@
 		"Command"									"Publish"
 		"Default"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"Light 14"
+		"font"										"Light_14"
 
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		"defaultBgColor_override"					"ButtonGreen"
-		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override"					"ButtonGreen_Hover"
+		"defaultBgColor_override"					"Button_Green"
+		"armedBgColor_override"						"Button_Green_Hover"
+		"depressedBgColor_override"					"Button_Green_Hover"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"FullWhite"

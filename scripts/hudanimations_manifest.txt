@@ -5,6 +5,6 @@
 	"file"	"scripts/animations/health.txt"
 	"file"	"scripts/animations/ubercharge.txt"
 	"file"	"scripts/animations/misc.txt"
-	"file"	"customizations/crosshairs and hitmarker animation.txt"
+	"file"	"customizations/crosshairs_and_hitmarker_animation.txt"
 	"file"	"scripts/hudanimations_tf.txt"
 }

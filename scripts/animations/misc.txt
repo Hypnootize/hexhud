@@ -50,12 +50,12 @@ event HudTournamentSetupPanelClose
 
 event ActiveTimerHighlight
 {
-	Animate TimePanelValue						FgColor		"OffWhite"							Linear	0.0		0.0
+	Animate TimePanelValue						FgColor		"Off_White"							Linear	0.0		0.0
 }
 
 event ActiveTimerDim
 {
-	Animate TimePanelValue						FgColor		"WhiteDark"							Linear	0.0		0.0
+	Animate TimePanelValue						FgColor		"White_Dark"							Linear	0.0		0.0
 }
 
 //===========================================================================================================================

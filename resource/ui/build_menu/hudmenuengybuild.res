@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
@@ -26,7 +26,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
@@ -40,7 +40,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"TitleLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"

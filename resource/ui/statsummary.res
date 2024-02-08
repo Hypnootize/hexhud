@@ -32,7 +32,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapType"
-		"font"										"Light 24"
+		"font"										"Light_24"
 		"labelText"									"%maptype%"
 		"textAlignment"								"west"
 		"xpos"										"5"
@@ -44,14 +44,14 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapLabel"
-		"font"										"Bold 44"
+		"font"										"Bold_44"
 		"labelText"									"%maplabel%"
 		"textAlignment"								"west"
 		"xpos"										"5"

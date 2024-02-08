@@ -1,4 +1,4 @@
-#base "../../resource/dev/reloadschemebutton.res"
+#base "../dev/reloadschemebutton.res"
 
 "Resource/UI/AbuseReportSubmitDialog.res"
 {
@@ -33,14 +33,14 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 24"
+		"font"										"Light_24"
 		"labelText"									"#AbuseReport_DialogTitle"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -51,7 +51,7 @@
 		"centerwrap"								"1"
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"GameServerRadio"
@@ -65,7 +65,7 @@
 		"wide"										"170"
 		"tall"										"20"
 		"editable"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"AllCaps"									"1"
 	}
 
@@ -80,7 +80,7 @@
 		"wide"										"170"
 		"tall"										"20"
 		"editable"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"AllCaps"									"1"
 	}
 
@@ -95,9 +95,9 @@
 		"wide"										"170"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"PlayerComboBox"
@@ -110,25 +110,25 @@
 		"wide"										"170"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"AllCaps"									"1"
 
 		"paintborder"								"0"
 
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"GrayBlueDark"
-		"selectionColor_override"					"GrayBlueDark"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"GrayBlueDark"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Gray_Blue_Dark"
+		"selectionColor_override"					"Gray_Blue_Dark"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Gray_Blue_Dark"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
-			"defaultBgColor_override"				"GrayBlueDark"
-			"armedFgColor_override"					"WhiteDark"
-			"armedBgColor_override"					"GrayBlueDark"
+			"defaultFgColor_override"				"White_Dark"
+			"defaultBgColor_override"				"Gray_Blue_Dark"
+			"armedFgColor_override"					"White_Dark"
+			"armedBgColor_override"					"Gray_Blue_Dark"
 			"paintbackgroundtype"					"0"
 		}
 	}
@@ -144,9 +144,9 @@
 		"wide"										"170"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"AbuseContentComboBox"
@@ -159,25 +159,25 @@
 		"wide"										"170"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"AllCaps"									"1"
 
 		"paintborder"								"0"
 
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"GrayBlueDark"
-		"selectionColor_override"					"GrayBlueDark"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"GrayBlueDark"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Gray_Blue_Dark"
+		"selectionColor_override"					"Gray_Blue_Dark"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Gray_Blue_Dark"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
-			"defaultBgColor_override"				"GrayBlueDark"
-			"armedFgColor_override"					"WhiteDark"
-			"armedBgColor_override"					"GrayBlueDark"
+			"defaultFgColor_override"				"White_Dark"
+			"defaultBgColor_override"				"Gray_Blue_Dark"
+			"armedFgColor_override"					"White_Dark"
+			"armedBgColor_override"					"Gray_Blue_Dark"
 			"paintbackgroundtype"					"0"
 		}
 	}
@@ -193,9 +193,9 @@
 		"wide"										"170"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"AbuseTypeComboBox"
@@ -208,25 +208,25 @@
 		"wide"										"170"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"AllCaps"									"1"
 
 		"paintborder"								"0"
 
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"GrayBlueDark"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"GrayBlueDark"
-		"selectionColor_override"					"GrayBlueDark"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"GrayBlueDark"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Gray_Blue_Dark"
+		"selectionColor_override"					"Gray_Blue_Dark"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Gray_Blue_Dark"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
-			"defaultBgColor_override"				"GrayBlueDark"
-			"armedFgColor_override"					"WhiteDark"
-			"armedBgColor_override"					"GrayBlueDark"
+			"defaultFgColor_override"				"White_Dark"
+			"defaultBgColor_override"				"Gray_Blue_Dark"
+			"armedFgColor_override"					"White_Dark"
+			"armedBgColor_override"					"Gray_Blue_Dark"
 			"paintbackgroundtype"					"0"
 		}
 	}
@@ -254,7 +254,7 @@
 		"wide"										"360"
 		"tall"										"18"
 		"labelText"									"Screenshot shows abuse; upload it with report."
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -286,7 +286,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#AbuseReport_NoAvatar"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
 	}
@@ -316,7 +316,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_LessThan"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
 		"Command"									"prevcustomtexture"
@@ -325,9 +325,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"CustomTextureNextButton"
@@ -342,7 +342,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_GreaterThan"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"nextcustomtexture"
 		"AllCaps"									"1"
@@ -350,9 +350,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"NoCustomTexturesLabel"
@@ -367,10 +367,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#AbuseReport_NoCustomTextures"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"centerwrap"								"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"DescriptionLabel"
@@ -384,9 +384,9 @@
 		"wide"										"140"
 		"tall"										"15"
 		"editable"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"DescriptionTextEntry"
@@ -398,10 +398,10 @@
 		"zpos"										"2"
 		"wide"										"540"
 		"tall"										"90"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"AllCaps"									"1"
-		"bgcolor_override"							"GrayBlueDark"
-		"fgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"fgcolor_override"							"White_Dark"
 		"maxchars"									"512"
 	}
 
@@ -415,7 +415,7 @@
 		"wide"										"130"
 		"tall"										"20"
 		"labelText"									"#AbuseReport_Discard"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"discard"
 		"AllCaps"									"1"
@@ -424,9 +424,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -443,7 +443,7 @@
 		"wide"										"130"
 		"tall"										"20"
 		"labelText"									"#AbuseReport_Submit"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"submit"
 		"AllCaps"									"1"
@@ -452,9 +452,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -471,7 +471,7 @@
 		"wide"										"130"
 		"tall"										"20"
 		"labelText"									"#AbuseReport_SaveForLater"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"Command"									"cancel"
 		"AllCaps"									"1"
@@ -480,9 +480,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

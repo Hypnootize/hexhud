@@ -15,7 +15,7 @@
 
 		"PaintBackgroundType"						"0"
 		"PaintBackground"							"1"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"itempanel_xpos"							"0"
 		"itempanel_ydelta"							"0"
@@ -39,7 +39,7 @@
 			"text_wide"								"100"
 			"name_only"								"1"
 
-			"noitem_textcolor"						"WhiteDark"
+			"noitem_textcolor"						"White_Dark"
 		}
 	}
 
@@ -66,7 +66,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemSlotLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"#PrimaryWeapon"
 		"textAlignment"								"west"
 		"xpos"										"-2"
@@ -89,7 +89,7 @@
 		"ypos"										"12"
 		"wide"										"f18"
 		"tall"										"f12"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 		"PaintBackground"							"0"
 		"autohide_buttons"							"1"
 		"proportionaltoparent"						"1"
@@ -108,7 +108,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor_override"					"White_Dark"
 			}
 		}
 	}
@@ -128,7 +128,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CurrentlyEquippedBackground"
-			"font"									"Symbols 12"
+			"font"									"Symbols_12"
 			"labelText"								"+"
 			"textAlignment"							"west"
 			"xpos"									"rs1"

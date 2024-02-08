@@ -53,7 +53,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ItemLabel"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"xpos"									"10"
 			"ypos"									"4"
 			"zpos"									"1"
@@ -62,7 +62,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#FreezePanel_Item"
-			"textAlignment"							"Left"
+			"textAlignment"							"west"
 		}
 	}
 }

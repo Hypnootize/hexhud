@@ -12,7 +12,7 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
 		"Title"										"#TF_PublishedFiles_Browse"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 	}
 
 	"Background"
@@ -41,7 +41,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PublishedFiles_Files"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 
 	}
 
@@ -56,7 +56,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"LabelPublishedFileTitle"
@@ -71,7 +71,7 @@
 		"enabled"									"1"
 		"labelText"									"#TF_PublishFile_TitleLabel"
 		"textAlignment"								"west"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"LabelPublishedFileTitleValue"
@@ -88,7 +88,7 @@
 		"labelText"									""
 		// "editable"								"0"
 		// "maxchars"								"128"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"LabelPublishedFileDesc"
@@ -104,7 +104,7 @@
 		"labelText"									"#TF_PublishFile_DescLabel"
 		"textAlignment"								"west"
 		"wrap"										"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"LabelPublishedFileDescValue"
@@ -144,7 +144,7 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
@@ -169,7 +169,7 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
@@ -194,7 +194,7 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
@@ -219,7 +219,7 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
@@ -244,7 +244,7 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}

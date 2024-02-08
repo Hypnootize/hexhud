@@ -31,7 +31,7 @@
 		"textAlignment"								"center"
 		"command"									"teamready"
 		"default"									"0"
-		"font"										"Symbols 12"
+		"font"										"Symbols_12"
 
 		"fgcolor"									"White"
 		"defaultFgColor_override"					"White"
@@ -41,11 +41,11 @@
 
 		"paintbackground"							"1"
 
-		"bgcolor"									"ButtonGreen"
-		"defaultBgColor_override"					"ButtonGreen"
-		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override"					"ButtonGreen_Hover"
-		"selectedBgColor_override"					"ButtonGreen_Hover"
+		"bgcolor"									"Button_Green"
+		"defaultBgColor_override"					"Button_Green"
+		"armedBgColor_override"						"Button_Green_Hover"
+		"depressedBgColor_override"					"Button_Green_Hover"
+		"selectedBgColor_override"					"Button_Green_Hover"
 
 		"proportionaltoparent"						"1"
 	}
@@ -65,7 +65,7 @@
 		"textAlignment"								"center"
 		"command"									"teamnotready"
 		"default"									"0"
-		"font"										"Symbols 12"
+		"font"										"Symbols_12"
 
 		"fgcolor"									"White"
 		"defaultFgColor_override"					"White"
@@ -75,11 +75,11 @@
 
 		"paintbackground"							"1"
 
-		"bgcolor"									"ButtonRed"
-		"defaultBgColor_override"					"ButtonRed"
-		"armedBgColor_override"						"ButtonRed_Hover"
-		"depressedBgColor_override"					"ButtonRed_Hover"
-		"selectedBgColor_override"					"ButtonRed_Hover"
+		"bgcolor"									"Button_Red"
+		"defaultBgColor_override"					"Button_Red"
+		"armedBgColor_override"						"Button_Red_Hover"
+		"depressedBgColor_override"					"Button_Red_Hover"
+		"selectedBgColor_override"					"Button_Red_Hover"
 
 		"proportionaltoparent"						"1"
 
@@ -105,8 +105,8 @@
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
 		"wrap"										"0"
-		"font"										"Light 12"
-		"fgcolor_override"							"OffWhite"
+		"font"										"Light_12"
+		"fgcolor_override"							"Off_White"
 		"bgcolor_override"							"Background"
 		"labelText"									"%teamname%"
 		"textAlignment"								"center"

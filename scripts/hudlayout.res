@@ -2,29 +2,29 @@
 // STREAMER MODE LAYOUT
 //============================================================
 
-#base	"../customizations/#streamermode/hudlayout.res"
+#base "../customizations/#streamermode/hudlayout.res"
 
 //============================================================
 // TRANSPARENT VIEWMODELS
 //============================================================
 
-#base	"../customizations/transparent viewmodels.res"
+#base "../customizations/transparent_viewmodels.res"
 
 //============================================================
 // HExHUD LAYOUT
 //============================================================
 
-#base	"../scripts/layouts/layout_hex.res"
+#base "layouts/layout_hex.res"
 
 //============================================================
 // DEFAULT LAYOUT
 //============================================================
 
-#base	"../scripts/layouts/layout_default.res"
+#base "layouts/layout_default.res"
 
 //============================================================
 // DEV TOOLS
 //============================================================
 
-#base	"../resource/dev/flatscreen.res"
-#base	"../resource/dev/damage simulator.res"
+#base "../resource/dev/flatscreen.res"
+#base "../resource/dev/damage_simulator.res"

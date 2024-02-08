@@ -14,7 +14,7 @@
 		"labelText"									"%button_token%"
 		"textinsetx"								"0"
 		"use_proportional_insets"					"1"
-		"font"										"Light 18"
+		"font"										"Light_18"
 		"textAlignment"								"south"
 		"wrap"										"0"
 		"centerwrap"								"1"
@@ -29,8 +29,8 @@
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteDark"
-		"depressedFgColor_override"					"WhiteDark"
+		"armedFgColor_override"						"White_Dark"
+		"depressedFgColor_override"					"White_Dark"
 
 		"image_drawcolor"							"255 255 255 255"
 		"image_armedcolor"							"225 225 225 255"
@@ -81,15 +81,15 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"mouseinputenabled"							"0"
-		"bgcolor_override"							"RedDark"
+		"bgcolor_override"							"Red_Dark"
 		"proportionaltoparent"						"1"
 
 		"MatchmakingBanDurationLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MatchmakingBanDurationLabel"
-			"font"									"Light 9"
-			"fgcolor"								"RedDark"
+			"font"									"Light_9"
+			"fgcolor"								"Red_Dark"
 			"labelText"								"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textalignment"							"south-west"
 			"xpos"									"5"

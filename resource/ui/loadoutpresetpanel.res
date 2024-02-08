@@ -12,7 +12,7 @@
 			"tall"										"25"
 			"visible"									"0"
 			"enabled"									"1"
-			"font"										"Light 18"
+			"font"										"Light_18"
 			"textAlignment"								"center"
 			"textinsetx"								"0"
 			"Command"									""
@@ -23,10 +23,10 @@
 			"paintbackgroundtype"						"0"
 			"paintborder"								"1"
 
-			"border_default"							"BottomLineWhite"
-			"border_selected"							"BottomLineWhite"
-			"border_depressed"							"BottomLineWhite"
-			"border_armed"								"BottomLineWhite"
+			"border_default"							"Bottom_Line_White"
+			"border_selected"							"Bottom_Line_White"
+			"border_depressed"							"Bottom_Line_White"
+			"border_armed"								"Bottom_Line_White"
 
 			"defaultBgColor_override"					"Button"
 			"armedBgColor_override"						"Button_Hover"
@@ -34,9 +34,9 @@
 			"selectedBgColor_override"					"Button_Hover"
 
 			"defaultFgColor_override"					"White"
-			"armedFgColor_override"						"WhiteSolid"
-			"depressedFgColor_override"					"WhiteSolid"
-			"selectedFgColor_override"					"WhiteSolid"
+			"armedFgColor_override"						"White_Solid"
+			"depressedFgColor_override"					"White_Solid"
+			"selectedFgColor_override"					"White_Solid"
 		}
 	}
 }

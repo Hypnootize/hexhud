@@ -31,7 +31,7 @@
 		"labelText"									"#TF_Charge"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"ChargeMeter"
@@ -66,7 +66,7 @@
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
 			"font"									"Sticky"
-			"font_minmode"							"Sticky Minmode"
+			"font_minmode"							"Sticky_Minmode"
 			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
@@ -84,8 +84,8 @@
 			"enabled"								"1"
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
-			"font"									"Sticky Shadow"
-			"font_minmode"							"Sticky Shadow Minmode"
+			"font"									"Sticky_Shadow"
+			"font_minmode"							"Sticky_Shadow_Minmode"
 			"fgcolor"								"Shadow"
 			"proportionaltoparent"					"1"
 

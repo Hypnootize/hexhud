@@ -43,8 +43,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 11"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_11"
+		"fgcolor"									"Off_White"
 		"xpos"										"-3"
 		"ypos"										"0"
 		"zpos"										"10"
@@ -62,7 +62,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabelShadow"
-		"font"										"Light 11 Blur"
+		"font"										"Light_11_Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
@@ -103,7 +103,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WeaponTauntLabel"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"rs1"
@@ -119,15 +119,15 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 	"CancelLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
-		"font"										"Light 7"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_7"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"rs1"
 		"zpos"										"2"
@@ -142,7 +142,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 	"TauntModelPanel1"
@@ -180,14 +180,14 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
 		{
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"visible"								"0"
 		}
 
@@ -206,7 +206,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel1"
 		"font"										"SpectatorKeyHints"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"1"
 		"zpos"										"115"
@@ -218,7 +218,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"TauntModelPanel1"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -260,14 +260,14 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
 		{
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"visible"								"0"
 		}
 
@@ -288,7 +288,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel2"
 		"font"										"SpectatorKeyHints"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"1"
 		"zpos"										"115"
@@ -300,7 +300,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"TauntModelPanel2"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -342,14 +342,14 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
 		{
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"visible"								"0"
 		}
 
@@ -370,7 +370,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel3"
 		"font"										"SpectatorKeyHints"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"1"
 		"zpos"										"115"
@@ -382,7 +382,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"TauntModelPanel3"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -424,14 +424,14 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
 		{
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"visible"								"0"
 		}
 
@@ -452,7 +452,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel4"
 		"font"										"SpectatorKeyHints"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"1"
 		"zpos"										"115"
@@ -464,7 +464,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"TauntModelPanel4"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -506,14 +506,14 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
 		{
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"visible"								"0"
 		}
 
@@ -534,7 +534,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel5"
 		"font"										"SpectatorKeyHints"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"1"
 		"zpos"										"115"
@@ -546,7 +546,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"TauntModelPanel5"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -588,14 +588,14 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
 		{
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"visible"								"0"
 		}
 
@@ -616,7 +616,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel6"
 		"font"										"SpectatorKeyHints"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"1"
 		"zpos"										"115"
@@ -628,7 +628,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"TauntModelPanel6"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -670,14 +670,14 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
 		{
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"visible"								"0"
 		}
 
@@ -698,7 +698,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel7"
 		"font"										"SpectatorKeyHints"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"1"
 		"zpos"										"115"
@@ -710,7 +710,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"TauntModelPanel7"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -752,14 +752,14 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Light"
+			"bgcolor_override"						"Background_Light"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
 
 		"attriblabel"
 		{
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"visible"								"0"
 		}
 
@@ -780,7 +780,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel8"
 		"font"										"SpectatorKeyHints"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"1"
 		"zpos"										"115"
@@ -792,7 +792,7 @@
 		"textAlignment"								"Center"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"TauntModelPanel8"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"

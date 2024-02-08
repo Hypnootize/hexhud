@@ -28,7 +28,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							""
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"west"
 				"textinsetx"						"30"
 				"use_proportional_insets"			"1"
@@ -37,9 +37,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"armedFgColor_override"				"White"
-				"depressedFgColor_override"			"WhiteDark"
+				"depressedFgColor_override"			"White_Dark"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -74,7 +74,7 @@
 		"wide"										"232"
 		"tall"										"192"
 		"PaintBackgroundType"						"0"
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 		"bgcolor_override"							"Blank"
 		"proportionaltoparent"						"1"
 
@@ -149,7 +149,7 @@
 		"PaintBackgroundType"						"0"
 		"PaintBackground"							"1"
 		"PaintBorder"								"1"
-		"border"									"BottomLineWhiteDark"
+		"border"									"Bottom_Line_White_Dark"
 		"bgcolor_override"							"Background_Secondary"
 		"proportionaltoparent"						"1"
 
@@ -162,7 +162,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"Find a trading partner from:"
 		"textAlignment"								"west"
 		"xpos"										"-5"
@@ -174,7 +174,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 
 		"pin_to_sibling"							"TitleBG"
 	}
@@ -210,14 +210,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Steam Friend List"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 
 			"paintbackground"						"1"
-			"BgColor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"BgColor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 		}
 		"FriendsIcon"
 		{
@@ -231,12 +231,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"R"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 
 			"paintbackground"						"1"
-			"BgColor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"BgColor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -270,14 +270,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Current Server"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 
 			"paintbackground"						"1"
-			"BgColor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"BgColor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 		}
 		"ServerIcon"
 		{
@@ -291,12 +291,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"u"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 
 			"paintbackground"						"1"
-			"BgColor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"BgColor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -330,14 +330,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Steam Profile"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 
 			"paintbackground"						"1"
-			"BgColor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"BgColor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 		}
 		"SteamIcon"
 		{
@@ -351,12 +351,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"p"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 
 			"paintbackground"						"1"
-			"BgColor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"BgColor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -396,7 +396,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Steam Friend List"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"textAlignment"							"center"
 			"default"								"1"
 			"AllCaps"								"1"
@@ -412,9 +412,9 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"subbutton1"
@@ -429,7 +429,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Current Server"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"textAlignment"							"center"
 			"default"								"1"
 			"AllCaps"								"1"
@@ -445,9 +445,9 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"subbutton2"
@@ -462,7 +462,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Steam Profile"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"textAlignment"							"center"
 			"default"								"1"
 			"AllCaps"								"1"
@@ -478,9 +478,9 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -518,7 +518,7 @@
 			"proportionaltoparent"					"1"
 			"PaintBackgroundType"					"0"
 			"PaintBackground"						"1"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
 
@@ -537,8 +537,8 @@
 			"PaintBackgroundType"					"0"
 			"PaintBackground"						"1"
 			"PaintBorder"							"1"
-			"border"								"BottomLineWhiteDark"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"border"								"Bottom_Line_White_Dark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
 
@@ -546,7 +546,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"QueryLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#TF_TradeStartDialog_Friends"
 			"textAlignment"							"west"
 			"xpos"									"5"
@@ -558,14 +558,14 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"EmptyPlayerListLabel"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"labelText"								"#TF_TradeStartDialog_FriendsNone"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5"
@@ -579,7 +579,7 @@
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -615,7 +615,7 @@
 			"proportionaltoparent"					"1"
 			"PaintBackgroundType"					"0"
 			"PaintBackground"						"1"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
 
@@ -634,8 +634,8 @@
 			"PaintBackgroundType"					"0"
 			"PaintBackground"						"1"
 			"PaintBorder"							"1"
-			"border"								"BottomLineWhiteDark"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"border"								"Bottom_Line_White_Dark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
 
@@ -643,7 +643,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"QueryLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#TF_TradeStartDialog_Server"
 			"textAlignment"							"west"
 			"xpos"									"5"
@@ -655,14 +655,14 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"EmptyPlayerListLabel"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"labelText"								"#TF_TradeStartDialog_ServerNone"
 			"textAlignment"							"center"
 			"xpos"									"cs-0.5"
@@ -676,7 +676,7 @@
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -714,7 +714,7 @@
 			"proportionaltoparent"					"1"
 			"PaintBackgroundType"					"0"
 			"PaintBackground"						"1"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
 
@@ -733,8 +733,8 @@
 			"PaintBackgroundType"					"0"
 			"PaintBackground"						"1"
 			"PaintBorder"							"1"
-			"border"								"BottomLineWhiteDark"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"border"								"Bottom_Line_White_Dark"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
 
@@ -742,7 +742,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"QueryLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#TF_TradeStartDialog_Profile"
 			"textAlignment"							"west"
 			"xpos"									"5"
@@ -754,14 +754,14 @@
 			"enabled"								"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"URLHelpLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"URLHelpLabel"
-			"font"									"Light 8"
+			"font"									"Light_8"
 			"labelText"								"#TF_TradeStartDialog_ProfileHelp"
 			"textAlignment"							"center"
 			"xpos"									"2"
@@ -775,7 +775,7 @@
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"URLEntry"
@@ -794,12 +794,12 @@
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
 			"wrap"									"0"
-			"fgcolor_override"						"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
+			"fgcolor_override"						"White_Dark"
+			"bgcolor_override"						"Black_Blue"
 			"PaintBackgroundType"					"0"
 			"labelText"								""
 			"proportionaltoparent"					"1"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"textAlignment"							"west"
 		}
 
@@ -807,7 +807,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"URLFailLabel"
-			"font"									"Light 8"
+			"font"									"Light_8"
 			"labelText"								"#TF_TradeStartDialog_ProfileFail"
 			"textAlignment"							"center"
 			"xpos"									"2"
@@ -821,14 +821,14 @@
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"RedDark"
+			"fgcolor"								"Red_Dark"
 		}
 
 		"URLSearchingLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"URLSearchingLabel"
-			"font"									"Light 8"
+			"font"									"Light_8"
 			"labelText"								"#TF_TradeStartDialog_ProfileLookup"
 			"textAlignment"							"center"
 			"xpos"									"2"
@@ -842,7 +842,7 @@
 			"centerwrap"							"1"
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"subbutton0"
@@ -857,7 +857,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_TradeStartDialog_ProfileGo"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"default"								"1"
 			"AllCaps"								"1"
@@ -869,13 +869,13 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"0"
 
-			"defaultBgColor_override"				"ButtonGreen"
-			"armedBgColor_override"					"ButtonGreen_Hover"
-			"depressedBgColor_override"				"ButtonGreen_Hover"
+			"defaultBgColor_override"				"Button_Green"
+			"armedBgColor_override"					"Button_Green_Hover"
+			"depressedBgColor_override"				"Button_Green_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -909,7 +909,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"Back"
-			"font"									"Light 16"
+			"font"									"Light_16"
 			"textAlignment"							"center"
 			"default"								"0"
 			"Command"								"cancel"
@@ -925,9 +925,9 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 		"BackIcon"
 		{
@@ -941,12 +941,12 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#"
-			"font"									"Symbols 24"
+			"font"									"Symbols_24"
 			"textAlignment"							"center"
 
 			"paintbackground"						"1"
-			"BgColor_override"						"GrayBlueDark"
-			"fgcolor"								"WhiteDark"
+			"BgColor_override"						"Gray_Blue_Dark"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -962,7 +962,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Back"
-		"font"										"Light 16"
+		"font"										"Light_16"
 		"textAlignment"								"center"
 		"default"									"0"
 		"Command"									"cancel"
@@ -974,16 +974,16 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"1"
 
-		"border_default"							"BottomLineWhite"
-		"border_armed"								"BottomLineWhite"
+		"border_default"							"Bottom_Line_White"
+		"border_armed"								"Bottom_Line_White"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"SubImage"
 		{

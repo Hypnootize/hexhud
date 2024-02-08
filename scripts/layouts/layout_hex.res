@@ -179,7 +179,7 @@
 		"CornerRadius"								"0"
 		"RightJustify"								"1"
 
-		"TextFont"									"Light 10"
+		"TextFont"									"Light_10"
 
 		"TeamBlue"									"35 160 245 255"
 		"TeamRed"									"245 70 70 255"

@@ -1,4 +1,4 @@
-#base "../../resource/dev/reloadschemebutton.res"
+#base "../dev/reloadschemebutton.res"
 
 "Resource/UI/ImportFileDialog.res"
 {
@@ -17,7 +17,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Secondary"
 		"paintborder"								"1"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 	}
 
 	"Background"
@@ -72,8 +72,8 @@
 		"enabled"									"1"
 		"labelText"									"#TF_ImportFile_Title"
 		"textAlignment"								"west"
-		"font"										"Light 24"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_24"
+		"fgcolor"									"White_Dark"
 	}
 
 	"NameLabel"
@@ -88,8 +88,8 @@
 		"enabled"									"1"
 		"labelText"									"#TF_ImportFile_NameLabel"
 		"textAlignment"								"west"
-		"font"										"Light 12"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_12"
+		"fgcolor"									"White_Dark"
 	}
 
 	"Name"
@@ -107,9 +107,9 @@
 		"NumericInputOnly"							"0"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 11"
+		"font"										"Light_11"
 	}
 
 	"TypeLabel"
@@ -124,15 +124,15 @@
 		"enabled"									"1"
 		"labelText"									"#TF_ImportFile_TypeLabel"
 		"textAlignment"								"west"
-		"font"										"Light 12"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_12"
+		"fgcolor"									"White_Dark"
 	}
 
 	"TypeComboBox"
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"TypeComboBox"
-		"Font"										"Light 12"
+		"Font"										"Light_12"
 		"xpos"										"5"
 		"ypos"										"63"
 		"wide"										"190"
@@ -142,19 +142,19 @@
 
 		"paintborder"								"0"
 
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"BlackBlue"
-		"disabledFgColor_override"					"WhiteDark"
-		"disabledBgColor_override"					"BlackBlue"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Black_Blue"
+		"disabledFgColor_override"					"White_Dark"
+		"disabledBgColor_override"					"Black_Blue"
 		"selectionColor_override"					"Blank"
-		"selectionTextColor_override"				"WhiteDark"
-		"defaultSelectionBG2Color_override"			"BlackBlue"
+		"selectionTextColor_override"				"White_Dark"
+		"defaultSelectionBG2Color_override"			"Black_Blue"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"defaultBgColor_override"				"Blank"
-			"armedFgColor_override"					"WhiteDark"
+			"armedFgColor_override"					"White_Dark"
 			"armedBgColor_override"					"Blank"
 			"paintbackgroundtype"					"0"
 		}
@@ -183,15 +183,15 @@
 			"enabled"								"1"
 			"labelText"								"#TF_ImportFile_EquipRegionLabel"
 			"textAlignment"							"west"
-			"font"									"Light 12"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_12"
+			"fgcolor"								"White_Dark"
 		}
 
 		"EquipRegionComboBox"
 		{
 			"ControlName"							"ComboBox"
 			"fieldName"								"EquipRegionComboBox"
-			"Font"									"Light 12"
+			"Font"									"Light_12"
 			"xpos"									"0"
 			"ypos"									"20"
 			"wide"									"190"
@@ -201,19 +201,19 @@
 
 			"paintborder"							"0"
 
-			"fgcolor_override"						"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
-			"disabledFgColor_override"				"WhiteDark"
-			"disabledBgColor_override"				"BlackBlue"
+			"fgcolor_override"						"White_Dark"
+			"bgcolor_override"						"Black_Blue"
+			"disabledFgColor_override"				"White_Dark"
+			"disabledBgColor_override"				"Black_Blue"
 			"selectionColor_override"				"Blank"
-			"selectionTextColor_override"			"WhiteDark"
-			"defaultSelectionBG2Color_override"		"BlackBlue"
+			"selectionTextColor_override"			"White_Dark"
+			"defaultSelectionBG2Color_override"		"Black_Blue"
 
 			"Button"
 			{
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"defaultBgColor_override"			"Blank"
-				"armedFgColor_override"				"WhiteDark"
+				"armedFgColor_override"				"White_Dark"
 				"armedBgColor_override"				"Blank"
 				"paintbackgroundtype"				"0"
 			}
@@ -232,8 +232,8 @@
 		"enabled"									"1"
 		"labelText"									"#TF_ImportFile_WorkshopIDLabel"
 		"textAlignment"								"west"
-		"font"										"Light 12"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_12"
+		"fgcolor"									"White_Dark"
 	}
 
 	"WorkshopIDTextEntry"
@@ -252,9 +252,9 @@
 		"NumericInputOnly"							"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 11"
+		"font"										"Light_11"
 	}
 
 	"TFEnglishNameLabel"
@@ -269,8 +269,8 @@
 		"enabled"									"1"
 		"labelText"									"TF_English Name"
 		"textAlignment"								"west"
-		"font"										"Light 12"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_12"
+		"fgcolor"									"White_Dark"
 	}
 
 	"TFEnglishNameTextEntry"
@@ -289,9 +289,9 @@
 		"NumericInputOnly"							"0"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 11"
+		"font"										"Light_11"
 	}
 
 	"PerforceCheckButton"
@@ -299,7 +299,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"PerforceCheckButton"
 		"labelText"									"Perforce"
-		"Font"										"Light 12"
+		"Font"										"Light_12"
 		"textAlignment"								"west"
 		"xpos"										"245"
 		"ypos"										"85"
@@ -315,7 +315,7 @@
 		"ControlName"								"CheckButton"
 		"fieldName"									"PartnerCheckButton"
 		"labelText"									"Partner"
-		"Font"										"Light 12"
+		"Font"										"Light_12"
 		"textAlignment"								"west"
 		"xpos"										"325"
 		"ypos"										"85"
@@ -337,7 +337,7 @@
 		"visible"									"1"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 
 		"ButtonIconClear"
 		{
@@ -349,7 +349,7 @@
 			"wide"									"15"
 			"tall"									"15"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 12"
+			"font"									"Symbols_12"
 			"textAlignment"							"center"
 
 			"labelText"								"-"
@@ -357,9 +357,9 @@
 
 			"paintbackground"						"1"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
@@ -376,7 +376,7 @@
 			"wide"									"19"
 			"tall"									"15"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 12"
+			"font"									"Symbols_12"
 			"textAlignment"							"center"
 
 			"labelText"								"q"
@@ -384,9 +384,9 @@
 
 			"paintbackground"						"1"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
@@ -417,8 +417,8 @@
 			"enabled"								"1"
 			"labelText"								"#TF_ImportFile_IconLabel"
 			"textAlignment"							"west"
-			"font"									"Light 12"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_12"
+			"fgcolor"								"White_Dark"
 		}
 	}
 
@@ -433,7 +433,7 @@
 		"visible"									"1"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 
 		"ClassesTitle"
 		{
@@ -447,8 +447,8 @@
 			"enabled"								"1"
 			"labelText"								"#TF_ImportFile_Models"
 			"textAlignment"							"west"
-			"font"									"Light 11"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_11"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ClassHighlight1"
@@ -472,8 +472,8 @@
 			"wide"									"63"
 			"tall"									"25"
 			"labelText"								"#TF_Class_Name_Scout"
-			"font"									"Light 11"
-			"defaultFgColor_override"				"WhiteDark"
+			"font"									"Light_11"
+			"defaultFgColor_override"				"White_Dark"
 		}
 		"ClassHighlight2"
 		{
@@ -496,8 +496,8 @@
 			"wide"									"63"
 			"tall"									"25"
 			"labelText"								"#TF_Class_Name_Sniper"
-			"font"									"Light 11"
-			"defaultFgColor_override"				"WhiteDark"
+			"font"									"Light_11"
+			"defaultFgColor_override"				"White_Dark"
 		}
 		"ClassHighlight3"
 		{
@@ -520,8 +520,8 @@
 			"wide"									"63"
 			"tall"									"25"
 			"labelText"								"#TF_Class_Name_Soldier"
-			"font"									"Light 11"
-			"defaultFgColor_override"				"WhiteDark"
+			"font"									"Light_11"
+			"defaultFgColor_override"				"White_Dark"
 		}
 		"ClassHighlight4"
 		{
@@ -544,8 +544,8 @@
 			"wide"									"63"
 			"tall"									"25"
 			"labelText"								"#TF_Class_Name_Demoman"
-			"font"									"Light 11"
-			"defaultFgColor_override"				"WhiteDark"
+			"font"									"Light_11"
+			"defaultFgColor_override"				"White_Dark"
 		}
 		"ClassHighlight5"
 		{
@@ -568,8 +568,8 @@
 			"wide"									"63"
 			"tall"									"25"
 			"labelText"								"#TF_Class_Name_Medic"
-			"font"									"Light 11"
-			"defaultFgColor_override"				"WhiteDark"
+			"font"									"Light_11"
+			"defaultFgColor_override"				"White_Dark"
 		}
 		"ClassHighlight6"
 		{
@@ -592,8 +592,8 @@
 			"wide"									"63"
 			"tall"									"25"
 			"labelText"								"#TF_Class_Name_HWGuy"
-			"font"									"Light 11"
-			"defaultFgColor_override"				"WhiteDark"
+			"font"									"Light_11"
+			"defaultFgColor_override"				"White_Dark"
 		}
 		"ClassHighlight7"
 		{
@@ -616,8 +616,8 @@
 			"wide"									"63"
 			"tall"									"25"
 			"labelText"								"#TF_Class_Name_Pyro"
-			"font"									"Light 11"
-			"defaultFgColor_override"				"WhiteDark"
+			"font"									"Light_11"
+			"defaultFgColor_override"				"White_Dark"
 		}
 		"ClassHighlight8"
 		{
@@ -640,8 +640,8 @@
 			"wide"									"63"
 			"tall"									"25"
 			"labelText"								"#TF_Class_Name_Spy"
-			"font"									"Light 11"
-			"defaultFgColor_override"				"WhiteDark"
+			"font"									"Light_11"
+			"defaultFgColor_override"				"White_Dark"
 		}
 		"ClassHighlight9"
 		{
@@ -664,8 +664,8 @@
 			"wide"									"63"
 			"tall"									"25"
 			"labelText"								"#TF_Class_Name_Engineer"
-			"font"									"Light 11"
-			"defaultFgColor_override"				"WhiteDark"
+			"font"									"Light_11"
+			"defaultFgColor_override"				"White_Dark"
 		}
 	}
 
@@ -681,7 +681,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 
 		"BodygroupTitle"
 		{
@@ -695,8 +695,8 @@
 			"enabled"								"1"
 			"labelText"								"#TF_ImportFile_Bodygroups"
 			"textAlignment"							"west"
-			"font"									"Light 11"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_11"
+			"fgcolor"								"White_Dark"
 		}
 
 		"Bodygroup0"
@@ -704,7 +704,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"Bodygroup0"
 			"labelText"								""
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"4"
 			"ypos"									"18"
@@ -712,7 +712,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"0"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
@@ -722,7 +722,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"Bodygroup1"
 			"labelText"								""
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"4"
 			"ypos"									"38"
@@ -730,7 +730,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"0"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
@@ -740,7 +740,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"Bodygroup2"
 			"labelText"								""
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"4"
 			"ypos"									"58"
@@ -748,7 +748,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"0"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
@@ -758,7 +758,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"Bodygroup3"
 			"labelText"								""
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"4"
 			"ypos"									"78"
@@ -766,7 +766,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"0"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
@@ -776,7 +776,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"Bodygroup4"
 			"labelText"								""
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"4"
 			"ypos"									"98"
@@ -784,7 +784,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"0"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
@@ -794,7 +794,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"Bodygroup5"
 			"labelText"								""
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"4"
 			"ypos"									"118"
@@ -802,7 +802,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"0"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
@@ -812,7 +812,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"Bodygroup6"
 			"labelText"								""
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"4"
 			"ypos"									"138"
@@ -820,7 +820,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"0"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
@@ -830,7 +830,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"Bodygroup7"
 			"labelText"								""
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"4"
 			"ypos"									"158"
@@ -838,7 +838,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"0"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
@@ -848,7 +848,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"Bodygroup8"
 			"labelText"								""
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"4"
 			"ypos"									"178"
@@ -856,7 +856,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"0"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
@@ -883,7 +883,7 @@
 			"visible"								"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
+			"bgcolor_override"						"Black_Blue"
 
 			"LOD0Label"
 			{
@@ -895,8 +895,8 @@
 				"tall"								"25"
 				"labelText"							"#TF_ImportFile_LOD0"
 				"textAlignment"						"west"
-				"font"								"Light 12"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_12"
+				"fgcolor"							"White_Dark"
 			}
 			"ButtonLOD0Clear"
 			{
@@ -907,7 +907,7 @@
 				"wide"								"15"
 				"tall"								"15"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"-"
@@ -915,9 +915,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -932,7 +932,7 @@
 				"wide"								"19"
 				"tall"								"15"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"q"
@@ -940,9 +940,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -957,8 +957,8 @@
 				"wide"								"150"
 				"tall"								"15"
 				"labelText"							"#TF_PublishFile_NoFileSelected"
-				"font"								"Light 11"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_11"
+				"fgcolor"							"White_Dark"
 			}
 			"LOD0Details"
 			{
@@ -969,8 +969,8 @@
 				"wide"								"150"
 				"tall"								"15"
 				"labelText"							""
-				"font"								"Light 11"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_11"
+				"fgcolor"							"White_Dark"
 			}
 		}
 
@@ -985,7 +985,7 @@
 			"visible"								"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
+			"bgcolor_override"						"Black_Blue"
 
 			"LOD1Label"
 			{
@@ -997,9 +997,9 @@
 				"tall"								"25"
 				"labelText"							"#TF_ImportFile_LOD1"
 				"textAlignment"						"west"
-				"font"								"Light 12"
+				"font"								"Light_12"
 				"enabled"							"0"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 			"ButtonLOD1Clear"
 			{
@@ -1011,7 +1011,7 @@
 				"tall"								"15"
 				"enabled"							"0"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"-"
@@ -1019,9 +1019,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1037,7 +1037,7 @@
 				"tall"								"15"
 				"enabled"							"0"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"q"
@@ -1045,9 +1045,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1062,9 +1062,9 @@
 				"wide"								"150"
 				"tall"								"15"
 				"labelText"							"#TF_PublishFile_NoFileSelected"
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"enabled"							"0"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 			"LOD1Details"
 			{
@@ -1075,9 +1075,9 @@
 				"wide"								"150"
 				"tall"								"15"
 				"labelText"							""
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"enabled"							"0"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 		}
 
@@ -1092,7 +1092,7 @@
 			"visible"								"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
+			"bgcolor_override"						"Black_Blue"
 
 			"LOD2Label"
 			{
@@ -1104,7 +1104,7 @@
 				"tall"								"25"
 				"labelText"							"#TF_ImportFile_LOD2"
 				"textAlignment"						"west"
-				"font"								"Light 12"
+				"font"								"Light_12"
 				"enabled"							"0"
 			}
 			"ButtonLOD2Clear"
@@ -1117,7 +1117,7 @@
 				"tall"								"15"
 				"enabled"							"0"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"-"
@@ -1125,9 +1125,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1143,7 +1143,7 @@
 				"tall"								"15"
 				"enabled"							"0"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"q"
@@ -1151,9 +1151,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1168,9 +1168,9 @@
 				"wide"								"150"
 				"tall"								"15"
 				"labelText"							"#TF_PublishFile_NoFileSelected"
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"enabled"							"0"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 			"LOD2Details"
 			{
@@ -1181,9 +1181,9 @@
 				"wide"								"150"
 				"tall"								"15"
 				"labelText"							""
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"enabled"							"0"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 		}
 
@@ -1202,13 +1202,13 @@
 			"textAlignment"							"center"
 			"Command"								"EditQC"
 			"Default"								"0"
-			"font"									"Light 12"
+			"font"									"Light_12"
 
 			"paintbackground"						"1"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
@@ -1227,7 +1227,7 @@
 		"visible"									"1"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 
 		"SkinsTitle"
 		{
@@ -1241,8 +1241,8 @@
 			"enabled"								"1"
 			"labelText"								"#TF_ImportFile_Skins"
 			"textAlignment"							"west"
-			"font"									"Light 12"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_12"
+			"fgcolor"								"White_Dark"
 		}
 
 		"SwapVMTButton"
@@ -1259,13 +1259,13 @@
 			"textAlignment"							"center"
 			"Command"								"SwapVMT"
 			"Default"								"1"
-			"font"									"Light 12"
+			"font"									"Light_12"
 
 			"paintbackground"						"1"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
@@ -1276,7 +1276,7 @@
 		{
 			"ControlName"							"ComboBox"
 			"fieldName"								"SkinComboBox"
-			"Font"									"Light 12"
+			"Font"									"Light_12"
 			"xpos"									"4"
 			"ypos"									"18"
 			"wide"									"181"
@@ -1285,19 +1285,19 @@
 			"visible"								"1"
 			"paintborder"							"0"
 
-			"fgcolor_override"						"WhiteDark"
-			"bgcolor_override"						"BlackBlue"
-			"disabledFgColor_override"				"WhiteDark"
-			"disabledBgColor_override"				"BlackBlue"
+			"fgcolor_override"						"White_Dark"
+			"bgcolor_override"						"Black_Blue"
+			"disabledFgColor_override"				"White_Dark"
+			"disabledBgColor_override"				"Black_Blue"
 			"selectionColor_override"				"Blank"
-			"selectionTextColor_override"			"WhiteDark"
-			"defaultSelectionBG2Color_override"		"BlackBlue"
+			"selectionTextColor_override"			"White_Dark"
+			"defaultSelectionBG2Color_override"		"Black_Blue"
 
 			"Button"
 			{
-				"defaultFgColor_override"			"WhiteDark"
+				"defaultFgColor_override"			"White_Dark"
 				"defaultBgColor_override"			"Blank"
-				"armedFgColor_override"				"WhiteDark"
+				"armedFgColor_override"				"White_Dark"
 				"armedBgColor_override"				"Blank"
 				"paintbackgroundtype"				"0"
 			}
@@ -1314,7 +1314,7 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 
 			"Material0Label"
 			{
@@ -1325,8 +1325,8 @@
 				"wide"								"240"
 				"tall"								"15"
 				"textAlignment"						"west"
-				"font"								"Light 12"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_12"
+				"fgcolor"							"White_Dark"
 			}
 			"ButtonMaterial0Edit"
 			{
@@ -1337,7 +1337,7 @@
 				"wide"								"19"
 				"tall"								"15"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"|"
@@ -1345,9 +1345,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1362,8 +1362,8 @@
 				"wide"								"190"
 				"tall"								"15"
 				"labelText"							"#TF_PublishFile_NoFileSelected"
-				"font"								"Light 11"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_11"
+				"fgcolor"							"White_Dark"
 			}
 		}
 
@@ -1378,7 +1378,7 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 
 			"Material1Label"
 			{
@@ -1389,8 +1389,8 @@
 				"wide"								"240"
 				"tall"								"15"
 				"textAlignment"						"west"
-				"font"								"Light 12"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_12"
+				"fgcolor"							"White_Dark"
 			}
 			"ButtonMaterial1Edit"
 			{
@@ -1401,7 +1401,7 @@
 				"wide"								"19"
 				"tall"								"15"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"|"
@@ -1409,9 +1409,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1426,7 +1426,7 @@
 				"wide"								"190"
 				"tall"								"15"
 				"labelText"							"#TF_PublishFile_NoFileSelected"
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"fillcolor"							"255 0 0 255"
 			}
 		}
@@ -1442,7 +1442,7 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 
 			"Material2Label"
 			{
@@ -1453,8 +1453,8 @@
 				"wide"								"240"
 				"tall"								"15"
 				"textAlignment"						"west"
-				"font"								"Light 12"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_12"
+				"fgcolor"							"White_Dark"
 			}
 			"ButtonMaterial2Edit"
 			{
@@ -1465,7 +1465,7 @@
 				"wide"								"19"
 				"tall"								"15"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"|"
@@ -1473,9 +1473,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1490,8 +1490,8 @@
 				"wide"								"190"
 				"tall"								"15"
 				"labelText"							"#TF_PublishFile_NoFileSelected"
-				"font"								"Light 11"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_11"
+				"fgcolor"							"White_Dark"
 			}
 		}
 
@@ -1506,7 +1506,7 @@
 			"visible"								"0"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 
 			"Material3Label"
 			{
@@ -1517,8 +1517,8 @@
 				"wide"								"240"
 				"tall"								"15"
 				"textAlignment"						"west"
-				"font"								"Light 12"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_12"
+				"fgcolor"							"White_Dark"
 			}
 			"ButtonMaterial3Edit"
 			{
@@ -1529,7 +1529,7 @@
 				"wide"								"19"
 				"tall"								"15"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"|"
@@ -1537,9 +1537,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1554,8 +1554,8 @@
 				"wide"								"190"
 				"tall"								"15"
 				"labelText"							"#TF_PublishFile_NoFileSelected"
-				"font"								"Light 11"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_11"
+				"fgcolor"							"White_Dark"
 			}
 		}
 
@@ -1564,7 +1564,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"Paintable0CheckBox"
 			"labelText"								"#TF_ImportFile_Paintable0"
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"4"
 			"ypos"									"190"
@@ -1572,7 +1572,7 @@
 			"tall"									"20"
 			"visible"								"0"
 			"enabled"								"1"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 			"command"								"UpdatePaintable0"
 			"border"								"SteamWorkshopBorder"
 		}
@@ -1582,7 +1582,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"Paintable1CheckBox"
 			"labelText"								"#TF_ImportFile_Paintable1"
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"100"
 			"ypos"									"190"
@@ -1590,7 +1590,7 @@
 			"tall"									"20"
 			"visible"								"0"
 			"enabled"								"1"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 			"command"								"UpdatePaintable1"
 			"border"								"SteamWorkshopBorder"
 		}
@@ -1606,8 +1606,8 @@
 		"tall"										"25"
 		"labelText"									"#TF_ImportFile_AnimationProp"
 		"textAlignment"								"west"
-		"font"										"Light 12"
-		"fgcolor"									"WhiteDark"
+		"font"										"Light_12"
+		"fgcolor"									"White_Dark"
 	}
 
 	"TauntInputPanel"
@@ -1633,7 +1633,7 @@
 			"visible"								"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 
 
 			"AnimationSourceLabel"
@@ -1646,8 +1646,8 @@
 				"tall"								"25"
 				"labelText"							"#TF_ImportFile_AnimationSource"
 				"textAlignment"						"west"
-				"font"								"Light 12"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_12"
+				"fgcolor"							"White_Dark"
 			}
 			"ButtonAnimationSourceClear"
 			{
@@ -1658,7 +1658,7 @@
 				"wide"								"15"
 				"tall"								"15"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"-"
@@ -1666,9 +1666,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1683,7 +1683,7 @@
 				"wide"								"19"
 				"tall"								"15"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"q"
@@ -1691,9 +1691,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1708,8 +1708,8 @@
 				"wide"								"150"
 				"tall"								"15"
 				"labelText"							"#TF_PublishFile_NoFileSelected"
-				"font"								"Light 11"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_11"
+				"fgcolor"							"White_Dark"
 			}
 			"AnimationSourceDetails"
 			{
@@ -1720,8 +1720,8 @@
 				"wide"								"150"
 				"tall"								"15"
 				"labelText"							""
-				"font"								"Light 11"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_11"
+				"fgcolor"							"White_Dark"
 			}
 		}
 
@@ -1736,7 +1736,7 @@
 			"visible"								"1"
 			"paintbackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 
 
 			"AnimationVCDLabel"
@@ -1749,8 +1749,8 @@
 				"tall"								"25"
 				"labelText"							"#TF_ImportFile_AnimationVCD"
 				"textAlignment"						"west"
-				"font"								"Light 12"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_12"
+				"fgcolor"							"White_Dark"
 			}
 			"ButtonAnimationVCDClear"
 			{
@@ -1761,7 +1761,7 @@
 				"wide"								"15"
 				"tall"								"15"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"-"
@@ -1769,9 +1769,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1786,7 +1786,7 @@
 				"wide"								"19"
 				"tall"								"15"
 				"use_proportional_insets"			"1"
-				"font"								"Symbols 12"
+				"font"								"Symbols_12"
 				"textAlignment"						"center"
 
 				"labelText"							"-"
@@ -1794,9 +1794,9 @@
 
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -1811,8 +1811,8 @@
 				"wide"								"150"
 				"tall"								"15"
 				"labelText"							"#TF_PublishFile_NoFileSelected"
-				"font"								"Light 11"
-				"fgcolor"							"WhiteDark"
+				"font"								"Light_11"
+				"fgcolor"							"White_Dark"
 			}
 		}
 
@@ -1825,8 +1825,8 @@
 			"wide"									"120"
 			"tall"									"15"
 			"labelText"								"#TF_ImportFile_AnimationDuration"
-			"font"									"Light 11"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_11"
+			"fgcolor"								"White_Dark"
 		}
 
 		"AnimationLoopCheckButton"
@@ -1834,7 +1834,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"AnimationLoopCheckButton"
 			"labelText"								"Loop"
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"textAlignment"							"west"
 			"xpos"									"0"
 			"ypos"									"140"
@@ -1856,8 +1856,8 @@
 			"tall"									"15"
 			"proportionaltoparent"					"1"
 			"labelText"								"Start Time:"
-			"font"									"Light 11"
-			"fgcolor"								"WhiteDark"
+			"font"									"Light_11"
+			"fgcolor"								"White_Dark"
 		}
 
 		"AnimationLoopStartTextEntry"
@@ -1879,7 +1879,7 @@
 			"fgcolor_override"						"0 0 0 255"
 			"bgcolor_override"						"255 255 255 255"
 			"PaintBackgroundType"					"0"
-			"font"									"Light 11"
+			"font"									"Light_11"
 		}
 
 		"ButtonEditQCI"
@@ -1897,13 +1897,13 @@
 			"textAlignment"							"center"
 			"Command"								"EditQCI"
 			"Default"								"0"
-			"font"									"Light 12"
+			"font"									"Light_12"
 
 			"paintbackground"						"1"
 
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
@@ -1920,7 +1920,7 @@
 		"wide"										"25"
 		"tall"										"25"
 		"use_proportional_insets"					"1"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"textAlignment"								"center"
 
 		"labelText"									"q"
@@ -1928,9 +1928,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -1948,15 +1948,15 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Close"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"textAlignment"								"center"
 		"Command"									"Close"
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -1977,13 +1977,13 @@
 		"textAlignment"								"center"
 		"Command"									"BuildPreview"
 		"Default"									"1"
-		"font"										"Light 12"
+		"font"										"Light_12"
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -2004,13 +2004,13 @@
 		"textAlignment"								"center"
 		"Command"									"BuildVerify"
 		"Default"									"1"
-		"font"										"Light 12"
+		"font"										"Light_12"
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -2031,13 +2031,13 @@
 		"textAlignment"								"center"
 		"Command"									"BuildFinal"
 		"Default"									"1"
-		"font"										"Light 12"
+		"font"										"Light_12"
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

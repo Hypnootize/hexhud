@@ -25,12 +25,12 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
-		"fgcolor"									"WhiteDark"
+		"bgcolor_override"							"Background_Dark"
+		"fgcolor"									"White_Dark"
 
 		"pin_to_sibling"							"FightBG"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -50,7 +50,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 		"proportionaltoparent"						"1"
 	}
 
@@ -82,7 +82,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Light 18"
+			"font"									"Light_18"
 			"AllCaps"								"1"
 			"labeltext"								"Fight"
 			"textAlignment"							"south"
@@ -96,8 +96,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"White_Dark"
+			"depressedFgColor_override"				"White_Dark"
 
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"220 222 225 255"
@@ -148,7 +148,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"AllCaps"								"1"
 			"labeltext"								"Spectate"
 			"textAlignment"							"center"
@@ -161,13 +161,13 @@
 			"paintbackground"						"1"
 			"paintborder"							"0"
 
-			"defaultBgColor_override"				"Background Dark"
-			"armedBgColor_override"					"Background Light"
-			"depressedBgColor_override"				"Background Light"
+			"defaultBgColor_override"				"Background_Dark"
+			"armedBgColor_override"					"Background_Light"
+			"depressedBgColor_override"				"Background_Light"
 
-			"defaultFgColor_override"				"OffWhite"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"defaultFgColor_override"				"Off_White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 

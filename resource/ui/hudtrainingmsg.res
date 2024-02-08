@@ -21,7 +21,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"GoalLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"xpos"										"30"
 		"ypos"										"40"
 		"zpos"										"1"

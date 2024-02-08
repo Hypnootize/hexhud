@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"cs-0.5"
 		"ypos"										"80"
 		"zpos"										"2"
@@ -23,7 +23,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchLabelShadow"
-		"font"										"Light 12 Blur"
+		"font"										"Light_12_Blur"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"
@@ -44,7 +44,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BalanceLabel"
-		"font"										"Size 10"
+		"font"										"Light_10"
 		"xpos"										"cs-0.5"
 		"ypos"										"60"
 		"zpos"										"2"
@@ -63,7 +63,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BalanceLabelShadow"
-		"font"										"Size 10 Blur"
+		"font"										"Light_10_Blur"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"

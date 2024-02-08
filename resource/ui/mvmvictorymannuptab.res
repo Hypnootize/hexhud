@@ -13,7 +13,7 @@
 		"enabled"									"1"
 		"image"										""
 		"scaleImage"								"1"
-		"color_outline"								"WhiteDark"
+		"color_outline"								"White_Dark"
 		"proportionalToParent"						"1"
 	}
 	"HeaderLine"
@@ -29,7 +29,7 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 		"image"										""
-		"fillcolor"									"GrayBlueLight"
+		"fillcolor"									"Gray_Blue_Light"
 		"proportionalToParent"						"1"
 	}
 	"MouseOverTabPanel"
@@ -43,7 +43,7 @@
 		"tall"										"29"
 		"visible"									"0"
 		"enabled"									"1"
-		"bgcolor_override"							"GrayBlueLight"
+		"bgcolor_override"							"Gray_Blue_Light"
 		"PaintBackgroundType"						"0"
 		"mouseinputenabled"							"0"
 		"proportionalToParent"						"1"
@@ -108,7 +108,7 @@
 		"enabled"									"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueLight"
+		"bgcolor_override"							"Gray_Blue_Light"
 		"mouseinputenabled"							"0"
 		"proportionalToParent"						"1"
 	}

@@ -30,8 +30,8 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"Bold 24"
-		"fgcolor"									"Health Numbers"
+		"font"										"Bold_24"
+		"fgcolor"									"Health_Numbers"
 		"proportionaltoparent"						"1"
 	}
 
@@ -48,7 +48,7 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"Bold 24 Blur"
+		"font"										"Bold_24_Blur"
 		"fgcolor"									"Shadow"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"Health_Killer"

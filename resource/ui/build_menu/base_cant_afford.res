@@ -7,7 +7,7 @@
 		"xpos"										"32"
 		"wide"										"54"
 		"visible"									"1"
-		"font"										"Light 8"
+		"font"										"Light_8"
 		"labelText"									"#Hud_Menu_Build_Cant_Afford"
 	}
 

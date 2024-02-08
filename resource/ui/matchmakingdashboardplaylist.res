@@ -28,7 +28,7 @@
 		"textAlignment"								"center"
 		"wrap"										"0"
 		"centerwrap"								"0"
-		"font"										"Light 48"
+		"font"										"Light_48"
 		"fgcolor"									"White"
 		"alpha"										"10"
 		"AllCaps"									"1"

@@ -91,7 +91,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PopFileLabel"
-		"font"										"Bold 16"
+		"font"										"Bold_16"
 		"labelText"									"%popfile%"
 		"textAlignment"								"west"
 		"xpos"										"-5"
@@ -109,7 +109,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PopFileLabelShadow"
-		"font"										"Bold 16 Blur"
+		"font"										"Bold_16_Blur"
 		"labelText"									"%popfile%"
 		"textAlignment"								"west"
 		"xpos"										"-1"
@@ -153,7 +153,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DifficultyValue"
-			"font"									"Bold 16"
+			"font"									"Bold_16"
 			"labelText"								"%difficultyvalue%"
 			"textAlignment"							"east"
 			"xpos"									"0"
@@ -169,7 +169,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DifficultyValueShadow"
-			"font"									"Bold 16 Blur"
+			"font"									"Bold_16_Blur"
 			"labelText"								"%difficultyvalue%"
 			"textAlignment"							"east"
 			"xpos"									"-1"
@@ -257,7 +257,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RespecStatusLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"%respecstatus%"
 			"textAlignment"							"north-east"
 			"xpos"									"115"

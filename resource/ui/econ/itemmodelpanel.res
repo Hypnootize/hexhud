@@ -78,7 +78,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"namelabel"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"2"
@@ -96,7 +96,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"attriblabel"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
@@ -114,7 +114,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"equippedlabel"
-			"font"									"Symbols 10"
+			"font"									"Symbols_10"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"2"
@@ -128,7 +128,7 @@
 
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
+			"bgcolor_override"						"Black_Blue"
 		}
 
 		"paint_icon"
@@ -148,7 +148,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"quantitylabel"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"xpos"									"1"
 			"ypos"									"1"
 			"zpos"									"2"
@@ -158,18 +158,18 @@
 			"enabled"								"1"
 			"labelText"								""
 			"textAlignment"							"center"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
+			"bgcolor_override"						"Black_Blue"
 		}
 
 		"serieslabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"serieslabel"
-			"font"									"Light 8"
+			"font"									"Light_8"
 			"xpos"									"4"
 			"ypos"									"4"
 			"zpos"									"2"
@@ -182,14 +182,14 @@
 			"fgcolor"								"100 255 0 255"
 			"PaintBackground"						"0"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
+			"bgcolor_override"						"Black_Blue"
 		}
 
 		"matcheslabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"matcheslabel"
-			"font"									"Light 8"
+			"font"									"Light_8"
 			"xpos"									"4"
 			"ypos"									"4"
 			"zpos"									"2"
@@ -203,7 +203,7 @@
 
 			"PaintBackground"						"0"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"BlackBlue"
+			"bgcolor_override"						"Black_Blue"
 		}
 
 		"vision_restriction_icon"
@@ -271,7 +271,7 @@
 			"wide"									"18"
 			"tall"									"18"
 			"visible"								"0"
-			"bgcolor_override"						"BlackBlue"
+			"bgcolor_override"						"Black_Blue"
 			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"0"
 			"paintborder"							"0"

@@ -43,7 +43,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 	}
 
 	"Icon"
@@ -91,7 +91,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NotBuiltLabel"
-			"font"									"Light 9"
+			"font"									"Light_9"
 			"xpos"									"0"
 			"ypos"									"1"
 			"wide"									"f0"
@@ -100,7 +100,7 @@
 			"enabled"								"1"
 			"labelText"								"#Building_hud_sentry_not_built"
 			"textAlignment"							"center"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
@@ -157,7 +157,7 @@
 				"tall"								"5"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"					"WhiteDark"
+				"bgcolor_override"					"White_Dark"
 				"proportionaltoparent"				"1"
 			}
 		}

@@ -1,4 +1,4 @@
-#base "../../resource/dev/reloadschemebutton.res"
+#base "../dev/reloadschemebutton.res"
 
 "Resource/UI/TestItemDialog.res"
 {
@@ -16,7 +16,7 @@
 		"paintborder"								"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 		"bgcolor_override"							"Background_Main"
 	}
 
@@ -24,7 +24,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 24"
+		"font"										"Light_24"
 		"labelText"									"%testtitle%"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -35,14 +35,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"SelectModelLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SelectModelLabel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"labelText"									"#IT_YourModel"
 		"textAlignment"								"west"
 		"xpos"										"10"
@@ -53,14 +53,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ModelLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ModelLabel"
-		"font"										"Light 8"
+		"font"										"Light_8"
 		"labelText"									"%testmodel%"
 		"textAlignment"								"west"
 		"xpos"										"105"
@@ -71,7 +71,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"SelectModelButton"
@@ -86,7 +86,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#IT_SelectModel"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"select_model"
@@ -97,9 +97,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -121,7 +121,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ItemReplacedLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#IT_ExistingItem"
 			"textAlignment"							"west"
 			"xpos"									"5"
@@ -133,14 +133,14 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"ExistingItemComboBox"
 		{
 			"ControlName"							"ComboBox"
 			"fieldName"								"ExistingItemComboBox"
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"xpos"									"110"
 			"ypos"									"7"
 			"zpos"									"1"
@@ -156,20 +156,20 @@
 
 			"paintborder"							"0"
 
-			"fgcolor_override"						"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
-			"disabledFgColor_override"				"WhiteDark"
-			"disabledBgColor_override"				"GrayBlueDark"
-			"selectionColor_override"				"GrayBlueDark"
-			"selectionTextColor_override"			"WhiteDark"
-			"defaultSelectionBG2Color_override"		"GrayBlueDark"
+			"fgcolor_override"						"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"disabledFgColor_override"				"White_Dark"
+			"disabledBgColor_override"				"Gray_Blue_Dark"
+			"selectionColor_override"				"Gray_Blue_Dark"
+			"selectionTextColor_override"			"White_Dark"
+			"defaultSelectionBG2Color_override"		"Gray_Blue_Dark"
 
 			"Button"
 			{
-				"defaultFgColor_override"			"WhiteDark"
-				"defaultBgColor_override"			"GrayBlueDark"
-				"armedFgColor_override"				"WhiteDark"
-				"armedBgColor_override"				"GrayBlueDark"
+				"defaultFgColor_override"			"White_Dark"
+				"defaultBgColor_override"			"Gray_Blue_Dark"
+				"armedFgColor_override"				"White_Dark"
+				"armedBgColor_override"				"Gray_Blue_Dark"
 				"paintbackgroundtype"				"0"
 			}
 		}
@@ -190,7 +190,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ItemReplacedLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#IT_ItemReplaces"
 			"textAlignment"							"west"
 			"xpos"									"5"
@@ -201,13 +201,13 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 		"ItemReplacedComboBox"
 		{
 			"ControlName"							"ComboBox"
 			"fieldName"								"ItemReplacedComboBox"
-			"Font"									"Light 11"
+			"Font"									"Light_11"
 			"xpos"									"110"
 			"ypos"									"7"
 			"zpos"									"1"
@@ -223,20 +223,20 @@
 
 			"paintborder"							"0"
 
-			"fgcolor_override"						"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
-			"disabledFgColor_override"				"WhiteDark"
-			"disabledBgColor_override"				"GrayBlueDark"
-			"selectionColor_override"				"GrayBlueDark"
-			"selectionTextColor_override"			"WhiteDark"
-			"defaultSelectionBG2Color_override"		"GrayBlueDark"
+			"fgcolor_override"						"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"disabledFgColor_override"				"White_Dark"
+			"disabledBgColor_override"				"Gray_Blue_Dark"
+			"selectionColor_override"				"Gray_Blue_Dark"
+			"selectionTextColor_override"			"White_Dark"
+			"defaultSelectionBG2Color_override"		"Gray_Blue_Dark"
 
 			"Button"
 			{
-				"defaultFgColor_override"			"WhiteDark"
-				"defaultBgColor_override"			"GrayBlueDark"
-				"armedFgColor_override"				"WhiteDark"
-				"armedBgColor_override"				"GrayBlueDark"
+				"defaultFgColor_override"			"White_Dark"
+				"defaultBgColor_override"			"Gray_Blue_Dark"
+				"armedFgColor_override"				"White_Dark"
+				"armedBgColor_override"				"Gray_Blue_Dark"
 				"paintbackgroundtype"				"0"
 			}
 		}
@@ -244,7 +244,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NoItemsToReplaceLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#IT_ItemReplaced_Invalid"
 			"textAlignment"							"west"
 			"xpos"									"95"
@@ -255,7 +255,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"RedDark"
+			"fgcolor"								"Red_Dark"
 		}
 	}
 
@@ -274,7 +274,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HideBodygroupLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#IT_Bodygroups"
 			"textAlignment"							"west"
 			"xpos"									"5"
@@ -285,14 +285,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"HideBodygroupExplanationLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"HideBodygroupExplanationLabel"
-			"font"									"Light 8"
+			"font"									"Light_8"
 			"labelText"								"#IT_Explanation_Bodygroups"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -304,7 +304,7 @@
 			"enabled"								"1"
 			"wrap"									"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"HideBodygroupCheckBox0"
@@ -312,7 +312,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"HideBodygroupCheckBox0"
 			"labelText"								"#IT_Bodygroup_Hat"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"95"
 			"ypos"									"0"
@@ -322,7 +322,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 		}
 
 		"HideBodygroupCheckBox1"
@@ -330,7 +330,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"HideBodygroupCheckBox1"
 			"labelText"								"#IT_Bodygroup_Headphone"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"95"
 			"ypos"									"25"
@@ -340,7 +340,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 		}
 
 		"HideBodygroupCheckBox2"
@@ -348,7 +348,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"HideBodygroupCheckBox2"
 			"labelText"								"#IT_Bodygroup_Medals"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"190"
 			"ypos"									"0"
@@ -358,7 +358,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 		}
 
 		"HideBodygroupCheckBox3"
@@ -366,7 +366,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"HideBodygroupCheckBox3"
 			"labelText"								"#IT_Bodygroup_Grenades"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"190"
 			"ypos"									"25"
@@ -376,7 +376,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 		}
 
 		"HideBodygroupCheckBox4"
@@ -384,7 +384,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"HideBodygroupCheckBox4"
 			"labelText"								"#IT_Bodygroup_Bullets"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"290"
 			"ypos"									"0"
@@ -394,7 +394,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 		}
 
 		"HideBodygroupCheckBox5"
@@ -402,7 +402,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"HideBodygroupCheckBox5"
 			"labelText"								"#IT_Bodygroup_Arrows"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"290"
 			"ypos"									"25"
@@ -412,7 +412,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 		}
 
 		"HideBodygroupCheckBox6"
@@ -420,7 +420,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"HideBodygroupCheckBox6"
 			"labelText"								"#IT_Bodygroup_RightArm"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"385"
 			"ypos"									"0"
@@ -430,7 +430,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 		}
 
 		"HideBodygroupCheckBox7"
@@ -438,7 +438,7 @@
 			"ControlName"							"CheckButton"
 			"fieldName"								"HideBodygroupCheckBox7"
 			"labelText"								"#IT_Bodygroup_Shoes_Socks"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"textAlignment"							"west"
 			"xpos"									"385"
 			"ypos"									"25"
@@ -448,7 +448,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"disabledfgcolor2_override"				"WhiteDark"
+			"disabledfgcolor2_override"				"White_Dark"
 		}
 	}
 
@@ -467,7 +467,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PaintColorLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#IT_PaintTitle"
 			"textAlignment"							"west"
 			"xpos"									"5"
@@ -478,14 +478,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"PaintColorComboBox"
 		{
 			"ControlName"							"ComboBox"
 			"fieldName"								"PaintColorComboBox"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"xpos"									"110"
 			"ypos"									"7"
 			"zpos"									"1"
@@ -501,20 +501,20 @@
 
 			"paintborder"							"0"
 
-			"fgcolor_override"						"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
-			"disabledFgColor_override"				"WhiteDark"
-			"disabledBgColor_override"				"GrayBlueDark"
-			"selectionColor_override"				"GrayBlueDark"
-			"selectionTextColor_override"			"WhiteDark"
-			"defaultSelectionBG2Color_override"		"GrayBlueDark"
+			"fgcolor_override"						"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"disabledFgColor_override"				"White_Dark"
+			"disabledBgColor_override"				"Gray_Blue_Dark"
+			"selectionColor_override"				"Gray_Blue_Dark"
+			"selectionTextColor_override"			"White_Dark"
+			"defaultSelectionBG2Color_override"		"Gray_Blue_Dark"
 
 			"Button"
 			{
-				"defaultFgColor_override"			"WhiteDark"
-				"defaultBgColor_override"			"GrayBlueDark"
-				"armedFgColor_override"				"WhiteDark"
-				"armedBgColor_override"				"GrayBlueDark"
+				"defaultFgColor_override"			"White_Dark"
+				"defaultBgColor_override"			"Gray_Blue_Dark"
+				"armedFgColor_override"				"White_Dark"
+				"armedBgColor_override"				"Gray_Blue_Dark"
 				"paintbackgroundtype"				"0"
 			}
 		}
@@ -523,7 +523,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"UnusualEffectLabel"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"#IT_UnusualTitle"
 			"textAlignment"							"west"
 			"xpos"									"0"
@@ -534,13 +534,13 @@
 			"visible"								"1"
 			"AllCaps"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 		"UnusualEffectComboBox"
 		{
 			"ControlName"							"ComboBox"
 			"fieldName"								"UnusualEffectComboBox"
-			"Font"									"Light 8"
+			"Font"									"Light_8"
 			"xpos"									"110"
 			"ypos"									"30"
 			"zpos"									"1"
@@ -556,20 +556,20 @@
 
 			"paintborder"							"0"
 
-			"fgcolor_override"						"WhiteDark"
-			"bgcolor_override"						"GrayBlueDark"
-			"disabledFgColor_override"				"WhiteDark"
-			"disabledBgColor_override"				"GrayBlueDark"
-			"selectionColor_override"				"GrayBlueDark"
-			"selectionTextColor_override"			"WhiteDark"
-			"defaultSelectionBG2Color_override"		"GrayBlueDark"
+			"fgcolor_override"						"White_Dark"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"disabledFgColor_override"				"White_Dark"
+			"disabledBgColor_override"				"Gray_Blue_Dark"
+			"selectionColor_override"				"Gray_Blue_Dark"
+			"selectionTextColor_override"			"White_Dark"
+			"defaultSelectionBG2Color_override"		"Gray_Blue_Dark"
 
 			"Button"
 			{
-				"defaultFgColor_override"			"WhiteDark"
-				"defaultBgColor_override"			"GrayBlueDark"
-				"armedFgColor_override"				"WhiteDark"
-				"armedBgColor_override"				"GrayBlueDark"
+				"defaultFgColor_override"			"White_Dark"
+				"defaultBgColor_override"			"Gray_Blue_Dark"
+				"armedFgColor_override"				"White_Dark"
+				"armedBgColor_override"				"Gray_Blue_Dark"
 				"paintbackgroundtype"				"0"
 			}
 		}
@@ -587,7 +587,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Cancel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"cancel"
@@ -596,9 +596,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -617,7 +617,7 @@
 		"visible"									"1"
 		"enabled"									"0"
 		"labelText"									"#GameUI_Ok"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"ok"
@@ -626,9 +626,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

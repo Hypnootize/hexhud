@@ -64,7 +64,7 @@
 			"paintborder"							"0"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"BlueDark"
+			"bgcolor_override"						"Blue_Dark"
 
 			"pin_to_sibling"						"BlueScoreBG"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -95,7 +95,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamLabel"
-			"font"									"Bold 20"
+			"font"									"Bold_20"
 			"fgcolor"								"White"
 			"labelText"								"%blueteamname%"
 			"textAlignment"							"west"
@@ -115,7 +115,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamLabelShadow"
-			"font"									"Bold 20 Blur"
+			"font"									"Bold_20_Blur"
 			"fgcolor"								"Shadow"
 			"labelText"								"%blueteamname%"
 			"textAlignment"							"west"
@@ -133,7 +133,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamScore"
-			"font"									"Bold 24"
+			"font"									"Bold_24"
 			"fgcolor"								"White"
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"center"
@@ -154,7 +154,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"BlueTeamScoreShadow"
-			"font"									"Bold 24 Blur"
+			"font"									"Bold_24_Blur"
 			"fgcolor"								"Shadow"
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"center"
@@ -205,7 +205,7 @@
 			"paintborder"							"0"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"RedDark"
+			"bgcolor_override"						"Red_Dark"
 			"pin_to_sibling"						"RedScoreBG"
 		}
 		"RedBottomLine"
@@ -233,7 +233,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamLabel"
-			"font"									"Bold 20"
+			"font"									"Bold_20"
 			"fgcolor"								"White"
 			"labelText"								"%redteamname%"
 			"textAlignment"							"east"
@@ -253,7 +253,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamLabelShadow"
-			"font"									"Bold 20 Blur"
+			"font"									"Bold_20_Blur"
 			"fgcolor"								"Shadow"
 			"labelText"								"%redteamname%"
 			"textAlignment"							"east"
@@ -271,7 +271,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamScore"
-			"font"									"Bold 24"
+			"font"									"Bold_24"
 			"fgcolor"								"White"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"center"
@@ -292,7 +292,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RedTeamScoreShadow"
-			"font"									"Bold 24 Blur"
+			"font"									"Bold_24_Blur"
 			"fgcolor"								"Shadow"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"center"
@@ -395,7 +395,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player1Icon"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"xpos"										"-115"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -414,7 +414,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player1Score"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -434,7 +434,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player1Name"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -457,7 +457,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player2Icon"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"xpos"										"30"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -478,7 +478,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player2Score"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -498,7 +498,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player2Name"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -520,7 +520,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player3Icon"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"xpos"										"30"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -541,7 +541,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player3Score"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -561,7 +561,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player3Name"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -583,7 +583,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"KillstreakIcon"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"xpos"										"30"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -604,7 +604,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"KillStreakPlayer1Score"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"
@@ -624,7 +624,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"KillStreakPlayer1Name"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"3"

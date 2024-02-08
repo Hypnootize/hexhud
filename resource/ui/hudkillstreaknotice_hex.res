@@ -21,7 +21,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SplashLabel"
-		"font"										"Light 11 Shadow"
+		"font"										"Light_11_Shadow"
 		"labelText"									""
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"

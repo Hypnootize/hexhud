@@ -23,7 +23,7 @@
 
 		"attriblabel"
 		{
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
@@ -49,7 +49,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#DoneButton"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"done"
@@ -59,9 +59,9 @@
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -106,7 +106,7 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 		"image"										""
-		"fillcolor"									"GrayBlueLight"
+		"fillcolor"									"Gray_Blue_Light"
 		
 		"pin_to_sibling"							"OutterBackground"
 		"pin_corner_to_sibling"						"2"
@@ -125,7 +125,7 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 		"image"										""
-		"fillcolor"									"GrayBlueLight"
+		"fillcolor"									"Gray_Blue_Light"
 
 		"pin_to_sibling"							"OutterBackground"
 		"pin_corner_to_sibling"						"0"
@@ -264,19 +264,19 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"NoItemServerHeader"
-				"font"								"Light 18"
+				"font"								"Light_18"
 				"labelText"							"#TF_PVE_Server_GCDownHeader"
 				"textAlignment"						"center"
 				"xpos"								"0"
 				"ypos"								"100"
 				"wide"								"530"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 			"NoItemServerMessage"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"NoItemServerMessage"
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"labelText"							"#TF_PVE_Server_GCDownMessage"
 				"textAlignment"						"center"
 				"xpos"								"0"
@@ -284,7 +284,7 @@
 				"wide"								"530"
 				"tall"								"40"
 				"centerwrap"						"1"
-				"fgcolor"							"WhiteDark"
+				"fgcolor"							"White_Dark"
 			}
 		}
 	}

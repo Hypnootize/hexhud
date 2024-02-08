@@ -15,7 +15,7 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Secondary"
 		"paintborder"								"1"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 
 		"control_w"									"500"
 		"control_h"									"25"
@@ -27,7 +27,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 22"
+		"font"										"Light_22"
 		"labelText"									"#TF_AdvancedOptions"
 		"textAlignment"								"west"
 		"xpos"										"15"
@@ -39,7 +39,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"CancelButton"
@@ -54,7 +54,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"-"
-		"font"										"Symbols 30"
+		"font"										"Symbols_30"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"1"
@@ -64,9 +64,9 @@
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override"					"WhiteDark"
+		"depressedFgColor_override"					"White_Dark"
 	}
 	"CancelKey"
 	{
@@ -91,7 +91,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Apply Changes"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"1"
@@ -102,12 +102,12 @@
 		"paintbackground"							"1"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
-		"defaultBgColor_override"					"ButtonGreen"
-		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override"					"ButtonGreen_Hover"
+		"defaultBgColor_override"					"Button_Green"
+		"armedBgColor_override"						"Button_Green_Hover"
+		"depressedBgColor_override"					"Button_Green_Hover"
 	}
 
 	"PanelListPanel"
@@ -136,13 +136,13 @@
 		"visible"									"0"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"Light 10"
+			"font"									"Light_10"
 			"labelText"								"%tiptext%"
 			"textAlignment"							"center"
 			"xpos"									"20"
@@ -152,7 +152,7 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"wrap"									"1"
 			"centerwrap"							"1"
 		}

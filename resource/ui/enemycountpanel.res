@@ -82,7 +82,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EnemyCount"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"19"
@@ -99,7 +99,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"EnemyCountShadow"
-		"font"										"Light 12 Blur"
+		"font"										"Light_12_Blur"
 		"fgcolor"									"Shadow"
 		"xpos"										"0"
 		"ypos"										"0"

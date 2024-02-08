@@ -42,7 +42,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"fgcolor"								"White"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchScoreToBeat"
-		"font"										"Light 16"
+		"font"										"Light_16"
 		"fgcolor"									"White"
 		"labelText"									"%scoretobeat%"
 		"textAlignment"								"center"
@@ -96,7 +96,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"Background"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -107,7 +107,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchPointsLabel"
-		"font"										"Light 7"
+		"font"										"Light_7"
 		"fgcolor"									"White"
 		"labelText"									"%pointslabel%"
 		"textAlignment"								"center"
@@ -122,7 +122,7 @@
 		"wrap"										"0"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"Background"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
@@ -133,7 +133,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchLabel"
-		"font"										"Light 8"
+		"font"										"Light_8"
 		"fgcolor"									"White"
 		"labelText"									"%stopwatchlabel%"
 		"textAlignment"								"center"

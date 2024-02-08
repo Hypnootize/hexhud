@@ -28,11 +28,11 @@
 		"labelText"									"intro movie"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteSolid"
+		"fgcolor"									"White_Solid"
 		"paintborder"								"1"
-		"border"									"BottomLineWhiteDark"
+		"border"									"Bottom_Line_White_Dark"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
@@ -86,7 +86,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Dark"
+			"bgcolor_override"						"Background_Dark"
 		}
 	}
 
@@ -103,7 +103,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background Dark"
+		"bgcolor_override"							"Background_Dark"
 
 		"pin_to_sibling"							"VideoPanelBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -123,7 +123,7 @@
 		"enabled"									"1"
 		"labelText"									" "
 		"textAlignment"								"center"
-		"font"										"Light 11"
+		"font"										"Light_11"
 		"fgcolor"									"White"
 		"wrap"										"1"
 		"centerwrap"								"1"
@@ -147,19 +147,19 @@
 		"wrap"										"0"
 		"command"									"skip"
 		"default"									"1"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"OffWhite"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"Off_White"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Background"
-		"armedBgColor_override"						"Background Dark"
-		"depressedBgColor_override"					"Background Dark"
+		"armedBgColor_override"						"Background_Dark"
+		"depressedBgColor_override"					"Background_Dark"
 
 		"pin_to_sibling"							"CaptionBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"

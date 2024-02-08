@@ -32,13 +32,13 @@
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Blank"
 		"PaintBackgroundType"						"0"
-		"font"										"Light 11"
+		"font"										"Light_11"
 	}
 	"NameFilterBG"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NameFilterBG"
-		"font"										"Symbols 16"
+		"font"										"Symbols_16"
 		"xpos"										"20"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -49,9 +49,9 @@
 		"textAlignment"								"west"
 		"textinsetx"								"10"
 		"labeltext"									"q"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"paintbackground"							"1"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 
 		"pin_to_sibling"							"SearchTextEntry"
 	}
@@ -67,7 +67,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"SearchTextEntry"
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"

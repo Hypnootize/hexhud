@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Notification_Label"
-		"font"										"Light 10 Shadow"
+		"font"										"Light_10_Shadow"
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"wide"										"f0"

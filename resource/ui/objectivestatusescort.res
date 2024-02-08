@@ -204,7 +204,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapNumPlayers"
-			"font"									"Light 8 Numbers"
+			"font"									"Light_8_Numbers"
 			"xpos"									"134"
 			"ypos"									"1"
 			"zpos"									"12"
@@ -214,7 +214,7 @@
 			"enabled"								"1"
 			"labelText"								"#ControlPointIconCappers"
 			"textAlignment"							"center"
-			"fgcolor"								"BlackBlue"
+			"fgcolor"								"Black_Blue"
 			"paintbackground"						"0"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
@@ -234,7 +234,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RecedeTime"
-			"font"									"Light 8 Numbers"
+			"font"									"Light_8_Numbers"
 			"xpos"									"134"
 			"ypos"									"1"
 			"zpos"									"12"
@@ -244,7 +244,7 @@
 			"enabled"								"1"
 			"labelText"								"%recede%"
 			"textAlignment"							"center"
-			"fgcolor"								"BlackBlue"
+			"fgcolor"								"Black_Blue"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 
@@ -270,7 +270,7 @@
 			"tall"									"6"
 			"visible"								"0"
 			"enabled"								"1"
-			"drawcolor"								"BlackBlue"
+			"drawcolor"								"Black_Blue"
 			"image"									"replay\thumbnails\cart_icons\cart_arrow_left"
 			"scaleImage"							"1"
 

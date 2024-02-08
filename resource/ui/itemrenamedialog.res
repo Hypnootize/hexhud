@@ -14,7 +14,7 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 	}
 
 	"mouseoveritempanel"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"dynamic"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -72,7 +72,7 @@
 		"centerwrap"								"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"ToolBG"
@@ -135,7 +135,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
@@ -222,7 +222,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
@@ -256,7 +256,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"OldItemNameBG"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									""
 		"textAlignment"								"east"
 		"xpos"										"cs-0.5"
@@ -269,13 +269,13 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 	}
 	"OldItemNameDescLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"OldItemNameDescLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"labelText"									"#ToolItemRenameOldItemName"
 		"textAlignment"								"west"
 		"xpos"										"-5"
@@ -286,7 +286,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"paintbackground"							"0"
 		"proportionaltoparent"						"1"
 
@@ -298,7 +298,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"OldItemNameLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"labelText"									"%oldname%"
 		"textAlignment"								"east"
 		"xpos"										"-5"
@@ -309,7 +309,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"paintbackground"							"0"
 		"proportionaltoparent"						"1"
 
@@ -322,7 +322,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NewItemNameBG"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									""
 		"textAlignment"								"east"
 		"xpos"										"10"
@@ -335,14 +335,14 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"GrayBlueDark"
+		"bgcolor_override"							"Gray_Blue_Dark"
 	}
 
 	"NewItemNameDescLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NewItemNameDescLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"#ToolItemRenameNewItemName"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -353,7 +353,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 		"paintbackground"							"0"
 		"proportionaltoparent"						"1"
 	}
@@ -374,11 +374,11 @@
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
 		"wrap"										"0"
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"GrayBlueLight"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Gray_Blue_Light"
 		"PaintBackgroundType"						"0"
 		"labelText"									""
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"AllCaps"									"1"
 		"textAlignment"								"west"
 		"proportionaltoparent"						"1"
@@ -388,7 +388,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WarningLabel"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"labelText"									"#ToolConfirmWarning"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -400,7 +400,7 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"RedDark"
+		"fgcolor"									"Red_Dark"
 	}
 
 	"CancelButton"
@@ -415,7 +415,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"Cancel (&Q)"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"0"
@@ -425,9 +425,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -446,7 +446,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#CraftNameConfirm"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"1"
@@ -456,9 +456,9 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

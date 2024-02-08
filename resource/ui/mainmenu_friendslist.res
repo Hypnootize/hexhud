@@ -15,7 +15,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Arrow"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"labelText"								"R"
 			"textAlignment"							"center"
 			"xpos"									"0"
@@ -29,10 +29,10 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 			"paintborder"							"1"
-			"border"								"BottomLineWhiteDark"
+			"border"								"Bottom_Line_White_Dark"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 		}
 
 		"SubButton"
@@ -47,7 +47,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"textAlignment"							"west"
 			"textinsetx"							"25"
 			"AllCaps"								"1"
@@ -60,16 +60,16 @@
 			"paintbackgroundtype"					"0"
 			"paintborder"							"1"
 
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 	}
 
@@ -98,18 +98,18 @@
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 11"
+			"font"									"Light_11"
 			"labelText"								"Online Friends"
 			"textAlignment"							"west"
 			"textinsetx"							"3"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets"				"1"
 			"mouseinputenabled"						"0"
 			"paintborder"							"0"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
+			"bgcolor_override"						"Gray_Blue_Darkest"
 		}
 
 		"CloseButton"
@@ -124,7 +124,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets"				"1"
-			"font"									"Symbols 12"
+			"font"									"Symbols_12"
 			"textAlignment"							"center"
 			"labeltext"								"-"
 			"AllCaps"								"1"
@@ -137,13 +137,13 @@
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
 
-			"defaultBgColor_override"				"ButtonRed"
-			"armedBgColor_override"					"ButtonRed_Hover"
-			"depressedBgColor_override"				"ButtonRed_Hover"
+			"defaultBgColor_override"				"Button_Red"
+			"armedBgColor_override"					"Button_Red_Hover"
+			"depressedBgColor_override"				"Button_Red_Hover"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 		}
 
 		"FriendsContainer"
@@ -158,7 +158,7 @@
 			"visible"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDark"
+			"bgcolor_override"						"Gray_Blue_Dark"
 			"proportionaltoparent"					"1"
 			"paintborder"							"0"
 			"alpha"									"255"

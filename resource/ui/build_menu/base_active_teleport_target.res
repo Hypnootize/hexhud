@@ -28,7 +28,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background Dark"
+			"bgcolor_override"						"Background_Dark"
 		}
 	}
 
@@ -36,7 +36,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
-		"font"										"Light 8"
+		"font"										"Light_8"
 		"xpos"										"cs-0.5"
 		"ypos"										"5"
 		"zpos"										"2"
@@ -49,15 +49,15 @@
 		"textAlignment"								"Center"
 		"centerwrap"								"0"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"OffWhite"
+		"fgcolor"									"Off_White"
 	}
 
 	"NumberLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Light 8"
-		"fgcolor"									"OffWhite"
+		"font"										"Light_8"
+		"fgcolor"									"Off_White"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1"
 		"zpos"										"6"

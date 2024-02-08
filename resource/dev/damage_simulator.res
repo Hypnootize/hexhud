@@ -12,7 +12,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"-95"
-		"font"										"Damage Big Outline"
+		"font"										"Damage_Big_Outline"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"

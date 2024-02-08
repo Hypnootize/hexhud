@@ -1,4 +1,4 @@
-//UI 			//#base "../../resource/tools/ReloadMenuButton.res"
+//UI			//#base "../../resource/tools/ReloadMenuButton.res"
 
 "resource/ui/ReloadMenuButton.res"
 {

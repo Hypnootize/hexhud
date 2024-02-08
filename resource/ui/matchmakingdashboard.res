@@ -203,7 +203,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"Command"								"toggle_chat"
 			"proportionaltoparent"					"1"
@@ -222,14 +222,14 @@
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"defaultBgColor_override"				"GrayBlueDarkest"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"paintborder"							"1"
-			"border"								"BottomLineWhite"
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 
 			"pin_to_sibling"						"PartySlot5"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -250,8 +250,8 @@
 			"paintbackground"						"1"
 			"paintborder"							"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhite"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White"
 
 			"QueueText"
 			{
@@ -264,7 +264,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"fgcolor_override"					"White"
 				"textAlignment"						"west"
 				"labelText"							"%queue_state%"
@@ -275,15 +275,15 @@
 				{
 					"0"
 					{
-						"font"						"Light 11"
+						"font"						"Light_11"
 					}
 					"1"
 					{
-						"font"						"Light 10"
+						"font"						"Light_10"
 					}
 					"2"
 					{
-						"font"						"Light 9"
+						"font"						"Light_9"
 					}
 				}
 			}
@@ -300,7 +300,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							"~"
-				"font"								"Symbols 18"
+				"font"								"Symbols_18"
 				"textAlignment"						"center"
 				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -312,8 +312,8 @@
 				"paintborder"						"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteDark"
-				"depressedFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"White_Dark"
+				"depressedFgColor_override"			"White_Dark"
 			}
 
 			"CloseButton"
@@ -328,7 +328,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labeltext"							"-"
-				"font"								"Symbols 18"
+				"font"								"Symbols_18"
 				"textAlignment"						"center"
 				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
@@ -340,8 +340,8 @@
 				"paintborder"						"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteDark"
-				"depressedFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"White_Dark"
+				"depressedFgColor_override"			"White_Dark"
 			}
 
 			"OuterShadow"
@@ -404,8 +404,8 @@
 			"paintbackground"						"1"
 			"paintborder"							"0"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"GrayBlueDarkest"
-			"border"								"BottomLineWhite"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+			"border"								"Bottom_Line_White"
 
 			"PromptText"
 			{
@@ -418,7 +418,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"fgcolor"							"White"
 				"textAlignment"						"west"
 				"labelText"							"#TF_MM_JoinPartyLobby_Prompt"
@@ -444,7 +444,7 @@
 
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"Light 11"
+				"font"								"Light_11"
 				"textAlignment"						"center"
 				"AllCaps"							"1"
 				"Command"							"join_party_match"
@@ -460,13 +460,13 @@
 				"paintbackgroundtype"				"0"
 				"paintborder"						"0"
 
-				"defaultBgColor_override"			"ButtonGreen"
-				"armedBgColor_override"				"ButtonGreen_Hover"
-				"depressedBgColor_override"			"ButtonGreen_Hover"
+				"defaultBgColor_override"			"Button_Green"
+				"armedBgColor_override"				"Button_Green_Hover"
+				"depressedBgColor_override"			"Button_Green_Hover"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"WhiteDark"
-				"depressedFgColor_override"			"WhiteDark"
+				"armedFgColor_override"				"White_Dark"
+				"depressedFgColor_override"			"White_Dark"
 			}
 
 			"OuterShadow"
@@ -504,7 +504,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"Command"								"quit"
 			"proportionaltoparent"					"1"
@@ -524,14 +524,14 @@
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"defaultBgColor_override"				"GrayBlueDarkest"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"paintborder"							"1"
-			"border"								"BottomLineWhite"
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 
 		"DisconnectButton"
@@ -545,7 +545,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"Command"								"quit"
 			"proportionaltoparent"					"1"
@@ -560,19 +560,19 @@
 
 			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"defaultBgColor_override"				"GrayBlueDarkest"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"paintborder"							"1"
-			"border"								"BottomLineWhite"
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 
 		"FindAGameButton2"
@@ -586,7 +586,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Symbols 16"
+			"font"									"Symbols_16"
 			"textAlignment"							"center"
 			"Command"								"find_game"
 			"proportionaltoparent"					"1"
@@ -601,19 +601,19 @@
 
 			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"defaultBgColor_override"				"GrayBlueDarkest"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
 			"paintborder"							"1"
-			"border"								"BottomLineWhite"
-			"border_default"						"BottomLineWhite"
-			"border_armed"							"BottomLineWhite"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 
 
@@ -631,7 +631,7 @@
 			"tall"									"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"west"
 			"textinsetx"							"0"
 			"Command"								"quit"
@@ -681,7 +681,7 @@
 			"tall"									"0"
 			"visible"								"0"
 			"enabled"								"1"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"west"
 			"Command"								"resume_game"
 			"proportionaltoparent"					"1"
@@ -732,7 +732,7 @@
 			"tall"									"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"west"
 			"Command"								"find_game"
 			"proportionaltoparent"					"1"

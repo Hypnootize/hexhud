@@ -68,8 +68,8 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"Bold 14"
-		"fgcolor"									"Health Numbers"
+		"font"										"Bold_14"
+		"fgcolor"									"Health_Numbers"
 	}
 	"Health_Spectator_Shadow"
 	{
@@ -85,7 +85,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"Bold 14 Blur"
+		"font"										"Bold_14_Blur"
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"Health_Spectator"
 	}

@@ -14,7 +14,7 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"GrayBlueLight"
+		"bgcolor_override"							"Gray_Blue_Light"
 	}
 
 	"DeleteButton"
@@ -29,7 +29,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"-"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"delete"
@@ -39,13 +39,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"GrayBlueDark"
-		"armedBgColor_override"						"BlackBlue"
-		"depressedBgColor_override"					"BlackBlue"
+		"defaultBgColor_override"					"Gray_Blue_Dark"
+		"armedBgColor_override"						"Black_Blue"
+		"depressedBgColor_override"					"Black_Blue"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"TriggerButton"
@@ -66,7 +66,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"m"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"default"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -76,13 +76,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"GrayBlueDark"
-		"armedBgColor_override"						"BlackBlue"
-		"depressedBgColor_override"					"BlackBlue"
+		"defaultBgColor_override"					"Gray_Blue_Dark"
+		"armedBgColor_override"						"Black_Blue"
+		"depressedBgColor_override"					"Black_Blue"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"AcceptButton"
@@ -103,7 +103,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"m"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"default"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -113,13 +113,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"GrayBlueDark"
-		"armedBgColor_override"						"BlackBlue"
-		"depressedBgColor_override"					"BlackBlue"
+		"defaultBgColor_override"					"Gray_Blue_Dark"
+		"armedBgColor_override"						"Black_Blue"
+		"depressedBgColor_override"					"Black_Blue"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 
 	"DeclineButton"
@@ -134,7 +134,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labeltext"									"-"
-		"font"										"Symbols 18"
+		"font"										"Symbols_18"
 		"textAlignment"								"center"
 		"default"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -144,12 +144,12 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"GrayBlueDark"
-		"armedBgColor_override"						"BlackBlue"
-		"depressedBgColor_override"					"BlackBlue"
+		"defaultBgColor_override"					"Gray_Blue_Dark"
+		"armedBgColor_override"						"Black_Blue"
+		"depressedBgColor_override"					"Black_Blue"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 	}
 }

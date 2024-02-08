@@ -26,7 +26,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"WhiteDark"
+		"bgcolor_override"							"White_Dark"
 		"proportionaltoparent"						"1"
 
 		"BottomLine"
@@ -76,7 +76,7 @@
 		"enabled"									"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"east"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 	}
@@ -95,7 +95,7 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"east"
 		"proportionaltoparent"						"1"
-		"font"										"Light 12 Blur"
+		"font"										"Light_12_Blur"
 		"fgcolor"									"Shadow"
 	}
 

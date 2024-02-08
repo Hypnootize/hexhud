@@ -23,8 +23,8 @@
 		"paintborder"								"1"
 		"paintbackground"							"1"
 		"painbackgroundtype"						"0"
-		"bgcolor_override"							"GrayBlueDark"
-		"border"									"BottomLineWhite"
+		"bgcolor_override"							"Gray_Blue_Dark"
+		"border"									"Bottom_Line_White"
 	}
 
 	"Checkbutton"
@@ -39,8 +39,8 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"smallcheckimage"							"1"
-		"fgcolor"									"WhiteDark"
-		"font"										"Light 14"
+		"fgcolor"									"White_Dark"
+		"font"										"Light_14"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"button_activation_type"					"1"

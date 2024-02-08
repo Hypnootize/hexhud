@@ -191,7 +191,7 @@
 		"visible"									"1"
 		"PaintBackground"							"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"GrayBlueDarkest"
+		"bgcolor_override"							"Gray_Blue_Darkest"
 
 		"if_mini"
 		{
@@ -216,7 +216,7 @@
 			"tall"									"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 8"
+			"font"									"Light_8"
 			"fgcolor"								"White"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
@@ -234,7 +234,7 @@
 			"tall"									"10"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 8"
+			"font"									"Light_8"
 			"fgcolor_override"						"White"
 			"textAlignment"							"west"
 			"labelText"								"%desc1%"
@@ -247,9 +247,9 @@
 
 			"fonts"
 			{
-				"0"									"Light 8"
-				"1"									"Light 8"
-				"2"									"Light 7"
+				"0"									"Light_8"
+				"1"									"Light_8"
+				"2"									"Light_7"
 			}
 		}
 
@@ -264,7 +264,7 @@
 			"tall"									"10"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 8"
+			"font"									"Light_8"
 			"fgcolor_override"						"White"
 			"textAlignment"							"west"
 			"labelText"								"%desc2%"
@@ -277,9 +277,9 @@
 
 			"fonts"
 			{
-				"0"									"Light 8"
-				"1"									"Light 8"
-				"2"									"Light 7"
+				"0"									"Light_8"
+				"1"									"Light_8"
+				"2"									"Light_7"
 			}
 		}
 
@@ -294,7 +294,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"fgcolor_override"						"White"
 			"textAlignment"							"north-west"
 			"labelText"								"%desc1%"
@@ -307,9 +307,9 @@
 
 			"fonts"
 			{
-				"0"									"Light 12"
-				"1"									"Light 11"
-				"2"									"Light 10"
+				"0"									"Light_12"
+				"1"									"Light_11"
+				"2"									"Light_10"
 			}
 		}
 
@@ -324,7 +324,7 @@
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Light 12"
+			"font"									"Light_12"
 			"fgcolor_override"						"White"
 			"textAlignment"							"north-west"
 			"labelText"								"%desc2%"
@@ -337,9 +337,9 @@
 
 			"fonts"
 			{
-				"0"									"Light 12"
-				"1"									"Light 11"
-				"2"									"Light 10"
+				"0"									"Light_12"
+				"1"									"Light_11"
+				"2"									"Light_10"
 			}
 
 			"colors"
@@ -396,8 +396,8 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Light 8"
-					"fgcolor"						"WhiteDark"
+					"font"							"Light_8"
+					"fgcolor"						"White_Dark"
 					"textAlignment"					"south-west"
 					"labelText"						"%current_xp%"
 					"proportionaltoparent"			"1"
@@ -419,8 +419,8 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Light 8"
-					"fgcolor"						"WhiteDark"
+					"font"							"Light_8"
+					"fgcolor"						"White_Dark"
 					"textAlignment"					"south-east"
 					"labelText"						"%next_level_xp%"
 					"proportionaltoparent"			"1"
@@ -559,7 +559,7 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"Light 11"
+					"font"								"Light_11"
 					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_games%"
@@ -577,7 +577,7 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"Light 11"
+					"font"								"Light_11"
 					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_kills%"
@@ -595,7 +595,7 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"Light 11"
+					"font"								"Light_11"
 					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_deaths%"
@@ -614,7 +614,7 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"Light 11"
+					"font"								"Light_11"
 					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_damage%"
@@ -632,7 +632,7 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"Light 11"
+					"font"								"Light_11"
 					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_healing%"
@@ -650,7 +650,7 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"Light 11"
+					"font"								"Light_11"
 					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_support%"
@@ -669,7 +669,7 @@
 					"tall"								"20"
 					"visible"							"1"
 					"enabled"							"1"
-					"font"								"Light 11"
+					"font"								"Light_11"
 					"fgcolor"							"White"
 					"textAlignment"						"north-west"
 					"labelText"							"%stat_score%"

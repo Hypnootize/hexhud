@@ -1,4 +1,4 @@
-#base "../../resource/dev/reloadschemebutton.res"
+#base "../dev/reloadschemebutton.res"
 
 "Resource/UI/SelectPlayerDialog.res"
 {
@@ -32,7 +32,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"labelText"							""
-				"font"								"Light 14"
+				"font"								"Light_14"
 				"textAlignment"						"west"
 				"textinsetx"						"34"
 				"use_proportional_insets"			"1"
@@ -43,9 +43,9 @@
 				"proportionaltoparent"				"1"
 				"paintbackground"					"1"
 
-				"defaultFgColor_override"			"WhiteDark"
-				"armedFgColor_override"				"WhiteSolid"
-				"depressedFgColor_override"			"WhiteSolid"
+				"defaultFgColor_override"			"White_Dark"
+				"armedFgColor_override"				"White_Solid"
+				"depressedFgColor_override"			"White_Solid"
 
 				"defaultBgColor_override"			"Button"
 				"armedBgColor_override"				"Button_Hover"
@@ -65,7 +65,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"color_outline"						"WhiteDark"
+				"color_outline"						"White_Dark"
 			}
 		}
 	}
@@ -85,14 +85,14 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 24"
+		"font"										"Light_24"
 		"labelText"									"%title%"
 		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
@@ -103,7 +103,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"PlayerListScroller"
@@ -116,8 +116,8 @@
 		"wide"										"380"
 		"tall"										"130"
 		"PaintBackgroundType"						"0"
-		"fgcolor_override"							"WhiteDark"
-		"bgcolor_override"							"BlackBlue"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Black_Blue"
 
 		"PlayerList"
 		{
@@ -160,7 +160,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"QueryLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#TF_SelectPlayer_Select"
 			"textAlignment"							"north"
 			"xpos"									"0"
@@ -171,7 +171,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"subbutton0"
@@ -186,7 +186,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_SelectPlayer_SelectFriends"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"friends"
@@ -196,10 +196,10 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 
-			"FgColor"								"WhiteDark"
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"FgColor"								"White_Dark"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
@@ -218,7 +218,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"#TF_SelectPlayer_SelectServer"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"textAlignment"							"center"
 			"default"								"1"
 			"Command"								"server"
@@ -228,10 +228,10 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 
-			"FgColor"								"WhiteDark"
-			"defaultFgColor_override"				"WhiteDark"
-			"armedFgColor_override"					"WhiteSolid"
-			"depressedFgColor_override"				"WhiteSolid"
+			"FgColor"								"White_Dark"
+			"defaultFgColor_override"				"White_Dark"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"defaultBgColor_override"				"Button"
 			"armedBgColor_override"					"Button_Hover"
@@ -256,7 +256,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"QueryLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#TF_SelectPlayer_Friends"
 			"textAlignment"							"north"
 			"xpos"									"0"
@@ -266,14 +266,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"EmptyPlayerListLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#TF_SelectPlayer_FriendsNone"
 			"textAlignment"							"north"
 			"xpos"									"0"
@@ -286,7 +286,7 @@
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"fgcolor"								"RedDark"
+			"fgcolor"								"Red_Dark"
 		}
 	}
 	"StatePanel2"
@@ -306,7 +306,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"QueryLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#TF_SelectPlayer_Server"
 			"textAlignment"							"north"
 			"xpos"									"0"
@@ -317,14 +317,14 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"fgcolor"								"WhiteDark"
+			"fgcolor"								"White_Dark"
 		}
 
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"EmptyPlayerListLabel"
-			"font"									"Light 14"
+			"font"									"Light_14"
 			"labelText"								"#TF_SelectPlayer_ServerNone"
 			"textAlignment"							"north"
 			"xpos"									"0"
@@ -337,7 +337,7 @@
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"fgcolor"								"RedDark"
+			"fgcolor"								"Red_Dark"
 		}
 	}
 
@@ -353,7 +353,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#Cancel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"default"									"1"
 		"Command"									"cancel"
@@ -363,10 +363,10 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 
-		"FgColor"									"WhiteDark"
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"FgColor"									"White_Dark"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"

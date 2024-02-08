@@ -26,7 +26,7 @@
 				"paintborder"						"0"
 				"paintbackground"					"1"
 				"bgcolor_override"					"Black"
-				"fgcolor_override"					"WhiteDark"
+				"fgcolor_override"					"White_Dark"
 
 				"ButtonBorder"						"NoBorder"
 			}

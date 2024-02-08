@@ -28,7 +28,7 @@
 		"enabled"									"1"
 		"wrap"										"1"
 		"labelText"									"%goal%"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"textAlignment"								"North"
 	}
 	"GoalLabelShadow"
@@ -45,7 +45,7 @@
 		"enabled"									"1"
 		"wrap"										"1"
 		"labelText"									"%goal%"
-		"font"										"Light 12 Blur"
+		"font"										"Light_12_Blur"
 		"textAlignment"								"North"
 		"pin_to_sibling"							"GoalLabel"
 	}
@@ -65,7 +65,7 @@
 		"wrap"										"1"
 		"labelText"									""
 		"textAlignment"								"North"
-		"font"										"Light 11"
+		"font"										"Light_11"
 	}
 
 	"PressSpacebarToContinue"
@@ -83,7 +83,7 @@
 		"wrap"										"1"
 		"labelText"									"#TF_Training_SpaceToContinue"
 		"textAlignment"								"North"
-		"font"										"Light 12"
+		"font"										"Light_12"
 	}
 
 	"HudTrainingMsgBG"

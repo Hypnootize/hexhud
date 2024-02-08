@@ -1,4 +1,4 @@
-#base "../../resource/dev/ReloadSchemeButton.res"
+#base "../dev/reloadschemebutton.res"
 
 "Resource/UI/CharInfoArmorySubPanel.res"
 {
@@ -125,7 +125,7 @@
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"FilterComboBox"
-		"Font"										"Light 11"
+		"Font"										"Light_11"
 		"xpos"										"-3"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -140,19 +140,19 @@
 		"unicode"									"0"
 		"paintborder"								"0"
 
-		"fgcolor_override"							"WhiteDark"
+		"fgcolor_override"							"White_Dark"
 		"bgcolor_override"							"Blank"
-		"disabledFgColor_override"					"WhiteDark"
+		"disabledFgColor_override"					"White_Dark"
 		"disabledBgColor_override"					"Blank"
 		"selectionColor_override"					"Blank"
-		"selectionTextColor_override"				"WhiteDark"
+		"selectionTextColor_override"				"White_Dark"
 		"defaultSelectionBG2Color_override"			"Blank"
 
 		"Button"
 		{
-			"defaultFgColor_override"				"WhiteDark"
+			"defaultFgColor_override"				"White_Dark"
 			"defaultBgColor_override"				"Blank"
-			"armedFgColor_override"					"WhiteDark"
+			"armedFgColor_override"					"White_Dark"
 			"armedBgColor_override"					"Blank"
 			"paintbackgroundtype"					"0"
 		}
@@ -192,14 +192,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 
@@ -222,7 +222,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurPageLabel"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"labelText"									"%thumbnailpage%"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -232,7 +232,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 
 		"pin_to_sibling"							"PagesBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -251,14 +251,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"Symbols 14"
+		"font"										"Symbols_14"
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"0"
 
-		"defaultFgColor_override"					"WhiteDark"
+		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 
@@ -367,7 +367,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#ArmoryButton_Wiki"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
 		"AllCaps"									"1"
@@ -377,13 +377,13 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 
-		"defaultBgColor_override"					"GrayBlueDarkest"
-		"armedBgColor_override"						"GrayBlue"
-		"depressedBgColor_override"					"GrayBlue"
+		"defaultBgColor_override"					"Gray_Blue_Darkest"
+		"armedBgColor_override"						"Gray_Blue"
+		"depressedBgColor_override"					"Gray_Blue"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"DataBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
@@ -402,7 +402,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#ArmoryButton_SetDetails"
-		"font"										"Light 12"
+		"font"										"Light_12"
 		"textAlignment"								"center"
 		"textinsetx"								"0"
 		"AllCaps"									"1"
@@ -412,13 +412,13 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 
-		"defaultBgColor_override"					"GrayBlueDarkest"
-		"armedBgColor_override"						"GrayBlue"
-		"depressedBgColor_override"					"GrayBlue"
+		"defaultBgColor_override"					"Gray_Blue_Darkest"
+		"armedBgColor_override"						"Gray_Blue"
+		"depressedBgColor_override"					"Gray_Blue"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"DataBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -437,7 +437,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#ArmoryButton_Store"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"Command"									"openstore"
@@ -447,13 +447,13 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override"					"ButtonGreen"
-		"armedBgColor_override"						"ButtonGreen_Hover"
-		"depressedBgColor_override"					"ButtonGreen_Hover"
+		"defaultBgColor_override"					"Button_Green"
+		"armedBgColor_override"						"Button_Green_Hover"
+		"depressedBgColor_override"					"Button_Green_Hover"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"ButtonsBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -480,7 +480,7 @@
 		{
 			"ControlName"							"CEconItemDetailsRichText"
 			"fieldName"								"Data_TextRichText"
-			"font"									"Light 8"
+			"font"									"Light_8"
 			"labelText"								"%datatext%"
 			"textAlignment"							"north-west"
 			"xpos"									"5"

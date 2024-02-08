@@ -13,14 +13,14 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Secondary"
 		"paintborder"								"1"
-		"border"									"BorderGrayBlueLight"
+		"border"									"Border_Gray_Blue_Light"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light 24"
+		"font"										"Light_24"
 		"textAlignment"								"center"
 		"labelText"									"#Frame_Untitled"
 		"xpos"										"10"
@@ -29,7 +29,7 @@
 		"wide"										"540"
 		"tall"										"25"
 		"centerwrap"								"1"
-		"fgcolor"									"WhiteDark"
+		"fgcolor"									"White_Dark"
 	}
 
 	"TextEntry"
@@ -41,10 +41,10 @@
 		"zpos"										"-1"
 		"wide"										"540"
 		"tall"										"280"
-		"font"										"Light 14"
+		"font"										"Light_14"
 		"textAlignment"								"north-west"
 		"labelText"									""
-		"bgcolor_override"							"BlackBlue"
+		"bgcolor_override"							"Black_Blue"
 		"fgcolor_override"							"White"
 	}
 
@@ -62,13 +62,13 @@
 		"textAlignment"								"center"
 		"Command"									"Close"
 		"Default"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
@@ -89,13 +89,13 @@
 		"textAlignment"								"center"
 		"Command"									"Done"
 		"Default"									"0"
-		"font"										"Light 14"
+		"font"										"Light_14"
 
 		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"WhiteDark"
-		"armedFgColor_override"						"WhiteSolid"
-		"depressedFgColor_override"					"WhiteSolid"
+		"defaultFgColor_override"					"White_Dark"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
