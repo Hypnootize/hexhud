@@ -119,8 +119,8 @@
 		"tall"										"f0"
 		"visible"									"0"
 		"enabled"									"1"
-		"PaintBackgroundType"						"1"
-		"bgcolor_override"							"0 0 0 250"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Main_Menu_Background"
 	}
 	"DrawingPanel"
 	{
@@ -359,7 +359,7 @@
 					"ypos"							"-1"
 					"zpos"							"19"
 					"wide"							"195"
-					"tall"							"19"
+					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"Bold_24_Blur"
@@ -659,7 +659,7 @@
 					"ypos"							"-1"
 					"zpos"							"19"
 					"wide"							"195"
-					"tall"							"19"
+					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"Bold_24_Blur"
