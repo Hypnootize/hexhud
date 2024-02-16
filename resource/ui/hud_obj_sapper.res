@@ -59,7 +59,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
-		"icon"										"obj_status_icon_sapper"
+		"icon"										"obj_status_sapper"
 		"iconColor"									"White"
 	}
 
@@ -184,5 +184,16 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
+	}
+	"Background"
+	{
+		"ControlName"								"CIconPanel"
+		"fieldName"									"Background"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

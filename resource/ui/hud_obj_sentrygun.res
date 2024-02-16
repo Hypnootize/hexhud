@@ -172,7 +172,7 @@
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"Icon_Upgrade_1"
-			"xpos"									"7"
+			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"10"
 			"wide"									"13"
@@ -183,17 +183,14 @@
 			"icon"									"obj_status_upgrade_1"
 			"iconColor"								"White_Dark"
 			"proportionaltoparent"					"1"
-
 			"pin_to_sibling"						"IconBackgound"
-			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"Icon_Upgrade_2"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"Icon_Upgrade_2"
-			"xpos"									"7"
+			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"10"
 			"wide"									"13"
@@ -204,17 +201,14 @@
 			"icon"									"obj_status_upgrade_2"
 			"iconColor"								"White_Dark"
 			"proportionaltoparent"					"1"
-
 			"pin_to_sibling"						"IconBackgound"
-			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"Icon_Upgrade_3"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"Icon_Upgrade_3"
-			"xpos"									"7"
+			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"10"
 			"wide"									"13"
@@ -225,29 +219,63 @@
 			"icon"									"obj_status_upgrade_3"
 			"iconColor"								"White_Dark"
 			"proportionaltoparent"					"1"
+			"pin_to_sibling"						"IconBackgound"
+		}
+
+		"AlertTray"
+		{
+			"ControlName"							"CBuildingStatusAlertTray"
+			"fieldName"								"AlertTray"
+			"xpos"									"0"
+			"ypos"									"0"
+			"ypos"									"0"
+			"zpos"									"0"
+			"wide"									"f-1"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"icon"									"obj_eng_status_area_sentry_alrt"
+		}
+		"WrenchIcon"
+		{
+			"ControlName"							"CIconPanel"
+			"fieldName"								"WrenchIcon"
+			"xpos"									"0"
+			"ypos"									"-1"
+			"zpos"									"10"
+			"wide"									"9"
+			"tall"									"9"
+			"visible"								"0"
+			"enabled"								"1"
+			"scaleImage"							"1"
+			"proportionaltoparent"					"1"
+			"icon"									"obj_status_icon_wrench"
+			"iconColor"								"White"
 
 			"pin_to_sibling"						"IconBackgound"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"SapperIcon"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"SapperIcon"
 			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
+			"ypos"									"-2"
+			"zpos"									"10"
+			"wide"									"8"
+			"tall"									"8"
 			"visible"								"0"
 			"enabled"								"1"
 			"scaleImage"							"1"
-			"icon"									""
-			"iconColor"								"White"
-			"paintbackground"						"1"
-			"bgcolor_override"						"Red"
 			"proportionaltoparent"					"1"
+			"icon"									"obj_status_icon_sapper"
+			"iconColor"								"Blue"
+
+			"pin_to_sibling"						"IconBackgound"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
 
 		"Health"
@@ -264,28 +292,6 @@
 			"proportionaltoparent"					"1"
 		}
 
-		"AlertTray"
-		{
-			"ControlName"							"CBuildingStatusAlertTray"
-			"fieldName"								"AlertTray"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"WrenchIcon"
-		{
-			"ControlName"							"CIconPanel"
-			"fieldName"								"WrenchIcon"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
 		"BuildingPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -368,7 +374,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/misc/buildingstatus_ammo"
+				"image"								"logos/build_icons/buildingstatus_ammo"
 				"drawcolor"							"Black"
 
 				"pin_to_sibling"					"Shells"
@@ -401,7 +407,7 @@
 				"visible"							"0"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/misc/buildingstatus_rockets"
+				"image"								"logos/build_icons/buildingstatus_rockets"
 				"drawcolor"							"Black"
 				"pin_to_sibling"					"Rockets"
 				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
