@@ -5,7 +5,7 @@
   <a href="https://tf2huds.dev/hud/HExHUD"><img src="https://i.imgur.com/lF9XotO.png"></a>
   <a href="https://www.teamfortress.tv/59727/hexhud"><img src="https://i.imgur.com/xTQ26gp.png"></a>
   <a href="https://gamebanana.com/mods/298232"><img src="https://i.imgur.com/UzXoexI.png"></a>
-  <a href="https://www.editor.criticalflaw.ca/"><img src="https://i.imgur.com/6JJTzkc.png"></a>
+  <a href="https://criticalflaw.ca/TF2HUD.Editor"><img src="https://i.imgur.com/6JJTzkc.png"></a>
 </p>
 
 ##
