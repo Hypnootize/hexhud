@@ -1,4 +1,4 @@
-#base "../dev/reloadschemebutton.res"
+#base "../dev/reload_scheme.res"
 
 "Resource/SteamWorkshopDialog.res"
 {

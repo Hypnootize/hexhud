@@ -1,9 +1,9 @@
-//UI						//#base "../../resource/dev/ReloadSchemeButton.res"
-//ECON						//#base "../../../resource/dev/ReloadSchemeButton.res"
-//STORE						//#base "../../../../../resource/dev/ReloadSchemeButton.res"
+//UI						//#base "../dev/reload_scheme.res"
+//ECON						//#base "../../dev/reload_scheme.res"
+//STORE						//#base "../../../../dev/reload_scheme.res"
 //ONLY WORKS WITH			//vgui_cache_res_files 0
 
-"resource/ui/ReloadSchemeButton.res"
+"Resource/DEV/Reload_Scheme.res"
 {
 	"ReloadSchemeButton"
 	{

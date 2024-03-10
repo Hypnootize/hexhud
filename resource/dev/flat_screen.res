@@ -1,4 +1,4 @@
-"Resource/Dev/FlatScreen.res"
+"Resource/Dev/Flat_Screen.res"
 {
 	"FlatScreen"
 	{

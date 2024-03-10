@@ -1,4 +1,4 @@
-#base "../dev/reloadschemebutton.res"
+#base "../dev/reload_scheme.res"
 
 // THIS WHOLE SCREEN DESIGN KINDA SUCKS, REVIEW IN THE FUTURE!!
 
