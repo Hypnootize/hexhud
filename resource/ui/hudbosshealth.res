@@ -1,34 +1,31 @@
 "Resource/UI/HudBossHealth.res"
 {
-	"BG"
+	"Background_Main"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"BG"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
+		"fieldName"									"Background_Main"
+		"xpos"										"0"
+		"ypos"										"12"
 		"zpos"										"4"
 		"wide"										"172"
-		"tall"										"16"
+		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"paintbackground"							"1"
-		"paintbackground"							"0"
+		"paintBackground"							"1"
+		"paintBackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 	}
-
 	"HealthBarPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthBarPanel"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
+		"xpos"										"2"
+		"ypos"										"14"
 		"zpos"										"5"
 		"wide"										"168"
-		"tall"										"12"
+		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
 
 		"BarImage"
 		{
@@ -38,30 +35,34 @@
 			"ypos"									"0"
 			"zpos"									"5"
 			"wide"									"168"
-			"tall"									"12"
+			"tall"									"8"
 			"visible"								"1"
 			"enabled"								"1"
-			"image"									"../hud/halloween_bar"
+			"image"									"replay/thumbnails/boss/boss_bar"
 			"scaleImage"							"1"
-			"proportionaltoparent"					"1"
 		}
 	}
-
 	"StunMeter"
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"StunMeter"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"100"
+		"wide"										"183"
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
 		"fgcolor_override"							"255 255 0 255"
 		"bgcolor_override"							"50 0 0 255"
 	}
+
+
+
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 
 	"BorderImage"
 	{
