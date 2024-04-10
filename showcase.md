@@ -130,7 +130,7 @@
 ![Tournament](../screenshots/42_Tournament.jpg?raw=true)
 
 ## TOURNAMENT READY MODE
-![Tournament Ready Mode](../screenshots/42_Tournament_Ready.jpg?raw=true)
+![Tournament Ready Mode](../screenshots/43_Tournament_Ready.jpg?raw=true)
 
 ## WIN & DAMAGE
 ![Win & Damage](../screenshots/44_Win.jpg?raw=true)
