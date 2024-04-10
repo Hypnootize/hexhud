@@ -10,7 +10,7 @@
 
 ##
 
-<a href="https://imgur.com/a/ENQcIqO"><img src="https://i.imgur.com/QYET2Xn.png"></a>
+<a href="../screenshots/showcase.md"><img src="https://i.imgur.com/QYET2Xn.png"></a>
 
 <a href="https://github.com/Hypnootize/hexhud/wiki"><img src="https://i.imgur.com/1oLfURy.png"></a>
 
