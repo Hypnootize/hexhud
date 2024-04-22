@@ -714,12 +714,6 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
-
-		"if_mvm"
-		{
-			"xpos"									"-6"
-			"ypos"									"-15"
-		}
 	}
 
 	"MapIcon"
