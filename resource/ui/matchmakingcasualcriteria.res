@@ -31,7 +31,6 @@
 
 			"matchgroup"							"MatchGroup_Casual_12v12"
 		}
-
 		"RankPanel"
 		{
 			"ControlName"							"CPvPRankPanel"
@@ -50,7 +49,6 @@
 			"show_model"							"0"
 			"show_name"								"0"
 		}
-
 		"RestoreCasualSearchCriteria"
 		{
 			"ControlName"							"CExImageButton"
@@ -83,7 +81,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"SaveCasualSearchCriteria"
 		{
 			"ControlName"							"CExImageButton"
@@ -116,7 +113,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"ShowExplanationsButton"
 		{
 			"ControlName"							"CExButton"
@@ -149,7 +145,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"SelectedCount"
 		{
 			"ControlName"							"CExLabel"
@@ -168,7 +163,6 @@
 
 			"mouseinputenabled"						"1"
 		}
-
 		"QueueEstimation"
 		{
 			"ControlName"							"CExLabel"
@@ -188,7 +182,6 @@
 
 			"mouseinputenabled"						"0"
 		}
-
 		"Title"
 		{
 			"ControlName"							"CExLabel"
@@ -211,7 +204,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"GameModesList"
 		{
 			"ControlName"							"CScrollableList"

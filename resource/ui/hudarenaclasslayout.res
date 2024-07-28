@@ -18,7 +18,6 @@
 		"teambg_2"									"replay/thumbnails/panels/flat_background"
 		"teambg_3"									"replay/thumbnails/panels/flat_background"
 	}
-
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -53,7 +52,6 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"Title"
 	}
-
 	"ChangeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -89,7 +87,6 @@
 
 		"pin_to_sibling"							"ChangeLabel"
 	}
-
 	"classImage0"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -104,7 +101,6 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-
 	"classImage1"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -119,7 +115,6 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-
 	"classImage2"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -134,7 +129,6 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-
 	"classImage3"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -149,7 +143,6 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-
 	"classImage4"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -164,7 +157,6 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-
 	"classImage5"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -179,7 +171,6 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-
 	"classImage6"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -194,7 +185,6 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-
 	"classImage7"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -209,7 +199,6 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-
 	"classImage8"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -224,7 +213,6 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-
 	"classImage9"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -239,7 +227,6 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-
 	"classImage10"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -254,7 +241,6 @@
 		"image"										""
 		"scaleImage"								"1"
 	}
-
 	"classImage11"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -271,9 +257,9 @@
 	}
 
 
-
-
-	//REMOVED STUFF
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"background"
 	{
 		"ControlName"								"CTFImagePanel"

@@ -16,7 +16,6 @@
 		"datacenter_y"								"3"
 		"datacenter_y_space"						"1"
 	}
-
 	"BGPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -32,7 +31,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"proportionaltoparent"						"1"
 	}
-
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -51,7 +49,6 @@
 
 		"mouseinputenabled"							"0"
 	}
-
 	"InviteModeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -152,7 +149,6 @@
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"IgnorePartyInvites"
 	}
-
 	"KeepPartyOnSameTeam"
 	{
 		"ControlName"								"CvarToggleCheckButton"
@@ -215,7 +211,6 @@
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"KeepPartyOnSameTeam"
 	}
-
 	"CustomPingCheckButton"
 	{
 		"ControlName"								"CvarToggleCheckButton"
@@ -279,7 +274,6 @@
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"CustomPingCheckButton"
 	}
-
 	"CurrentPingLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -303,7 +297,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"PingSlider"
 	{
 		"ControlName"								"CCvarSlider"
@@ -326,7 +319,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"DataCenterBackground"
 	{
 		"ControlName"								"EditablePanel"
@@ -343,7 +335,6 @@
 		"bgcolor_override"							"Gray_Blue_Dark"
 		"proportionaltoparent"						"1"
 	}
-
 	"DataCenterContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -386,14 +377,12 @@
 				{
 					"fgcolor_override"				"White_Dark"
 				}
-
 				"UpButton"
 				{
 					"ControlName"					"Button"
 					"FieldName"						"UpButton"
 					"visible"						"0"
 				}
-
 				"DownButton"
 				{
 					"ControlName"					"Button"
@@ -402,7 +391,6 @@
 				}
 			}
 		}
-
 		"Frame"
 		{
 			"Controlname"							"EditablePanel"
@@ -415,7 +403,6 @@
 			"enabled"								"0"
 		}
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -446,7 +433,6 @@
 
 		"armedFgColor_override"						"Orange"
 	}
-
 	"ReturnButton"
 	{
 		"ControlName"								"CExButton"
@@ -478,7 +464,6 @@
 
 		"armedFgColor_override"						"Orange"
 	}
-
 	"InnerGradient"
 	{
 		"ControlName"								"ImagePanel"
@@ -505,7 +490,6 @@
 
 		"image"										"gradient_pure_black"
 	}
-
 	"OuterGradient"
 	{
 		"ControlName"								"ImagePanel"
@@ -534,7 +518,6 @@
 
 		"image"										"gradient_pure_black"
 	}
-
 	"DescLabel"
 	{
 		"ControlName"								"CExLabel"

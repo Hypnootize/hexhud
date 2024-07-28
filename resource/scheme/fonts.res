@@ -336,6 +336,25 @@
 		//=========================================================================================
 		// PRODUCT BOLD DEFINITIONS
 		//=========================================================================================
+		"Bold_12"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+				"tall"										"12"
+				"antialias"									"1"
+			}
+		}
+		"Bold_12_Shadow"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+				"tall"										"12"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
 		"Bold_13"
 		{
 			"1"
@@ -403,6 +422,16 @@
 				"blur"										"2"
 			}
 		}
+		"Bold_16_Shadow"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+				"tall"										"16"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
 		"Bold_18"
 		{
 			"1"
@@ -439,6 +468,16 @@
 				"tall"										"20"
 				"antialias"									"1"
 				"blur"										"2"
+			}
+		}
+		"Bold_20_Shadow"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+				"tall"										"20"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"Bold_24"
@@ -2632,150 +2671,6 @@
 				"weight"									"400"
 				"antialias"									"1"
 			}
-		}
-	}
-
-	"CustomFontFiles"
-	{
-		"1"	"resource/tf.ttf"
-		"2"	"resource/tfd.ttf"
-		"3"
-		{
-			"font"	"resource/TF2.ttf"
-			"name"	"TF2"
-			"russian"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
-		}
-		"4"
-		{
-			"font"	"resource/TF2Secondary.ttf"
-			"name"	"TF2 Secondary"
-			"russian"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
-		}
-		"5"
-		{
-			"font"	"resource/TF2Professor.ttf"
-			"name"	"TF2 Professor"
-			"russian"
-			{
-				"range"	"0x0000 0x00FF"
-			}
-			"polish"
-			{
-				"range"	"0x0000 0x00FF"
-			}
-		}
-		"6"
-		{
-			"font"	"resource/TF2Build.ttf"
-			"name"	"TF2 Build"
-			"russian"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
-			"turkish"
-			{
-				"range"	"0x0000 0xFFFF"
-			}
-		}
-		"7"
-		{
-			"font"	"resource/ocra.ttf"
-			"name"	"ocra"
-			"turkish"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"swedish"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"spanish"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"romanian"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"polish"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"norwegian"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"danish"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"hungarian"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"german"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"french"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"finnish"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"czech"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"bulgarian"
-			{
-				"range"	"0x0000 0x007E"
-			}
-			"russian"
-			{
-				"range"	"0x0000 0x007E"
-			}
-		}
-
-		"20"
-		{
-			"font"	"resource/scheme/fonts/product.ttf"
-			"name"	"Product Sans"
-		}
-		"21"
-		{
-			"font"	"resource/scheme/fonts/product_bold.ttf"
-			"name"	"Product Sans Bold"
-		}
-		"22"
-		{
-			"font"	"resource/scheme/fonts/product_numbers.ttf"
-			"name"	"Product Sans Numbers"
-		}
-		"23"
-		{
-			"font"	"resource/scheme/fonts/product_bold_numbers.ttf"
-			"name"	"Product Sans Bold Numbers"
 		}
 	}
 }

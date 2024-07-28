@@ -13,7 +13,6 @@
 		"bgcolor_override"							"Blank"
 		"bgcolor_override"							"Blank"
 	}
-
 	"PanelBackground"
 	{
 		"ControlName"								"EditablePanel"
@@ -26,13 +25,12 @@
 
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"TransparentBackground"
+		"bgcolor_override"							"Background_Transparent"
 	}
-
 	"WaveFailHeader"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"HeaderLabel"
+		"fieldName"									"WaveFailHeader"
 		"font"										"Bold_24"
 		"labelText"									"%waveheader%"
 		"textAlignment"								"center"
@@ -42,7 +40,6 @@
 		"tall"										"30"
 		"fgcolor"									"White"
 	}
-
 	"HeaderDivider"
 	{
 		"ControlName"								"EditablePanel"
@@ -54,7 +51,6 @@
 		"visible"									"1"
 		"bgcolor_override"							"TransparentLightBlack"
 	}
-
 	"SummaryHeader"
 	{
 		"ControlName"								"CExLabel"
@@ -68,7 +64,6 @@
 		"tall"										"30"
 		"fgcolor"									"White"
 	}
-
 	"CollectionContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -91,7 +86,6 @@
 			"wide"									"140"
 			"fgcolor"								"White"
 		}
-
 		"CollectedLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -116,7 +110,6 @@
 			"wide"									"30"
 			"fgcolor"								"Green"
 		}
-
 		"MissedLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -141,7 +134,6 @@
 			"wide"									"30"
 			"fgcolor"								"Red"
 		}
-
 		"BonusLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -167,7 +159,6 @@
 			"fgcolor"								"Green"
 		}
 	}
-
 	"UsageContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -190,7 +181,6 @@
 			"wide"									"195"
 			"fgcolor"								"White"
 		}
-
 		"YouLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -203,7 +193,6 @@
 			"wide"									"35"
 			"fgcolor"								"White"
 		}
-
 		"TeamLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -216,7 +205,6 @@
 			"wide"									"35"
 			"fgcolor"								"White"
 		}
-
 		"BuybackLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -229,7 +217,6 @@
 			"wide"									"120"
 			"fgcolor"								"White"
 		}
-
 		"BuybackCountYou"
 		{
 			"ControlName"							"CExLabel"
@@ -242,7 +229,6 @@
 			"wide"									"35"
 			"fgcolor"								"White"
 		}
-
 		"BuybackCountTeam"
 		{
 			"ControlName"							"CExLabel"
@@ -255,7 +241,6 @@
 			"wide"									"35"
 			"fgcolor"								"White"
 		}
-
 		"BottleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -268,7 +253,6 @@
 			"wide"									"120"
 			"fgcolor"								"White"
 		}
-
 		"BottleCountYou"
 		{
 			"ControlName"							"CExLabel"
@@ -281,7 +265,6 @@
 			"wide"									"35"
 			"fgcolor"								"White"
 		}
-
 		"BottleCountTeam"
 		{
 			"ControlName"							"CExLabel"
@@ -294,7 +277,6 @@
 			"wide"									"35"
 			"fgcolor"								"White"
 		}
-
 		"InactiveLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -307,11 +289,10 @@
 			"wide"									"120"
 			"fgcolor"								"White"
 		}
-
 		"InactiveCountYou"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"ActiveCountYou"
+			"fieldName"								"InactiveCountYou"
 			"font"									"Light_11"
 			"labelText"								"%inactiveupgradesyou%"
 			"textAlignment"							"east"
@@ -320,11 +301,10 @@
 			"wide"									"35"
 			"fgcolor"								"Red"
 		}
-
 		"InactiveCountTeam"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"ActiveCountTeam"
+			"fieldName"								"InactiveCountTeam"
 			"font"									"Light_11"
 			"labelText"								"%inactiveupgradesteam%"
 			"textAlignment"							"east"

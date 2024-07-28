@@ -14,6 +14,6 @@
 		"proportionaltoparent"						"1"
 		"painbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"190 200 215 255"
+		"bgcolor_override"							"90 100 115 255"
 	}
 }

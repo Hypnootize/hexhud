@@ -35,7 +35,6 @@
 		"image_drawcolor"							"255 255 255 255"
 		"image_armedcolor"							"225 225 225 255"
 	}
-
 	"ModeImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -51,7 +50,6 @@
 		"proportionaltoparent"						"1"
 		"image"										""
 	}
-
 	"Line"
 	{
 		"ControlName"								"EditablePanel"
@@ -68,7 +66,6 @@
 		"proportionaltoparent"						"1"
 		"bgcolor_override"							"White"
 	}
-
 	"MatchmakingBanPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -106,28 +103,9 @@
 	}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	////DEAD STUFF////
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 
 	"PlayListDropShadow"
 	{

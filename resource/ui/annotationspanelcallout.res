@@ -9,7 +9,6 @@
 			"down"									"replay/thumbnails/misc/freezecam_callout_arrow"
 		}
 	}
-	
 	"CalloutBG"
 	{
 		"ControlName"								"CTFImagePanel"

@@ -12,7 +12,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"EventTitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -31,7 +30,6 @@
 		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 	}
-
 	"EventBonusLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -53,7 +51,6 @@
 		"pin_corner_to_sibling"						"6"
 		"pin_to_sibling_corner"						"4"
 	}
-
 	"EventDetailLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -75,7 +72,6 @@
 		"pin_corner_to_sibling"						"4"
 		"pin_to_sibling_corner"						"6"
 	}
-
 	"ProgressLevelBar"
 	{
 		"ControlName"								"ImagePanel"
@@ -92,8 +88,6 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
-
 	"BlueProgressEnd"
 	{
 		// tells the code where the end of the progress bar is since the image
@@ -105,7 +99,6 @@
 		"ypos"										"rs1-4"
 		"visible"									"0"
 	}
-
 	"RedProgressEnd"
 	{
 		// tells the code where the end of the progress bar is since the image
@@ -117,7 +110,6 @@
 		"ypos"										"rs1-4"
 		"visible"									"0"
 	}
-
 	"GoalBlue0"
 	{
 		"ControlName"								"ImagePanel"
@@ -133,7 +125,6 @@
 		"image"										"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"								"1"
 	}
-
 	"GoalBlue1"
 	{
 		"ControlName"								"ImagePanel"
@@ -149,7 +140,6 @@
 		"image"										"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"								"1"
 	}
-
 	"GoalBlue2"
 	{
 		"ControlName"								"ImagePanel"
@@ -165,7 +155,6 @@
 		"image"										"../passtime/hud/passtime_goal_blue_icon"
 		"scaleImage"								"1"
 	}
-
 	"GoalRed0"
 	{
 		"ControlName"								"ImagePanel"
@@ -181,7 +170,6 @@
 		"image"										"../passtime/hud/passtime_goal_red_icon"
 		"scaleImage"								"1"
 	}
-
 	"GoalRed1"
 	{
 		"ControlName"								"ImagePanel"
@@ -197,8 +185,6 @@
 		"image"										"../passtime/hud/passtime_goal_red_icon"
 		"scaleImage"								"1"
 	}
-
-
 	"GoalRed2"
 	{
 		"ControlName"								"ImagePanel"
@@ -214,7 +200,6 @@
 		"image"										"../passtime/hud/passtime_goal_red_icon"
 		"scaleImage"								"1"
 	}
-
 	"ProgressBallIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -230,7 +215,6 @@
 		"image"										"../passtime/hud/passtime_ball"
 		"scaleImage"								"1"
 	}
-
 	"ProgressSelfPlayerIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -245,7 +229,6 @@
 		"labelText"									""
 		"scaleImage"								"1"
 	}
-
 	"ProgressBallCarrierName"
 	{
 		"ControlName"								"CExLabel"
@@ -263,7 +246,6 @@
 		"pin_corner_to_sibling"						"4"
 		"pin_to_sibling_corner"						"6"
 	}
-
 	"BallPowerCluster"
 	{
 		"ControlName"								"EditablePanel"
@@ -290,7 +272,6 @@
 			"image"									"../passtime/hud/passtime_powerball_meter_frame"
 			"scaleImage"							"1"
 		}
-
 		"BallPowerMeterFinalSectionContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -318,7 +299,6 @@
 				"scaleImage"						"1"
 			}
 		}
-
 		"BallPowerMeterFillContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -347,7 +327,6 @@
 			}
 		}
 	}
-
 	"playericon0"
 	{
 		"ControlName"								"ImagePanel"

@@ -13,9 +13,8 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"TransparentBackground"
+		"bgcolor_override"							"Background_Transparent"
 	}
-
 	"WaveCompleteContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -31,7 +30,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WinningTeamLabelDropshadow"
-			"font"									"Light_16_Blur"
+			"font"									"Bold_16_Blur"
 			"fgcolor"								"Shadow"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -49,12 +48,11 @@
 			"fgcolor"								"Shadow"
 			"bgcolor_override"						"Red"
 		}
-
 		"WinningTeamLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WinningTeamLabel"
-			"font"									"Light_16"
+			"font"									"Bold_16"
 			"xpos"									"1"
 			"ypos"									"1"
 			"wide"									"f0"
@@ -67,7 +65,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"WinReasonLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -84,7 +81,6 @@
 		"labelText"									"%WinReasonLabel%"
 		"textAlignment"								"Center"
 	}
-
 	"DetailsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -103,7 +99,6 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 	}
-
 	"RespecBackground"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -117,7 +112,6 @@
 		"image"										"replay/thumbnails/panels/flat_background"
 		"alpha"										"220"
 	}
-
 	"RespecContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -145,7 +139,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White"
 		}
-
 		"RespecCountLabel"
 		{
 			"ControlName"							"CExLabel"

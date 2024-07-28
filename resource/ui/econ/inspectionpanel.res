@@ -6,20 +6,68 @@
 	{
 		"ypos"										"50"
 	}
-
-	"FullScreenBG"
+	"Hide_Panels"									// 720p screws everything so fuck it, ghetto solution wins
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"FullScreenBG"
-		"xpos"										"135"
+		"fieldName"									"Hide_Panels"
+		"xpos"										"137"
 		"ypos"										"0"
-		"zpos"										"0"
-		"wide"										"f135"
+		"zpos"										"-1"
+		"wide"										"700"
 		"tall"										"f0"
 		"visible"									"1"
-		"enable"									"1"
-		"bgcolor_override"							"Background_Main"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"0"
 
+		"Center"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Center"
+			"xpos"									"0"
+			"ypos"									"cs-0.5"
+			"zpos"									"-1"
+			"wide"									"470"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+		"Right"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Right"
+			"xpos"									"rs1-80"
+			"ypos"									"cs-0.5+15"
+			"zpos"									"-1"
+			"wide"									"160"
+			"tall"									"360"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+		"Right_Small"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Right_Small"
+			"xpos"									"rs1-55"
+			"ypos"									"cs-0.5+15"
+			"zpos"									"-1"
+			"wide"									"50"
+			"tall"									"320"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
 		"consume_mode"
 		{
 			"wide"									"0"
@@ -33,7 +81,6 @@
 			"wide"									"0"
 		}
 	}
-
 	"WeaponBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -64,7 +111,6 @@
 			"wide"									"0"
 		}
 	}
-
 	"OptionsBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -95,7 +141,6 @@
 			"wide"									"0"
 		}
 	}
-
 	"ItemName"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -131,7 +176,6 @@
 			"inventory_image_type"					"1"
 			"continued_velocity"					"1"
 		}
-
 		"fixed_item"
 		{
 			"xpos"									"cs-0.5+61"
@@ -159,7 +203,6 @@
 			"paintborder"							"0"
 		}
 	}
-
 	"WarPaintTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -198,7 +241,6 @@
 			"wide"									"0"
 		}
 	}
-
 	"ModelInspectionPanel"
 	{
 		"fieldName"									"ModelInspectionPanel"
@@ -246,7 +288,6 @@
 			"border"								"Border_Gray_Blue_Light"
 			"fov"									"100"
 		}
-
 		"model"
 		{
 			"force_pos"								"1"
@@ -270,7 +311,6 @@
 				"origin_z"							"5"
 			}
 		}
-
 		"lights"
 		{
 			"default"
@@ -279,7 +319,6 @@
 				"color"								"1 1 1"
 				"direction"							"0 0 -1"
 			}
-
 			"spot light"
 			{
 				"name"								"spot"
@@ -292,7 +331,6 @@
 				"maxDistance"						"1000"
 				"exponent"							"25"
 			}
-
 			"point light"
 			{
 				"name"								"point"
@@ -303,7 +341,6 @@
 			}
 		}
 	}
-
 	"TeamNavPanel"
 	{
 		"ControlName"								"CNavigationPanel"
@@ -339,7 +376,6 @@
 			"xpos"									"216"
 			"ypos"									"89"
 		}
-
 		"ButtonSettings"
 		{
 			"wide"									"19"
@@ -383,7 +419,6 @@
 				"scaleImage"						"1"
 			}
 		}
-
 		"Buttons"
 		{
 			"all"
@@ -412,7 +447,6 @@
 			}
 		}
 	}
-
 	"PaintkitPreviewContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -453,7 +487,6 @@
 			"pin_to_sibling"						""
 			"paintbackground"						"0"
 		}
-
 		"PaintkitLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -482,7 +515,6 @@
 				"visible"							"0"
 			}
 		}
-
 		"ComboBoxValidPaintkits"
 		{
 			"ControlName"							"ComboBox"
@@ -523,7 +555,6 @@
 				"armedBgColor_override"				"Gray_Blue_Dark"
 				"paintbackgroundtype"				"0"
 			}
-
 			"pin_to_sibling"						"PaintkitLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
@@ -537,7 +568,6 @@
 				"visible"							"0"
 			}
 		}
-
 		"ItemLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -573,12 +603,10 @@
 				"labelText"							"#TF_ItemPreview_RedeemItem"
 				"pin_to_sibling"					""
 			}
-
 			"pin_to_sibling"						"ComboBoxValidPaintkits"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"ComboBoxValidItems"
 		{
 			"ControlName"							"ComboBox"
@@ -618,7 +646,6 @@
 				"wide"								"f0"
 				"pin_to_sibling"					""
 			}
-
 			"proportionaltoparent"					"1"
 
 			"paintborder"							"0"
@@ -639,12 +666,10 @@
 				"armedBgColor_override"				"Gray_Blue_Dark"
 				"paintbackgroundtype"				"0"
 			}
-
 			"pin_to_sibling"						"ItemLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"WearLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -676,12 +701,10 @@
 			{
 				"visible"							"0"
 			}
-
 			"pin_to_sibling"						"ComboBoxValidItems"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"WearSlider"
 		{
 			"ControlName"							"Slider"
@@ -690,7 +713,7 @@
 			"ypos"									"2"
 			"zpos"									"1"
 			"wide"									"140"
-			"tall"									"16"
+			"tall"									"21"
 			"numticks"								"4"
 			"rangemin"								"1"
 			"rangemax"								"5"
@@ -714,12 +737,10 @@
 			{
 				"visible"							"0"
 			}
-
 			"pin_to_sibling"						"WearLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"SeedTextEntry"
 		{
 			"ControlName"							"TextEntry"
@@ -752,12 +773,10 @@
 			{
 				"visible"							"0"
 			}
-
 			"pin_to_sibling"						"WearSlider"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"NewSeedButton"
 		{
 			"ControlName"							"Button"
@@ -804,12 +823,10 @@
 			{
 				"visible"							"0"
 			}
-
 			"pin_to_sibling"						"SeedTextEntry"
 			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
-
 		"MarketButton"
 		{
 			"ControlName"							"CExButton"
@@ -834,7 +851,6 @@
 			{
 				"visible"							"0"
 			}
-
 			"zpos"									"100"
 			"wide"									"150"
 			"tall"									"20"
@@ -864,7 +880,6 @@
 
 			"sound_depressed"						"UI/buttonclick.wav"
 		}
-
 		"DebugButton"								// WHO YOU?
 		{
 			"ControlName"							"CExImageButton"
@@ -911,6 +926,10 @@
 		} // Debug button
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"BGImage"
 	{
 		"ControlName"								"ImagePanel"

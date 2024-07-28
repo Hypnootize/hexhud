@@ -10,12 +10,10 @@
 		"tall"										"23"
 		"icon"										"obj_status_sentrygun_1"
 	}
-
 	"NotBuiltLabel"
 	{
 		"visible"									"0"
 	}
-
 	"NumberLabel"
 	{
 		"labelText"									"1"

@@ -27,7 +27,6 @@
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
 	}
-
 	"modelpanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -64,7 +63,6 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
@@ -109,7 +107,6 @@
 			"centerwrap"							"1"
 		}
 	}
-
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -127,7 +124,6 @@
 		"wrap"										"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"ExplanationLabel2"
 	{
 		"ControlName"								"CExLabel"
@@ -145,7 +141,6 @@
 		"wrap"										"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"DiscardedLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -162,7 +157,6 @@
 		"enabled"									"1"
 		"fgcolor"									"Red"
 	}
-
 	"DiscardButton"
 	{
 		"ControlName"								"CExButton"
@@ -193,7 +187,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"backpack_panel"
 	{
 		"ControlName"								"CBackpackPanel"
@@ -207,7 +200,6 @@
 		"items_only"								"1"
 		"button_override_delete_xpos"				"0"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -238,7 +230,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"ShowExplanationsButton"
 	{
 		"ControlName"								"CExButton"
@@ -267,7 +258,6 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 	}
-
 	"StartExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -309,7 +299,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -326,7 +315,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -353,7 +341,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -370,7 +357,6 @@
 			"enabled"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"NextButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -397,7 +383,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"DiscardButtonExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -439,7 +424,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -456,7 +440,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -507,7 +490,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -524,7 +506,6 @@
 			"enabled"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"NextButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -551,7 +532,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"DeleteButtonExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -592,7 +572,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -609,7 +588,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -678,6 +656,10 @@
 		}
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"CaratLabel2"
 	{
 		"ControlName"								"CExLabel"

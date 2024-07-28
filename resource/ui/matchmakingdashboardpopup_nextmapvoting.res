@@ -81,7 +81,6 @@
 					"proportionaltoparent"			"1"
 				}
 			} // HideButton
-
 			"ShowButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -126,8 +125,6 @@
 					"proportionaltoparent"			"1"
 				}
 			} // HideButton
-
-
 			"DescLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -145,7 +142,6 @@
 				"labelText"							"#TF_Matchmaking_RollingQueue_MatchOver"
 				"proportionaltoparent"				"1"
 			}
-
 			"TimeRemainingProgressBar"
 			{
 				"ControlName"						"CircularProgressBar"
@@ -158,7 +154,6 @@
 				"fg_image"							"pve/mvm_1_progress"
 				"bg_image"							"progress_bar_pointer_right"
 			}
-
 			"MapChoice0"
 			{
 				"ControlName"						"EditablePanel"
@@ -172,7 +167,6 @@
 				"PaintBackgroundType"				"2"
 				"proportionaltoparent"				"1"
 			}
-
 			"MapChoice1"
 			{
 				"ControlName"						"EditablePanel"
@@ -186,7 +180,6 @@
 				"PaintBackgroundType"				"2"
 				"proportionaltoparent"				"1"
 			}
-
 			"MapChoice2"
 			{
 				"ControlName"						"EditablePanel"
@@ -201,6 +194,11 @@
 				"proportionaltoparent"				"1"
 			}
 		}
+
+
+		//===================================================================================
+		// REMOVED ELEMENTS
+		//===================================================================================
 		"OuterShadow"
 		{
 			"ControlName"							"EditablePanel"

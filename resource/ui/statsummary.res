@@ -1,3 +1,5 @@
+#base "hexagon_corners.res"
+
 "Resource/UI/StatSummary.res"
 {
 	"TFStatsSummary"
@@ -12,7 +14,20 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
+	"Custom_Background"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"Custom_Background"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"101"
+		"wide"										"f0"
+		"tall"										"480"
+		"visible"									"0"		//1 TO ENABLE
+		"enabled"									"1"
+		"scaleimage"								"1"
+		"image"										"replay/thumbnails/misc/loading_bg"
+	}
 	"Background"
 	{
 		"ControlName"								"EditablePanel"
@@ -27,49 +42,54 @@
 		"paintbakckground"							"1"
 		"bgcolor_override"							"Background_Main"
 	}
-
+	"HExagon_Corners"
+	{
+		"ypos"										"24"
+		"zpos"										"102"
+		"wide"										"f0"
+		"tall"										"f24"
+	}
 	"MapType"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapType"
-		"font"										"Light_24"
-		"labelText"									"%maptype%"
-		"textAlignment"								"west"
-		"xpos"										"5"
-		"ypos"										"80"
-		"zpos"										"101"
+		"xpos"										"cs-0.5"
+		"ypos"										"50"
+		"zpos"										"103"
 		"wide"										"f0"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
-		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
+		"AllCaps"									"1"
+		"font"										"Light_24"
+		"labelText"									"%maptype%"
+		"textAlignment"								"center"
 		"fgcolor"									"White_Dark"
 	}
-
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapLabel"
-		"font"										"Bold_44"
-		"labelText"									"%maplabel%"
-		"textAlignment"								"west"
-		"xpos"										"5"
-		"ypos"										"30"
-		"zpos"										"101"
+		"xpos"										"cs-0.5"
+		"ypos"										"80"
+		"zpos"										"103"
 		"wide"										"f0"
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
+		"AllCaps"									"1"
+		"font"										"Bold_44"
+		"labelText"									"%maplabel%"
+		"textAlignment"								"center"
 		"fgcolor"									"White"
 	}
 
 
-
-
-	///////////REMOVED///////////
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"MainBackground"
 	{
 		"ControlName"								"ImagePanel"

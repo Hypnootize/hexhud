@@ -73,7 +73,6 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-
 			"RotateRightButton"
 			{
 				"ControlName"						"CExButton"
@@ -101,7 +100,6 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-
 			"ZoomButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -133,7 +131,6 @@
 			}
 		}
 	}
-
 	"ScrollBar"
 	{
 		"ControlName"								"ScrollBar"
@@ -152,7 +149,6 @@
 			"fgcolor_override"						"White_Dark"
 		}
 	}
-
 	// Fullscreen background panel
 	"BgPanel"
 	{
@@ -168,7 +164,6 @@
 		"PaintBackground"							"0"
 		"bgcolor_override"							""
 	}
-
 	"DialogFrame"
 	{
 		"ControlName"								"EditablePanel"
@@ -202,7 +197,6 @@
 			"bgcolor_override"						"Black_Blue"
 			"proportionaltoparent"					"1"
 		}
-
 		"ItemNameLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -220,7 +214,6 @@
 			"wrap"									"1"
 			"AllCaps"								"1"
 		}
-
 		// Scrollable editable panel for right-hand side of preview, for all text details
 		"DetailsView"
 		{
@@ -262,7 +255,6 @@
 					"wrap"							"1"
 					"fgcolor"						"White_Dark"
 				}
-
 				"RestrictionsLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -277,7 +269,6 @@
 					"wrap"							"1"
 					"fgcolor"						"White_Dark"
 				}
-
 				"RestrictionsTextLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -292,7 +283,6 @@
 					"wrap"							"1"
 					"fgcolor"						"White_Dark"
 				}
-
 				"UsedByLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -307,7 +297,6 @@
 					"wrap"							"1"
 					"fgcolor"						"White_Dark"
 				}
-
 				"UsedByTextLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -322,7 +311,6 @@
 					"wrap"							"1"
 					"fgcolor"						"White_Dark"
 				}
-
 				"SlotLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -337,7 +325,6 @@
 					"wrap"							"1"
 					"fgcolor"						"White_Dark"
 				}
-
 				"SlotTextLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -352,7 +339,6 @@
 					"wrap"							"1"
 					"fgcolor"						"White_Dark"
 				}
-
 				"ArmoryTextLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -367,7 +353,6 @@
 					"labeltext"						"%armory_text%"
 					"fgcolor"						"White_Dark"
 				}
-
 				"AttributesLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -381,7 +366,6 @@
 					"wrap"							"1"
 					"fgcolor"						"White_Dark"
 				}
-
 				"collectionhighlight"
 				{
 					"ControlName"					"EditablePanel"
@@ -395,7 +379,6 @@
 					"PaintBackgroundType"			"0"
 					"bgcolor_override"				"215 206 182 255"
 				}
-
 				"ItemWikiPageButton"
 				{
 					"ControlName"					"CExButton"
@@ -426,7 +409,6 @@
 			}
 		}
 	}
-
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
@@ -466,7 +448,6 @@
 			"modelname"								""
 		}
 	}
-
 	"PreviewItemModelPanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -498,7 +479,6 @@
 			"force_square_image"					"1"
 		}
 	}
-
 	"ItemIcon1"
 	{
 		"ControlName"								"CStorePreviewItemIcon"
@@ -529,7 +509,6 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"Gray"
 		}
-
 		"itempanel"
 		{
 			"fieldName"								"itempanel"
@@ -553,7 +532,6 @@
 			}
 		}
 	}
-
 	"ClassUsageImage1"
 	{
 		"ControlName"								"CStorePreviewClassIcon"
@@ -650,7 +628,6 @@
 		"image_indent"								"1"
 		"PaintBackgroundType"						"0"
 	}
-
 	"IconsMoveLeftButton"
 	{
 		"ControlName"								"CExButton"
@@ -679,7 +656,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"IconsMoveRightButton"
 	{
 		"ControlName"								"CExButton"
@@ -708,7 +684,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"ClassUsageMouseoverLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -729,7 +704,6 @@
 		"textinsetx"								"100"
 		"border"									"LoadoutItemPopupBorder"
 	}
-
 	"GoFullscreenButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -758,7 +732,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"OptionsButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -787,7 +760,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"TeamNavPanel"
 	{
 		"ControlName"								"CNavigationPanel"
@@ -851,7 +823,6 @@
 				"scaleImage"						"1"
 			}
 		}
-
 		"Buttons"
 		{
 			"all"
@@ -880,7 +851,6 @@
 			}
 		}
 	}
-
 	"CycleTextLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -899,10 +869,8 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	//---
 	// Hack - put these two labels off-screen, since we have cycle text to take the place of both of them
-
 	"PaintNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -919,7 +887,6 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 	}
-
 	"StyleNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -936,7 +903,6 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -961,7 +927,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"mouseoveritempanel"
 	{
 		"fieldName"									"mouseoveritempanel"

@@ -14,7 +14,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background"
+		"bgcolor_override"							"Gray_Light"
 	}
 	"BottomLine"
 	{
@@ -32,12 +32,11 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
 	}
-
 	"CurrencyGood"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyGood"
-		"font"										"Light_11"
+		"font"										"Light_10"
 		"fgcolor"									"Off_White"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -50,12 +49,11 @@
 		"textAlignment"								"center"
 		"labelText"									"%currency%"
 	}
-
 	"CurrencyBad"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyBad"
-		"font"										"Light_11"
+		"font"										"Light_10"
 		"fgcolor"									"Red"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -68,26 +66,28 @@
 		"textAlignment"								"center"
 		"labelText"									"%currency%"
 	}
-
 	"CurrencyShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyShadow"
-		"font"										"Light_11_Blur"
+		"font"										"Light_10_Blur"
 		"fgcolor"									"Shadow"
-		"xpos"										"1"
-		"ypos"										"1"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"3"
-		"wide"										"f0"
-		"tall"										"f1"
+		"wide"										"f-1"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labelText"									"%currency%"
-
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"BorderBG"
 	{
 		"ControlName"								"EditablePanel"

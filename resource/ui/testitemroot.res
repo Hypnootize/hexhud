@@ -17,7 +17,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Main"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -41,7 +40,6 @@
 		"border"									"Bottom_Line_White_Dark"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ClassUsagePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -73,7 +71,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassCheckBox0"
 		{
 			"ControlName"							"CheckButton"
@@ -91,7 +88,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-
 		"ClassCheckBox1"
 		{
 			"ControlName"							"CheckButton"
@@ -109,7 +105,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-
 		"ClassCheckBox2"
 		{
 			"ControlName"							"CheckButton"
@@ -127,7 +122,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-
 		"ClassCheckBox3"
 		{
 			"ControlName"							"CheckButton"
@@ -145,7 +139,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-
 		"ClassCheckBox4"
 		{
 			"ControlName"							"CheckButton"
@@ -163,7 +156,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-
 		"ClassCheckBox5"
 		{
 			"ControlName"							"CheckButton"
@@ -181,7 +173,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-
 		"ClassCheckBox6"
 		{
 			"ControlName"							"CheckButton"
@@ -199,7 +190,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-
 		"ClassCheckBox7"
 		{
 			"ControlName"							"CheckButton"
@@ -217,7 +207,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-
 		"ClassCheckBox8"
 		{
 			"ControlName"							"CheckButton"
@@ -235,7 +224,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-
 		"ClassCheckBox9"
 		{
 			"ControlName"							"CheckButton"
@@ -254,7 +242,6 @@
 			"disabledfgcolor2_override"				"TanDark"
 		}
 	}
-
 	"TestingPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -289,7 +276,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TestingWeaponLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -307,7 +293,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TestItemEntry0"
 		{
 			"ControlName"							"CExLabel"
@@ -326,7 +311,6 @@
 			"fgcolor"								"White_Dark"
 			"bgcolor_override"						"Black_Blue"
 		}
-
 		"TestItemButton0"
 		{
 			"ControlName"							"CExButton"
@@ -357,7 +341,6 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-
 		"RemoveItemButton0"
 		{
 			"ControlName"							"CExButton"
@@ -452,7 +435,6 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-
 		"RemoveItemButton1"
 		{
 			"ControlName"							"CExButton"
@@ -483,7 +465,6 @@
 			"armedBgColor_override"					"Button_Red_Hover"
 			"depressedBgColor_override"				"Button_Red_Hover"
 		}
-
 		"TestingMisc1Label"
 		{
 			"ControlName"							"CExLabel"
@@ -548,7 +529,6 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-
 		"RemoveItemButton2"
 		{
 			"ControlName"							"CExButton"
@@ -579,7 +559,6 @@
 			"armedBgColor_override"					"Button_Red_Hover"
 			"depressedBgColor_override"				"Button_Red_Hover"
 		}
-
 		"TestingMisc2Label"
 		{
 			"ControlName"							"CExLabel"
@@ -597,7 +576,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TestItemEntry3"
 		{
 			"ControlName"							"CExLabel"
@@ -616,7 +594,6 @@
 			"fgcolor"								"White_Dark"
 			"bgcolor_override"						"Black_Blue"
 		}
-
 		"TestItemButton3"
 		{
 			"ControlName"							"CExButton"
@@ -646,7 +623,6 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-
 		"RemoveItemButton3"
 		{
 			"ControlName"							"CExButton"
@@ -678,7 +654,6 @@
 			"depressedBgColor_override"				"Button_Red_Hover"
 		}
 	}
-
 	"BotAdditionPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -713,7 +688,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"AutoAddBotsCheckBox"
 		{
 			"ControlName"							"CheckButton"
@@ -731,7 +705,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-
 		"BotsOnBlueTeamCheckBox"
 		{
 			"ControlName"							"CheckButton"
@@ -750,7 +723,6 @@
 			"proportionaltoparent"					"1"
 			"disabledfgcolor2_override"				"TanDark"
 		}
-
 		"AddBotButton"
 		{
 			"ControlName"							"CExButton"
@@ -781,7 +753,6 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-
 		"BotSelectionComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -821,7 +792,6 @@
 				"paintbackgroundtype"				"0"
 			}
 		}
-
 		"KickAllBotsButton"
 		{
 			"ControlName"							"CExButton"
@@ -853,7 +823,6 @@
 			"depressedBgColor_override"				"Button_Hover"
 		}
 	}
-
 	"TestItemBotControls"
 	{
 		"fieldName"									"TestItemBotControls"
@@ -871,7 +840,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"ExportButton"
 	{
 		"ControlName"								"CExButton"
@@ -905,7 +873,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"ImportButton"
 	{
 		"ControlName"								"CExButton"
@@ -939,7 +906,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"ImportRecentButton"
 	{
 		"ControlName"								"CExButton"
@@ -973,7 +939,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -1040,7 +1005,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"SteamWorkshopButton"
 	{
 		"ControlName"								"EditablePanel"

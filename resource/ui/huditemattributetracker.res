@@ -13,7 +13,6 @@
 
 		"stats_buffer_width"						"30"
 	}
-
 	"QuestsStatusContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -41,7 +40,6 @@
 			"TextAlignment"							"east"
 			"proportionaltoparent"					"1"
 		}
-
 		"CallToAction"
 		{
 			"ControlName"							"CExLabel"
@@ -58,7 +56,6 @@
 			"TextAlignment"							"east"
 			"proportionaltoparent"					"1"
 		}
-
 		"Image"
 		{
 			"ControlName"							"CTFImagePanel"

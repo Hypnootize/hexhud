@@ -21,7 +21,6 @@
 			"ypos"									"30"
 		}
 	}
-
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -54,7 +53,6 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 		}
-
 		"TimeBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -78,7 +76,6 @@
 			"enabled"								"0"
 		}
 	}
-
 	"StopWatchScoreToBeat"
 	{
 		"ControlName"								"CExLabel"
@@ -102,7 +99,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"StopWatchPointsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -128,7 +124,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"StopWatchLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -151,11 +146,9 @@
 	}
 
 
-
-
-
-	//REMOVED STUFF
-
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"HudStopWatchBG"
 	{
 		"ControlName"								"ImagePanel"

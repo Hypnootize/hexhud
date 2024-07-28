@@ -28,7 +28,6 @@
 			"visible"								"1"
 			"proportionalToParent"					"1"
 		}
-
 		"RespawnTimeLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -45,7 +44,6 @@
 			"proportionalToParent"					"1"
 			"fgcolor"								"White"
 		}
-
 		"RespawnProgressBar"
 		{
 			"ControlName"							"CTFProgressBar"

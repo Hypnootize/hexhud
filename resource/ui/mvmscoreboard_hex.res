@@ -15,7 +15,6 @@
 		"verbose"									"1"
 		"proportionaltoparent"						"0"
 	}
-
 	"MvMPlayerList"
 	{
 		"ControlName"								"SectionedListPanel"
@@ -31,7 +30,6 @@
 		"proportionaltoparent"						"1"
 		"alpha"										"255"
 	}
-
 	"RedBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -79,14 +77,13 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"TransparentBackground"
+		"bgcolor_override"							"Background_Transparent"
 		"proportionaltoparent"						"1"
 
 		"pin_to_sibling"							"RedBG"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"PopFileLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -122,7 +119,6 @@
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"PopFileLabel"
 	}
-
 	"DifficultyContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -182,20 +178,201 @@
 			"pin_to_sibling"						"DifficultyValue"
 		}
 	}
+	"CreditsBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"CreditsBG"
+		"xpos"										"0"
+		"ypos"										"31"
+		"zpos"										"-1"
+		"wide"										"530"
+		"tall"										"44"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
 
+		"pin_to_sibling"							"PlaylistBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+
+		"BG_1"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"BG_1"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"0"
+			"wide"									"264"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+
+			"Title_BG"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"Title_BG"
+				"xpos"								"cs-0.5"
+				"ypos"								"0"
+				"zpos"								"0"
+				"wide"								"f0"
+				"tall"								"12"
+				"visible"							"1"
+				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"PaintBackground"					"1"
+				"PaintBackgroundType"				"0"
+				"bgcolor_override"					"Background_Transparent_Dark"
+
+				"Rating_BG"
+				{
+					"ControlName"					"Panel"
+					"fieldName"						"Rating_BG"
+					"xpos"							"rs1"
+					"ypos"							"0"
+					"zpos"							"0"
+					"wide"							"20"
+					"tall"							"12"
+					"visible"						"1"
+					"enabled"						"1"
+					"proportionaltoparent"			"1"
+					"PaintBackground"				"1"
+					"PaintBackgroundType"			"0"
+					"bgcolor_override"				"TransparentLightBlack"
+				}
+			}
+			"Panel_BG"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"Panel_BG"
+				"xpos"								"cs-0.5"
+				"ypos"								"rs1"
+				"zpos"								"0"
+				"wide"								"f0"
+				"tall"								"f12"
+				"visible"							"1"
+				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"PaintBackground"					"1"
+				"PaintBackgroundType"				"0"
+				"bgcolor_override"					"Background_Transparent"
+
+				"Separator"
+				{
+					"ControlName"					"Panel"
+					"fieldName"						"Separator"
+					"xpos"							"cs-0.5"
+					"ypos"							"rs1-3"
+					"zpos"							"0"
+					"wide"							"1"
+					"tall"							"27"
+					"visible"						"1"
+					"enabled"						"1"
+					"proportionaltoparent"			"1"
+					"PaintBackground"				"1"
+					"PaintBackgroundType"			"0"
+					"bgcolor_override"				"TransparentLightBlack"
+				}
+			}
+		}
+		"BG_2"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"BG_2"
+			"xpos"									"2"
+			"ypos"									"0"
+			"zpos"									"0"
+			"wide"									"264"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+
+			"pin_to_sibling"						"BG_1"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+
+			"Title_BG"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"Title_BG"
+				"xpos"								"cs-0.5"
+				"ypos"								"0"
+				"zpos"								"0"
+				"wide"								"f0"
+				"tall"								"12"
+				"visible"							"1"
+				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"PaintBackground"					"1"
+				"PaintBackgroundType"				"0"
+				"bgcolor_override"					"Background_Transparent_Dark"
+
+				"Rating_BG"
+				{
+					"ControlName"					"Panel"
+					"fieldName"						"Rating_BG"
+					"xpos"							"rs1"
+					"ypos"							"0"
+					"zpos"							"0"
+					"wide"							"20"
+					"tall"							"12"
+					"visible"						"1"
+					"enabled"						"1"
+					"proportionaltoparent"			"1"
+					"PaintBackground"				"1"
+					"PaintBackgroundType"			"0"
+					"bgcolor_override"				"TransparentLightBlack"
+				}
+			}
+			"Panel_BG"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"Panel_BG"
+				"xpos"								"cs-0.5"
+				"ypos"								"rs1"
+				"zpos"								"0"
+				"wide"								"f0"
+				"tall"								"f12"
+				"visible"							"1"
+				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"PaintBackground"					"1"
+				"PaintBackgroundType"				"0"
+				"bgcolor_override"					"Background_Transparent"
+
+				"Separator"
+				{
+					"ControlName"					"Panel"
+					"fieldName"						"Separator"
+					"xpos"							"cs-0.5"
+					"ypos"							"rs1-3"
+					"zpos"							"0"
+					"wide"							"1"
+					"tall"							"27"
+					"visible"						"1"
+					"enabled"						"1"
+					"proportionaltoparent"			"1"
+					"PaintBackground"				"1"
+					"PaintBackgroundType"			"0"
+					"bgcolor_override"				"TransparentLightBlack"
+				}
+			}
+		}
+	}
 	"CreditStatsContainer"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"CreditStatsContainer"
 		"xpos"										"0"
-		"ypos"										"16"
+		"ypos"										"31"
 		"wide"										"530"
 		"tall"										"115"
 		"visible"									"1"
 
 		"pin_to_sibling"							"PlaylistBG"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 
 		"PreviousWaveCreditInfoPanel"
 		{
@@ -203,33 +380,28 @@
 			"fieldName"								"PreviousWaveCreditInfoPanel"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"132"
+			"wide"									"264"
 			"tall"									"44"
 			"visible"								"1"
 		}
-
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"							"CCreditSpendPanel"
 			"fieldName"								"PreviousWaveCreditSpendPanel"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"132"
+			"wide"									"264"
 			"tall"									"44"
 			"visible"								"1"
-
 			"pin_to_sibling"						"PreviousWaveCreditInfoPanel"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"							"CCreditDisplayPanel"
 			"fieldName"								"TotalGameCreditInfoPanel"
 			"xpos"									"2"
 			"ypos"									"0"
-			"wide"									"132"
+			"wide"									"264"
 			"tall"									"44"
 			"visible"								"1"
 
@@ -237,22 +409,17 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"							"CCreditSpendPanel"
 			"fieldName"								"TotalGameCreditSpendPanel"
 			"xpos"									"0"
 			"ypos"									"0"
-			"wide"									"132"
+			"wide"									"264"
 			"tall"									"44"
 			"visible"								"1"
-
 			"pin_to_sibling"						"TotalGameCreditInfoPanel"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"RespecStatusLabel"							//NO CLUE WHAT YOU ARE, I DONT PLAY MVM FUCK
 		{
 			"ControlName"							"CExLabel"
@@ -266,7 +433,6 @@
 			"tall"									"20"
 			"fgcolor"								"tanlight"
 		}
-
 		"CreditStatsBackground"
 		{
 			"ControlName"							"ScalableImagePanel"
@@ -291,6 +457,10 @@
 		}
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"PlayerListBackground"
 	{
 		"ControlName"								"ScalableImagePanel"

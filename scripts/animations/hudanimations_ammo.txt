@@ -1,0 +1,31 @@
+//====================================================================================================================
+
+event HudLowAmmoPulse
+{
+	Animate Hexagon_Glow						Alpha		"200"								Linear	0.0		0.075
+	Animate Hexagon_Glow						Alpha		"255"								Linear	0.125	0.175
+	
+	Animate AmmoInClip							FgColor		"Ammo_In_Clip_Low"					Linear	0.0		0.0
+
+	Animate AmmoInReserve						FgColor		"Ammo_In_Reserve_Low"				Linear	0.0		0.0
+
+	Animate AmmoNoClip							FgColor		"Ammo_No_Clip_Low"					Linear	0.0		0.0
+
+	RunEvent HudLowAmmoPulseLoop				0.4
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse					0.0
+	StopEvent HudLowAmmoPulseLoop				0.0
+
+	Animate Hexagon_Glow						Alpha		"0"									Linear	0.0		0.0
+	
+	Animate AmmoInClip							FgColor		"Ammo_In_Clip"						Linear	0.0		0.0
+
+	Animate AmmoInReserve						FgColor		"Ammo_In_Reserve"					Linear	0.0		0.0
+
+	Animate AmmoNoClip							FgColor		"Ammo_No_Clip"						Linear	0.0		0.0
+}
+
+//====================================================================================================================

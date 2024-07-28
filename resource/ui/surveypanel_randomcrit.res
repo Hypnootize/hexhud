@@ -25,7 +25,6 @@
 				"fgcolor"							"White_Dark"
 				"proportionaltoparent"				"1"
 			}
-
 			"SelectionGroup"
 			{
 				"ControlName"						"EditablePanel"
@@ -47,7 +46,6 @@
 					"fieldName"						"InnerShadow"
 					"xpos"							"9999"
 				}
-
 				"Radio0"							// Horrible
 				{
 					"ControlName"					"RadioButton"
@@ -65,7 +63,6 @@
 					"labelText"						""
 					"Command"						"option0"
 				}
-
 				"Radio0Label"
 				{
 					"ControlName"					"CExLabel"
@@ -84,7 +81,6 @@
 
 					"associate"						"Radio0"
 				}
-
 				"Radio1"							// Bad
 				{
 					"ControlName"					"RadioButton"
@@ -102,7 +98,6 @@
 					"labelText"						""
 					"Command"						"option1"
 				}
-
 				"Radio1Label"
 				{
 					"ControlName"					"CExLabel"
@@ -119,7 +114,6 @@
 					"font"							"Light_11"
 					"textAlignment"					"center"
 				}
-
 				"Radio2"							// Neutral
 				{
 					"ControlName"					"RadioButton"
@@ -137,7 +131,6 @@
 					"labelText"						""
 					"Command"						"option2"
 				}
-
 				"Radio2Label"
 				{
 					"ControlName"					"CExLabel"
@@ -155,7 +148,6 @@
 					"textAlignment"					"center"
 					"default"						"1"
 				}
-
 				"Radio3"							// Good
 				{
 					"ControlName"					"RadioButton"
@@ -173,7 +165,6 @@
 					"labelText"						""
 					"Command"						"option3"
 				}
-
 				"Radio3Label"
 				{
 					"ControlName"					"CExLabel"
@@ -190,7 +181,6 @@
 					"font"							"Light_11"
 					"textAlignment"					"center"
 				}
-
 				"Radio4"							// Great
 				{
 					"ControlName"					"RadioButton"
@@ -208,7 +198,6 @@
 					"labelText"						""
 					"Command"						"option4"
 				}
-
 				"Radio4Label"
 				{
 					"ControlName"					"CExLabel"
@@ -226,7 +215,6 @@
 					"textAlignment"					"center"
 				}
 			}
-
 			"SubmitButton"
 			{
 				"ControlName"						"CExButton"

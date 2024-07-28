@@ -1,102 +1,14 @@
 "Resource/UI/HudTournamentSetup.res"
 {
-	"TournamentBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"TournamentBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"proportionaltoparent"						"1"
-		"bgcolor_override"							"Background"
-	}
-
-	"TournamentReadyButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"TournamentReadyButton"
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"o1"
-		"tall"										"f0"
-		"zpos"										"5"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"+"
-		"textAlignment"								"center"
-		"command"									"teamready"
-		"default"									"0"
-		"font"										"Symbols_12"
-
-		"fgcolor"									"White"
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"White"
-		"depressedFgColor_override"					"White"
-		"selectedFgColor_override"					"White"
-
-		"paintbackground"							"1"
-
-		"bgcolor"									"Button_Green"
-		"defaultBgColor_override"					"Button_Green"
-		"armedBgColor_override"						"Button_Green_Hover"
-		"depressedBgColor_override"					"Button_Green_Hover"
-		"selectedBgColor_override"					"Button_Green_Hover"
-
-		"proportionaltoparent"						"1"
-	}
-
-	"TournamentNotReadyButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"TournamentNotReadyButton"
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"o1"
-		"tall"										"f0"
-		"zpos"										"5"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"-"
-		"textAlignment"								"center"
-		"command"									"teamnotready"
-		"default"									"0"
-		"font"										"Symbols_12"
-
-		"fgcolor"									"White"
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"White"
-		"depressedFgColor_override"					"White"
-		"selectedFgColor_override"					"White"
-
-		"paintbackground"							"1"
-
-		"bgcolor"									"Button_Red"
-		"defaultBgColor_override"					"Button_Red"
-		"armedBgColor_override"						"Button_Red_Hover"
-		"depressedBgColor_override"					"Button_Red_Hover"
-		"selectedBgColor_override"					"Button_Red_Hover"
-
-		"proportionaltoparent"						"1"
-
-		"pin_to_sibling"							"TournamentReadyButton"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-	}
-
 	"TournamentNameEdit"
 	{
 		"ControlName"								"TextEntry"
 		"fieldName"									"TournamentNameEdit"
-		"xpos"										"rs1"
+		"xpos"										"cs-0.5"
 		"ypos"										"0"
-		"zpos"										"20"
-		"wide"										"f28"
-		"tall"										"f0"
+		"zpos"										"6"
+		"wide"										"f0"
+		"tall"										"13"
 		"visible"									"1"
 		"enabled"									"1"
 		"textHidden"								"0"
@@ -112,14 +24,92 @@
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 	}
+	"TournamentReadyButton"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"TournamentReadyButton"
+		"xpos"										"0"
+		"ypos"										"rs1"
+		"wide"										"p0.5"
+		"tall"										"16"
+		"zpos"										"5"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"Ready"
+		"textAlignment"								"center"
+		"command"									"teamready"
+		"default"									"0"
+		"font"										"Light_12"
+
+		"fgcolor"									"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
+
+		"paintbackground"							"1"
+
+		"bgcolor"									"Button_Green"
+		"defaultBgColor_override"					"Button_Green"
+		"armedBgColor_override"						"Button_Green_Hover"
+		"depressedBgColor_override"					"Button_Green_Hover"
+		"selectedBgColor_override"					"Button_Green_Hover"
+	}
+	"TournamentNotReadyButton"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"TournamentNotReadyButton"
+		"xpos"										"rs1"
+		"ypos"										"rs1"
+		"wide"										"p0.505"
+		"tall"										"16"
+		"zpos"										"5"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"Not Ready"
+		"textAlignment"								"center"
+		"command"									"teamnotready"
+		"default"									"0"
+		"font"										"Light_12"
+
+		"fgcolor"									"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
+		"selectedFgColor_override"					"White"
+
+		"paintbackground"							"1"
+
+		"bgcolor"									"Button_Red"
+		"defaultBgColor_override"					"Button_Red"
+		"armedBgColor_override"						"Button_Red_Hover"
+		"depressedBgColor_override"					"Button_Red_Hover"
+		"selectedBgColor_override"					"Button_Red_Hover"
+	}
+	"BottomLine"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BottomLine"
+		"xpos"										"cs-0.5"
+		"ypos"										"rs1"
+		"zpos"										"6"
+		"wide"										"f0"
+		"tall"										"2"
+		"visible"									"1"
+		"enabled"									"1"
+		"mouseinputenabled"							"0"
+		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"TransparentLightBlack"
+	}
 
 
-
-
-
-
-	//REMOVED STUFF
-
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"HudTournamentSetupBG"
 	{
 		"ControlName"								"ScalableImagePanel"

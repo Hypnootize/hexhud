@@ -11,7 +11,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"Icon_Teleport_Entrance"
 	{
 		"ControlName"								"CIconPanel"
@@ -28,7 +27,6 @@
 		"icon"										"obj_status_tele_entrance"
 		"iconColor"									"White"
 	}
-
 	"NotBuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -57,7 +55,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background"
 		}
-
 		"IconBackgound"
 		{
 			"ControlName"							"EditablePanel"
@@ -74,7 +71,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background_Dark"
 		}
-
 		"NotBuiltLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -116,7 +112,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background"
 		}
-
 		"IconBackgound"
 		{
 			"ControlName"							"EditablePanel"
@@ -133,7 +128,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background_Dark"
 		}
-
 		"Icon_Upgrade_1"
 		{
 			"ControlName"							"CIconPanel"
@@ -151,7 +145,6 @@
 			"proportionaltoparent"					"1"
 			"pin_to_sibling"						"IconBackgound"
 		}
-
 		"Icon_Upgrade_2"
 		{
 			"ControlName"							"CIconPanel"
@@ -169,7 +162,6 @@
 			"proportionaltoparent"					"1"
 			"pin_to_sibling"						"IconBackgound"
 		}
-
 		"Icon_Upgrade_3"
 		{
 			"ControlName"							"CIconPanel"
@@ -187,7 +179,6 @@
 			"proportionaltoparent"					"1"
 			"pin_to_sibling"						"IconBackgound"
 		}
-
 		"AlertTray"
 		{
 			"ControlName"							"CBuildingStatusAlertTray"
@@ -243,7 +234,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"Health"
 		{
 			"ControlName"							"CBuildingHealthBar"
@@ -257,7 +247,6 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"BuildingPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -269,7 +258,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -304,7 +292,6 @@
 				"visible"							"0"
 				"enabled"							"0"
 			}
-
 			"ChargingPanel"
 			{
 				"ControlName"						"EditablePanel"
@@ -349,7 +336,6 @@
 					"pin_to_sibling"				"Recharge"
 				}
 			}
-
 			"FullyChargedPanel"
 			{
 				"ControlName"						"EditablePanel"
@@ -378,7 +364,6 @@
 					"AllCaps"						"1"
 					"proportionaltoparent"			"1"
 				}
-
 				"TimesUsedLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -396,7 +381,6 @@
 					"proportionaltoparent"			"1"
 				}
 			}
-
 			"Upgrade"
 			{
 				"ControlName"						"ContinuousProgressBar"
@@ -432,7 +416,6 @@
 			}
 		}
 	}
-
 	"Background"
 	{
 		"ControlName"								"CIconPanel"

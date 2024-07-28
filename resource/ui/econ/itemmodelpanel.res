@@ -15,7 +15,6 @@
 		//"model_wide_collection"					"156"
 		//"model_tall_collection"					"100"
 	}
-
 	"LoadingSpinner"
 	{
 		"ControlName"								"ImagePanel"
@@ -31,7 +30,6 @@
 		"image"										"animated/tf2_logo_hourglass"
 		"scaleImage"								"1"
 	}
-
 	"MainContentsContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -73,7 +71,6 @@
 				"spotlight"							"1"
 			}
 		}
-
 		"namelabel"
 		{
 			"ControlName"							"CExLabel"
@@ -91,7 +88,6 @@
 			"fgcolor"								"White"
 			"centerwrap"							"1"
 		}
-
 		"attriblabel"
 		{
 			"ControlName"							"CExLabel"
@@ -109,7 +105,6 @@
 			"fgcolor"								"White"
 			"centerwrap"							"1"
 		}
-
 		"equippedlabel"
 		{
 			"ControlName"							"CExLabel"
@@ -130,7 +125,6 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"Black_Blue"
 		}
-
 		"paint_icon"
 		{
 			"ControlName"							"CItemMaterialCustomizationIconPanel"
@@ -143,7 +137,6 @@
 			"visible"								"0"
 			"enabled"								"1"
 		}
-
 		"quantitylabel"
 		{
 			"ControlName"							"CExLabel"
@@ -164,7 +157,6 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"Black_Blue"
 		}
-
 		"serieslabel"
 		{
 			"ControlName"							"CExLabel"
@@ -184,7 +176,6 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"Black_Blue"
 		}
-
 		"matcheslabel"
 		{
 			"ControlName"							"CExLabel"
@@ -205,7 +196,6 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"Black_Blue"
 		}
-
 		"vision_restriction_icon"
 		{
 			"ControlName"							"ImagePanel"
@@ -219,7 +209,6 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 		}
-
 		"is_strange_icon"
 		{
 			"ControlName"							"ImagePanel"
@@ -233,7 +222,6 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 		}
-
 		"is_unusual_icon"
 		{
 			"ControlName"							"ImagePanel"
@@ -247,7 +235,6 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 		}
-
 		"is_loaner_icon"
 		{
 			"ControlName"							"ImagePanel"
@@ -261,7 +248,6 @@
 			"enabled"								"1"
 			"scaleImage"							"1"
 		}
-
 		"contained_item_panel"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -296,7 +282,6 @@
 				"allow_rot"							"0"
 				"inventory_image_type"				"1"
 			}
-
 			"use_item_sounds"						"1"
 		}
 	}

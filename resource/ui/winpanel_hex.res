@@ -27,7 +27,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background"
 		}
-
 		"BlueScoreBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -168,7 +167,6 @@
 			"proportionaltoparent"					"1"
 			"pin_to_sibling"						"BlueTeamScore"
 		}
-
 		"RedScoreBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -374,7 +372,6 @@
 			"enabled"								"0"
 		}
 	}
-
 	"ScoresBar"
 	{
 		"ControlName"								"EditablePanel"
@@ -390,7 +387,6 @@
 		"bgcolor_override"							"Background"
 		"proportionaltoparent"						"1"
 	}
-
 	"Player1Icon"
 	{
 		"ControlName"								"CExLabel"
@@ -451,8 +447,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
-
 	"Player2Icon"
 	{
 		"ControlName"								"CExLabel"
@@ -515,7 +509,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"Player3Icon"
 	{
 		"ControlName"								"CExLabel"
@@ -578,7 +571,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"KillstreakIcon"
 	{
 		"ControlName"								"CExLabel"
@@ -643,10 +635,9 @@
 	}
 
 
-
-
-	//REMOVED STUFF
-
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"WinPanelBGBorder"
 	{
 		"ControlName"								"EditablePanel"

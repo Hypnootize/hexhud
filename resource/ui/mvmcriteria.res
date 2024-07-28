@@ -28,7 +28,6 @@
 			"bgcolor_override"						"Background_Secondary"
 			"border"								"Bottom_Line_White_Dark"
 		}
-
 		"ChallengeLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -44,7 +43,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"DifficultyLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -60,7 +58,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CompleteLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -76,7 +73,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TourLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -92,7 +88,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TourLevelLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -104,7 +99,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"TourlistGroupBox"
 		{
 			"ControlName"							"EditablePanel"
@@ -132,7 +126,6 @@
 				"visible"							"0"
 				"bgcolor_override"					"128 128 128 128"
 			}
-
 			"TourList"
 			{
 				"ControlName"						"SectionedListPanel"
@@ -147,7 +140,6 @@
 				"paintbackground"					"0"
 			}
 		}
-
 		"TourDifficultyWarning"
 		{
 			"ControlName"							"CExLabel"
@@ -169,7 +161,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"MannUpTourLootDescriptionBox"
 	{
 		"ControlName"								"EditablePanel"
@@ -216,7 +207,6 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"DetailsBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -267,7 +257,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"MvMSelectChallengeGroupBox"
 	{
 		"ControlName"								"EditablePanel"
@@ -296,7 +285,6 @@
 			"bgcolor_override"						"Background_Secondary"
 			"border"								"Bottom_Line_White_Dark"
 		}
-
 		"ChallengeLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -312,7 +300,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CompleteLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -328,7 +315,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TourLevelImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -344,7 +330,6 @@
 			"image"									"../hud/mvm_tours"
 			"scaleImage"							"1"
 		}
-
 		"TourLevelLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -359,7 +344,6 @@
 			"tall"									"20"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ChallengeListGroupBox"
 		{
 			"ControlName"							"EditablePanel"
@@ -387,7 +371,6 @@
 				"visible"							"0"
 				"bgcolor_override"					"128 128 128 128"
 			}
-
 			"ChallengeList"
 			{
 				"ControlName"						"SectionedListPanel"
@@ -403,7 +386,6 @@
 			}
 		}
 	}
-
 	"MvMEconItemsGroupBox"
 	{
 		"ControlName"								"EditablePanel"
@@ -433,7 +415,6 @@
 			"bgcolor_override"						"Background_Secondary"
 			"border"								"Bottom_Line_White_Dark"
 		}
-
 		"InventoryTitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -450,7 +431,6 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"DetailsBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -468,7 +448,6 @@
 			"bgcolor_override"						"Background_Secondary"
 			"proportionaltoparent"					"1"
 		}
-
 		"Slot0"
 		{
 			"ControlName"							"CMvMPlayerTicketStatusPanel"
@@ -565,7 +544,6 @@
 			"bgcolor_override"						"Black_Blue"
 			"border"								"Bottom_Line_White_Dark"
 		}
-
 		"MannUpTicketAd"
 		{
 			"ControlName"							"CCyclingAdContainerPanel"
@@ -613,7 +591,6 @@
 
 			"pin_to_sibling"						"MannUpTicketAd"
 		}
-
 		"SquadSurplusTicketAd"
 		{
 			"ControlName"							"CCyclingAdContainerPanel"
@@ -661,7 +638,6 @@
 
 			"pin_to_sibling"						"SquadSurplusTicketAd"
 		}
-
 		"SquadSurplusCheckButton"
 		{
 			"ControlName"							"CheckButton"
@@ -711,7 +687,6 @@
 
 			"pin_to_sibling"						"SquadSurplusCheckButton"
 		}
-
 		"AlertBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -771,7 +746,6 @@
 			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 	}
-
 	"MvMPracticeGroupBox"
 	{
 		"ControlName"								"EditablePanel"
@@ -818,7 +792,6 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"DetailsBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -836,7 +809,6 @@
 			"bgcolor_override"						"Background_Secondary"
 			"proportionaltoparent"					"1"
 		}
-
 		"NoMannUpImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -853,7 +825,6 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"NoMannUpDescriptionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -870,7 +841,6 @@
 			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"MannUpNowButton"
 		{
 			"ControlName"							"CExButton"

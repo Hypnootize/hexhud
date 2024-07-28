@@ -19,7 +19,6 @@
 		"border"									"Border_Gray_Blue_Light"
 		"bgcolor_override"							"Background_Main"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -37,7 +36,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"SelectModelLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -55,7 +53,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ModelLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -73,7 +70,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"SelectModelButton"
 	{
 		"ControlName"								"CExButton"
@@ -105,7 +101,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"ExistingItemToTestPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -135,7 +130,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ExistingItemComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -174,7 +168,6 @@
 			}
 		}
 	}
-
 	"ItemReplacedPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -258,7 +251,6 @@
 			"fgcolor"								"Red_Dark"
 		}
 	}
-
 	"BodygroupPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -287,7 +279,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"HideBodygroupExplanationLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -306,7 +297,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"HideBodygroupCheckBox0"
 		{
 			"ControlName"							"CheckButton"
@@ -324,7 +314,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White_Dark"
 		}
-
 		"HideBodygroupCheckBox1"
 		{
 			"ControlName"							"CheckButton"
@@ -342,7 +331,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White_Dark"
 		}
-
 		"HideBodygroupCheckBox2"
 		{
 			"ControlName"							"CheckButton"
@@ -360,7 +348,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White_Dark"
 		}
-
 		"HideBodygroupCheckBox3"
 		{
 			"ControlName"							"CheckButton"
@@ -378,7 +365,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White_Dark"
 		}
-
 		"HideBodygroupCheckBox4"
 		{
 			"ControlName"							"CheckButton"
@@ -396,7 +382,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White_Dark"
 		}
-
 		"HideBodygroupCheckBox5"
 		{
 			"ControlName"							"CheckButton"
@@ -414,7 +399,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White_Dark"
 		}
-
 		"HideBodygroupCheckBox6"
 		{
 			"ControlName"							"CheckButton"
@@ -432,7 +416,6 @@
 			"AllCaps"								"1"
 			"disabledfgcolor2_override"				"White_Dark"
 		}
-
 		"HideBodygroupCheckBox7"
 		{
 			"ControlName"							"CheckButton"
@@ -451,7 +434,6 @@
 			"disabledfgcolor2_override"				"White_Dark"
 		}
 	}
-
 	"CustomizationsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -480,7 +462,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"PaintColorComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -518,7 +499,6 @@
 				"paintbackgroundtype"				"0"
 			}
 		}
-
 		"UnusualEffectLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -574,7 +554,6 @@
 			}
 		}
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -604,7 +583,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -634,7 +612,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"ReloadSchemeButton"
 	{
 		"xpos"										"10"

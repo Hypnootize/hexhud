@@ -23,7 +23,6 @@
 			"enabled"								"1"
 			"image"									"replay/thumbnails/panels/flat_red"
 		}
-
 		"SplashLabel"
 		{
 			"ControlName"							"CExLabel"

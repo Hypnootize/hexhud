@@ -45,7 +45,6 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-
 			"avatar"
 			{
 				"ControlName"						"CAvatarImagePanel"
@@ -63,7 +62,6 @@
 			}
 		}
 	}
-
 	"PlayerListScroller"
 	{
 		"ControlName"								"ScrollableEditablePanel"
@@ -101,23 +99,69 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
-	"Background"
+	"Hide_Panels"									// 720p screws everything so fuck it, ghetto solution wins
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"Background"
-		"xpos"										"135"
+		"fieldName"									"Hide_Panels"
+		"xpos"										"137"
 		"ypos"										"0"
-		"zpos"										"0"
-		"wide"										"f0"
+		"zpos"										"-1"
+		"wide"										"700"
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background_Main"
-	}
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"0"
 
+		"Center"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Center"
+			"xpos"									"0"
+			"ypos"									"cs-0.5"
+			"zpos"									"-1"
+			"wide"									"470"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+		"Right"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Right"
+			"xpos"									"rs1-80"
+			"ypos"									"cs-0.5+15"
+			"zpos"									"-1"
+			"wide"									"160"
+			"tall"									"360"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+		"Right_Small"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Right_Small"
+			"xpos"									"rs1-55"
+			"ypos"									"cs-0.5+15"
+			"zpos"									"-1"
+			"wide"									"50"
+			"tall"									"320"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+	}
 	"MainButtonsBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -134,7 +178,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"proportionaltoparent"						"1"
 	}
-
 	"TitleBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -157,7 +200,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -178,7 +220,6 @@
 
 		"pin_to_sibling"							"TitleBG"
 	}
-
 	//FAKE BUTTONS
 	"FriendsFakeButton"
 	{
@@ -239,7 +280,6 @@
 			"fgcolor"								"White_Dark"
 		}
 	}
-
 	"ServerFakeButton"
 	{
 		"ControlName"								"EditablePanel"
@@ -299,7 +339,6 @@
 			"fgcolor"								"White_Dark"
 		}
 	}
-
 	"SteamFakeButton"
 	{
 		"ControlName"								"EditablePanel"
@@ -359,7 +398,6 @@
 			"fgcolor"								"White_Dark"
 		}
 	}
-
 	"StatePanel0"
 	{
 		"ControlName"								"EditablePanel"
@@ -383,7 +421,6 @@
 			"fieldName"								"QueryLabel"
 			"xpos"									"9999"
 		}
-
 		"subbutton0"
 		{
 			"ControlName"							"CExButton"
@@ -416,7 +453,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"subbutton1"
 		{
 			"ControlName"							"CExButton"
@@ -449,7 +485,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"subbutton2"
 		{
 			"ControlName"							"CExButton"
@@ -483,7 +518,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"StatePanel1"
 	{
 		"ControlName"								"EditablePanel"
@@ -521,7 +555,6 @@
 			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
-
 		"TitleBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -541,7 +574,6 @@
 			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
-
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -560,7 +592,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -582,7 +613,6 @@
 			"fgcolor"								"White_Dark"
 		}
 	}
-
 	"StatePanel2"
 	{
 		"ControlName"								"EditablePanel"
@@ -618,7 +648,6 @@
 			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
-
 		"TitleBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -638,7 +667,6 @@
 			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
-
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -657,7 +685,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -679,7 +706,6 @@
 			"fgcolor"								"White_Dark"
 		}
 	}
-
 	"StatePanel3"
 	{
 		"ControlName"								"EditablePanel"
@@ -717,7 +743,6 @@
 			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
-
 		"TitleBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -737,7 +762,6 @@
 			"bgcolor_override"						"Gray_Blue_Darkest"
 			"proportionaltoparent"					"1"
 		}
-
 		"QueryLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -756,7 +780,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"URLHelpLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -777,7 +800,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"URLEntry"
 		{
 			"ControlName"							"TextEntry"
@@ -802,7 +824,6 @@
 			"font"									"Light_12"
 			"textAlignment"							"west"
 		}
-
 		"URLFailLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -823,7 +844,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"Red_Dark"
 		}
-
 		"URLSearchingLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -844,7 +864,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"subbutton0"
 		{
 			"ControlName"							"CExButton"
@@ -878,7 +897,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"CancelButton2"
 	{
 		"ControlName"								"EditablePanel"
@@ -949,7 +967,6 @@
 			"fgcolor"								"White_Dark"
 		}
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExImageButton"

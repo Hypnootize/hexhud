@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture"				"vgui\replay\thumbnails\counters\sticky"
+	"$vertexalpha"				"1"
+	"$alpha"					"1"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
+	"$color"					"{250 100 100}"
+}

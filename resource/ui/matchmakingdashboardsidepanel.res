@@ -1,3 +1,5 @@
+#base "hexagon_corners.res"
+
 "Resource/UI/MatchMakingDashboardSidePanel.res"
 {
 	"BGPanel"
@@ -6,7 +8,7 @@
 		"fieldName"									"BGPanel"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"1"
+		"zpos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
 		"visible"									"1"
@@ -15,7 +17,17 @@
 		"painbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Main"
 	}
+	"HExagon_Corners"
+	{
+		"ypos"										"0"
+		"zpos"										"1"
+		"tall"										"f24"
 
+		"if_left"
+		{
+			"tall"									"0"
+		}
+	}
 	"ReturnButton"
 	{
 		"ControlName"								"CExButton"
@@ -54,7 +66,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -93,6 +104,10 @@
 		"depressedFgColor_override"					"White_Solid"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"Shade"
 	{
 		"ControlName"								"EditablePanel"

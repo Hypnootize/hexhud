@@ -16,7 +16,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -36,7 +35,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"RecipeItemModelPanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -74,7 +72,6 @@
 			"centerwrap"							"1"
 		}
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"

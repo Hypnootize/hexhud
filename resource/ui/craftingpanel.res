@@ -6,23 +6,6 @@
 	{
 		"ypos"										"50"
 	}
-
-	"LeftBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"LeftBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-1"
-		"wide"										"135"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Loadout_NavigationBar"
-	}
-
 	"crafting_panel"
 	{
 		"ControlName"								"Frame"
@@ -36,9 +19,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"Background_Main"
-		"infocus_bgcolor_override"					"Background_Main"
-		"outoffocus_bgcolor_override"				"Background_Main"
+		"bgcolor_override"							"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"item_ypos"									"85"
 		"output_item_ypos"							"255"
@@ -94,7 +77,6 @@
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
-
 			"MainContentsContainer"
 			{
 				"ControlName"						"EditablePanel"
@@ -112,7 +94,6 @@
 					"inventory_image_type"			"1"
 					"allow_rot"						"0"
 				}
-
 				"namelabel"
 				{
 					"ControlName"					"CExLabel"
@@ -132,7 +113,6 @@
 				}
 			}
 		}
-
 		"recipebuttons_kv"
 		{
 			"font"									"Light_11"
@@ -175,7 +155,6 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 		}
 	}
-
 	"FiltersBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -241,7 +220,6 @@
 		"tall"										"263"
 		"PaintBackground"							"0"
 	}
-
 	"selectedrecipecontainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -269,7 +247,6 @@
 			"bgcolor_override"						"Background_Secondary"
 			"proportionaltoparent"					"1"
 		}
-
 		"InputLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -304,7 +281,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CraftButton"
 		{
 			"ControlName"							"CExButton"
@@ -336,7 +312,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"FreeAccountLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -359,7 +334,6 @@
 			"border"								"Bottom_Line_White_Dark"
 			"bgcolor_override"						"Gray_Blue_Darkest"
 		}
-
 		"UpgradeButton"
 		{
 			"ControlName"							"CExButton"
@@ -391,7 +365,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"RecipeTitle"
 		{
 			"ControlName"							"CExLabel"
@@ -405,7 +378,6 @@
 			"xpos"									"9999"
 		}
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -443,7 +415,6 @@
 			"centerwrap"							"1"
 		}
 	}
-
 	"mousedragitempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -473,7 +444,6 @@
 			"allow_rot"								"0"
 		}
 	}
-
 	"TooltipPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -509,6 +479,10 @@
 		}
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"ShowExplanationsButton"
 	{
 		"ControlName"								"CExButton"

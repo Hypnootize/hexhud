@@ -4,7 +4,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AlertLabel"
-		"font"										"Light_12"
 		"xpos"										"cs-0.5"
 		"ypos"										"80"
 		"zpos"										"2"
@@ -16,6 +15,7 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 		"labelText"									""
+		"font"										"Light_12"
 		"fgcolor"									"White"
 		"textAlignment"								"center"
 	}
@@ -23,7 +23,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AlertLabelShadow"
-		"font"										"Light_12_Blur"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"
@@ -35,12 +34,16 @@
 		"wrap"										"1"
 		"centerwrap"								"1"
 		"labelText"									""
+		"font"										"Light_12_Blur"
 		"fgcolor"									"Shadow"
 		"textAlignment"								"center"
 		"pin_to_sibling"							"AlertLabel"
 	}
 
-	//REMOVED
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"HudAlertBG"
 	{
 		"ControlName"								"CTFImagePanel"

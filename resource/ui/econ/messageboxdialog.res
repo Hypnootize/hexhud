@@ -15,7 +15,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -33,7 +32,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -52,7 +50,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ConfirmButton"
 	{
 		"ControlName"								"CExButton"
@@ -83,6 +80,10 @@
 		"depressedBgColor_override"					"Button_Hover"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"Icon"
 	{
 		"ControlName"								"ImagePanel"

@@ -12,7 +12,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"TextBox"
 	{
 		"ControlName"								"EditablePanel"
@@ -46,7 +45,6 @@
 			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"TextLockedOn"
 		{
 			"ControlName"							"CExLabel"
@@ -65,7 +63,6 @@
 			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"TextPassIncoming"
 		{
 			"ControlName"							"CExLabel"
@@ -84,7 +81,6 @@
 			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"TextPlayerName"
 		{
 			"ControlName"							"CExLabel"
@@ -106,6 +102,10 @@
 		}
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"PassLockIndicator"
 	{
 		"ControlName"								"ImagePanel"

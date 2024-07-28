@@ -42,7 +42,6 @@
 			"noitem_textcolor"						"White_Dark"
 		}
 	}
-
 	"ItemSlotLabelBG"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -80,7 +79,6 @@
 		"fgcolor"									"White"
 		"pin_to_sibling"							"ItemSlotLabelBG"
 	}
-
 	"itemcontainerscroller"
 	{
 		"ControlName"								"EditablePanel"
@@ -112,7 +110,6 @@
 			}
 		}
 	}
-
 	"itemcontainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -141,7 +138,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"PresetPanelBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -173,6 +169,10 @@
 		"proportionaltoparent"						"1"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"CaratLabel"
 	{
 		"ControlName"								"CExLabel"

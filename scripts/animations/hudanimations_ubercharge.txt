@@ -1,0 +1,24 @@
+//====================================================================================================================
+
+event HudMedicCharged
+{
+	Animate Hexagon_Glow						Alpha		"200"								Linear	0.0		0.075
+	Animate Hexagon_Glow						Alpha		"255"								Linear	0.125	0.175
+
+	Animate ChargeLabel							FgColor		"Ubercharge_Full"					Linear	0.0		0.0
+	Animate ChargeMeter							FgColor		"Ubercharge_Full"					Linear	0.0		0.0
+
+	RunEvent HudMedicChargedLoop				0.7
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged					0.0
+	StopEvent HudMedicChargedLoop				0.0
+
+	Animate Hexagon_Glow						Alpha		"0"									Linear	0.0		0.0
+	Animate	ChargeLabel							FgColor		"Ubercharge"						Linear	0.0		0.0
+	Animate ChargeMeter							FgColor		"Ubercharge"						Linear	0.0		0.0
+}
+
+//====================================================================================================================

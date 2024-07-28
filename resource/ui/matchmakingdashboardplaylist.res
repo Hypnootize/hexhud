@@ -13,7 +13,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -35,7 +34,6 @@
 
 		"mouseinputenabled"							"0"
 	}
-
 	"playlist"
 	{
 	//	"ControlName"								"CTFPlaylistPanel"
@@ -49,6 +47,10 @@
 		"proportionaltoparent"						"1"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"PlayListDropShadow"
 	{
 		"ControlName"								"EditablePanel"
@@ -60,7 +62,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"DashboardDimmer"
 	{
 		"ControlName"								"EditablePanel"

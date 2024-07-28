@@ -12,7 +12,6 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	// Fullscreen background panel
 	"BgPanel"
 	{
@@ -28,7 +27,6 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Blank"
 	}
-
 	// Rounded dialog border
 	"DialogFrame"
 	{
@@ -81,7 +79,6 @@
 			"enabled"								"0"
 		}
 	}
-
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
@@ -121,7 +118,6 @@
 			"modelname"								""
 		}
 	}
-
 	"PreviewItemModelPanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -153,7 +149,6 @@
 			"force_square_image"					"1"
 		}
 	}
-
 	"ItemNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -172,7 +167,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ClassUsageImage1"
 	{
 		"ControlName"								"CStorePreviewClassIcon"
@@ -269,7 +263,6 @@
 		"image_indent"								"2"
 		"PaintBackgroundType"						"0"
 	}
-
 	"IconsMoveLeftButton"
 	{
 		"ControlName"								"CExButton"
@@ -314,7 +307,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"ClassUsageMouseoverLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -335,7 +327,6 @@
 		"textinsetx"								"100"
 		"border"									"LoadoutItemPopupBorder"
 	}
-
 	"RotLeftButton"
 	{
 		"ControlName"								"CPreviewRotButton"
@@ -357,7 +348,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"RotRightButton"
 	{
 		"ControlName"								"CPreviewRotButton"
@@ -379,7 +369,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"NextWeaponButton"
 	{
 		"ControlName"								"CExButton"
@@ -409,7 +398,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"ZoomButton"
 	{
 		"ControlName"								"CExButton"
@@ -439,7 +427,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"TeamButton"
 	{
 		"ControlName"								"CExButton"
@@ -469,7 +456,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"PaintNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -487,7 +473,6 @@
 		"centerwrap"								"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"StyleNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -505,7 +490,6 @@
 		"centerwrap"								"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -530,7 +514,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"BackButton"
 	{
 		"ControlName"								"CExButton"
@@ -561,7 +544,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"AddToCartButton"
 	{
 		"ControlName"								"CExButton"

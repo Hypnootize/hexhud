@@ -14,7 +14,6 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
 	}
-
 	"BG"
 	{
 		"fieldName"									"BG"
@@ -53,7 +52,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ToolBG"
 		{
 			"ControlName"							"CExLabel"
@@ -125,7 +123,6 @@
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
-
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"				"0"
@@ -133,7 +130,6 @@
 				"allow_rot"							"0"
 			}
 		}
-
 		"SubjectBG"
 		{
 			"ControlName"							"CExLabel"
@@ -145,7 +141,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"TargetItem"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -205,7 +200,6 @@
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
-
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"				"0"
@@ -213,7 +207,6 @@
 				"allow_rot"							"0"
 			}
 		}
-
 		"ConfirmLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -234,7 +227,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CancelButton"
 		{
 			"ControlName"							"CExButton"
@@ -266,7 +258,6 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-
 		"OkButton"
 		{
 			"ControlName"							"CExButton"

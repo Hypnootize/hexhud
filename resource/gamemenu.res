@@ -72,12 +72,6 @@
 		"command"									"engine OpenSteamWorkshopDialog"
 		"tooltip"									"Workshop"
 	}
-	"Replays"
-	{
-		"label"										"^"
-		"command"									"engine replay_reloadbrowser"
-		"tooltip"									"Replays"
-	}
 	"Console"
 	{
 		"label"										"("
@@ -105,29 +99,26 @@
 		"tooltip"									"Report a Player"
 		"OnlyInGame"								"1"
 	}
-	"Minmode"
-	{
-		"label"										"I"
-		"command"									"engine toggle cl_hud_minmode"
-		"tooltip"									"Toggle Minmode"
-		"OnlyInGame"								"1"
-	}
 
+	"Quickplay"
+	{
+		"label"										"c"
+		"command"									"engine replay_reloadbrowser"
+		"tooltip"									""
+	}
 	"FriendsOpenButton"
 	{
 		"label"										"Friends List"
 		"command"									"motd_show"
 		"tooltip"									""
 	}
-
-	"ToolsOpenButton"
+	"CustomizationsButton"
 	{
-		"label"										"Tools"
-		"command"									"engine cl_mainmenu_safemode 1"
+		"label"										"HUD Customization"
+		"command"									"engine cl_mainmenu_safemode 1; mat_queue_mode 0; gameui_preventescape"
 		"tooltip"									""
-		"OnlyInGame"								"1"
+		"OnlyInGame"								"0"
 	}
-
 
 	"MainMenuBG"
 	{
@@ -138,5 +129,10 @@
 	{
 		"command"									"Engine"
 		"OnlyInGame"								"1"
+	}
+	"HExagon_Corners"
+	{
+		"command"									"Engine"
+		"OnlyAtMenu"								"1"
 	}
 }

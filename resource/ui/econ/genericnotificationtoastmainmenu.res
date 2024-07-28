@@ -14,7 +14,6 @@
 		"fgcolor"									"White"
 		"fgcolor_override"							"White"
 	}
-
 	"AvatarBGPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -28,7 +27,6 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"White"
 	}
-
 	"AvatarImage"
 	{
 		"ControlName"								"CAvatarImagePanel"
@@ -44,7 +42,6 @@
 		"scaleImage"								"1"
 		"color_outline"								"Blank"
 	}
-
 	"AvatarTextLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -63,7 +60,6 @@
 		"textAlignment"								"West"
 		"font"										"Light_12"
 	}
-
 	"TextLabel"
 	{
 		"ControlName"								"CExLabel"

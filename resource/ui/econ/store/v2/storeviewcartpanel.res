@@ -70,7 +70,6 @@
 					"inventory_image_type"			"1"
 				}
 			}
-
 			"BackgroundCustom"
 			{
 				"ControlName"						"EditablePanel"
@@ -86,7 +85,6 @@
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"Gray_Blue_Dark"
 			}
-
 			"quantitylabel"
 			{
 				"ControlName"						"CExLabel"
@@ -103,7 +101,6 @@
 				"labelText"							"%quantity%"
 				"fgcolor"							"White_Dark"
 			}
-
 			"SeparatorLine"
 			{
 				"ControlName"						"ImagePanel"
@@ -115,7 +112,6 @@
 				"visible"							"0"
 				"enabled"							"0"
 			}
-
 			"RemoveButton"
 			{
 				"ControlName"						"CExButton"
@@ -146,7 +142,6 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-
 			"PriceLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -165,7 +160,6 @@
 			}
 		}
 	}
-
 	"BackgroundFooterCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -181,7 +175,6 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"Dashboard"
 	}
-
 	"ClientArea"
 	{
 		"ControlName"								"EditablePanel"
@@ -203,7 +196,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"CartItemsLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -221,7 +213,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"SeparatorLine"
 		{
 			"ControlName"							"ImagePanel"
@@ -233,7 +224,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"EmptyCartLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -251,7 +241,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"Red"
 		}
-
 		"ItemListContainerScroller"
 		{
 			"ControlName"							"EditablePanel"
@@ -280,7 +269,6 @@
 					"PaintBackgroundType"			"0"
 					"fgcolor_override"				"White_Dark"
 				}
-
 				"nobuttons"							"1"
 
 				"UpButton"
@@ -291,7 +279,6 @@
 					"tall"							"0"
 					"wide"							"0"
 				}
-
 				"DownButton"
 				{
 					"ControlName"					"Button"
@@ -301,7 +288,6 @@
 					"wide"							"0"
 				}
 			}
-
 			"ItemListContainer"
 			{
 				"ControlName"						"EditablePanel"
@@ -327,7 +313,6 @@
 					"image"							"store_special"
 					"scaleImage"					"1"
 				}
-
 				"PurchaseFooter"
 				{
 					"ControlName"					"EditablePanel"
@@ -387,7 +372,6 @@
 						"AllCaps"					"1"
 						"fgcolor"					"White_Dark"
 					}
-
 					"TotalPriceLabel"
 					{
 						"ControlName"				"CExLabel"
@@ -405,12 +389,10 @@
 						"labelText"					"%totalprice%"
 						"fgcolor"					"Red_Dark"
 					}
-
 				}
 			}
 		}
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -422,6 +404,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"Back"
 		"font"										"Light_14"
 		"textAlignment"								"center"
@@ -430,17 +413,21 @@
 		"Command"									"close"
 		"sound_depressed"							"UI/buttonclick.wav"
 
-		"proportionaltoparent"						"1"
+		"FgColor"									"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-
 		"defaultBgColor_override"					"Gray_Blue_Darkest"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"White_Solid"
-		"depressedFgColor_override"					"White_Solid"
+		"paintborder"								"1"
+		"border"									"Bottom_Line_White"
+		"border_default"							"Bottom_Line_White"
+		"border_armed"								"Bottom_Line_White"
 	}
 	"CloseShortKey"
 	{
@@ -451,7 +438,6 @@
 		"Command"									"close"
 		"visible"									"1"
 	}
-
 	"CheckoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -459,10 +445,11 @@
 		"xpos"										"rs1-3"
 		"ypos"										"rs1-3"
 		"zpos"										"2"
-		"wide"										"100"
+		"wide"										"80"
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"CHECKOUT"
 		"font"										"Light_14"
 		"textAlignment"								"center"
@@ -470,19 +457,27 @@
 		"Command"									"checkout"
 		"sound_depressed"							"UI/buttonclick.wav"
 
-		"proportionaltoparent"						"1"
+		"FgColor"									"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-
 		"defaultBgColor_override"					"Gray_Blue_Darkest"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"White_Solid"
-		"depressedFgColor_override"					"White_Solid"
+		"paintborder"								"1"
+		"border"									"Bottom_Line_White"
+		"border_default"							"Bottom_Line_White"
+		"border_armed"								"Bottom_Line_White"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"BackgroundHeader"
 	{
 		"ControlName"								"EditablePanel"

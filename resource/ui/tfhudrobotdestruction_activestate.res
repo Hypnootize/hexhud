@@ -28,7 +28,6 @@
 			"visible"								"1"
 			"proportionalToParent"					"1"
 		}
-
 		"GlowImage"
 		{
 			"fieldName"								"GlowImage"
@@ -44,7 +43,6 @@
 			"fgcolor"								"255 255 255 0"
 			"proportionalToParent"					"1"
 		}
-
 		"RobotImage"
 		{
 			"fieldName"								"RobotImage"

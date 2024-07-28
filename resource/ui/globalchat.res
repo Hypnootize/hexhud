@@ -30,7 +30,6 @@
 		"resize_time"								"0.3"
 		"invalidate_parent_on_resize"				"0"
 	}
-
 	"chatlog"
 	{
 		// "ControlName"							"richtext"
@@ -44,9 +43,7 @@
 		"proportionaltoparent"						"1"
 		"RoundedCorners"							"0"
 		"font"										"Light_11"
-
 		"paintbackground"							"0"
-
 
 		"ScrollBar"
 		{
@@ -63,14 +60,12 @@
 			{
 				"fgcolor_override"					"White_Dark"
 			}
-
 			"UpButton"
 			{
 				"ControlName"						"Button"
 				"FieldName"							"UpButton"
 				"visible"							"0"
 			}
-
 			"DownButton"
 			{
 				"ControlName"						"Button"
@@ -79,7 +74,6 @@
 			}
 		}
 	}
-
 	"chatentry"
 	{
 		// "ControlName"							"TextEntry"
@@ -98,12 +92,10 @@
 		"alpha"										"0"
 		"mouseinputenabled"							"0"
 
-
 		"pin_to_sibling"							"chatlog"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"EntryShadow"
 	{
 		"ControlName"								"Panel"
@@ -121,6 +113,5 @@
 
 		"keyboardinputenabled"						"0"
 		"mouseinputenabled"							"0"
-
 	}
 }

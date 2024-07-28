@@ -14,7 +14,6 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 	}
-
 	"HighlightPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -27,7 +26,6 @@
 		"mouseinputenabled"							"0"
 		"bgcolor_override"							"Gray_Blue"
 	}
-
 	"PreviewImage"
 	{
 		"ControlName"								"CBitmapPanel"
@@ -40,7 +38,6 @@
 		"visible"									"1"
 		"mouseinputenabled"							"0"
 	}
-
 	"LabelTitle"
 	{
 		"ControlName"								"CExLabel"

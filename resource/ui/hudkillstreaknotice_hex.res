@@ -16,7 +16,6 @@
 		"bgcolor_override"							"Blank"		//TransparentLightBlack
 		"proportionaltoparent"						"1"
 	}
-
 	"SplashLabel"
 	{
 		"ControlName"								"CExLabel"

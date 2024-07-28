@@ -14,9 +14,8 @@
 
 		"collapsed_height"							"0"
 		"expanded_height"							"30"
-		"resize_time"								"0.2"
+		"resize_time"								"0"
 	}
-
 	"TopBar"
 	{
 		"ControlName"								"EditablePanel"
@@ -46,7 +45,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Dashboard"
 		}
-
 		"PartySlot0"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -64,7 +62,6 @@
 
 			"party_slot"							"0"
 		}
-
 		"RankPanel"
 		{
 			"ControlName"							"CPvPRankPanel"
@@ -86,7 +83,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot1"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -107,7 +103,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot2"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -128,7 +123,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot3"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -149,7 +143,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot4"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -170,7 +163,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot5"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -191,7 +183,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"ToggleChatButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -217,8 +208,8 @@
 
 			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"255 255 255 255"
-			"depressedFgColor_override"				"255 255 255 255"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
@@ -235,7 +226,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"QueueContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -287,7 +277,6 @@
 					}
 				}
 			}
-
 			"MultiQueuesManageButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -315,7 +304,6 @@
 				"armedFgColor_override"				"White_Dark"
 				"depressedFgColor_override"			"White_Dark"
 			}
-
 			"CloseButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -343,7 +331,6 @@
 				"armedFgColor_override"				"White_Dark"
 				"depressedFgColor_override"			"White_Dark"
 			}
-
 			"OuterShadow"
 			{
 				"ControlName"						"Panel"
@@ -389,7 +376,6 @@
 				"enabled"							"0"
 			}
 		}
-
 		"JoinPartyLobbyContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -425,7 +411,6 @@
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
-
 			"JoinNowButton"
 			{
 				"ControlName"						"CExButton"
@@ -468,7 +453,6 @@
 				"armedFgColor_override"				"White_Dark"
 				"depressedFgColor_override"			"White_Dark"
 			}
-
 			"OuterShadow"
 			{
 				"ControlName"						"Panel"
@@ -492,7 +476,6 @@
 				"enabled"							"0"
 			}
 		}
-
 		"QuitButton2"
 		{
 			"ControlName"							"CExImageButton"
@@ -519,8 +502,8 @@
 
 			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"255 255 255 255"
-			"depressedFgColor_override"				"255 255 255 255"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
@@ -533,7 +516,6 @@
 			"border_default"						"Bottom_Line_White"
 			"border_armed"							"Bottom_Line_White"
 		}
-
 		"DisconnectButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -574,7 +556,6 @@
 			"border_default"						"Bottom_Line_White"
 			"border_armed"							"Bottom_Line_White"
 		}
-
 		"FindAGameButton2"
 		{
 			"ControlName"							"CExImageButton"
@@ -617,9 +598,9 @@
 		}
 
 
-
-
-		////// DELETED
+		//===================================================================================
+		// REMOVED ELEMENTS
+		//===================================================================================
 		"QuitButton"
 		{
 			"ControlName"							"CExImageButton"

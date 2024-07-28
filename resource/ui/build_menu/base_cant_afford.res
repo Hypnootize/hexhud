@@ -10,7 +10,6 @@
 		"font"										"Light_8"
 		"labelText"									"#Hud_Menu_Build_Cant_Afford"
 	}
-
 	"GreenLine"
 	{
 		"visible"									"0"
@@ -19,7 +18,6 @@
 	{
 		"visible"									"1"
 	}
-
 	"Cost"
 	{
 		"visible"									"0"
@@ -28,7 +26,6 @@
 	{
 		"visible"									"0"
 	}
-
 	"NumberLabel"
 	{
 		"visible"									"0"

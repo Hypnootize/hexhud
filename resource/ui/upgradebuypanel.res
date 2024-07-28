@@ -34,7 +34,6 @@
 			"disabledfgcolor2_override"				"White"
 		}
 	}
-
 	"InnerPanelRim"
 	{
 		"ControlName"								"Panel"
@@ -50,7 +49,6 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background"
 	}
-
 	"IconBorder"
 	{
 		"ControlName"								"Panel"
@@ -66,7 +64,6 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"White_Dark"
 	}
-
 	"Icon"
 	{
 		"ControlName"								"ImagePanel"
@@ -83,7 +80,6 @@
 
 		"image"										"pve/buy_disabled"
 	}
-
 	"PriceLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -100,7 +96,6 @@
 		"textAlignment"								"center"
 		"font"										"Light_12"
 	}
-
 	"ShortDescriptionLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -118,7 +113,6 @@
 		"textAlignment"								"west"
 		"font"										"Light_11"
 	}
-
 	"BuySellBG"
 	{
 		"ControlName"								"Panel"
@@ -134,7 +128,6 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Light"
 	}
-
 	"IncrementButton"
 	{
 		"ControlName"								"CImageButton"
@@ -165,7 +158,6 @@
 		"selectedBgColor_override"					"Blank"
 		"disabledfgcolor2_override"					"White"
 	}
-
 	"DecrementButton"
 	{
 		"ControlName"								"CImageButton"

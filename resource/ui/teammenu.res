@@ -13,7 +13,6 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"0 0 0 150"
 	}
-
 	"MapName"
 	{
 		"ControlName"								"CExLabel"
@@ -38,7 +37,6 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"CenterBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -144,7 +142,9 @@
 			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 	}
-
+	//===================================================================================
+	// BLUE TEAM
+	//===================================================================================
 	"BlueTeamBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -165,28 +165,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
-	"RedTeamBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"RedTeamBG"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"9"
-		"wide"										"160"
-		"tall"										"140"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Background_Dark"
-		"proportionaltoparent"						"1"
-
-		"pin_to_sibling"							"CenterBG"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-	}
-
 	"TeamBlue"
 	{
 		"ControlName"								"EditablePanel"
@@ -250,7 +228,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"BlueImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -268,7 +245,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"BlueCount"
 	{
 		"ControlName"								"CExLabel"
@@ -309,6 +285,29 @@
 		"pin_to_sibling"							"BlueCount"
 	}
 
+	//===================================================================================
+	// RED TEAM
+	//===================================================================================
+	"RedTeamBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"RedTeamBG"
+		"xpos"										"2"
+		"ypos"										"0"
+		"zpos"										"9"
+		"wide"										"160"
+		"tall"										"140"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"Background_Dark"
+		"proportionaltoparent"						"1"
+
+		"pin_to_sibling"							"CenterBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
 	"TeamRed"
 	{
 		"ControlName"								"EditablePanel"
@@ -391,7 +390,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"RedCount"
 	{
 		"ControlName"								"CExLabel"
@@ -432,6 +430,9 @@
 		"pin_to_sibling"							"RedCount"
 	}
 
+	//===================================================================================
+	// SPECTATOR
+	//===================================================================================
 	"Spectate"
 	{
 		"ControlName"								"EditablePanel"
@@ -483,6 +484,9 @@
 		}
 	}
 
+	//===================================================================================
+	// RANDOM
+	//===================================================================================
 	"Random"
 	{
 		"ControlName"								"EditablePanel"
@@ -533,7 +537,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"Cancel"
 	{
 		"ControlName"								"EditablePanel"
@@ -586,28 +589,9 @@
 	}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	//IDK STUFF
-
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"SysMenu"
 	{
 		"ControlName"								"Menu"

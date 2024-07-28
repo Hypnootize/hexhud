@@ -13,7 +13,6 @@
 		"paintborder"								"0"
 		"bgcolor_override"							"Dashboard"
 	}
-
 	"avatar"
 	{
 		// "ControlName"							"CAvatarImagePanel"
@@ -27,12 +26,10 @@
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
 	}
-
 	"Text"
 	{
 		"ControlName"								"CAutoFittingLabel"
 		"fieldName"									"Text"
-
 
 		"if_incoming"
 		{
@@ -72,14 +69,12 @@
 				"font"								"Light_7"
 			}
 		}
-
 		"colors"
 		{
 			"1"										"White"
 			"2"										"White_Dark"
 		}
 	}
-
 	"Spinner"
 	{
 		"ControlName"								"CTFLogoPanel"
@@ -99,12 +94,10 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 		"alpha"										"255"
-
 		"radius"									"10"
 		"velocity"									"60"
 		"fgcolor_override"							"White_Dark"
 	}
-
 	"AcceptButton"
 	{
 		"ControlName"								"CExButton"
@@ -139,7 +132,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"DeclineButton"
 	{
 		"ControlName"								"CExButton"
@@ -151,7 +143,6 @@
 		}
 
 		"xpos"										"rs1-30"
-
 		"ypos"										"rs1-5"
 		"wide"										"60"
 		"zpos"										"100"

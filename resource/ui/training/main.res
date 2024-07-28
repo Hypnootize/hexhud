@@ -11,7 +11,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"Container"
 	{
 		"ControlName"								"EditablePanel"
@@ -96,7 +95,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"TrainingImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -111,7 +109,6 @@
 			"scaleimage"							"1"
 			"image"									"replay/thumbnails/mm_menu/trainingbg"
 		}
-
 		"RightBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -146,7 +143,6 @@
 			"border"								"Bottom_Line_White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"ModeSelectionPanel"
 		{
 			"ControlName"							"CModeSelectionPanel"
@@ -163,7 +159,6 @@
 
 			"TrainingTitle"							"#TF_Training_Title"
 		}
-
 		"BasicTraining_ClassSelectionPanel"
 		{
 			"ControlName"							"CBasicTraining_ClassSelectionPanel"
@@ -196,7 +191,6 @@
 			"Class2Command"							"basictraining_classselection_spy"
 			"Class3Command"							"basictraining_classselection_engineer"
 		}
-
 		"BasicTraining_ClassDetailsPanel"
 		{
 			"ControlName"							"CBasicTraining_ClassDetailsPanel"
@@ -213,7 +207,6 @@
 
 			"TrainingTitle"							"#TR_AttackDefense"
 		}
-
 		"OfflinePractice_ModeSelectionPanel"
 		{
 			"ControlName"							"COfflinePractice_ModeSelectionPanel"
@@ -245,7 +238,6 @@
 			"Image2Path"							"illustrations/gamemode_payload"
 			"Mode2Id"								"2"
 		}
-
 		"OfflinePractice_MapSelectionPanel"
 		{
 			"ControlName"							"COfflinePractice_MapSelectionPanel"
@@ -263,6 +255,10 @@
 			"TrainingTitle"							"#TR_PracticeMapSelectTitle"
 		}
 
+
+		//===================================================================================
+		// REMOVED ELEMENTS
+		//===================================================================================
 		"GradientBgPanel"
 		{
 			"ControlName"							"ImagePanel"

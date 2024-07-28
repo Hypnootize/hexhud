@@ -14,7 +14,6 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 	}
-
 	"Container"
 	{
 		"ControlName"								"EditablePanel"
@@ -65,7 +64,6 @@
 				"textAlignment"						"center"
 				"fgcolor"							"White_Dark"
 			}
-
 			"DescLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -86,7 +84,6 @@
 				"textAlignment"						"north"
 				"fgcolor"							"White_Dark"
 			}
-
 			"LearnMoreButton"
 			{
 				"ControlName"						"CExButton"
@@ -116,7 +113,6 @@
 				"depressedFgColor_override"			"FullWhite"
 			}
 		}
-
 		"ItemsContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -149,7 +145,6 @@
 				"proportionaltoparent"				"1"
 				"fgcolor"							"White_Dark"
 			}
-
 			"ViewPublishedButton"
 			{
 				"ControlName"						"CExButton"
@@ -177,7 +172,6 @@
 				"armedFgColor_override"				"FullWhite"
 				"depressedFgColor_override"			"FullWhite"
 			}
-
 			"SteamWorkshopItem0"
 			{
 				"ControlName"						"CSteamWorkshopItemPanel"
@@ -222,7 +216,6 @@
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 			}
-
 			"PrevPageButton"
 			{
 				"ControlName"						"CExButton"
@@ -314,7 +307,6 @@
 				"pin_corner_to_sibling"				"PIN_TOPRIGHT"
 				"pin_to_sibling_corner"				"PIN_TOPLEFT"
 			}
-
 			"CurPageLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -333,7 +325,6 @@
 				"proportionaltoparent"				"1"
 				"fgcolor"							"White_Dark"
 			}
-
 			"NextPageButton"
 			{
 				"ControlName"						"CExButton"
@@ -425,7 +416,6 @@
 				"pin_corner_to_sibling"				"PIN_TOPLEFT"
 				"pin_to_sibling_corner"				"PIN_TOPRIGHT"
 			}
-
 			"EditButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -455,7 +445,6 @@
 				"labelText"							"#TF_SteamWorkshop_Edit"
 				"command"							"edit"
 			}
-
 			"ViewButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -485,7 +474,6 @@
 				"labelText"							"#TF_SteamWorkshop_View"
 				"command"							"view"
 			}
-
 			"DeleteButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -516,7 +504,6 @@
 				"command"							"delete_item"
 			}
 		}
-
 		"BrowseButton"
 		{
 			"ControlName"							"CExButton"
@@ -545,7 +532,6 @@
 			"armedFgColor_override"					"FullWhite"
 			"depressedFgColor_override"				"FullWhite"
 		}
-
 		"LoadTestMapButton"
 		{
 			"ControlName"							"CExButton"
@@ -574,7 +560,6 @@
 			"armedFgColor_override"					"FullWhite"
 			"depressedFgColor_override"				"FullWhite"
 		}
-
 		"PublishButton"
 		{
 			"ControlName"							"CExButton"
@@ -603,7 +588,6 @@
 			"armedFgColor_override"					"FullWhite"
 			"depressedFgColor_override"				"FullWhite"
 		}
-
 		"CancelButton"
 		{
 			"ControlName"							"CExButton"
@@ -633,6 +617,10 @@
 			"depressedFgColor_override"				"FullWhite"
 		}
 
+
+		//===================================================================================
+		// REMOVED ELEMENTS
+		//===================================================================================
 		"LearnMore2Button"
 		{
 			"ControlName"							"CExButton"

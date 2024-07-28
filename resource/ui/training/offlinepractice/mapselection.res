@@ -37,7 +37,6 @@
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"TitleBG"
 	}
-
 	"MapImagePanel"
 	{
 		"ControlName"								"ImagePanel"
@@ -55,7 +54,6 @@
 		"paintbackground"							"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"PrevButton"
 	{
 		"ControlName"								"CExButton"
@@ -83,7 +81,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
@@ -112,7 +109,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -131,7 +127,6 @@
 		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 	}
-
 	"SettingsBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -150,7 +145,6 @@
 		"border"									"Bottom_Line_White_Dark"
 		"proportionaltoparent"						"1"
 	}
-
 	"DifficultyLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -171,7 +165,6 @@
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"SettingsBG"
 	}
-
 	"DifficultyComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -212,7 +205,6 @@
 
 		"pin_to_sibling"							"SettingsBG"
 	}
-
 	"PlayersLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -236,7 +228,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"NumPlayersTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -267,7 +258,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-
 	"SuggestedPlayerCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -292,7 +282,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-
 	"StartOfflinePracticeButton"
 	{
 		"ControlName"								"CExButton"
@@ -324,6 +313,10 @@
 		"depressedFgColor_override"					"White_Solid"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"HackCoverBottomOfMapImagePanel"
 	{
 		"ControlName"								"EditablePanel"

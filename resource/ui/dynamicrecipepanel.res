@@ -2,22 +2,6 @@
 
 "Resource/UI/DynamicRecipePanel.res"
 {
-	"LeftBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"LeftBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"103"
-		"wide"										"135"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Loadout_NavigationBar"
-	}
-
 	"dynamic_recipe_panel"
 	{
 		"ControlName"								"Frame"
@@ -31,9 +15,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"Background_Main"
-		"infocus_bgcolor_override"					"Background_Main"
-		"outoffocus_bgcolor_override"				"Background_Main"
+		"bgcolor_override"							"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"item_ypos"									"30"
 		"output_item_ypos"							"215"
@@ -76,7 +60,6 @@
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
-
 			"ItemBackground"
 			{
 				"ControlName"						"EditablePanel"
@@ -117,7 +100,69 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 		}
 	}
+	"Hide_Panels"									// 720p screws everything so fuck it, ghetto solution wins
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"Hide_Panels"
+		"xpos"										"137"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"700"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"0"
 
+		"Center"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Center"
+			"xpos"									"0"
+			"ypos"									"cs-0.5"
+			"zpos"									"-1"
+			"wide"									"470"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+		"Right"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Right"
+			"xpos"									"rs1-80"
+			"ypos"									"cs-0.5-30"
+			"zpos"									"-1"
+			"wide"									"160"
+			"tall"									"360"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+		"Right_Small"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Right_Small"
+			"xpos"									"rs1-55"
+			"ypos"									"cs-0.5-30"
+			"zpos"									"-1"
+			"wide"									"50"
+			"tall"									"320"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+	}
 	"inventorycontainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -145,7 +190,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background_Secondary"
 		}
-
 		"BackpackItems"
 		{
 			"ControlName"							"CExLabel"
@@ -171,7 +215,6 @@
 			"bgcolor_override"						"Background_Secondary"
 			"border"								"Bottom_Line_White_Dark"
 		}
-
 		"PrevPageButton"
 		{
 			"ControlName"							"CExButton"
@@ -199,7 +242,6 @@
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
-
 		"CurPageLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -220,7 +262,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Gray_Blue_Dark"
 		}
-
 		"NextPageButton"
 		{
 			"ControlName"							"CExButton"
@@ -248,7 +289,6 @@
 			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
 			"pin_to_sibling_corner"					"PIN_CENTER_RIGHT"
 		}
-
 		"UntradableCheckBox"
 		{
 			"ControlName"							"CheckButton"
@@ -268,7 +308,6 @@
 			"proportionaltoparent"					"1"
 			"smallcheckimage"						"1"
 		}
-
 		"CancelButton"
 		{
 			"ControlName"							"CExButton"
@@ -300,7 +339,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"NoMatches"
 		{
 			"ControlName"							"CExLabel"
@@ -322,7 +360,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"recipecontainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -350,7 +387,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background_Secondary"
 		}
-
 		"RecipeTitle"
 		{
 			"ControlName"							"CExLabel"
@@ -375,7 +411,6 @@
 			"bgcolor_override"						"Background_Secondary"
 			"border"								"Bottom_Line_White_Dark"
 		}
-
 		"PrevInputPageButton"
 		{
 			"ControlName"							"CExButton"
@@ -403,7 +438,6 @@
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
-
 		"CurInputPageLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -424,7 +458,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Gray_Blue_Dark"
 		}
-
 		"NextInputPageButton"
 		{
 			"ControlName"							"CExButton"
@@ -452,7 +485,6 @@
 			"pin_corner_to_sibling"					"PIN_CENTER_RIGHT"
 			"pin_to_sibling_corner"					"PIN_CENTER_RIGHT"
 		}
-
 		"InputLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -470,7 +502,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"OutputLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -488,7 +519,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"UntradableLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -506,7 +536,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CraftButton"
 		{
 			"ControlName"							"CExButton"
@@ -539,7 +568,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -577,7 +605,6 @@
 			"centerwrap"							"1"
 		}
 	}
-
 	"mousedragitempanel"
 	{
 		"ControlName"								"CItemModelPanel"

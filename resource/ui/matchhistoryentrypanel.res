@@ -10,7 +10,6 @@
 		"resize_time"								"0"
 		"proportionaltoparent"						"1"
 	}
-
 	"Container"
 	{
 		"ControlName"								"EditablePanel"
@@ -51,7 +50,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"WinLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -69,7 +67,6 @@
 			"fgcolor"								"Green"
 			"textAlignment"							"west"
 		}
-
 		"LossLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -87,7 +84,6 @@
 			"fgcolor"								"Red_Dark"
 			"textAlignment"							"west"
 		}
-
 		"DateLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -105,7 +101,6 @@
 			"fgcolor"								"White_Dark"
 			"textAlignment"							"west"
 		}
-
 		"MapNameLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -123,7 +118,6 @@
 			"fgcolor"								"White_Dark"
 			"textAlignment"							"west"
 		}
-
 		"KDLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -142,7 +136,6 @@
 			"textAlignment"							"west"
 		}
 	}
-
 	"BottomStats"
 	{
 		"ControlName"								"EditablePanel"
@@ -162,7 +155,6 @@
 			"fieldName"								"InnerShadow"
 			"xpos"									"9999"
 		}
-
 		"SlidingStatsContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -185,7 +177,6 @@
 				"image"								"casual\gametype_koth"
 				"proportionaltoparent"				"1"
 			}
-
 			"GradientImage"
 			{
 				"ControlName"						"ImagePanel"
@@ -199,7 +190,6 @@
 				"proportionaltoparent"				"1"
 				"rotation"							"1"
 			}
-
 			// First column
 			"KillsMedal"
 			{
@@ -213,7 +203,6 @@
 				"image"								"competitive\competitive_coin_bronze"
 				"proportionaltoparent"				"1"
 			}
-
 			"KillsLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -231,7 +220,6 @@
 				"fgcolor"							"White_Dark"
 				"textAlignment"						"west"
 			}
-
 			"DeathsLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -249,7 +237,6 @@
 				"fgcolor"							"White_Dark"
 				"textAlignment"						"west"
 			}
-
 			"DamageMedal"
 			{
 				"ControlName"						"ScalableImagePanel"
@@ -262,7 +249,6 @@
 				"image"								"competitive\competitive_coin_bronze"
 				"proportionaltoparent"				"1"
 			}
-
 			"DamageLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -280,7 +266,6 @@
 				"fgcolor"							"White_Dark"
 				"textAlignment"						"west"
 			}
-
 			// Second column
 			"HealingMedal"
 			{
@@ -294,7 +279,6 @@
 				"image"								"competitive\competitive_coin_bronze"
 				"proportionaltoparent"				"1"
 			}
-
 			"HealingLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -312,7 +296,6 @@
 				"fgcolor"							"White_Dark"
 				"textAlignment"						"west"
 			}
-
 			"SupportMedal"
 			{
 				"ControlName"						"ScalableImagePanel"
@@ -325,7 +308,6 @@
 				"image"								"competitive\competitive_coin_bronze"
 				"proportionaltoparent"				"1"
 			}
-
 			"SupportLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -343,7 +325,6 @@
 				"fgcolor"							"White_Dark"
 				"textAlignment"						"west"
 			}
-
 			"ScoreMedal"
 			{
 				"ControlName"						"ScalableImagePanel"
@@ -356,7 +337,6 @@
 				"image"								"competitive\competitive_coin_bronze"
 				"proportionaltoparent"				"1"
 			}
-
 			"ScoreLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -376,7 +356,6 @@
 				"fgcolor"							"White_Dark"
 				"textAlignment"						"west"
 			}
-
 			"ClassIcons"
 			{
 				"ControlName"						"EditablePanel"
@@ -400,7 +379,6 @@
 					"image"							"class_icons/filter_scout"
 					"proportionaltoparent"			"1"
 				}
-
 				"PyroIcon"
 				{
 					"ControlName"					"ScalableImagePanel"
@@ -412,7 +390,6 @@
 					"image"							"class_icons/filter_pyro"
 					"proportionaltoparent"			"1"
 				}
-
 				"SoldierIcon"
 				{
 					"ControlName"					"ScalableImagePanel"
@@ -424,7 +401,6 @@
 					"image"							"class_icons/filter_soldier"
 					"proportionaltoparent"			"1"
 				}
-
 				// Second row
 				"DemoIcon"
 				{
@@ -437,7 +413,6 @@
 					"image"							"class_icons/filter_demo"
 					"proportionaltoparent"			"1"
 				}
-
 				"HeavyIcon"
 				{
 					"ControlName"					"ScalableImagePanel"
@@ -449,7 +424,6 @@
 					"image"							"class_icons/filter_heavy"
 					"proportionaltoparent"			"1"
 				}
-
 				"EngineerIcon"
 				{
 					"ControlName"					"ScalableImagePanel"
@@ -461,7 +435,6 @@
 					"image"							"class_icons/filter_engineer"
 					"proportionaltoparent"			"1"
 				}
-
 				// Third row
 				"MedicIcon"
 				{
@@ -474,7 +447,6 @@
 					"image"							"class_icons/filter_medic"
 					"proportionaltoparent"			"1"
 				}
-
 				"SniperIcon"
 				{
 					"ControlName"					"ScalableImagePanel"
@@ -486,7 +458,6 @@
 					"image"							"class_icons/filter_sniper"
 					"proportionaltoparent"			"1"
 				}
-
 				"SpyIcon"
 				{
 					"ControlName"					"ScalableImagePanel"

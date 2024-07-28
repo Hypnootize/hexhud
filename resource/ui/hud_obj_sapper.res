@@ -11,7 +11,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -28,7 +27,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 	}
-
 	"IconBackgound"
 	{
 		"ControlName"								"EditablePanel"
@@ -45,7 +43,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Dark"
 	}
-
 	"Icon"
 	{
 		"ControlName"								"CIconPanel"
@@ -62,7 +59,6 @@
 		"icon"										"obj_status_sapper"
 		"iconColor"									"White"
 	}
-
 	"NotBuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -86,7 +82,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"NotBuiltLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -107,7 +102,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -146,7 +140,6 @@
 				"iconColor"							"White"
 				"proportionaltoparent"				"1"
 			}
-
 			"TargetHealth"
 			{
 				"ControlName"						"ContinuousProgressBar"
@@ -161,7 +154,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"Health"
 		{
 			"ControlName"							"CBuildingHealthBar"

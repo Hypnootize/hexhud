@@ -16,7 +16,6 @@
 		"paintborder"								"1"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -36,7 +35,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"preview_model"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -72,7 +70,6 @@
 			"allow_rot"								"1"
 		}
 	}
-
 	"ComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -110,7 +107,6 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -142,7 +138,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"OkButton"
 	{
 		"ControlName"								"CExButton"

@@ -8,7 +8,6 @@
 		"name_width"								"57"
 		"horiz_inset"								"2"
 	}
-
 	"CountdownLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -34,7 +33,6 @@
 			"ypos"									"130"
 		}
 	}
-
 	"FrontParticlePanel"
 	{
 		"ControlName"								"CTFParticlePanel"
@@ -60,10 +58,8 @@
 				"loop"								"0"
 			}
 		}
-
 		"paintbackground"							"0"
 	}
-
 	"MatchDoors"
 	{
 		"ControlName"								"CModelPanel"
@@ -96,19 +92,16 @@
 				"sequence"							"ref"
 				"default"							"1"
 			}
-
 			"animation"
 			{
 				"name"								"open"
 				"sequence"							"open"
 			}
-
 			"animation"
 			{
 				"name"								"close"
 				"sequence"							"close"
 			}
-
 			"animation"
 			{
 				"name"								"idle_closed"
@@ -116,7 +109,6 @@
 			}
 		}
 	}
-
 	"RankUpLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -137,7 +129,17 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White"
 	}
-
+	"RoundCounter"
+	{
+		"fieldName"									"RoundCounter"
+		"xpos"										"cs-0.5"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"70"
+		"tall"										"30"
+		"visible"									"1"
+		"enabled"									"1"
+	}
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -162,21 +164,25 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Light_12"
-			"fgcolor"								"Off_White"
 			"xpos"									"cs-0.5"
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"f0"
-			"tall"									"18"
+			"tall"									"17"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
+			"font"									"Light_12"
+			"fgcolor"								"Off_White"
+
+			"if_match"
+			{
+				"ypos"								"4"
+			}
 		}
 	}
-
 	"TeamStatus"
 	{
 		"ControlName"								"CTFTeamStatus"
@@ -195,11 +201,11 @@
 		"12v12_gap"									"1"
 
 		"team1_grow_dir"							"west"
-		"team1_base_x"								"c-49"
+		"team1_base_x"								"c-51"
 		"team1_max_expand"							"300"
 
 		"team2_grow_dir"							"east"
-		"team2_base_x"								"c49"
+		"team2_base_x"								"c51"
 		"team2_max_expand"							"300"
 
 		"playerpanels_kv"
@@ -238,9 +244,9 @@
 				"font"								"Light_6"
 				"textinsetx"						"1"
 				"textAlignment"						"west"
+				"fgcolor"							"white"
 				"bgcolor_override"					"Background"
 				"proportionaltoparent"				"1"
-				"alpha"								"255"
 			}
 			"classimage"
 			{
@@ -411,7 +417,6 @@
 			}
 		}
 	}
-
 	"BlueTeamPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -556,7 +561,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"TransparentBackground"
+			"bgcolor_override"						"Background_Transparent"
 
 			"if_large"
 			{
@@ -564,7 +569,6 @@
 			}
 		}
 	}
-
 	"RedTeamPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -709,7 +713,7 @@
 			"enabled"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"TransparentBackground"
+			"bgcolor_override"						"Background_Transparent"
 
 			"if_large"
 			{
@@ -718,6 +722,10 @@
 		}
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"RoundSignModel"
 	{
 		"ControlName"								"CModelPanel"
@@ -733,16 +741,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"RoundCounter"
-	{
-		"fieldName"									"RoundCounter"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"

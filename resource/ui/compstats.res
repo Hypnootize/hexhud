@@ -31,7 +31,6 @@
 
 			"matchgroup"							"MatchGroup_Ladder_6v6"
 		}
-
 		"RankPanel"
 		{
 			"ControlName"							"CPvPRankPanel"
@@ -55,7 +54,6 @@
 				"visible"							"0"
 			}
 		}
-
 		"ShowLeaderboardsButton"
 		{
 			"ControlName"							"CExButton"
@@ -93,7 +91,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"ShowMatchHistoryButton"
 		{
 			"ControlName"							"CExButton"
@@ -131,7 +128,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PlaylistBGPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -152,8 +148,12 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"PlayListDropShadow"
 				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
-
 			"MatchHistoryCategories"
 			{
 				"ControlName"						"EditablePanel"
@@ -171,8 +171,12 @@
 					"ControlName"					"EditablePanel"
 					"fieldName"						"BGPanel"
 					"xpos"							"9999"
+					"ypos"							"9999"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"0"
+					"enabled"						"0"
 				}
-
 				"SortArrow"
 				{
 					"ControlName"					"CExLabel"
@@ -195,7 +199,6 @@
 					"armedFgColor_override"			"White_Dark"
 					"selectedFgColor_override"		"White_Dark"
 				}
-
 				"ResultButton"
 				{
 					"ControlName"					"CExButton"
@@ -237,7 +240,6 @@
 					"image_armedcolor"				"0 0 0 0"
 					"image_drawcolor"				"0 0 0 0"
 				}
-
 				"DateButton"
 				{
 					"ControlName"					"CExButton"
@@ -279,7 +281,6 @@
 					"image_armedcolor"				"0 0 0 0"
 					"image_drawcolor"				"0 0 0 0"
 				}
-
 				"MapButton"
 				{
 					"ControlName"					"CExButton"
@@ -321,7 +322,6 @@
 					"image_armedcolor"				"0 0 0 0"
 					"image_drawcolor"				"0 0 0 0"
 				}
-
 				"KDRButton"
 				{
 					"ControlName"					"CExButton"
@@ -363,7 +363,6 @@
 					"image_drawcolor"				"0 0 0 0"
 				}
 			}
-
 			"MatchHistoryContainer"
 			{
 				"ControlName"						"CScrollableList"
@@ -392,14 +391,12 @@
 					{
 						"fgcolor_override"			"TanDark"
 					}
-
 					"UpButton"
 					{
 						"ControlName"				"Button"
 						"FieldName"					"UpButton"
 						"visible"					"0"
 					}
-
 					"DownButton"
 					{
 						"ControlName"				"Button"
@@ -408,7 +405,6 @@
 					}
 				}
 			}
-
 			"Leaderboard"
 			{
 				"ControlName"						"CLadderLobbyLeaderboard"

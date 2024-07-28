@@ -39,7 +39,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"fieldName"								"itemmodelpanel"
@@ -48,7 +47,6 @@
 			"useparentbg"							"1"
 			"inventory_image_type"					"1"
 		}
-
 		"ItemLabel"
 		{
 			"ControlName"							"CExLabel"

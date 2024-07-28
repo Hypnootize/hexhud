@@ -6,23 +6,6 @@
 	{
 		"ypos"										"50"
 	}
-
-	"LeftBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"LeftBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"103"
-		"wide"										"135"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Loadout_NavigationBar"
-	}
-
 	"class_loadout_panel"
 	{
 		"ControlName"								"Frame"
@@ -34,9 +17,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"Background_Main"
-		"infocus_bgcolor_override"					"Background_Main"
-		"outoffocus_bgcolor_override"				"Background_Main"
+		"bgcolor_override"							"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"item_xpos_offcenter_a"						"58"
 		"item_xpos_offcenter_b"						"204"
@@ -82,14 +65,12 @@
 				"font"								"Light_10"
 				"visible"							"0"
 			}
-
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
-
 			"ItemBackground"
 			{
 				"ControlName"						"EditablePanel"
@@ -108,7 +89,6 @@
 				"mouseinputenabled"					"0"
 			}
 		}
-
 		"itemoptionpanels_kv"
 		{
 			"ControlName"							"CExButton"
@@ -117,6 +97,7 @@
 			"zpos"									"1"
 			"wide"									"14"
 			"tall"									"14"
+			"visible"								"0"
 			"enabled"								"1"
 			"labelText"								"~"
 			"font"									"Symbols_14"
@@ -137,7 +118,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
@@ -172,7 +152,6 @@
 
 			"modelname"								""
 		}
-
 		"customclassdata"
 		{
 			"undefined"
@@ -270,7 +249,6 @@
 			}
 		}
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -308,7 +286,6 @@
 			"centerwrap"							"1"
 		}
 	}
-
 	"PassiveAttribsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -326,7 +303,6 @@
 		"fgcolor"									"255 215 0 255"
 		"centerwrap"								"1"
 	}
-
 	"loadout_preset_panel"
 	{
 		"ControlName"								"CLoadoutPresetPanel"
@@ -338,7 +314,6 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 	}
-
 	"ItemOptionsPanel"
 	{
 		"ControlName"								"CLoadoutParticleSlider"
@@ -351,7 +326,6 @@
 		"bgcolor_override"							"Gray_Blue_Darkest"
 		"PaintBackgroundType"						"0"
 	}
-
 	"CharacterLoadoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -387,7 +361,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"TauntLoadoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -423,7 +396,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"PresetsExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -465,7 +437,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -482,7 +453,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -509,7 +479,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"TauntsExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -551,7 +520,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -568,7 +536,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -596,6 +563,10 @@
 		}
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"CaratLabel"
 	{
 		"ControlName"								"CExLabel"

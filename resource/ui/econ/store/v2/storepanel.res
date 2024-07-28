@@ -1,3 +1,4 @@
+#base "../../../hexagon_corners.res"
 #base "../../../../dev/reload_scheme.res"
 
 "Resource/UI/Econ/Store/V2/StorePanel.res"
@@ -7,7 +8,6 @@
 		"xpos"										"r17"
 		"ypos"										"22"
 	}
-
 	"store_panel"
 	{
 		"ControlName"								"EditablePanel"
@@ -27,7 +27,7 @@
 		"title"										"#StoreTitle"
 		"title_font"								"Light_24"
 		"titletextinsetX"							"40"
-		"titletextinsetY"							"0"
+		"titletextinsetY"							"-40"
 		"titlebarfgcolor_override"					"Blank"
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
@@ -35,16 +35,31 @@
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"23"
 	}
-
+	"BackgroundHeaderCustom"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BackgroundHeaderCustom"
+		"xpos"										"cs-0.5"
+		"ypos"										"24"
+		"zpos"										"-1"
+		"wide"										"f0"
+		"tall"										"18"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"Loadout_NavigationBar"
+	}
 	"BackgroundFooterCustom"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BackgroundFooterCustom"
-		"xpos"										"0"
+		"xpos"										"cs-0.5"
 		"ypos"										"rs1"
-		"zpos"										"1"
+		"zpos"										"-1"
 		"wide"										"f0"
-		"tall"										"25"
+		"tall"										"24"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -52,7 +67,28 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Dashboard"
 	}
+	"HExagon_Corners"
+	{
+		"zpos"										"-2"
+		"tall"										"f48"
 
+		"HExagon_TopLeft"
+		{
+			"ypos"									"0"
+		}
+		"HExagon_TopRight"
+		{
+			"ypos"									"0"
+		}
+		"HExagon_BottomLeft"
+		{
+			"ypos"									"rs1"
+		}
+		"HExagon_BottomRight"
+		{
+			"ypos"									"rs1"
+		}
+	}
 	"Sheet"
 	{
 		"ControlName"								"EditablePanel"
@@ -60,14 +96,14 @@
 		"tabxindent"								"5"
 		"tabxdelta"									"3"
 		"tabwidth"									"240"
-		"tabheight"									"20"
+		"tabheight"									"18"
 		"transition_time"							"0"
-		"yoffset"									"10"
+		"yoffset"									"24"
 
 		"tabskv"
 		{
 			"textinsetx"							"0"
-			"font"									"Light_16"
+			"font"									"Light_14"
 			"AllCaps"								"1"
 			"selectedcolor"							"Solid"
 			"unselectedcolor"						"White_Dark"
@@ -77,7 +113,6 @@
 			"normalborder_override"					"NoBorder"
 		}
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -89,6 +124,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"BACK"
 		"font"										"Light_14"
 		"textAlignment"								"center"
@@ -97,17 +133,21 @@
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
-		"proportionaltoparent"						"1"
+		"FgColor"									"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-
 		"defaultBgColor_override"					"Gray_Blue_Darkest"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"White_Solid"
-		"depressedFgColor_override"					"White_Solid"
+		"paintborder"								"1"
+		"border"									"Bottom_Line_White"
+		"border_default"							"Bottom_Line_White"
+		"border_armed"								"Bottom_Line_White"
 	}
 	"CloseShortKey"
 	{
@@ -118,7 +158,6 @@
 		"Command"									"close"
 		"visible"									"1"
 	}
-
 	"armory_panel"
 	{
 		"ControlName"								"CArmoryPanel"
@@ -130,7 +169,6 @@
 		"zpos"										"500"
 		"visible"									"0"
 	}
-
 	"NotificationsPresentPanel"
 	{
 		"ControlName"								"CNotificationsPresentPanel"
@@ -143,7 +181,6 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	"SupportCommunityMapMakersCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -177,7 +214,6 @@
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"CheckoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -189,6 +225,7 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"CHECKOUT"
 		"font"										"Light_14"
 		"textAlignment"								"center"
@@ -198,21 +235,27 @@
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
-		"proportionaltoparent"						"1"
+		"FgColor"									"White"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
+
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-
 		"defaultBgColor_override"					"Gray_Blue_Darkest"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"White_Solid"
-		"depressedFgColor_override"					"White_Solid"
+		"paintborder"								"1"
+		"border"									"Bottom_Line_White"
+		"border_default"							"Bottom_Line_White"
+		"border_armed"								"Bottom_Line_White"
 	}
 
 
-
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"BackgroundHeader"
 	{
 		"ControlName"								"ImagePanel"

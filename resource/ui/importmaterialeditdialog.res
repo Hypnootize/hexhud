@@ -13,7 +13,6 @@
 		"tall"										"f0"
 		"paintborder"								"0"
 	}
-
 	"Background"
 	{
 		"ControlName"								"EditablePanel"
@@ -29,7 +28,6 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Main"
 	}
-
 	"RedBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -58,7 +56,6 @@
 		"image"										"replay/thumbnails/misc/import_tool_bg_folder_blue"
 		"scaleImage"								"1"
 	}
-
 	"RedTeamButton"
 	{
 		"ControlName"								"Button"
@@ -97,7 +94,6 @@
 		"defaultBgColor_override"					"Blank"
 		"armedBgColor_override"						"Blank"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -112,7 +108,6 @@
 		"tall"										"25"
 		"centerwrap"								"1"
 	}
-
 	"BaseTextureBrowse"
 	{
 		"ControlName"								"CExButton"
@@ -139,7 +134,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"BaseTextureLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -153,7 +147,6 @@
 		"wide"										"80"
 		"tall"										"15"
 	}
-
 	"BaseTextureFileLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -167,7 +160,6 @@
 		"fgcolor"									"White"
 		"textAlignment"								"west"
 	}
-
 	"NormalTextureBrowse"
 	{
 		"ControlName"								"CExButton"
@@ -194,7 +186,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"NormalTextureClear"
 	{
 		"ControlName"								"CExButton"
@@ -220,7 +211,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"NormalTextureLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -234,7 +224,6 @@
 		"wide"										"70"
 		"tall"										"15"
 	}
-
 	"NormalTextureFileLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -248,7 +237,6 @@
 		"fgcolor"									"White"
 		"textAlignment"								"west"
 	}
-
 	"LightwarpLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -262,7 +250,6 @@
 		"wide"										"80"
 		"tall"										"15"
 	}
-
 	"LightwarpComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -274,7 +261,6 @@
 		"tall"										"12"
 		"editable"									"0"
 		"visible"									"1"
-
 		"paintborder"								"0"
 
 		"fgcolor_override"							"White_Dark"
@@ -294,7 +280,6 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-
 	"BaseMapAlphaPhongMaskLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -308,7 +293,6 @@
 		"wide"										"125"
 		"tall"										"15"
 	}
-
 	"BaseMapAlphaPhongMaskCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -325,7 +309,6 @@
 		"command"									"UpdateBaseMapAlphaPhongMask"
 		"border"									"SteamWorkshopBorder"
 	}
-
 	"PhongExponentTextureBrowse"
 	{
 		"ControlName"								"CExButton"
@@ -352,7 +335,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"PhongExponentTextureClear"
 	{
 		"ControlName"								"CExButton"
@@ -378,7 +360,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"PhongExponentTextureLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -392,7 +373,6 @@
 		"wide"										"170"
 		"tall"										"15"
 	}
-
 	"PhongExponentTextureFileLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -406,7 +386,6 @@
 		"fgcolor"									"White"
 		"textAlignment"								"west"
 	}
-
 	"PhongExponentLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -420,7 +399,6 @@
 		"wide"										"100"
 		"tall"										"15"
 	}
-
 	"PhongExponentTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -441,7 +419,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"PhongBoostLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -455,7 +432,6 @@
 		"wide"										"100"
 		"tall"										"15"
 	}
-
 	"PhongBoostTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -476,7 +452,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"RimLightExponentLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -490,7 +465,6 @@
 		"wide"										"100"
 		"tall"										"15"
 	}
-
 	"RimLightExponentTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -511,7 +485,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"RimLightBoostLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -525,7 +498,6 @@
 		"wide"										"100"
 		"tall"										"15"
 	}
-
 	"RimLightBoostTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -546,7 +518,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"RimMaskLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -561,7 +532,6 @@
 		"tall"										"15"
 		"enabled"									"0"
 	}
-
 	"RimMaskCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -578,7 +548,6 @@
 		"command"									"UpdateRimMask"
 		"border"									"SteamWorkshopBorder"
 	}
-
 	"HalfLambertLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -592,7 +561,6 @@
 		"wide"										"100"
 		"tall"										"15"
 	}
-
 	"HalfLambertCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -609,7 +577,6 @@
 		"command"									"UpdateHalfLambert"
 		"border"									"SteamWorkshopBorder"
 	}
-
 	"BlendTintByBaseAlphaLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -624,7 +591,6 @@
 		"tall"										"15"
 		"enabled"									"0"
 	}
-
 	"BlendTintByBaseAlphaCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -641,7 +607,6 @@
 		"command"									"UpdateBlendTintByBaseAlpha"
 		"border"									"SteamWorkshopBorder"
 	}
-
 	"BlendTintColorOverBaseLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -656,7 +621,6 @@
 		"tall"										"15"
 		"enabled"									"0"
 	}
-
 	"BlendTintColorOverBaseTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -677,7 +641,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"ColorTintBaseLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -692,7 +655,6 @@
 		"tall"										"15"
 		"enabled"									"0"
 	}
-
 	"ColorTintBaseRedTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -713,7 +675,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"ColorTintBaseGreenTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -734,7 +695,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"ColorTintBaseBlueTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -755,7 +715,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"AdditiveLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -769,7 +728,6 @@
 		"wide"										"100"
 		"tall"										"15"
 	}
-
 	"AdditiveCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -786,7 +744,6 @@
 		"command"									"UpdateAdditive"
 		"border"									"SteamWorkshopBorder"
 	}
-
 	"TranslucentLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -800,7 +757,6 @@
 		"wide"										"60"
 		"tall"										"15"
 	}
-
 	"TranslucentCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -817,7 +773,6 @@
 		"command"									"UpdateTranslucent"
 		"border"									"SteamWorkshopBorder"
 	}
-
 	"AlphaTestLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -832,7 +787,6 @@
 		"tall"										"15"
 		"enabled"									"0"
 	}
-
 	"AlphaTestCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -849,7 +803,6 @@
 		"command"									"UpdateAlphaTest"
 		"border"									"SteamWorkshopBorder"
 	}
-
 	"EnvmapLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -863,7 +816,6 @@
 		"wide"										"100"
 		"tall"										"15"
 	}
-
 	"EnvmapComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -895,7 +847,6 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-
 	"EnvmapAlphaMaskLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -910,7 +861,6 @@
 		"tall"										"15"
 		"enabled"									"0"
 	}
-
 	"EnvmapAlphaMaskComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -943,7 +893,6 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-
 	"EnvmapTintLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -958,7 +907,6 @@
 		"tall"										"15"
 		"enabled"									"0"
 	}
-
 	"CubemapTintRedTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -979,7 +927,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"CubemapTintGreenTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -1000,7 +947,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"CubemapTintBlueTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -1021,7 +967,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"SelfIllumLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -1035,7 +980,6 @@
 		"wide"										"100"
 		"tall"										"15"
 	}
-
 	"SelfIllumCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -1052,7 +996,6 @@
 		"command"									"UpdateSelfIllum"
 		"border"									"SteamWorkshopBorder"
 	}
-
 	"SelfIllumTextureBrowse"
 	{
 		"ControlName"								"CExButton"
@@ -1079,7 +1022,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"SelfIllumTextureClear"
 	{
 		"ControlName"								"CExButton"
@@ -1105,7 +1047,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"SelfIllumTextureLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -1119,7 +1060,6 @@
 		"wide"										"85"
 		"tall"										"15"
 	}
-
 	"SelfIllumTextureFileLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -1133,7 +1073,6 @@
 		"fgcolor"									"White"
 		"textAlignment"								"west"
 	}
-
 	"SelfIllumTintLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -1148,7 +1087,6 @@
 		"tall"										"15"
 		"enabled"									"0"
 	}
-
 	"SelfIllumTintRedTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -1169,7 +1107,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"SelfIllumTintGreenTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -1190,7 +1127,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"SelfIllumTintBlueTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -1211,7 +1147,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_10"
 	}
-
 	"ButtonDone"
 	{
 		"ControlName"								"CExButton"
@@ -1238,7 +1173,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"ButtonClose"
 	{
 		"ControlName"								"CExButton"

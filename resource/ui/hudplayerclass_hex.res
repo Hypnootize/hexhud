@@ -6,28 +6,30 @@
 		"fieldName"									"HudPlayerClass"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"1"
+		"zpos"										"4"
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"PlayerStatusClassImage"
 	{
 		"ControlName"								"CTFClassImage"
 		"fieldName"									"PlayerStatusClassImage"
-		"xpos"										"9999"	//0
-		"ypos"										"rs1"
+		"xpos"										"c-323"
+		"xpos_minmode"								"2"
+		"ypos"										"c108"
+		"ypos_minmode"								"rs1"
 		"zpos"										"2"
-		"wide"										"65"
-		"tall"										"65"
+		"wide"										"72"
+		"tall"										"72"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../hud/class_scoutred"
 		"scaleImage"								"1"
+		"alpha"										"255"
+		"alpha_minmode"								"0"
 	}
-
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -44,30 +46,32 @@
 		"teambg_2"									"../hud/class_spyred"
 		"teambg_3"									"../hud/class_spyblue"
 	}
-
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayerStatusSpyOutlineImage"
-		"xpos"										"3"
-		"ypos"										"r67"
-		"zpos"										"7"
-		"wide"										"55"
-		"tall"										"55"
+		"xpos"										"cs-0.5"
+		"ypos"										"c50"
+		"ypos_minmode"								"c35"
+		"zpos"										"1"
+		"wide"										"30"
+		"wide_minmode"								"30"
+		"tall"										"30"
+		"tall_minmode"								"30"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										"../hud/class_spy_outline"
+		"image"										"replay/thumbnails/disguise/class_spy_outline"
 		"scaleImage"								"1"
 		"alpha"										"0"
 	}
-
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
 		"fieldName"									"classmodelpanel"
-
-		"xpos"										"0"
-		"ypos"										"r120"
+		"xpos"										"c-350"
+		"xpos_minmode"								"0"
+		"ypos"										"rs1-60"
+		"ypos_minmode"								"r120"
 		"zpos"										"2"
 		"wide"										"120"
 		"tall"										"140"
@@ -82,12 +86,12 @@
 		{
 			"force_pos"								"1"
 
-			"angles_x"								"0"
-			"angles_y"								"270"
-			"angles_z"								"0"
-			"origin_x"								"200"
-			"origin_y"								"28"
-			"origin_z"								"-60"
+			"angles_x" 								"0"
+			"angles_y" 								"270"
+			"angles_z" 								"0"
+			"origin_x" 								"200"
+			"origin_y" 								"28"
+			"origin_z" 								"-60"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
@@ -95,7 +99,6 @@
 
 			"modelname"								""
 		}
-
 		"customclassdata"
 		{
 			"undefined"
@@ -103,97 +106,168 @@
 			}
 			"Scout"
 			{
-				"fov"								"35"
-				"angles_x"							"0"
-				"angles_y"							"270"
-				"angles_z"							"-10"
-				"origin_x"							"105"
-				"origin_y"							"24"
-				"origin_z"							"-50"
+				"fov"								"28"
+				"angles_x"							"-12"
+				"angles_y"							"200"
+				"angles_z"							"-3"
+				"origin_x"							"150"
+				"origin_y"							"-1"
+				"origin_z"							"-78"
+
+				"fov_minmode"						"35"
+				"angles_x_minmode"					"0"
+				"angles_y_minmode"					"270"
+				"angles_z_minmode"					"-10"
+				"origin_x_minmode"					"105"
+				"origin_y_minmode"					"24"
+				"origin_z_minmode"					"-50"
 			}
 			"Sniper"
 			{
-				"fov"								"37"
-				"angles_x"							"-1"
-				"angles_y"							"270"
+				"fov"								"32"
+				"angles_x"							"-4"
+				"angles_y"							"200"
 				"angles_z"							"0"
-				"origin_x"							"125"
-				"origin_y"							"18"
-				"origin_z"							"-60"
+				"origin_x"							"150"
+				"origin_y"							"-5"
+				"origin_z"							"-88"
+
+				"fov_minmode"						"37"
+				"angles_x_minmode"					"-1"
+				"angles_y_minmode"					"270"
+				"angles_z_minmode"					"0"
+				"origin_x_minmode"					"125"
+				"origin_y_minmode"					"18"
+				"origin_z_minmode"					"-60"
 			}
 			"Soldier"
 			{
 				"fov"								"32"
-				"angles_x"							"0"
-				"angles_y"							"260"
+				"angles_x"							"-10"
+				"angles_y"							"170"
 				"angles_z"							"0"
 				"origin_x"							"150"
-				"origin_y"							"30"
-				"origin_z"							"-52"
+				"origin_y"							"-4"
+				"origin_z"							"-85"
+
+				"fov_minmode"						"32"
+				"angles_x_minmode"					"0"
+				"angles_y_minmode"					"260"
+				"angles_z_minmode"					"0"
+				"origin_x_minmode"					"150"
+				"origin_y_minmode"					"30"
+				"origin_z_minmode"					"-52"
 			}
 			"Demoman"
 			{
-				"fov"								"32"
-				"angles_x"							"0"
-				"angles_y"							"270"
+				"fov"								"31"
+				"angles_x"							"-10"
+				"angles_y"							"200"
 				"angles_z"							"0"
-				"origin_x"							"138"
-				"origin_y"							"27"
-				"origin_z"							"-55"
+				"origin_x"							"150"
+				"origin_y"							"-7"
+				"origin_z"							"-85"
+
+				"fov_minmode"						"32"
+				"angles_x_minmode"					"0"
+				"angles_y_minmode"					"270"
+				"angles_z_minmode"					"0"
+				"origin_x_minmode"					"138"
+				"origin_y_minmode"					"27"
+				"origin_z_minmode"					"-55"
 			}
 			"Medic"
 			{
-				"fov"								"30"
-				"angles_x"							"2"
-				"angles_y"							"270"
+				"fov"								"32"
+				"angles_x"							"-4"
+				"angles_y"							"200"
 				"angles_z"							"0"
 				"origin_x"							"150"
-				"origin_y"							"20"
-				"origin_z"							"-60"
+				"origin_y"							"-7"
+				"origin_z"							"-88"
+
+				"fov_minmode"						"30"
+				"angles_x_minmode"					"2"
+				"angles_y_minmode"					"270"
+				"angles_z_minmode"					"0"
+				"origin_x_minmode"					"150"
+				"origin_y_minmode"					"20"
+				"origin_z_minmode"					"-60"
 			}
 			"Heavy"
 			{
-				"fov"								"26"
-				"angles_x"							"0"
-				"angles_y"							"270"
+				"fov"								"32"
+				"angles_x"							"-5"
+				"angles_y"							"200"
 				"angles_z"							"0"
-				"origin_x"							"200"
-				"origin_y"							"32"
-				"origin_z"							"-55"
+				"origin_x"							"150"
+				"origin_y"							"-5"
+				"origin_z"							"-92"
+
+				"fov_minmode"						"26"
+				"angles_x_minmode"					"0"
+				"angles_y_minmode"					"270"
+				"angles_z_minmode"					"0"
+				"origin_x_minmode"					"200"
+				"origin_y_minmode"					"28"
+				"origin_z_minmode"					"-55"
 			}
 			"Pyro"
 			{
-				"fov"								"29"
-				"angles_x"							"0"
-				"angles_y"							"270"
-				"angles_z"							"0"
-				"origin_x"							"175"
-				"origin_y"							"30"
-				"origin_z"							"-53"
+				"fov"								"32"
+				"angles_x"							"-10"
+				"angles_y"							"170"
+				"angles_z"							"-3"
+				"origin_x"							"150"
+				"origin_y"							"0"
+				"origin_z"							"-84"
+
+				"fov_minmode"						"29"
+				"angles_x_minmode"					"0"
+				"angles_y_minmode"					"270"
+				"angles_z_minmode"					"0"
+				"origin_x_minmode"					"175"
+				"origin_y_minmode"					"30"
+				"origin_z_minmode"					"-53"
 			}
 			"Spy"
 			{
-				"fov"								"28"
-				"angles_x"							"0"
-				"angles_y"							"270"
-				"angles_z"							"0"
-				"origin_x"							"160"
-				"origin_y"							"28"
-				"origin_z"							"-60"
+				"fov"								"30"
+				"angles_x"							"-6"
+				"angles_y"							"200"
+				"angles_z"							"-3"
+				"origin_x"							"150"
+				"origin_y"							"-3"
+				"origin_z"							"-86"
+
+				"fov_minmode"						"28"
+				"angles_x_minmode"					"0"
+				"angles_y_minmode"					"270"
+				"angles_z_minmode"					"0"
+				"origin_x_minmode"					"160"
+				"origin_y_minmode"					"28"
+				"origin_z_minmode"					"-60"
 			}
 			"Engineer"
 			{
-				"fov"								"28"
-				"angles_x"							"0"
-				"angles_y"							"270"
+				"fov"								"32"
+				"angles_x"							"-8"
+				"angles_y"							"200"
 				"angles_z"							"0"
-				"origin_x"							"160"
-				"origin_y"							"26"
-				"origin_z"							"-52"
+				"origin_x"							"150"
+				"origin_y"							"-6"
+				"origin_z"							"-82"
+
+				"fov_minmode"						"28"
+				"angles_x_minmode"					"0"
+				"angles_y_minmode"					"270"
+				"angles_z_minmode"					"0"
+				"origin_x_minmode"					"160"
+				"origin_y_minmode"					"26"
+				"origin_z_minmode"					"-52"
 			}
 		}
 	}
-
 	"CarryingWeapon"
 	{
 		"ControlName"								"EditablePanel"
@@ -222,7 +296,6 @@
 			"teambg_3"								"replay/thumbnails/panels/flat_blue"
 			"proportionaltoparent"					"1"
 		}
-
 		"CarryingLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -240,7 +313,6 @@
 			"auto_wide_tocontents"					"1"
 			"labelText"								"%carrying%"
 		}
-
 		"OwnerLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -258,7 +330,6 @@
 			"auto_wide_tocontents"					"1"
 			"alpha"									"255"
 		}
-
 		"CarryingLabelDropShadow"
 		{
 			"ControlName"							"CExLabel"
@@ -272,7 +343,10 @@
 		}
 	}
 
-	//REMOVED
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"classmodelpanelBG"
 	{
 		"ControlName"								"CTFImagePanel"

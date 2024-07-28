@@ -1,4 +1,5 @@
 #base "MatchMakingDashboardSidePanel.res"
+#base "hexagon_corners.res"
 
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"
 {
@@ -13,14 +14,13 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"BGPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BGPanel"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"1"
+		"zpos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
 		"visible"									"1"
@@ -29,7 +29,21 @@
 		"painbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Main"
 	}
+	"HExagon_Corners"
+	{
+		"ypos"										"0"
+		"zpos"										"1"
+		"tall"										"f24"
 
+		"HExagon_TopLeft"
+		{
+			"xpos"									"-20"
+		}
+		"HExagon_BottomLeft"
+		{
+			"xpos"									"-20"
+		}
+	}
 	"MvMLogoImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -41,7 +55,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"MannUpGroupBox"
 	{
 		"ControlName"								"EditablePanel"
@@ -105,7 +118,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"MannUpImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -122,7 +134,6 @@
 			"image"									"replay/thumbnails/mm_menu/mannup"
 			"proportionaltoparent"					"1"
 		}
-
 		"Separator"
 		{
 			"ControlName"							"EditablePanel"
@@ -140,7 +151,6 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"PlayForBraggingRightsExplanation"
 		{
 			"ControlName"							"CExLabel"
@@ -186,7 +196,6 @@
 			"enabled"								"0"
 		}
 	}
-
 	"PlayForBraggingRightsExplanation"
 	{
 		"ControlName"								"CExLabel"
@@ -209,7 +218,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"PracticeGroupBox"
 	{
 		"ControlName"								"EditablePanel"
@@ -272,7 +280,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"BootCampImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -289,7 +296,6 @@
 			"image"									"replay/thumbnails/mm_menu/bootcamp"
 			"proportionaltoparent"					"1"
 		}
-
 		"Separator"
 		{
 			"ControlName"							"EditablePanel"
@@ -307,7 +313,6 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"PracticeButton"
 		{
 			"ControlName"							"CExButton"
@@ -353,7 +358,6 @@
 			"enabled"								"0"
 		}
 	}
-
 	"PlayOnCommunityServerExplanation"
 	{
 		"ControlName"								"CExLabel"

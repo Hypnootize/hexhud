@@ -14,7 +14,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -34,7 +33,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"EllipsesLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -52,7 +50,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"DurationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -70,7 +67,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"

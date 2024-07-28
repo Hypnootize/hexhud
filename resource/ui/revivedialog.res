@@ -32,7 +32,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-
 		"ExplanationLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -50,7 +49,6 @@
 			"centerwrap"							"1"
 			"fgcolor"								"White"
 		}
-
 		"ConfirmButton"
 		{
 			"ControlName"							"CExButton"
@@ -80,7 +78,6 @@
 			"armedBgColor_override"					"TransparentBlack"
 			"depressedBgColor_override"				"TransparentBlack"
 		}
-
 		"SpectatorGUIHealth"
 		{
 			"ControlName"							"EditablePanel"

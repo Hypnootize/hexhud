@@ -28,7 +28,6 @@
 			"visible"								"1"
 			"proportionalToParent"					"1"
 		}
-
 		"LockedImage"
 		{
 			"fieldName"								"LockedImage"

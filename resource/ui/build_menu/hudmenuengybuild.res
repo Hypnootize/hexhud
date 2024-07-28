@@ -21,7 +21,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 	}
-
 	"CancelLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -46,7 +45,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"active_item_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -58,7 +56,6 @@
 		"tall"										"35"
 		"visible"									"1"
 	}
-
 	"active_item_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -70,7 +67,6 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-
 	"active_item_3"
 	{
 		"ControlName"								"EditablePanel"
@@ -82,7 +78,6 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-
 	"active_item_4"
 	{
 		"ControlName"								"EditablePanel"
@@ -94,7 +89,6 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-
 	"already_built_item_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -106,7 +100,6 @@
 		"tall"										"35"
 		"visible"									"0"
 	}
-
 	"already_built_item_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -118,7 +111,6 @@
 		"tall"										"27"
 		"visible"									"0"
 	}
-
 	"already_built_item_3"
 	{
 		"ControlName"								"EditablePanel"
@@ -130,7 +122,6 @@
 		"tall"										"27"
 		"visible"									"0"
 	}
-
 	"already_built_item_4"
 	{
 		"ControlName"								"EditablePanel"
@@ -142,7 +133,6 @@
 		"tall"										"27"
 		"visible"									"0"
 	}
-
 	"cant_afford_item_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -154,7 +144,6 @@
 		"tall"										"35"
 		"visible"									"0"
 	}
-
 	"cant_afford_item_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -166,7 +155,6 @@
 		"tall"										"27"
 		"visible"									"0"
 	}
-
 	"cant_afford_item_3"
 	{
 		"ControlName"								"EditablePanel"
@@ -178,7 +166,6 @@
 		"tall"										"27"
 		"visible"									"0"
 	}
-
 	"cant_afford_item_4"
 	{
 		"ControlName"								"EditablePanel"
@@ -190,7 +177,6 @@
 		"tall"										"27"
 		"visible"									"0"
 	}
-
 	"unavailable_item_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -202,7 +188,6 @@
 		"tall"										"35"
 		"visible"									"0"
 	}
-
 	"unavailable_item_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -214,7 +199,6 @@
 		"tall"										"27"
 		"visible"									"0"
 	}
-
 	"unavailable_item_3"
 	{
 		"ControlName"								"EditablePanel"
@@ -226,7 +210,6 @@
 		"tall"										"27"
 		"visible"									"0"
 	}
-
 	"unavailable_item_4"
 	{
 		"ControlName"								"EditablePanel"
@@ -240,8 +223,9 @@
 	}
 
 
-	//REMOVED STUFF
-
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"MainBackground"
 	{
 		"ControlName"								"CIconPanel"

@@ -12,13 +12,13 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	"EnemyCountImage"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"EnemyCountImage"
 		"xpos"										"cs-0.5"
 		"ypos"										"1"
+		"ypos_minmode"								"3"
 		"zpos"										"3"
 		"wide"										"14"
 		"tall"										"14"
@@ -27,13 +27,13 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"EnemyCountImageBG"
 	{
 		"ControlName"								"Panel"
 		"fieldName"									"EnemyCountImageBG"
 		"xpos"										"cs-0.5"
 		"ypos"										"17"
+		"ypos_minmode"								"19"
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"1"
@@ -44,13 +44,13 @@
 		"bgcolor_override"							"White"
 		"proportionaltoparent"						"1"
 	}
-
 	"EnemyCountImageCustomBG"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"EnemyCountImageCustomBG"
 		"xpos"										"0"
 		"ypos"										"0"
+		"ypos_minmode"								"2"
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"f16"
@@ -61,13 +61,13 @@
 		"bgcolor_override"							"Background"
 		"proportionaltoparent"						"1"
 	}
-
 	"EnemyCountCritImageBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"EnemyCountCritImageBG"
 		"xpos"										"cs-0.5"
 		"ypos"										"18"
+		"ypos_minmode"								"20"
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"1"
@@ -77,7 +77,6 @@
 		"image"										"../hud/leaderboard_class_critical"
 		"proportionaltoparent"						"1"
 	}
-
 	"EnemyCount"
 	{
 		"ControlName"								"CExLabel"
@@ -86,6 +85,7 @@
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"19"
+		"ypos_minmode"								"21"
 		"zpos"										"3"
 		"wide"										"18"
 		"tall"										"12"

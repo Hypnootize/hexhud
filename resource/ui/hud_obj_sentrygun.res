@@ -11,7 +11,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"Icon_Sentry_1"
 	{
 		"ControlName"								"CIconPanel"
@@ -28,7 +27,6 @@
 		"icon"										"obj_status_sentrygun_1"
 		"iconColor"									"White"
 	}
-
 	"Icon_Sentry_2"
 	{
 		"ControlName"								"CIconPanel"
@@ -45,7 +43,6 @@
 		"icon"										"obj_status_sentrygun_2"
 		"iconColor"									"White"
 	}
-
 	"Icon_Sentry_3"
 	{
 		"ControlName"								"CIconPanel"
@@ -62,7 +59,6 @@
 		"icon"										"obj_status_sentrygun_3"
 		"iconColor"									"White"
 	}
-
 	"NotBuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -91,7 +87,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background"
 		}
-
 		"IconBackgound"
 		{
 			"ControlName"							"EditablePanel"
@@ -108,7 +103,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background_Dark"
 		}
-
 		"NotBuiltLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -121,7 +115,6 @@
 			"enabled"								"0"
 		}
 	}
-
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -150,7 +143,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background"
 		}
-
 		"IconBackgound"
 		{
 			"ControlName"							"EditablePanel"
@@ -167,7 +159,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Background_Dark"
 		}
-
 		"Icon_Upgrade_1"
 		{
 			"ControlName"							"CIconPanel"
@@ -185,7 +176,6 @@
 			"proportionaltoparent"					"1"
 			"pin_to_sibling"						"IconBackgound"
 		}
-
 		"Icon_Upgrade_2"
 		{
 			"ControlName"							"CIconPanel"
@@ -203,7 +193,6 @@
 			"proportionaltoparent"					"1"
 			"pin_to_sibling"						"IconBackgound"
 		}
-
 		"Icon_Upgrade_3"
 		{
 			"ControlName"							"CIconPanel"
@@ -221,7 +210,6 @@
 			"proportionaltoparent"					"1"
 			"pin_to_sibling"						"IconBackgound"
 		}
-
 		"AlertTray"
 		{
 			"ControlName"							"CBuildingStatusAlertTray"
@@ -277,7 +265,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"Health"
 		{
 			"ControlName"							"CBuildingHealthBar"
@@ -291,7 +278,6 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"BuildingPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -303,7 +289,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -348,7 +333,6 @@
 				"drawcolor"							"White_Solid"
 				"proportionaltoparent"				"1"
 			}
-
 			"Shells"
 			{
 				"ControlName"						"ContinuousProgressBar"
@@ -381,7 +365,6 @@
 				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
 				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
-
 			"Rockets"
 			{
 				"ControlName"						"ContinuousProgressBar"
@@ -413,7 +396,6 @@
 				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
 				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
-
 			"Upgrade"
 			{
 				"ControlName"						"ContinuousProgressBar"
@@ -447,7 +429,6 @@
 				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
 				"pin_to_sibling_corner"				"PIN_CENTER_TOP"
 			}
-
 			"KillIcon"
 			{
 				"ControlName"						"ImagePanel"
@@ -461,7 +442,6 @@
 			}
 		}
 	}
-
 	"Background"
 	{
 		"ControlName"								"CIconPanel"

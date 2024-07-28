@@ -44,7 +44,6 @@
 
 			"paintbackground"						"0"
 		}
-
 		"RankModel"
 		{
 			"ControlName"							"CBaseModelPanel"
@@ -88,14 +87,12 @@
 				{
 					"origin_x"						"55"
 				}
-
 				"animation"
 				{
 					"sequence"						"idle"
 					"default"						"1"
 				}
 			}
-
 			"lights"
 			{
 				"default"
@@ -106,7 +103,6 @@
 				}
 			}
 		}
-
 		"AboveModelParticlePanel"
 		{
 			"ControlName"							"CTFParticlePanel"
@@ -125,7 +121,6 @@
 			{
 				"xpos"								"cs-0.5-228"
 			}
-
 			"ParticleEffects"
 			{
 				"0"
@@ -159,7 +154,6 @@
 
 			"paintbackground"						"1"
 		}
-
 		"MedalButton"
 		{
 			"ControlName"							"Button"
@@ -178,7 +172,6 @@
 			"backgroundenabled"						"0"
 		}
 	}
-
 	"BGPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -204,7 +197,6 @@
 			"PaintBackground"						"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"NameLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -222,7 +214,6 @@
 			"labelText"								"%name%"
 			"proportionaltoparent"					"1"
 		}
-
 		"MAINMENUDescLine1"
 		{
 			"ControlName"							"CAutoFittingLabel"
@@ -252,7 +243,6 @@
 				"2"									"Light_7"
 			}
 		}
-
 		"MAINMENUDescLine2"
 		{
 			"ControlName"							"CAutoFittingLabel"
@@ -282,7 +272,6 @@
 				"2"									"Light_7"
 			}
 		}
-
 		"DescLine1"
 		{
 			"ControlName"							"CAutoFittingLabel"
@@ -312,7 +301,6 @@
 				"2"									"Light_10"
 			}
 		}
-
 		"DescLine2"
 		{
 			"ControlName"							"CAutoFittingLabel"
@@ -348,7 +336,6 @@
 				"2"									"White"
 			}
 		}
-
 		"StatsContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -366,7 +353,6 @@
 				"wide"								"p0.85"
 				"tall"								"f0"
 			}
-
 			"XPBar"
 			{
 				"Controlname"						"EditablePanel"
@@ -384,7 +370,6 @@
 					"wide"							"p1"
 					"tall"							"30"
 				}
-
 				"CurrentXPLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -407,7 +392,6 @@
 						"wide"						"100"
 					}
 				}
-
 				"NextLevelXPLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -430,7 +414,6 @@
 						"wide"						"100"
 					}
 				}
-
 				"ProgressBarsContainer"
 				{
 					"Controlname"					"EditablePanel"
@@ -448,7 +431,6 @@
 						"wide"						"p1"
 						"tall"						"7"
 					}
-
 					"ProgressBar"
 					{
 						"ControlName"				"ProgressBar"
@@ -469,7 +451,6 @@
 							"wide"					"f0"
 						}
 					}
-
 					"ContinuousProgressBar"
 					{
 						"ControlName"				"ContinuousProgressBar"
@@ -496,7 +477,6 @@
 							"fgcolor_override"		"CreditsGreen"
 						}
 					}
-
 					"Frame"
 					{
 						"Controlname"				"EditablePanel"
@@ -516,7 +496,6 @@
 					}
 				}
 			}
-
 			"Stats"
 			{
 				"ControlName"							"EditablePanel"
@@ -533,7 +512,6 @@
 				{
 					"visible"							"0"
 				}
-
 				"Frame"
 				{
 					"ControlName"						"EditablePanel"
@@ -546,7 +524,6 @@
 					"proportionaltoparent"				"1"
 					"border"							"InnerShadowBorder"
 				}
-
 				// First column
 				"GamesLabel"
 				{
@@ -565,7 +542,6 @@
 					"labelText"							"%stat_games%"
 					"proportionaltoparent"				"1"
 				}
-
 				"KillsLabel"
 				{
 					"ControlName"						"CExLabel"
@@ -583,7 +559,6 @@
 					"labelText"							"%stat_kills%"
 					"proportionaltoparent"				"1"
 				}
-
 				"DeathsLabel"
 				{
 					"ControlName"						"CExLabel"
@@ -601,7 +576,6 @@
 					"labelText"							"%stat_deaths%"
 					"proportionaltoparent"				"1"
 				}
-
 				// Second column
 				"DamageLabel"
 				{
@@ -620,7 +594,6 @@
 					"labelText"							"%stat_damage%"
 					"proportionaltoparent"				"1"
 				}
-
 				"HealingLabel"
 				{
 					"ControlName"						"CExLabel"
@@ -638,7 +611,6 @@
 					"labelText"							"%stat_healing%"
 					"proportionaltoparent"				"1"
 				}
-
 				"SupportLabel"
 				{
 					"ControlName"						"CExLabel"
@@ -656,7 +628,6 @@
 					"labelText"							"%stat_support%"
 					"proportionaltoparent"				"1"
 				}
-
 				// Third column
 				"ScoreLabel"
 				{

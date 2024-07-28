@@ -32,12 +32,11 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
 	}
-
 	"Currency"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Currency"
-		"font"										"Light_11"
+		"font"										"Light_10"
 		"fgcolor"									"White"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -54,13 +53,13 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CurrencyShadow"
-		"font"										"Light_11_Blur"
+		"font"										"Light_10_Blur"
 		"fgcolor"									"Shadow"
-		"xpos"										"-1"
-		"ypos"										"-1"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"3"
-		"wide"										"f0"
-		"tall"										"f1"
+		"wide"										"f-1"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -69,6 +68,10 @@
 		"pin_to_sibling"							"Currency"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"WhiteBG"
 	{
 		"ControlName"								"EditablePanel"

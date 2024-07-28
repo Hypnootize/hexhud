@@ -10,7 +10,6 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-
 	"HudWeaponAmmo"
 	{
 		"fieldName"									"HudWeaponAmmo"
@@ -23,7 +22,6 @@
 		"wide"										"94"
 		"tall"										"45"
 	}
-
 	"HudObjectiveStatus"
 	{
 		"fieldName"									"HudObjectiveStatus"
@@ -34,7 +32,6 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-
 	"HudKothTimeStatus"
 	{
 		"fieldName"									"HudKothTimeStatus"
@@ -51,7 +48,6 @@
 		"red_active_xpos"							"106"
 		"red_active_xpos_minmode"					"105"
 	}
-
 	"HudItemEffectMeter"
 	{
 		"fieldName"									"HudItemEffectMeter"
@@ -66,7 +62,6 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
 	"HudMedicCharge"
 	{
 		"fieldName"									"HudMedicCharge"
@@ -79,7 +74,6 @@
 		"wide"										"200"
 		"tall"										"100"
 	}
-
 	"HudDemomanCharge"
 	{
 		"fieldName"									"HudDemomanCharge"
@@ -96,7 +90,6 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
 	"HudBowCharge"
 	{
 		"fieldName"									"HudBowCharge"
@@ -113,7 +106,6 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
 	"HudFlameRocketCharge"
 	{
 		"fieldName"									"HudFlameRocketCharge"
@@ -130,7 +122,6 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
 	"HudBossHealth"
 	{
 		"fieldName"									"HudBossHealth"
@@ -144,7 +135,6 @@
 		"MeterFG"									"Red"
 		"MeterBG"									"Gray"
 	}
-
 	"HudWeaponSelection"
 	{
 		"fieldName"									"HudWeaponSelection"
@@ -179,7 +169,6 @@
 		"SelectionNumberFg"							"200 187 161 255"
 		"NumberFont"								"HudSelectionText"
 	}
-
 	"CHudAccountPanel"
 	{
 		"fieldName"									"CHudAccountPanel"
@@ -192,7 +181,6 @@
 		"enabled"									"1"
 		"PaintBackgroundType"						"2"
 	}
-
 	"CHealthAccountPanel"
 	{
 		"fieldName"									"CHealthAccountPanel"
@@ -206,7 +194,6 @@
 		"enabled"									"1"
 		"PaintBackgroundType"						"2"
 	}
-
 	"CDamageAccountPanel"
 	{
 		"fieldName"									"CDamageAccountPanel"
@@ -230,7 +217,6 @@
 		"wide"										"500"
 		"tall"										"200"
 	}
-
 	"CMainTargetID"
 	{
 		"fieldName"									"CMainTargetID"
@@ -243,7 +229,6 @@
 		"tall_minmode"								"28"
 		"priority"									"40"
 	}
-
 	"CSpectatorTargetID"
 	{
 		"fieldName"									"CSpectatorTargetID"
@@ -259,7 +244,6 @@
 		"x_offset"									"20"
 		"y_offset"									"20"
 	}
-
 	"CSecondaryTargetID"
 	{
 		"fieldName"									"CSecondaryTargetID"
@@ -272,7 +256,6 @@
 		"tall_minmode"								"28"
 		"priority"									"35"
 	}
-
 	"BuildingStatus_Spy"
 	{
 		"fieldName"									"BuildingStatus_Spy"
@@ -285,7 +268,6 @@
 
 		"PaintBackgroundType"						"2"
 	}
-
 	"BuildingStatus_Engineer"
 	{
 		"fieldName"									"BuildingStatus_Engineer"
@@ -298,7 +280,6 @@
 
 		"PaintBackgroundType"						"2"
 	}
-
 	"HudMannVsMachineStatus"
 	{
 		"fieldName"									"HudMannVsMachineStatus"
@@ -312,7 +293,6 @@
 
 		"PaintBackgroundType"						"2"
 	}
-
 	"CurrencyStatusPanel"
 	{
 		"ControlName"								"CCurrencyStatusPanel"
@@ -328,7 +308,6 @@
 
 		"PaintBackgroundType"						"2"
 	}
-
 	"HudProgressBar"
 	{
 		"fieldName"									"HudProgressBar"
@@ -343,7 +322,6 @@
 
 		"PaintBackgroundType"						"2"
 	}
-
 	"HudRoundTimer"
 	{
 		"fieldName"									"HudRoundTimer"
@@ -363,7 +341,6 @@
 		"digit_xpos"								"34"
 		"digit_ypos"								"2"
 	}
-
 	"HudScenarioIcon"
 	{
 		"fieldName"									"HudScenarioIcon"
@@ -378,7 +355,6 @@
 
 		"IconColor"									"Hostage_Yellow"
 	}
-
 	"HudFlashlight"
 	{
 		"fieldName"									"HudFlashlight"
@@ -395,12 +371,10 @@
 
 		"PaintBackgroundType"						"2"
 	}
-
 	"HudDamageIndicator"
 	{
 
 	}
-
 	"HudCommentary"
 	{
 		"fieldName"									"HudCommentary"
@@ -431,7 +405,6 @@
 
 		"use_script_bgcolor"						"1"
 	}
-
 	"HudZoom"
 	{
 		"fieldName"									"HudZoom"
@@ -443,7 +416,6 @@
 		"DashHeight"								"4"
 		"BorderThickness"							"88"
 	}
-
 	"HudCrosshair"
 	{
 		"fieldName"									"HudCrosshair"
@@ -452,7 +424,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"HudDeathNotice"
 	{
 		"fieldName"									"HudDeathNotice"
@@ -480,7 +451,6 @@
 		"BaseBackgroundColor"						"46 43 42 220"
 		"LocalBackgroundColor"						"245 229 196 200"
 	}
-
 	"HudVehicle"
 	{
 		"fieldName"									"HudVehicle"
@@ -489,7 +459,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"CVProfPanel"
 	{
 		"fieldName"									"CVProfPanel"
@@ -498,7 +467,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"ScorePanel"
 	{
 		"fieldName"									"ScorePanel"
@@ -507,7 +475,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"HudTrain"
 	{
 		"fieldName"									"HudTrain"
@@ -516,7 +483,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"HudMOTD"
 	{
 		"fieldName"									"HudMOTD"
@@ -525,7 +491,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"HudMessage"
 	{
 		"fieldName"									"HudMessage"
@@ -534,7 +499,6 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-
 	"HudMenu"
 	{
 		"fieldName"									"HudMenu"
@@ -548,7 +512,6 @@
 		"ItemFont"									"Default"
 		"ItemFontPulsing"							"Default"
 	}
-
 	"HudSpellMenu"
 	{
 		"fieldName"									"HudSpellMenu"
@@ -564,7 +527,6 @@
 		"ItemFont"									"Default"
 		"ItemFontPulsing"							"Default"
 	}
-
 	"HudCloseCaption"
 	{
 		"fieldName"									"HudCloseCaption"
@@ -583,7 +545,6 @@
 		"ItemFadeOutTime"							"0.3"
 		"topoffset"									"0"
 	}
-
 	"HudHistoryResource"
 	{
 		"fieldName"									"HudHistoryResource"
@@ -594,7 +555,6 @@
 		"tall"										"330"
 		"history_gap"								"55"
 	}
-
 	"HudGeiger"
 	{
 		"fieldName"									"HudGeiger"
@@ -603,7 +563,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"HUDQuickInfo"
 	{
 		"fieldName"									"HUDQuickInfo"
@@ -612,7 +571,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"HudWeapon"
 	{
 		"fieldName"									"HudWeapon"
@@ -621,7 +579,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"HudAnimationInfo"
 	{
 		"fieldName"									"HudAnimationInfo"
@@ -630,7 +587,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"CBudgetPanel"
 	{
 		"fieldName"									"CBudgetPanel"
@@ -639,7 +595,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"CTextureBudgetPanel"
 	{
 		"fieldName"									"CTextureBudgetPanel"
@@ -648,7 +603,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"HudPredictionDump"
 	{
 		"fieldName"									"HudPredictionDump"
@@ -670,7 +624,6 @@
 		"tall"										"16"
 		"textAlignment"								"north"
 	}
-
 	"HudScope"
 	{
 		"fieldName"									"HudScope"
@@ -679,7 +632,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"HudScopeCharge"
 	{
 		"fieldName"									"HudScopeCharge"
@@ -690,7 +642,6 @@
 		"wide"										"64"
 		"tall"										"128"
 	}
-
 	"HudVoiceSelfStatus"
 	{
 		"fieldName"									"HudVoiceSelfStatus"
@@ -701,7 +652,6 @@
 		"wide"										"32"
 		"tall"										"32"
 	}
-
 	"HudVoiceStatus"
 	{
 		"fieldName"									"HudVoiceStatus"
@@ -730,7 +680,6 @@
 
 		"text_xpos"									"33"
 	}
-
 	"HudHintDisplay"
 	{
 		"fieldName"									"HudHintDisplay"
@@ -746,7 +695,6 @@
 		"center_x"									"0"
 		"center_y"									"-1"
 	}
-
 	"HudHintKeyDisplay"
 	{
 		"fieldName"									"HudHintKeyDisplay"
@@ -764,7 +712,6 @@
 
 		"PaintBackgroundType"						"2"
 	}
-
 	"overview"
 	{
 		"fieldName"									"overview"
@@ -775,7 +722,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"VguiScreenCursor"
 	{
 		"fieldName"									"VguiScreenCursor"
@@ -784,7 +730,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"HudControlPointIcons"
 	{
 		"fieldName"									"HudControlPointIcons"
@@ -798,7 +743,6 @@
 		"separator_height"							"7"
 		"height_offset"								"0"
 	}
-
 	"HudCapturePanel"
 	{
 		"fieldName"									"HudCapturePanel"
@@ -810,17 +754,14 @@
 		"enabled"									"1"
 		"icon_space"								"2"
 	}
-
 	"HUDAutoAim"
 	{
 
 	}
-
 	"HudHDRDemo"
 	{
 
 	}
-
 	"WinPanel"
 	{
 		"fieldName"									"WinPanel"
@@ -833,7 +774,6 @@
 		"zpos"										"4"
 		"proportionaltoparent"						"1"
 	}
-
 	"ArenaWinPanel"
 	{
 		"fieldName"									"ArenaWinPanel"
@@ -844,7 +784,6 @@
 		"wide"										"450"
 		"tall"										"218"
 	}
-
 	"PVEWinPanel"
 	{
 		"fieldName"									"PVEWinPanel"
@@ -855,7 +794,6 @@
 		"wide"										"300"
 		"tall"										"215"
 	}
-
 	"StatPanel"
 	{
 		"fieldName"									"StatPanel"
@@ -866,7 +804,6 @@
 		"wide"										"266"
 		"tall"										"120"
 	}
-
 	"FreezePanel"
 	{
 		"fieldName"									"FreezePanel"
@@ -877,7 +814,6 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-
 	"FreezePanelCallout"
 	{
 		"fieldName"									"FreezePanelCallout"
@@ -888,7 +824,6 @@
 		"wide"										"100"
 		"tall"										"50"
 	}
-
 	"AnnotationsPanelCallout"
 	{
 		"fieldName"									"AnnotationsPanelCallout"
@@ -899,12 +834,10 @@
 		"wide"										"100"
 		"tall"										"50"
 	}
-
 	"AnnotationsPanel"
 	{
 
 	}
-
 	"WaitingForPlayersPanel"
 	{
 		"fieldName"									"WaitingForPlayersPanel"
@@ -915,7 +848,6 @@
 		"wide"										"292"
 		"tall"										"64"
 	}
-
 	"HudUpgradePanel"
 	{
 		"fieldName"									"HudUpgradePanel"
@@ -926,7 +858,6 @@
 		"wide"										"400"
 		"tall"										"160"
 	}
-
 	"HudChat"
 	{
 		"ControlName"								"EditablePanel"
@@ -939,7 +870,6 @@
 		"tall"										"120"
 		"PaintBackgroundType"						"2"
 	}
-
 	"HudMenuEngyBuild"
 	{
 		"fieldName"									"HudMenuEngyBuild"
@@ -951,7 +881,6 @@
 		"tall"										"195"
 		"PaintBackgroundType"						"0"
 	}
-
 	"HudMenuEngyDestroy"
 	{
 		"fieldName"									"HudMenuEngyDestroy"
@@ -963,7 +892,6 @@
 		"tall"										"200"
 		"PaintBackgroundType"						"0"
 	}
-
 	"HudEurekaEffectTeleportMenu"
 	{
 		"fieldName"									"HudEurekaEffectTeleportMenu"
@@ -975,7 +903,6 @@
 		"tall"										"195"
 		"PaintBackgroundType"						"0"
 	}
-
 	"HudMenuSpyDisguise"
 	{
 		"fieldName"									"HudMenuSpyDisguise"
@@ -987,7 +914,6 @@
 		"tall"										"200"
 		"PaintBackgroundType"						"0"
 	}
-
 	"HudDemomanPipes"
 	{
 		"fieldName"									"HudDemomanPipes"
@@ -1000,7 +926,6 @@
 		"wide"										"100"
 		"tall"										"50"
 	}
-
 	"HudTeamGoal"
 	{
 		"fieldName"									"HudTeamGoal"
@@ -1011,7 +936,6 @@
 		"wide"										"320"
 		"tall"										"100"
 	}
-
 	"HudTeamGoalTournament"
 	{
 		"fieldName"									"HudTeamGoalTournament"
@@ -1022,7 +946,6 @@
 		"wide"										"320"
 		"tall"										"300"
 	}
-
 	"HudTeamSwitch"
 	{
 		"fieldName"									"HudTeamSwitch"
@@ -1033,7 +956,6 @@
 		"wide"										"320"
 		"tall"										"100"
 	}
-
 	"HudArenaNotification"
 	{
 		"fieldName"									"HudArenaNotification"
@@ -1044,7 +966,6 @@
 		"wide"										"320"
 		"tall"										"150"
 	}
-
 	"HudArenaCapPointCountdown"
 	{
 		"fieldName"									"HudArenaCapPointCountdown"
@@ -1056,7 +977,6 @@
 		"tall"										"30"
 		"zpos"										"99"
 	}
-
 	"HudStalemate"
 	{
 		"fieldName"									"HudStalemate"
@@ -1067,7 +987,6 @@
 		"wide"										"320"
 		"tall"										"100"
 	}
-
 	"HudTournament"
 	{
 		"fieldName"									"HudTournament"
@@ -1079,7 +998,6 @@
 		"wide"										"250"
 		"tall"										"80"
 	}
-
 	"HudTournamentSetup"
 	{
 		"fieldName"									"HudTournamentSetup"
@@ -1090,7 +1008,6 @@
 		"wide"										"180"
 		"tall"										"65"
 	}
-
 	"HudStopWatch"
 	{
 		"fieldName"									"HudStopWatch"
@@ -1102,7 +1019,6 @@
 		"wide"										"125"
 		"tall"										"70"
 	}
-
 	"NotificationPanel"
 	{
 		"fieldName"									"NotificationPanel"
@@ -1113,7 +1029,6 @@
 		"wide"										"640"
 		"tall"										"100"
 	}
-
 	"AchievementNotificationPanel"
 	{
 		"fieldName"									"AchievementNotificationPanel"
@@ -1124,7 +1039,6 @@
 		"wide"										"f10"
 		"tall"										"100"
 	}
-
 	"CriticalPanel"
 	{
 		"fieldName"									"CriticalPanel"
@@ -1135,7 +1049,6 @@
 		"wide"										"150"
 		"tall"										"25"
 	}
-
 	"HudArenaClassLayout"
 	{
 		"fieldName"									"HudArenaClassLayout"
@@ -1146,7 +1059,6 @@
 		"wide"										"f0"
 		"tall"										"320"
 	}
-
 	"HudArenaVsPanel"
 	{
 		"fieldName"									"HudArenaVsPanel"
@@ -1157,7 +1069,6 @@
 		"wide"										"f0"
 		"tall"										"240"
 	}
-
 	"HudArenaPlayerCount"
 	{
 		"fieldName"									"HudArenaPlayerCount"
@@ -1168,7 +1079,6 @@
 		"wide"										"f0"
 		"tall"										"100"
 	}
-
 	"HudAchievementTracker"
 	{
 		"ControlName"								"EditablePanel"
@@ -1182,7 +1092,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"HudTrainingInfoMsg"
 	{
 		"fieldName"									"HudTrainingInfoMsg"
@@ -1193,17 +1102,14 @@
 		"wide"										"200"
 		"tall"										"300"
 	}
-
 	"HudTrainingMsg"
 	{
 
 	}
-
 	"TrainingComplete"
 	{
 
 	}
-
 	"HudInspectPanel"
 	{
 		"fieldName"									"HudInspectPanel"
@@ -1215,7 +1121,6 @@
 		"wide"										"190"
 		"tall"										"f0"
 	}
-
 	"HudTFCrosshair"
 	{
 		"fieldName"									"HudTFCrosshair"
@@ -1224,7 +1129,6 @@
 		"wide"										"640"
 		"tall"										"480"
 	}
-
 	"ItemQuickSwitchPanel"
 	{
 		"fieldName"									"ItemQuickSwitchPanel"
@@ -1235,14 +1139,12 @@
 		"wide"										"250"
 		"tall"										"160"
 	}
-
 	"ReplayReminder"
 	{
 		"fieldName"									"ReplayReminder"
 		"visible"									"0"
 		"enable"									"1"
 	}
-
 	"MainMenuAdditions"
 	{
 		"fieldName"									"MainMenuAdditions"
@@ -1254,7 +1156,6 @@
 		"wide"										"300"
 		"tall"										"100"
 	}
-
 	"CoachedByPanel"
 	{
 		"fieldName"									"CoachedByPanel"
@@ -1265,7 +1166,6 @@
 		"wide"										"250"
 		"tall"										"44"
 	}
-
 	"ItemTestHUDPanel"
 	{
 		"fieldName"									"ItemTestHUDPanel"
@@ -1276,7 +1176,6 @@
 		"wide"										"150"
 		"tall"										"44"
 	}
-
 	"NotificationQueuePanel"
 	{
 		"fieldName"									"NotificationQueuePanel"
@@ -1288,7 +1187,6 @@
 		"wide"										"200"
 		"tall"										"0"
 	}
-
 	"CHudVote"
 	{
 		"fieldName"									"CHudVote"
@@ -1301,7 +1199,6 @@
 		"bgcolor_override"							"0 0 0 0"
 		"PaintBackgroundType"						"0"
 	}
-
 	"HudAlert"
 	{
 		"fieldName"									"HudAlert"
@@ -1326,7 +1223,6 @@
 		"bgcolor_override"							"0 0 0 0"
 		"PaintBackgroundType"						"0"
 	}
-
 	"CTFFlagCalloutPanel"
 	{
 		"fieldName"									"CTFFlagCalloutPanel"
@@ -1338,7 +1234,6 @@
 		"tall"										"40"
 		"priority"									"40"
 	}
-
 	"HudMenuTauntSelection"
 	{
 		"fieldName"									"HudMenuTauntSelection"
@@ -1350,7 +1245,6 @@
 		"tall"										"200"
 		"PaintBackgroundType"						"0"
 	}
-
 	"ItemAttributeTracker"
 	{
 		"fieldName"									"ItemAttributeTracker"
@@ -1362,7 +1256,6 @@
 		"tall"										"f0"
 		"PaintBackgroundType"						"0"
 	}
-
 	"HudMiniGame"
 	{
 		"fieldName"									"HudMiniGame"
@@ -1373,7 +1266,6 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
-
 	"QuestNotificationPanel"
 	{
 		"fieldName"									"QuestNotificationPanel"
@@ -1384,7 +1276,6 @@
 		"wide"										"f0"
 		"tall"										"f0"
 	}
-
 	"MatchMakingContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -1396,7 +1287,6 @@
 		"wide"										"f0"
 		"tall"										"f0"
 	}
-
 	"HudSpectatorExtras"
 	{
 		"fieldName"									"HudSpectatorExtras"
@@ -1407,7 +1297,6 @@
 		"wide"										"f0"
 		"tall"										"f0"
 	}
-
 	"MatchSummary"
 	{
 		"fieldName"									"MatchSummary"
@@ -1418,7 +1307,6 @@
 		"wide"										"f0"
 		"tall"										"f0"
 	}
-
 	"HudMatchStatus"
 	{
 		"fieldName"									"HudMatchStatus"
@@ -1430,7 +1318,6 @@
 		"wide"										"f0"
 		"tall"										"f0"
 	}
-
 	"QueueHUDStatus"
 	{
 		"fieldName"									"QueueHUDStatus"

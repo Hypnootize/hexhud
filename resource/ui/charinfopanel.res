@@ -1,3 +1,4 @@
+#base "hexagon_corners.res"
 #base "../dev/reload_scheme.res"
 
 "Resource/UI/CharInfoPanel.res"
@@ -6,7 +7,6 @@
 	{
 		"ypos"										"35"
 	}
-
 	"character_info"
 	{
 		"ControlName"								"EditablePanel"
@@ -26,7 +26,7 @@
 		"title"										"#CharInfoAndSetup"
 		"title_font"								"Light_16"
 		"titletextinsetX"							"40"
-		"titletextinsetY"							"0"
+		"titletextinsetY"							"-40"
 		"titlebarfgcolor_override"					"Blank"
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
@@ -34,7 +34,43 @@
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"18"
 	}
+	"HExagon_Corners"
+	{
+		"ypos"										"0"
 
+		"HExagon_TopRight"
+		{
+			"ypos"									"24"
+		}
+		"HExagon_BottomRight"
+		{
+		}
+		"HExagon_TopLeft"
+		{
+			"visible"								"0"
+		}
+		"HExagon_BottomLeft"
+		{
+			"visible"								"0"
+		}
+	}
+	"LeftBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"LeftBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"135"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"0"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"Loadout_NavigationBar"
+	}
 	"Sheet"
 	{
 		"ControlName"								"EditablePanel"
@@ -44,7 +80,7 @@
 		"tabwidth"									"240"
 		"tabheight"									"20"
 		"transition_time"							"0"
-		"yoffset"									"14"
+		"yoffset"									"28"
 
 		"HeaderLine"
 		{
@@ -57,7 +93,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"tabskv"
 		{
 			"textinsetx"							"0"
@@ -70,23 +105,6 @@
 			"normalborder_override"					"NoBorder"
 		}
 	}
-
-	"LeftBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"LeftBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-1"
-		"wide"										"135"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Loadout_NavigationBar"
-	}
-
 	"BackButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -150,7 +168,6 @@
 		"Command"									"back"
 		"visible"									"1"
 	}
-
 	"NotificationsPresentPanel"
 	{
 		"ControlName"								"CNotificationsPresentPanel"
@@ -164,6 +181,10 @@
 		"enabled"									"1"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"BackgroundHeader"
 	{
 		"ControlName"								"ImagePanel"

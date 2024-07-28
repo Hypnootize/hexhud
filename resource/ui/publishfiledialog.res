@@ -17,7 +17,6 @@
 		"paintborder"								"1"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"Background"
 	{
 		"ControlName"								"EditablePanel"
@@ -34,7 +33,6 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -51,7 +49,6 @@
 		"font"										"Light_24"
 		"fgcolor"									"White_Dark"
 	}
-
 	"LabelPreview"
 	{
 		"ControlName"								"CExLabel"
@@ -67,7 +64,6 @@
 		"font"										"Light_14"
 		"fgcolor"									"White_Dark"
 	}
-
 	"PreviewImageBorder"
 	{
 		"ControlName"								"EditablePanel"
@@ -101,7 +97,6 @@
 			"fgcolor"								"White_Dark"
 		}
 	}
-
 	"PreviewImage"
 	{
 		"ControlName"								"CBitmapPanel"
@@ -112,7 +107,6 @@
 		"tall"										"150"
 		"visible"									"1"
 	}
-
 	"ButtonPreviewBrowse"
 	{
 		"ControlName"								"Button"
@@ -139,7 +133,6 @@
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
-
 	"LabelTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -155,7 +148,6 @@
 		"font"										"Light_14"
 		"fgcolor"									"White_Dark"
 	}
-
 	"FileTitle"
 	{
 		"ControlName"								"TextEntry"
@@ -176,7 +168,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_14"
 	}
-
 	"LabelDesc"
 	{
 		"ControlName"								"CExLabel"
@@ -212,7 +203,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_14"
 	}
-
 	"LabelSourceFile"
 	{
 		"ControlName"								"CExLabel"
@@ -228,7 +218,6 @@
 		"font"										"Light_14"
 		"fgcolor"									"White_Dark"
 	}
-
 	"SourceFile"
 	{
 		"ControlName"								"CExLabel"
@@ -248,7 +237,6 @@
 		"font"										"Light_14"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ButtonSourceCosmetics"
 	{
 		"ControlName"								"CExImageButton"
@@ -288,7 +276,6 @@
 			"image"									"importtool_goldstar"
 		}
 	}
-
 	"ButtonSourceOther"
 	{
 		"ControlName"								"Button"
@@ -314,7 +301,6 @@
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
-
 	"ButtonSourceMaps"
 	{
 		"ControlName"								"CExImageButton"
@@ -340,7 +326,6 @@
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
-
 	"BrowseDescription"
 	{
 		"ControlName"								"CExLabel"
@@ -357,7 +342,6 @@
 		"font"										"Light_12"
 		"fgcolor"									"White_Dark"
 	}
-
 	"TagsTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -373,7 +357,6 @@
 		"font"										"Light_14"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ClassUsagePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -1085,7 +1068,6 @@
 			"disabledfgcolor2_override"				"White_Darker"
 		}
 	}
-
 	"ButtonClose"
 	{
 		"ControlName"								"CExButton"
@@ -1113,7 +1095,6 @@
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
-
 	"ButtonPublish"
 	{
 		"ControlName"								"CExButton"
@@ -1144,6 +1125,10 @@
 		"depressedFgColor_override"					"FullWhite"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"WorkshopBG"
 	{
 		"ControlName"								"ImagePanel"

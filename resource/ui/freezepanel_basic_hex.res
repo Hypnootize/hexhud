@@ -7,162 +7,100 @@
 
 		"screenshot_move_panel_to_corner"			"0"
 	}
-
 	"itempanel"
 	{
 		"xpos"										"rs1-5"
 	}
-
 	"FreezePanelBase"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"FreezePanelBase"
 		"xpos"										"20"
 		"ypos"										"rs1-20"
-		"wide"										"84"
-		"tall"										"48"
+		"wide"										"200"
+		"tall"										"100"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 
-		"DeathIconBG"
+		"Hexagon"
 		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"DeathIconBG"
-			"xpos"									"0"
-			"ypos"									"rs1"
-			"zpos"									"0"
-			"wide"									"32"
-			"tall"									"32"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Background"
-		}
-		"DeathIconBG2"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"DeathIconBG2"
-			"xpos"									"-2"
-			"ypos"									"-2"
+			"ControlName"							"ImagePanel"
+			"fieldName"								"Hexagon"
+			"xpos"									"cs-0.5"
+			"ypos"									"cs-0.5"
 			"zpos"									"1"
-			"wide"									"28"
-			"tall"									"28"
+			"wide"									"170"
+			"tall"									"85"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Background_Dark"
-			"pin_to_sibling"						"DeathIconBG"
+			"image"									"replay/thumbnails/hex/hex_freeze"
+			"scaleImage"							"1"
+			"drawcolor"								"Background_Light"
 		}
-		"DeathIcon"
+		"Death_Icon"
 		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"DeathIcon"
-			"font"									"Symbols_24"
-			"xpos"									"0"
-			"ypos"									"0"
+			"ControlName"							"CTFImagePanel"
+			"fieldName"								"Death_Icon"
+			"xpos"									"-15"
+			"ypos"									"-6"
 			"zpos"									"2"
-			"wide"									"28"
-			"tall"									"28"
+			"wide"									"69"
+			"tall"									"69"
 			"visible"								"1"
 			"enabled"								"1"
-			"labelText"								"a"
-			"textAlignment"							"center"
-			"fgcolor"								"White"
-			"proportionaltoparent"					"1"
-			"pin_to_sibling"						"DeathIconBG2"
-		}
+			"scaleImage"							"1"
 
+			"image"									"replay/thumbnails/misc/killcam_icon_red"
+			"scaleImage"							"1"
+			"teambg_1"								"replay/thumbnails/misc/killcam_icon_red"
+			"teambg_2"								"replay/thumbnails/misc/killcam_icon_blue"
+			"teambg_3"								"replay/thumbnails/misc/killcam_icon_red"
+
+			"pin_to_sibling"						"Hexagon"
+			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
+		}
 		"FreezePanelHealth"
 		{
 			"ControlName"							"CTFFreezePanelHealth"
 			"fieldName"								"FreezePanelHealth"
-			"xpos"									"2"
-			"ypos"									"0"
-			"zpos"									"1"
-			"wide"									"50"
-			"tall"									"32"
+			"xpos"									"cs-0.5+34"
+			"ypos"									"cs-0.5-6"
+			"zpos"									"3"
+			"wide"									"70"
+			"tall"									"23"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			"HealthBonusPosAdj"						"9"
 			"HealthDeathWarning"					"0.49"
 			"TFFont"								"Light_14"
 			"HealthDeathWarningColor"				"HUDDeathWarning"
 			"TextColor"								"HudOffWhite"
-
-			"pin_to_sibling"						"DeathIconBG"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
-		"FreezeLabelKillerBG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"FreezeLabelKillerBG"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"-1"
-			"wide"									"f0"
-			"tall"									"15"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Background"
-		}
-
-		"FreezeLabelKiller"							// THIS IS PINNED TO THE AVATAR NO MATTER WHAT
+		"FreezeLabelKiller"							// PINNED TO THE AVATAR :/
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabelKiller"
-			"font"									"Light_12"
-			"xpos"									"3"
-			"ypos"									"0"
-			"zpos"									"1"
-			"wide"									"f4"
-			"tall"									"15"
+			"xpos"									"cs-0.5+33"
+			"ypos"									"cs-0.5+12"
+			"zpos"									"3"
+			"wide"									"64"
+			"tall"									"13"
 			"visible"								"1"
 			"enabled"								"1"
+			"font"									"Light_10"
 			"labelText"								"%killername%"
-			"textAlignment"							"west"
+			"textAlignment"							"center"
 			"fgcolor"								"White"
-			"paintbackground"						"0"
 			"proportionaltoparent"					"1"
 		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		//DEAD
 		"AvatarImage"
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"AvatarImage"
-			"xpos"									"3"
+			"xpos"									"cs-0.5+2"
 			"ypos"									"0"
 			"zpos"									"1"
 			"wide"									"0"
@@ -174,6 +112,11 @@
 			"proportionaltoparent"					"1"
 			"color_outline"							"Blank"
 		}
+
+
+		//===================================================================================
+		// REMOVED ELEMENTS
+		//===================================================================================
 		"FreezePanelBG"
 		{
 			"ControlName"							"CTFImagePanel"
@@ -233,7 +176,6 @@
 			"image"									"../hud/freezecam_black_bg"
 			"scaleImage"							"1"
 		}
-
 		"ScreenshotIcon"
 		{
 			"ControlName"							"ImagePanel"
@@ -248,7 +190,6 @@
 			"image"									"../hud/ico_camera"
 			"scaleImage"							"1"
 		}
-
 		"ScreenshotLabel"
 		{
 			"ControlName"							"CExLabel"

@@ -287,7 +287,7 @@
 		{
 			"1"
 			{
-				"name"										"Hypnotize Icons HEx7"
+				"name"										"Hypnotize Icons HEx8"
 				"tall"										"14"
 				"antialias"									"1"
 			}
@@ -812,8 +812,9 @@
 		}
 		"4"
 		{
-			"font"	"resource/scheme/fonts/Hypnotize_Icons.ttf"
-			"name"	"Hypnotize Icons HEx7"
+			"font"	"resource/scheme/fonts/Hypnotize_Icons.ttf"								[$WINDOWS]
+			"font"	"resource/scheme/fonts/Hypnotize_Icons_linux.ttf"						[$POSIX]
+			"name"	"Hypnotize Icons HEx8"
 		}
 	}
 }

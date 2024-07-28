@@ -12,7 +12,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	// Fullscreen background panel
 	"BgPanel"
 	{
@@ -25,7 +24,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"DialogFrame"
 	{
 		"ControlName"								"EditablePanel"
@@ -76,7 +74,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"MapsDescLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -96,7 +93,6 @@
 			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"PromotionImage_Hat"
 		{
 			"ControlName"							"ImagePanel"
@@ -113,7 +109,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -125,7 +120,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"BackButton"
 	{
 		"ControlName"								"CExButton"

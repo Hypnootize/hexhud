@@ -1,3 +1,3 @@
-
-#base "../../customizations/health_styles.res"
-#base "hudplayerhealth_base.res"
+#base "../../../../cfg/hexhud/hex_health.txt"
+#base "../../../../cfg/hexhud/hex_health_minmode.txt"
+#base "hudplayerhealth_hex.res"

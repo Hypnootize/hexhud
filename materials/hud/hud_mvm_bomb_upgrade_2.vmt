@@ -5,4 +5,5 @@
 	"$alpha"					"1"
 	"$translucent"				"1"
 	"$vertexcolor"				"1"
+	"$color"					"{255 255 255}"
 }

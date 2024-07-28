@@ -13,7 +13,6 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"GoalLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -49,7 +48,6 @@
 		"textAlignment"								"North"
 		"pin_to_sibling"							"GoalLabel"
 	}
-
 	"MsgLabel"
 	{
 		"ControlName"								"CExRichText"
@@ -67,7 +65,6 @@
 		"textAlignment"								"North"
 		"font"										"Light_11"
 	}
-
 	"PressSpacebarToContinue"
 	{
 		"ControlName"								"CExLabel"
@@ -85,7 +82,6 @@
 		"textAlignment"								"North"
 		"font"										"Light_12"
 	}
-
 	"HudTrainingMsgBG"
 	{
 		"ControlName"								"CTFImagePanel"

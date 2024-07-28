@@ -7,12 +7,11 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
-		"wide"										"190"
+		"wide"										"191"
 		"tall"										"12"
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	"TankImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -28,22 +27,20 @@
 		"image"										"../hud/leaderboard_class_tank"
 		"scaleImage"								"1"
 	}
-
 	"ProgressBar"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"ProgressBar"
-		"xpos"										"rs1-1"
+		"xpos"										"15"
 		"ypos"										"cs-0.5"
 		"zpos"										"5"
-		"wide"										"f16"
+		"wide"										"170"
 		"tall"										"f2"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"image"										"replay/thumbnails/panels/flat_blue"
 	}
-
 	"ProgressBarBG"
 	{
 		"ControlName"								"ScalableImagePanel"

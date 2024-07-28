@@ -14,9 +14,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"Background_Main"
-		"infocus_bgcolor_override"					"Background_Main"
-		"outoffocus_bgcolor_override"				"Background_Main"
+		"bgcolor_override"							"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"item_controls_xoffset"						"2"
 		"item_controls_yoffset"						"2"
@@ -90,7 +90,6 @@
 
 			"use_item_sounds"						"1"
 		}
-
 		"modelpanel_labels_kv"
 		{
 			"font"									"Light_11"
@@ -106,7 +105,6 @@
 
 			"use_item_sounds"						"1"
 		}
-
 		"cart_modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -141,7 +139,6 @@
 
 			"use_item_sounds"						"1"
 		}
-
 		"cart_labels_kv"
 		{
 			"font"									""
@@ -157,7 +154,6 @@
 			"alpha"									"0"
 		}
 	}
-
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -174,7 +170,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"proportionaltoparent"						"1"
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -212,7 +207,6 @@
 			"centerwrap"							"1"
 		}
 	}
-
 	"ItemCategoryTabs"
 	{
 		"ControlName"								"CNavigationPanel"
@@ -258,7 +252,6 @@
 			"keyboardinputenabled"					"0"
 		}
 	}
-
 	"PrevPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -296,7 +289,6 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -317,7 +309,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"NextPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -355,7 +346,6 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"CartButton"
 	{
 		"ControlName"								"CExButton"
@@ -389,7 +379,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"CartImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -406,7 +395,6 @@
 		"Alpha"										"0"
 		"pin_to_sibling"							"CartButton"
 	}
-
 	"MarketPlaceButton"
 	{
 		"ControlName"								"CExButton"
@@ -439,7 +427,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
-
 	"BackpackSpaceLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -458,9 +445,9 @@
 	}
 
 
-
-
-
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"

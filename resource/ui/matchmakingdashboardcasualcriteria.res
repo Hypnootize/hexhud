@@ -13,7 +13,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"criteria"
 	{
 		"ControlName"								"CCasualCriteriaPanel"
@@ -26,7 +25,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"CasualImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -41,7 +39,6 @@
 		"scaleimage"								"1"
 		"image"										"replay/thumbnails/mm_menu/casualbg"
 	}
-
 	"Title"
 	{
 		"ControlName"								"CexLabel"
@@ -82,7 +79,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"ToolTipButtonHack"
 	{
 		"ControlName"								"EditablePanel"
@@ -99,7 +95,6 @@
 		"showtooltipswhenmousedisabled"				"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"QueueButton"
 	{
 		"ControlName"								"CExButton"

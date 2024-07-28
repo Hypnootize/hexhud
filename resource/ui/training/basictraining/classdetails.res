@@ -49,7 +49,6 @@
 			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"WeaponSetLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -67,7 +66,6 @@
 			"AllCaps"								"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"DescLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -86,7 +84,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"WeaponBG0"
 		{
 			"ControlName"							"EditablePanel"
@@ -147,7 +144,6 @@
 			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
-
 		"WeaponBG1"
 		{
 			"ControlName"							"EditablePanel"
@@ -212,7 +208,6 @@
 			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
-
 		"WeaponBG2"
 		{
 			"ControlName"							"EditablePanel"
@@ -278,7 +273,6 @@
 			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
 	}
-
 	"StartTrainingButton"
 	{
 		"ControlName"								"CExButton"
@@ -310,7 +304,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"ClassImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -325,7 +318,6 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"ClassIconImage"
 	{
 		"ControlName"								"ImagePanel"

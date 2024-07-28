@@ -1,26 +1,9 @@
 "Resource/UI/FreezePanelKillerHealth.res"
 {
-	"Health_Killer_BG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"Health_Killer_BG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"paintbackground"							"1"
-		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"Background"
-	}
-
-	"Health_Killer"
+	"Health"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"Health_Killer"
+		"fieldName"									"Health"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"20"
@@ -34,11 +17,10 @@
 		"fgcolor"									"Health_Numbers"
 		"proportionaltoparent"						"1"
 	}
-
-	"Health_Killer_Shadow"
+	"Health_Shadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"Health_Killer_Shadow"
+		"fieldName"									"Health_Shadow"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"19"
@@ -51,16 +33,13 @@
 		"font"										"Bold_24_Blur"
 		"fgcolor"									"Shadow"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling"							"Health_Killer"
+		"pin_to_sibling"							"Health"
 	}
 
 
-
-
-
-
-
-	//REMOVED STUFF
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"								"ImagePanel"

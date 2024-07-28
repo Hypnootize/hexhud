@@ -1,2 +1,2 @@
-#base "../../customizations/#streamermode/winpanel.res"
+#base "../../../../cfg/hexhud/hex_win_stream.txt"
 #base "winpanel_hex.res"

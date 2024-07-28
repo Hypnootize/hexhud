@@ -13,9 +13,8 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"TransparentBackground"
+		"bgcolor_override"							"Background_Transparent"
 	}
-
 	"WaveCompleteContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -32,7 +31,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WaveCompleteLabelShadow"
-			"font"									"Light_16_Blur"
+			"font"									"Bold_16_Blur"
 			"textAlignment"							"center"
 			"labelText"								"%titletext%"
 			"xpos"									"0"
@@ -50,12 +49,11 @@
 			"fgcolor"								"Shadow"
 			"bgcolor_override"						"Green"
 		}
-
 		"WaveCompleteLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WaveCompleteLabel"
-			"font"									"Light_16"
+			"font"									"Bold_16"
 			"textAlignment"							"center"
 			"labelText"								"%titletext%"
 			"xpos"									"1"
@@ -71,7 +69,6 @@
 			"pin_to_sibling"						"WaveCompleteLabelShadow"
 		}
 	}
-
 	"CreditContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -96,7 +93,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-
 		"CreditCollectedCountLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -111,7 +107,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"Green"
 		}
-
 		"CreditMissedTextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -126,7 +121,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-
 		"CreditMissedCountLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -141,7 +135,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"Red"
 		}
-
 		"CreditBonusTextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -156,7 +149,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-
 		"CreditBonusCountLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -172,7 +164,6 @@
 			"fgcolor"								"Green"
 		}
 	}
-
 	"RatingContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -197,7 +188,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-
 		"RatingTextShadow"
 		{
 			"ControlName"							"CExLabel"
@@ -212,7 +202,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"Shadow"
 		}
-
 		"RatingText"
 		{
 			"ControlName"							"CExLabel"
@@ -228,7 +217,6 @@
 			"fgcolor"								"White"
 		}
 	}
-
 	"RespecBackground"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -242,7 +230,6 @@
 		"image"										"replay/thumbnails/panels/flat_background"
 		"alpha"										"220"
 	}
-
 	"RespecContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -268,7 +255,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-
 		"RespecCountLabel"
 		{
 			"ControlName"							"CExLabel"

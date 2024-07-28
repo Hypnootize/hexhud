@@ -19,7 +19,6 @@
 		"paintborder"								"1"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"Background"
 	{
 		"ControlName"								"EditablePanel"
@@ -36,7 +35,6 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-
 	"WorkshopBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -59,7 +57,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -75,7 +72,6 @@
 		"font"										"Light_24"
 		"fgcolor"									"White_Dark"
 	}
-
 	"NameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -91,7 +87,6 @@
 		"font"										"Light_12"
 		"fgcolor"									"White_Dark"
 	}
-
 	"Name"
 	{
 		"ControlName"								"TextEntry"
@@ -111,7 +106,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_11"
 	}
-
 	"TypeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -127,7 +121,6 @@
 		"font"										"Light_12"
 		"fgcolor"									"White_Dark"
 	}
-
 	"TypeComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -159,7 +152,6 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-
 	"EquipRegionPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -186,7 +178,6 @@
 			"font"									"Light_12"
 			"fgcolor"								"White_Dark"
 		}
-
 		"EquipRegionComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -219,7 +210,6 @@
 			}
 		}
 	}
-
 	"WorkshopIDLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -235,7 +225,6 @@
 		"font"										"Light_12"
 		"fgcolor"									"White_Dark"
 	}
-
 	"WorkshopIDTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -256,7 +245,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_11"
 	}
-
 	"TFEnglishNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -272,7 +260,6 @@
 		"font"										"Light_12"
 		"fgcolor"									"White_Dark"
 	}
-
 	"TFEnglishNameTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -293,7 +280,6 @@
 		"PaintBackgroundType"						"0"
 		"font"										"Light_11"
 	}
-
 	"PerforceCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -309,7 +295,6 @@
 		"enabled"									"1"
 		"border"									"SteamWorkshopBorder"
 	}
-
 	"PartnerCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -325,7 +310,6 @@
 		"enabled"									"1"
 		"border"									"SteamWorkshopBorder"
 	}
-
 	"IconPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -365,7 +349,6 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-
 		"ButtonIconBrowse"
 		{
 			"ControlName"							"CExImageButton"
@@ -392,7 +375,6 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-
 		"Icon"
 		{
 			"ControlName"							"ImagePanel"
@@ -403,7 +385,6 @@
 			"wide"									"190"
 			"tall"									"122"
 		}
-
 		"IconLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -421,7 +402,6 @@
 			"fgcolor"								"White_Dark"
 		}
 	}
-
 	"ClassModelsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -450,7 +430,6 @@
 			"font"									"Light_11"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassHighlight1"
 		{
 			"ControlName"							"Panel"
@@ -668,7 +647,6 @@
 			"defaultFgColor_override"				"White_Dark"
 		}
 	}
-
 	"BodygroupsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -698,7 +676,6 @@
 			"font"									"Light_11"
 			"fgcolor"								"White_Dark"
 		}
-
 		"Bodygroup0"
 		{
 			"ControlName"							"CheckButton"
@@ -716,7 +693,6 @@
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
-
 		"Bodygroup1"
 		{
 			"ControlName"							"CheckButton"
@@ -734,7 +710,6 @@
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
-
 		"Bodygroup2"
 		{
 			"ControlName"							"CheckButton"
@@ -752,7 +727,6 @@
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
-
 		"Bodygroup3"
 		{
 			"ControlName"							"CheckButton"
@@ -770,7 +744,6 @@
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
-
 		"Bodygroup4"
 		{
 			"ControlName"							"CheckButton"
@@ -788,7 +761,6 @@
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
-
 		"Bodygroup5"
 		{
 			"ControlName"							"CheckButton"
@@ -806,7 +778,6 @@
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
-
 		"Bodygroup6"
 		{
 			"ControlName"							"CheckButton"
@@ -824,7 +795,6 @@
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
-
 		"Bodygroup7"
 		{
 			"ControlName"							"CheckButton"
@@ -842,7 +812,6 @@
 			"command"								"UpdateBodygroup"
 			"border"								"SteamWorkshopBorder"
 		}
-
 		"Bodygroup8"
 		{
 			"ControlName"							"CheckButton"
@@ -861,7 +830,6 @@
 			"border"								"SteamWorkshopBorder"
 		}
 	}
-
 	"LODsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -973,7 +941,6 @@
 				"fgcolor"							"White_Dark"
 			}
 		}
-
 		"LOD1Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1080,7 +1047,6 @@
 				"fgcolor"							"White_Dark"
 			}
 		}
-
 		"LOD2Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1186,7 +1152,6 @@
 				"fgcolor"							"White_Dark"
 			}
 		}
-
 		"ButtonEditQC"
 		{
 			"ControlName"							"CExButton"
@@ -1215,7 +1180,6 @@
 			"depressedBgColor_override"				"Button_Hover"
 		}
 	}
-
 	"SkinsPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -1244,7 +1208,6 @@
 			"font"									"Light_12"
 			"fgcolor"								"White_Dark"
 		}
-
 		"SwapVMTButton"
 		{
 			"ControlName"							"CExButton"
@@ -1271,7 +1234,6 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-
 		"SkinComboBox"
 		{
 			"ControlName"							"ComboBox"
@@ -1302,7 +1264,6 @@
 				"paintbackgroundtype"				"0"
 			}
 		}
-
 		"Material0Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1366,7 +1327,6 @@
 				"fgcolor"							"White_Dark"
 			}
 		}
-
 		"Material1Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1430,7 +1390,6 @@
 				"fillcolor"							"255 0 0 255"
 			}
 		}
-
 		"Material2Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1494,7 +1453,6 @@
 				"fgcolor"							"White_Dark"
 			}
 		}
-
 		"Material3Panel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1558,7 +1516,6 @@
 				"fgcolor"							"White_Dark"
 			}
 		}
-
 		"Paintable0CheckBox"
 		{
 			"ControlName"							"CheckButton"
@@ -1576,7 +1533,6 @@
 			"command"								"UpdatePaintable0"
 			"border"								"SteamWorkshopBorder"
 		}
-
 		"Paintable1CheckBox"
 		{
 			"ControlName"							"CheckButton"
@@ -1609,7 +1565,6 @@
 		"font"										"Light_12"
 		"fgcolor"									"White_Dark"
 	}
-
 	"TauntInputPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -1724,7 +1679,6 @@
 				"fgcolor"							"White_Dark"
 			}
 		}
-
 		"AnimationVCDPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -1815,7 +1769,6 @@
 				"fgcolor"							"White_Dark"
 			}
 		}
-
 		"AnimDurationLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1828,7 +1781,6 @@
 			"font"									"Light_11"
 			"fgcolor"								"White_Dark"
 		}
-
 		"AnimationLoopCheckButton"
 		{
 			"ControlName"							"CheckButton"
@@ -1845,7 +1797,6 @@
 			"command"								"UpdateAnimationLoopable"
 			"border"								"SteamWorkshopBorder"
 		}
-
 		"AnimationLoopStartLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1859,7 +1810,6 @@
 			"font"									"Light_11"
 			"fgcolor"								"White_Dark"
 		}
-
 		"AnimationLoopStartTextEntry"
 		{
 			"ControlName"							"TextEntry"
@@ -1881,7 +1831,6 @@
 			"PaintBackgroundType"					"0"
 			"font"									"Light_11"
 		}
-
 		"ButtonEditQCI"
 		{
 			"ControlName"							"CExButton"
@@ -1910,7 +1859,6 @@
 			"depressedBgColor_override"				"Button_Hover"
 		}
 	}
-
 	"ButtonLoad"
 	{
 		"ControlName"								"CExImageButton"
@@ -1936,7 +1884,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"ButtonClose"
 	{
 		"ControlName"								"CExButton"
@@ -1962,7 +1909,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"ButtonPreview"
 	{
 		"ControlName"								"CExButton"
@@ -1989,7 +1935,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"ButtonVerify"
 	{
 		"ControlName"								"CExButton"
@@ -2016,7 +1961,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"ButtonBuild"
 	{
 		"ControlName"								"CExButton"
@@ -2043,7 +1987,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"BetaNotice"
 	{
 		"ControlName"								"ImagePanel"
@@ -2057,7 +2000,6 @@
 		"image"										"beta"
 		"visible"									"0"
 	}
-
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"

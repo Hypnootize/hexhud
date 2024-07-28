@@ -2,15 +2,14 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"								"120"
-		"delta_item_start_y"						"5"
-		"delta_item_end_y"							"10"
+		"delta_item_x"								"123"
+		"delta_item_start_y"						"9"
+		"delta_item_end_y"							"9"
 		"PositiveColor"								"Green"
 		"NegativeColor"								"255 0 0 155"
 		"delta_lifetime"							"1"
 		"delta_item_font"							"Bold_14"
 	}
-
 	"AccountValue"
 	{
 		"ControlName"								"CExLabel"
@@ -26,10 +25,9 @@
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 		"font"										"Metal"
-		"font_minmode"								"Metal_Minmode"
+		"font_minmode"								"Counters_Centered"
 		"fgcolor"									"White"
 	}
-
 	"AccountValueShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -45,13 +43,16 @@
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
 		"font"										"Metal_Shadow"
-		"font_minmode"								"Metal_Shadow_Minmode"
+		"font_minmode"								"Counters_Shadow_Centered"
 		"fgcolor"									"Shadow"
 
 		"pin_to_sibling"							"AccountValue"
 	}
 
 
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"AccountBG"
 	{
 		"ControlName"								"CTFImagePanel"

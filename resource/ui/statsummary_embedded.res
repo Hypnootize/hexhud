@@ -1,6 +1,7 @@
 #base "../dev/reload_scheme.res"
 
-// THIS WHOLE SCREEN DESIGN KINDA SUCKS, REVIEW IN THE FUTURE!!
+// THIS WHOLE SCREEN DESIGN KINDA SUCKS, REVIEW IN THE FUTURE!! - Hypno from 2021
+// IT KINDA DOES BUT I CBD RIGHT NOW - Hypno from 2024
 
 "Resource/UI/StatSummary_Embedded.res"
 {
@@ -8,23 +9,6 @@
 	{
 		"ypos"										"50"
 	}
-
-	"LeftBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"LeftBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"0"
-		"wide"										"135"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Loadout_NavigationBar"
-	}
-
 	"StatsIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -83,7 +67,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"TFStatsSummary"
 	{
 		"ControlName"								"EditablePanel"
@@ -94,35 +77,34 @@
 		"tall"										"480"
 		"visible"									"0"
 		"enabled"									"1"
-		"bgcolor_override"							"Background_Main"
+		"bgcolor_override"							"Blank"
 	}
-
 	"ResetStatsButton2"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ResetStatsButton2"
-		"xpos"										"r20"
-		"ypos"										"10"
+		"xpos"										"0"
+		"ypos"										"rs1-68"
 		"zpos"										"20"
-		"wide"										"18"
-		"tall"										"18"
+		"wide"										"135"
+		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"D"
-		"font"										"Symbols_14"
+		"AllCaps"									"1"
+		"labelText"									"Reset Stats"
+		"font"										"Light_12"
 		"textAlignment"								"center"
 		"Command"									"resetstatsbutton"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 
-		"paintbackground"							"0"
+		"paintbackground"							"1"
 		"paintborder"								"0"
 
-		"defaultFgColor_override"					"Gray_Blue_Light"
+		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 	}
-
 	"StatData"
 	{
 		"ControlName"								"EditablePanel"
@@ -185,7 +167,6 @@
 			"fgcolor"								"White_Dark"
 			"pin_to_sibling"						"TitleBG"
 		}
-
 		"BestMomentsBackground"
 		{
 			"ControlName"							"EditablePanel"
@@ -205,7 +186,6 @@
 			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"					"PIN_CENTER_BOTTOM"
 		}
-
 		"InteractiveHeaders"
 		{
 			"ControlName"							"EditablePanel"
@@ -255,7 +235,6 @@
 					"paintbackgroundtype"			"0"
 				}
 			}
-
 			"ClassCombo"
 			{
 				"ControlName"						"ComboBox"
@@ -292,7 +271,6 @@
 					"paintbackgroundtype"			"0"
 				}
 			}
-
 			"BarChartComboB"
 			{
 				"ControlName"						"ComboBox"
@@ -330,7 +308,6 @@
 				}
 			}
 		}
-
 		"ClassBarBG1A"
 		{
 			"ControlName"							"ImagePanel"
@@ -346,7 +323,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar1A"
 		{
 			"ControlName"							"ImagePanel"
@@ -362,7 +338,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar1B"
 		{
 			"ControlName"							"ImagePanel"
@@ -378,7 +353,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarLabel1A"
 		{
 			"ControlName"							"CExLabel"
@@ -396,7 +370,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassBarLabel1B"
 		{
 			"ControlName"							"CExLabel"
@@ -414,7 +387,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassLabel1"
 		{
 			"ControlName"							"CExLabel"
@@ -435,7 +407,6 @@
 			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarBG2A"
 		{
 			"ControlName"							"ImagePanel"
@@ -451,7 +422,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar2A"
 		{
 			"ControlName"							"ImagePanel"
@@ -466,7 +436,6 @@
 			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 		}
-
 		"ClassBar2B"
 		{
 			"ControlName"							"ImagePanel"
@@ -481,7 +450,6 @@
 			"fillcolor"								"Gray_Blue_Light"
 			"PaintBackgroundType"					"0"
 		}
-
 		"ClassBarLabel2A"
 		{
 			"ControlName"							"CExLabel"
@@ -499,7 +467,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassBarLabel2B"
 		{
 			"ControlName"							"CExLabel"
@@ -517,7 +484,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassLabel2"
 		{
 			"ControlName"							"CExLabel"
@@ -538,7 +504,6 @@
 			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarBG3A"
 		{
 			"ControlName"							"ImagePanel"
@@ -554,7 +519,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar3A"
 		{
 			"ControlName"							"ImagePanel"
@@ -570,7 +534,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar3B"
 		{
 			"ControlName"							"ImagePanel"
@@ -586,7 +549,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarLabel3A"
 		{
 			"ControlName"							"CExLabel"
@@ -604,7 +566,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassBarLabel3B"
 		{
 			"ControlName"							"CExLabel"
@@ -622,7 +583,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassLabel3"
 		{
 			"ControlName"							"CExLabel"
@@ -643,7 +603,6 @@
 			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarBG4A"
 		{
 			"ControlName"							"ImagePanel"
@@ -659,7 +618,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar4A"
 		{
 			"ControlName"							"ImagePanel"
@@ -675,7 +633,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar4B"
 		{
 			"ControlName"							"ImagePanel"
@@ -691,7 +648,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarLabel4A"
 		{
 			"ControlName"							"CExLabel"
@@ -709,7 +665,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassBarLabel4B"
 		{
 			"ControlName"							"CExLabel"
@@ -727,7 +682,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassLabel4"
 		{
 			"ControlName"							"CExLabel"
@@ -748,7 +702,6 @@
 			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarBG5A"
 		{
 			"ControlName"							"ImagePanel"
@@ -764,7 +717,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar5A"
 		{
 			"ControlName"							"ImagePanel"
@@ -780,7 +732,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar5B"
 		{
 			"ControlName"							"ImagePanel"
@@ -796,7 +747,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarLabel5A"
 		{
 			"ControlName"							"CExLabel"
@@ -814,7 +764,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassBarLabel5B"
 		{
 			"ControlName"							"CExLabel"
@@ -832,7 +781,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassLabel5"
 		{
 			"ControlName"							"CExLabel"
@@ -853,7 +801,6 @@
 			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarBG6A"
 		{
 			"ControlName"							"ImagePanel"
@@ -869,7 +816,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar6A"
 		{
 			"ControlName"							"ImagePanel"
@@ -885,7 +831,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar6B"
 		{
 			"ControlName"							"ImagePanel"
@@ -901,7 +846,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarLabel6A"
 		{
 			"ControlName"							"CExLabel"
@@ -919,7 +863,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassBarLabel6B"
 		{
 			"ControlName"							"CExLabel"
@@ -937,7 +880,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassLabel6"
 		{
 			"ControlName"							"CExLabel"
@@ -958,7 +900,6 @@
 			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarBG7A"
 		{
 			"ControlName"							"ImagePanel"
@@ -974,7 +915,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar7A"
 		{
 			"ControlName"							"ImagePanel"
@@ -990,7 +930,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar7B"
 		{
 			"ControlName"							"ImagePanel"
@@ -1006,7 +945,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarLabel7A"
 		{
 			"ControlName"							"CExLabel"
@@ -1024,7 +962,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassBarLabel7B"
 		{
 			"ControlName"							"CExLabel"
@@ -1042,7 +979,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassLabel7"
 		{
 			"ControlName"							"CExLabel"
@@ -1063,7 +999,6 @@
 			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarBG8A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1079,7 +1014,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar8A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1095,7 +1029,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar8B"
 		{
 			"ControlName"							"ImagePanel"
@@ -1111,7 +1044,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarLabel8A"
 		{
 			"ControlName"							"CExLabel"
@@ -1129,7 +1061,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassBarLabel8B"
 		{
 			"ControlName"							"CExLabel"
@@ -1147,7 +1078,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassLabel8"
 		{
 			"ControlName"							"CExLabel"
@@ -1168,7 +1098,6 @@
 			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarBG9A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1184,7 +1113,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar9A"
 		{
 			"ControlName"							"ImagePanel"
@@ -1200,7 +1128,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBar9B"
 		{
 			"ControlName"							"ImagePanel"
@@ -1216,7 +1143,6 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"ClassBarLabel9A"
 		{
 			"ControlName"							"CExLabel"
@@ -1234,7 +1160,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassBarLabel9B"
 		{
 			"ControlName"							"CExLabel"
@@ -1252,7 +1177,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"ClassLabel9"
 		{
 			"ControlName"							"CExLabel"
@@ -1273,7 +1197,6 @@
 			"fgcolor"								"White_Dark"
 			"proportionaltoparent"					"1"
 		}
-
 		"RecordsLabel1"
 		{
 			"ControlName"							"CExLabel"
@@ -1294,7 +1217,6 @@
 			"fgcolor"								"White_Dark"
 			"bgcolor_override"						"Gray_Blue_Dark"
 		}
-
 		"OverallRecord1Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1343,7 +1265,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord2Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1369,7 +1290,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"OverallRecord2Value"
 		{
 			"ControlName"							"CExLabel"
@@ -1395,7 +1315,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord3Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1421,7 +1340,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"OverallRecord3Value"
 		{
 			"ControlName"							"CExLabel"
@@ -1447,7 +1365,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord4Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1473,7 +1390,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"OverallRecord4Value"
 		{
 			"ControlName"							"CExLabel"
@@ -1499,7 +1415,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord5Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1525,7 +1440,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"OverallRecord5Value"
 		{
 			"ControlName"							"CExLabel"
@@ -1551,7 +1465,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord6Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1577,7 +1490,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord6Value"
 		{
 			"ControlName"							"CExLabel"
@@ -1603,7 +1515,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord7Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1629,7 +1540,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"OverallRecord7Value"
 		{
 			"ControlName"							"CExLabel"
@@ -1655,7 +1565,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord8Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1681,7 +1590,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"OverallRecord8Value"
 		{
 			"ControlName"							"CExLabel"
@@ -1707,7 +1615,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord9Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1733,7 +1640,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"OverallRecord9Value"
 		{
 			"ControlName"							"CExLabel"
@@ -1759,7 +1665,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord10Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1785,7 +1690,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"OverallRecord10Value"
 		{
 			"ControlName"							"CExLabel"
@@ -1811,7 +1715,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord11Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1837,7 +1740,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord11Value"
 		{
 			"ControlName"							"CExLabel"
@@ -1863,7 +1765,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord12Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1889,7 +1790,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"OverallRecord12Value"
 		{
 			"ControlName"							"CExLabel"
@@ -1915,7 +1815,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord13Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1941,7 +1840,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"OverallRecord13Value"
 		{
 			"ControlName"							"CExLabel"
@@ -1967,7 +1865,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord14Label"
 		{
 			"ControlName"							"CExLabel"
@@ -1993,7 +1890,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"OverallRecord14Value"
 		{
 			"ControlName"							"CExLabel"
@@ -2019,7 +1915,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-
 		"OverallRecord15Label"
 		{
 			"ControlName"							"CExLabel"
@@ -2045,7 +1940,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"OverallRecord15Value"
 		{
 			"ControlName"							"CExLabel"
@@ -2072,6 +1966,10 @@
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
 
+
+		//===================================================================================
+		// REMOVED ELEMENTS
+		//===================================================================================
 		"NonInteractiveHeaders"
 		{
 			"ControlName"							"EditablePanel"

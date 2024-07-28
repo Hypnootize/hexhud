@@ -24,7 +24,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"CompetitiveImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -39,7 +38,6 @@
 		"scaleimage"								"1"
 		"image"										"replay/thumbnails/mm_menu/competitivebg"
 	}
-
 	"Title"
 	{
 		"ControlName"								"CexLabel"
@@ -80,7 +78,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"ShowExplanationsButton"
 	{
 		"ControlName"								"CExButton"
@@ -116,7 +113,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"RankTooltipPanel"
 	{
 		"ControlName"								"ImagePanel"
@@ -133,7 +129,6 @@
 		"scaleImage"								"1"
 		"alpha"										"75"
 	}
-
 	"ToolTipButtonHack"
 	{
 		"ControlName"								"EditablePanel"
@@ -150,7 +145,6 @@
 		"showtooltipswhenmousedisabled"				"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"QueueButton"
 	{
 		"ControlName"								"CExButton"

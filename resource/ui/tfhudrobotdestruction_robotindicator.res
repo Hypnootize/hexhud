@@ -25,7 +25,6 @@
 			"visible"								"1"
 			"proportionalToParent"					"1"
 		}
-
 		"ActiveState"
 		{
 			"fieldName"								"ActiveState"
@@ -39,7 +38,6 @@
 			"visible"								"1"
 			"proportionalToParent"					"1"
 		}
-
 		"ShieldedState"
 		{
 			"fieldName"								"ShieldedState"

@@ -17,7 +17,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Gray_Blue_Dark"
 	}
-
 	"TextLabel"
 	{
 		"ControlName"								"CExLabel"

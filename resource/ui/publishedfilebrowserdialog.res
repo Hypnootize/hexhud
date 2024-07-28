@@ -14,7 +14,6 @@
 		"Title"										"#TF_PublishedFiles_Browse"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"Background"
 	{
 		"ControlName"								"EditablePanel"
@@ -28,7 +27,6 @@
 		"enabled"									"1"
 		"bgcolor_override"							"Background_Secondary"
 	}
-
 	"LabelPublishedFiles"
 	{
 		"ControlName"								"CExLabel"
@@ -44,7 +42,6 @@
 		"fgcolor"									"White_Dark"
 
 	}
-
 	"PublishedFileList"
 	{
 		"ControlName"								"ListPanel"
@@ -58,7 +55,6 @@
 		"textAlignment"								"west"
 		"fgcolor"									"White_Dark"
 	}
-
 	"LabelPublishedFileTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -73,7 +69,6 @@
 		"textAlignment"								"west"
 		"fgcolor"									"White_Dark"
 	}
-
 	"LabelPublishedFileTitleValue"
 	{
 		"ControlName"								"CExLabel"
@@ -90,7 +85,6 @@
 		// "maxchars"								"128"
 		"fgcolor"									"White_Dark"
 	}
-
 	"LabelPublishedFileDesc"
 	{
 		"ControlName"								"CExLabel"
@@ -106,7 +100,6 @@
 		"wrap"										"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"LabelPublishedFileDescValue"
 	{
 		"ControlName"								"CExLabel"
@@ -123,7 +116,6 @@
 		//"editable"								"0"
 		//"maxchars"								"256"
 	}
-
 	"ButtonAddFile"
 	{
 		"ControlName"								"Button"
@@ -148,7 +140,6 @@
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
-
 	"ButtonDeleteFile"
 	{
 		"ControlName"								"Button"
@@ -173,7 +164,6 @@
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
-
 	"ButtonEditFile"
 	{
 		"ControlName"								"Button"
@@ -198,7 +188,6 @@
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
-
 	"ButtonRefresh"
 	{
 		"ControlName"								"Button"
@@ -223,7 +212,6 @@
 		"armedFgColor_override"						"FullWhite"
 		"depressedFgColor_override"					"FullWhite"
 	}
-
 	"ButtonClose"
 	{
 		"ControlName"								"Button"

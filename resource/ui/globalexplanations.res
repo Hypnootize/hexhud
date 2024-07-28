@@ -15,355 +15,328 @@
 		"mouseinputenabled"							"1"
 		"keyboardinputenabled"						"0"
 	}
-
 	// Casual Intro
-		"CasualIntro"
-		{
-			"ControlName"							"CExplanationPopup"
-			"fieldName"								"CasualIntro"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"10000"
-			"wide"									"250"
-			"tall"									"20"
-			"visible"								"0"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
-			"border"								"Bottom_Line_White_Dark"
-
-			"force_close"							"1"
-			"end_x"									"r515"
-			"end_y"									"140"
-			"end_wide"								"250"
-			"end_tall"								"240"
-			"callout_inparents_x"					"c100"
-			"callout_inparents_y"					"c-000"
-
-			"res_file_controls"						"1"
-			"explanation_title"						"#TF_Casual_Welcome_Title"
-			"explanation_body"						"#TF_Casual_Welcome_Section_One_Text"
-			"next_explanation"						"CasualLeveling"
-		}
-
-		"CasualLeveling"
-		{
-			"ControlName"							"CExplanationPopup"
-			"fieldName"								"CasualLeveling"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"10000"
-			"wide"									"250"
-			"tall"									"20"
-			"visible"								"0"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
-			"border"								"Bottom_Line_White_Dark"
-
-			"force_close"							"1"
-			"end_x"									"r280"
-			"end_y"									"100"
-			"end_wide"								"250"
-			"end_tall"								"240"
-			"callout_inparents_x"					"r200"
-			"callout_inparents_y"					"c-175"
-
-			"res_file_controls"						"1"
-			"explanation_title"						"#TF_Casual_Explanation_Rank_Title"
-			"explanation_body"						"#TF_Casual_Explanation_Rank_Body"
-			"next_explanation"						"CasualCriteria"
-		}
-
-		"CasualCriteria"
-		{
-			"ControlName"							"CExplanationPopup"
-			"fieldName"								"CasualCriteria"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"10000"
-			"wide"									"250"
-			"tall"									"20"
-			"visible"								"0"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
-			"border"								"Bottom_Line_White_Dark"
-
-			"force_close"							"1"
-			"end_x"									"r515"
-			"end_y"									"140"
-			"end_wide"								"250"
-			"end_tall"								"240"
-			"callout_inparents_x"					"r180"
-			"callout_inparents_y"					"c-100"
-
-			"res_file_controls"						"1"
-			"explanation_title"						"#TF_Casual_Explanation_Modes_Title"
-			"explanation_body"						"#TF_Casual_Explanation_Modes_Body"
-			"next_explanation"						"CriteriaSaving"
-		}
-
-		"CriteriaSaving"
-		{
-			"ControlName"							"CExplanationPopup"
-			"fieldName"								"CriteriaSaving"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"10000"
-			"wide"									"250"
-			"tall"									"20"
-			"visible"								"0"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
-			"border"								"Bottom_Line_White_Dark"
-
-			"force_close"							"1"
-			"end_x"									"r280"
-			"end_y"									"150"
-			"end_wide"								"250"
-			"end_tall"								"240"
-			"callout_inparents_x"					"r60"
-			"callout_inparents_y"					"c-135"
-
-			"res_file_controls"						"1"
-			"explanation_title"						"#TF_Casual_Explanation_SaveMaps_Title"
-			"explanation_body"						"#TF_Casual_Explanation_SaveMaps_Body"
-			"next_explanation"						"CasualLateJoin"
-		}
-
-		"CasualLateJoin"
-		{
-			"ControlName"							"CExplanationPopup"
-			"fieldName"								"CasualLateJoin"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"10000"
-			"wide"									"250"
-			"tall"									"260"
-			"visible"								"0"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
-			"border"								"Bottom_Line_White_Dark"
-
-			"force_close"							"1"
-			"end_x"									"r515"
-			"end_y"									"140"
-			"end_wide"								"250"
-			"end_tall"								"240"
-			"callout_inparents_x"					"c100"
-			"callout_inparents_y"					"c-000"
-
-			"res_file_controls"						"1"
-			"explanation_title"						"#TF_Casual_Welcome_Section_Three_Title"
-			"explanation_body"						"#TF_Casual_Welcome_Section_Three_Text"
-		}
-
+	"CasualIntro"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"CasualIntro"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"20"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
+		"force_close"								"1"
+		"end_x"										"r515"
+		"end_y"										"140"
+		"end_wide"									"250"
+		"end_tall"									"240"
+		"callout_inparents_x"						"c100"
+		"callout_inparents_y"						"c-000"
+		"res_file_controls"							"1"
+		"explanation_title"							"#TF_Casual_Welcome_Title"
+		"explanation_body"							"#TF_Casual_Welcome_Section_One_Text"
+		"next_explanation"							"CasualLeveling"
+	}
+	"CasualLeveling"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"CasualLeveling"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"20"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
+		"force_close"								"1"
+		"end_x"										"r280"
+		"end_y"										"100"
+		"end_wide"									"250"
+		"end_tall"									"240"
+		"callout_inparents_x"						"r200"
+		"callout_inparents_y"						"c-175"
+		"res_file_controls"							"1"
+		"explanation_title"							"#TF_Casual_Explanation_Rank_Title"
+		"explanation_body"							"#TF_Casual_Explanation_Rank_Body"
+		"next_explanation"							"CasualCriteria"
+	}
+	"CasualCriteria"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"CasualCriteria"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"20"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
+		"force_close"								"1"
+		"end_x"										"r515"
+		"end_y"										"140"
+		"end_wide"									"250"
+		"end_tall"									"240"
+		"callout_inparents_x"						"r180"
+		"callout_inparents_y"						"c-100"
+		"res_file_controls"							"1"
+		"explanation_title"							"#TF_Casual_Explanation_Modes_Title"
+		"explanation_body"							"#TF_Casual_Explanation_Modes_Body"
+		"next_explanation"							"CriteriaSaving"
+	}
+	"CriteriaSaving"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"CriteriaSaving"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"20"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
+		"force_close"								"1"
+		"end_x"										"r280"
+		"end_y"										"150"
+		"end_wide"									"250"
+		"end_tall"									"240"
+		"callout_inparents_x"						"r60"
+		"callout_inparents_y"						"c-135"
+		"res_file_controls"							"1"
+		"explanation_title"							"#TF_Casual_Explanation_SaveMaps_Title"
+		"explanation_body"							"#TF_Casual_Explanation_SaveMaps_Body"
+		"next_explanation"							"CasualLateJoin"
+	}
+	"CasualLateJoin"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"CasualLateJoin"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"260"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
+		"force_close"								"1"
+		"end_x"										"r515"
+		"end_y"										"140"
+		"end_wide"									"250"
+		"end_tall"									"240"
+		"callout_inparents_x"						"c100"
+		"callout_inparents_y"						"c-000"
+		"res_file_controls"							"1"
+		"explanation_title"							"#TF_Casual_Welcome_Section_Three_Title"
+		"explanation_body"							"#TF_Casual_Welcome_Section_Three_Text"
+	}
 	// Casual map selection
-		"MapSelectionDetailsExplanation"
-		{
-			"ControlName"							"CExplanationPopup"
-			"fieldName"								"MapSelectionDetailsExplanation"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"10000"
-			"wide"									"250"
-			"tall"									"260"
-			"visible"								"0"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
-			"border"								"Bottom_Line_White_Dark"
-
-			"force_close"							"0"
-			"end_x"									"r515"
-			"end_y"									"140"
-			"end_wide"								"250"
-			"end_tall"								"240"
-			"callout_inparents_x"					"c100"
-			"callout_inparents_y"					"c-000"
-
-			"res_file_controls"						"1"
-			"explanation_title"						"#TF_Casual_Explanation_MapsDetails_Title"
-			"explanation_body"						"#TF_Casual_Explanation_MapsDetails_Body"
-		}
-
+	"MapSelectionDetailsExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"MapSelectionDetailsExplanation"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"260"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
+		"force_close"								"0"
+		"end_x"										"r515"
+		"end_y"										"140"
+		"end_wide"									"250"
+		"end_tall"									"240"
+		"callout_inparents_x"						"c100"
+		"callout_inparents_y"						"c-000"
+		"res_file_controls"							"1"
+		"explanation_title"							"#TF_Casual_Explanation_MapsDetails_Title"
+		"explanation_body"							"#TF_Casual_Explanation_MapsDetails_Body"
+	}
 	// Competitive
-		"CompIntro"
-		{
-			"ControlName"							"CExplanationPopup"
-			"fieldName"								"CompIntro"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"10000"
-			"wide"									"250"
-			"tall"									"20"
-			"visible"								"0"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
-			"border"								"Bottom_Line_White_Dark"
+	"CompIntro"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"CompIntro"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"20"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
+		"force_close"								"1"
+		"end_x"										"r515"
+		"end_y"										"140"
+		"end_wide"									"250"
+		"end_tall"									"240"
+		"callout_inparents_x"						"c100"
+		"callout_inparents_y"						"c-000"
+		"res_file_controls"							"1"
+		"explanation_title"							"#TF_Competitive_Welcome_Title"
+		"explanation_body"							"#TF_Competitive_Welcome_SectionOne_Text"
+		"next_explanation"							"CompVsCasual"
+	}
+	"EventPlaceholderIntro"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"EventPlaceholderIntro"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"20"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
-			"force_close"							"1"
-			"end_x"									"r515"
-			"end_y"									"140"
-			"end_wide"								"250"
-			"end_tall"								"240"
-			"callout_inparents_x"					"c100"
-			"callout_inparents_y"					"c-000"
+		"force_close"								"1"
+		"end_x"										"r515"
+		"end_y"										"140"
+		"end_wide"									"250"
+		"end_tall"									"240"
+		"callout_inparents_x"						"c100"
+		"callout_inparents_y"						"c-000"
 
-			"res_file_controls"						"1"
-			"explanation_title"						"#TF_Competitive_Welcome_Title"
-			"explanation_body"						"#TF_Competitive_Welcome_SectionOne_Text"
-			"next_explanation"						"CompVsCasual"
-		}
+		"res_file_controls"							"1"
+		"explanation_title"							"#TF_Competitive_Welcome_Title"
+		"explanation_body"							"#TF_EventPlaceholder_Welcome_SectionOne_Text"
+		"next_explanation"							"CompVsCasual"
+	}
+	"CompVsCasual"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"CompVsCasual"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"20"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
-		"EventPlaceholderIntro"
-		{
-			"ControlName"							"CExplanationPopup"
-			"fieldName"								"EventPlaceholderIntro"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"10000"
-			"wide"									"250"
-			"tall"									"20"
-			"visible"								"0"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
-			"border"								"Bottom_Line_White_Dark"
+		"force_close"								"1"
+		"end_x"										"r515"
+		"end_y"										"140"
+		"end_wide"									"250"
+		"end_tall"									"240"
+		"callout_inparents_x"						"c100"
+		"callout_inparents_y"						"c-000"
 
-			"force_close"							"1"
-			"end_x"									"r515"
-			"end_y"									"140"
-			"end_wide"								"250"
-			"end_tall"								"240"
-			"callout_inparents_x"					"c100"
-			"callout_inparents_y"					"c-000"
+		"res_file_controls"							"1"
+		"explanation_title"							"#TF_Competitive_Welcome_SectionTwo_Title"
+		"explanation_body"							"#TF_Competitive_Welcome_SectionTwo_Text"
+		"next_explanation"							"CompAbandon"
+	}
+	"CompAbandon"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"CompAbandon"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"20"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
-			"res_file_controls"						"1"
-			"explanation_title"						"#TF_Competitive_Welcome_Title"
-			"explanation_body"						"#TF_EventPlaceholder_Welcome_SectionOne_Text"
-			"next_explanation"						"CompVsCasual"
-		}
+		"force_close"								"1"
+		"end_x"										"r515"
+		"end_y"										"140"
+		"end_wide"									"250"
+		"end_tall"									"240"
+		"callout_inparents_x"						"c100"
+		"callout_inparents_y"						"c-000"
 
-		"CompVsCasual"
-		{
-			"ControlName"							"CExplanationPopup"
-			"fieldName"								"CompVsCasual"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"10000"
-			"wide"									"250"
-			"tall"									"20"
-			"visible"								"0"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
-			"border"								"Bottom_Line_White_Dark"
+		"res_file_controls"							"1"
+		"explanation_title"							"#TF_Competitive_Welcome_SectionThree_Title"
+		"explanation_body"							"#TF_Competitive_Welcome_SectionThree_Text"
+		"next_explanation"							"CompDisconnects"
+	}
+	"CompDisconnects"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"CompDisconnects"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"20"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
-			"force_close"							"1"
-			"end_x"									"r515"
-			"end_y"									"140"
-			"end_wide"								"250"
-			"end_tall"								"240"
-			"callout_inparents_x"					"c100"
-			"callout_inparents_y"					"c-000"
+		"force_close"								"1"
+		"end_x"										"r515"
+		"end_y"										"140"
+		"end_wide"									"250"
+		"end_tall"									"240"
+		"callout_inparents_x"						"c100"
+		"callout_inparents_y"						"c-000"
 
-			"res_file_controls"						"1"
-			"explanation_title"						"#TF_Competitive_Welcome_SectionTwo_Title"
-			"explanation_body"						"#TF_Competitive_Welcome_SectionTwo_Text"
-			"next_explanation"						"CompAbandon"
-		}
+		"res_file_controls"							"1"
+		"explanation_title"							"#TF_Competitive_Welcome_SectionFour_Title"
+		"explanation_body"							"#TF_Competitive_Welcome_SectionFour_Text"
+		"next_explanation"							"CompCustomHUD"
+	}
+	"CompCustomHUD"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"CompCustomHUD"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10000"
+		"wide"										"250"
+		"tall"										"20"
+		"visible"									"0"
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"Gray_Blue_Darkest"
+		"border"									"Bottom_Line_White_Dark"
 
-		"CompAbandon"
-		{
-			"ControlName"							"CExplanationPopup"
-			"fieldName"								"CompAbandon"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"10000"
-			"wide"									"250"
-			"tall"									"20"
-			"visible"								"0"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
-			"border"								"Bottom_Line_White_Dark"
+		"force_close"								"1"
+		"end_x"										"r515"
+		"end_y"										"140"
+		"end_wide"									"250"
+		"end_tall"									"240"
+		"callout_inparents_x"						"c100"
+		"callout_inparents_y"						"c-000"
 
-			"force_close"							"1"
-			"end_x"									"r515"
-			"end_y"									"140"
-			"end_wide"								"250"
-			"end_tall"								"240"
-			"callout_inparents_x"					"c100"
-			"callout_inparents_y"					"c-000"
-
-			"res_file_controls"						"1"
-			"explanation_title"						"#TF_Competitive_Welcome_SectionThree_Title"
-			"explanation_body"						"#TF_Competitive_Welcome_SectionThree_Text"
-			"next_explanation"						"CompDisconnects"
-		}
-
-		"CompDisconnects"
-		{
-			"ControlName"							"CExplanationPopup"
-			"fieldName"								"CompDisconnects"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"10000"
-			"wide"									"250"
-			"tall"									"20"
-			"visible"								"0"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
-			"border"								"Bottom_Line_White_Dark"
-
-			"force_close"							"1"
-			"end_x"									"r515"
-			"end_y"									"140"
-			"end_wide"								"250"
-			"end_tall"								"240"
-			"callout_inparents_x"					"c100"
-			"callout_inparents_y"					"c-000"
-
-			"res_file_controls"						"1"
-			"explanation_title"						"#TF_Competitive_Welcome_SectionFour_Title"
-			"explanation_body"						"#TF_Competitive_Welcome_SectionFour_Text"
-			"next_explanation"						"CompCustomHUD"
-		}
-
-		"CompCustomHUD"
-		{
-			"ControlName"							"CExplanationPopup"
-			"fieldName"								"CompCustomHUD"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"10000"
-			"wide"									"250"
-			"tall"									"20"
-			"visible"								"0"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
-			"border"								"Bottom_Line_White_Dark"
-
-			"force_close"							"1"
-			"end_x"									"r515"
-			"end_y"									"140"
-			"end_wide"								"250"
-			"end_tall"								"240"
-			"callout_inparents_x"					"c100"
-			"callout_inparents_y"					"c-000"
-
-			"res_file_controls"						"1"
-			"explanation_title"						"#TF_Competitive_Welcome_SectionFive_Title"
-			"explanation_body"						"#TF_Competitive_Welcome_SectionFive_Text"
-		}
-
+		"res_file_controls"							"1"
+		"explanation_title"							"#TF_Competitive_Welcome_SectionFive_Title"
+		"explanation_body"							"#TF_Competitive_Welcome_SectionFive_Text"
+	}
 	"WarPaintUse"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -391,7 +364,6 @@
 		"explanation_title"							"#TF_UsePaintkit_Explanation_Title"
 		"explanation_body"							"#TF_UsePaintkit_Explanation_Body"
 	}
-
 	"TutorialHighlight"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -435,7 +407,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -452,7 +423,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -479,7 +449,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"PracticeHighlight"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -521,7 +490,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -537,7 +505,6 @@
 			"enabled"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -564,7 +531,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"NewUserForumHighlight"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -608,7 +574,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -625,7 +590,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -652,7 +616,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"OptionsHighlightPanel"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -696,7 +659,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -713,7 +675,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -740,7 +701,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"LoadoutHighlightPanel"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -784,7 +744,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -801,7 +760,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -828,7 +786,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"StoreHighlightPanel"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -872,7 +829,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -889,7 +845,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -916,7 +871,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"FindAMatch"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -944,7 +898,6 @@
 		"explanation_title"							"#TF_FindMatchTip_Title"
 		"explanation_body"							"#TF_FindMatchTip_Body"
 	}
-
 	"SpecialEvents"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -974,7 +927,6 @@
 
 		"next_explanation"							"SpecialEventsExpiration"
 	}
-
 	"SpecialEventsExpiration"
 	{
 		"ControlName"								"CExplanationPopup"

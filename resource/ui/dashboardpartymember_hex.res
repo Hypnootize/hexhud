@@ -14,7 +14,6 @@
 		"scaleImage"								"1"
 		"alpha"										"255"
 	}
-
 	"BG"
 	{
 		"ControlName"								"EditablePanel"
@@ -33,7 +32,6 @@
 
 		"proportionaltoparent"						"1"
 	}
-
 	"EmptyImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -49,7 +47,6 @@
 		"image"										"replay/thumbnails/main_menu/silhouette"
 		"mouseinputenabled"							"0"
 	}
-
 	"LeaderIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -65,7 +62,6 @@
 		"scaleImage"								"1"
 		"mouseinputenabled"							"0"
 	}
-
 	"BannedIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -83,7 +79,6 @@
 		"proportionaltoparent"						"1"
 		"drawcolor"									"255 0 0 255"
 	}
-
 	"OutOfDateIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -101,7 +96,6 @@
 		"proportionaltoparent"						"1"
 		"drawcolor"									"OrangeDim"
 	}
-
 	"OfflineIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -119,7 +113,6 @@
 		"proportionaltoparent"						"1"
 		"drawcolor"									"OrangeDim"
 	}
-
 	"StatusDimmer"
 	{
 		"ControlName"								"Panel"
@@ -133,7 +126,6 @@
 		"proportionaltoparent"						"1"
 		"bgcolor_override"							"0 0 0 240"
 	}
-
 	"InteractButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -163,7 +155,6 @@
 		"border_default"							"NoBorder"
 		"border_armed"								"NoBorder"
 	}
-
 	"Spinner"
 	{
 		"ControlName"								"CTFLogoPanel"

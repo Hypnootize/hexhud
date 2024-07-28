@@ -13,7 +13,6 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 	}
-
 	"FullScreenBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -27,7 +26,6 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"0 0 0 150"
 	}
-
 	"InfoBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -59,7 +57,6 @@
 			"bgcolor_override"						"Background_Dark"
 		}
 	}
-
 	"MapInfoTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -87,7 +84,6 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"MapInfoText"
 	{
 		"ControlName"								"CExRichText"
@@ -113,7 +109,6 @@
 
 		"pin_to_sibling"							"InfoBG"
 	}
-
 	"ok"
 	{
 		"ControlName"								"CExButton"
@@ -158,7 +153,6 @@
 		"Command"									"continue"
 		"visible"									"1"
 	}
-
 	"MapInfoWatchIntro2"
 	{
 		"ControlName"								"CExButton"
@@ -195,12 +189,12 @@
 	}
 
 
-
-
-
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"MapInfoBack"
 	{
-		"ControlName"								"CTFButton"
+		"ControlName"								"CExButton"
 		"fieldName"									"MapInfoBack"
 		"xpos"										"9999"
 		"ypos"										"9999"
@@ -222,7 +216,7 @@
 	}
 	"MapInfoContinue"
 	{
-		"ControlName"								"CTFButton"
+		"ControlName"								"CExButton"
 		"fieldName"									"MapInfoContinue"
 		"xpos"										"9999"
 		"ypos"										"9999"
@@ -233,7 +227,7 @@
 	}
 	"MapInfoWatchIntro"
 	{
-		"ControlName"								"CTFButton"
+		"ControlName"								"CExButton"
 		"fieldName"									"MapInfoWatchIntro"
 		"xpos"										"9999"
 		"ypos"										"9999"

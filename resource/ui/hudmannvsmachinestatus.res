@@ -13,20 +13,18 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"WaveCompleteSummaryPanel"
 	{
 		"ControlName"								"CWaveCompleteSummaryPanel"
 		"fieldName"									"WaveCompleteSummaryPanel"
 		"xpos"										"c-125"
-		"ypos"										"100"
+		"ypos"										"120"
 		"zpos"										"0"
 		"wide"										"400"
 		"tall"										"400"
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"BossStatusPanel"
 	{
 		"ControlName"								"CMvMBossStatusPanel"
@@ -34,7 +32,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
-		"wide"										"200"
+		"wide"										"191"
 		"tall"										"100"
 		"visible"									"1"
 		"enabled"									"1"
@@ -43,19 +41,17 @@
 		"pin_corner_to_sibling"						"4"
 		"pin_to_sibling_corner"						"6"
 	}
-
 	"InWorldCurrencyPanel"
 	{
 		"ControlName"								"CInWorldCurrencyStatus"
 		"fieldName"									"InWorldCurrencyPanel"
-		"xpos"										"36"
+		"xpos"										"c1"
 		"ypos"										"rs1"
-		"wide"										"36"
-		"tall"										"14"
+		"wide"										"44"
+		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"WarningSwoop"
 	{
 		"ControlName"								"CWarningSwoop"
@@ -71,85 +67,84 @@
 		"scaleImage"								"1"
 		"time"										"0.3"
 	}
-
 	"UpgradeLevelContainer"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"UpgradeLevelContainer"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"640"
-		"tall"										"480"
+		"wide"										"f0"
+		"tall"										"f0"
 		"visible"									"0"
+		"proportionaltoparent"						"1"
 
 		"UpgradeProgressTrack"
 		{
 			"ControlName"							"CMvMBombCarrierProgress"
 			"fieldName"								"UpgradeProgressTrack"
-			"xpos"									"c-50"
-			"ypos"									"r30"
-			"wide"									"640"
-			"tall"									"480"
+			"xpos"									"cs-0.5"
+			"ypos"									"rs1"
+			"wide"									"120"
+			"tall"									"40"
 			"visible"								"1"
 		}
-
 		"UpgradeLevel1"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"UpgradeLevel1"
-			"xpos"									"c32"
-			"ypos"									"r16"
-			"wide"									"16"
-			"tall"									"16"
+			"xpos"									"c-12"
+			"ypos"									"r24"
+			"zpos"									"1"
+			"wide"									"8"
+			"tall"									"8"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"../hud/hud_mvm_bomb_upgrade_1_disabled"
 			"scaleImage"							"1"
 		}
-
 		"UpgradeLevel2"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"UpgradeLevel2"
-			"xpos"									"c32"
-			"ypos"									"r31"
-			"wide"									"16"
-			"tall"									"16"
+			"xpos"									"c10"
+			"ypos"									"r24"
+			"zpos"									"1"
+			"wide"									"8"
+			"tall"									"8"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"../hud/hud_mvm_bomb_upgrade_2_disabled"
 			"scaleImage"							"1"
 		}
-
 		"UpgradeLevel3"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"UpgradeLevel3"
-			"xpos"									"c32"
-			"ypos"									"r46"
-			"wide"									"16"
-			"tall"									"16"
+			"xpos"									"c31"
+			"ypos"									"r24"
+			"zpos"									"1"
+			"wide"									"8"
+			"tall"									"8"
 			"visible"								"1"
 			"enabled"								"1"
 			"image"									"../hud/hud_mvm_bomb_upgrade_3_disabled"
 			"scaleImage"							"1"
 		}
-
 		"UpgradeLevelBoss"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"UpgradeLevelBoss"
-			"xpos"									"c34"
-			"ypos"									"r37"
-			"wide"									"18"
-			"tall"									"36"
+			"xpos"									"c10"
+			"ypos"									"r24"
+			"zpos"									"1"
+			"wide"									"8"
+			"tall"									"8"
 			"visible"								"0"
 			"enabled"								"1"
 			"image"									"../hud/hud_mvm_bomb_upgrade_boss"
 			"scaleImage"							"1"
 		}
 	}
-
 	"VictorySplash"
 	{
 		"ControlName"								"CVictorySplash"
@@ -162,7 +157,6 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	"VictoryPanelContainer"
 	{
 		"ControlName"								"CMvMVictoryPanelContainer"
@@ -173,7 +167,6 @@
 		"tall"										"480"
 		"visible"									"0"
 	}
-
 	"WaveLossPanel"
 	{
 		"ControlName"								"CMvMWaveLossPanel"
@@ -184,7 +177,6 @@
 		"tall"										"480"
 		"visible"									"0"
 	}
-
 	"ServerChangeMessage"
 	{
 		"ControlName"								"EditablePanel"
@@ -208,7 +200,6 @@
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/panels/flat_red"
 		}
-
 		"ServerChangeLabel"
 		{
 			"ControlName"							"CExLabel"

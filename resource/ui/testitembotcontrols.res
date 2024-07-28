@@ -16,7 +16,6 @@
 		"paintbackground"							"0"
 		"proportionaltoparent"						"1"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -35,7 +34,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"BotAnimationTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -54,7 +52,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"BotAnimationComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -93,7 +90,6 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-
 	"BotForceFireCheckBox"
 	{
 		"ControlName"								"CheckButton"
@@ -111,7 +107,6 @@
 		"AllCaps"									"1"
 		"disabledfgcolor2_override"					"TanDark"
 	}
-
 	"BotTurntableCheckBox"
 	{
 		"ControlName"								"CheckButton"
@@ -146,7 +141,6 @@
 		"AllCaps"									"1"
 		"disabledfgcolor2_override"					"TanDark"
 	}
-
 	"BotAnimationAnimTitle"
 	{
 		"ControlName"								"CExLabel"
@@ -179,7 +173,6 @@
 		"enabled"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -209,7 +202,6 @@
 		"border_default"							"MaterialGrayDark"
 		"border_armed"								"MaterialHypno"
 	}
-
 	"OkButton"
 	{
 		"ControlName"								"CExButton"

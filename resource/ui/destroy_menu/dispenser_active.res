@@ -10,12 +10,10 @@
 		"tall"										"20"
 		"icon"										"obj_status_dispenser"
 	}
-
 	"NotBuiltLabel"
 	{
 		"visible"									"0"
 	}
-
 	"NumberLabel"
 	{
 		"labelText"									"2"

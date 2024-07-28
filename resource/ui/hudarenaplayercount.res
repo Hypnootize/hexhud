@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BlueTeam"
-		"xpos"										"c-47"
+		"xpos"										"c-46"
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"45"
@@ -30,7 +30,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Blue"
 		}
-
 		"PlayersIcon"
 		{
 			"ControlName"							"CExLabel"
@@ -48,7 +47,6 @@
 			"textAlignment"							"west"
 			"fgcolor"								"Off_White"
 		}
-
 		"Count"
 		{
 			"ControlName"							"CExLabel"
@@ -66,7 +64,6 @@
 			"textAlignment"							"center"
 			"fgcolor"								"Off_White"
 		}
-
 		"CountShadow"
 		{
 			"ControlName"							"CExLabel"
@@ -101,7 +98,6 @@
 			"enabled"								"0"
 		}
 	}
-
 	"RedTeam"
 	{
 		"ControlName"								"EditablePanel"
@@ -132,7 +128,6 @@
 			"paintbackgroundtype"					"0"
 			"bgcolor_override"						"Red"
 		}
-
 		"PlayersIcon"
 		{
 			"ControlName"							"CExLabel"
@@ -150,7 +145,6 @@
 			"textAlignment"							"west"
 			"fgcolor"								"Off_White"
 		}
-
 		"Count"
 		{
 			"ControlName"							"CExLabel"
@@ -168,7 +162,6 @@
 			"textAlignment"							"center"
 			"fgcolor"								"Off_White"
 		}
-
 		"CountShadow"
 		{
 			"ControlName"							"CExLabel"

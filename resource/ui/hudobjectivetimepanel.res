@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"TimeBG"
-		"xpos"										"0"
+		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"f0"
@@ -15,12 +15,17 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
+
+		"if_match"
+		{
+			"visible"								"0"
+		}
 	}
 	"TeamBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"TeamBG"
-		"xpos"										"0"
+		"xpos"										"cs-0.5"
 		"ypos"										"17"
 		"zpos"										"3"
 		"wide"										"f0"
@@ -38,8 +43,12 @@
 		"src_corner_width"							"32"
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
-	}
 
+		"if_match"
+		{
+			"visible"								"0"
+		}
+	}
 	"OvertimeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -48,7 +57,7 @@
 		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"f0"
-		"tall"										"19"
+		"tall"										"17"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#game_Overtime"
@@ -58,8 +67,16 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"fgcolor"									"Black"
-		"bgcolor_override"							"Orange"
+		"fgcolor"									"Red"
+		"bgcolor_override"							"Background"
+
+		"if_match"
+		{
+			"ypos"									"6"
+			"tall"									"13"
+			"wide"									"35"
+			"font"									"Light_7"
+		}
 	}
 	"SetupLabel"
 	{
@@ -81,8 +98,12 @@
 		"paintbackgroundtype"						"0"
 		"fgcolor"									"Off_White"
 		"bgcolor_override"							"Background"
-	}
 
+		"if_match"
+		{
+			"paintbackground"						"0"
+		}
+	}
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -100,6 +121,10 @@
 		"proportionaltoparent"						"1"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"TimePanelBG"
 	{
 		"ControlName"								"ScalableImagePanel"

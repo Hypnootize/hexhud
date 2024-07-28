@@ -15,7 +15,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -34,7 +33,6 @@
 		"textAlignment"								"center"
 		"fgcolor"									"White_Dark"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"

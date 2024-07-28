@@ -21,7 +21,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 	}
-
 	"CancelLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -46,7 +45,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"active_item_1"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -58,7 +56,6 @@
 		"tall"										"35"
 		"visible"									"1"
 	}
-
 	"active_item_2"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -70,7 +67,6 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-
 	"active_item_3"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -82,7 +78,6 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-
 	"active_item_4"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -94,7 +89,6 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-
 	"inactive_item_1"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -106,7 +100,6 @@
 		"tall"										"35"
 		"visible"									"1"
 	}
-
 	"inactive_item_2"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -118,7 +111,6 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-
 	"inactive_item_3"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -130,7 +122,6 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-
 	"inactive_item_4"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -142,7 +133,6 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-
 	"unavailable_item_1"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -154,7 +144,6 @@
 		"tall"										"35"
 		"visible"									"1"
 	}
-
 	"unavailable_item_2"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -166,7 +155,6 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-
 	"unavailable_item_3"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -178,7 +166,6 @@
 		"tall"										"27"
 		"visible"									"1"
 	}
-
 	"unavailable_item_4"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
@@ -192,11 +179,9 @@
 	}
 
 
-
-
-
-	//REMOVED STUFF
-
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"MainBackground"
 	{
 		"ControlName"								"CIconPanel"

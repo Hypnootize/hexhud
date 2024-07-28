@@ -13,6 +13,15 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/capture_highlight"
 	}
+	"WarningHighlight"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"WarningHighlight"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/warning_highlight"
+	}
 	"CPCapMask"
 	{
 		"ControlName"		"ImagePanel"
@@ -1040,6 +1049,232 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/ico_powerup_ubercharge_red"
+	}
+
+	//==================================================================================================
+	// VACCINATOR
+	//==================================================================================================
+
+	"Vacc_Bullet_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Vacc_Bullet_Blue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/defense_buff_bullet_blue"
+	}
+	"Vacc_Bullet_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Vacc_Bullet_Red"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/defense_buff_bullet_red"
+	}
+	"Vacc_Fire_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Vacc_Fire_Blue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/defense_buff_fire_blue"
+	}
+	"Vacc_Fire_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Vacc_Fire_Red"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/defense_buff_fire_red"
+	}
+	"Vacc_Explosion_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Vacc_Explosion_Blue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/defense_buff_explosion_blue"
+	}
+	"Vacc_Explosion_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Vacc_Explosion_Red"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/defense_buff_explosion_red"
+	}
+
+	//==================================================================================================
+	// CLASS PORTRAITS
+	//==================================================================================================
+
+	"Class_Scout_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Scout_Blue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_scoutblue"
+	}
+	"Class_Scout_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Scout_Red"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_scoutred"
+	}
+	"Class_Soldier_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Soldier_Blue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_soldierblue"
+	}
+	"Class_Soldier_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Soldier_Red"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_soldierred"
+	}
+	"Class_Pyro_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Pyro_Blue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_pyroblue"
+	}
+	"Class_Pyro_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Pyro_Red"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_pyrored"
+	}
+	"Class_Demoman_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Demoman_Blue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_demoblue"
+	}
+	"Class_Demoman_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Demoman_Red"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_demored"
+	}
+	"Class_Heavy_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Heavy_Blue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_heavyblue"
+	}
+	"Class_Heavy_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Heavy_Red"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_heavyred"
+	}
+	"Class_Engineer_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Engineer_Blue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_engiblue"
+	}
+	"Class_Engineer_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Engineer_Red"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_engired"
+	}
+	"Class_Medic_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Medic_Blue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_medicblue"
+	}
+	"Class_Medic_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Medic_Red"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_medicred"
+	}
+	"Class_Sniper_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Sniper_Blue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_sniperblue"
+	}
+	"Class_Sniper_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Sniper_Red"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_sniperred"
+	}
+	"Class_Spy_Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Spy_Blue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_spyblue"
+	}
+	"Class_Spy_Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"Class_Spy_Red"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_spyred"
 	}
 
 	//==================================================================================================

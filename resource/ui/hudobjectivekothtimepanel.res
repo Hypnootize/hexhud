@@ -1,5 +1,12 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {
+	"HudKothTimeStatus"
+	{
+		"if_match"
+		{
+			"zpos"									"5"
+		}
+	}
 	"BlueBar"
 	{
 		"ControlName"								"EditablePanel"
@@ -15,10 +22,13 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Blue"
-
 		"pin_to_sibling"							"BlueTimer"
-	}
 
+		"if_match"
+		{
+			"visible"								"0"
+		}
+	}
 	"BlueTimer"
 	{
 		"ControlName"								"CTFHudTimeStatus"
@@ -32,25 +42,33 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
+		"if_match"
+		{
+			"xpos"									"c-39"
+		}
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Light_12"
-			"fgcolor"								"Off_White"
 			"xpos"									"cs-0.5"
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"f0"
-			"tall"									"18"
+			"tall"									"17"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"proportionaltoparent"					"1"
+			"font"									"Light_12"
+			"fgcolor"								"Off_White"
+
+			"if_match"
+			{
+				"ypos"								"4"
+			}
 		}
 	}
-
 	"RedBar"
 	{
 		"ControlName"								"EditablePanel"
@@ -66,10 +84,13 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Red"
-
 		"pin_to_sibling"							"RedTimer"
-	}
 
+		"if_match"
+		{
+			"visible"								"0"
+		}
+	}
 	"RedTimer"
 	{
 		"ControlName"								"CTFHudTimeStatus"
@@ -83,25 +104,33 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
+		"if_match"
+		{
+			"xpos"									"c-5"
+		}
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Light_12"
-			"fgcolor"								"Off_White"
 			"xpos"									"cs-0.5"
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"f0"
-			"tall"									"18"
+			"tall"									"17"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"proportionaltoparent"					"1"
+			"font"									"Light_12"
+			"fgcolor"								"Off_White"
+
+			"if_match"
+			{
+				"ypos"								"4"
+			}
 		}
 	}
-
 	"ActiveTimerBG"
 	{
 		"ControlName"								"ImagePanel"

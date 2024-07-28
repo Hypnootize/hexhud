@@ -14,7 +14,6 @@
 		"progress_xpos"								""
 		"progress_wide"								""
 	}
-
 	"TrackBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -35,7 +34,6 @@
 			"tall"									"0"
 		}
 	}
-
 	"ProgressBar"
 	{
 		"ControlName"								"CTFHudEscortProgressBar"
@@ -55,7 +53,6 @@
 			"tall"									"0"
 		}
 	}
-
 	"LevelBar"
 	{
 		"ControlName"								"ImagePanel"
@@ -71,7 +68,6 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"HomeCPIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -100,7 +96,6 @@
 			"image"									"replay\thumbnails\cart_icons\cart_home_neutral"
 		}
 	}
-
 	"SimpleControlPointTemplate"
 	{
 		"ControlName"								"ImagePanel"
@@ -116,7 +111,6 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"EscortItemPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -151,7 +145,6 @@
 				"fillcolor"							"Red"
 			}
 		}
-
 		"EscortItemImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -175,7 +168,6 @@
 				"image"								"../hud/cart_red"
 			}
 		}
-
 		"EscortItemImageBottom"
 		{
 			"ControlName"							"ImagePanel"
@@ -199,7 +191,6 @@
 				"image"								"../hud/cart_red_bottom"
 			}
 		}
-
 		"CapNumPlayers"
 		{
 			"ControlName"							"CExLabel"
@@ -229,7 +220,6 @@
 				"ypos"								"24"
 			}
 		}
-
 		"RecedeTime"
 		{
 			"ControlName"							"CExLabel"
@@ -258,7 +248,6 @@
 				"ypos"								"24"
 			}
 		}
-
 		"Speed_Backwards"
 		{
 			"ControlName"							"ImagePanel"
@@ -284,7 +273,6 @@
 				"ypos"								"24"
 			}
 		}
-
 		"Blocked"
 		{
 			"ControlName"							"ImagePanel"
@@ -310,6 +298,10 @@
 			}
 		}
 
+
+		//===================================================================================
+		// REMOVED ELEMENTS
+		//===================================================================================
 		"EscortItemImageAlert"
 		{
 			"ControlName"							"ImagePanel"

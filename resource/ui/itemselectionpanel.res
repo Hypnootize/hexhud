@@ -6,23 +6,6 @@
 	{
 		"ypos"										"50"
 	}
-
-	"LeftBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"LeftBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-1"
-		"wide"										"135"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Loadout_NavigationBar"
-	}
-
 	"ItemSelectionPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -35,11 +18,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
-		"bgcolor_override"							"Background_Main"
+		"bgcolor_override"							"Blank"
 
 		"item_ypos"									"80"
 		"item_ydelta"								"80"
-		"item_backpack_offcenter_x"					"-200"
+		"item_backpack_offcenter_x"					"-220"
 		"item_backpack_xdelta"						"2"
 		"item_backpack_ydelta"						"2"
 
@@ -84,7 +67,6 @@
 				"mouseinputenabled"					"0"
 			}
 		}
-
 		"modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -134,33 +116,76 @@
 			"fgcolor"								"White_Dark"
 		}
 	}
-
-	"NameFilterTextEntry"
+	"Hide_Panels"									// 720p screws everything so fuck it, ghetto solution wins
 	{
-		"ControlName"								"TextEntry"
-		"fieldName"									"NameFilterTextEntry"
-		"xpos"										"c-180"
-		"ypos"										"58"
-		"zpos"										"20"
-		"wide"										"120"
-		"tall"										"17"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"Hide_Panels"
+		"xpos"										"137"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"700"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-		"textHidden"								"0"
-		"editable"									"1"
-		"unicode"									"1"
-		"fgcolor_override"							"White_Dark"
-		"bgcolor_override"							"Blank"
-		"PaintBackgroundType"						"0"
-		"font"										"Light_11"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"0"
+
+		"Center"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Center"
+			"xpos"									"0"
+			"ypos"									"cs-0.5"
+			"zpos"									"-1"
+			"wide"									"470"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+		"Right"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Right"
+			"xpos"									"rs1-80"
+			"ypos"									"cs-0.5-30"
+			"zpos"									"-1"
+			"wide"									"160"
+			"tall"									"360"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+		"Right_Small"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Right_Small"
+			"xpos"									"rs1-55"
+			"ypos"									"cs-0.5-30"
+			"zpos"									"-1"
+			"wide"									"50"
+			"tall"									"320"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
 	}
 	"NameFilterBG"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NameFilterBG"
 		"font"										"Symbols_16"
-		"xpos"										"20"
-		"ypos"										"0"
+		"xpos"										"c-220"
+		"ypos"										"58"
 		"zpos"										"0"
 		"wide"										"140"
 		"tall"										"17"
@@ -172,8 +197,28 @@
 		"fgcolor"									"White_Dark"
 		"paintbackground"							"1"
 		"bgcolor_override"							"Gray_Blue_Dark"
-
-		"pin_to_sibling"							"NameFilterTextEntry"
+	}
+	"NameFilterTextEntry"
+	{
+		"ControlName"								"TextEntry"
+		"fieldName"									"NameFilterTextEntry"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"20"
+		"wide"										"117"
+		"tall"										"15"
+		"visible"									"1"
+		"enabled"									"1"
+		"textHidden"								"0"
+		"editable"									"1"
+		"unicode"									"1"
+		"fgcolor_override"							"White_Dark"
+		"bgcolor_override"							"Blank"
+		"paintbackground"							"1"
+		"font"										"Light_11"
+		"pin_to_sibling"							"NameFilterBG"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
 	"NameFilterSearchBG"
 	{
@@ -182,26 +227,25 @@
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"1"
-		"wide"										"120"
+		"wide"										"117"
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
 		"bgcolor_override"							"Black_Blue"
 		"proportionaltoparent"						"1"
-		"pin_to_sibling"							"NameFilterTextEntry"
+		"pin_to_sibling"							"NameFilterBG"
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
-
 	"ShowBackpack"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ShowBackpack"
-		"xpos"										"rs1-66"
-		"ypos"										"58"
+		"xpos"										"5"
+		"ypos"										"0"
 		"zpos"										"20"
-		"wide"										"186"
+		"wide"										"160"
 		"tall"										"17"
 		"visible"									"1"
 		"enabled"									"1"
@@ -223,15 +267,19 @@
 		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
+
+		"pin_to_sibling"							"NameFilterBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"ShowSelection"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ShowSelection"
-		"xpos"										"rs1-66"
-		"ypos"										"58"
+		"xpos"										"5"
+		"ypos"										"0"
 		"zpos"										"20"
-		"wide"										"186"
+		"wide"										"160"
 		"tall"										"17"
 		"visible"									"1"
 		"enabled"									"1"
@@ -253,6 +301,10 @@
 		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
+
+		"pin_to_sibling"							"NameFilterBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"PrevPageButton"
@@ -292,7 +344,6 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -300,7 +351,7 @@
 		"font"										"Light_14"
 		"labelText"									"%backpackpage%"
 		"textAlignment"								"center"
-		"xpos"										"c298"
+		"xpos"										"c278"
 		"ypos"										"r176"
 		"zpos"										"1"
 		"wide"										"40"
@@ -309,7 +360,6 @@
 		"enabled"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"NextPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -347,7 +397,6 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"NoItemsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -355,7 +404,7 @@
 		"font"										"Light_18"
 		"labelText"									"#NoItemsToEquip"
 		"textAlignment"								"center"
-		"xpos"										"135"
+		"xpos"										"115"
 		"ypos"										"c-100"
 		"zpos"										"10"
 		"wide"										"f135"
@@ -364,14 +413,14 @@
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"0"
 		"fgcolor"									"Red_Dark"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CancelButton"
-		"xpos"										"c-200"
+		"xpos"										"c-220"
 		"ypos"										"400"
 		"zpos"										"2"
 		"wide"										"200"
@@ -385,7 +434,6 @@
 		"Command"									"vguicancel"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"OnlyAllowUniqueQuality"
 	{
 		"ControlName"								"CheckButton"
@@ -393,7 +441,7 @@
 		"labelText"									"#OnlyAllowUniqueQuality"
 		"Font"										"Light_11"
 		"textAlignment"								"west"
-		"xpos"										"c-202"
+		"xpos"										"c-222"
 		"ypos"										"r173"
 		"zpos"										"1"
 		"wide"										"160"
@@ -402,7 +450,6 @@
 		"enabled"									"1"
 		"smallcheckimage"							"1"
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -441,6 +488,10 @@
 		}
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"CaratLabel"
 	{
 		"ControlName"								"CExLabel"

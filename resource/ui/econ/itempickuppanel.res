@@ -1,4 +1,5 @@
 #base "../../dev/reload_scheme.res"
+#base "../hexagon_corners.res"
 
 "Resource/UI/Econ/ItemPickupPanel.res"
 {
@@ -49,7 +50,17 @@
 			}
 		}
 	}
-
+	"HExagon_Corners"
+	{
+		"HExagon_TopLeft"
+		{
+			"ypos"									"24"
+		}
+		"HExagon_TopRight"
+		{
+			"ypos"									"24"
+		}
+	}
 	"ItemsFoundLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -68,7 +79,6 @@
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"classimage"
 	{
 		"ControlName"								"ImagePanel"
@@ -84,7 +94,6 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"classimageoutline"
 	{
 		"ControlName"								"EditablePanel"
@@ -99,7 +108,6 @@
 		"bgcolor_override"							"Gray_Blue_Darkest"
 		"pin_to_sibling"							"classimage"
 	}
-
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -118,7 +126,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ItemCountLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -137,7 +144,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"SelectedItemNumberLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -156,7 +162,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
@@ -194,7 +199,6 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"PrevButton"
 	{
 		"ControlName"								"CExButton"
@@ -232,7 +236,6 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
@@ -272,7 +275,6 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"OpenLoadoutButton"
 	{
 		"ControlName"								"CExButton"
@@ -315,7 +317,6 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"DiscardButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -340,7 +341,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"DiscardButtonTooltip"
 	{
 		"ControlName"								"EditablePanel"
@@ -376,7 +376,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"DiscardedLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -395,7 +394,6 @@
 		"fgcolor"									"Red_Dark"
 		"bgcolor_override"							"Black"
 	}
-
 	"ScoreEntry"									//WTF ARE YOU FOR????
 	{
 		"ControlName"								"TextEntry"

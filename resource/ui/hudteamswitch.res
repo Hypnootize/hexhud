@@ -39,7 +39,6 @@
 		"textAlignment"								"center"
 		"pin_to_sibling"							"SwitchLabel"
 	}
-
 	"BalanceLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -80,7 +79,10 @@
 		"pin_to_sibling"							"BalanceLabel"
 	}
 
-	//REMOVED
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"HudTeamSwitchBG"
 	{
 		"ControlName"								"CTFImagePanel"

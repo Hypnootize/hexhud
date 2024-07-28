@@ -11,7 +11,6 @@
 
 		"skip_autoresize"							"1"
 	}
-
 	"MapCheckbutton"
 	{
 		"ControlName"								"CExCheckButton"
@@ -30,7 +29,6 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"button_activation_type"					"1"
 	}
-
 	"MapNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -49,7 +47,6 @@
 
 		"mouseinputenabled"							"0"
 	}
-
 	"HealthProgressBar"
 	{
 		"ControlName"								"ContinuousProgressBar"
@@ -65,7 +62,6 @@
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"Gray_Bluer_Dark"
 	}
-
 	"BG"
 	{
 		"ControlName"								"EditablePanel"

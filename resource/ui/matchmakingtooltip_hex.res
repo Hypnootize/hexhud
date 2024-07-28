@@ -20,17 +20,14 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
 
-
 			"if_small"
 			{
 				"font"								"Light_10"
 			}
-
 			"if_medium"
 			{
 				"font"								"Light_14"
 			}
-
 			"if_large"
 			{
 				"font"								"Light_16"

@@ -19,7 +19,6 @@
 		"robot_x_step"								"16"
 		"robot_y_step"								"0"
 
-
 		"color_blue"								"92 173 255 255"
 		"color_red"									"255 61 61 255"
 
@@ -27,7 +26,6 @@
 		{
 			"zpos"									"-1"
 		}
-
 		"robot_kv"
 		{
 			"ControlName"							"CTFHudRobotDestruction_RobotIndicator"
@@ -41,7 +39,6 @@
 			"skip_autoresize"						"1"
 		}
 	}
-
 	"CenterBackground"
 	{
 		"ControlName"								"EditablePanel"
@@ -116,7 +113,6 @@
 
 		"pin_to_sibling"							"PlayingTo"
 	}
-
 	"BlueBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -152,7 +148,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"RedBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -188,7 +183,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"CarriedContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -225,7 +219,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"FlagValue"
 		{
 			"ControlName"							"CExLabel"
@@ -262,7 +255,6 @@
 			"pin_to_sibling"						"FlagValue"
 		}
 	}
-
 	"ScoreContainer"
 	{
 		"fieldName"									"ScoreContainer"
@@ -287,7 +279,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"BlueScoreValueContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -338,7 +329,6 @@
 				"pin_to_sibling"					"Score"
 			}
 		}
-
 		"RedScoreValueContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -389,7 +379,6 @@
 				"pin_to_sibling"					"Score"
 			}
 		}
-
 		"BlueStolenContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -419,7 +408,6 @@
 				"scaleImage"						"1"
 				"proportionalToParent"				"1"
 			}
-
 			"DroppedIntelContainer"
 			{
 				"ControlName"						"EditablePanel"
@@ -451,7 +439,6 @@
 					"proportionalToParent"			"1"
 				}
 			}
-
 			"IntelValue"
 			{
 				"ControlName"						"CExLabel"
@@ -488,7 +475,6 @@
 				"pin_to_sibling"					"IntelValue"
 			}
 		}
-
 		"RedStolenContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -518,7 +504,6 @@
 				"scaleImage"						"1"
 				"proportionalToParent"				"1"
 			}
-
 			"DroppedIntelContainer"
 			{
 				"ControlName"						"EditablePanel"
@@ -550,7 +535,6 @@
 					"proportionalToParent"			"1"
 				}
 			}
-
 			"IntelValue"
 			{
 				"ControlName"						"CExLabel"

@@ -9,9 +9,10 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"5"
-		"wide"										"25"
-		"tall"										"13"
-		"tall_minmode"								"11"
+		"wide"										"30"
+		"wide_minmode"								"25"
+		"tall"										"15"
+		"tall_minmode"								"13"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -19,7 +20,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
 	}
-
 	"Health_Target"
 	{
 		"ControlName"								"CExLabel"
@@ -27,15 +27,16 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"20"
-		"wide"										"25"
-		"tall"										"12"
-		"tall_minmode"								"10"
+		"wide"										"30"
+		"wide_minmode"								"25"
+		"tall"										"15"
+		"tall_minmode"								"12"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"Bold_14"
-		"font_minmode"								"Light_12"
+		"font"										"Bold_16"
+		"font_minmode"								"Bold_14"
 		"fgcolor"									"Health_Numbers"
 		"proportionaltoparent"						"1"
 	}
@@ -46,15 +47,16 @@
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"zpos"										"19"
-		"wide"										"25"
-		"tall"										"12"
-		"tall_minmode"								"10"
+		"wide"										"30"
+		"wide_minmode"								"25"
+		"tall"										"15"
+		"tall_minmode"								"12"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"Bold_14_Blur"
-		"font_minmode"								"Light_12_Blur"
+		"font"										"Bold_16_Blur"
+		"font_minmode"								"Bold_14_Blur"
 		"fgcolor"									"Shadow"
 		"proportionaltoparent"						"1"
 
@@ -62,7 +64,9 @@
 	}
 
 
-	//REMOVED STUFF
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"								"ImagePanel"

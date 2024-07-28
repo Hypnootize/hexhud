@@ -1,23 +1,24 @@
-#base "huditemeffectmeter.res"
+#base "../../../../cfg/hexhud/hex_meter_mid_minmode.txt"
+#base "huditemeffectmeter_#middle.res"
+#base "huditemeffectmeter_#base.res"
 
 "Resource/UI/HudRocketPack.res"
 {
 	"HudItemEffectMeter"
 	{
-		"ypos"										"r94"
 	}
-
 	"ItemEffectMeterLabel"
 	{
 		"labelText"									"#TF_RocketPack_Disabled"
 	}
-
+	"ItemEffectMeterColor"
+	{
+	}
 	"ItemEffectMeter"
 	{
-		"xpos"										"0"
-		"wide"										"p0.5"
+		"xpos"										"cs-1"
+		"wide"										"50"
 	}
-
 	"ItemEffectMeter2"
 	{
 		"ControlName"								"ContinuousProgressBar"
@@ -25,8 +26,9 @@
 		"xpos"										"1"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"p0.5-1"
-		"tall"										"2"
+		"wide"										"49"
+		"tall"										"5"
+		"tall_minmode"								"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"Center"
@@ -38,6 +40,10 @@
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"ItemEffectIcon"
 	{
 		"ControlName"								"CTFImagePanel"

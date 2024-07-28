@@ -1,16 +1,17 @@
 //============================================================
 // STREAMER MODE LAYOUT
 //============================================================
-#base "../customizations/#streamermode/hudlayout.res"
+#base "../../../cfg/hexhud/hex_layout_stream.txt"
 
 //============================================================
 // TRANSPARENT VIEWMODELS
 //============================================================
-#base "../customizations/transparent_viewmodels.res"
+#base "../../../cfg/hexhud/hex_viewmodels.txt"
 
 //============================================================
 // HExHUD LAYOUT
 //============================================================
+#base "../../../cfg/hexhud/hex_layout_minmode.txt"
 #base "layouts/layout_hex.res"
 
 //============================================================

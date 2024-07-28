@@ -15,7 +15,6 @@
 		"PaintBackgroundType"						"2"
 		"bgcolor_override"							"0 0 0 255"
 	}
-
 	"ChatInputLine"
 	{
 		"ControlName"								"EditablePanel"
@@ -29,7 +28,6 @@
 		"paintbackground"							"0"
 		"proportionaltoparent"						"1"
 	}
-
 	"ChatFiltersButton"
 	{
 		"ControlName"								"Button"
@@ -57,7 +55,6 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 	}
-
 	"HudChatHistory"
 	{
 		"ControlName"								"RichText"

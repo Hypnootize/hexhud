@@ -12,7 +12,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"Countdown"
 	{
 		"ControlName"								"CControlPointCountdown"
@@ -26,7 +25,6 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"CapPlayerImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -41,12 +39,10 @@
 		"image"										"capture_icon"
 		"scaleImage"								"1"
 	}
-
 	"CapNumPlayers"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CapNumPlayers"
-		"font"										"Light_12"
 		"xpos"										"rs1-1"
 		"ypos"										"cs-0.5"
 		"zpos"										"3"
@@ -54,12 +50,12 @@
 		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
+		"font"										"Light_12"
 		"labelText"									"#ControlPointIconCappers"
 		"textAlignment"								"east"
 		"fgcolor"									"Black"
 		"proportionaltoparent"						"1"
 	}
-
 	"OverlayImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -75,7 +71,6 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"CPTimerLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -98,6 +93,10 @@
 		}
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"CPTimerBG"
 	{
 		"ControlName"								"Panel"

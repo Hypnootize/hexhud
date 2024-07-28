@@ -27,7 +27,6 @@
 			"scaleImage"							"1"
 			"image"									"hud/vote_yes"
 		}
-
 		"PassedTitle"
 		{
 			"ControlName"							"CExLabel"
@@ -45,7 +44,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"Green"
 		}
-
 		"PassedResult"
 		{
 			"ControlName"							"CExLabel"
@@ -64,7 +62,6 @@
 			"noshortcutsyntax"						"1"
 		}
 	}
-
 	"VoteActive"
 	{
 		"ControlName"								"EditablePanel"
@@ -95,7 +92,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"Issue"
 		{
 			"ControlName"							"CExLabel"
@@ -113,7 +109,6 @@
 			"wrap"									"1"
 			"noshortcutsyntax"						"1"
 		}
-
 		"TargetAvatarImage"
 		{
 			"ControlName"							"CAvatarImagePanel"
@@ -128,7 +123,6 @@
 			"scaleImage"							"1"
 			"color_outline"							"White_Dark"
 		}
-
 		// divider
 		"Divider"
 		{
@@ -141,9 +135,7 @@
 			"fillcolor"								"White_Dark"
 			"zpos"									"0"
 		}
-
 		// Temp UI
-
 		"LabelOption1"
 		{
 			"ControlName"							"CExLabel"
@@ -160,7 +152,6 @@
 			"font"									"Light_8"
 			"fgcolor"								"Off_White"
 		}
-
 		"Option1Background_Selected"
 		{
 			"ControlName"							"ImagePanel"
@@ -173,7 +164,6 @@
 			"fillcolor"								"Blue"
 			"visible"								"1"
 		}
-
 		"Option1CountLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -190,7 +180,6 @@
 			"font"									"Light_10"
 			"fgcolor"								"Off_White"
 		}
-
 		"LabelOption2"
 		{
 			"ControlName"							"CExLabel"
@@ -207,7 +196,6 @@
 			"font"									"Light_8"
 			"fgcolor"								"Off_White"
 		}
-
 		"Option2Background_Selected"
 		{
 			"ControlName"							"ImagePanel"
@@ -220,7 +208,6 @@
 			"fillcolor"								"Blue"
 			"visible"								"1"
 		}
-
 		"Option2CountLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -237,7 +224,6 @@
 			"font"									"Light_10"
 			"fgcolor"								"Off_White"
 		}
-
 		"LabelOption3"
 		{
 			"ControlName"							"CExLabel"
@@ -254,7 +240,6 @@
 			"font"									"Light_8"
 			"fgcolor"								"Off_White"
 		}
-
 		"Option3Background_Selected"
 		{
 			"ControlName"							"ImagePanel"
@@ -267,7 +252,6 @@
 			"fillcolor"								"Blue"
 			"visible"								"0"
 		}
-
 		"LabelOption4"
 		{
 			"ControlName"							"CExLabel"
@@ -284,7 +268,6 @@
 			"font"									"Light_8"
 			"fgcolor"								"Off_White"
 		}
-
 		"Option4Background_Selected"
 		{
 			"ControlName"							"ImagePanel"
@@ -297,7 +280,6 @@
 			"fillcolor"								"Blue"
 			"visible"								"0"
 		}
-
 		"LabelOption5"
 		{
 			"ControlName"							"CExLabel"
@@ -314,7 +296,6 @@
 			"font"									"Light_8"
 			"fgcolor"								"Off_White"
 		}
-
 		"Option5Background_Selected"
 		{
 			"ControlName"							"ImagePanel"
@@ -327,7 +308,6 @@
 			"fillcolor"								"Blue"
 			"visible"								"0"
 		}
-
 		// divider
 		"Divider2"
 		{
@@ -340,7 +320,6 @@
 			"fillcolor"								"White_Dark"
 			"zpos"									"0"
 		}
-
 		"VoteCountLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -356,7 +335,6 @@
 			"font"									"Light_8"
 			"fgcolor"								"Off_White"
 		}
-
 		// vote bar
 		"VoteBar"
 		{
@@ -376,7 +354,6 @@
 			"no_texture"							"vgui/hud/vote_no"
 		}
 	}
-
 	// This is sent to the vote caller when they're not able to start the vote
 	"CallVoteFailed"
 	{
@@ -405,7 +382,6 @@
 			"scaleImage"							"1"
 			"image"									"hud/vote_no"
 		}
-
 		"FailedTitle"
 		{
 			"ControlName"							"CExLabel"
@@ -423,7 +399,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"Red"
 		}
-
 		"FailedReason"
 		{
 			"ControlName"							"CExLabel"
@@ -441,7 +416,6 @@
 			"fgcolor"								"Off_White"
 		}
 	}
-
 	// This is shown to everyone when a vote fails due to lack of votes
 	"VoteFailed"
 	{
@@ -470,7 +444,6 @@
 			"scaleImage"							"1"
 			"image"									"hud/vote_no"
 		}
-
 		"FailedTitle"
 		{
 			"ControlName"							"CExLabel"
@@ -488,7 +461,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"Red"
 		}
-
 		"FailedReason"
 		{
 			"ControlName"							"CExLabel"
@@ -506,7 +478,6 @@
 			"fgcolor"								"Off_White"
 		}
 	}
-
 	"VoteSetupDialog"
 	{
 		"ControlName"								"CVoteSetupDialog"
@@ -553,15 +524,14 @@
 			"paintBackgroundtype"					"0"
 			"bgcolor_override"						"Background_Secondary"
 		}
-
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleLabel"
-			"xpos"									"10"
-			"ypos"									"3"
-			"wide"									"f35"
-			"tall"									"26"
+			"xpos"									"cs-0.5"
+			"ypos"									"1"
+			"wide"									"f2"
+			"tall"									"24"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -570,9 +540,12 @@
 			"font"									"Light_18"
 			"labelText"								"#TF_Vote_Title"
 			"textAlignment"							"west"
+			"textinsetx"							"5"
 			"fgcolor"								"White_Dark"
+			"paintBackground"						"1"
+			"paintBackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
 		}
-
 		"VoteSetupList"
 		{
 			"ControlName"							"SectionedListPanel"
@@ -607,7 +580,6 @@
 			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
 		}
-
 		"VoteParameterList"
 		{
 			"ControlName"							"SectionedListPanel"
@@ -642,7 +614,6 @@
 			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
 		}
-
 		"ComboLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -707,7 +678,6 @@
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
-
 		"CallVoteButton"
 		{
 			"ControlName"							"Button"
@@ -737,15 +707,15 @@
 			"armedBgColor_override"					"Button_Green_Hover"
 			"depressedBgColor_override"				"Button_Green_Hover"
 		}
-
 		"Button1"
 		{
 			"ControlName"							"Button"
 			"fieldName"								"Button1"
-			"xpos"									"rs1-5"
-			"ypos"									"2"
-			"wide"									"30"
-			"tall"									"30"
+			"xpos"									"rs1-4"
+			"ypos"									"4"
+			"zpos"									"5"
+			"wide"									"19"
+			"tall"									"19"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"-"
@@ -753,13 +723,17 @@
 			"Command"								"Close"
 			"Default"								"0"
 			"proportionaltoparent"					"1"
-			"font"									"Symbols_26"
+			"font"									"Symbols_20"
 
-			"paintbackground"						"0"
+			"paintbackground"						"1"
 
-			"defaultFgColor_override"				"White_Dark"
-			"armedFgColor_override"					"White"
-			"depressedFgColor_override"				"White_Dark"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
+
+			"defaultBgColor_override"				"Button_Red"
+			"armedBgColor_override"					"Button_Red_Hover"
+			"depressedBgColor_override"				"Button_Red_Hover"
 		}
 	}
 }

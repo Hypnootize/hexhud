@@ -4,16 +4,9 @@
 {
 	"Background"
 	{
-		"bgcolor_override"							"Red_Dark"
-
 		"InnerBG"
 		{
-			"bgcolor_override"						"Background"
+			"bgcolor_override"						"Red"
 		}
-	}
-
-	"NumberLabel"
-	{
-		"bgcolor_override"							"Red_Dark"
 	}
 }

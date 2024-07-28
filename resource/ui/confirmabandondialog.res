@@ -15,7 +15,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -33,7 +32,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -52,7 +50,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -82,14 +79,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
-	"CancelButtonHintIcon"
-	{
-		"ControlName"								"CSCHintIcon"
-		"fieldName"									"CancelButtonHintIcon"
-		"xpos"										"9999"
-	}
-
 	"ConfirmButton"
 	{
 		"ControlName"								"CExButton"
@@ -120,14 +109,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
-	"ConfirmButtonHintIcon"
-	{
-		"ControlName"								"CSCHintIcon"
-		"fieldName"									"ConfirmButtonHintIcon"
-		"xpos"										"9999"
-	}
-
 	"OptOutCheckbox"
 	{
 		"ControlName"								"CheckButton"
@@ -144,5 +125,32 @@
 		"wrap"										"0"
 		"font"										"Light_11"
 		"selected_fgcolor_override"					"White"
+	}
+
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
+	"CancelButtonHintIcon"
+	{
+		"ControlName"								"CSCHintIcon"
+		"fieldName"									"CancelButtonHintIcon"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"ConfirmButtonHintIcon"
+	{
+		"ControlName"								"CSCHintIcon"
+		"fieldName"									"ConfirmButtonHintIcon"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

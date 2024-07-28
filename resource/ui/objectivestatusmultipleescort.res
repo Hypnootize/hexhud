@@ -11,7 +11,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"TrackBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -27,7 +26,6 @@
 		"bgcolor_override"							"Background"
 		"proportionaltoparent"						"1"
 	}
-
 	"BlueEscortPanel"
 	{
 		"ControlName"								"CTFHudEscort"
@@ -48,7 +46,6 @@
 			"ypos"									"cs-0.5"
 		}
 	}
-
 	"RedEscortPanel"
 	{
 		"ControlName"								"CTFHudEscort"

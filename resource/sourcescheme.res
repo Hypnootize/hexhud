@@ -6,24 +6,23 @@
 	{
 		"White"												"235 240 245 255"
 		"White_Solid"										"255 255 255 255"
-		"White_Dark"											"155 160 165 255"
+		"White_Dark"										"155 160 165 255"
 
 		"Black"												"2 5 9 255"
-		"Black_Blue"											"15 15 20 255"
+		"Black_Blue"										"15 15 20 255"
 
 		"Gray_Blue_Darkest"									"25 25 32 255"
-		"Gray_Blue_Dark"										"35 35 42 255"
+		"Gray_Blue_Dark"									"35 35 42 255"
 		"Gray_Blue"											"42 42 49 255"
-		"Gray_Blue_Light"										"50 50 57 255"
+		"Gray_Blue_Light"									"50 50 57 255"
 
 		"Gray"												"62 62 72 255"
-		"Gray_Light"											"75 75 85 255"
+		"Gray_Light"										"75 75 85 255"
 
 		"Button"											"50 50 57 255"
 		"Button_Hover"										"62 62 72 255"
 
 		"Blank"												"0 0 0 0"
-
 
 		// TF2
 		"Off_White"											"200 200 200 255"
@@ -148,7 +147,7 @@
 		"MainMenu.Inset"									"32"
 		"MainMenu.DepressedTextColor"						"White_Dark"
 		"MainMenu.MenuItemHeight"							"25"
-		"MainMenu.Backdrop"									"0 0 0 156"
+		"MainMenu.Backdrop" 								"Blank"
 
 		"Menu.TextInset"									"6"
 		"Menu.FgColor"										"White_Dark"
@@ -220,30 +219,6 @@
 		"NewGame.FillColor"									"Black_Blue"
 		"NewGame.SelectionColor"							"White"
 		"NewGame.DisabledColor"								"Black"
-
-		/////////////////// Borrowed from CS:S SourceScheme /////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	}
 
 	//
@@ -446,9 +421,7 @@
 				"antialias"									"1" 				[!$OSX]
 			}
 		}
-
 	}
-
 	"CustomFontFiles"
 	{
 		"9"

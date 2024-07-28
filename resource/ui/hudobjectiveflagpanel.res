@@ -17,7 +17,6 @@
 			"zpos"									"-1"
 		}
 	}
-
 	"Background"
 	{
 		"ControlName"								"EditablePanel"
@@ -48,23 +47,23 @@
 			"PaintBackgroundType"					"0"
 			"proportionaltoparent"					"1"
 		}
-
 		"if_hybrid"
 		{
 			"visible"								"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
 	}
-
 	"BlueBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -103,18 +102,19 @@
 		{
 			"visible"								"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
 	}
-
 	"RedBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -153,18 +153,19 @@
 		{
 			"visible"								"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
 	}
-
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -189,18 +190,19 @@
 		{
 			"visible"								"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
 	}
-
 	"BlueScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -223,18 +225,19 @@
 		{
 			"visible"								"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
 	}
-
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -259,18 +262,19 @@
 		{
 			"visible"								"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
 	}
-
 	"RedScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -293,18 +297,19 @@
 		{
 			"visible"								"0"
 		}
-
 		"if_specialdelivery"
 		{
 			"visible"								"0"
 		}
-
 		"if_mvm"
 		{
 			"visible"								"0"
 		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
 	}
-
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"
@@ -335,8 +340,11 @@
 		{
 			"visible"								"0"
 		}
+		"if_no_flags"
+		{
+			"visible"								"0"
+		}
 	}
-
 	"BlueFlag"
 	{
 		"ControlName"								"CTFFlagStatus"
@@ -353,27 +361,22 @@
 		"if_hybrid"
 		{
 			"visible"								"0"
+			"ypos"									"rs1-24"
 		}
-
 		"if_hybrid_single"
 		{
 			"xpos"									"cs-0.5"
 		}
-
 		"if_no_flags"
 		{
 			"visible"								"0"
 		}
-
 		"if_mvm"
 		{
-			"xpos"									"cs-0.5-3"
-			"ypos"									"rs1-10"
-			"wide"									"34"
-			"tall"									"34"
+			"xpos"									"cs-0.5-32"
+			"ypos"									"rs1-13"
 		}
 	}
-
 	"RedFlag"
 	{
 		"ControlName"								"CTFFlagStatus"
@@ -391,18 +394,15 @@
 		{
 			"visible"								"0"
 		}
-
 		"if_hybrid_single"
 		{
 			"xpos"									"cs-0.5"
 		}
-
 		"if_no_flags"
 		{
 			"visible"								"0"
 		}
 	}
-
 	"CaptureFlag"
 	{
 		"ControlName"								"CTFArrowPanel"
@@ -416,7 +416,6 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"CarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -440,7 +439,6 @@
 			"ypos"									"-7"
 		}
 	}
-
 	"PoisonIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -488,7 +486,6 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"PoisonTimeLabel"
 	}
-
 	"OutlineImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -504,7 +501,6 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"SpecCarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -522,10 +518,9 @@
 	}
 
 
-
-
-
-	//REMOVED STUFF
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"LeftSideBG"
 	{
 		"ControlName"								"ImagePanel"

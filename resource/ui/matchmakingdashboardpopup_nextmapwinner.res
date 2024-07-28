@@ -17,7 +17,6 @@
 		"collapsed_height"							"0"
 		"expanded_height"							"80"
 
-
 		"OuterShadow"
 		{
 			"ControlName"							"EditablePanel"
@@ -31,9 +30,7 @@
 			"PaintBackgroundType"					"0"
 			"border"								"OuterShadowBorder"
 			"proportionaltoparent"					"1"
-
 		}
-
 		"BGPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -68,7 +65,6 @@
 				"labelText"							"#TF_Matchmaking_RollingQueue_NextMapWinner"
 				"proportionaltoparent"				"1"
 			}
-
 			"MapImageClip"
 			{
 				"ControlName"						"EditablePanel"
@@ -90,12 +86,11 @@
 					"wide"							"f0"
 					"tall"							"o1"
 					"zpos"							"0"
-					"image"							"..\vgui\maps\menu_thumb_pl_goldrush"
+					"image"							"maps/menu_thumb_pl_goldrush"
 					"proportionaltoparent"			"1"
 					"mouseinputenabled"				"0"
 				}
 			}
-
 			"NameLabel"
 			{
 				"ControlName"						"CExLabel"

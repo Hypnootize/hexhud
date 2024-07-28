@@ -53,7 +53,6 @@
 			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
-
 		"ImageFrame"
 		{
 			"ControlName"							"EditablePanel"
@@ -83,7 +82,6 @@
 			"image"									""
 			"proportionaltoparent"					"1"
 		}
-
 		"DESCBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -127,7 +125,6 @@
 			"pin_to_sibling_corner"					"PIN_CENTER_LEFT"
 		}
 	}
-
 	"StartButton"
 	{
 		"ControlName"								"CExButton"

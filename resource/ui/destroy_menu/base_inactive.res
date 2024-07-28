@@ -7,12 +7,10 @@
 		"visible"									"1"
 		"labelText"									"#TF_NotBuilt"
 	}
-
 	"DestroyNumberIcon"
 	{
 		"visible"									"0"
 	}
-
 	"NumberLabel"
 	{
 		"visible"									"0"

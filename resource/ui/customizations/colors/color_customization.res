@@ -1,0 +1,8 @@
+#base "../../../../../../cfg/hexhud/hex_color_buff.txt"
+#base "../../../../../../cfg/hexhud/hex_color_hurt.txt"
+#base "../../../../../../cfg/hexhud/hex_color_ammo_low.txt"
+#base "../../../../../../cfg/hexhud/hex_color_ubercharge.txt"
+#base "../../../../../../cfg/hexhud/hex_color_damage.txt"
+#base "../../../../../../cfg/hexhud/hex_color_crosshair.txt"
+#base "../../../../../../cfg/hexhud/hex_color_xhair_flash.txt"
+#base "../../../../../../cfg/hexhud/hex_color_hitmarker.txt"

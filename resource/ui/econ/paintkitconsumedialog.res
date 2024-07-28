@@ -20,7 +20,6 @@
 		"tall"										"f0"
 		"proportionaltoparent"						"1"
 	}
-
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -45,7 +44,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"Bottom_Line_White_Dark"
 	}
-
 	"BGPanel"
 	{
 		"fieldName"									"BGPanel"
@@ -62,7 +60,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"DescText"
 	{
 		"ControlName"								"CExLabel"
@@ -81,7 +78,6 @@
 		"proportionaltoparent"						"1"
 		"AllCaps"									"1"
 	}
-
 	"Shade"
 	{
 		"fieldName"									"Shade"
@@ -93,7 +89,6 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
-
 	"RedeemingPanel"
 	{
 		"fieldName"									"RedeemingPanel"
@@ -121,7 +116,6 @@
 			"radius"								"30"
 			"fgcolor_override"						"White_Dark"
 		}
-
 		"WorkingText"
 		{
 			"ControlName"							"CExLabel"
@@ -140,7 +134,6 @@
 			"AllCaps"								"1"
 		}
 	}
-
 	"SuccessPanel"
 	{
 		"fieldName"									"SuccessPanel"
@@ -168,7 +161,6 @@
 			"radius"								"30"
 			"fgcolor_override"						"White_Dark"
 		}
-
 		"SuccessText"
 		{
 			"ControlName"							"CExLabel"
@@ -187,7 +179,6 @@
 			"AllCaps"								"1"
 		}
 	}
-
 	"FailurePanel"
 	{
 		"fieldName"									"FailurePanel"
@@ -215,7 +206,6 @@
 			"radius"								"30"
 			"fgcolor_override"						"White_Dark"
 		}
-
 		"FailureText"
 		{
 			"ControlName"							"CExLabel"
@@ -235,7 +225,6 @@
 			"AllCaps"								"1"
 		}
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -268,7 +257,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"ConfirmButton"
 	{
 		"ControlName"								"CExButton"

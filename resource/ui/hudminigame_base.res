@@ -31,7 +31,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"BlueBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -66,7 +65,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"RedBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -101,7 +99,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -122,7 +119,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"BlueScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -141,7 +137,6 @@
 
 		"pin_to_sibling"							"BlueScore"
 	}
-
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -162,7 +157,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"RedScoreShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -180,7 +174,6 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"RedScore"
 	}
-
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"
@@ -201,7 +194,9 @@
 	}
 
 
-	//REMOVED
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"LeftSideBG"
 	{
 		"ControlName"								"ImagePanel"

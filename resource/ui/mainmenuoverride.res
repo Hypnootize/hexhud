@@ -1,4 +1,4 @@
 #base "mainmenu_hex.res"
-#base "mainmenu_toolbar.res"
-#base "mainmenu_friendslist.res"
+#base "hexagon_corners.res"
+#base "customizations/#customization_menu/hud_customization.res"
 #base "../dev/textures_preload.res"

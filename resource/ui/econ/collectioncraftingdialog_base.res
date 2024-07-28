@@ -6,7 +6,6 @@
 	{
 		"ypos"										"100"
 	}
-
 	"CollectionCraftingPanel"
 	{
 		"fieldName"									"CollectionCraftingPanel"
@@ -40,7 +39,6 @@
 			"boxtop"								"trade_ups/trade_ups_boxtop_04"
 			"boxtop"								"trade_ups/trade_ups_boxtop_05"
 		}
-
 		"ItemContainerKV"
 		{
 			"fieldName"								"ItemContainerKV"
@@ -73,7 +71,6 @@
 				"fgcolor"							"0 0 0 255"
 				"centerwrap"						"1"
 			}
-
 			"BackgroundButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -119,7 +116,6 @@
 					"proportionaltoparent"			"1"
 				}
 			}
-
 			"imagepanel"
 			{
 				"ControlName"						"ImagePanel"
@@ -134,7 +130,6 @@
 				"scaleimage"						"1"
 				"image"								"trade_ups/trade_ups_boxtop_01"
 			}
-
 			"itempanel"
 			{
 				"ControlName"						"CItemModelPanel"
@@ -168,7 +163,6 @@
 			}
 		}
 	}
-
 	"Dimmer"
 	{
 		"fieldName"									"Dimmer"
@@ -181,9 +175,71 @@
 		"wide"										"f0"
 		"tall"										"f0"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"Background_Main"
+		"bgcolor_override"							"Blank"
 	}
+	"Hide_Panels"									// 720p screws everything so fuck it, ghetto solution wins
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"Hide_Panels"
+		"xpos"										"137"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"700"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"mouseinputenabled"							"0"
 
+		"Center"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Center"
+			"xpos"									"0"
+			"ypos"									"cs-0.5"
+			"zpos"									"-1"
+			"wide"									"470"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+		"Right"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Right"
+			"xpos"									"rs1-80"
+			"ypos"									"cs-0.5-30"
+			"zpos"									"-1"
+			"wide"									"160"
+			"tall"									"360"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+		"Right_Small"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Right_Small"
+			"xpos"									"rs1-55"
+			"ypos"									"cs-0.5-30"
+			"zpos"									"-1"
+			"wide"									"50"
+			"tall"									"320"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Background_Main"
+		}
+	}
 	"BG"
 	{
 		"fieldName"									"BG"
@@ -215,7 +271,6 @@
 			"border"								"Border_Gray_Blue_Light"
 		}
 	}
-
 	"DrawingPanel"
 	{
 		"fieldName"									"DrawingPanel"
@@ -230,7 +285,6 @@
 		"proportionaltoparent"						"1"
 		"linecolor"									"Black"
 	}
-
 	"LetterBack_Bottom"
 	{
 		"fieldName"									"LetterBack_Bottom"
@@ -246,7 +300,6 @@
 		"scaleImage"								"1"
 		"image"										"trade_ups/trade_ups_letter_back_bottom"
 	}
-
 	"LetterBack_Top"
 	{
 		"fieldName"									"LetterBack_Top"
@@ -262,7 +315,6 @@
 		"scaleImage"								"1"
 		"image"										"trade_ups/trade_ups_letter_back_top"
 	}
-
 	"LetterBack_Flap"
 	{
 		"fieldName"									"LetterBack_Flap"
@@ -278,7 +330,6 @@
 		"scaleImage"								"1"
 		"image"										"trade_ups/trade_ups_letter_back_flap"
 	}
-
 	"BehindItemParticlePanel"
 	{
 		"ControlName"								"CTFParticlePanel"
@@ -322,10 +373,8 @@
 				"loop"								"0"
 			}
 		}
-
 		"paintbackground"							"0"
 	}
-
 	"WaitingForResponse"
 	{
 		"ControlName"								"CExLabel"
@@ -346,7 +395,6 @@
 		"paintborder"								"0"
 		"fgcolor"									"White"
 	}
-
 	"ResponseTimeout"
 	{
 		"ControlName"								"CExLabel"
@@ -368,7 +416,6 @@
 		"paintborder"								"0"
 		"fgcolor"									"White"
 	}
-
 	"NewItemPanel"
 	{
 		"fieldName"									"NewItemPanel"
@@ -401,7 +448,6 @@
 			"paintborder"							"0"
 			"fgcolor"								"White"
 		}
-
 		"ItemName"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -432,7 +478,6 @@
 				"inventory_image_type"				"1"
 			}
 		}
-
 		"BGImage"
 		{
 			"ControlName"							"EditablePanel"
@@ -448,7 +493,6 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"CosmeticResultItemModelPanel"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -482,7 +526,6 @@
 				"inventory_image_type"				"1"
 			}
 		}
-
 		"ModelInspectionPanel"
 		{
 			"fieldName"								"ModelInspectionPanel"
@@ -519,7 +562,6 @@
 				"spotlight"							"1"
 				"modelname"							""
 			}
-
 			"lights"
 			{
 				"default"
@@ -528,7 +570,6 @@
 					"color"							"1 1 1"
 					"direction"						"0 0 -1"
 				}
-
 				"spot light"
 				{
 					"name"							"spot"
@@ -541,7 +582,6 @@
 					"maxDistance"					"1000"
 					"exponent"						"25"
 				}
-
 				"point light"
 				{
 					"name"							"point"
@@ -552,7 +592,6 @@
 				}
 			}
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -579,7 +618,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"TeamNavPanel"
 		{
 			"ControlName"							"CNavigationPanel"
@@ -639,7 +677,6 @@
 					"scaleImage"					"1"
 				}
 			}
-
 			"Buttons"
 			{
 				"all"
@@ -654,7 +691,6 @@
 						"image"						"store/store_redteam"
 					}
 				}
-
 				"scout"
 				{
 					"userdata"						"3"
@@ -670,7 +706,6 @@
 			}
 		}
 	}
-
 	"ReturnModel"
 	{
 		"ControlName"								"CBaseModelPanel"
@@ -700,7 +735,6 @@
 			"origin_z"								"-10"
 		}
 	}
-
 	"LetterFront"
 	{
 		"fieldName"									"LetterFront"
@@ -716,7 +750,6 @@
 		"scaleImage"								"1"
 		"image"										"trade_ups/trade_ups_letter_back_front"
 	}
-
 	"Stamp"
 	{
 		"fieldName"									"Stamp"
@@ -732,7 +765,6 @@
 		"scaleImage"								"1"
 		"image"										"trade_ups/trade_ups_stamp_02"
 	}
-
 	"ApplyStampButton"
 	{
 		"ControlName"								"CExButton"
@@ -760,7 +792,6 @@
 		"armedFgColor_override"						"Red"
 		"depressedFgColor_override"					"Red"
 	}
-
 	"SendEvelopeButton"
 	{
 		"ControlName"								"CExButton"
@@ -792,7 +823,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"TradeUpContainer"
 	{
 		"fieldName"									"TradeUpContainer"
@@ -834,7 +864,6 @@
 				"scaleImage"						"1"
 				"image"								"trade_ups/trade_ups_bg_blank"
 			}
-
 			"LocalizedPaperImagePaperImage"
 			{
 				"ControlName"						"ImagePanel"
@@ -849,7 +878,6 @@
 				"scaleImage"						"1"
 				"image"								"trade_ups/trade_ups_bg"
 			}
-
 			"OkButton"
 			{
 				"ControlName"						"CExButton"
@@ -878,7 +906,6 @@
 			}
 		}
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -905,7 +932,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"NextItemButton"
 	{
 		"ControlName"								"CExButton"
@@ -936,12 +962,11 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"ShowExplanationsButton1"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ShowExplanationsButton1"
-		"xpos"										"rs1-2"
+		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"100"
 		"wide"										"14"
@@ -963,7 +988,6 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 	}
-
 	"DebugReload"
 	{
 		"ControlName"								"CExButton"
@@ -995,7 +1019,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"ShowExplanationsButton2"
 	{
 		"ControlName"								"CExButton"
@@ -1022,7 +1045,6 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 	}
-
 	"StartExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -1064,7 +1086,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1081,7 +1102,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1107,7 +1127,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1124,7 +1143,6 @@
 			"enabled"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"NextButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1151,7 +1169,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"ItemSlotsExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -1192,7 +1209,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1210,7 +1226,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1236,7 +1251,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PrevButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1262,7 +1276,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1281,7 +1294,6 @@
 			"fgcolor"								"White_Dark"
 		}
 	}
-
 	"SigningExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -1323,7 +1335,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1341,7 +1352,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1366,7 +1376,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1384,7 +1393,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"NextButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1411,7 +1419,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"StampExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -1452,7 +1459,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1470,7 +1476,6 @@
 			"proportionaltoparent"					"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1495,7 +1500,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PrevButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1521,7 +1525,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"

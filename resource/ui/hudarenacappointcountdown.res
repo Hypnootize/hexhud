@@ -4,7 +4,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CapCountdownLabel"
-		"font"										"Light_18"
 		"xpos"										"4"
 		"ypos"										"5"
 		"zpos"										"-1"
@@ -13,6 +12,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"wrap"										"0"
+		"font"										"Light_18"
 		"labelText"									"%capturetime%"
 		"textAlignment"								"center"
 		"fgcolor"									"White"

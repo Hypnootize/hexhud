@@ -13,7 +13,6 @@
 		"enabled"									"1"
 		"PaintBackgroundType"						"0"
 	}
-
 	"AchievementName"
 	{
 		"ControlName"								"CExLabel"
@@ -44,7 +43,6 @@
 		"textinsetx"								"5"
 		"textAlignment"								"north-west"
 	}
-
 	"AchievementDesc"
 	{
 		"ControlName"								"CExLabel"
@@ -61,7 +59,6 @@
 		"wrap"										"1"
 		"TextAlignment"								"north-west"
 	}
-
 	"ProgressBarBG"
 	{
 		"ControlName"								"ImagePanel"
@@ -75,8 +72,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
-	"ProgressBar" // current completed
+	"ProgressBar"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ProgressBar"

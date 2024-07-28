@@ -21,12 +21,11 @@
 			"wide"									"f0"
 			"tall"									"o1"
 			"zpos"									"0"
-			"image"									"..\vgui\maps\menu_thumb_pl_goldrush"
+			"image"									"maps/menu_thumb_pl_goldrush"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
 	}
-
 	"SelectButton"
 	{
 		"ControlName"								"CExButton"
@@ -50,7 +49,6 @@
 		"stay_armed_on_click"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"VotesLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -69,7 +67,6 @@
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
 	}
-
 	"NameLabel"
 	{
 		"ControlName"								"CExLabel"

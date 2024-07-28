@@ -1,0 +1,9 @@
+"Modulate"
+{
+	"$baseTexture"			"vgui\white"
+	"$translucent"			"1"
+	"$vertexcolor"			"1"
+	"$vertexalpha"			"1"
+	"$additive"				"1"
+	"$color"				"{255 255 255}"
+}

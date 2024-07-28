@@ -17,7 +17,6 @@
 		"collapsed_height"							"0"
 		"expanded_height"							"60"
 
-
 		"OuterShadow"
 		{
 			"ControlName"							"EditablePanel"
@@ -29,7 +28,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"BGPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -70,7 +68,6 @@
 					"2"								"Light_9"
 				}
 			}
-
 			"AutoJoinLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -89,7 +86,6 @@
 				"proportionaltoparent"				"1"
 				"AllCaps"							"1"
 			}
-
 			"AbandonButton"
 			{
 				"ControlName"						"CExButton"
@@ -130,7 +126,6 @@
 				"armedFgColor_override"				"White_Solid"
 				"depressedFgColor_override"			"White_Solid"
 			}
-
 			"SmallJoinButton"
 			{
 				"ControlName"						"CExButton"
@@ -172,7 +167,6 @@
 				"armedFgColor_override"				"White_Solid"
 				"depressedFgColor_override"			"White_Solid"
 			}
-
 			"WideJoinButton"
 			{
 				"ControlName"						"CExButton"
@@ -208,7 +202,6 @@
 				"armedFgColor_override"				"White_Solid"
 				"depressedFgColor_override"			"White_Solid"
 			}
-
 			"JoiningLabel"
 			{
 				"ControlName"						"CExLabel"
@@ -227,7 +220,6 @@
 				"proportionaltoparent"				"1"
 				"AllCaps"							"1"
 			}
-
 			"Spinner"
 			{
 				"ControlName"						"CTFLogoPanel"

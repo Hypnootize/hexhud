@@ -16,7 +16,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 //	"Container"
 //	{
 //		"ControlName"								"EditablePanel"
@@ -66,7 +65,6 @@
 				"centerwrap"						"1"
 			}
 		}
-
 		"ToolBG"
 		{
 			"ControlName"							"CExLabel"
@@ -89,7 +87,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"tool_modelpanel"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -131,7 +128,6 @@
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
-
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"				"0"
@@ -139,7 +135,6 @@
 				"allow_rot"							"0"
 			}
 		}
-
 		"TitleLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -157,7 +152,6 @@
 			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"SubjectBG"
 		{
 			"ControlName"							"CExLabel"
@@ -180,7 +174,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-
 		"subject_modelpanel"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -238,7 +231,6 @@
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
-
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"				"0"
@@ -246,7 +238,6 @@
 				"allow_rot"							"0"
 			}
 		}
-
 		// Dynamically sized and moded based on the current page
 		"paint_model"
 		{
@@ -281,7 +272,6 @@
 				"allow_rot"							"1"
 			}
 		}
-
 		// ----------------------------
 		"SelectImagePage"
 		{
@@ -311,7 +301,6 @@
 				"fgcolor"							"White"
 				"proportionaltoparent"				"1"
 			}
-
 			"ImagePaletteGroupBox"
 			{
 				"ControlName"						"EditablePanel"
@@ -337,7 +326,6 @@
 					"font"							"Light_14"
 					"proportionaltoparent"			"1"
 				}
-
 				"UseAnyImageRadio"
 				{
 					"ControlName"					"RadioButton"
@@ -351,7 +339,6 @@
 					"font"							"Light_14"
 					"proportionaltoparent"			"1"
 				}
-
 				"BrowseForNewImageButton"
 				{
 					"ControlName"					"CExButton"
@@ -378,7 +365,6 @@
 					"border_armed"					"Button_hover"
 					"proportionaltoparent"			"1"
 				}
-
 				"ForBestResultsLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -396,7 +382,6 @@
 					"proportionaltoparent"			"1"
 				}
 			}
-
 			"PreviewImageGroupBox"
 			{
 				"ControlName"						"EditablePanel"
@@ -420,7 +405,6 @@
 					"tall"							"84"
 					"proportionaltoparent"			"1"
 				}
-
 				"SquarizeComboBox"
 				{
 					"ControlName"					"ComboBox"
@@ -451,9 +435,7 @@
 						"paintbackgroundtype"		"0"
 					}
 				}
-
 			}
-
 			"CancelButton"
 			{
 				"ControlName"						"CExButton"
@@ -481,7 +463,6 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-
 			"NextButton"
 			{
 				"ControlName"						"CExButton"
@@ -510,7 +491,6 @@
 				"depressedBgColor_override"			"Button_Hover"
 			}
 		}
-
 		// ----------------------------
 		"AdjustFilterPage"
 		{
@@ -540,7 +520,6 @@
 				"fgcolor"							"White_Dark"
 				"proportionaltoparent"				"1"
 			}
-
 			"FilterOptionsGroupBox"
 			{
 				"ControlName"						"EditablePanel"
@@ -572,7 +551,6 @@
 					"fieldName"						"PainterlyOptions"
 					"xpos"							"9999"
 				}
-
 				"StencilOptions"
 				{
 					"ControlName"					"EditablePanel"
@@ -601,7 +579,6 @@
 						"proportionaltoparent"		"1"
 						"fgcolor"					"White"
 					}
-
 					"ColorPaletteLabel"
 					{
 						"ControlName"				"CExLabel"
@@ -617,7 +594,6 @@
 						"proportionaltoparent"		"1"
 						"fgcolor"					"White_Dark"
 					}
-
 					"PrevStencilPaletteButton"
 					{
 						"ControlName"				"CExButton"
@@ -640,7 +616,6 @@
 						"armedFgColor_override"		"White_Solid"
 						"depressedFgColor_override"	"White_Solid"
 					}
-
 					"NextStencilPaletteButton"
 					{
 						"ControlName"				"CExButton"
@@ -663,7 +638,6 @@
 						"armedFgColor_override"		"White_Solid"
 						"depressedFgColor_override"	"White_Solid"
 					}
-
 					"StencilGradientMap"
 					{
 						"ControlName"				"CustomTextureStencilGradientMapWidget"
@@ -675,7 +649,6 @@
 						"tall"						"19"
 						"proportionaltoparent"		"1"
 					}
-
 					"StencilModeComboBox"
 					{
 						"ControlName"				"ComboBox"
@@ -710,7 +683,6 @@
 					}
 				}
 			}
-
 			"PreviewImageGroupBox"
 			{
 				"ControlName"						"EditablePanel"
@@ -735,7 +707,6 @@
 					"proportionaltoparent"			"1"
 				}
 			}
-
 			"PreviewModelGroupBox"
 			{
 				"ControlName"						"EditablePanel"
@@ -766,7 +737,6 @@
 					"paintbackground"				"1"
 					"proportionaltoparent"			"1"
 				}
-
 				"DragToRotateLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -785,7 +755,6 @@
 					"fgcolor"						"White_Dark"
 				}
 			}
-
 			"CancelButton"
 			{
 				"ControlName"						"CExButton"
@@ -813,7 +782,6 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-
 			"BackButton"
 			{
 				"ControlName"						"CExButton"
@@ -841,7 +809,6 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-
 			"NextButton"
 			{
 				"ControlName"						"CExButton"
@@ -870,7 +837,6 @@
 				"depressedBgColor_override"			"Button_Hover"
 			}
 		}
-
 		// ----------------------------
 		"FinalConfirmPage"
 		{
@@ -898,7 +864,6 @@
 				"fgcolor"							"White_Dark"
 				"proportionaltoparent"				"1"
 			}
-
 			"WarningTextGroupBox"
 			{
 				"ControlName"						"EditablePanel"
@@ -930,7 +895,6 @@
 					"proportionaltoparent"			"1"
 				}
 			}
-
 			"PreviewModelGroupBox"
 			{
 				"ControlName"						"EditablePanel"
@@ -961,7 +925,6 @@
 					"paintbackground"				"1"
 					"proportionaltoparent"			"1"
 				}
-
 				"DragToRotateLabel"
 				{
 					"ControlName"					"CExLabel"
@@ -980,7 +943,6 @@
 					"fgcolor"						"White_Dark"
 				}
 			}
-
 			"CancelButton"
 			{
 				"ControlName"						"CExButton"
@@ -1009,7 +971,6 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-
 			"BackButton"
 			{
 				"ControlName"						"CExButton"
@@ -1037,7 +998,6 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-
 			"OkButton"
 			{
 				"ControlName"						"CExButton"
@@ -1067,7 +1027,6 @@
 				"depressedBgColor_override"			"Button_Hover"
 			}
 		}
-
 		// ----------------------------
 		"PerformingActionPage"
 		{
@@ -1096,7 +1055,6 @@
 				"AllCaps"							"1"
 				"fgcolor"							"White_Dark"
 			}
-
 			"PreviewModelGroupBox"
 			{
 				"ControlName"						"EditablePanel"

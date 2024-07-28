@@ -27,7 +27,6 @@
 				"fgcolor"							"White_Dark"
 				"proportionaltoparent"				"1"
 			}
-
 			"SelectionGroup"
 			{
 				"ControlName"						"EditablePanel"
@@ -54,7 +53,6 @@
 					"visible"						"0"
 					"enabled"						"0"
 				}
-
 				"Answer0"
 				{
 					"ControlName"					"RadioButton"
@@ -71,7 +69,6 @@
 					"labelText"						""
 					"Command"						"option0"
 				}
-
 				"Answer0Label"
 				{
 					"ControlName"					"CExLabel"
@@ -90,7 +87,6 @@
 
 					"associate"						"Radio0"
 				}
-
 				"Answer1"
 				{
 					"ControlName"					"RadioButton"
@@ -107,7 +103,6 @@
 					"labelText"						""
 					"Command"						"option1"
 				}
-
 				"Answer1Label"
 				{
 					"ControlName"					"CExLabel"
@@ -124,7 +119,6 @@
 					"font"							"Light_11"
 					"textAlignment"					"west"
 				}
-
 				"Answer2"
 				{
 					"ControlName"					"RadioButton"
@@ -141,7 +135,6 @@
 					"labelText"						""
 					"Command"						"option2"
 				}
-
 				"Answer2Label"
 				{
 					"ControlName"					"CExLabel"
@@ -159,7 +152,6 @@
 					"textAlignment"					"west"
 					"default"						"1"
 				}
-
 				"Answer3"
 				{
 					"ControlName"					"RadioButton"
@@ -176,7 +168,6 @@
 					"labelText"						""
 					"Command"						"option3"
 				}
-
 				"Answer3Label"
 				{
 					"ControlName"					"CExLabel"
@@ -193,7 +184,6 @@
 					"font"							"Light_11"
 					"textAlignment"					"west"
 				}
-
 				"Answer4"
 				{
 					"ControlName"					"RadioButton"
@@ -210,7 +200,6 @@
 					"labelText"						""
 					"Command"						"option4"
 				}
-
 				"Answer4Label"
 				{
 					"ControlName"					"CExLabel"
@@ -227,7 +216,6 @@
 					"font"							"Light_11"
 					"textAlignment"					"west"
 				}
-
 				"Answer5"
 				{
 					"ControlName"					"RadioButton"
@@ -244,7 +232,6 @@
 					"labelText"						""
 					"Command"						"option4"
 				}
-
 				"Answer5Label"
 				{
 					"ControlName"					"CExLabel"
@@ -262,7 +249,6 @@
 					"textAlignment"					"west"
 				}
 			}
-
 			"SubmitButton"
 			{
 				"ControlName"						"CExButton"

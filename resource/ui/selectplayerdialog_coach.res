@@ -51,7 +51,6 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-
 			"avatar"
 			{
 				"ControlName"						"CAvatarImagePanel"
@@ -69,7 +68,6 @@
 			}
 		}
 	}
-
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -87,7 +85,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -105,7 +102,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"PlayerListScroller"
 	{
 		"ControlName"								"ScrollableEditablePanel"
@@ -142,7 +138,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"StatePanel0"
 	{
 		"ControlName"								"EditablePanel"
@@ -173,7 +168,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"subbutton0"
 		{
 			"ControlName"							"CExButton"
@@ -205,7 +199,6 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-
 		"subbutton1"
 		{
 			"ControlName"							"CExButton"
@@ -238,7 +231,6 @@
 			"depressedBgColor_override"				"Button_Hover"
 		}
 	}
-
 	"StatePanel1"
 	{
 		"ControlName"								"EditablePanel"
@@ -268,7 +260,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -289,7 +280,6 @@
 			"fgcolor"								"Red_Dark"
 		}
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"

@@ -150,6 +150,118 @@
 				}
 			}
 		}
+		"Customization_Selection_White"
+		{
+			"inset"									"0 0 0 0"
+			"Left"
+			{
+				"1"
+				{
+					"color"							"White_Solid"
+					"offset"						"0 0"
+				}
+				"2"
+				{
+					"color"							"White_Solid"
+					"offset"						"0 0"
+				}
+			}
+			"Right"
+			{
+				"1"
+				{
+					"color"							"White_Solid"
+					"offset"						"0 0"
+				}
+				"2"
+				{
+					"color"							"White_Solid"
+					"offset"						"0 0"
+				}
+			}
+			"Top"
+			{
+				"1"
+				{
+					"color"							"White_Solid"
+					"offset"						"0 0"
+				}
+				"2"
+				{
+					"color"							"White_Solid"
+					"offset"						"0 0"
+				}
+			}
+			"Bottom"
+			{
+				"1"
+				{
+					"color"							"White_Solid"
+					"offset"						"0 0"
+				}
+				"2"
+				{
+					"color"							"White_Solid"
+					"offset"						"0 0"
+				}
+			}
+		}
+		"Customization_Selection_Black"
+		{
+			"inset"									"0 0 0 0"
+			"Left"
+			{
+				"1"
+				{
+					"color"							"Black"
+					"offset"						"0 0"
+				}
+				"2"
+				{
+					"color"							"Black"
+					"offset"						"0 0"
+				}
+			}
+			"Right"
+			{
+				"1"
+				{
+					"color"							"Black"
+					"offset"						"0 0"
+				}
+				"2"
+				{
+					"color"							"Black"
+					"offset"						"0 0"
+				}
+			}
+			"Top"
+			{
+				"1"
+				{
+					"color"							"Black"
+					"offset"						"0 0"
+				}
+				"2"
+				{
+					"color"							"Black"
+					"offset"						"0 0"
+				}
+			}
+			"Bottom"
+			{
+				"1"
+				{
+					"color"							"Black"
+					"offset"						"0 0"
+				}
+				"2"
+				{
+					"color"							"Black"
+					"offset"						"0 0"
+				}
+			}
+		}
 
 		//========================================================================
 		// CUSTOM PANELS
@@ -3519,12 +3631,12 @@
 			{
 				"1"
 				{
-					"color"							"White_Dark"
+					"color"							"White_Solid"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"White_Dark"
+					"color"							"White_Solid"
 					"offset"						"0 0"
 				}
 			}
@@ -3533,12 +3645,12 @@
 			{
 				"1"
 				{
-					"color"							"White_Dark"
+					"color"							"White_Solid"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"White_Dark"
+					"color"							"White_Solid"
 					"offset"						"0 0"
 				}
 			}
@@ -3547,12 +3659,12 @@
 			{
 				"1"
 				{
-					"color"							"White_Dark"
+					"color"							"White_Solid"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"White_Dark"
+					"color"							"White_Solid"
 					"offset"						"0 0"
 				}
 			}
@@ -3561,12 +3673,12 @@
 			{
 				"1"
 				{
-					"color"							"White_Dark"
+					"color"							"White_Solid"
 					"offset"						"0 0"
 				}
 				"2"
 				{
-					"color"							"White_Dark"
+					"color"							"White_Solid"
 					"offset"						"0 0"
 				}
 			}

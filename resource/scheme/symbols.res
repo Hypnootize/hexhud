@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx7"
+				"name"								"Hypnotize Icons HEx8"
 				"tall"								"10"
 				"antialias"							"1"
 			}
@@ -15,7 +15,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx7"
+				"name"								"Hypnotize Icons HEx8"
 				"tall"								"12"
 				"antialias"							"1"
 			}
@@ -24,7 +24,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx7"
+				"name"								"Hypnotize Icons HEx8"
 				"tall"								"14"
 				"antialias"							"1"
 			}
@@ -33,7 +33,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx7"
+				"name"								"Hypnotize Icons HEx8"
 				"tall"								"14"
 				"antialias"							"1"
 				"blur"								"2"
@@ -43,7 +43,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx7"
+				"name"								"Hypnotize Icons HEx8"
 				"tall"								"16"
 				"antialias"							"1"
 			}
@@ -52,7 +52,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx7"
+				"name"								"Hypnotize Icons HEx8"
 				"tall"								"18"
 				"antialias"							"1"
 			}
@@ -61,7 +61,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx7"
+				"name"								"Hypnotize Icons HEx8"
 				"tall"								"18"
 				"antialias"							"1"
 				"blur"								"2"
@@ -71,7 +71,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx7"
+				"name"								"Hypnotize Icons HEx8"
 				"tall"								"20"
 				"antialias"							"1"
 			}
@@ -80,7 +80,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx7"
+				"name"								"Hypnotize Icons HEx8"
 				"tall"								"22"
 				"antialias"							"1"
 			}
@@ -89,7 +89,7 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx7"
+				"name"								"Hypnotize Icons HEx8"
 				"tall"								"24"
 				"antialias"							"1"
 			}
@@ -98,17 +98,8 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx7"
+				"name"								"Hypnotize Icons HEx8"
 				"tall"								"26"
-				"antialias"							"1"
-			}
-		}
-		"Symbols_30"
-		{
-			"1"
-			{
-				"name"								"Hypnotize Icons HEx7"
-				"tall"								"30"
 				"antialias"							"1"
 			}
 		}
@@ -116,12 +107,30 @@
 		{
 			"1"
 			{
-				"name"								"Hypnotize Icons HEx7"
+				"name"								"Hypnotize Icons HEx8"
 				"tall"								"34"
 				"antialias"							"1"
 			}
 		}
-
+		"ReadyUp_24"
+		{
+			"1"
+			{
+				"name"								"ReadyUp Symbols"
+				"tall"								"24"
+				"antialias"							"1"
+			}
+		}
+		"ReadyUp_24_Blur"
+		{
+			"1"
+			{
+				"name"								"ReadyUp Symbols"
+				"tall"								"24"
+				"antialias"							"1"
+				"blur"								"2"
+			}
+		}
 		"BlocksSharp_64"
 		{
 			"1"
@@ -131,20 +140,6 @@
 				"additive"							"0"
 				"antialias"							"0"
 			}
-		}
-	}
-
-	"CustomFontFiles"
-	{
-		"30"
-		{
-			"font"	"resource/scheme/fonts/Hypnotize_Icons.ttf"
-			"name"	"Hypnotize Icons HEx7"
-		}
-		"31"
-		{
-			"font"	"resource/scheme/fonts/Blocks.ttf"
-			"name"	"Blocks"
 		}
 	}
 }

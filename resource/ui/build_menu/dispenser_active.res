@@ -10,7 +10,6 @@
 		"tall"										"20"
 		"icon"										"obj_status_dispenser"
 	}
-
 	"GreenLine"
 	{
 		"visible"									"1"
@@ -19,7 +18,6 @@
 	{
 		"visible"									"0"
 	}
-
 	"Cost"
 	{
 		"visible"									"1"
@@ -28,12 +26,10 @@
 	{
 		"visible"									"1"
 	}
-
 	"CantBuildReason"
 	{
 		"visible"									"0"
 	}
-
 	"NumberLabel"
 	{
 		"labelText"									"2"

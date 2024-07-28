@@ -1,13 +1,3 @@
-#base "huditemeffectmeter_demoman.res"
-
-"Resource/UI/HudItemEffectMeter_Engineer.res"
-{
-	"HeadsIcon"
-	{
-		"labelText"									"J"
-	}
-	"HeadsIconShadow"
-	{
-		"labelText"									"J"
-	}
-}
+#base "../../../../cfg/hexhud/hex_counter_minmode.txt"
+#base "huditemeffectcounter_#crits.res"
+#base "huditemeffectcounter_#base.res"

@@ -2,28 +2,12 @@
 
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
-	"LeftBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"LeftBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-1"
-		"wide"										"135"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Loadout_NavigationBar"
-	}
-
 	"CharInfoLoadoutSubPanel"
 	{
 		"ControlName"								"Frame"
 		"fieldName"									"CharInfoLoadoutSubPanel"
 		"xpos"										"0"
-		"ypos"										"40"
+		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
@@ -31,9 +15,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"Background_Main"
-		"infocus_bgcolor_override"					"Background_Main"
-		"outoffocus_bgcolor_override"				"Background_Main"
+		"bgcolor_override"							"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"selectlabely_default"						"25"
 		"selectlabely_onchanges"					"15"
@@ -51,6 +35,9 @@
 		"itemcountcolor_noitems"					"Blank"
 	}
 
+	//===================================================================================
+	// SCOUT
+	//===================================================================================
 	"ScoutCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -110,7 +97,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"ScoutImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -128,7 +114,6 @@
 			"image"									"replay/thumbnails/loadouts/scout"
 			"proportionaltoparent"					"1"
 		}
-
 		"ScoutLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -158,6 +143,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
 
+	//===================================================================================
+	// SOLDIER
+	//===================================================================================
 	"SoldierCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -217,7 +205,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"SoldierImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -235,7 +222,6 @@
 			"image"									"replay/thumbnails/loadouts/soldier"
 			"proportionaltoparent"					"1"
 		}
-
 		"SoldierLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -269,6 +255,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
 
+	//===================================================================================
+	// PYRO
+	//===================================================================================
 	"PyroCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -328,7 +317,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"PyroImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -346,7 +334,6 @@
 			"image"									"replay/thumbnails/loadouts/pyro"
 			"proportionaltoparent"					"1"
 		}
-
 		"PyroLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -380,6 +367,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
 
+	//===================================================================================
+	// DEMOMAN
+	//===================================================================================
 	"DemomanCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -439,7 +429,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"DemomanImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -457,7 +446,6 @@
 			"image"									"replay/thumbnails/loadouts/demoman"
 			"proportionaltoparent"					"1"
 		}
-
 		"DemomanLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -491,6 +479,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
 
+	//===================================================================================
+	// HEAVY
+	//===================================================================================
 	"HeavyCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -550,7 +541,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"HeavyImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -568,7 +558,6 @@
 			"image"									"replay/thumbnails/loadouts/heavy"
 			"proportionaltoparent"					"1"
 		}
-
 		"HeavyLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -602,6 +591,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
 
+	//===================================================================================
+	// ENGINEER
+	//===================================================================================
 	"EngineerCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -661,7 +653,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"EngineerImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -679,7 +670,6 @@
 			"image"									"replay/thumbnails/loadouts/engineer"
 			"proportionaltoparent"					"1"
 		}
-
 		"EngineerLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -713,6 +703,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
 
+	//===================================================================================
+	// MEDIC
+	//===================================================================================
 	"MedicCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -772,7 +765,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"MedicImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -790,7 +782,6 @@
 			"image"									"replay/thumbnails/loadouts/medic"
 			"proportionaltoparent"					"1"
 		}
-
 		"MedicLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -824,6 +815,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
 
+	//===================================================================================
+	// SNIPER
+	//===================================================================================
 	"SniperCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -883,7 +877,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"SniperImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -901,7 +894,6 @@
 			"image"									"replay/thumbnails/loadouts/sniper"
 			"proportionaltoparent"					"1"
 		}
-
 		"SniperLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -935,6 +927,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
 
+	//===================================================================================
+	// SPY
+	//===================================================================================
 	"SpyCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -994,7 +989,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"SpyImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -1012,7 +1006,6 @@
 			"image"									"replay/thumbnails/loadouts/spy"
 			"proportionaltoparent"					"1"
 		}
-
 		"SpyLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -1046,6 +1039,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
 
+	//===================================================================================
+	// BACKPACK
+	//===================================================================================
 	"BackpackCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -1105,7 +1101,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"BackpackImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -1123,7 +1118,6 @@
 			"image"									"replay/thumbnails/loadouts/backpack"
 			"proportionaltoparent"					"1"
 		}
-
 		"BackpackLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -1153,6 +1147,9 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
 
+	//===================================================================================
+	// CRAFTING
+	//===================================================================================
 	"CraftingCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -1212,7 +1209,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"CraftingImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -1230,7 +1226,6 @@
 			"image"									"replay/thumbnails/loadouts/crafting"
 			"proportionaltoparent"					"1"
 		}
-
 		"CraftingLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -1254,6 +1249,9 @@
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
+	//===================================================================================
+	// MANN.CO CATALOG
+	//===================================================================================
 	"CatalogCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -1313,7 +1311,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"CatalogImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -1331,7 +1328,6 @@
 			"image"									"replay/thumbnails/loadouts/catalog"
 			"proportionaltoparent"					"1"
 		}
-
 		"CatalogLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -1355,6 +1351,9 @@
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
+	//===================================================================================
+	// TRADING
+	//===================================================================================
 	"TradingCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -1414,7 +1413,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"TradingImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -1432,7 +1430,6 @@
 			"image"									"replay/thumbnails/loadouts/trading"
 			"proportionaltoparent"					"1"
 		}
-
 		"TradingLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -1456,6 +1453,9 @@
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
+	//===================================================================================
+	// WAR PAINTS
+	//===================================================================================
 	"WarPaintsCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -1515,7 +1515,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"WarPaintsImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -1533,7 +1532,6 @@
 			"image"									"replay/thumbnails/loadouts/warpaints"
 			"proportionaltoparent"					"1"
 		}
-
 		"WarPaintsLine"
 		{
 			"ControlName"							"EditablePanel"
@@ -1557,6 +1555,9 @@
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
+	//===================================================================================
+	// STEAM OFFLINE MESSAGE
+	//===================================================================================
 	"NoSteamLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -1593,6 +1594,7 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
+
 	"LoadoutChangesLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -1645,7 +1647,6 @@
 		"zpos"										"500"
 		"visible"									"0"
 	}
-
 	"InspectionPanel"
 	{
 		"fieldName"									"InspectionPanel"
@@ -1658,12 +1659,11 @@
 		"proportionaltoparent"						"1"
 		"bgcolor_override"							"Blank"
 	}
-
 	"ShowExplanationsButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ShowExplanationsButton"
-		"xpos"										"rs1-2"
+		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"100"
 		"wide"										"14"
@@ -1686,7 +1686,6 @@
 		"armedFgColor_override"						"White"
 		"depressedFgColor_override"					"White"
 	}
-
 	"StartExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -1728,7 +1727,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1745,7 +1743,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1771,7 +1768,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1788,7 +1784,6 @@
 			"enabled"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"NextButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1815,7 +1810,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"BackpackExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -1857,7 +1851,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1874,7 +1867,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1900,7 +1892,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PrevButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1926,7 +1917,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -1943,7 +1933,6 @@
 			"enabled"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"NextButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -1970,7 +1959,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"CraftingExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -2012,7 +2000,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -2029,7 +2016,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2055,7 +2041,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PrevButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2081,7 +2066,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -2098,7 +2082,6 @@
 			"enabled"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"NextButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2125,7 +2108,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"ArmoryExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -2167,7 +2149,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -2184,7 +2165,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2210,7 +2190,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PrevButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2236,7 +2215,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -2253,7 +2231,6 @@
 			"enabled"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"NextButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2280,7 +2257,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"TradingExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -2322,7 +2298,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -2339,7 +2314,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2365,7 +2339,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PrevButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2391,7 +2364,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -2408,7 +2380,6 @@
 			"enabled"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"NextButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2435,7 +2406,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"PatternsExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -2477,7 +2447,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -2494,7 +2463,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2520,7 +2488,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PrevButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2546,7 +2513,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -2563,7 +2529,6 @@
 			"enabled"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"NextButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2590,7 +2555,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"ExplanationExplanation"
 	{
 		"ControlName"								"CExplanationPopup"
@@ -2631,7 +2595,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"TextLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -2648,7 +2611,6 @@
 			"wrap"									"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2674,7 +2636,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PrevButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -2700,7 +2661,6 @@
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
 		}
-
 		"PositionLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -2720,6 +2680,9 @@
 	}
 
 
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"scout"
 	{
 		"ControlName"								"ImageButton"

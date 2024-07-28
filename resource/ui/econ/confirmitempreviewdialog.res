@@ -16,7 +16,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -54,7 +53,6 @@
 			"centerwrap"							"1"
 		}
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -73,29 +71,6 @@
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
-	}
-
-	"ToolBG"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ToolBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"tool_icon"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"tool_icon"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	"tool_modelpanel"
 	{
@@ -155,7 +130,6 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
@@ -163,7 +137,6 @@
 			"allow_rot"								"0"
 		}
 	}
-
 	"ConfirmLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -183,7 +156,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -214,7 +186,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -244,5 +215,32 @@
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
+	}
+
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
+	"ToolBG"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ToolBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"tool_icon"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"tool_icon"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

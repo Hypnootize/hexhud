@@ -16,7 +16,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 	}
-
 	"IconBackgound"
 	{
 		"ControlName"								"EditablePanel"
@@ -33,7 +32,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Dark"
 	}
-
 	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
@@ -50,7 +48,6 @@
 		"iconColor"									"White"
 		"pin_to_sibling"							"IconBackgound"
 	}
-
 	"NotBuiltLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -71,7 +68,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"DestroyNumberIcon"
 	{
 		"ControlName"								"CExLabel"
@@ -89,7 +85,6 @@
 		"textAlignment"								"Center"
 		"proportionaltoparent"						"1"
 	}
-
 	"NumberLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -109,11 +104,9 @@
 	}
 
 
-
-
-
-	//REMOVED STUFF
-
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"

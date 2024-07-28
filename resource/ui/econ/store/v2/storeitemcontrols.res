@@ -12,7 +12,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"AddToCartButton"
 	{
 		"ControlName"								"CExImageButton"

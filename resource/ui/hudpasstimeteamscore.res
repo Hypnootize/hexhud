@@ -13,7 +13,6 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -49,7 +48,6 @@
 
 		"pin_to_sibling"							"BlueScore"
 	}
-
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -84,7 +82,6 @@
 		"fgcolor"									"Shadow"
 		"pin_to_sibling"							"RedScore"
 	}
-
 	"PlayingToCluster"
 	{
 		"ControlName"								"EditablePanel"
@@ -116,7 +113,6 @@
 			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"PlayingToBG"
 		{
 			"ControlName"							"CTFImagePanel"
@@ -131,10 +127,9 @@
 	}
 
 
-
-
-
-	//REMOVED STUFF
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"LeftSideBG"
 	{
 		"ControlName"								"ImagePanel"

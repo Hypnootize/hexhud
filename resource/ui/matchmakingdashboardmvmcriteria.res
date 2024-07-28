@@ -13,7 +13,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"criteria"
 	{
 		"ControlName"								"CMVMCriteriaPanel"
@@ -29,7 +28,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Black"
 	}
-
 	"CompetitiveImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -44,7 +42,6 @@
 		"scaleimage"								"1"
 		"image"										"replay/thumbnails/mm_menu/mvmbg"
 	}
-
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
@@ -150,7 +147,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"BootCampQueueButton"
 	{
 		"ControlName"								"CExButton"
@@ -186,7 +182,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"JoinLateCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -214,7 +209,6 @@
 		"labelText"									"#TF_Matchmaking_JoinInProgress"
 		"proportionaltoparent"						"1"
 	}
-
 	"MannUpToolTipButtonHack"
 	{
 		"ControlName"								"EditablePanel"

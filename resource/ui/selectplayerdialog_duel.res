@@ -51,7 +51,6 @@
 				"armedBgColor_override"				"Button_Hover"
 				"depressedBgColor_override"			"Button_Hover"
 			}
-
 			"avatar"
 			{
 				"ControlName"						"CAvatarImagePanel"
@@ -69,7 +68,6 @@
 			}
 		}
 	}
-
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -87,7 +85,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -105,7 +102,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"PlayerListScroller"
 	{
 		"ControlName"								"ScrollableEditablePanel"
@@ -143,7 +139,6 @@
 			"proportionaltoparent"					"1"
 		}
 	}
-
 	"StatePanel0"
 	{
 		"ControlName"								"EditablePanel"
@@ -174,7 +169,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"subbutton0"
 		{
 			"ControlName"							"CExButton"
@@ -206,7 +200,6 @@
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 		}
-
 		"subbutton1"
 		{
 			"ControlName"							"CExButton"
@@ -239,7 +232,6 @@
 			"depressedBgColor_override"				"Button_Hover"
 		}
 	}
-
 	"StatePanel1"
 	{
 		"ControlName"								"EditablePanel"
@@ -269,7 +261,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -320,7 +311,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White_Dark"
 		}
-
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -341,7 +331,6 @@
 			"fgcolor"								"Red_Dark"
 		}
 	}
-
 	"ClassLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -359,7 +348,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ClassUsageMouseoverLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -381,7 +369,6 @@
 		"fgcolor"									"White_Dark"
 		"PaintBackgroundType"						"0"
 	}
-
 	"ClassUsageImage_Any"
 	{
 		"ControlName"								"CStorePreviewClassIcon"
@@ -398,7 +385,6 @@
 		"image_indent"								"2"
 		"PaintBackgroundType"						"0"
 	}
-
 	"VerticalLine"
 	{
 		"ControlName"								"EditablePanel"
@@ -411,7 +397,6 @@
 		"PaintBackground"							"1"
 		"bgcolor_override"							"White_Dark"
 	}
-
 	"ClassUsageImage_Locked"
 	{
 		"ControlName"								"CStorePreviewClassIcon"
@@ -428,7 +413,6 @@
 		"image_indent"								"2"
 		"PaintBackgroundType"						"0"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"

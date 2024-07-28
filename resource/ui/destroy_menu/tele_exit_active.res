@@ -10,12 +10,10 @@
 		"tall"										"20"
 		"icon"										"obj_status_tele_exit"
 	}
-
 	"NotBuiltLabel"
 	{
 		"visible"									"0"
 	}
-
 	"NumberLabel"
 	{
 		"labelText"									"4"

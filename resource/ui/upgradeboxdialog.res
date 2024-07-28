@@ -15,7 +15,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -33,7 +32,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -52,7 +50,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"UpgradeButton"
 	{
 		"ControlName"								"CExButton"
@@ -82,7 +79,6 @@
 		"armedBgColor_override"						"Button_Green_Hover"
 		"depressedBgColor_override"					"Button_Green_Hover"
 	}
-
 	"ConfirmButton"
 	{
 		"ControlName"								"CExButton"

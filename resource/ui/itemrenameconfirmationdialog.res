@@ -14,7 +14,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -29,13 +28,13 @@
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"
-		
+
 		"text_ypos"									"20"
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
 		"padding_height"							"15"
-		
+
 		"attriblabel"
 		{
 			"font"									"ItemFontAttribLarge"
@@ -52,7 +51,6 @@
 			"centerwrap"							"1"
 		}
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -72,32 +70,8 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
-	
-	"ToolBG"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ToolBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"tool_icon"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"tool_icon"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"tool_modelpanel"
 		"xpos"										"10"
@@ -154,7 +128,6 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
@@ -162,30 +135,8 @@
 			"allow_rot"								"0"
 		}
 	}
-	"SubjectBG"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"SubjectBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"subject_icon"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"subject_icon"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"subject_modelpanel"
 		"xpos"										"rs1-10"
@@ -241,7 +192,6 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
@@ -249,7 +199,6 @@
 			"allow_rot"								"0"
 		}
 	}
-	
 	"ConfirmLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -268,7 +217,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"Red_Dark"
 	}
-	
 	"GivenName"
 	{
 		"ControlName"								"CExLabel"
@@ -287,7 +235,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"WarningLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -306,7 +253,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"Red_Dark"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -325,10 +271,10 @@
 		"default"									"0"
 		"Command"									"cancel"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
@@ -337,7 +283,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-	
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -356,10 +301,10 @@
 		"default"									"1"
 		"Command"									"apply"
 		"sound_depressed"							"UI/buttonclick.wav"
-		
+
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		
+
 		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
@@ -367,5 +312,54 @@
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
+	}
+
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
+	"ToolBG"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ToolBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"tool_icon"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"tool_icon"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"SubjectBG"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"SubjectBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"subject_icon"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"subject_icon"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

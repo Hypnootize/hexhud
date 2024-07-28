@@ -10,21 +10,8 @@
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"1"
-		"bgcolor_override"							"0 0 0 180"
+		"bgcolor_override"							"TransparentBlack"
 	}
-
-	"BannerContainer"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BannerContainer"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-
 	"VictoryPanelNormal"
 	{
 		"ControlName"								"CVictoryPanel"
@@ -36,7 +23,6 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	"VictoryPanelMannUp"
 	{
 		"ControlName"								"CMvMVictoryMannUpPanel"

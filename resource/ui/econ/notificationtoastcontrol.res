@@ -16,7 +16,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Gray_Blue_Light"
 	}
-
 	"DeleteButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -47,7 +46,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"TriggerButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -84,7 +82,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"AcceptButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -121,7 +118,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"DeclineButton"
 	{
 		"ControlName"								"CExImageButton"

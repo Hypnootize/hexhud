@@ -4,9 +4,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light_14"
-		"labelText"									"%title%"
-		"textAlignment"								"north"
 		"xpos"										"cs-0.5"
 		"ypos"										"10"
 		"wide"										"f20"
@@ -16,17 +13,16 @@
 		"wrap"										"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
+		"font"										"Light_14"
+		"labelText"									"%title%"
+		"textAlignment"								"north"
 		"fgcolor"									"White_Dark"
 		"auto_tall_tocontents"						"1"
 	}
-
 	"TextLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TextLabel"
-		"font"										"Light_14"
-		"labelText"									"%body%"
-		"textAlignment"								"north-west"
 		"xpos"										"cs-0.5"
 		"ypos"										"45"
 		"wide"										"f20"
@@ -35,10 +31,12 @@
 		"enabled"									"1"
 		"wrap"										"1"
 		"proportionaltoparent"						"1"
+		"font"										"Light_14"
+		"labelText"									"%body%"
+		"textAlignment"								"north-west"
 		"fgcolor"									"White_Dark"
 		"auto_tall_tocontents"						"1"
 	}
-
 	"CloseButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -56,16 +54,13 @@
 		"default"									"0"
 		"Command"									"close"
 		"proportionaltoparent"						"1"
-
 		"sound_depressed"							"UI/buttonclick.wav"
-
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White_Dark"
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"PrevButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -84,9 +79,7 @@
 		"Command"									"prevexplanation"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"
-
 		"sound_depressed"							"UI/buttonclick.wav"
-
 		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White_Dark"
@@ -124,9 +117,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PositionLabel"
-		"font"										"Light_14"
-		"labelText"									"%explanationnumber%"
-		"textAlignment"								"center"
 		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"zpos"										"-1"
@@ -134,6 +124,9 @@
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
+		"font"										"Light_14"
+		"labelText"									"%explanationnumber%"
+		"textAlignment"								"center"
 		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 		"skip_autoresize"							"1"

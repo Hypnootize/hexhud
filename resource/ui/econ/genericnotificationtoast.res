@@ -12,7 +12,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"AvatarBGPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -26,7 +25,6 @@
 		"PaintBackgroundType"						"2"
 		"bgcolor_override"							"White"
 	}
-
 	"AvatarImage"
 	{
 		"ControlName"								"CAvatarImagePanel"
@@ -42,7 +40,6 @@
 		"scaleImage"								"1"
 		"color_outline"								"Blank"
 	}
-
 	"AvatarTextLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -60,7 +57,6 @@
 		"textAlignment"								"West"
 		"font"										"Light_8"
 	}
-
 	"TextLabel"
 	{
 		"ControlName"								"CExLabel"

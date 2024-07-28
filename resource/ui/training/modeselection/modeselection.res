@@ -16,7 +16,6 @@
 		"bgcolor_override"							"Black"
 		"proportionaltoparent"						"1"
 	}
-
 	"TrainingImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -31,7 +30,6 @@
 		"scaleimage"								"1"
 		"image"										"replay/thumbnails/mm_menu/trainingshortbg"
 	}
-
 	"BasicTrainingPanel"
 	{
 		"ControlName"								"CModePanel"
@@ -51,7 +49,6 @@
 		"image"										"illustrations/training_basic"
 		"startcommand"								"basictrainingselected"
 	}
-
 	"OfflinePracticePanel"
 	{
 		"ControlName"								"CModePanel"

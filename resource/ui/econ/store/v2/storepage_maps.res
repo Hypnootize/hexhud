@@ -18,67 +18,54 @@
 			}
 		}
 	}
-
 	"ClassFilterLabel"
 	{
 		"visible"									"0"
 	}
-
 	"ClassFilterNavPanel"
 	{
 		"visible"									"0"
 	}
-
 	"ClassFilterLabel"
 	{
 		"visible"									"0"
 	}
-
 	"NameFilterLabel"
 	{
 		"visible"									"0"
 	}
-
 	"NameFilterTextEntry"
 	{
 		"visible"									"0"
 	}
-
 	"NameFilterBG"
 	{
 		"visible"									"0"
 	}
-
 	"NameFilterLine"
 	{
 		"visible"									"0"
 	}
-
 	"BackpackSpaceLabel"
 	{
 		"visible"									"0"
 	}
-
 	"SortFilterLabel"
 	{
 		"visible"									"0"
 	}
-
 	"SubcategoryFilterBG"
 	{
 		"visible"									"0"
 	}
-
 	"SortFilterComboBox"
 	{
 		"visible"									"0"
 	}
-
 	"SortFilterBG"
 	{
 		"visible"									"0"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -96,7 +83,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"SubTitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -114,7 +100,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White"
 	}
-
 	"LearnMoreButton"
 	{
 		"ControlName"								"CExButton"

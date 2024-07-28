@@ -15,7 +15,6 @@
 		"paintborder"								"1"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -31,7 +30,6 @@
 		"centerwrap"								"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"TextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -47,7 +45,6 @@
 		"bgcolor_override"							"Black_Blue"
 		"fgcolor_override"							"White"
 	}
-
 	"ButtonClose"
 	{
 		"ControlName"								"CExButton"
@@ -74,7 +71,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"ButtonDone"
 	{
 		"ControlName"								"CExButton"

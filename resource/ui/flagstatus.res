@@ -16,11 +16,10 @@
 
 		"if_mvm"
 		{
-			"wide"									"34"
-			"tall"									"34"
+			"wide"									"24"
+			"tall"									"24"
 		}
 	}
-
 	"Briefcase"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -38,11 +37,10 @@
 
 		"if_mvm"
 		{
-			"wide"									"18"
-			"tall"									"18"
+			"wide"									"14"
+			"tall"									"14"
 		}
 	}
-
 	"StatusIcon"
 	{
 		"ControlName"								"CTFImagePanel"

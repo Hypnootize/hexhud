@@ -19,10 +19,10 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"InnerBG"
-			"xpos"									"cs-0.5"
+			"xpos"									"2"
 			"ypos"									"cs-0.5"
 			"zpos"									"0"
-			"wide"									"f4"
+			"wide"									"f10"
 			"tall"									"f4"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -31,52 +31,47 @@
 			"bgcolor_override"						"Background_Dark"
 		}
 	}
-
 	"ItemNameLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
-		"font"										"Light_8"
-		"xpos"										"cs-0.5"
-		"ypos"										"5"
+		"xpos"										"2"
+		"ypos"										"cs-0.5"
 		"zpos"										"2"
-		"wide"										"f2"
-		"tall"										"10"
+		"wide"										"f10"
+		"tall"										"f4"
 		"visible"									"1"
 		"enabled"									"1"
-		"AllCaps"									"1"
-		"labelText"									"#TF_Object_Sentry"
+		"labelText"									"w"
 		"textAlignment"								"Center"
-		"centerwrap"								"0"
+		"font"										"Symbols_20"
 		"proportionaltoparent"						"1"
 		"fgcolor"									"Off_White"
 	}
-
 	"NumberLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"Light_8"
-		"fgcolor"									"Off_White"
-		"xpos"										"cs-0.5"
-		"ypos"										"rs1"
+		"xpos"										"rs1"
+		"ypos"										"cs-0.5"
 		"zpos"										"6"
-		"wide"										"f0"
-		"tall"										"8"
+		"wide"										"8"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
+		"font"										"Light_8"
+		"fgcolor"									"Off_White"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"bgcolor_override"							"Background"
 	}
 
 
-
-
-
-	//REMOVED STUFF
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"

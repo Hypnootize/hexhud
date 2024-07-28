@@ -1,0 +1,178 @@
+//======================================================================================================================
+// HEALTH BUFF START ANIMATION
+//======================================================================================================================
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage		Alpha		"255"								Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH NORMAL
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Hexagon_Buff						Alpha		"200"								Linear	0.0		0.075
+	Animate Hexagon_Buff						Alpha		"255"								Linear	0.125	0.175
+	Animate Health								FgColor		"Health_Buff"						Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH CENTERED SHADOW
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Centered_Shadow				Alpha		"0"									Linear	0.0		0.0
+	Animate Health_Centered_Shadow_Buff			FgColor		"Health_Buff"						Linear	0.0		0.0
+	Animate Health_Centered_Shadow_Buff			Alpha		"255"								Linear	0.0		0.0
+	Animate Health_Centered_Shadow_Extra		Alpha		"255"								Linear	0.0		0.0
+	Animate Health_Static_Cross_Buff			Alpha		"175"								Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH CENTERED MINIMAL
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Minimal						FgColor		"Health_Buff"						Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH CENTERED BOX
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Box							Alpha		"255"								Linear	0.0		0.0
+	Animate Health_Box_Buff						Alpha		"255"								Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// TARGET - SPECTATOR
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Target_BG					BgColor		"Health_Target_Buff"				Linear	0.0		0.0
+	Animate Health_Spectator					FgColor		"Health_Spectator_Buff"				Linear	0.0		0.0
+	Animate Health_Spectator_Bar_Buff			Alpha		"255"								Linear	0.0		0.0
+	Animate Health_Spectator_BG					BgColor		"Health_Buff"						Linear	0.0		0.0
+
+	RunEvent HudHealthBonusPulseLoop			0.7
+}
+
+//======================================================================================================================
+// HEALTH BUFF STOP ANIMATION
+//======================================================================================================================
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse				0.0
+	StopEvent HudHealthBonusPulseLoop			0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH NORMAL
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Hexagon_Buff						Alpha		"0"									Linear	0.0		0.0
+	Animate Health								FgColor		"Health_Numbers"					Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH CENTERED SHADOW
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Centered_Shadow				Alpha		"255"								Linear	0.0		0.0
+	Animate Health_Centered_Shadow_Buff			Alpha		"0"									Linear	0.0		0.0
+	Animate Health_Centered_Shadow_Extra		Alpha		"0"									Linear	0.0		0.0
+	Animate Health_Static_Cross_Buff			Alpha		"0"									Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH CENTERED BOX
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Box							Alpha		"0"									Linear	0.0		0.0
+	Animate Health_Box_Buff						Alpha		"0"									Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH CENTERED MINIMAL
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Minimal						FgColor		"Health_Numbers"					Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// TARGET - SPECTATOR
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Target_BG					BgColor		"TransparentLightBlack"				Linear	0.0		0.0
+	Animate Health_Spectator					FgColor		"Health_Numbers"					Linear	0.0		0.0
+	Animate Health_Spectator_Bar_Buff			Alpha		"0"									Linear	0.0		0.0
+	Animate Health_Spectator_BG					BgColor		"TransparentLightBlack"				Linear	0.0		0.0
+}
+
+//====================================================================================================================
+
+//--------------------------------------------------------------------------------------------------------------------
+
+//======================================================================================================================
+// HEALTH HURT START ANIMATION
+//======================================================================================================================
+
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage		Alpha		"255"								Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH NORMAL
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Hexagon_Hurt						Alpha		"200"								Linear	0.0		0.075
+	Animate Hexagon_Hurt						Alpha		"255"								Linear	0.125	0.175
+	Animate Health								FgColor		"Health_Hurt"						Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH CENTERED SHADOW
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Centered_Shadow				Alpha		"0"									Linear	0.0		0.0
+	Animate Health_Centered_Shadow_Buff			FgColor		"Health_Hurt"						Linear	0.0		0.0
+	Animate Health_Centered_Shadow_Buff			Alpha		"255"								Linear	0.0		0.0
+	Animate Health_Centered_Shadow_Extra		Alpha		"255"								Linear	0.0		0.0
+	Animate Health_Static_Cross_Hurt			Alpha		"175"								Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH CENTERED MINIMAL
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Minimal						FgColor		"Health_Hurt"						Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH CENTERED BOX
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Box							Alpha		"255"								Linear	0.0		0.0
+	Animate Health_Box_Hurt						Alpha		"255"								Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// TARGET - SPECTATOR
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Target_BG					BgColor		"Health_Target_Hurt"				Linear	0.0		0.0
+	Animate Health_Spectator_Bar_Hurt			Alpha		"255"								Linear	0.0		0.0
+	Animate Health_Spectator_BG					BgColor		"Health_Spectator_Hurt"				Linear	0.0		0.0
+
+	RunEvent HudHealthDyingPulseLoop			0.4
+}
+
+//======================================================================================================================
+// HEALTH HURT STOP ANIMATION
+//======================================================================================================================
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse				0.0
+	StopEvent HudHealthDyingPulseLoop			0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH NORMAL
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Hexagon_Hurt						Alpha		"0"									Linear	0.0		0.0
+	Animate Health								FgColor		"Health_Numbers"					Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH CENTERED SHADOW
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Centered_Shadow				Alpha		"255"								Linear	0.0		0.0
+	Animate Health_Centered_Shadow2				Alpha		"0"									Linear	0.0		0.0
+	Animate Health_Centered_Shadow_Extra		Alpha		"0"									Linear	0.0		0.0
+	Animate Health_Static_Cross_Hurt			Alpha		"0"									Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH CENTERED BOX
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Box							Alpha		"0"									Linear	0.0		0.0
+	Animate Health_Box_Hurt						Alpha		"0"									Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// HEALTH CENTERED MINIMAL
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Minimal						FgColor		"Health_Numbers"					Linear	0.0		0.0
+
+	//------------------------------------------------------------------------------------------------------------------
+	// TARGET - SPECTATOR
+	//------------------------------------------------------------------------------------------------------------------
+	Animate Health_Target_BG					BgColor		"TransparentLightBlack"				Linear	0.0		0.0
+	Animate Health_Spectator_Bar_Hurt			Alpha		"0"									Linear	0.0		0.0
+	Animate Health_Spectator_BG					BgColor		"TransparentLightBlack"				Linear	0.0		0.0
+}
+
+//====================================================================================================================

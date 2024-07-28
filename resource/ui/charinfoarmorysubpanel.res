@@ -6,23 +6,6 @@
 	{
 		"ypos"										"50"
 	}
-
-	"LeftBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"LeftBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-1"
-		"wide"										"135"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"Loadout_NavigationBar"
-	}
-
 	"armory_panel"
 	{
 		"ControlName"								"Frame"
@@ -33,9 +16,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"Background_Main"
-		"infocus_bgcolor_override"					"Background_Main"
-		"outoffocus_bgcolor_override"				"Background_Main"
+		"bgcolor_override"							"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"thumbnail_bgcolor"							"Button"
 		"thumbnail_bgcolor_mouseover"				"Button_Hover"
@@ -83,7 +66,6 @@
 			}
 		}
 	}
-
 	"ButtonsBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -100,7 +82,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"proportionaltoparent"						"1"
 	}
-
 	"FilterBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -120,7 +101,6 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"FilterComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -159,7 +139,6 @@
 
 		"pin_to_sibling"							"FilterBG"
 	}
-
 	"PagesBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -179,7 +158,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"PrevPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -217,7 +195,6 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -238,7 +215,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"NextPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -276,7 +252,6 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"DataBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -293,7 +268,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"proportionaltoparent"						"1"
 	}
-
 	"SelectedItemImageModelPanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -325,7 +299,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"SelectedItemModelPanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -354,7 +327,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"WikiButton"
 	{
 		"ControlName"								"CExButton"
@@ -389,7 +361,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"ViewSetButton"
 	{
 		"ControlName"								"CExButton"
@@ -424,7 +395,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"StoreButton"
 	{
 		"ControlName"								"CExButton"
@@ -461,7 +431,9 @@
 	}
 
 
-
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"DataPanel"										//Bitch
 	{
 		"ControlName"								"EditablePanel"

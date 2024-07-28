@@ -11,7 +11,6 @@
 		"image"										"illustrations/training_basic"
 		"proportionaltoparent"						"1"
 	}
-
 	"SelectButton"
 	{
 		"ControlName"								"CExButton"
@@ -42,7 +41,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"ProgressLabel"
 	{
 		"ControlName"								"CExLabel"

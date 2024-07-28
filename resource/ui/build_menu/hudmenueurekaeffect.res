@@ -22,7 +22,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background"
 	}
-
 	"available_target_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -34,7 +33,6 @@
 		"tall"										"26"
 		"visible"									"1"
 	}
-
 	"available_target_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -46,7 +44,6 @@
 		"tall"										"26"
 		"visible"									"1"
 	}
-
 	"unavailable_target_1"
 	{
 		"ControlName"								"EditablePanel"
@@ -58,7 +55,6 @@
 		"tall"										"26"
 		"visible"									"1"
 	}
-
 	"unavailable_target_2"
 	{
 		"ControlName"								"EditablePanel"
@@ -72,11 +68,9 @@
 	}
 
 
-
-
-
-	//REMOVED STUFF
-
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"MainBackground"
 	{
 		"ControlName"								"CIconPanel"

@@ -26,7 +26,6 @@
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"SubmittingContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -55,7 +54,6 @@
 				"labelText"							"#TF_SurveyQuestion_Submitting"
 				"proportionaltoparent"				"1"
 			}
-
 			"SpinnerImage"
 			{
 				"ControlName"						"ScalableImagePanel"
@@ -71,7 +69,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"ThanksContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -100,7 +97,6 @@
 				"labelText"							"#TF_SurveyQuestion_ThankYouTitle"
 				"proportionaltoparent"				"1"
 			}
-
 			"Explanation"
 			{
 				"ControlName"						"CExLabel"
@@ -121,7 +117,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"CloseButton"
 		{
 			"ControlName"							"CExImageButton"

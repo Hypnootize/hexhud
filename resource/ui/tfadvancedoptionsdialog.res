@@ -22,39 +22,42 @@
 		"slider_w"									"500"
 		"slider_h"									"25"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"Light_22"
-		"labelText"									"#TF_AdvancedOptions"
-		"textAlignment"								"west"
-		"xpos"										"15"
-		"ypos"										"0"
+		"xpos"										"cs-0.5"
+		"ypos"										"1"
 		"zpos"										"1"
-		"wide"										"f50"
-		"tall"										"40"
+		"wide"										"f2"
+		"tall"										"24"
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
+		"use_proportional_insets"					"1"
+		"font"										"Light_22"
+		"labelText"									"#TF_AdvancedOptions"
+		"textAlignment"								"west"
+		"textinsetx"								"5"
 		"fgcolor"									"White_Dark"
+		"paintBackground"							"1"
+		"paintBackgroundtype"						"0"
+		"bgcolor_override"							"Background_Main"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CancelButton"
-		"xpos"										"rs1"
-		"ypos"										"0"
+		"xpos"										"rs1-4"
+		"ypos"										"4"
 		"zpos"										"10"
-		"wide"										"40"
-		"tall"										"40"
+		"wide"										"19"
+		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"-"
-		"font"										"Symbols_30"
+		"font"										"Symbols_20"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"default"									"1"
@@ -62,11 +65,15 @@
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
-		"paintbackground"							"0"
+		"paintbackground"							"1"
 
-		"defaultFgColor_override"					"White_Dark"
-		"armedFgColor_override"						"White"
-		"depressedFgColor_override"					"White_Dark"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
+
+		"defaultBgColor_override"					"Button_Red"
+		"armedBgColor_override"						"Button_Red_Hover"
+		"depressedBgColor_override"					"Button_Red_Hover"
 	}
 	"CancelKey"
 	{
@@ -78,7 +85,6 @@
 		"visible"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -109,21 +115,19 @@
 		"armedBgColor_override"						"Button_Green_Hover"
 		"depressedBgColor_override"					"Button_Green_Hover"
 	}
-
 	"PanelListPanel"
 	{
 		"ControlName"								"CPanelListPanel"
 		"fieldName"									"PanelListPanel"
 		"xpos"										"cs-0.5"
-		"ypos"										"40"
-		"wide"										"480"
-		"tall"										"270"
+		"ypos"										"30"
+		"wide"										"496"
+		"tall"										"280"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"0"
 	}
-
 	"TooltipPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -142,9 +146,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"Light_10"
-			"labelText"								"%tiptext%"
-			"textAlignment"							"center"
 			"xpos"									"20"
 			"ypos"									"10"
 			"zpos"									"2"
@@ -152,9 +153,12 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"White_Dark"
 			"wrap"									"1"
 			"centerwrap"							"1"
+			"font"									"Light_10"
+			"labelText"								"%tiptext%"
+			"textAlignment"							"center"
+			"fgcolor"								"White_Dark"
 		}
 	}
 }

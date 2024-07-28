@@ -11,7 +11,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"MapName"
 	{
 		"ControlName"								"CExLabel"
@@ -36,7 +35,6 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"FightBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -53,7 +51,6 @@
 		"bgcolor_override"							"Background_Dark"
 		"proportionaltoparent"						"1"
 	}
-
 	"Fight"
 	{
 		"ControlName"								"EditablePanel"
@@ -119,7 +116,6 @@
 			}
 		}
 	}
-
 	"SpectateButton"
 	{
 		"ControlName"								"EditablePanel"
@@ -172,31 +168,9 @@
 	}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	//REMOVE THESE AND YOU WILL SUFFER THE TF2 CURSE
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"MenuBG"
 	{
 		"ControlName"								"CModelPanel"
@@ -222,7 +196,6 @@
 			"origin_z"								"-34"
 		}
 	}
-
 	"autodoor"
 	{
 		"ControlName"								"CModelPanel"
@@ -267,7 +240,6 @@
 			}
 		}
 	}
-
 	"spectate"
 	{
 		"ControlName"								"CModelPanel"
@@ -312,7 +284,6 @@
 			}
 		}
 	}
-
 	"teambutton2"
 	{
 		"ControlName"								"CTFTeamButton"
@@ -332,7 +303,6 @@
 		"font"										"invisiblelolol"
 		"fgcolor"									"255 255 255 0"
 	}
-
 	"teambutton3"
 	{
 		"ControlName"								"CTFTeamButton"
@@ -352,8 +322,6 @@
 		"font"										"invisiblelolol"
 		"fgcolor"									"255 255 255 0"
 	}
-
-	//REMOVED STUFF
 	"SysMenu"
 	{
 		"ControlName"								"Menu"

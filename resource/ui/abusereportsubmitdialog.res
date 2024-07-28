@@ -17,7 +17,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"NoBorder"
 	}
-
 	"BackgroundCustom"
 	{
 		"ControlName"								"EditablePanel"
@@ -35,7 +34,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -53,7 +51,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"GameServerRadio"
 	{
 		"ControlName"								"RadioButton"
@@ -68,7 +65,6 @@
 		"font"										"Light_14"
 		"AllCaps"									"1"
 	}
-
 	"PlayerRadio"
 	{
 		"ControlName"								"RadioButton"
@@ -83,7 +79,6 @@
 		"font"										"Light_14"
 		"AllCaps"									"1"
 	}
-
 	"PlayerLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -99,7 +94,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"PlayerComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -132,7 +126,6 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-
 	"AbuseContentLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -148,7 +141,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"AbuseContentComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -181,7 +173,6 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-
 	"AbuseTypeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -197,7 +188,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"AbuseTypeComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -230,7 +220,6 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-
 	"ScreenShotBitmap"
 	{
 		"ControlName"								"CBitmapPanel"
@@ -243,7 +232,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"ScreenShotAttachCheckButton"
 	{
 		"ControlName"								"CheckButton"
@@ -259,7 +247,6 @@
 		"AllCaps"									"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"AvatarImage"
 	{
 		"ControlName"								"CAvatarImagePanel"
@@ -273,7 +260,6 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 	}
-
 	"NoAvatarLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -290,7 +276,6 @@
 		"centerwrap"								"1"
 		"AllCaps"									"1"
 	}
-
 	"CustomTextureImage"
 	{
 		"ControlName"								"CCustomTextureImagePanel"
@@ -303,7 +288,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"CustomTexturePrevButton"
 	{
 		"ControlName"								"CExButton"
@@ -329,7 +313,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"CustomTextureNextButton"
 	{
 		"ControlName"								"CExButton"
@@ -354,7 +337,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"NoCustomTexturesLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -372,7 +354,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"DescriptionLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -388,7 +369,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"DescriptionTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -404,7 +384,6 @@
 		"fgcolor_override"							"White_Dark"
 		"maxchars"									"512"
 	}
-
 	"DiscardButton"
 	{
 		"ControlName"								"CExButton"
@@ -432,7 +411,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"SubmitButton"
 	{
 		"ControlName"								"CExButton"
@@ -460,7 +438,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"SaveForLaterButton"
 	{
 		"ControlName"								"CExButton"

@@ -321,7 +321,6 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-
 	"RedBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -357,7 +356,6 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
 	}
-
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"
@@ -423,7 +421,6 @@
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
 		}
-
 		"CountdownLabelTime"
 		{
 			"ControlName"							"CExLabel"
@@ -441,7 +438,6 @@
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
 		}
-
 		"Background"
 		{
 			"ControlName"							"CTFImagePanel"
@@ -522,7 +518,6 @@
 			"scaleImage"							"1"
 			"proportionalToParent"					"1"
 		}
-
 		"FlagValue"
 		{
 			"ControlName"							"CExLabel"
@@ -645,7 +640,6 @@
 				"pin_to_sibling"					"Score"
 			}
 		}
-
 		"RedScoreValueContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -780,7 +774,6 @@
 					"visible"						"0"
 				}
 			}
-
 			"RedVictoryContainer"
 			{
 				"fieldName"							"RedVictoryContainer"

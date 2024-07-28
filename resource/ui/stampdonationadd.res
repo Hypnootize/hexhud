@@ -16,7 +16,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -34,7 +33,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -52,7 +50,6 @@
 		"wrap"										"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ExplanationLabel2"
 	{
 		"ControlName"								"CExLabel"
@@ -71,7 +68,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ItemImagePanel"
 	{
 		"ControlName"								"ImagePanel"
@@ -84,7 +80,6 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 	}
-
 	"ItemImagePanel2"
 	{
 		"ControlName"								"ImagePanel"
@@ -97,7 +92,6 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 	}
-
 	"Nope"
 	{
 		"ControlName"								"CExButton"
@@ -127,7 +121,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"ConfirmButton"
 	{
 		"ControlName"								"CExButton"
@@ -158,7 +151,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"PriceLabelBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -175,7 +167,6 @@
 		"paintbackground"							"1"
 		"BgColor_override"							"Button_Green"
 	}
-
 	"PriceLabel"
 	{
 		"ControlName"								"CExLabel"

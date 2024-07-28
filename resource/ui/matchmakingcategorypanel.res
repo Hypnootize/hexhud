@@ -12,7 +12,6 @@
 		"collapsed_height"							"38"
 		"resize_time"								"0"
 	}
-
 	"TopContainer"
 	{
 		"Controlname"								"EditablePanel"
@@ -42,7 +41,6 @@
 			"proportionaltoparent"					"1"
 			"bgcolor_override"						"Black_Blue"
 		}
-
 		"BGImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -57,7 +55,6 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 		}
-
 		"EntryToggleButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -106,7 +103,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"Checkbutton"
 		{
 			"ControlName"							"CExCheckButton"
@@ -122,7 +118,6 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"button_activation_type"				"1"
 		}
-
 		"Title"
 		{
 			"ControlName"							"CExLabel"
@@ -146,6 +141,10 @@
 			"fgcolor"								"White_Dark"
 		}
 
+
+		//===================================================================================
+		// REMOVED ELEMENTS
+		//===================================================================================
 		"Shade"
 		{
 			"fieldName"								"Shade"
@@ -191,7 +190,6 @@
 			"enabled"								"0"
 		}
 	}
-
 	"MapsContainer"
 	{
 		"Controlname"								"EditablePanel"
@@ -208,7 +206,6 @@
 		"paintbackgrond"							"0"
 		"paintborder"								"0"
 	}
-
 	"PlayListDropShadow"
 	{
 		"ControlName"								"EditablePanel"

@@ -50,7 +50,6 @@
 				"depressedFgColor_override"			"White"
 			}
 		}
-
 		"SaxxySettings"
 		{
 			"xpos"									"0"
@@ -93,6 +92,9 @@
 		}
 	}
 
+	//===================================================================================
+	// BACKGROUNDS
+	//===================================================================================
 	"MainMenuBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -108,7 +110,6 @@
 		"painbackgroundtype"						"0"
 		"bgcolor_override"							"Main_Menu_Background"
 	}
-
 	"PauseMenuBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -122,9 +123,18 @@
 		"enabled"									"1"
 		"painbackground"							"1"
 		"painbackgroundtype"						"0"
-		"bgcolor_override"							"Pause_Menu_Background"
+		"bgcolor_override"							"Background_Transparent_Dark"
 	}
-
+	"HExagon_Corners"
+	{
+		"tall"										"f48"
+		"zpos"										"2"
+	}
+	//===================================================================================
+	// CENTRAL BUTTONS
+	//===================================================================================
+	//SERVERS
+	//-----------------------------------------------------------------------------------
 	"Servers"
 	{
 		"ControlName"								"EditablePanel"
@@ -157,7 +167,6 @@
 			"scaleImage"							"1"
 			"image"									"replay/thumbnails/main_menu/servers"
 		}
-
 		"Separator"
 		{
 			"ControlName"							"EditablePanel"
@@ -175,7 +184,6 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -204,7 +212,7 @@
 			"depressedFgColor_override"				"White_Solid"
 
 			"image_drawcolor"						"0 0 0 0"
-			"image_armedcolor"						"255 255 255 255"
+			"image_armedcolor"						"220 222 225 255"
 
 			"SubImage"
 			{
@@ -223,7 +231,9 @@
 			}
 		}
 	}
-
+	//-----------------------------------------------------------------------------------
+	// ITEMS
+	//-----------------------------------------------------------------------------------
 	"Items"
 	{
 		"ControlName"								"EditablePanel"
@@ -256,7 +266,6 @@
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/items"
 		}
-
 		"Separator"
 		{
 			"ControlName"							"EditablePanel"
@@ -274,7 +283,6 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -322,13 +330,15 @@
 			}
 		}
 	}
-
+	//-----------------------------------------------------------------------------------
+	// STORE
+	//-----------------------------------------------------------------------------------
 	"Store"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Store"
 		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5-25"
+		"ypos"										"cs-0.5-5"
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"176"
@@ -352,7 +362,6 @@
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/store"
 		}
-
 		"Separator"
 		{
 			"ControlName"							"EditablePanel"
@@ -370,7 +379,6 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -418,7 +426,9 @@
 			}
 		}
 	}
-
+	//-----------------------------------------------------------------------------------
+	// SETTINGS
+	//-----------------------------------------------------------------------------------
 	"Settings"
 	{
 		"ControlName"								"EditablePanel"
@@ -451,7 +461,6 @@
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/settings"
 		}
-
 		"Separator"
 		{
 			"ControlName"							"EditablePanel"
@@ -469,7 +478,6 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -517,7 +525,9 @@
 			}
 		}
 	}
-
+	//-----------------------------------------------------------------------------------
+	// QUIT
+	//-----------------------------------------------------------------------------------
 	"Quit"
 	{
 		"ControlName"								"EditablePanel"
@@ -550,7 +560,6 @@
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/quit"
 		}
-
 		"Separator"
 		{
 			"ControlName"							"EditablePanel"
@@ -568,7 +577,6 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -616,7 +624,9 @@
 			}
 		}
 	}
-
+	//-----------------------------------------------------------------------------------
+	// DISCONNECT
+	//-----------------------------------------------------------------------------------
 	"Disconnect"
 	{
 		"ControlName"								"EditablePanel"
@@ -649,7 +659,6 @@
 			"proportionaltoparent"					"1"
 			"image"									"replay/thumbnails/main_menu/quit"
 		}
-
 		"Separator"
 		{
 			"ControlName"							"EditablePanel"
@@ -667,7 +676,6 @@
 			"bgcolor_override"						"White"
 			"proportionaltoparent"					"1"
 		}
-
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -715,7 +723,72 @@
 			}
 		}
 	}
+	//===================================================================================
+	// QUICKPLAY
+	//===================================================================================
+	"Quickplay"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"Quickplay"
+		"xpos"										"rs1-47"
+		"ypos"										"2"
+		"zpos"										"10005"
+		"wide"										"20"
+		"tall"										"20"
 
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_16"
+			"textAlignment"							"center"
+
+			"sound_depressed"						"UI/buttonclick.wav"
+
+			"FgColor"								"White"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
+		}
+	}
+	//===================================================================================
+	// BOTTOM BAR & BUTTONS
+	//===================================================================================
+	"BottomBar"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BottomBar"
+		"xpos"										"cs-0.5"
+		"ypos"										"rs1"
+		"zpos"										"2"
+		"wide"										"f0"
+		"tall"										"24"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"painbackground"							"1"
+		"painbackgroundtype"						"0"
+		"bgcolor_override"							"Dashboard"
+	}
 	"Streams"
 	{
 		"ControlName"								"EditablePanel"
@@ -746,23 +819,23 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"paintborder"							"1"
-
-			"border_default"						"Bottom_Line_White"
-			"border_armed"							"Bottom_Line_White"
-
-			"defaultBgColor_override"				"Button"
-			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override"				"Button_Hover"
-
+			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 	}
-
 	"Contracker"
 	{
 		"ControlName"								"EditablePanel"
@@ -797,23 +870,23 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"paintborder"							"1"
-
-			"border_default"						"Bottom_Line_White"
-			"border_armed"							"Bottom_Line_White"
-
-			"defaultBgColor_override"				"Button"
-			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override"				"Button_Hover"
-
+			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 	}
-
 	"Create"
 	{
 		"ControlName"								"EditablePanel"
@@ -848,23 +921,23 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"paintborder"							"1"
-
-			"border_default"						"Bottom_Line_White"
-			"border_armed"							"Bottom_Line_White"
-
-			"defaultBgColor_override"				"Button"
-			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override"				"Button_Hover"
-
+			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 	}
-
 	"Advanced"
 	{
 		"ControlName"								"EditablePanel"
@@ -899,23 +972,23 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"paintborder"							"1"
-
-			"border_default"						"Bottom_Line_White"
-			"border_armed"							"Bottom_Line_White"
-
-			"defaultBgColor_override"				"Button"
-			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override"				"Button_Hover"
-
+			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 	}
-
 	"Achievements"
 	{
 		"ControlName"								"EditablePanel"
@@ -950,23 +1023,23 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"paintborder"							"1"
-
-			"border_default"						"Bottom_Line_White"
-			"border_armed"							"Bottom_Line_White"
-
-			"defaultBgColor_override"				"Button"
-			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override"				"Button_Hover"
-
+			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 	}
-
 	"Workshop"
 	{
 		"ControlName"								"EditablePanel"
@@ -1001,27 +1074,27 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"paintborder"							"1"
-
-			"border_default"						"Bottom_Line_White"
-			"border_armed"							"Bottom_Line_White"
-
-			"defaultBgColor_override"				"Button"
-			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override"				"Button_Hover"
-
+			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 	}
-
-	"Replays"
+	"Console"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldname"									"Replays"
+		"fieldname"									"Console"
 		"xpos"										"2"
 		"ypos"										"0"
 		"zpos"										"16"
@@ -1052,74 +1125,23 @@
 			"proportionaltoparent"					"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"paintborder"							"1"
-
-			"border_default"						"Bottom_Line_White"
-			"border_armed"							"Bottom_Line_White"
-
-			"defaultBgColor_override"				"Button"
-			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override"				"Button_Hover"
-
+			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
-		}
-	}
-
-	"Console"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Console"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"20"
-		"tall"										"20"
-		"proportionaltoparent"						"1"
-
-		"pin_to_sibling"							"Replays"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"2"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"use_proportional_insets"				"1"
-			"font"									"Symbols_16"
-			"textAlignment"							"center"
-			"textinsety"							"-2"
-			"default"								"1"
-			"proportionaltoparent"					"1"
-			"sound_depressed"						"UI/buttonclick.wav"
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"paintborder"							"1"
-
-			"border_default"						"Bottom_Line_White"
-			"border_armed"							"Bottom_Line_White"
-
-			"defaultBgColor_override"				"Button"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White_Solid"
-			"depressedFgColor_override"				"White_Solid"
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 	}
-
 	"Vote"
 	{
 		"ControlName"								"EditablePanel"
@@ -1155,23 +1177,23 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"paintborder"							"1"
-
-			"border_default"						"Bottom_Line_White"
-			"border_armed"							"Bottom_Line_White"
-
-			"defaultBgColor_override"				"Button"
-			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override"				"Button_Hover"
-
+			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 	}
-
 	"Mute"
 	{
 		"ControlName"								"EditablePanel"
@@ -1207,23 +1229,23 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"paintborder"							"1"
-
-			"border_default"						"Bottom_Line_White"
-			"border_armed"							"Bottom_Line_White"
-
-			"defaultBgColor_override"				"Button"
-			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override"				"Button_Hover"
-
+			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 	}
-
 	"Report"
 	{
 		"ControlName"								"EditablePanel"
@@ -1259,78 +1281,30 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"paintborder"							"1"
-
-			"border_default"						"Bottom_Line_White"
-			"border_armed"							"Bottom_Line_White"
-
-			"defaultBgColor_override"				"Button"
-			"armedBgColor_override"					"Button_Hover"
-			"depressedBgColor_override"				"Button_Hover"
-
+			"FgColor"								"White"
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White_Solid"
 			"depressedFgColor_override"				"White_Solid"
-		}
-	}
-
-	"Minmode"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"Minmode"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"16"
-		"wide"										"20"
-		"tall"										"20"
-		"proportionaltoparent"						"1"
-
-		"pin_to_sibling"							"Report"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"2"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"use_proportional_insets"				"1"
-			"font"									"Symbols_16"
-			"textAlignment"							"center"
-			"textinsety"							"-2"
-			"default"								"1"
-			"proportionaltoparent"					"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"paintborder"							"1"
-
-			"border_default"						"Bottom_Line_White"
-			"border_armed"							"Bottom_Line_White"
-
-			"defaultBgColor_override"				"Button"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
 			"armedBgColor_override"					"Button_Hover"
 			"depressedBgColor_override"				"Button_Hover"
 
-			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"White_Solid"
-			"depressedFgColor_override"				"White_Solid"
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
 		}
 	}
 
+	//===================================================================================
+	// EXTERNAL LINKS
+	//===================================================================================
 	"HUDRepository"
 	{
-		"ControlName"								"URLLabel"
+		"ControlName"								"CExButton"
 		"fieldname"									"HUDRepository"
 		"xpos"										"0"
 		"ypos"										"rs1-24"
@@ -1343,13 +1317,17 @@
 		"labelText"									"2"
 		"font"										"Symbols_18"
 		"textAlignment"								"center"
-		"urlText"									"https://github.com/Hypnootize/hexhud"
-		"FgColor_override"							"Gray_Blue_Light"
-	}
+		"command"									"url https://github.com/Hypnootize/hexhud"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"paintbackground"							"0"
 
+		"defaultFgColor_override"					"Gray_Blue_Light"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
+	}
 	"HUDWiki"
 	{
-		"ControlName"								"URLLabel"
+		"ControlName"								"CExButton"
 		"fieldname"									"HUDWiki"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -1362,17 +1340,21 @@
 		"labelText"									"`"
 		"font"										"Symbols_18"
 		"textAlignment"								"center"
-		"urlText"									"https://github.com/Hypnootize/hexhud/wiki"
-		"FgColor_override"							"Gray_Blue_Light"
+		"command"									"url https://github.com/Hypnootize/hexhud/wiki"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"paintbackground"							"0"
+
+		"defaultFgColor_override"					"Gray_Blue_Light"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"HUDRepository"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"ComfigHUDs"
 	{
-		"ControlName"								"URLLabel"
+		"ControlName"								"CExButton"
 		"fieldname"									"ComfigHUDs"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -1385,17 +1367,21 @@
 		"labelText"									"c"
 		"font"										"Symbols_18"
 		"textAlignment"								"center"
-		"urlText"									"https://comfig.app/huds/page/hexhud"
-		"FgColor_override"							"Gray_Blue_Light"
+		"command"									"url https://comfig.app/huds/page/hexhud"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"paintbackground"							"0"
+
+		"defaultFgColor_override"					"Gray_Blue_Light"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"HUDWiki"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"TF2HUDs"
 	{
-		"ControlName"								"URLLabel"
+		"ControlName"								"CExButton"
 		"fieldname"									"TF2HUDs"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -1408,17 +1394,21 @@
 		"labelText"									"!"
 		"font"										"Symbols_18"
 		"textAlignment"								"center"
-		"urlText"									"https://tf2huds.dev/hud/HExHUD"
-		"FgColor_override"							"Gray_Blue_Light"
+		"command"									"url https://tf2huds.dev/hud/HExHUD"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"paintbackground"							"0"
+
+		"defaultFgColor_override"					"Gray_Blue_Light"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"ComfigHUDs"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"GameBanana"
 	{
-		"ControlName"								"URLLabel"
+		"ControlName"								"CExButton"
 		"fieldname"									"GameBanana"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -1431,17 +1421,21 @@
 		"labelText"									"A"
 		"font"										"Symbols_18"
 		"textAlignment"								"center"
-		"urlText"									"https://gamebanana.com/mods/298232"
-		"FgColor_override"							"Gray_Blue_Light"
+		"command"									"url https://gamebanana.com/mods/298232"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"paintbackground"							"0"
+
+		"defaultFgColor_override"					"Gray_Blue_Light"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"TF2HUDs"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"TFTV"
 	{
-		"ControlName"								"URLLabel"
+		"ControlName"								"CExButton"
 		"fieldname"									"TFTV"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -1454,14 +1448,309 @@
 		"labelText"									"O"
 		"font"										"Symbols_18"
 		"textAlignment"								"center"
-		"urlText"									"https://www.teamfortress.tv/59727/hexhud"
-		"FgColor_override"							"Gray_Blue_Light"
+		"command"									"url https://www.teamfortress.tv/59727/hexhud"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"paintbackground"							"0"
+
+		"defaultFgColor_override"					"Gray_Blue_Light"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
 
 		"pin_to_sibling"							"GameBanana"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
+	//===================================================================================
+	// HEXHUD CUSTOMIZATION
+	//===================================================================================
+	"CustomizationsButton"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"CustomizationsButton"
+		"xpos"										"rs1-94"
+		"ypos"										"rs1-2"
+		"zpos"										"16"
+		"wide"										"132"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
+
+		"Icon"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Icon"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"2"
+			"wide"									"o1"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"fgcolor"								"White"
+			"proportionaltoparent"					"1"
+			"mouseinputenabled"						"0"
+			"font"									"Symbols_16"
+			"labelText"								"_"
+			"textAlignment"							"center"
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White_Dark"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Black_Blue"
+		}
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"2"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"use_proportional_insets"				"1"
+			"font"									"Light_12"
+			"textAlignment"							"west"
+			"textinsetx"							"25"
+			"AllCaps"								"1"
+			"default"								"1"
+			"actionsignallevel"						"2"
+			"proportionaltoparent"					"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+
+			"FgColor"								"White"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
+		}
+	}
+
+	//===================================================================================
+	// FRIENDS LIST
+	//===================================================================================
+	"FriendsOpenButton"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"FriendsOpenButton"
+		"xpos"										"rs1-2"
+		"ypos"										"rs1-2"
+		"zpos"										"16"
+		"wide"										"88"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
+
+		"Arrow"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Arrow"
+			"font"									"Symbols_16"
+			"labelText"								"R"
+			"textAlignment"							"center"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"2"
+			"wide"									"o1"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"fgcolor"								"White"
+			"proportionaltoparent"					"1"
+			"mouseinputenabled"						"0"
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White_Dark"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Black_Blue"
+		}
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"2"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"use_proportional_insets"				"1"
+			"font"									"Light_12"
+			"textAlignment"							"west"
+			"textinsetx"							"25"
+			"AllCaps"								"1"
+			"default"								"1"
+			"actionsignallevel"						"2"
+			"proportionaltoparent"					"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+
+			"FgColor"								"White"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
+		}
+	}
+	"MOTD_Panel"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"MOTD_Panel"
+		"xpos"										"rs1"
+		"ypos"										"rs1-24"
+		"zpos"										"50"
+		"wide"										"272"
+		"tall"										"102"
+		"visible"									"0"
+		"PaintBackgroundType"						"0"
+		"PaintBackground"							"1"
+		"bgcolor_override"							"Background_Secondary"
+
+		"Title"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Title"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"0"
+			"wide"									"f0"
+			"tall"									"12"
+			"visible"								"1"
+			"enabled"								"1"
+			"font"									"Light_11"
+			"labelText"								"Online Friends"
+			"textAlignment"							"west"
+			"textinsetx"							"3"
+			"fgcolor"								"White_Dark"
+			"proportionaltoparent"					"1"
+			"use_proportional_insets"				"1"
+			"mouseinputenabled"						"0"
+			"paintborder"							"0"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Gray_Blue_Darkest"
+		}
+
+		"CloseButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"CloseButton"
+			"xpos"									"rs1"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"12"
+			"tall"									"12"
+			"visible"								"1"
+			"enabled"								"1"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_12"
+			"textAlignment"							"center"
+			"labeltext"								"-"
+			"AllCaps"								"1"
+			"default"								"1"
+			"Command"								"motd_hide"
+			"actionsignallevel"						"2"
+			"proportionaltoparent"					"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+
+			"defaultBgColor_override"				"Button_Red"
+			"armedBgColor_override"					"Button_Red_Hover"
+			"depressedBgColor_override"				"Button_Red_Hover"
+
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
+		}
+
+		"FriendsContainer"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldname"								"FriendsContainer"
+			"xpos"									"0"
+			"ypos"									"rs1"
+			"zpos"									"0"
+			"wide"									"f0"
+			"tall"									"f13"
+			"visible"								"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Gray_Blue_Dark"
+			"proportionaltoparent"					"1"
+			"paintborder"							"0"
+			"alpha"									"255"
+
+			"SteamFriendsList"
+			{
+				"ControlName"						"CSteamFriendsListPanel"
+				"fieldname"							"SteamFriendsList"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"500"
+				"wide"								"f0"
+				"tall"								"f0"
+				"visible"							"1"
+				"proportionaltoparent"				"1"
+
+				"columns_count"						"3"
+				"inset_x"							"0"
+				"inset_y"							"0"
+				"row_gap"							"0"
+				"column_gap"						"1"
+				"restrict_width"					"0"
+
+				"friendpanel_kv"
+				{
+					"wide"							"90"
+					"tall"							"18"
+				}
+
+				"ScrollBar"
+				{
+					"ControlName"					"ScrollBar"
+					"FieldName"						"ScrollBar"
+					"xpos"							"rs1+1"
+					"ypos"							"0"
+					"tall"							"f0"
+					"wide"							"3"
+					"zpos"							"1000"
+					"nobuttons"						"1"
+					"proportionaltoparent"			"1"
+
+					"Slider"
+					{
+						"fgcolor_override"			"White"
+					}
+				}
+			}
+		}
+	}
+
+	//===================================================================================
+	// NOTIFICATIONS
+	//===================================================================================
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -1531,7 +1820,6 @@
 			"depressedFgColor_override"				"White_Solid"
 		}
 	}
-
 	"Notifications_Panel"
 	{
 		"ControlName"								"EditablePanel"
@@ -1624,6 +1912,9 @@
 		}
 	}
 
+	//===================================================================================
+	// TOOL TIPS
+	//===================================================================================
 	"TooltipPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -1637,16 +1928,13 @@
 		"PaintBackground"							"1"
 		"PaintBorder"								"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"Gray_Blue_Dark"
+		"bgcolor_override"							"Gray_Blue_Darkest"
 		"border"									"Bottom_Line_White"
 
 		"TipSubLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipSubLabel"
-			"font"									"Light_11"
-			"labelText"								"%tipsubtext%"
-			"textAlignment"							"center"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"2"
@@ -1654,17 +1942,16 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
+			"font"									"Light_11"
+			"labelText"								"%tipsubtext%"
+			"textAlignment"							"center"
+			"fgcolor"								"White"
 		}
-
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"Light_11"
-			"labelText"								"%tiptext%"
-			"textAlignment"							"center"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"2"
@@ -1672,11 +1959,18 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"White"
 			"proportionaltoparent"					"1"
+			"font"									"Light_11"
+			"labelText"								"%tiptext%"
+			"textAlignment"							"center"
+			"fgcolor"								"White"
+
 		}
 	}
 
+	//===================================================================================
+	// STEAM OFFLINE WARNING
+	//===================================================================================
 	"NoGCMessage"
 	{
 		"ControlName"								"CExLabel"

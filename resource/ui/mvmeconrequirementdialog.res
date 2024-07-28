@@ -15,7 +15,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"Background_Secondary"
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -33,7 +32,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"ExplanationLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -52,7 +50,6 @@
 		"AllCaps"									"1"
 		"fgcolor"									"White_Dark"
 	}
-
 	"CyclingAd"
 	{
 		//"ControlName"								"CCyclingAdContainerPanel"
@@ -69,7 +66,6 @@
 
 		"bgcolor_override"							"0 0 0 255"
 	}
-
 	"ConfirmButton"
 	{
 		"ControlName"								"CExButton"

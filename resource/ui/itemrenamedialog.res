@@ -16,7 +16,6 @@
 		"bgcolor_override"							"Background_Secondary"
 		"border"									"Border_Gray_Blue_Light"
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -54,7 +53,6 @@
 			"centerwrap"							"1"
 		}
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -74,30 +72,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"White_Dark"
 	}
-
-	"ToolBG"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ToolBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"tool_icon"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"tool_icon"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-
 	"tool_modelpanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -156,35 +130,12 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
-	}
-	"SubjectBG"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"SubjectBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"subject_icon"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"subject_icon"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	"subject_modelpanel"
 	{
@@ -243,7 +194,6 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
@@ -251,7 +201,6 @@
 			"allow_rot"								"0"
 		}
 	}
-
 	"OldItemNameBG"
 	{
 		"ControlName"								"CExLabel"
@@ -317,7 +266,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-
 	"NewItemNameBG"
 	{
 		"ControlName"								"CExLabel"
@@ -337,7 +285,6 @@
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"Gray_Blue_Dark"
 	}
-
 	"NewItemNameDescLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -357,7 +304,6 @@
 		"paintbackground"							"0"
 		"proportionaltoparent"						"1"
 	}
-
 	"CustomNameEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -383,7 +329,6 @@
 		"textAlignment"								"west"
 		"proportionaltoparent"						"1"
 	}
-
 	"WarningLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -402,7 +347,6 @@
 		"proportionaltoparent"						"1"
 		"fgcolor"									"Red_Dark"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExButton"
@@ -433,7 +377,6 @@
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
 	}
-
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -463,5 +406,54 @@
 		"defaultBgColor_override"					"Button"
 		"armedBgColor_override"						"Button_Hover"
 		"depressedBgColor_override"					"Button_Hover"
+	}
+
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
+	"ToolBG"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ToolBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"tool_icon"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"tool_icon"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"SubjectBG"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"SubjectBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"subject_icon"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"subject_icon"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

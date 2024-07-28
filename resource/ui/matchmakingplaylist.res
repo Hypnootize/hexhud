@@ -13,7 +13,6 @@
 
 		"button_command"							"play_event"
 	}
-
 	"CasualEntry"
 	{
 		"ControlName"								"CPlayListEntry"
@@ -35,13 +34,12 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"CompetitiveEntry"
 	{
 		"ControlName"								"CPlayListEntry"
 		"fieldName"									"CompetitiveEntry"
 		"xpos"										"cs-0.5-75"
-		"ypos"										"cs-0.5-35"
+		"ypos"										"cs-0.5-15"
 		"zpos"										"3"
 		"wide"										"150"
 		"tall"										"190"
@@ -53,7 +51,6 @@
 		"desc_token"								"#MMenu_PlayList_Competitive_Desc"
 		"matchgroup"								"2" // k_eTFMatchGroup_Ladder_6v6
 	}
-
 	"MvMEntry"
 	{
 		"ControlName"								"CPlayListEntry"
@@ -75,7 +72,6 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"TrainingEntry"
 	{
 		"ControlName"								"CPlayListEntry"
@@ -97,6 +93,10 @@
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"ServerBrowserEntry"
 	{
 		"ControlName"								"CPlayListEntry"

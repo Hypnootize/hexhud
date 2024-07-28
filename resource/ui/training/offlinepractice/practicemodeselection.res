@@ -37,7 +37,6 @@
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"TitleBG"
 	}
-
 	"GameModeImagePanel"
 	{
 		"ControlName"								"ImagePanel"
@@ -54,7 +53,6 @@
 		"paintbackgroundtype"						"0"
 		"proportionaltoparent"						"1"
 	}
-
 	"PrevButton"
 	{
 		"ControlName"								"CExButton"
@@ -82,7 +80,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"NextButton"
 	{
 		"ControlName"								"CExButton"
@@ -109,7 +106,6 @@
 		"armedFgColor_override"						"White_Solid"
 		"depressedFgColor_override"					"White_Solid"
 	}
-
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -128,7 +124,6 @@
 		"fgcolor"									"White_Dark"
 		"proportionaltoparent"						"1"
 	}
-
 	"DescBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -166,7 +161,6 @@
 		"proportionaltoparent"						"1"
 		"pin_to_sibling"							"DescBG"
 	}
-
 	"SelectCurrentGameModeButton"
 	{
 		"ControlName"								"CExButton"
@@ -199,6 +193,10 @@
 		"depressedFgColor_override"					"White_Solid"
 	}
 
+
+	//===================================================================================
+	// REMOVED ELEMENTS
+	//===================================================================================
 	"GameModeImageBgPanel"
 	{
 		"ControlName"								"ImagePanel"
