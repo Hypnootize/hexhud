@@ -264,6 +264,22 @@
 		}
 
 		//========================================================================
+		// DEMOMAN SHIELD CHARGE BORDER
+		//========================================================================
+		"Shield_Border"
+		{
+			"bordertype"							"scalable_image"
+			"backgroundtype"						"0"
+			"color"									"Background"
+
+			"image"									"replay/thumbnails/counters/meter_shield"
+			"src_corner_height"						"0"
+			"src_corner_width"						"0"
+			"draw_corner_width"						"0"
+			"draw_corner_height"					"0"
+		}
+
+		//========================================================================
 		// CUSTOM PANELS
 		//========================================================================
 		"Panel_BlackBlue"
