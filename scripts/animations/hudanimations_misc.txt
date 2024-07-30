@@ -72,12 +72,12 @@ event ActiveTimerDim
 
 //===========================================================================================================================
 
-event HudSnapShotReminderIn
+event CompetitiveGame_RestoreChatWindow
 {
-	RunEvent HudHealthDyingPulseStop			10.0
-	RunEvent HudHealthBonusPulseStop			10.0
-	RunEvent HudLowAmmoPulseStop				10.0
-	RunEvent HudMedicChargedStop				10.0
+	RunEvent HudHealthDyingPulseStop			0.1
+	RunEvent HudHealthBonusPulseStop			0.1
+	RunEvent HudLowAmmoPulseStop				0.1
+	RunEvent HudMedicChargedStop				0.1
 }
 
 //===========================================================================================================================
@@ -93,7 +93,6 @@ event TeamStatus_PlayerAlive{}
 event RDPositiveScorePulse{}
 event RDNegativeScorePulse{}
 event CompetitiveGame_LowerChatWindow{}
-event CompetitiveGame_RestoreChatWindow{}
 event HudTournament_MoveChatWindow{}
 event OvertimeLabelPulseRed{}
 event SuddenDeathLabelPulseRed{}
