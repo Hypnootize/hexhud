@@ -870,7 +870,7 @@
 		"xpos"										"2"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"										"90"
+		"wide"										"94"
 		"tall"										"230"
 		"visible"									"1"
 		"enabled"									"1"
@@ -1132,7 +1132,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"22"
+			"wide"									"26"
 			"tall"									"12"
 			"visible"								"0"
 			"enabled"								"1"
@@ -1185,7 +1185,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DeathsIcon"
-			"xpos"									"13"
+			"xpos"									"10"
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"12"
@@ -1215,7 +1215,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"32"
+			"wide"									"36"
 			"tall"									"12"
 			"visible"								"0"
 			"enabled"								"1"
@@ -1286,7 +1286,7 @@
 
 			"if_mvm"
 			{
-				"xpos"								"10"
+				"xpos"								"7"
 				"ypos"								"0"
 				"pin_to_sibling"					"DeathsMvM"
 				"pin_corner_to_sibling"				"PIN_TOPLEFT"
@@ -1300,7 +1300,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"32"
+			"wide"									"48"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -1310,6 +1310,11 @@
 			"labelText"								"Assists:"
 			"textAlignment"							"west"
 			"fgcolor"								"Off_White"
+
+			"if_mvm"
+			{
+				"wide"								"36"
+			}
 
 			"pin_to_sibling"						"AssistsIcon"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1329,8 +1334,14 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%assists%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
+
+			"if_mvm"
+			{
+				"textAlignment"						"west"
+				"wide"								"25"
+			}
 
 			"pin_to_sibling"						"AssistsLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1376,7 +1387,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"56"
+			"wide"									"60"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -1399,15 +1410,21 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"25"
+			"wide"									"13"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%destruction%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
+
+			"if_mvm"
+			{
+				"textAlignment"						"west"
+				"wide"								"25"
+			}
 
 			"pin_to_sibling"						"DestructionLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1450,7 +1467,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"37"
+			"wide"									"48"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -1485,7 +1502,7 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%captures%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
 
 			"pin_to_sibling"						"CapturesLabel"
@@ -1534,7 +1551,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"36"
+			"wide"									"48"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -1569,7 +1586,7 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%defenses%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
 
 			"pin_to_sibling"						"DefensesLabel"
@@ -1618,7 +1635,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"53"
+			"wide"									"60"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -1646,14 +1663,14 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"25"
+			"wide"									"13"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%dominations%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
 
 			"pin_to_sibling"						"DominationLabel"
@@ -1702,7 +1719,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"38"
+			"wide"									"48"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -1737,7 +1754,7 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%revenge%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
 
 			"pin_to_sibling"						"RevengeLabel"
@@ -1789,7 +1806,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"35"
+			"wide"									"48"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -1799,6 +1816,11 @@
 			"labelText"								"Invulns:"
 			"textAlignment"							"west"
 			"fgcolor"								"Off_White"
+
+			"if_mvm"
+			{
+				"wide"								"39"
+			}
 
 			"pin_to_sibling"						"InvulnIcon"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1818,8 +1840,14 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%invulns%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
+
+			"if_mvm"
+			{
+				"textAlignment"						"west"
+				"wide"								"25"
+			}
 
 			"pin_to_sibling"						"InvulnLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1852,7 +1880,7 @@
 
 			"if_mvm"
 			{
-				"xpos"								"11"
+				"xpos"								"8"
 				"ypos"								"0"
 				"pin_to_sibling"					"Assists"
 				"pin_corner_to_sibling"				"PIN_TOPLEFT"
@@ -1866,7 +1894,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"49"
+			"wide"									"60"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -1876,6 +1904,11 @@
 			"labelText"								"Headshots:"
 			"textAlignment"							"west"
 			"fgcolor"								"Off_White"
+
+			"if_mvm"
+			{
+				"wide"								"53"
+			}
 
 			"pin_to_sibling"						"HeadshotsIcon"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1888,15 +1921,21 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"25"
+			"wide"									"13"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%headshots%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
+
+			"if_mvm"
+			{
+				"textAlignment"						"west"
+				"wide"								"25"
+			}
 
 			"pin_to_sibling"						"HeadshotsLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1929,7 +1968,7 @@
 
 			"if_mvm"
 			{
-				"xpos"								"8"
+				"xpos"								"5"
 				"ypos"								"0"
 				"pin_to_sibling"					"Headshots"
 				"pin_corner_to_sibling"				"PIN_TOPLEFT"
@@ -1943,7 +1982,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"45"
+			"wide"									"60"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -1954,6 +1993,11 @@
 			"textAlignment"							"west"
 			"textinsetx"							"0"
 			"fgcolor"								"Off_White"
+
+			"if_mvm"
+			{
+				"wide"								"49"
+			}
 
 			"pin_to_sibling"						"TeleportsIcon"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1966,15 +2010,21 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"25"
+			"wide"									"13"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%teleports%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
+
+			"if_mvm"
+			{
+				"textAlignment"						"west"
+				"wide"								"25"
+			}
 
 			"pin_to_sibling"						"TeleportsLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2007,7 +2057,7 @@
 
 			"if_mvm"
 			{
-				"xpos"								"15"
+				"xpos"								"11"
 				"ypos"								"0"
 				"pin_to_sibling"					"Teleports"
 				"pin_corner_to_sibling"				"PIN_TOPLEFT"
@@ -2021,7 +2071,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"36"
+			"wide"									"48"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -2032,6 +2082,11 @@
 			"textAlignment"							"west"
 			"textinsetx"							"0"
 			"fgcolor"								"Off_White"
+
+			"if_mvm"
+			{
+				"wide"								"40"
+			}
 
 			"pin_to_sibling"						"HealingIcon"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2051,8 +2106,14 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%healing%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
+
+			"if_mvm"
+			{
+				"textAlignment"						"west"
+				"wide"								"25"
+			}
 
 			"pin_to_sibling"						"HealingLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2098,7 +2159,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"47"
+			"wide"									"60"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -2108,6 +2169,11 @@
 			"labelText"								"Backstabs:"
 			"textAlignment"							"west"
 			"fgcolor"								"Off_White"
+
+			"if_mvm"
+			{
+				"wide"								"51"
+			}
 
 			"pin_to_sibling"						"BackstabsIcon"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2120,15 +2186,21 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"25"
+			"wide"									"13"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"0"
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%backstabs%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
+
+			"if_mvm"
+			{
+				"textAlignment"						"west"
+				"wide"								"25"
+			}
 
 			"pin_to_sibling"						"BackstabsLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2175,7 +2247,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"30"
+			"wide"									"48"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -2186,6 +2258,11 @@
 			"textAlignment"							"west"
 			"textinsetx"							"0"
 			"fgcolor"								"Off_White"
+
+			"if_mvm"
+			{
+				"wide"								"34"
+			}
 
 			"pin_to_sibling"						"BonusIcon"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2205,8 +2282,14 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%bonus%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
+
+			"if_mvm"
+			{
+				"textAlignment"						"west"
+				"wide"								"25"
+			}
 
 			"pin_to_sibling"						"BonusLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2253,7 +2336,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"37"
+			"wide"									"48"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -2264,6 +2347,11 @@
 			"textAlignment"							"west"
 			"textinsetx"							"0"
 			"fgcolor"								"Off_White"
+
+			"if_mvm"
+			{
+				"wide"								"41"
+			}
 
 			"pin_to_sibling"						"SupportIcon"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2283,8 +2371,14 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%support%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
+
+			"if_mvm"
+			{
+				"textAlignment"						"west"
+				"wide"								"25"
+			}
 
 			"pin_to_sibling"						"SupportLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2330,7 +2424,7 @@
 			"xpos"									"2"
 			"ypos"									"0"
 			"zpos"									"4"
-			"wide"									"37"
+			"wide"									"48"
 			"tall"									"12"
 			"visible"								"1"
 			"enabled"								"1"
@@ -2340,6 +2434,11 @@
 			"labelText"								"Damage:"
 			"textAlignment"							"west"
 			"fgcolor"								"Off_White"
+
+			"if_mvm"
+			{
+				"wide"								"41"
+			}
 
 			"pin_to_sibling"						"DamageIcon"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2359,8 +2458,14 @@
 			"proportionaltoparent"					"1"
 			"font"									"Light_10"
 			"labelText"								"%damage%"
-			"textAlignment"							"west"
+			"textAlignment"							"east"
 			"disabledfgcolor2_override"				"Off_White"
+
+			"if_mvm"
+			{
+				"textAlignment"						"west"
+				"wide"								"25"
+			}
 
 			"pin_to_sibling"						"DamageLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -2442,7 +2547,7 @@
 		"xpos"										"2"
 		"ypos"										"0"
 		"zpos"										"3"
-		"wide"										"90"
+		"wide"										"94"
 		"tall"										"230"
 		"visible"									"1"
 		"enabled"									"1"
