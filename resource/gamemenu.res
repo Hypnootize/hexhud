@@ -99,6 +99,20 @@
 		"tooltip"									"Report a Player"
 		"OnlyInGame"								"1"
 	}
+	"FixInvisiblePlayers"
+	{
+		"label"										"S"
+		"command"									"engine stop; ds_record"
+		"tooltip"									"Fix Invisible Players"
+		"OnlyInGame"								"1"
+	}
+	"HUDSoundReload"
+	{
+		"label"										"."
+		"command"									"engine hud_reloadscheme; snd_restart"
+		"tooltip"									"Reload HUD and Sound"
+		"OnlyInGame"								"1"
+	}
 
 	"Quickplay"
 	{

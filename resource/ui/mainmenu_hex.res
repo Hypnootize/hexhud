@@ -1298,6 +1298,110 @@
 			"border_armed"							"Bottom_Line_White"
 		}
 	}
+	"FixInvisiblePlayers"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"FixInvisiblePlayers"
+		"xpos"										"2"
+		"ypos"										"0"
+		"zpos"										"16"
+		"wide"										"20"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
+
+		"pin_to_sibling"							"Report"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"2"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_16"
+			"textAlignment"							"center"
+			"textinsety"							"-2"
+			"default"								"1"
+			"proportionaltoparent"					"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"FgColor"								"White"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
+		}
+	}
+	"HUDSoundReload"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"HUDSoundReload"
+		"xpos"										"2"
+		"ypos"										"0"
+		"zpos"										"16"
+		"wide"										"20"
+		"tall"										"20"
+		"proportionaltoparent"						"1"
+
+		"pin_to_sibling"							"FixInvisiblePlayers"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"2"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"use_proportional_insets"				"1"
+			"font"									"Symbols_16"
+			"textAlignment"							"center"
+			"textinsety"							"-2"
+			"default"								"1"
+			"proportionaltoparent"					"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"FgColor"								"White"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White_Solid"
+			"depressedFgColor_override"				"White_Solid"
+
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"defaultBgColor_override"				"Gray_Blue_Darkest"
+			"armedBgColor_override"					"Button_Hover"
+			"depressedBgColor_override"				"Button_Hover"
+
+			"paintborder"							"1"
+			"border"								"Bottom_Line_White"
+			"border_default"						"Bottom_Line_White"
+			"border_armed"							"Bottom_Line_White"
+		}
+	}
 
 	//===================================================================================
 	// EXTERNAL LINKS
