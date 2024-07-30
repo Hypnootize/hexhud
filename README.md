@@ -1,4 +1,4 @@
-![logo](https://i.imgur.com/4U68WtV.png)
+![logo](../screenshots/102_Transparent_Label_Banner.png)
 
 <p align="center">
   <a href="https://comfig.app/huds/page/hexhud"><img src="https://i.imgur.com/0o80QUt.png"></a>
