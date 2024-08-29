@@ -403,6 +403,25 @@
 				"blur"										"1"
 			}
 		}
+		"Bold_15"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+				"tall"										"15"
+				"antialias"									"1"
+			}
+		}
+		"Bold_15_Blur"
+		{
+			"1"
+			{
+				"name"										"Product Sans Bold"
+				"tall"										"15"
+				"antialias"									"1"
+				"blur"										"1"
+			}
+		}
 		"Bold_16"
 		{
 			"1"
