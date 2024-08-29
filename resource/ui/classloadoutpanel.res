@@ -326,6 +326,76 @@
 		"bgcolor_override"							"Gray_Blue_Darkest"
 		"PaintBackgroundType"						"0"
 	}
+	"BlueTeamButton"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BlueTeamButton"
+		"xpos"										"cs-2.23"
+		"ypos"										"c-168"
+		"zpos"										"2"
+		"wide"										"25"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"R"
+		"font"										"Symbols_18"
+		"textAlignment"								"center"
+		"textinsety"								"-1"
+		"Command"									"sv_cheats 1; r_skin 1"
+		"sound_depressed"							"UI/buttonclick.wav"
+
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"paintborder"								"1"
+
+		"border_default"							"Bottom_Line_White"
+		"border_armed"								"Bottom_Line_White"
+
+		"defaultBgColor_override"					"Blue"
+		"armedBgColor_override"						"Blue_Darker"
+		"depressedBgColor_override"					"Blue_Darker"
+		"selectedBgColor_override"					"Blue_Darker"
+
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
+	}
+	"RedTeamButton"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"RedTeamButton"
+		"xpos"										"cs+1.10"
+		"ypos"										"c-168"
+		"zpos"										"2"
+		"wide"										"25"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"R"
+		"font"										"Symbols_18"
+		"textAlignment"								"center"
+		"textinsety"								"-1"
+		"Command"									"sv_cheats 1; r_skin 0"
+		"sound_depressed"							"UI/buttonclick.wav"
+
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"paintborder"								"1"
+
+		"border_default"							"Bottom_Line_White"
+		"border_armed"								"Bottom_Line_White"
+
+		"defaultBgColor_override"					"Red"
+		"armedBgColor_override"						"Red_Darker"
+		"depressedBgColor_override"					"Red_Darker"
+		"selectedBgColor_override"					"Red_Darker"
+
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"White_Solid"
+		"depressedFgColor_override"					"White_Solid"
+	}
 	"CharacterLoadoutButton"
 	{
 		"ControlName"								"CExButton"
