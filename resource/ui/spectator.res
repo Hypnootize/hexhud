@@ -1,3 +1,4 @@
+#base "../../../../cfg/hexhud/hex_items_stream.txt"
 #base "hudinspectpanel.res"
 
 "Resource/UI/Spectator.res"

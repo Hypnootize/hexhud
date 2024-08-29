@@ -33,6 +33,8 @@
 
 		"noitem_use_fullpanel"						"0"
 
+		"alpha"										"255"
+
 		"attriblabel"
 		{
 			"ypos"									"9999"
@@ -51,7 +53,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ItemLabel"
-			"font"									"Light_10"
 			"xpos"									"10"
 			"ypos"									"4"
 			"zpos"									"1"
@@ -59,8 +60,10 @@
 			"tall"									"10"
 			"visible"								"1"
 			"enabled"								"1"
+			"font"									"Light_10"
 			"labelText"								"#FreezePanel_Item"
 			"textAlignment"							"west"
+			"alpha"									"255"
 		}
 	}
 }
