@@ -33,7 +33,7 @@
 			"pinCorner"								"2"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"Background_Secondary"
+			"bgcolor_override"						"Dashboard"
 			"border"								"Border_Gray_Blue_Light"
 			"paintborder"							"1"
 			"proportionaltoparent"					"1"

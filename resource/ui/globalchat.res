@@ -16,9 +16,9 @@
 		"border"									"NoBorder"
 		"bgcolor_override"							"Black"
 
-		"log_font_small"							"Light_24"
-		"log_font_medium"							"Light_24"
-		"log_font_large"							"Light_24"
+		"log_font_small"							"Light_12"
+		"log_font_medium"							"Light_12"
+		"log_font_large"							"Light_12"
 
 		"chat_color_default"						"255 255 255 255"
 		"chat_color_player_name"					"255 255 0 255"

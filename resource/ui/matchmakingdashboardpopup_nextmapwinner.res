@@ -43,7 +43,7 @@
 			"visible"								"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Background_Secondary"
+			"bgcolor_override"						"Dashboard"
 			"border"								"Border_Gray_Blue_Light"
 			"paintborder"							"1"
 			"proportionaltoparent"					"1"

@@ -705,23 +705,16 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}
-		"WearSlider"
+		"WearSliderBG"
 		{
-			"ControlName"							"Slider"
-			"fieldName"								"WearSlider"
+			"ControlName"							"EditablePanel"
+			"fieldName"								"WearSliderBG"
 			"xpos"									"0"
 			"ypos"									"2"
 			"zpos"									"1"
 			"wide"									"140"
-			"tall"									"21"
-			"numticks"								"4"
-			"rangemin"								"1"
-			"rangemax"								"5"
-			"lefttext"								"#TFUI_InvTooltip_BattleScared"
-			"righttext"								"#TFUI_InvTooltip_FactoryNew"
+			"tall"									"28"
 			"proportionaltoparent"					"1"
-			"actionsignallevel"						"2"
-			"fgcolor"								"White_Dark"
 			"paintbackground"						"1"
 			"bgcolor_override"						"Gray_Blue_Dark"
 
@@ -740,6 +733,42 @@
 			"pin_to_sibling"						"WearLabel"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+		}
+		"WearSlider"
+		{
+			"ControlName"							"Slider"
+			"fieldName"								"WearSlider"
+			"xpos"									"4"
+			"ypos"									"-1"
+			"zpos"									"2"
+			"wide"									"140"
+			"tall"									"28"
+			"numticks"								"4"
+			"rangemin"								"1"
+			"rangemax"								"5"
+			"lefttext"								"#TFUI_InvTooltip_BattleScared"
+			"righttext"								"#TFUI_InvTooltip_FactoryNew"
+			"proportionaltoparent"					"1"
+			"actionsignallevel"						"2"
+			"fgcolor"								"White_Dark"
+			"paintbackground"						"1"
+			"bgcolor_override"						"Blank"
+
+			"fixed_item"
+			{
+				"visible"							"0"
+			}
+			"fixed_paintkit"
+			{
+				"visible"							"0"
+			}
+			"consume_mode"
+			{
+				"visible"							"0"
+			}
+			"pin_to_sibling"						"WearSliderBG"
+			"pin_corner_to_sibling"					"PIN_CENTER_TOP"
+			"pin_to_sibling_corner"					"PIN_CENTER_TOP"
 		}
 		"SeedTextEntry"
 		{
@@ -773,7 +802,7 @@
 			{
 				"visible"							"0"
 			}
-			"pin_to_sibling"						"WearSlider"
+			"pin_to_sibling"						"WearSliderBG"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 		}

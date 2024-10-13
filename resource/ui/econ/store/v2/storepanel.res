@@ -27,7 +27,7 @@
 		"title"										"#StoreTitle"
 		"title_font"								"Light_24"
 		"titletextinsetX"							"40"
-		"titletextinsetY"							"-40"
+		"titletextinsetY"							"0"
 		"titlebarfgcolor_override"					"Blank"
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
@@ -98,7 +98,7 @@
 		"tabwidth"									"240"
 		"tabheight"									"18"
 		"transition_time"							"0"
-		"yoffset"									"24"
+		"yoffset"									"0"
 
 		"tabskv"
 		{

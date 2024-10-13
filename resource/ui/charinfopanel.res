@@ -26,7 +26,7 @@
 		"title"										"#CharInfoAndSetup"
 		"title_font"								"Light_16"
 		"titletextinsetX"							"40"
-		"titletextinsetY"							"-40"
+		"titletextinsetY"							"0"
 		"titlebarfgcolor_override"					"Blank"
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
@@ -80,7 +80,7 @@
 		"tabwidth"									"240"
 		"tabheight"									"20"
 		"transition_time"							"0"
-		"yoffset"									"28"
+		"yoffset"									"5"
 
 		"HeaderLine"
 		{
@@ -96,6 +96,8 @@
 		"tabskv"
 		{
 			"textinsetx"							"0"
+			"textinsety"							"0"
+			"use_proportional_insets"				"1"
 			"font"									"Light_16"
 			"selectedcolor"							"White"
 			"unselectedcolor"						"White_Dark"

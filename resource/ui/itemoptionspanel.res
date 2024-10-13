@@ -43,7 +43,7 @@
 			"xpos"									"cs-0.5"
 			"ypos"									"rs1"
 			"wide"									"f0"
-			"tall"									"14"
+			"tall"									"20"
 			"visible"								"0"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"

@@ -166,7 +166,7 @@
 		"ypos"										"120"
 		"zpos"										"1"
 		"wide"										"100"
-		"tall"										"20"
+		"tall"										"28"
 		"leftText"									"0"
 		"rightText"									"1"
 		"visible"									"1"

@@ -574,11 +574,53 @@
 			"1"
 			{
 				"name"										"Product Sans"
-				"tall"										"10"
+				"tall"										"14"
+				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
+			}
+			"2"
+			{
+				"name"										"Product Sans"
+				"tall"										"15"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
+			}
+			"3"
+			{
+				"name"										"Product Sans"
+				"tall"										"16"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
 				"antialias"									"1"
 			}
+			"4"
+			{
+				"name"										"Product Sans"
+				"tall"										"22"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Product Sans"
+				"tall"										"12"
+				"range"										"0x0000 0x017F"
+				"antialias"									"1"
+			}
+			"6"
+			{
+				"name"										"Product Sans"
+				"tall"										"12"
+				"range"										"0x0000 0x00FF"
+			}
+			"7"
+			{
+				"name"										"Product Sans"
+				"tall"										"12"
+				"range"										"0x0000 0x00FF"
+			}
 		}
-
 		"DefaultUnderline"
 		{
 			"1"
@@ -589,34 +631,142 @@
 				"antialias"									"1"
 			}
 		}
-
 		"DefaultSmall"
 		{
 			"1"
 			{
 				"name"										"Product Sans"
 				"tall"										"12"
+				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
+			}
+			"2"
+			{
+				"name"										"Product Sans"
+				"tall"										"13"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
+			}
+			"3"
+			{
+				"name"										"Product Sans"
+				"tall"										"14"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
 				"antialias"									"1"
 			}
+			"4"
+			{
+				"name"										"Product Sans"
+				"tall"										"20"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Product Sans"
+				"tall"										"9"
+				"range"										"0x0000 0x017F"
+				"antialias"									"1"
+			}
+			"6"
+			{
+				"name"										"Arial"
+				"tall"										"12"
+				"range"										"0x0000 0x00FF"
+			}
 		}
-
 		"DefaultVerySmall"
 		{
 			"1"
 			{
 				"name"										"Product Sans"
-				"tall"										"7"
+				"tall"										"12"
+				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
+			}
+			"2"
+			{
+				"name"										"Product Sans"
+				"tall"										"12"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
+			}
+			"3"
+			{
+				"name"										"Product Sans"
+				"tall"										"12"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
+				"antialias"									"1"
+			}
+			"4"
+			{
+				"name"										"Product Sans"
+				"tall"										"14"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Product Sans"
+				"tall"										"9"
+				"range"										"0x0000 0x017F"
 				"antialias"									"1"
 			}
 		}
-
 		"DefaultLarge"
 		{
 			"1"
 			{
 				"name"										"Product Sans"
 				"tall"										"18"
+				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
+			}
+			"2"
+			{
+				"name"										"Product Sans"
+				"tall"										"21"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
+			}
+			"3"
+			{
+				"name"										"Product Sans"
+				"tall"										"22"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
 				"antialias"									"1"
+			}
+			"4"
+			{
+				"name"										"Product Sans"
+				"tall"										"28"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Product Sans"
+				"tall"										"18"
+				"range"										"0x0000 0x017F"
+				"antialias"									"1"
+			}
+			"6"
+			{
+				"name"										"Product Sans"
+				"tall"										"20"
+				"range"										"0x0000 0x00FF"
+			}
+			"7"
+			{
+				"name"										"Product Sans"
+				"tall"										"20"
+				"range"										"0x0000 0x00FF"
 			}
 		}
 
@@ -646,8 +796,31 @@
 			"1"
 			{
 				"name"										"Product Sans"
-				"tall"										"10"
-				"weight"									"500"
+				"tall"										"12"
+				"yres"										"480 599"
+			}
+			"2"
+			{
+				"name"										"Product Sans"
+				"tall"										"13"
+				"yres"										"600 767"
+			}
+			"3"
+			{
+				"name"										"Product Sans"
+				"tall"										"14"
+				"yres"										"768 1023"
+			}
+			"4"
+			{
+				"name"										"Product Sans"
+				"tall"										"20"
+				"yres"										"1024 1199"
+			}
+			"5"
+			{
+				"name"										"Product Sans"
+				"tall"										"12"
 				"antialias"									"1"
 			}
 		}
@@ -657,7 +830,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"24"
-				"weight"									"500"
 				"antialias"									"1"
 				"yres"										"480 599"
 			}
@@ -665,7 +837,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"32"
-				"weight"									"500"
 				"antialias"									"1"
 				"yres"										"600 767"
 			}
@@ -673,7 +844,6 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"44"
-				"weight"									"500"
 				"antialias"									"1"
 				"yres"										"768 1023"
 			}
@@ -681,17 +851,14 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"48"
-				"weight"									"500"
 				"antialias"									"1"
 				"yres"										"1024 1199"
 			}
 			"5"
 			{
 				"name"										"Product Sans"
-				"tall"										"52"
-				"weight"									"500"
+				"tall"										"24"
 				"antialias"									"1"
-				"yres"										"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -762,7 +929,13 @@
 			{
 				"name"										"Product Sans"
 				"tall"										"24"
-				"weight"									"500"
+				"yres"										"1 1199"
+				"antialias"									"1"
+			}
+			"2"
+			{
+				"name"										"Product Sans"
+				"tall"										"10"
 				"antialias"									"1"
 			}
 		}
@@ -2347,7 +2520,7 @@
 			"1"
 			{
 				"name"										"Product Sans"
-				"tall"										"10"
+				"tall"										"12"
 				"weight"									"400"
 				"antialias"									"1"
 			}

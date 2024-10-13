@@ -297,27 +297,46 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"PingSlider"
+	"PingSliderBG"
 	{
-		"ControlName"								"CCvarSlider"
-		"fieldName"									"PingSlider"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"PingSliderBG"
 		"xpos"										"0"
 		"ypos"										"5"
 		"wide"										"f10"
 		"tall"										"30"
-		"RoundedCorners"							"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"bgcolor_override"							"Black_Blue"
 
-		"cvar_name"									"tf_mm_custom_ping"
-		"use_convar_minmax"							"1"
-
 		"pin_to_sibling"							"CurrentPingLabel"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+	}
+	"PingSlider"
+	{
+		"ControlName"								"CCvarSlider"
+		"fieldName"									"PingSlider"
+		"xpos"										"4"
+		"ypos"										"-1"
+		"wide"										"f10"
+		"tall"										"30"
+		"zpos"										"1"
+		"RoundedCorners"							"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
+		"bgcolor_override"							"Blank"
+
+		"cvar_name"									"tf_mm_custom_ping"
+		"use_convar_minmax"							"1"
+
+		"pin_to_sibling"							"PingSliderBG"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"DataCenterBackground"
 	{

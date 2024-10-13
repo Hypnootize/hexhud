@@ -41,7 +41,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"Gray_Blue_Darkest"
+			"bgcolor_override"						"Dashboard"
 
 			"DescLabel"
 			{
