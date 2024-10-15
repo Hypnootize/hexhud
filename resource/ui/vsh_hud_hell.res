@@ -96,7 +96,7 @@
 			"font"									"Light_10_Blur"
 			"fgcolor"								"Shadow"
 			"proportionalToParent"					"1"
-			"pin_to_sibling"						"Score"
+			"pin_to_sibling"						"CountdownLabelTime"
 		}
 	}
 }

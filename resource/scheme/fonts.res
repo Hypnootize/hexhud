@@ -725,6 +725,7 @@
 				"tall"										"18"
 				"range"										"0x0000 0x017F"
 				"yres"										"480 599"
+				"antialias"									"1"
 			}
 			"2"
 			{
@@ -732,6 +733,7 @@
 				"tall"										"21"
 				"range"										"0x0000 0x017F"
 				"yres"										"600 767"
+				"antialias"									"1"
 			}
 			"3"
 			{
@@ -796,26 +798,30 @@
 			"1"
 			{
 				"name"										"Product Sans"
-				"tall"										"12"
+				"tall"										"14"
 				"yres"										"480 599"
+				"antialias"									"1"
 			}
 			"2"
 			{
 				"name"										"Product Sans"
-				"tall"										"13"
+				"tall"										"15"
 				"yres"										"600 767"
+				"antialias"									"1"
 			}
 			"3"
 			{
 				"name"										"Product Sans"
-				"tall"										"14"
+				"tall"										"16"
 				"yres"										"768 1023"
+				"antialias"									"1"
 			}
 			"4"
 			{
 				"name"										"Product Sans"
-				"tall"										"20"
+				"tall"										"23"
 				"yres"										"1024 1199"
+				"antialias"									"1"
 			}
 			"5"
 			{
