@@ -26,7 +26,7 @@
 		"title"										"#CharInfoAndSetup"
 		"title_font"								"Light_16"
 		"titletextinsetX"							"40"
-		"titletextinsetY"							"0"
+		"titletextinsetY"							"3"
 		"titlebarfgcolor_override"					"Blank"
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"
@@ -80,7 +80,7 @@
 		"tabwidth"									"240"
 		"tabheight"									"20"
 		"transition_time"							"0"
-		"yoffset"									"5"
+		"yoffset"									"0"
 
 		"HeaderLine"
 		{
