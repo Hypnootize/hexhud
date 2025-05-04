@@ -79,7 +79,7 @@
 			"font"	"resource/ui/customizations/fonts/font_files/heebo.ttf"
 			"name"	"Heebo Bold HEx"
 		}
-		"36"
+		"37"
 		{
 			"font"	"resource/ui/customizations/fonts/font_files/archive.otf"
 			"name"	"Archive_HEx"
