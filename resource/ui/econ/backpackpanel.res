@@ -71,6 +71,7 @@
 				"proportionaltoparent"				"1"
 				"font"								"Light_10"
 				"sound_depressed"					"UI/buttonclick.wav"
+				"button_activation_type"			"2"
 			}
 			"New"
 			{
