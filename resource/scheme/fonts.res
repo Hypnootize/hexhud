@@ -1893,7 +1893,7 @@
 		{
 			"1"
 			{
-				"name"										"Product Sans Black"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"range"										"0x0000 0x00FF"
 				"weight"									"300"

@@ -1005,7 +1005,6 @@
 		"scaleImage"								"1"
 		"drawcolor"									"Off_White"
 		"mouseinputenabled"							"0"
-		"mouseinputenabled"							"0"
 
 		"pin_to_sibling"							"spy"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
